@@ -1,38 +1,38 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 1}
-\renewcommand{\moddate}{Last modified 26 Jan.~2023}
+\renewcommand{\moddate}{Last modified 27 Jan.~2023}
 \setcounter{section}{1}
 \setcounter{subsection}{0}
 \phantomsection
 \addcontentsline{toc}{section}{Unit 1: Central limit theorem and diffusion}
 \section*{Unit 1: Central limit theorem and diffusion}
 \subsection*{Introductory remarks: What is Statistical Physics?}
-Mathematical sciences such as physics aim to determine the laws of nature and understand how these govern experimental observations---both in everyday circumstances and under extreme conditions.
+Mathematical sciences such as physics aim to determine the laws of nature and understand how these govern experimental observations --- both in everyday circumstances and under extreme conditions.
 This mathematical understanding is typically guided by reproducing a set of observations, with the resulting framework then used to make predictions for other ``observables''.
 
 Over the past few centuries this process has been tremendously successful, with theoretical physics accurately predicting experimental and observational results from sub-atomic through to supra-galactic scales.
 Modern physics labs can create a vacuum better than in outer space and the coldest temperatures in the known universe, as well as going to the other extreme to reach temperatures of millions of degrees and pressures millions of times atmospheric pressure at sea level.
-Amazingly, many aspects of these realms of physics can be theoretically described by mathematics developed centuries ago.\footnote{Eugene Wigner's famous article, ``\href{https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences}{The Unreasonable Effectiveness of Mathematics in the Natural Sciences}'' (1960), and subsequent work in the philosophy of physics, elaborates on why this may be considered `amazing'.  These lecture notes will not comment extensively on philosophy.}
+Amazingly, many aspects of these realms of physics can be theoretically described by mathematics developed centuries ago.\footnote{Eugene Wigner's famous article, ``\href{https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences}{The Unreasonable Effectiveness of Mathematics in the Natural Sciences}'' (1960), and subsequent work in the philosophy of physics, elaborates on why this may be considered `amazing'.  This module will not comment extensively on philosophy.}
 
 Statistical physics is one domain in which simple mathematical principles enable amazing predictive capabilities.
-Initially developed in the nineteenth century, statistical physics remains a pillar of modern physics, and will retain this position in years to come.
+Initially developed in the nineteenth century, statistical physics remains a central pillar of modern physics, and will retain this position in years to come.
 The foundations of statistical physics lie in the use of probability theory to mathematically describe experimental observations and corresponding laws of nature that involve stochastic randomness rather than being perfectly predictable.
 
 The lack of perfect predictability in statistical physics is a matter of practicality rather than one of principle.
-It results from working with a large number of degrees of freedom---that is, a large number of independent objects such as atoms.
-For illustration, Avogadro's number $N_A \approx 6.022\times 10^{23}$ is the large number of molecules in everyday amounts of familiar substances---about 18~grams of water or about 22~litres of air at sea-level atmospheric pressure ($\approx$$101$~kPa). % 22.4 litres for 1atm=101.325~kPa, 22.71 litres for 100~kPa at $O^{\circ}$~C
+It results from working with a large number of degrees of freedom --- that is, a large number of independent objects such as atoms.
+For illustration, Avogadro's number $N_A \approx 6.022\times 10^{23}$ is the large number of molecules in everyday amounts of familiar substances --- about 18~grams of water or about 22~litres of air at sea-level atmospheric pressure ($\approx$$101$~kPa). % 22.4 litres for 1atm=101.325~kPa, 22.71 litres for 100~kPa at $O^{\circ}$~C
 Specifying the positions and velocities of $\sim$$10^{23}$ objects would require far more information than could be stored even in the memory of the biggest existing supercomputers.
 Statistical physics instead produces simple mathematical descriptions of large-scale properties such as temperature, pressure and diffusion, which are generally of such outstanding quality that the underlying `randomness' is effectively invisible.
 
 Historically, the difficulty of detecting the stochastic processes underlying such \textit{thermodynamic} properties made it challenging to convince skeptics that atoms and molecules really exist.
 \href{https://en.wikipedia.org/wiki/Ludwig_Boltzmann}{Ludwig Boltzmann}, a prominent early developer of statistical physics, endured a constant struggle to defend his ideas, which likely contributed to his deteriorating mental health and eventual suicide in 1906.
-A crucial advance to convincingly establish the existence of atoms was Albert Einstein's use of statistical physics to explain the observed ``\href{https://en.wikipedia.org/wiki/Brownian_motion}{Brownian motion}'' of particles suspended in fluids---this work was part of Einstein's ``miracle year'' in 1905, along with special relativity and early contributions to quantum physics.
+A significant step to convincingly establish the existence of atoms was Albert Einstein's use of statistical physics to explain the observed ``\href{https://en.wikipedia.org/wiki/Brownian_motion}{Brownian motion}'' of particles suspended in fluids --- this work was part of Einstein's ``miracle year'' in 1905, along with special relativity and early contributions to quantum physics.
 More recent applications of statistical physics include explaining why stars don't collapse under the `weight' of their own gravity, and identifying effects of dark matter in temperature fluctuations observable in the \textit{cosmic microwave background} lingering from the early years of the universe.
 
 In this unit we will focus on some of the foundational mathematics that will underlie our later development and application of statistical ensembles.
-Looking back to Boltzmann's times, we can consider the following question one of his opponents might have asked:
-\textit{If the pressure of a gas in a container results from molecules stochastically colliding with the walls of that container and pushing them out, then how can the pressure be so stable and reproducible, rather than itself fluctuating stochastically?}
-The mathematical answer lies in the \textbf{law of large numbers} and the \textbf{central limit theorem}, which we will learn and apply to the physics of diffusion in one dimension.
+Looking back to Boltzmann's times, we can consider the following question one of his critics might have asked:
+\textit{If the pressure of a gas in a container results from molecules stochastically colliding with the walls of that container, then how can the pressure be so stable and reproducible, rather than itself fluctuating stochastically?}
+The mathematical answer lies in the \textbf{law of large numbers} and the \textbf{central limit theorem}, which we will review and apply to the physics of diffusion in one dimension.
 % ------------------------------------------------------------------
 
 
@@ -47,15 +47,15 @@ In the context of the statistical ensembles that will be the focus of this modul
 
 Each time an experiment is performed, the world comes out in some \textbf{state} $\om$.
 The definition of the experiment and the state must include all objects of interest, and may include more besides.
-When flipping a coin, for example, the full state could contain information not only about the final orientation of the coin, but also about its position---did it land on the floor or on a cat?
+When flipping a coin, for example, the full state could contain information not only about the final orientation of the coin, but also about its position --- did it land on the ground or was it caught?
 
 The \textbf{set of all states} \Om collects all possible states \om that the given experiment \cE can produce, and is therefore intricately tied to \cE itself.
 
 We are generally not interested in all aspects of the full state $\om$.
 For example, we won't care where a flipped coin lands.
-Instead we're typically only interested in whether it lands heads up or tails up---and we may want to set aside any state that doesn't cleanly map on to those options.
+Instead we're typically only interested in whether it lands heads up or tails up --- and we may want to set aside any state that doesn't cleanly reflect those options.
 The \textbf{measurement} $X(\om)$ extracts and quantifies this information, acting as a function that maps the state \om to a number that we can mathematically manipulate.
-If we repeat a fixed experiment \cE many times and carry out the measurement $X$ on each resulting state $\om$, we will obtain a sequence of numbers $X(\om)$ that behave as a \textit{random variable}.
+If we repeat the given experiment \cE many times and carry out the measurement $X$ on each resulting state $\om_i$, we will obtain a sequence of numbers $X(\om_i)$ that behave as a \textit{random variable}.
 
 Acting with the measurement $X$ on all of the possible states in the set \Om defines the \textbf{set of all outcomes} (or \textbf{outcome space}) $A$:
 \begin{equation*}
@@ -370,7 +370,7 @@ Keeping $N = 5$, what are the six $P_{\text{integ}}$ and $P_{\text{const}}$?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
-You can check your results against those plotted below, which come from \href{https://github.com/daschaich/MATH327_2023/blob/master/lecture_notes/unit01_prob.py}{this Python code} that is available for you to peruse, run for different $N$ or modify.
+You can check your results against those plotted below, which come from \href{https://github.com/daschaich/MATH327_2023/blob/main/lecture_notes/unit01_prob.py}{this Python code} that is available for you to peruse, run for different $N$ or modify.
 As promised, the approximate $P_{\text{integ}}$ and $P_{\text{const}}$ are not far off the exact ``Direct'' probabilities, even though $N = 5$ doesn't strictly satisfy the condition $N \gg 1$.
 \begin{center}
   \includegraphics[width=\textwidth]{figs/unit01_roulette_prob.pdf}

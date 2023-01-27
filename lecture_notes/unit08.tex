@@ -464,7 +464,7 @@ In this limit $T \to 0$, there is only the single quantum micro-state described 
 Adding particles, $\De N > 0$, doesn't increase the number of accessible micro-states, and therefore doesn't increase the entropy $S_{\text{f}} = -\sum_{i = 1}^M p_i \log p_i = 0$, satisfying the constant-entropy condition required by this equation.
 However, this does necessarily increase the energy, because the added particles must fill the first available energy levels, just above the Fermi energy. % TODO: Could remind of continuous approximation used to change from sums to integrals above...
 That is, $\De E = E_F \De N > 0$, and we find $\mu = E_F > E_0 \geq 0$ as claimed earlier in this section.
-It is an interesting but lengthy exercise (discussed in the supplement below) to show that the chemical potential becomes negative as the temperature increases and we approach the classical limit.
+It is an interesting but lengthy exercise (discussed in \secref{sec:Sommerfeld}) to show that the chemical potential becomes negative as the temperature increases and we approach the classical limit.
 
 To get the rest of the way to the low-temperature equation of state for ideal gases of non-relativistic fermions, we need to compute the pressure
 \begin{equation*}
@@ -494,7 +494,7 @@ Even without getting into such detailed calculations, we know that in the high-t
   PV = NT \qquad \Lra \qquad P = \frac{N}{V} T = \rho T.
 \end{equation}
 In words, at high temperatures the pressure depends linearly on the temperature, with the slope corresponding to the density $\rho$.
-The plot below (produced by \href{https://github.com/daschaich/MATH327_2023/blob/master/lecture_notes/figs/unit08_pressure.py}{this Python code}) shows how the pressure changes from a positive constant as $T \to 0$ to this linear behaviour at higher temperatures. \\[-24 pt]
+The plot below (produced by \href{https://github.com/daschaich/MATH327_2023/blob/main/lecture_notes/unit08_pressure.py}{this Python code}) shows how the pressure changes from a positive constant as $T \to 0$ to this linear behaviour at higher temperatures. \\[-24 pt]
 \begin{center}\includegraphics[width=0.7\textwidth]{figs/unit08_pressure.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
 % ------------------------------------------------------------------
 
@@ -612,7 +612,7 @@ and just a new numerical factor of
 
 
 % ------------------------------------------------------------------
-\subsection{Supplement: Density of states \& Sommerfeld expansion}
+\subsection{\label{sec:Sommerfeld}Density of states \& Sommerfeld expansion}
 In \eq{eq:fermi_E_N} we found that the average internal energy of a non-relativistic fermion gas becomes independent of the temperature in the limit $T \to 0$.
 This means that its heat capacity,
 \begin{equation*}
@@ -749,9 +749,9 @@ From your result you should obtain the heat capacity
 \end{equation*}
 This low-temperature linear dependence on $T$ agrees with experimental heat capacity measurements, as we will see in the next tutorial.
 
-As a final comment in this supplement, let's consider what would happen to $\vev{N}_{\text{f}}$ at higher temperatures $T^2 \sim E_F^2$, for which the two terms in \eq{eq:mu_vs_T} would cancel out, leaving $\cO(T^4 / E_F^4)$ effects non-negligible.
+As a final comment in this section, let's consider what would happen to $\vev{N}_{\text{f}}$ at higher temperatures $T^2 \sim E_F^2$, for which the two terms in \eq{eq:mu_vs_T} would cancel out, leaving $\cO(T^4 / E_F^4)$ effects non-negligible.
 In this regime, there's no guarantee that the low-temperature Sommerfeld expansion would even converge, so we need to work with the full integral from \eq{eq:DoS_full}.
-Fortunately, it is not hard to numerically evaluate this integral, which is done by \href{https://github.com/daschaich/MATH327_2023/blob/master/lecture_notes/unit08_fermi-gas.py}{this Python code}.
+Fortunately, it is not hard to numerically evaluate this integral, which is done by \href{https://github.com/daschaich/MATH327_2023/blob/main/lecture_notes/unit08_fermi-gas.py}{this Python code}.
 For the purpose of numerical analysis, it's best to express everything in terms of dimensionless ratios, such as
 \begin{align*}
   t & \equiv \frac{T}{E_F} \qquad &
