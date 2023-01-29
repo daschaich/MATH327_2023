@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 1}
-\renewcommand{\moddate}{Last modified 27 Jan.~2023}
+\renewcommand{\moddate}{Last modified 29 Jan.~2023}
 \setcounter{section}{1}
 \setcounter{subsection}{0}
 \phantomsection
@@ -46,7 +46,7 @@ Flipping a coin is a simple random experiment.
 In the context of the statistical ensembles that will be the focus of this module, a typical experiment will be to allow a collection of particles to evolve in time, subject to certain constraints.
 
 Each time an experiment is performed, the world comes out in some \textbf{state} $\om$.
-The definition of the experiment and the state must include all objects of interest, and may include more besides.
+The specification of the experiment and the state must include all objects of interest, and may include more besides.
 When flipping a coin, for example, the full state could contain information not only about the final orientation of the coin, but also about its position --- did it land on the ground or was it caught?
 
 The \textbf{set of all states} \Om collects all possible states \om that the given experiment \cE can produce, and is therefore intricately tied to \cE itself.
@@ -66,11 +66,11 @@ $A$ can be finite, countably infinite, or uncountably infinite (i.e., continuous
 
 Let's consider some examples to clarify these definitions.
 With an experiment of rolling a six-sided die and measuring the number ($1$--$6$) that comes out on top, what is the set of all outcomes $A$?
-What additional information could be present in a given states $\om$?
+What additional information could be included in a corresponding state $\om$?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
-What is the outcome space $A$ if we toss a coin four times and each time measure whether it lands heads up ($H$) or tails up ($T$)? % Note four tosses is now defined as a single experiment...
+What is the outcome space $A$ if we toss a coin four times and measure whether it lands heads up ($H$) or tails up ($T$) each time? % Note four tosses is being defined as a single experiment...
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
@@ -86,7 +86,7 @@ Our condition of uniqueness makes $L(\om)$ isomorphic, so that the label can be 
 \begin{equation*}
   \om \llra L(\om).
 \end{equation*}
-While the measurements $X(\om)$ we consider will generally not produce a unique number for each $\om$, we will design them precisely to remove irrelevant information that doesn't interest us.
+While the measurements $X(\om)$ we consider generally will not produce a unique number for each $\om$, we will design them precisely to remove irrelevant information that doesn't interest us.
 Ignoring that irrelevant information leaves us free to interchange the set of outcomes $A$ for the set of states $\Om$.
 (Some textbooks may never distinguish between $A$ vs \Om in the first place, though this can be a source of confusion.)
 
@@ -103,7 +103,7 @@ Mathematically, $P$ is a \textit{measure function},
 which must satisfy the following two requirements: \\[-24 pt]
 \begin{enumerate}
   \item The probability of a countable union of mutually exclusive events must equal the sum of the probabilities of each of these events.
-  \item The probability of the outcome space ($\cF = A$) must equal $1$ (even if $A$ is uncountable).
+  \item The probability of the outcome space ($\cF = A$) must equal $1$, even if $A$ is uncountable.
         This simply means that the experiment \cE must produce an outcome.
         If no outcome were produced, it would not make sense to say that the experiment had occurred. \\[-24 pt]
 \end{enumerate}
