@@ -325,55 +325,13 @@ is itself a random variable.
 \end{shaded}
 In addition to asserting that the collective behaviour of many independent and identically distributed random variables $x_i$ is governed by a \textbf{normal} (or \textbf{gaussian}) \textbf{distribution}, the central limit theorem further specifies the precise form of this distribution in terms of the mean and variance of \textit{each individual} $x_i$. % TODO: Could explicitly emphasize connection to big picture of statistical physics...
 
-In practice, $N$ often doesn't need to be very large in order for the central limit theorem to provide a reasonable approximation.
-To illustrate this, let's again consider the roulette wheel introduced in \secref{sec:prob}.
-A simple game of roulette would let us place bets on whether or not the ball will end up in a red- or black-coloured pocket: If we bet correctly we get back twice the money we put in; otherwise we lose our money.
-We'll define our (potentially negative) \textit{gain} to be the amount we receive minus the amount we spend on bets.
-
-\newpage % WARNING: FORMATTING BY HAND
-Suppose we place \textsterling5 bets on `black' for each of $N$ spins of the roulette wheel.
-What are the probabilities and gains of winning and of losing for any single one of those spins?
-Letting $W = 0, \cdots, N$ be the number of spins where we win, what is our total gain $G_W$ as a function of $(N, W)$?
-\begin{mdframed}
-  \ \\[100 pt]
-\end{mdframed}
-Recall that the number of different ways we could win $W$ times out of $N$ attempts is given by the binomial coefficient
-\begin{equation*}
-  \binom{N}{W} = \frac{N!}{W! \; (N - W)!},
-\end{equation*}
-with $0! = 1$.
-Setting $N = 5$, what are the six probabilities $p_0$ through $p_5$ that we win $W = 0, \cdots, 5$ times?
-What is the general expression for $p_W$ for any $(N, W)$?
-\begin{mdframed}
-  \ \\[100 pt]
-\end{mdframed}
-
-Now let's apply the central limit theorem to this setup.
-What are the mean gain and its variance for a single spin of the wheel?
-What is the resulting probability distribution $p(G)$ given by the central limit theorem for the gain after $N$ spins?
-\begin{mdframed}
-  \ \\[100 pt]
-\end{mdframed}
-Since the central limit theorem gives us an approximate \textit{distribution}, in order to compare its prediction against the exact $p_i$ computed above, we need to extract probabilities by integrating over appropriate intervals as discussed in \secref{sec:probdist}.
-Natural intervals to consider are
-\begin{equation*}
-  P_{\text{integ}}(G_W) \equiv \int_{G_W - \De G / 2}^{G_W + \De G / 2} p(g) \; dg,
-\end{equation*}
-where $\De G = G_{W + 1} - G_W$ is a constant you can read off from your work above.
-These numerical integrations are not convenient to do by hand, but can easily be performed by Maple, Python, MATLAB, Mathematica, etc.
-Alternately, we can simplify further by approximating $p(G)$ as a constant within each interval, which would give us
-\begin{equation*}
-  P_{\text{const}}(G_W) \equiv p(G_W) \; \De G.
-\end{equation*}
-Keeping $N = 5$, what are the six $P_{\text{integ}}$ and $P_{\text{const}}$?
-\begin{mdframed}
-  \ \\[100 pt]
-\end{mdframed}
-You can check your results against those plotted below, which come from \href{https://github.com/daschaich/MATH327_2023/blob/main/lecture_notes/unit01_prob.py}{this Python code} that is available for you to peruse, run for different $N$ or modify.
-As promised, the approximate $P_{\text{integ}}$ and $P_{\text{const}}$ are not far off the exact ``Direct'' probabilities, even though $N = 5$ doesn't strictly satisfy the condition $N \gg 1$.
-\begin{center}
-  \includegraphics[width=\textwidth]{figs/unit01_roulette_prob.pdf}
-\end{center}
+\begin{minipage}{0.55\textwidth}
+  \includegraphics[width=0.8\textwidth]{figs/unit01_CLT.pdf}
+\end{minipage}%
+\begin{minipage}{0.35\textwidth}
+  In practice, $N$ often doesn't need to be very large in order for the central limit theorem to provide a reasonable approximation.
+  This is illustrated by the figure to the left, from \href{https://commons.wikimedia.org/wiki/File:Dice_sum_central_limit_theorem.svg}{{Wikimedia Commons}}, which shows the probabilities for the sum of $n \leq 5$ rolls of a six-sided die rapidly approaching a gaussian distribution.
+\end{minipage}
 % ------------------------------------------------------------------
 
 
@@ -386,7 +344,7 @@ Such \textbf{random walks} appear frequently in mathematical modelling of stocha
 They are examples of \href{https://en.wikipedia.org/wiki/Markov_process}{Markov processes}, in which the state of the system (in this case the position of the `walker') at any time probabilistically depends only on the system's prior state at the previous point in time---there is no `memory' of any earlier states. % Named after \href{https://en.wikipedia.org/wiki/Andrey_Markov}{Andrey Markov}...
 The resulting sequence of system states is known as a \textit{Markov chain}, since each state is produced from the one before, like links in a chain.
 
-To start with a simple case, let's consider a random walker that moves only in a single spatial dimension---to the left or to the right on a line---and can only take `steps' of a fixed length, which we can set to $\ell = 1$ without loss of generality.
+To start with a simple case, let's consider a random walker that moves only in a single spatial dimension --- to the left or to the right on a line --- and can only take `steps' of a fixed length, which we can set to $\ell = 1$ without loss of generality.
 At each point in time, the walker takes either a step to the right ($R$) with probability $p$ or a step to the left ($L$) with probability $q = 1 - p$.
 We will further assume that each step takes a constant amount of time $\De t$, so a walk of $N$ steps will last for total time
 \begin{equation}

@@ -105,5 +105,5 @@ plt.legend()
 plt.show()
 
 # Optionally save pdf --- 'tight' reduces surrounding whitespace
-#plt.savefig('figs/unit01_roulette_prob.pdf', bbox_inches='tight')
+#plt.savefig('figs/roulette_prob.pdf', bbox_inches='tight')
 # ------------------------------------------------------------------
