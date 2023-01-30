@@ -1,0 +1,6854 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.950
+David Schaich (he): ...hit the
+
+2
+00:00:01.580 --> 00:00:03.910
+David Schaich (he): recording button.
+
+3
+00:00:04.540 --> 00:00:05.480
+David Schaich (he): So
+
+4
+00:00:05.500 --> 00:00:08.209
+David Schaich (he): welcome to statistical physics,
+
+5
+00:00:08.340 --> 00:00:09.800
+David Schaich (he):  Math327.
+
+6
+00:00:10.380 --> 00:00:11.430
+David Schaich (he): This is
+
+7
+00:00:13.150 --> 00:00:19.729
+David Schaich (he): a fun topic that I'm giving now for the second time in person, which means I should introduce myself as
+
+8
+00:00:19.770 --> 00:00:23.769
+David Schaich (he): David Schaich, lecture in theoretical physics here.
+
+9
+00:00:24.800 --> 00:00:25.830
+David Schaich (he): and that
+
+10
+00:00:28.070 --> 00:00:33.139
+David Schaich (he): a lot of my research deals with applications of statistical physics, some of which we
+
+11
+00:00:33.370 --> 00:00:36.269
+David Schaich (he): seen it maybe before getting on From that I should ask it.
+
+12
+00:00:36.300 --> 00:00:38.609
+David Schaich (he): All of you already know each other from
+
+13
+00:00:38.770 --> 00:00:40.210
+David Schaich (he): previous modules.
+
+14
+00:00:41.770 --> 00:00:52.299
+David Schaich (he): some nods, some shaking the Ted. Well, I don't know any of you, so maybe we'll just go briefly around the room. You can. Probably
+
+15
+00:00:52.960 --> 00:00:57.190
+David Schaich (he): my name is Louis and I'm from China.
+
+16
+00:01:00.830 --> 00:01:01.640
+David Schaich (he): Yeah.
+
+17
+00:01:02.240 --> 00:01:14.230
+David Schaich (he): Nice to meet all of you, and there will be more coming to some of these classes, probably the ones in the afternoon, but for now
+
+18
+00:01:14.600 --> 00:01:15.789
+David Schaich (he): we can
+
+19
+00:01:16.270 --> 00:01:19.689
+David Schaich (he): under way with the very first day.
+
+20
+00:01:19.710 --> 00:01:20.690
+David Schaich (he): where
+
+21
+00:01:22.540 --> 00:01:25.429
+David Schaich (he): it takes a motivation from an old saying
+
+22
+00:01:25.750 --> 00:01:26.750
+David Schaich (he): that
+
+23
+00:01:27.390 --> 00:01:30.119
+David Schaich (he): the journey of a 1,000 miles
+
+24
+00:01:30.200 --> 00:01:32.319
+David Schaich (he): begins with asking, is it worth it?
+
+25
+00:01:32.480 --> 00:01:34.810
+David Schaich (he): So, in order to motivate
+
+26
+00:01:35.020 --> 00:01:38.329
+David Schaich (he): the long journey, will be taken with statistical physics
+
+27
+00:01:38.370 --> 00:01:39.739
+David Schaich (he): in this term.
+
+28
+00:01:39.890 --> 00:01:40.820
+David Schaich (he): Just
+
+29
+00:01:40.990 --> 00:01:42.750
+David Schaich (he): review the
+
+30
+00:01:44.790 --> 00:01:46.339
+David Schaich (he): big picture we
+
+31
+00:01:47.270 --> 00:01:52.549
+David Schaich (he): central concept and some of the core results we're going after. And also say that as this is
+
+32
+00:01:52.620 --> 00:01:57.549
+David Schaich (he): the second time i'm teaching this, I'm. Bringing in feedback from last year's
+
+33
+00:01:57.760 --> 00:02:02.159
+David Schaich (he): class, and going to try to see how well I can write meeting over
+
+34
+00:02:02.240 --> 00:02:08.890
+David Schaich (he): this projector rather than up in shock on the blackboard largely for the sake of having a nice
+
+35
+00:02:09.130 --> 00:02:13.460
+David Schaich (he): screen capture to record and put online for leave a reference
+
+36
+00:02:13.700 --> 00:02:20.240
+David Schaich (he): I will check in and be 3 to see how well that is going, but that already is a bit of the
+
+37
+00:02:20.410 --> 00:02:22.430
+David Schaich (he): boarding logistical details
+
+38
+00:02:22.510 --> 00:02:25.059
+David Schaich (he): that we do. We need to touch on
+
+39
+00:02:25.380 --> 00:02:27.869
+David Schaich (he): on the first Monday of term
+
+40
+00:02:27.900 --> 00:02:29.170
+David Schaich (he): as usual.
+
+41
+00:02:29.390 --> 00:02:31.920
+David Schaich (he): and then once they.
+
+42
+00:02:31.960 --> 00:02:33.520
+David Schaich (he): I went into
+
+43
+00:02:33.610 --> 00:02:35.210
+David Schaich (he): the content of the outline
+
+44
+00:02:35.430 --> 00:02:37.210
+David Schaich (he): of the module, starting with
+
+45
+00:02:38.100 --> 00:02:39.950
+David Schaich (he): some foundations for
+
+46
+00:02:40.580 --> 00:02:41.790
+David Schaich (he): probability.
+
+47
+00:02:44.100 --> 00:02:45.280
+David Schaich (he): So that's the
+
+48
+00:02:46.620 --> 00:02:49.459
+David Schaich (he): plan for today, and I almost forgot.
+
+49
+00:02:49.700 --> 00:02:52.809
+David Schaich (he): I have a 6 digit attendance monitoring code.
+
+50
+00:02:54.050 --> 00:02:56.660
+David Schaich (he): So let's put that up here
+
+51
+00:02:57.500 --> 00:02:58.590
+David Schaich (he): 5,
+
+52
+00:02:59.220 --> 00:03:01.100
+David Schaich (he): 6, 8, 7,
+
+53
+00:03:01.490 --> 00:03:02.769
+David Schaich (he): 1 1.
+
+54
+00:03:04.610 --> 00:03:07.580
+Put that on the board as well.
+
+55
+00:03:08.260 --> 00:03:09.649
+David Schaich (he): Okay.
+
+56
+00:03:11.470 --> 00:03:13.640
+David Schaich (he): I'm gonna
+
+57
+00:03:19.460 --> 00:03:20.470
+David Schaich (he): that. We're going on
+
+58
+00:03:24.800 --> 00:03:26.379
+David Schaich (he): all of the tasks that
+
+59
+00:03:26.460 --> 00:03:28.419
+David Schaich (he): like that just need to be done
+
+60
+00:03:29.170 --> 00:03:30.920
+David Schaich (he): from day to day. So
+
+61
+00:03:35.550 --> 00:03:36.970
+David Schaich (he): right into my
+
+62
+00:03:39.300 --> 00:03:41.170
+David Schaich (he): that big picture for
+
+63
+00:03:41.770 --> 00:03:43.350
+David Schaich (he): statistical physics.
+
+64
+00:03:45.130 --> 00:03:46.870
+David Schaich (he): So just summarizing
+
+65
+00:03:47.160 --> 00:03:51.620
+David Schaich (he): what sorts of things we'll be learning about in this module.
+
+66
+00:03:52.900 --> 00:03:54.090
+David Schaich (he): and why
+
+67
+00:03:54.330 --> 00:03:55.700
+David Schaich (he): I want to
+
+68
+00:03:55.930 --> 00:03:58.150
+David Schaich (he): emphasize the point that
+
+69
+00:03:59.020 --> 00:04:01.530
+David Schaich (he): statistical physics is
+
+70
+00:04:02.110 --> 00:04:07.689
+David Schaich (he): really one of the pillars of modern physics, by which I mean sort of everything that's happened in the past
+
+71
+00:04:07.950 --> 00:04:12.260
+David Schaich (he): 100 5,200 years. In physics it goes along with
+
+72
+00:04:12.680 --> 00:04:13.660
+David Schaich (he): quantum
+
+73
+00:04:14.170 --> 00:04:16.650
+David Schaich (he): physics and also relativity.
+
+74
+00:04:16.829 --> 00:04:17.800
+David Schaich (he): Yes.
+
+75
+00:04:18.980 --> 00:04:19.880
+David Schaich (he): the
+
+76
+00:04:19.950 --> 00:04:21.140
+David Schaich (he): 3
+
+77
+00:04:22.010 --> 00:04:24.450
+David Schaich (he): basic concepts that underly
+
+78
+00:04:25.080 --> 00:04:26.720
+David Schaich (he): essentially all of the
+
+79
+00:04:29.330 --> 00:04:31.190
+David Schaich (he): applications and
+
+80
+00:04:34.080 --> 00:04:35.999
+David Schaich (he): and work that's been done in
+
+81
+00:04:36.580 --> 00:04:38.040
+David Schaich (he): modern physics.
+
+82
+00:04:40.670 --> 00:04:43.249
+David Schaich (he): in our lifetimes and before.
+
+83
+00:04:43.710 --> 00:04:44.830
+David Schaich (he): and
+
+84
+00:04:45.270 --> 00:04:50.410
+David Schaich (he): the way in which, or what statistical physics brings into this mixture.
+
+85
+00:04:50.480 --> 00:04:52.390
+David Schaich (he): for modern physics is
+
+86
+00:04:52.590 --> 00:04:54.170
+David Schaich (he): the focus on
+
+87
+00:04:54.280 --> 00:04:55.240
+David Schaich (he): the
+
+88
+00:04:55.460 --> 00:04:57.600
+David Schaich (he): behavior, all of many
+
+89
+00:04:57.630 --> 00:04:59.500
+David Schaich (he): independent degrees of freedom.
+
+90
+00:05:01.780 --> 00:05:03.319
+David Schaich (he): The size of this
+
+91
+00:05:04.180 --> 00:05:06.340
+David Schaich (he): it's dealing with large numbers.
+
+92
+00:05:08.340 --> 00:05:10.040
+David Schaich (he): No call particles here
+
+93
+00:05:10.200 --> 00:05:13.289
+David Schaich (he): can be objects that necessarily need to be
+
+94
+00:05:13.560 --> 00:05:15.609
+David Schaich (he): atoms or elementary particles
+
+95
+00:05:18.580 --> 00:05:22.109
+David Schaich (he): any fundamental sort, but just a large collection of
+
+96
+00:05:22.200 --> 00:05:24.729
+David Schaich (he): objects that are all
+
+97
+00:05:24.870 --> 00:05:27.090
+David Schaich (he): interacting and behaving according to
+
+98
+00:05:27.270 --> 00:05:31.749
+David Schaich (he): mechanics. Quantum mechanics for classical mechanics, relativistically not relativistic.
+
+99
+00:05:32.130 --> 00:05:34.090
+David Schaich (he): But once we have
+
+100
+00:05:34.390 --> 00:05:35.960
+David Schaich (he): a large number.
+
+101
+00:05:36.430 --> 00:05:39.769
+David Schaich (he): statistical physics give us a tool to handle
+
+102
+00:05:40.010 --> 00:05:44.780
+David Schaich (he): or to analyze the behavior of large numbers of particles, and see the
+
+103
+00:05:46.010 --> 00:05:50.370
+David Schaich (he): properties or the phenomena that emerge from that behavior.
+
+104
+00:05:50.870 --> 00:05:53.519
+David Schaich (he): And before going into
+
+105
+00:05:54.010 --> 00:05:56.340
+David Schaich (he): what some of those emerging phenomena are.
+
+106
+00:05:56.540 --> 00:05:57.769
+David Schaich (he): Maybe it's
+
+107
+00:05:58.850 --> 00:06:06.340
+David Schaich (he): useful to just emphasize what sort of large numbers we're going to have in mind if we think of.
+
+108
+00:06:06.840 --> 00:06:07.760
+David Schaich (he): hey?
+
+109
+00:06:08.290 --> 00:06:09.650
+David Schaich (he): So a single
+
+110
+00:06:14.280 --> 00:06:15.380
+David Schaich (he): of water
+
+111
+00:06:16.580 --> 00:06:17.930
+David Schaich (he): that has
+
+112
+00:06:18.560 --> 00:06:20.470
+David Schaich (he): roughly 10 to the power.
+
+113
+00:06:20.820 --> 00:06:22.160
+David Schaich (he): 22,
+
+114
+00:06:23.130 --> 00:06:25.199
+David Schaich (he): all the tools of H. 20.
+
+115
+00:06:27.180 --> 00:06:33.030
+David Schaich (he): So I got those number divided by the atomic weight of water. It's about
+
+116
+00:06:34.420 --> 00:06:41.270
+David Schaich (he): 6 times 10 to the 23 over 18 is 10 to the 22 min round numbers, with numbers. This large. We don't need to care
+
+117
+00:06:41.320 --> 00:06:42.489
+David Schaich (he): too much about
+
+118
+00:06:43.050 --> 00:06:46.790
+David Schaich (he): any significant figures beyond that number and the exponents.
+
+119
+00:06:48.020 --> 00:06:51.499
+David Schaich (he): And if we want to say, take our
+
+120
+00:06:51.860 --> 00:06:53.140
+David Schaich (he): mechanics
+
+121
+00:06:53.320 --> 00:06:56.260
+David Schaich (he): knowledge, and use it to describe it
+
+122
+00:06:56.340 --> 00:07:00.199
+David Schaich (he): that many particles directly. Then we're talking about
+
+123
+00:07:00.440 --> 00:07:01.500
+David Schaich (he): roughly.
+
+124
+00:07:01.760 --> 00:07:03.689
+David Schaich (he): and the power 22
+
+125
+00:07:04.760 --> 00:07:06.370
+David Schaich (he): couple of
+
+126
+00:07:08.020 --> 00:07:08.790
+David Schaich (he): hey
+
+127
+00:07:10.650 --> 00:07:11.960
+David Schaich (he): position.
+
+128
+00:07:12.030 --> 00:07:13.230
+David Schaich (he): velocity
+
+129
+00:07:14.040 --> 00:07:15.379
+David Schaich (he): for each of those
+
+130
+00:07:15.410 --> 00:07:18.870
+David Schaich (he): h 2 or molecules. You might also care about this orientation.
+
+131
+00:07:20.120 --> 00:07:22.179
+David Schaich (he): We have a city
+
+132
+00:07:22.670 --> 00:07:24.030
+David Schaich (he): 3 times
+
+133
+00:07:24.650 --> 00:07:31.599
+David Schaich (he): position and velocity for each one describing a position in three-dimensional space and velocity in all 3 directions.
+
+134
+00:07:32.450 --> 00:07:35.430
+David Schaich (he): And if we even imagine running down
+
+135
+00:07:35.450 --> 00:07:37.210
+David Schaich (he): an initial state
+
+136
+00:07:37.260 --> 00:07:38.980
+David Schaich (he): for these
+
+137
+00:07:40.580 --> 00:07:45.450
+David Schaich (he): and the 22 molecules that form just the cubic centimeter of water.
+
+138
+00:07:45.830 --> 00:07:50.670
+David Schaich (he): So we give each of these positions and velocities a 32 bit number
+
+139
+00:07:50.850 --> 00:07:54.559
+David Schaich (he): in some computer storage. So that's 4 Byte.
+
+140
+00:07:55.300 --> 00:07:55.940
+David Schaich (he): And
+
+141
+00:07:57.390 --> 00:08:01.169
+David Schaich (he): and I think that 3 times 4 times 10 to 22
+
+142
+00:08:01.300 --> 00:08:02.560
+David Schaich (he): don't care about
+
+143
+00:08:02.770 --> 00:08:06.150
+David Schaich (he): the number upfront what we have 10 to 23
+
+144
+00:08:06.910 --> 00:08:07.970
+David Schaich (he): bytes
+
+145
+00:08:08.600 --> 00:08:10.010
+David Schaich (he): of information.
+
+146
+00:08:11.270 --> 00:08:13.319
+David Schaich (he): just to write down the initial State
+
+147
+00:08:13.340 --> 00:08:14.680
+David Schaich (he): even before
+
+148
+00:08:15.100 --> 00:08:16.669
+David Schaich (he): solving the
+
+149
+00:08:16.880 --> 00:08:19.219
+David Schaich (he): 10 to the 22 couple of equations that
+
+150
+00:08:20.000 --> 00:08:22.130
+David Schaich (he): describe how we all in time
+
+151
+00:08:22.590 --> 00:08:23.849
+David Schaich (he): and by the 5
+
+152
+00:08:23.990 --> 00:08:26.980
+David Schaich (he): familiar
+
+153
+00:08:28.470 --> 00:08:30.289
+David Schaich (he): you this that's
+
+154
+00:08:30.430 --> 00:08:31.969
+David Schaich (he): a 100 million
+
+155
+00:08:33.370 --> 00:08:37.880
+David Schaich (he): terabytes of data just to write down the initial state of the system.
+
+156
+00:08:38.159 --> 00:08:40.090
+David Schaich (he): So it looks as though
+
+157
+00:08:40.140 --> 00:08:44.650
+David Schaich (he): analyzing even a small cubic centimeter. So it's a centimeter of water.
+
+158
+00:08:44.880 --> 00:08:46.260
+David Schaich (he): using the
+
+159
+00:08:47.010 --> 00:08:50.650
+David Schaich (he): traditional mechanics, tools and techniques that you've seen, and
+
+160
+00:08:50.800 --> 00:09:00.659
+David Schaich (he): other physics modules is a hopeless proposition just from the start. This is where statistical physics comes in.
+
+161
+00:09:03.930 --> 00:09:05.410
+David Schaich (he): They'll give us ways to
+
+162
+00:09:05.450 --> 00:09:10.199
+David Schaich (he): look at the large scale behavior of collections, of large numbers of
+
+163
+00:09:10.370 --> 00:09:15.509
+David Schaich (he): degrees of freedom, large numbers of particles, and get predictions out of those that
+
+164
+00:09:16.480 --> 00:09:22.150
+David Schaich (he): even though they won't, be exactly solving all of these equations, they will model them based on
+
+165
+00:09:22.690 --> 00:09:27.020
+David Schaich (he): randomness or stochastic assumptions.
+
+166
+00:09:27.180 --> 00:09:29.960
+David Schaich (he): You will still get excellence agreements with
+
+167
+00:09:31.170 --> 00:09:32.780
+David Schaich (he): physical observations.
+
+168
+00:09:33.220 --> 00:09:34.220
+David Schaich (he): and
+
+169
+00:09:34.330 --> 00:09:35.470
+David Schaich (he): maybe that
+
+170
+00:09:35.860 --> 00:09:37.330
+David Schaich (he): brings me back to you.
+
+171
+00:09:37.510 --> 00:09:39.340
+David Schaich (he): It's question that I had
+
+172
+00:09:39.600 --> 00:09:43.049
+David Schaich (he): up on the projector along with the attendance code
+
+173
+00:09:44.300 --> 00:09:45.380
+David Schaich (he): which was
+
+174
+00:09:45.540 --> 00:09:46.819
+David Schaich (he): thinking about
+
+175
+00:09:47.130 --> 00:09:48.070
+David Schaich (he): how
+
+176
+00:09:48.360 --> 00:09:50.379
+David Schaich (he): scientists decided that
+
+177
+00:09:50.410 --> 00:09:52.999
+David Schaich (he): Adams actually existed, which was
+
+178
+00:09:53.390 --> 00:09:57.139
+David Schaich (he): a development so only about a little over 100 years ago.
+
+179
+00:09:57.350 --> 00:09:59.319
+David Schaich (he): back in the 18 hundreds that were
+
+180
+00:09:59.420 --> 00:10:01.520
+David Schaich (he): endless debates about
+
+181
+00:10:01.580 --> 00:10:08.060
+David Schaich (he): whether Adams really exist in the world, or just a convenient tool to think of
+
+182
+00:10:08.740 --> 00:10:12.979
+David Schaich (he): things about the actual physical truth. Did any of you have
+
+183
+00:10:13.330 --> 00:10:15.210
+David Schaich (he): any considerations about
+
+184
+00:10:15.260 --> 00:10:16.500
+David Schaich (he): these questions.
+
+185
+00:10:41.030 --> 00:10:44.670
+David Schaich (he): not hearing any. What I will suggest is that there are
+
+186
+00:10:44.850 --> 00:10:46.680
+David Schaich (he): a few ways to
+
+187
+00:10:46.740 --> 00:10:52.000
+David Schaich (he): established the existence of something before it can be observed directly whether that is
+
+188
+00:10:52.030 --> 00:10:55.160
+David Schaich (he): an H. 2, a molecule of water, or
+
+189
+00:10:55.260 --> 00:10:57.540
+David Schaich (he): fundamental strings of the plan scale.
+
+190
+00:10:57.760 --> 00:11:04.289
+David Schaich (he): One of those is to show that physical analyses, based on the assumption that these objects exist
+
+191
+00:11:04.380 --> 00:11:07.850
+David Schaich (he): correctly reproduce observed behavior.
+
+192
+00:11:09.010 --> 00:11:10.979
+David Schaich (he): Another is to
+
+193
+00:11:11.610 --> 00:11:12.950
+David Schaich (he): show that
+
+194
+00:11:13.440 --> 00:11:15.329
+David Schaich (he): there's no other way to
+
+195
+00:11:15.760 --> 00:11:16.470
+Oh.
+
+196
+00:11:16.640 --> 00:11:19.919
+David Schaich (he): explaining these sorts of observable behavior.
+
+197
+00:11:20.870 --> 00:11:21.860
+David Schaich (he): So
+
+198
+00:11:23.840 --> 00:11:25.350
+David Schaich (he): that is the
+
+199
+00:11:26.210 --> 00:11:27.780
+David Schaich (he): enterprise that's
+
+200
+00:11:28.190 --> 00:11:35.760
+David Schaich (he): taking a little step back into history. People initially working on statistical physics in the 18 hundreds like
+
+201
+00:11:35.910 --> 00:11:37.330
+Boltzmann
+
+202
+00:11:39.800 --> 00:11:46.240
+David Schaich (he): names will encounter throughout the Module. They demonstrated how concepts like
+
+203
+00:11:46.500 --> 00:11:52.039
+David Schaich (he): pressure and entropy and thermodynamics could be explained on the basis of
+
+204
+00:11:52.100 --> 00:11:54.639
+David Schaich (he): Adams. A large number of atoms
+
+205
+00:11:54.830 --> 00:11:58.790
+David Schaich (he): interacting with each other, and a real breakthrough came
+
+206
+00:11:58.830 --> 00:12:03.739
+David Schaich (he): in 1905 when a fellow named Albert Einstein might have heard of
+
+207
+00:12:04.280 --> 00:12:07.750
+David Schaich (he): use those ideas of statistical physics to
+
+208
+00:12:07.880 --> 00:12:15.339
+David Schaich (he): explain what was called brownie and motion, something that had been observed close to 100 years before, that in the 18 twenties.
+
+209
+00:12:15.430 --> 00:12:17.950
+David Schaich (he): So scientists look at
+
+210
+00:12:18.170 --> 00:12:19.649
+David Schaich (he): Greg is a pollen
+
+211
+00:12:19.670 --> 00:12:24.080
+David Schaich (he): loading in water, looked at them under a microscope, which in the 18 twenties
+
+212
+00:12:24.130 --> 00:12:27.759
+David Schaich (he): was enough to see individual pollen grains.
+
+213
+00:12:28.800 --> 00:12:32.650
+David Schaich (he): Microscopes even today can't release optically see
+
+214
+00:12:32.830 --> 00:12:37.730
+David Schaich (he): as of of water. So these were brains and pollen in.
+
+215
+00:12:37.840 --> 00:12:40.220
+David Schaich (he): as far as we could tell, a continuous fluid.
+
+216
+00:12:40.300 --> 00:12:42.380
+David Schaich (he): and people observed
+
+217
+00:12:42.480 --> 00:12:47.839
+David Schaich (he): among the ground that these grades of pollen were randomly moving around
+
+218
+00:12:47.880 --> 00:12:49.109
+David Schaich (he): in this fluid.
+
+219
+00:12:49.740 --> 00:12:52.450
+David Schaich (he): and the question of why and how that was happening.
+
+220
+00:12:53.210 --> 00:12:56.270
+David Schaich (he): Well, it took about 80 years to to be resolved.
+
+221
+00:12:56.610 --> 00:13:00.770
+David Schaich (he): Some of the first ideas for that maybe these grades of pollen were actually alive.
+
+222
+00:13:00.950 --> 00:13:04.570
+David Schaich (he): They were little animals that were swimming around in the water
+
+223
+00:13:04.670 --> 00:13:06.009
+David Schaich (he): that was ruled out.
+
+224
+00:13:06.270 --> 00:13:08.560
+David Schaich (he): and in 1905 is
+
+225
+00:13:08.600 --> 00:13:10.569
+David Schaich (he): part of his so-called miracle.
+
+226
+00:13:10.850 --> 00:13:11.580
+What she
+
+227
+00:13:11.810 --> 00:13:16.080
+David Schaich (he): also introduce Special relativity equals Mc squared
+
+228
+00:13:16.100 --> 00:13:16.940
+David Schaich (he): and
+
+229
+00:13:17.360 --> 00:13:19.949
+David Schaich (he): introduced on an initial
+
+230
+00:13:20.240 --> 00:13:24.009
+David Schaich (he): progress in quantum mechanics, explaining the the photoelectric effect.
+
+231
+00:13:24.090 --> 00:13:26.720
+David Schaich (he): Einstein published a third work.
+
+232
+00:13:27.170 --> 00:13:28.320
+assuming
+
+233
+00:13:28.400 --> 00:13:39.499
+David Schaich (he): the existence of Adams, analyzing them through statistical physics, and predicting precisely how far these cranes of pollen or other objects would move as
+
+234
+00:13:39.550 --> 00:13:43.429
+David Schaich (he): these water molecules bounced off of them in time.
+
+235
+00:13:44.950 --> 00:13:47.259
+David Schaich (he): That was something that
+
+236
+00:13:48.000 --> 00:13:51.129
+David Schaich (he): folks were unable to explain with
+
+237
+00:13:52.480 --> 00:13:55.359
+David Schaich (he): other ways of
+
+238
+00:13:55.720 --> 00:14:01.099
+David Schaich (he): modeling water as a continuous fluid, for instance, and in short order.
+
+239
+00:14:01.260 --> 00:14:04.949
+David Schaich (he): Within a couple of years they
+
+240
+00:14:05.130 --> 00:14:16.029
+David Schaich (he): had conducted experiments inspired by Einstein's calculations confirmed his predictions, and was newly awarded the 1926
+
+241
+00:14:16.280 --> 00:14:17.740
+David Schaich (he): Nobel prize.
+
+242
+00:14:19.540 --> 00:14:20.580
+David Schaich (he): or
+
+243
+00:14:20.690 --> 00:14:26.899
+David Schaich (he): demonstrating the what they call the discontinuous structure of matter. In other words, the existence of
+
+244
+00:14:27.480 --> 00:14:28.600
+David Schaich (he): based on
+
+245
+00:14:28.700 --> 00:14:31.110
+David Schaich (he): that statistical physics analysis.
+
+246
+00:14:33.410 --> 00:14:36.730
+David Schaich (he): Whether something similar will happen for a string theory, I guess, is
+
+247
+00:14:36.980 --> 00:14:38.310
+David Schaich (he): you have to be determined.
+
+248
+00:14:40.330 --> 00:14:41.400
+David Schaich (he): But
+
+249
+00:14:41.540 --> 00:14:42.339
+David Schaich (he): what's that
+
+250
+00:14:42.610 --> 00:14:45.170
+David Schaich (he): sort of gravity? Motion is something that
+
+251
+00:14:45.550 --> 00:14:48.149
+David Schaich (he): might not be familiar to a lot of it. Had any of you
+
+252
+00:14:48.440 --> 00:14:49.899
+David Schaich (he): heard of that before
+
+253
+00:14:49.970 --> 00:14:51.449
+David Schaich (he): coming in here today.
+
+254
+00:14:52.920 --> 00:14:53.580
+David Schaich (he): and
+
+255
+00:14:54.120 --> 00:14:55.180
+David Schaich (he): a level
+
+256
+00:14:55.420 --> 00:14:56.629
+David Schaich (he): it. It is
+
+257
+00:14:56.880 --> 00:14:59.979
+David Schaich (he): a nice historical topic to to look at
+
+258
+00:15:00.580 --> 00:15:03.960
+something maybe more familiar in the everyday
+
+259
+00:15:04.170 --> 00:15:04.970
+which
+
+260
+00:15:05.110 --> 00:15:06.799
+David Schaich (he): i'll have to zoom out to
+
+261
+00:15:07.790 --> 00:15:10.470
+David Schaich (he): on to this projector is
+
+262
+00:15:11.570 --> 00:15:13.150
+David Schaich (he): what we can call with
+
+263
+00:15:13.570 --> 00:15:15.850
+David Schaich (he): some poetry the arrow of time.
+
+264
+00:15:16.040 --> 00:15:17.440
+David Schaich (he): the idea that
+
+265
+00:15:18.600 --> 00:15:21.370
+David Schaich (he): we can tell, looking at certain processes
+
+266
+00:15:21.590 --> 00:15:29.820
+David Schaich (he): which direction time is flowing. Which of these 4 snapshots of a beaker of water. It comes before or after the others.
+
+267
+00:15:30.010 --> 00:15:30.960
+David Schaich (he): so
+
+268
+00:15:31.040 --> 00:15:32.060
+David Schaich (he): in that
+
+269
+00:15:32.940 --> 00:15:33.790
+David Schaich (he): this
+
+270
+00:15:34.970 --> 00:15:41.169
+David Schaich (he): low budget animation a drop with purple dye is being dropped into a beaker of water.
+
+271
+00:15:41.600 --> 00:15:47.749
+David Schaich (he): and as it comes in it diffuses, spreads out. It eventually fills that whole beaker.
+
+272
+00:15:48.230 --> 00:15:52.629
+David Schaich (he): and we intuitively know that
+
+273
+00:15:56.060 --> 00:15:57.410
+David Schaich (he): time is
+
+274
+00:15:58.830 --> 00:16:00.220
+David Schaich (he): going from
+
+275
+00:16:00.280 --> 00:16:01.560
+David Schaich (he): left to right
+
+276
+00:16:01.950 --> 00:16:03.570
+David Schaich (he): in these 4 frames.
+
+277
+00:16:03.630 --> 00:16:05.420
+David Schaich (he): The arrow is pointing in
+
+278
+00:16:05.530 --> 00:16:07.679
+David Schaich (he): that direction, even though
+
+279
+00:16:08.410 --> 00:16:09.340
+David Schaich (he): do you
+
+280
+00:16:09.690 --> 00:16:17.250
+David Schaich (he): underlying processes? If you look at the individual atoms of dye and water, how they're bouncing off
+
+281
+00:16:17.530 --> 00:16:19.940
+David Schaich (he): dying water, how they're bouncing off each other!
+
+282
+00:16:19.970 --> 00:16:24.439
+David Schaich (he): All of those interactions are symmetric under the reversible time.
+
+283
+00:16:24.800 --> 00:16:28.290
+David Schaich (he): 2 molecules come in and dance off each other.
+
+284
+00:16:28.320 --> 00:16:33.429
+David Schaich (he): It's entirely possible for the switch. Directions come back in and out the other way
+
+285
+00:16:33.460 --> 00:16:34.500
+David Schaich (he): so
+
+286
+00:16:34.880 --> 00:16:35.980
+David Schaich (he): totally
+
+287
+00:16:36.580 --> 00:16:37.640
+David Schaich (he): it is
+
+288
+00:16:38.380 --> 00:16:41.140
+David Schaich (he): entirely possible for, say.
+
+289
+00:16:41.240 --> 00:16:44.160
+David Schaich (he): a spread out to bounce off
+
+290
+00:16:44.270 --> 00:16:52.639
+David Schaich (he): the tend to be 24 or so water molecules in here in such a way that, as time goes on
+
+291
+00:16:53.160 --> 00:16:56.850
+David Schaich (he): spontaneously close to a smaller drop.
+
+292
+00:16:56.920 --> 00:16:58.170
+David Schaich (he): and eventually
+
+293
+00:16:58.840 --> 00:17:02.059
+David Schaich (he): could even be injected if the
+
+294
+00:17:03.030 --> 00:17:05.270
+David Schaich (he): enough of these water molecules
+
+295
+00:17:05.420 --> 00:17:07.670
+David Schaich (he): along with it in the proper way.
+
+296
+00:17:07.780 --> 00:17:09.839
+David Schaich (he): But we know that would be crazy.
+
+297
+00:17:10.430 --> 00:17:11.620
+David Schaich (he): And given
+
+298
+00:17:11.700 --> 00:17:17.189
+David Schaich (he): this this picture, we can tell what way time is flowing. If we were to be given
+
+299
+00:17:17.390 --> 00:17:19.740
+David Schaich (he): the sequence of this animation
+
+300
+00:17:20.500 --> 00:17:25.239
+David Schaich (he): running in reverse, it would be obvious that it was going in reverse, just from
+
+301
+00:17:25.579 --> 00:17:26.410
+the
+
+302
+00:17:26.470 --> 00:17:27.900
+David Schaich (he): behavior of
+
+303
+00:17:28.540 --> 00:17:32.530
+David Schaich (he): the large scale diffusion coming from the underlying dynamics of
+
+304
+00:17:32.570 --> 00:17:33.420
+these
+
+305
+00:17:33.560 --> 00:17:36.499
+David Schaich (he): hundreds of billions of dollars.
+
+306
+00:17:37.420 --> 00:17:38.280
+David Schaich (he): So
+
+307
+00:17:39.840 --> 00:17:40.910
+David Schaich (he): that is.
+
+308
+00:17:41.490 --> 00:17:43.150
+David Schaich (he): we talked about that
+
+309
+00:17:43.320 --> 00:17:44.510
+David Schaich (he): some of the
+
+310
+00:17:44.930 --> 00:17:46.120
+David Schaich (he): historical
+
+311
+00:17:46.950 --> 00:17:50.260
+David Schaich (he): uses of statistical physics to demonstrate that at least
+
+312
+00:17:50.280 --> 00:17:51.600
+David Schaich (he): and explain.
+
+313
+00:17:52.140 --> 00:17:55.290
+David Schaich (he): I will explain that. Just tell me now this is
+
+314
+00:17:55.450 --> 00:18:03.690
+David Schaich (he): a target and a possibility for what we're going to do, how this area of time arises, and how we can understand it scientifically.
+
+315
+00:18:05.530 --> 00:18:08.470
+David Schaich (he): But statistical physics is not just
+
+316
+00:18:08.580 --> 00:18:11.459
+David Schaich (he): domain of a 100 years ago
+
+317
+00:18:11.840 --> 00:18:12.830
+David Schaich (he): that you.
+
+318
+00:18:12.920 --> 00:18:18.550
+David Schaich (he): Nobel Prize in physics from not this past autumn, but 2021
+
+319
+00:18:18.760 --> 00:18:21.479
+David Schaich (he): was given to these 3 folks.
+
+320
+00:18:22.010 --> 00:18:25.600
+David Schaich (he): I can practice mispronouncing names.
+
+321
+00:18:26.060 --> 00:18:30.060
+David Schaich (he): secure
+
+322
+00:18:30.170 --> 00:18:31.170
+David Schaich (he): or
+
+323
+00:18:31.370 --> 00:18:34.670
+David Schaich (he): modern day applications of statistical physics
+
+324
+00:18:34.800 --> 00:18:38.329
+David Schaich (he): and hustleman our climate scientists.
+
+325
+00:18:38.450 --> 00:18:41.110
+David Schaich (he): and we can imagine that looking at
+
+326
+00:18:41.140 --> 00:18:42.740
+David Schaich (he): the client, that's all with you.
+
+327
+00:18:43.020 --> 00:18:47.390
+David Schaich (he): Adams, out there, how they're all interacting in many different forms to drive
+
+328
+00:18:48.220 --> 00:18:51.729
+David Schaich (he): weather and warming currents, and
+
+329
+00:18:52.610 --> 00:18:53.890
+David Schaich (he): everything else
+
+330
+00:18:54.010 --> 00:18:55.960
+David Schaich (he): going on in the environment
+
+331
+00:18:56.090 --> 00:19:04.449
+David Schaich (he): lies on statistical physics techniques to handle such a large number of particles interacting in such a large number of ways.
+
+332
+00:19:04.610 --> 00:19:06.510
+David Schaich (he): no, at least the
+
+333
+00:19:07.380 --> 00:19:11.890
+David Schaich (he): effects of particles being introduced into the system by human activity.
+
+334
+00:19:12.490 --> 00:19:14.060
+Georgia or Easy.
+
+335
+00:19:15.890 --> 00:19:19.970
+David Schaich (he): His work is even more directly related to statistical physics. If you
+
+336
+00:19:20.130 --> 00:19:22.340
+David Schaich (he): look it up, that's the domain it will be under
+
+337
+00:19:22.520 --> 00:19:23.340
+David Schaich (he): here
+
+338
+00:19:23.470 --> 00:19:25.279
+David Schaich (he): introduced and analyzed.
+
+339
+00:19:27.720 --> 00:19:31.109
+David Schaich (he): So the theoretical concepts and systems known as spin glasses.
+
+340
+00:19:31.410 --> 00:19:35.380
+David Schaich (he): something that we may well have a chance at least to look at.
+
+341
+00:19:35.470 --> 00:19:36.110
+And
+
+342
+00:19:36.200 --> 00:19:38.120
+David Schaich (he): the later stages of this course.
+
+343
+00:19:39.860 --> 00:19:48.590
+David Schaich (he): systems of spins, little magnets that interact with each other in a disordered way that have
+
+344
+00:19:49.060 --> 00:19:50.470
+David Schaich (he): unique and
+
+345
+00:19:50.790 --> 00:19:55.339
+David Schaich (he): predictable phenomena that we're able to find applications.
+
+346
+00:19:55.480 --> 00:19:57.699
+David Schaich (he): I say, in the nobel
+
+347
+00:19:58.830 --> 00:20:04.750
+David Schaich (he): citation applications from atomic scales to planetary scales.
+
+348
+00:20:05.340 --> 00:20:09.810
+David Schaich (he): all based on the interactions of these large numbers of particles.
+
+349
+00:20:10.250 --> 00:20:14.919
+David Schaich (he): So we might see the spin glasses. I'm permitting we're not going to
+
+350
+00:20:15.050 --> 00:20:18.339
+David Schaich (he): do Nobel, where they work, analyzing them.
+
+351
+00:20:18.860 --> 00:20:21.879
+David Schaich (he): Some things that we are going to be able to do.
+
+352
+00:20:22.020 --> 00:20:23.799
+David Schaich (he): I say, look at the
+
+353
+00:20:24.370 --> 00:20:25.800
+David Schaich (he): keep capacity
+
+354
+00:20:26.060 --> 00:20:28.459
+David Schaich (he): of various materials?
+
+355
+00:20:28.920 --> 00:20:29.650
+Or
+
+356
+00:20:30.110 --> 00:20:32.999
+David Schaich (he): is the heat capacity of a material in general, we will
+
+357
+00:20:33.170 --> 00:20:34.709
+David Schaich (he): first of all just call me
+
+358
+00:20:34.740 --> 00:20:36.709
+David Schaich (he): what a heat capacity is
+
+359
+00:20:37.880 --> 00:20:39.360
+David Schaich (he): related to
+
+360
+00:20:39.530 --> 00:20:40.870
+David Schaich (he): how much energy
+
+361
+00:20:41.330 --> 00:20:43.280
+David Schaich (he): is involved in
+
+362
+00:20:44.410 --> 00:20:46.420
+David Schaich (he): a unit of temperature
+
+363
+00:20:46.460 --> 00:20:49.629
+David Schaich (he): in a specific way that will be made precise.
+
+364
+00:20:50.390 --> 00:20:51.410
+David Schaich (he): And the
+
+365
+00:20:51.430 --> 00:20:59.400
+David Schaich (he): points on this plot our measurements of this heat capacity for a few different materials led aluminium and diamond.
+
+366
+00:20:59.420 --> 00:21:04.250
+David Schaich (he): As a function of the temperature. Roughly, room temperature is 300 kelvin
+
+367
+00:21:04.330 --> 00:21:06.799
+David Schaich (he): plus, or minus 100 in other direction.
+
+368
+00:21:06.900 --> 00:21:11.290
+David Schaich (he): and the lines on here are predictions for how this
+
+369
+00:21:11.820 --> 00:21:16.109
+David Schaich (he): measurable quantity in these levels should behave as
+
+370
+00:21:16.180 --> 00:21:21.089
+David Schaich (he): a function of temperature, and that is a prediction that you will be able to derive.
+
+371
+00:21:21.750 --> 00:21:23.479
+David Schaich (he): We will also be able to
+
+372
+00:21:23.700 --> 00:21:29.230
+David Schaich (he): zoom in on at low temperature region, and I think so
+
+373
+00:21:29.510 --> 00:21:32.009
+David Schaich (he): here for a few different materials.
+
+374
+00:21:32.150 --> 00:21:33.900
+David Schaich (he): copper, silver, and gold, or
+
+375
+00:21:37.050 --> 00:21:39.459
+David Schaich (he): we'll be able to derive
+
+376
+00:21:40.220 --> 00:21:44.299
+David Schaich (he): the precise form of the seed capacity
+
+377
+00:21:46.560 --> 00:21:47.540
+David Schaich (he): as
+
+378
+00:21:48.310 --> 00:21:50.220
+David Schaich (he): a linear piece, so
+
+379
+00:21:50.680 --> 00:21:54.759
+David Schaich (he): it's on the vertical axis. Now is the heat capacity divided by temperature
+
+380
+00:21:54.810 --> 00:21:58.610
+David Schaich (he): so multiply by temperature on either side that concept intercept
+
+381
+00:21:58.760 --> 00:21:59.860
+David Schaich (he): becomes
+
+382
+00:22:00.040 --> 00:22:01.500
+David Schaich (he): a linear piece
+
+383
+00:22:02.240 --> 00:22:03.300
+David Schaich (he): in the
+
+384
+00:22:03.960 --> 00:22:08.019
+David Schaich (he): independence of the E capacity plus a straight line
+
+385
+00:22:08.100 --> 00:22:13.280
+David Schaich (he): on the plot versus T squared gives the next correction of t cubed.
+
+386
+00:22:13.880 --> 00:22:17.619
+David Schaich (he): Here we can see we're looking at very low temperatures about
+
+387
+00:22:17.930 --> 00:22:26.030
+David Schaich (he): 3 or 4 degrees below, or sorry about absolute 0, well below 0. So on the cell some scale.
+
+388
+00:22:27.450 --> 00:22:28.439
+David Schaich (he): and we will
+
+389
+00:22:29.110 --> 00:22:33.429
+David Schaich (he): derive that low temperature behavior. Only see capacity which is
+
+390
+00:22:33.570 --> 00:22:36.029
+David Schaich (he): at a fundamental level coming from
+
+391
+00:22:36.090 --> 00:22:39.930
+David Schaich (he): the behavior of the electrons in these metals.
+
+392
+00:22:40.030 --> 00:22:41.260
+David Schaich (he): created as
+
+393
+00:22:41.620 --> 00:22:42.610
+David Schaich (he): a
+
+394
+00:22:44.220 --> 00:22:45.350
+David Schaich (he): it gets
+
+395
+00:22:45.470 --> 00:22:46.680
+David Schaich (he): all particles.
+
+396
+00:22:48.320 --> 00:22:50.129
+David Schaich (he): maybe the one last
+
+397
+00:22:50.520 --> 00:22:53.939
+David Schaich (he): forecast, if something we can look forward to is
+
+398
+00:22:53.980 --> 00:22:54.840
+David Schaich (he): this
+
+399
+00:22:55.780 --> 00:22:57.570
+David Schaich (he): so here, which is
+
+400
+00:22:58.210 --> 00:22:59.840
+David Schaich (he): now fitting on the screen.
+
+401
+00:23:00.710 --> 00:23:01.890
+David Schaich (he): which is
+
+402
+00:23:02.140 --> 00:23:05.029
+David Schaich (he): a measurement of what's called the power spectrum
+
+403
+00:23:05.340 --> 00:23:06.600
+David Schaich (he): of the
+
+404
+00:23:06.900 --> 00:23:08.950
+David Schaich (he): cosmic microwave background.
+
+405
+00:23:09.770 --> 00:23:10.879
+David Schaich (he): So you
+
+406
+00:23:11.090 --> 00:23:12.260
+David Schaich (he): lingering
+
+407
+00:23:14.500 --> 00:23:20.189
+David Schaich (he): radiation that remains following the the Big Bang of 13 points
+
+408
+00:23:20.270 --> 00:23:22.380
+David Schaich (he): 7 or so 1 billionyears ago.
+
+409
+00:23:23.170 --> 00:23:24.320
+David Schaich (he): The you
+
+410
+00:23:25.520 --> 00:23:28.610
+here. This power spectrum is
+
+411
+00:23:28.650 --> 00:23:33.799
+David Schaich (he): a powers. You can see this energy Times time divided by a volume.
+
+412
+00:23:34.180 --> 00:23:35.750
+David Schaich (he): So an energy density
+
+413
+00:23:36.020 --> 00:23:37.749
+David Schaich (he): Times time
+
+414
+00:23:37.970 --> 00:23:41.839
+David Schaich (he): plotted against the frequency. You know, units of hairs.
+
+415
+00:23:43.350 --> 00:23:48.450
+David Schaich (he): Don't need to worry about the precise details between we'll get to in due course.
+
+416
+00:23:48.630 --> 00:23:49.979
+David Schaich (he): Just to say that
+
+417
+00:23:50.460 --> 00:23:52.599
+David Schaich (he): this measurements of that
+
+418
+00:23:53.390 --> 00:23:55.299
+David Schaich (he): cosmic microwave background
+
+419
+00:23:55.450 --> 00:23:58.090
+David Schaich (he): power, that from the amount of power in the
+
+420
+00:23:58.670 --> 00:24:01.489
+David Schaich (he): radiation up in the frequency
+
+421
+00:24:01.530 --> 00:24:10.139
+David Schaich (he): was carried out by this Kobe mission. So that was a satellite in the 1990 S. The cosmic background explorer, and this plot
+
+422
+00:24:10.160 --> 00:24:11.140
+David Schaich (he): itself
+
+423
+00:24:11.390 --> 00:24:12.050
+one.
+
+424
+00:24:12.400 --> 00:24:14.629
+David Schaich (he): I should say it will work that went into it.
+
+425
+00:24:15.760 --> 00:24:21.599
+David Schaich (he): It's also recognized by a relatively recent Nobel prize, at least recent enough that all of us
+
+426
+00:24:21.960 --> 00:24:25.519
+David Schaich (he): hopefully we're alive at that point in 2,006.
+
+427
+00:24:27.530 --> 00:24:29.159
+David Schaich (he): So that is
+
+428
+00:24:31.000 --> 00:24:32.880
+David Schaich (he): hopefully demonstrating
+
+429
+00:24:33.360 --> 00:24:34.310
+David Schaich (he): the
+
+430
+00:24:34.400 --> 00:24:35.680
+David Schaich (he): why are they.
+
+431
+00:24:35.750 --> 00:24:37.590
+David Schaich (he): and also power of
+
+432
+00:24:37.650 --> 00:24:39.660
+David Schaich (he): statistical physics applications
+
+433
+00:24:40.090 --> 00:24:41.620
+David Schaich (he): With a little preview
+
+434
+00:24:41.680 --> 00:24:44.319
+David Schaich (he): of some of the things we will be going for.
+
+435
+00:24:44.420 --> 00:24:45.489
+David Schaich (he): So let me
+
+436
+00:24:45.860 --> 00:24:47.090
+David Schaich (he): turn to
+
+437
+00:24:49.900 --> 00:24:52.120
+David Schaich (he): topic some questions that may seem
+
+438
+00:24:52.770 --> 00:25:00.230
+David Schaich (he): abstract or later. Today, in the next few weeks we can keep in mind the source of targets we're going after.
+
+439
+00:25:00.980 --> 00:25:01.870
+David Schaich (he): And
+
+440
+00:25:03.020 --> 00:25:06.300
+David Schaich (he): with all of that hopefully motivating this work
+
+441
+00:25:06.500 --> 00:25:07.700
+David Schaich (he): might as well
+
+442
+00:25:08.430 --> 00:25:09.609
+David Schaich (he): I don't know
+
+443
+00:25:09.740 --> 00:25:12.230
+David Schaich (he): not so much about what we'll learn, but
+
+444
+00:25:12.820 --> 00:25:13.930
+David Schaich (he): more about
+
+445
+00:25:14.150 --> 00:25:16.729
+David Schaich (he): how we're going to go about this.
+
+446
+00:25:16.750 --> 00:25:17.680
+David Schaich (he): So
+
+447
+00:25:18.600 --> 00:25:19.640
+David Schaich (he): just take it
+
+448
+00:25:19.860 --> 00:25:22.129
+David Schaich (he): quick glance through
+
+449
+00:25:22.330 --> 00:25:24.420
+David Schaich (he): the logistics
+
+450
+00:25:25.220 --> 00:25:29.089
+David Schaich (he): and the canvas page for the module which
+
+451
+00:25:30.610 --> 00:25:34.509
+David Schaich (he): you hopefully have been able to reach. And hopefully, it looks like this.
+
+452
+00:25:35.040 --> 00:25:38.029
+David Schaich (he): We are now in room 106
+
+453
+00:25:38.100 --> 00:25:39.849
+David Schaich (he): at 9 am. On the Monday.
+
+454
+00:25:39.940 --> 00:25:43.540
+David Schaich (he): and in their wisdom the people who schedule
+
+455
+00:25:44.380 --> 00:25:48.529
+David Schaich (he): the meeting times have put us in in different rooms
+
+456
+00:25:48.560 --> 00:25:52.129
+David Schaich (he): on every day of the week, just to keep us on our toes. So
+
+457
+00:25:52.430 --> 00:25:58.109
+David Schaich (he): the lecture tomorrow afternoon we'll be next door in the bigger room. That currently has a bigger class right now
+
+458
+00:25:58.190 --> 00:26:03.330
+David Schaich (he): and then tutorials on Thursday mornings, upstairs in room to 10.
+
+459
+00:26:03.410 --> 00:26:05.269
+David Schaich (he): Please ask questions.
+
+460
+00:26:07.410 --> 00:26:10.140
+David Schaich (he): Yeah. The space should be accessible.
+
+461
+00:26:10.490 --> 00:26:13.870
+David Schaich (he): You should have gotten an announcement from me
+
+462
+00:26:13.970 --> 00:26:16.620
+David Schaich (he): last week a a link to it.
+
+463
+00:26:16.940 --> 00:26:19.320
+David Schaich (he): that link. So it's. Course
+
+464
+00:26:19.390 --> 00:26:24.469
+David Schaich (he): 6 0, 6, 0, one up at the top. If you have any trouble getting to it.
+
+465
+00:26:24.560 --> 00:26:26.930
+David Schaich (he): come and talk to me, and we'll sort that out.
+
+466
+00:26:27.240 --> 00:26:28.160
+David Schaich (he): and
+
+467
+00:26:28.440 --> 00:26:29.670
+David Schaich (he): I will say
+
+468
+00:26:30.210 --> 00:26:43.709
+David Schaich (he): in terms of coming to talk to me office hours just to keep things simple are the hour after every class meeting, so Mondays and Thursdays at 11 Tuesdays at 5, and that will be
+
+469
+00:26:43.950 --> 00:26:48.850
+David Schaich (he): in my office, which is the theoretical physics wing. It's that wipes up
+
+470
+00:26:49.600 --> 00:26:53.439
+David Schaich (he): wing you can see over there facing the build of students.
+
+471
+00:26:54.100 --> 00:26:56.400
+David Schaich (he): Let me know if you don't know how to get there, because
+
+472
+00:26:56.780 --> 00:26:59.880
+David Schaich (he): it's a bit of an adventure you haven't been.
+
+473
+00:27:00.750 --> 00:27:03.090
+David Schaich (he): and I I will also
+
+474
+00:27:03.400 --> 00:27:06.050
+David Schaich (he): try to keep a Zoom Meeting running
+
+475
+00:27:06.900 --> 00:27:15.000
+David Schaich (he): during those office hours which i'm also using right now to record this. And we found that Zoom produces much better recordings than
+
+476
+00:27:15.110 --> 00:27:20.479
+David Schaich (he): the lecture capture software that the University has come up with on its own.
+
+477
+00:27:21.770 --> 00:27:23.970
+David Schaich (he): One other complication is that
+
+478
+00:27:24.650 --> 00:27:26.940
+David Schaich (he): starting next week and running
+
+479
+00:27:27.030 --> 00:27:28.530
+David Schaich (he): for the 3 weeks
+
+480
+00:27:29.070 --> 00:27:31.399
+David Schaich (he): and start that fill most of February.
+
+481
+00:27:32.530 --> 00:27:36.799
+David Schaich (he): the schedule will be slightly different. We will still be in here Monday mornings.
+
+482
+00:27:36.830 --> 00:27:39.620
+David Schaich (he): But then, on Tuesday afternoon at one.
+
+483
+00:27:39.700 --> 00:27:42.130
+David Schaich (he): you will have meetings in the
+
+484
+00:27:42.340 --> 00:27:44.500
+David Schaich (he): computer line up down the hall
+
+485
+00:27:44.680 --> 00:27:46.940
+David Schaich (he): on this more of the building.
+
+486
+00:27:47.510 --> 00:27:53.810
+David Schaich (he): and what those meetings are designed to do is give you an opportunity to work on
+
+487
+00:27:54.370 --> 00:28:02.019
+David Schaich (he): one of the 3 interim assignments for the module, which will be a computer project do
+
+488
+00:28:03.250 --> 00:28:04.479
+David Schaich (he): in
+
+489
+00:28:05.450 --> 00:28:09.709
+David Schaich (he): little over 3 weeks toward the end of February, and
+
+490
+00:28:10.980 --> 00:28:17.639
+David Schaich (he): it's not yet online. It should show up in a day or 2. I'm. Just checking to make sure that all of the
+
+491
+00:28:17.720 --> 00:28:21.019
+David Schaich (he): tasks that are assigned that project are actually feasible.
+
+492
+00:28:23.430 --> 00:28:24.760
+David Schaich (he): and probably on
+
+493
+00:28:25.050 --> 00:28:30.230
+David Schaich (he): this Thursday, and that first tutorial that can take a look at some of the
+
+494
+00:28:31.800 --> 00:28:42.879
+David Schaich (he): computing that we'll be doing for this. I will say that no background in computing is assumed or expected. And that's part of the reason we have those computer labs to give you
+
+495
+00:28:42.940 --> 00:28:44.950
+David Schaich (he): practice and an opportunity to
+
+496
+00:28:45.020 --> 00:28:45.930
+David Schaich (he): see what
+
+497
+00:28:46.020 --> 00:28:47.880
+David Schaich (he): learn what you need to
+
+498
+00:28:47.940 --> 00:28:52.099
+David Schaich (he): with me close to hand. If any issues come up.
+
+499
+00:28:53.440 --> 00:28:59.539
+David Schaich (he): it is something that you should be able to finish in those 6 h of computer lab.
+
+500
+00:29:01.210 --> 00:29:02.190
+David Schaich (he): So
+
+501
+00:29:02.850 --> 00:29:05.590
+David Schaich (he): yeah.
+
+502
+00:29:05.860 --> 00:29:08.239
+David Schaich (he): there is no need to wait for the lab.
+
+503
+00:29:08.430 --> 00:29:09.930
+David Schaich (he): Those of you who
+
+504
+00:29:10.090 --> 00:29:15.909
+David Schaich (he): are already expert programmers may even find it might not even take you one of those 3 meetings.
+
+505
+00:29:16.070 --> 00:29:19.680
+David Schaich (he): But there's going to be a spread of acceptable
+
+506
+00:29:19.890 --> 00:29:21.949
+David Schaich (he): amounts of time that it will take.
+
+507
+00:29:22.450 --> 00:29:23.560
+David Schaich (he): based on
+
+508
+00:29:23.730 --> 00:29:30.360
+David Schaich (he): how much experience you have with programming, and how naturally it it comes to you. That's something that
+
+509
+00:29:30.390 --> 00:29:34.010
+David Schaich (he): varies based on everyone's, background and and past experience.
+
+510
+00:29:34.160 --> 00:29:36.089
+David Schaich (he): and there's a wide range of
+
+511
+00:29:36.140 --> 00:29:40.049
+David Schaich (he): acceptable amount of time it will take to to deal with that.
+
+512
+00:29:40.370 --> 00:29:41.689
+David Schaich (he): So hopefully.
+
+513
+00:29:42.010 --> 00:29:46.279
+David Schaich (he): those 3 computer labs and those 3 weeks leading to
+
+514
+00:29:46.490 --> 00:29:47.310
+David Schaich (he): that's
+
+515
+00:29:47.550 --> 00:29:48.800
+David Schaich (he): good line
+
+516
+00:29:48.860 --> 00:29:51.720
+David Schaich (he): will be plenty for everyone.
+
+517
+00:29:52.400 --> 00:29:53.990
+David Schaich (he): I will say that
+
+518
+00:29:54.210 --> 00:29:57.380
+David Schaich (he): I did request different deadlines, and then these.
+
+519
+00:29:57.500 --> 00:30:00.180
+David Schaich (he): But wasn't able to get them just based on
+
+520
+00:30:00.910 --> 00:30:10.680
+David Schaich (he): balancing things with all the other modules everyone else wanted. They have a class test in week. 7 say so. Our homework got kicked up 2 week, 5 just
+
+521
+00:30:10.940 --> 00:30:15.400
+David Schaich (he): do one week after the into that computer project. So
+
+522
+00:30:16.450 --> 00:30:23.700
+David Schaich (he): I will say, that's this twenty-first of February is that third and final day that we will meet in room 101
+
+523
+00:30:23.950 --> 00:30:25.520
+David Schaich (he): for the computer lab.
+
+524
+00:30:26.140 --> 00:30:33.210
+David Schaich (he): So, hopefully by that point the project will be nearly done for everyone, and it can get in by the end of the day.
+
+525
+00:30:34.530 --> 00:30:36.579
+David Schaich (he): Homework itself is then
+
+526
+00:30:36.640 --> 00:30:39.519
+David Schaich (he): do the following week. It will also be
+
+527
+00:30:39.580 --> 00:30:40.600
+David Schaich (he): released
+
+528
+00:30:40.620 --> 00:30:41.740
+David Schaich (he): soon that
+
+529
+00:30:41.870 --> 00:30:43.409
+David Schaich (he): okay, once I check that.
+
+530
+00:30:43.800 --> 00:30:47.240
+David Schaich (he): But here I have to check that. It's going to cover stuff that we'll get through it
+
+531
+00:30:47.290 --> 00:30:48.530
+David Schaich (he): by that time.
+
+532
+00:30:49.370 --> 00:30:53.430
+David Schaich (he): and then the second homework is not due until after the spring break.
+
+533
+00:30:53.800 --> 00:30:55.810
+David Schaich (he): March and April are going to be
+
+534
+00:30:56.270 --> 00:30:57.209
+David Schaich (he): sort of
+
+535
+00:30:57.610 --> 00:30:59.300
+David Schaich (he): relatively light
+
+536
+00:30:59.480 --> 00:31:02.090
+David Schaich (he): months for this module, at least in terms of
+
+537
+00:31:02.140 --> 00:31:04.849
+David Schaich (he): assessment. So each of these 3 projects
+
+538
+00:31:05.080 --> 00:31:10.359
+David Schaich (he): and see our 15% to the overall mark. The remaining 55 is
+
+539
+00:31:10.480 --> 00:31:11.810
+David Schaich (he): a 2 h.
+
+540
+00:31:13.380 --> 00:31:17.139
+David Schaich (he): a final exam which will be scheduled in the usual way
+
+541
+00:31:17.390 --> 00:31:19.949
+David Schaich (he): that's in person, as
+
+542
+00:31:20.350 --> 00:31:22.610
+David Schaich (he): I think we're back to that
+
+543
+00:31:22.990 --> 00:31:25.060
+David Schaich (he): pattern in general now.
+
+544
+00:31:29.330 --> 00:31:31.689
+David Schaich (he): So I head back to
+
+545
+00:31:31.710 --> 00:31:33.530
+David Schaich (he): the landing page for
+
+546
+00:31:33.970 --> 00:31:36.370
+David Schaich (he): the site, and see if there is anything else
+
+547
+00:31:36.450 --> 00:31:37.950
+David Schaich (he): with highlighting
+
+548
+00:31:38.480 --> 00:31:41.879
+David Schaich (he): it's on this page which you should be able to reach on your own.
+
+549
+00:31:42.280 --> 00:31:43.210
+David Schaich (he): Hi, man.
+
+550
+00:31:43.660 --> 00:31:50.140
+David Schaich (he): we'll say that the overall outline for the course that we can see both there and
+
+551
+00:31:50.220 --> 00:31:54.970
+David Schaich (he): in the the modules page, which is where the recordings and
+
+552
+00:31:55.840 --> 00:31:59.229
+David Schaich (he): written notes are going to be uploaded
+
+553
+00:31:59.650 --> 00:32:01.450
+David Schaich (he): and see that there are
+
+554
+00:32:01.560 --> 00:32:13.699
+David Schaich (he): 10 units to get through in the 12 weeks of the term. So it's not going to be a one unit per week type of thing. Some of these units are going to take longer than others. Some are going to be quicker.
+
+555
+00:32:14.210 --> 00:32:22.999
+David Schaich (he): and I can also say much like the computer programming. There is not a prerequisite to have seen anything about quantum mechanics. When we
+
+556
+00:32:23.280 --> 00:32:24.270
+David Schaich (he): go to.
+
+557
+00:32:24.740 --> 00:32:28.480
+David Schaich (he): I say these units on process statistics and quantum gases
+
+558
+00:32:28.620 --> 00:32:33.080
+David Schaich (he): that produce the heat capacity for metals, and those temperatures.
+
+559
+00:32:35.620 --> 00:32:37.830
+David Schaich (he): All of the quantumist
+
+560
+00:32:37.980 --> 00:32:44.310
+David Schaich (he): of what we'll be looking at is just going to be introduced as an here in this module.
+
+561
+00:32:44.330 --> 00:32:48.909
+David Schaich (he): and you don't need to worry if you haven't seen any of that before.
+
+562
+00:32:50.390 --> 00:32:53.970
+David Schaich (he): There is a python programming demo link here that
+
+563
+00:32:54.150 --> 00:32:55.530
+David Schaich (he): we'll look at
+
+564
+00:32:55.720 --> 00:32:58.260
+David Schaich (he): Thursday's tutorial or the
+
+565
+00:32:58.290 --> 00:33:01.900
+David Schaich (he): computer labs, and also some of the
+
+566
+00:33:02.750 --> 00:33:05.550
+David Schaich (he): lecture notes that, at least for me
+
+567
+00:33:06.250 --> 00:33:08.680
+David Schaich (he): plan for each of the lectures
+
+568
+00:33:08.800 --> 00:33:10.170
+David Schaich (he): we're going through.
+
+569
+00:33:10.440 --> 00:33:12.220
+David Schaich (he): along with some additional
+
+570
+00:33:12.440 --> 00:33:15.809
+David Schaich (he): logistical information and the usual statements about
+
+571
+00:33:16.310 --> 00:33:18.920
+David Schaich (he): academic integrity and
+
+572
+00:33:19.650 --> 00:33:21.000
+David Schaich (he): additional
+
+573
+00:33:21.130 --> 00:33:22.820
+David Schaich (he): resources.
+
+574
+00:33:23.560 --> 00:33:25.299
+David Schaich (he): Various textbooks that
+
+575
+00:33:25.740 --> 00:33:28.439
+David Schaich (he): can provide more information about
+
+576
+00:33:28.770 --> 00:33:29.980
+David Schaich (he): all of the
+
+577
+00:33:31.620 --> 00:33:33.919
+David Schaich (he): topics will be going over.
+
+578
+00:33:33.970 --> 00:33:35.170
+David Schaich (he): as well as
+
+579
+00:33:36.310 --> 00:33:39.009
+David Schaich (he): the advice that is probably familiar
+
+580
+00:33:39.040 --> 00:33:43.569
+David Schaich (he): at this point in your third year about ways to get the most out of the module.
+
+581
+00:33:44.110 --> 00:33:45.380
+David Schaich (he): even though
+
+582
+00:33:45.600 --> 00:33:48.139
+David Schaich (he): these modules are designed to be
+
+583
+00:33:48.560 --> 00:33:52.800
+David Schaich (he): predominantly self study it's still worthwhile to
+
+584
+00:33:52.840 --> 00:34:01.729
+David Schaich (he): come to class. It gives you a chance, if nothing else, to check in with the material and make sure it doesn't fall by the way side. You can ask any questions which is.
+
+585
+00:34:02.470 --> 00:34:09.409
+David Schaich (he): are the purpose of doing this at the University rather than just buying one of those textbooks and reading through it, and
+
+586
+00:34:09.790 --> 00:34:11.430
+David Schaich (he): it's worthwhile to
+
+587
+00:34:11.520 --> 00:34:16.069
+David Schaich (he): go through the lecture that was taking a quick look before class to see what's coming.
+
+588
+00:34:16.120 --> 00:34:19.250
+David Schaich (he): and then a more detailed look afterwards to make sure that
+
+589
+00:34:19.380 --> 00:34:21.500
+David Schaich (he): everything in there is
+
+590
+00:34:21.659 --> 00:34:23.830
+David Schaich (he): comfortable and familiar.
+
+591
+00:34:24.409 --> 00:34:25.839
+David Schaich (he): and in particular
+
+592
+00:34:25.880 --> 00:34:27.290
+David Schaich (he): i'll mention that
+
+593
+00:34:29.770 --> 00:34:37.430
+David Schaich (he): as we go through into the Content, these lecture notes are going to have gaps which are little exercises for you to fill. They will all be filled
+
+594
+00:34:37.520 --> 00:34:41.319
+David Schaich (he): in the lectures on the that, or skips explicitly.
+
+595
+00:34:41.860 --> 00:34:43.609
+but it's worth to
+
+596
+00:34:44.080 --> 00:34:49.280
+David Schaich (he): worthwhile to take a look and make sure you can fill out all of those along with. Of course.
+
+597
+00:34:49.330 --> 00:34:56.219
+David Schaich (he): working on the homework Problems computer project and the activities will be doing and the tutorial once we get to
+
+598
+00:34:56.310 --> 00:35:00.889
+David Schaich (he): that tutorial, and of course I encourage you to ask questions.
+
+599
+00:35:01.200 --> 00:35:06.650
+David Schaich (he): even if you think everyone else knows the answer to them. If you don't they're worth asking.
+
+600
+00:35:07.000 --> 00:35:08.129
+David Schaich (he): And
+
+601
+00:35:08.170 --> 00:35:12.820
+David Schaich (he): yeah, you can ask me. You can ask each other. You can ask those additional resources.
+
+602
+00:35:13.190 --> 00:35:15.100
+David Schaich (he): One thing to note is that
+
+603
+00:35:15.480 --> 00:35:17.329
+David Schaich (he): while you're
+
+604
+00:35:17.450 --> 00:35:20.139
+David Schaich (he): welcome and encouraged to discuss
+
+605
+00:35:20.160 --> 00:35:27.820
+David Schaich (he): the homework and computer project and all the other material with each other. What you submit for assessment does need to be your own work. That
+
+606
+00:35:28.060 --> 00:35:30.599
+David Schaich (he): honestly represents your understanding
+
+607
+00:35:31.790 --> 00:35:32.770
+David Schaich (he): of
+
+608
+00:35:33.370 --> 00:35:34.450
+David Schaich (he): the material.
+
+609
+00:35:35.940 --> 00:35:39.260
+David Schaich (he): The one last thing i'll say about logistics
+
+610
+00:35:40.070 --> 00:35:41.169
+David Schaich (he): is that
+
+611
+00:35:41.520 --> 00:35:45.039
+David Schaich (he): there is a discussion more here where I just put into place
+
+612
+00:35:45.220 --> 00:35:47.029
+David Schaich (he): some placeholders for
+
+613
+00:35:47.060 --> 00:35:49.570
+David Schaich (he): questions, answers, and other discussions about
+
+614
+00:35:49.700 --> 00:35:51.349
+David Schaich (he): the various assessments
+
+615
+00:35:51.380 --> 00:35:52.779
+David Schaich (he): you that somebody
+
+616
+00:35:53.050 --> 00:35:55.730
+David Schaich (he): in the module as well as introductions.
+
+617
+00:35:55.910 --> 00:36:03.559
+David Schaich (he): if those of you who might be listening to this recording rather than being here in person, wants to introduce yourself
+
+618
+00:36:04.280 --> 00:36:07.350
+David Schaich (he): or those of you here want to
+
+619
+00:36:08.070 --> 00:36:11.030
+David Schaich (he): address the additional question
+
+620
+00:36:11.290 --> 00:36:12.220
+David Schaich (he): of
+
+621
+00:36:12.880 --> 00:36:13.939
+David Schaich (he): what
+
+622
+00:36:15.120 --> 00:36:18.930
+David Schaich (he): you might be interested to learn about through this module.
+
+623
+00:36:19.010 --> 00:36:21.869
+David Schaich (he): That Discussion Board is available for you.
+
+624
+00:36:22.040 --> 00:36:24.069
+David Schaich (he): 24 7 to
+
+625
+00:36:26.060 --> 00:36:34.789
+David Schaich (he): ask questions or answer These I've got ahead of. Introduce myself there, probably in more detail than we need
+
+626
+00:36:35.410 --> 00:36:36.740
+David Schaich (he): that that should
+
+627
+00:36:37.220 --> 00:36:38.450
+David Schaich (he): get us
+
+628
+00:36:38.900 --> 00:36:42.259
+David Schaich (he): back to the point where we're ready to get under way
+
+629
+00:36:42.350 --> 00:36:44.169
+David Schaich (he): with the material. Are there
+
+630
+00:36:44.720 --> 00:36:46.780
+David Schaich (he): questions before we do so about
+
+631
+00:36:48.900 --> 00:36:52.700
+David Schaich (he): big picture motivation, or those logistical details
+
+632
+00:36:53.440 --> 00:36:54.560
+David Schaich (he): that
+
+633
+00:36:54.820 --> 00:36:56.719
+David Schaich (he): we skim through on the canvas site.
+
+634
+00:36:59.200 --> 00:37:03.340
+David Schaich (he): I should say further questions, because a couple of good ones came up along the way.
+
+635
+00:37:04.970 --> 00:37:05.890
+David Schaich (he): and
+
+636
+00:37:06.140 --> 00:37:07.060
+David Schaich (he): I will.
+
+637
+00:37:09.330 --> 00:37:10.830
+David Schaich (he): without further ado.
+
+638
+00:37:11.330 --> 00:37:13.030
+David Schaich (he): dive right into
+
+639
+00:37:13.610 --> 00:37:15.169
+David Schaich (he): material that we have
+
+640
+00:37:15.640 --> 00:37:17.009
+David Schaich (he): starting off with
+
+641
+00:37:18.510 --> 00:37:19.979
+David Schaich (he): some foundations
+
+642
+00:37:20.040 --> 00:37:21.919
+David Schaich (he): more probability.
+
+643
+00:37:22.890 --> 00:37:23.890
+David Schaich (he): So
+
+644
+00:37:25.260 --> 00:37:28.490
+David Schaich (he): in the big picture we talked about some of large scale
+
+645
+00:37:33.180 --> 00:37:35.339
+David Schaich (he): that will arise from
+
+646
+00:37:35.370 --> 00:37:39.139
+David Schaich (he): analyzing systems of large numbers of particles
+
+647
+00:37:39.860 --> 00:37:45.599
+David Schaich (he): based on stochastic apply probability and randomness.
+
+648
+00:37:47.080 --> 00:37:48.120
+David Schaich (he): So
+
+649
+00:37:50.580 --> 00:37:57.829
+David Schaich (he): 2 of the key results of probability theory that lead to the emergence of
+
+650
+00:37:57.920 --> 00:38:02.990
+David Schaich (he): smooth, continuous looking, large scale and macroscopic behavior
+
+651
+00:38:03.100 --> 00:38:06.710
+David Schaich (he): from the somewhat chaotic and random.
+
+652
+00:38:06.780 --> 00:38:10.030
+David Schaich (he): Apparently random dynamics of underlying
+
+653
+00:38:10.170 --> 00:38:12.779
+David Schaich (he): degrees of free one, are known as the
+
+654
+00:38:13.570 --> 00:38:15.600
+David Schaich (he): one of our numbers
+
+655
+00:38:18.520 --> 00:38:20.210
+David Schaich (he): in the central limits.
+
+656
+00:38:20.700 --> 00:38:21.700
+David Schaich (he): 0
+
+657
+00:38:25.390 --> 00:38:29.470
+David Schaich (he): and I'm. Assuming that you will have seen
+
+658
+00:38:29.880 --> 00:38:33.579
+David Schaich (he): both of these before, possibly more than once.
+
+659
+00:38:33.780 --> 00:38:41.510
+David Schaich (he): and we'll go through, not fully, rigorously, and not very carefully, and review
+
+660
+00:38:42.320 --> 00:38:43.529
+David Schaich (he): how these
+
+661
+00:38:43.850 --> 00:38:46.430
+David Schaich (he): probability 3 results arise
+
+662
+00:38:46.950 --> 00:38:49.600
+David Schaich (he): and sort of cast names in
+
+663
+00:38:49.980 --> 00:38:52.610
+David Schaich (he): the the way that we're going to be using them.
+
+664
+00:38:52.800 --> 00:38:56.509
+David Schaich (he): or more detailed applications to things like
+
+665
+00:38:56.650 --> 00:38:58.599
+David Schaich (he): classical quantum gases
+
+666
+00:38:59.160 --> 00:38:59.920
+David Schaich (he): and
+
+667
+00:39:00.480 --> 00:39:03.139
+David Schaich (he): other statistical systems.
+
+668
+00:39:03.210 --> 00:39:05.920
+David Schaich (he): So to begin with some
+
+669
+00:39:05.990 --> 00:39:07.330
+David Schaich (he): definitions.
+
+670
+00:39:08.650 --> 00:39:10.630
+David Schaich (he): what's going to be underlying?
+
+671
+00:39:12.980 --> 00:39:16.979
+David Schaich (he): Essentially everything we think about in this module is a concept of
+
+672
+00:39:17.110 --> 00:39:20.330
+David Schaich (he): a random experiment you can call E,
+
+673
+00:39:21.030 --> 00:39:21.879
+which
+
+674
+00:39:23.100 --> 00:39:24.020
+David Schaich (he): is
+
+675
+00:39:24.230 --> 00:39:29.369
+David Schaich (he): essentially doing something in the world, or observing something that is happening in the world.
+
+676
+00:39:33.910 --> 00:39:37.980
+David Schaich (he): and upon carrying out this action or experiments.
+
+677
+00:39:38.120 --> 00:39:39.380
+David Schaich (he): and observing
+
+678
+00:39:39.580 --> 00:39:41.609
+David Schaich (he): how the the world
+
+679
+00:39:42.810 --> 00:39:43.560
+all right.
+
+680
+00:39:43.590 --> 00:39:46.899
+David Schaich (he): reacts what stated ends up in, while we
+
+681
+00:39:48.660 --> 00:39:50.740
+David Schaich (he): observe the world to be
+
+682
+00:39:52.190 --> 00:39:54.110
+David Schaich (he): in some particular state
+
+683
+00:39:55.270 --> 00:39:56.390
+David Schaich (he): in Omega.
+
+684
+00:39:57.620 --> 00:39:58.529
+which
+
+685
+00:39:59.070 --> 00:40:01.320
+David Schaich (he): looks like the at the lower case.
+
+686
+00:40:01.620 --> 00:40:03.289
+David Schaich (he): Latin letter W.
+
+687
+00:40:04.230 --> 00:40:12.780
+David Schaich (he): And can we just use by that well enough. The particular symbols being used are so important. But if we
+
+688
+00:40:13.540 --> 00:40:14.149
+okay.
+
+689
+00:40:14.270 --> 00:40:16.600
+David Schaich (he): think about, just zoom.
+
+690
+00:40:16.940 --> 00:40:24.249
+David Schaich (he): go along with the simplest possible example, as we define these abstract concepts and experiment could be flipping a coin.
+
+691
+00:40:24.550 --> 00:40:26.439
+David Schaich (he): And then the States
+
+692
+00:40:26.470 --> 00:40:28.020
+David Schaich (he): let me get out of that.
+
+693
+00:40:28.080 --> 00:40:29.840
+David Schaich (he): We'll have information.
+
+694
+00:40:30.680 --> 00:40:32.229
+David Schaich (he): for instance about whether that
+
+695
+00:40:32.280 --> 00:40:36.689
+David Schaich (he): coin lands, heads, or tails, but it also has
+
+696
+00:40:37.300 --> 00:40:41.339
+David Schaich (he): by possibly additional information about the state of the world.
+
+697
+00:40:41.660 --> 00:40:42.689
+David Schaich (he): After
+
+698
+00:40:43.470 --> 00:40:47.630
+David Schaich (he): that, experiments, so, for instance.
+
+699
+00:40:47.710 --> 00:41:03.880
+David Schaich (he): grew up in the air as it was being flipped. How many times it rotated! We're exactly at landed, but desk we're on the floor, and what a direction it was pointing. I meant to bring a coin to carry out that experiment, but I didn't so it will have to remain just a thought experiments.
+
+700
+00:41:03.900 --> 00:41:04.859
+David Schaich (he): For now.
+
+701
+00:41:07.570 --> 00:41:08.490
+David Schaich (he): so
+
+702
+00:41:08.580 --> 00:41:11.920
+David Schaich (he): given some experiments that can produce
+
+703
+00:41:12.080 --> 00:41:14.060
+David Schaich (he): as many as possible states.
+
+704
+00:41:14.280 --> 00:41:15.679
+David Schaich (he): we can define
+
+705
+00:41:15.820 --> 00:41:18.880
+David Schaich (he): over all, sets the capital Omega
+
+706
+00:41:19.700 --> 00:41:20.750
+David Schaich (he): to be
+
+707
+00:41:20.800 --> 00:41:23.799
+David Schaich (he): the set of all possible states.
+
+708
+00:41:25.600 --> 00:41:26.529
+David Schaich (he): Matt.
+
+709
+00:41:28.460 --> 00:41:29.960
+David Schaich (he): This experiments
+
+710
+00:41:30.010 --> 00:41:30.890
+David Schaich (he): e.
+
+711
+00:41:31.650 --> 00:41:33.060
+David Schaich (he): And we produce.
+
+712
+00:41:35.270 --> 00:41:40.949
+David Schaich (he): So this is all the possible ways that a coin can be flipped. For instance.
+
+713
+00:41:41.010 --> 00:41:42.850
+David Schaich (he): so very large sets
+
+714
+00:41:42.920 --> 00:41:43.850
+David Schaich (he): of
+
+715
+00:41:44.990 --> 00:41:54.999
+David Schaich (he): states, each of which can contain a very large amount of detail, most of which we are not going to care about for the purposes of statistical physics
+
+716
+00:41:55.240 --> 00:41:56.689
+David Schaich (he): with flipping a coin.
+
+717
+00:41:57.040 --> 00:42:08.640
+David Schaich (he): Usually, even when we say we flip the calling it's implicit that we only care doesn't land heads up or tails up. We don't care how long it was in the air where exactly it landed, or
+
+718
+00:42:08.900 --> 00:42:11.010
+David Schaich (he): how old the coin itself was.
+
+719
+00:42:11.300 --> 00:42:21.699
+David Schaich (he): So there is some interesting information in the state of the world that we want to extract, and some irrelevant information that we want to sweep aside in order to be able to analyze
+
+720
+00:42:22.260 --> 00:42:25.359
+David Schaich (he): resources, experiments mathematically.
+
+721
+00:42:25.550 --> 00:42:26.410
+David Schaich (he): and
+
+722
+00:42:28.590 --> 00:42:29.860
+David Schaich (he): the way that
+
+723
+00:42:30.110 --> 00:42:33.029
+David Schaich (he): we extract the mathematical information
+
+724
+00:42:33.720 --> 00:42:35.809
+David Schaich (he): it's like throwing out a measurements
+
+725
+00:42:37.530 --> 00:42:40.189
+David Schaich (he): we'll call it Capital X. That
+
+726
+00:42:40.500 --> 00:42:41.379
+David Schaich (he): is
+
+727
+00:42:42.110 --> 00:42:45.830
+David Schaich (he): a map taking in the overall state of the world
+
+728
+00:42:47.030 --> 00:42:48.549
+David Schaich (he): and extracting
+
+729
+00:42:49.330 --> 00:42:50.189
+David Schaich (he): just
+
+730
+00:42:50.400 --> 00:42:51.250
+David Schaich (he): do you
+
+731
+00:42:51.510 --> 00:42:53.270
+David Schaich (he): information of interest.
+
+732
+00:42:55.530 --> 00:42:56.419
+David Schaich (he): So
+
+733
+00:42:56.540 --> 00:42:58.109
+David Schaich (he): in that point example.
+
+734
+00:42:58.570 --> 00:42:59.310
+David Schaich (he): yeah.
+
+735
+00:42:59.560 --> 00:43:02.099
+David Schaich (he): land heads up, or did it land heels up.
+
+736
+00:43:02.840 --> 00:43:04.099
+David Schaich (he): And if we
+
+737
+00:43:04.280 --> 00:43:05.450
+David Schaich (he): then repeat
+
+738
+00:43:06.650 --> 00:43:08.029
+David Schaich (he): that experiments
+
+739
+00:43:08.300 --> 00:43:09.700
+David Schaich (he): many times.
+
+740
+00:43:10.380 --> 00:43:15.130
+David Schaich (he): because it's a an experiment that evolves some elements of randomness.
+
+741
+00:43:16.760 --> 00:43:22.159
+David Schaich (he): whether this is random in principle, coming from quantum mechanics or random in practice.
+
+742
+00:43:22.240 --> 00:43:26.430
+David Schaich (he): coming from the idea that even though we could, if we flip a coin.
+
+743
+00:43:26.590 --> 00:43:28.770
+David Schaich (he): carry out the computations of
+
+744
+00:43:28.870 --> 00:43:32.700
+David Schaich (he): end of the 22 interactions with air molecules that determine
+
+745
+00:43:32.750 --> 00:43:34.390
+David Schaich (he): precisely what
+
+746
+00:43:34.730 --> 00:43:38.929
+David Schaich (he): how it's going to land where and when we can't do that in practice
+
+747
+00:43:40.960 --> 00:43:41.850
+David Schaich (he): is
+
+748
+00:43:42.010 --> 00:43:44.109
+David Schaich (he): the shorthand a way of simplifying
+
+749
+00:43:44.140 --> 00:43:46.030
+David Schaich (he): the description of the experiments.
+
+750
+00:43:46.210 --> 00:43:47.740
+David Schaich (he): Each time we repeat
+
+751
+00:43:47.870 --> 00:43:49.200
+David Schaich (he): the experiments
+
+752
+00:43:49.340 --> 00:43:52.640
+David Schaich (he): and carry out this measurements we will get a
+
+753
+00:43:53.720 --> 00:43:54.850
+David Schaich (he): random
+
+754
+00:43:54.970 --> 00:43:55.970
+David Schaich (he): results.
+
+755
+00:43:56.400 --> 00:43:57.279
+David Schaich (he): So
+
+756
+00:43:58.460 --> 00:43:59.630
+David Schaich (he): this X.
+
+757
+00:44:01.250 --> 00:44:03.240
+David Schaich (he): The outcome of the experiment
+
+758
+00:44:03.340 --> 00:44:04.679
+David Schaich (he): is going to
+
+759
+00:44:04.850 --> 00:44:07.839
+David Schaich (he): behave as a random, variable.
+
+760
+00:44:08.720 --> 00:44:11.350
+David Schaich (he): adopting different possible
+
+761
+00:44:11.500 --> 00:44:15.820
+David Schaich (he): measurement outcomes with some probabilities which
+
+762
+00:44:16.340 --> 00:44:20.150
+David Schaich (he): well, we still need to define formally, but that is
+
+763
+00:44:20.220 --> 00:44:25.119
+David Schaich (he): the the target here. What does probability mean it mathematically?
+
+764
+00:44:26.400 --> 00:44:27.890
+David Schaich (he): Now, if we were to
+
+765
+00:44:30.040 --> 00:44:31.080
+David Schaich (he): measure
+
+766
+00:44:33.610 --> 00:44:35.610
+David Schaich (he): all of the States
+
+767
+00:44:38.190 --> 00:44:41.760
+David Schaich (he): in that set of all states. Capital Omega.
+
+768
+00:44:42.460 --> 00:44:43.439
+David Schaich (he): Then
+
+769
+00:44:43.990 --> 00:44:47.610
+David Schaich (he): this measurement will pick up all possible outcomes.
+
+770
+00:44:50.400 --> 00:44:51.410
+David Schaich (he): That's
+
+771
+00:44:51.520 --> 00:44:53.249
+David Schaich (he): the world can't take
+
+772
+00:44:53.330 --> 00:44:57.509
+David Schaich (he): discarding the the relevant information that we don't care about.
+
+773
+00:44:58.100 --> 00:44:59.700
+David Schaich (he): So we will say that
+
+774
+00:45:01.370 --> 00:45:03.919
+David Schaich (he): maps at all states
+
+775
+00:45:04.110 --> 00:45:07.180
+David Schaich (he): to a set of all outcomes for
+
+776
+00:45:07.320 --> 00:45:09.089
+David Schaich (he): the outcome space.
+
+777
+00:45:11.500 --> 00:45:12.930
+David Schaich (he): Yeah, we will call
+
+778
+00:45:13.050 --> 00:45:14.720
+David Schaich (he): it's the capital a
+
+779
+00:45:16.230 --> 00:45:17.319
+David Schaich (he): and the
+
+780
+00:45:18.740 --> 00:45:19.310
+hmm
+
+781
+00:45:20.320 --> 00:45:27.439
+David Schaich (he): just a finite set of outcomes, like if we flip the coin measure has your tails. Well, those are the possible outcomes. So a is just
+
+782
+00:45:27.550 --> 00:45:29.020
+David Schaich (he): heads or tails
+
+783
+00:45:30.290 --> 00:45:31.830
+David Schaich (he): it's possible for.
+
+784
+00:45:32.040 --> 00:45:33.859
+David Schaich (he): and help from space to be
+
+785
+00:45:34.720 --> 00:45:36.129
+David Schaich (he): countably infinite.
+
+786
+00:45:36.490 --> 00:45:37.890
+David Schaich (he): So it
+
+787
+00:45:38.970 --> 00:45:43.019
+David Schaich (he): i'll see you examples of all of these shortly.
+
+788
+00:45:44.400 --> 00:45:45.789
+David Schaich (he): You can also have
+
+789
+00:45:46.550 --> 00:45:48.389
+David Schaich (he): and outcome space. That is.
+
+790
+00:45:49.370 --> 00:45:51.229
+David Schaich (he): I'm. Countably
+
+791
+00:45:53.850 --> 00:45:55.100
+David Schaich (he): continuous.
+
+792
+00:45:55.150 --> 00:45:56.520
+David Schaich (he): So as a
+
+793
+00:45:57.470 --> 00:45:58.379
+David Schaich (he): sort of
+
+794
+00:46:04.650 --> 00:46:10.749
+David Schaich (he): it's an easy example of these definitions just to anchor them, something familiar.
+
+795
+00:46:12.740 --> 00:46:15.570
+David Schaich (he): We'll talk about, say, ruling
+
+796
+00:46:16.120 --> 00:46:18.379
+David Schaich (he): 6 sided down.
+
+797
+00:46:19.660 --> 00:46:22.350
+David Schaich (he): And
+
+798
+00:46:22.540 --> 00:46:25.869
+David Schaich (he): so that is our experiment is role to die.
+
+799
+00:46:28.560 --> 00:46:29.839
+David Schaich (he): You will measure.
+
+800
+00:46:29.890 --> 00:46:30.720
+David Schaich (he): do you
+
+801
+00:46:31.620 --> 00:46:33.530
+David Schaich (he): number that comes out on top.
+
+802
+00:46:33.680 --> 00:46:34.569
+David Schaich (he): That is
+
+803
+00:46:34.830 --> 00:46:37.939
+David Schaich (he): the measurement that goes along with that experiment.
+
+804
+00:46:38.800 --> 00:46:39.830
+David Schaich (he): So
+
+805
+00:46:43.300 --> 00:46:44.069
+David Schaich (he): what
+
+806
+00:46:44.210 --> 00:46:49.760
+David Schaich (he): I can ask you is the outcome space for rolling a dye and measuring
+
+807
+00:46:49.880 --> 00:46:51.179
+David Schaich (he): the number on top.
+
+808
+00:46:51.600 --> 00:46:54.480
+David Schaich (he): I mean that guy has 6 sides.
+
+809
+00:46:54.750 --> 00:46:56.140
+David Schaich (he): I'm. The standard
+
+810
+00:46:56.320 --> 00:46:57.200
+David Schaich (he): way.
+
+811
+00:47:18.590 --> 00:47:21.310
+David Schaich (he): Looks like some of you are already running down the answer.
+
+812
+00:47:21.790 --> 00:47:24.009
+David Schaich (he): So go ahead and and shout it out.
+
+813
+00:47:39.150 --> 00:47:41.890
+David Schaich (he): So the outcomes are.
+
+814
+00:47:45.620 --> 00:47:51.880
+David Schaich (he): I think you're actually going ahead and talking about the probability of each of those outcomes occurring
+
+815
+00:47:52.190 --> 00:47:53.089
+David Schaich (he): and
+
+816
+00:47:53.190 --> 00:47:57.059
+David Schaich (he): each outcome itself. We're actually looking for something simpler.
+
+817
+00:47:57.220 --> 00:47:58.500
+David Schaich (he): exactly.
+
+818
+00:48:01.320 --> 00:48:04.589
+David Schaich (he): and we will get to the corresponding probabilities
+
+819
+00:48:04.900 --> 00:48:14.669
+David Schaich (he): actually after the break. So that is the set of all outcomes. If we roll it to a dive, 6 side and dial, measure the number on top. Those numbers are one through 6,
+
+820
+00:48:14.710 --> 00:48:15.640
+David Schaich (he): and
+
+821
+00:48:16.500 --> 00:48:22.859
+David Schaich (he): if we measure every possible state of the world of the universe that we have after rolling a dive.
+
+822
+00:48:23.580 --> 00:48:27.620
+David Schaich (he): And those are the 6 outcomes that we can get.
+
+823
+00:48:28.380 --> 00:48:29.899
+David Schaich (he): You see it. So
+
+824
+00:48:30.210 --> 00:48:31.540
+David Schaich (he): saying, Omega.
+
+825
+00:48:32.710 --> 00:48:36.569
+David Schaich (he): so as opposed to just this very simple outcomes.
+
+826
+00:48:39.800 --> 00:48:41.700
+David Schaich (he): the State could also include
+
+827
+00:48:41.820 --> 00:48:43.450
+David Schaich (he): information about
+
+828
+00:48:43.700 --> 00:48:44.919
+David Schaich (he): the position
+
+829
+00:48:45.460 --> 00:48:47.660
+David Schaich (he): of the die after it's rolled.
+
+830
+00:48:47.840 --> 00:48:48.750
+David Schaich (he): It's
+
+831
+00:48:49.220 --> 00:48:50.629
+David Schaich (he): orientation.
+
+832
+00:48:52.000 --> 00:48:57.610
+David Schaich (he): not just which numbers on top, but which way the other numbers are pointing along the sides
+
+833
+00:48:59.120 --> 00:49:01.339
+David Schaich (he): couldn't. The State could care about the
+
+834
+00:49:01.970 --> 00:49:04.550
+David Schaich (he): which we wrote to die, the
+
+835
+00:49:04.900 --> 00:49:06.049
+David Schaich (he): temperature.
+
+836
+00:49:06.120 --> 00:49:07.950
+David Schaich (he): the room in which we will die.
+
+837
+00:49:08.500 --> 00:49:09.459
+David Schaich (he): and
+
+838
+00:49:10.280 --> 00:49:13.769
+David Schaich (he): it's an in principle, any other aspect of the universe.
+
+839
+00:49:15.160 --> 00:49:16.080
+David Schaich (he): And
+
+840
+00:49:16.730 --> 00:49:18.359
+David Schaich (he): we've now gotten within
+
+841
+00:49:18.800 --> 00:49:20.150
+David Schaich (he): 10 min out
+
+842
+00:49:20.280 --> 00:49:22.069
+David Schaich (he): halfway. Point 4
+
+843
+00:49:22.340 --> 00:49:23.370
+this
+
+844
+00:49:23.900 --> 00:49:25.369
+David Schaich (he): this 2 h block.
+
+845
+00:49:25.850 --> 00:49:27.850
+David Schaich (he): so it may be worthwhile to
+
+846
+00:49:28.080 --> 00:49:29.180
+David Schaich (he): take a
+
+847
+00:49:30.060 --> 00:49:31.470
+David Schaich (he): 10 min, break.
+
+848
+00:49:32.790 --> 00:49:34.620
+David Schaich (he): stretch the legs refresh.
+
+849
+00:49:34.650 --> 00:49:35.549
+David Schaich (he): and then
+
+850
+00:49:37.040 --> 00:49:39.350
+David Schaich (he): dive in with some further examples
+
+851
+00:49:40.630 --> 00:49:45.029
+David Schaich (he): in about 10 min. There is something in the chat.
+
+852
+00:49:45.150 --> 00:49:46.589
+David Schaich (he): Augustine had
+
+853
+00:49:46.620 --> 00:49:49.470
+David Schaich (he): the same answers that I just put on. Here.
+
+854
+00:49:49.890 --> 00:49:51.289
+David Schaich (he): We will get to
+
+855
+00:49:51.350 --> 00:49:52.359
+David Schaich (he): more
+
+856
+00:49:52.860 --> 00:49:54.419
+non-trivial
+
+857
+00:49:54.770 --> 00:49:59.090
+David Schaich (he): examples of statistical physics. This is to
+
+858
+00:49:59.560 --> 00:50:00.609
+David Schaich (he): anchor
+
+859
+00:50:00.960 --> 00:50:05.560
+David Schaich (he): what we are defining in systems that we are familiar with. So
+
+860
+00:50:05.910 --> 00:50:07.120
+David Schaich (he): pause that
+
+861
+00:50:07.770 --> 00:50:09.009
+David Schaich (he): recording
+
+862
+00:50:09.430 --> 00:50:10.740
+David Schaich (he): for zoom
+
+863
+00:50:11.060 --> 00:50:13.569
+David Schaich (he): that recording and let's do
+
+864
+00:50:14.820 --> 00:50:17.640
+David Schaich (he): similarly simple examples to
+
+865
+00:50:17.810 --> 00:50:19.299
+David Schaich (he): reinforce the
+
+866
+00:50:19.650 --> 00:50:21.060
+David Schaich (he): the definition of
+
+867
+00:50:21.910 --> 00:50:26.519
+David Schaich (he): experiments and states and the outcome space. So.
+
+868
+00:50:27.810 --> 00:50:28.970
+David Schaich (he): for
+
+869
+00:50:30.190 --> 00:50:34.999
+David Schaich (he): this example, our experiments can be flipping in coin
+
+870
+00:50:42.560 --> 00:50:44.319
+David Schaich (he): to make this more interesting
+
+871
+00:50:46.880 --> 00:50:48.210
+David Schaich (he): 4 times.
+
+872
+00:50:48.310 --> 00:50:51.209
+David Schaich (he): and rather than considering that 4 different experiments.
+
+873
+00:50:51.260 --> 00:50:52.710
+David Schaich (he): just consider that
+
+874
+00:50:53.330 --> 00:50:55.260
+David Schaich (he): single experiments.
+
+875
+00:50:55.550 --> 00:50:58.170
+David Schaich (he): you know, flicking back 24 times.
+
+876
+00:50:58.210 --> 00:50:59.269
+David Schaich (he): and then
+
+877
+00:51:01.280 --> 00:51:03.239
+David Schaich (he): measuring whether it comes up
+
+878
+00:51:03.550 --> 00:51:05.830
+David Schaich (he): heads
+
+879
+00:51:06.110 --> 00:51:07.970
+David Schaich (he): or tails.
+
+880
+00:51:09.380 --> 00:51:11.439
+David Schaich (he): or into those 4 times.
+
+881
+00:51:14.200 --> 00:51:15.429
+David Schaich (he): And then
+
+882
+00:51:18.060 --> 00:51:21.189
+David Schaich (he): what sort of outcomes are going to be
+
+883
+00:51:21.690 --> 00:51:22.900
+David Schaich (he): in the overall.
+
+884
+00:51:23.380 --> 00:51:28.209
+David Schaich (he): set up all outcomes or out from space. A. For this experiments with
+
+885
+00:51:28.940 --> 00:51:30.680
+David Schaich (he): this measurement.
+
+886
+00:52:25.120 --> 00:52:27.840
+David Schaich (he): like a few of you are running down the answer
+
+887
+00:52:28.460 --> 00:52:35.239
+David Schaich (he): Once you just shout out, not the entire outcome space, but just one outcome that will be in that set.
+
+888
+00:52:38.170 --> 00:52:42.120
+David Schaich (he): So again I think you're getting to.
+
+889
+00:52:44.020 --> 00:52:48.980
+David Schaich (he): So if we flip a coin once, we can then measure heads or tails.
+
+890
+00:52:49.060 --> 00:52:53.699
+David Schaich (he): Here's our experiment is not just doing it once, but for coin flips.
+
+891
+00:52:55.520 --> 00:52:59.159
+David Schaich (he): and then measuring has their meals after each of those 4.
+
+892
+00:53:00.210 --> 00:53:01.870
+David Schaich (he): So an outcome of
+
+893
+00:53:02.180 --> 00:53:04.810
+David Schaich (he): those 4 coin flips with that measurements
+
+894
+00:53:04.870 --> 00:53:06.850
+David Schaich (he): could be just getting heads
+
+895
+00:53:09.030 --> 00:53:12.210
+David Schaich (he): every time. So for sure, and
+
+896
+00:53:12.570 --> 00:53:14.559
+David Schaich (he): it's right that.
+
+897
+00:53:14.640 --> 00:53:16.169
+David Schaich (he): or heads in a row.
+
+898
+00:53:16.720 --> 00:53:18.590
+David Schaich (he): Another outcome would be
+
+899
+00:53:19.080 --> 00:53:21.009
+David Schaich (he): the first 3 being heads.
+
+900
+00:53:21.430 --> 00:53:23.020
+David Schaich (he): the last one tails.
+
+901
+00:53:23.590 --> 00:53:24.379
+This
+
+902
+00:53:26.130 --> 00:53:27.810
+David Schaich (he): it seems, from having
+
+903
+00:53:28.040 --> 00:53:31.740
+David Schaich (he): 3 heads, third, flip being the tails.
+
+904
+00:53:31.890 --> 00:53:32.959
+David Schaich (he): And then
+
+905
+00:53:33.800 --> 00:53:34.919
+David Schaich (he): there are
+
+906
+00:53:35.520 --> 00:53:37.450
+David Schaich (he): more possibilities
+
+907
+00:53:38.040 --> 00:53:39.640
+David Schaich (he): in that overall set.
+
+908
+00:53:40.440 --> 00:53:42.650
+David Schaich (he): Maybe I can ask you now that we've
+
+909
+00:53:42.730 --> 00:53:43.970
+David Schaich (he): seen
+
+910
+00:53:44.040 --> 00:53:48.850
+David Schaich (he): what sorts of outcomes are in the outcome space?
+
+911
+00:53:49.010 --> 00:53:50.260
+David Schaich (he): What is the
+
+912
+00:53:50.400 --> 00:53:51.919
+David Schaich (he): total number of
+
+913
+00:53:52.160 --> 00:53:59.160
+David Schaich (he): outcomes that there are here? So the number of elements for the size of the outcome Space a. I'll just represent
+
+914
+00:53:59.350 --> 00:54:00.459
+David Schaich (he): as that
+
+915
+00:54:01.210 --> 00:54:03.390
+David Schaich (he): half sign, a
+
+916
+00:54:07.620 --> 00:54:10.059
+David Schaich (he): 3 representative outcomes.
+
+917
+00:54:10.140 --> 00:54:12.250
+David Schaich (he): There are more that
+
+918
+00:54:13.980 --> 00:54:15.299
+David Schaich (he): hopefully you can
+
+919
+00:54:15.420 --> 00:54:17.739
+David Schaich (he): extrapolate from what we have.
+
+920
+00:54:17.760 --> 00:54:19.219
+David Schaich (he): How many are there
+
+921
+00:54:19.250 --> 00:54:20.370
+David Schaich (he): in total?
+
+922
+00:54:33.690 --> 00:54:35.700
+David Schaich (he): There will be? There's
+
+923
+00:54:36.460 --> 00:54:42.840
+David Schaich (he): 4 coin flips, each of which have 2 possible outcomes. They're all independent of each other, one after the next
+
+924
+00:54:42.970 --> 00:54:44.580
+David Schaich (he): into the power for
+
+925
+00:54:44.700 --> 00:54:46.120
+David Schaich (he): 16.
+
+926
+00:54:46.140 --> 00:54:47.420
+David Schaich (he): One of the
+
+927
+00:54:47.850 --> 00:54:50.490
+David Schaich (he): things you learn if you do a lot of computer programming.
+
+928
+00:54:50.680 --> 00:54:52.200
+David Schaich (he): all the powers of 2,
+
+929
+00:54:52.760 --> 00:54:55.739
+David Schaich (he): maybe for a more realistic example just to
+
+930
+00:54:56.310 --> 00:54:57.600
+David Schaich (he): book apps.
+
+931
+00:54:58.320 --> 00:55:00.649
+David Schaich (he): How these definitions map onto.
+
+932
+00:55:01.390 --> 00:55:06.089
+David Schaich (he): you know, real physical statistical systems that we still will be talking about
+
+933
+00:55:06.170 --> 00:55:08.620
+David Schaich (he): later in the module.
+
+934
+00:55:09.560 --> 00:55:13.450
+David Schaich (he): See, I've got those number worth of Argon Adams
+
+935
+00:55:15.910 --> 00:55:17.830
+David Schaich (he): in a container.
+
+936
+00:55:18.400 --> 00:55:19.479
+David Schaich (he): so
+
+937
+00:55:20.330 --> 00:55:22.520
+David Schaich (he): that container has
+
+938
+00:55:24.340 --> 00:55:26.160
+David Schaich (he): a solid box.
+
+939
+00:55:26.280 --> 00:55:27.770
+David Schaich (he): I'll save it as
+
+940
+00:55:28.520 --> 00:55:29.740
+David Schaich (he): some
+
+941
+00:55:29.860 --> 00:55:32.450
+David Schaich (he): 10 of the power. 23.
+
+942
+00:55:32.810 --> 00:55:34.140
+David Schaich (he): There are 2
+
+943
+00:55:34.550 --> 00:55:38.379
+David Schaich (he): control, all in the power of
+
+944
+00:55:38.920 --> 00:55:41.810
+David Schaich (he): quite a few in that container.
+
+945
+00:55:42.620 --> 00:55:45.390
+David Schaich (he): and the state of
+
+946
+00:55:47.010 --> 00:55:49.450
+David Schaich (he): this is so. The experiment that we have
+
+947
+00:55:51.010 --> 00:55:51.870
+David Schaich (he): is
+
+948
+00:55:51.890 --> 00:55:53.339
+David Schaich (he): just observe it.
+
+949
+00:55:54.120 --> 00:55:57.189
+David Schaich (he): All of these are done atoms in that container.
+
+950
+00:55:57.440 --> 00:55:58.729
+David Schaich (he): the state
+
+951
+00:55:59.330 --> 00:56:01.580
+David Schaich (he): of the world that we can get out of that
+
+952
+00:56:04.220 --> 00:56:06.370
+David Schaich (he): information like
+
+953
+00:56:06.700 --> 00:56:07.490
+the
+
+954
+00:56:08.310 --> 00:56:09.479
+David Schaich (he): positions
+
+955
+00:56:11.520 --> 00:56:14.390
+David Schaich (he): of every single one of those atoms.
+
+956
+00:56:14.690 --> 00:56:15.989
+David Schaich (he): So, for example.
+
+957
+00:56:16.110 --> 00:56:16.870
+you
+
+958
+00:56:16.900 --> 00:56:21.419
+David Schaich (he): 3, that I've drawn there after all the particular points we can enumerate
+
+959
+00:56:21.540 --> 00:56:23.540
+David Schaich (he): the positions for all of those atoms
+
+960
+00:56:24.290 --> 00:56:26.090
+David Schaich (he): these that are going to deed
+
+961
+00:56:26.390 --> 00:56:29.350
+David Schaich (he): bouncing around
+
+962
+00:56:30.090 --> 00:56:31.020
+David Schaich (he): some
+
+963
+00:56:31.200 --> 00:56:33.609
+David Schaich (he): that we can also
+
+964
+00:56:33.630 --> 00:56:34.709
+David Schaich (he): include
+
+965
+00:56:34.740 --> 00:56:36.600
+David Schaich (he): in the States so
+
+966
+00:56:36.650 --> 00:56:40.710
+David Schaich (he): 10 to 23 velocities to go along with those 10 to the 24 positions.
+
+967
+00:56:40.820 --> 00:56:44.900
+David Schaich (he): You could also specify. See the electronic states
+
+968
+00:56:46.720 --> 00:56:52.029
+David Schaich (he): on each of those 10 to the 23 atoms, or any of them in excited states
+
+969
+00:56:53.520 --> 00:56:54.399
+David Schaich (he): or
+
+970
+00:56:54.830 --> 00:57:00.140
+David Schaich (he): windows. Oh, these events have say orientations their spins.
+
+971
+00:57:00.260 --> 00:57:02.189
+David Schaich (he): You can specify all of those.
+
+972
+00:57:08.090 --> 00:57:09.649
+David Schaich (he): Maybe I can ask you.
+
+973
+00:57:10.600 --> 00:57:12.500
+David Schaich (he): based on this
+
+974
+00:57:12.890 --> 00:57:16.429
+David Schaich (he): state. With some it's huge amount of information.
+
+975
+00:57:18.820 --> 00:57:21.779
+David Schaich (he): What are some things that it might be interesting
+
+976
+00:57:21.870 --> 00:57:22.919
+David Schaich (he): to measure?
+
+977
+00:57:30.450 --> 00:57:31.810
+David Schaich (he): That's a great one.
+
+978
+00:57:38.290 --> 00:57:39.319
+David Schaich (he): and
+
+979
+00:57:40.080 --> 00:57:42.380
+David Schaich (he): and the period. So like that.
+
+980
+00:57:42.450 --> 00:57:47.529
+David Schaich (he): yeah, temperature pressure is
+
+981
+00:57:48.190 --> 00:57:50.969
+David Schaich (he): so called through a dynamic observable, it will be
+
+982
+00:57:51.000 --> 00:57:52.280
+David Schaich (he): doing a lot with.
+
+983
+00:57:52.450 --> 00:57:53.509
+David Schaich (he): and also
+
+984
+00:57:53.630 --> 00:57:54.949
+David Schaich (he): consider more generally.
+
+985
+00:57:55.950 --> 00:57:57.849
+David Schaich (he): energy with that, so
+
+986
+00:57:58.000 --> 00:57:59.379
+David Schaich (he): keep capacity.
+
+987
+00:58:00.590 --> 00:58:05.000
+David Schaich (he): We have yet to define what saw as a so a forecast.
+
+988
+00:58:06.550 --> 00:58:10.509
+David Schaich (he): and also the dynamical quantities like if there are any
+
+989
+00:58:11.580 --> 00:58:12.600
+David Schaich (he): prince
+
+990
+00:58:12.630 --> 00:58:18.790
+David Schaich (he): in the flow of atoms within this container. Maybe they're going around in a circle at a whirlpool. We can measure that.
+
+991
+00:58:18.890 --> 00:58:30.579
+David Schaich (he): But all of these are very large scale quantities, single numbers, or a handful of numbers compared to the end of the power. 23 pieces of data
+
+992
+00:58:30.830 --> 00:58:32.100
+David Schaich (he): stand as a whole.
+
+993
+00:58:32.140 --> 00:58:33.170
+David Schaich (he): So that is
+
+994
+00:58:35.340 --> 00:58:41.239
+David Schaich (he): hopefully driving home the contrast between the state of the universe with its huge amount of information.
+
+995
+00:58:41.320 --> 00:58:42.220
+David Schaich (he): and it
+
+996
+00:58:42.240 --> 00:58:43.520
+do you
+
+997
+00:58:43.790 --> 00:58:46.129
+David Schaich (he): measurements that give us outcomes
+
+998
+00:58:46.150 --> 00:58:47.329
+David Schaich (he): that we can
+
+999
+00:58:47.560 --> 00:58:48.819
+David Schaich (he): analyze
+
+1000
+00:58:48.890 --> 00:58:51.119
+David Schaich (he): a more solid mathematical footing.
+
+1001
+00:58:54.090 --> 00:58:55.029
+David Schaich (he): No.
+
+1002
+00:58:58.240 --> 00:59:01.180
+David Schaich (he): moving on with just a few more definitions.
+
+1003
+00:59:01.210 --> 00:59:02.489
+David Schaich (he): You can actually
+
+1004
+00:59:03.770 --> 00:59:07.300
+David Schaich (he): generalize the concept of measurements
+
+1005
+00:59:07.410 --> 00:59:08.770
+David Schaich (he): to
+
+1006
+00:59:10.710 --> 00:59:12.319
+David Schaich (he): introduce a
+
+1007
+00:59:13.390 --> 00:59:14.830
+David Schaich (he): unique label
+
+1008
+00:59:16.630 --> 00:59:18.129
+David Schaich (he): for each State.
+
+1009
+00:59:21.200 --> 00:59:22.120
+David Schaich (he): and then
+
+1010
+00:59:23.250 --> 00:59:26.269
+David Schaich (he): this is useful mathematically. If you want to
+
+1011
+00:59:26.560 --> 00:59:29.260
+David Schaich (he): refer to a State rather than
+
+1012
+00:59:29.870 --> 00:59:31.759
+David Schaich (he): describing all of the
+
+1013
+00:59:32.230 --> 00:59:36.160
+David Schaich (he): information that it has, we can just refer to a unique
+
+1014
+00:59:36.260 --> 00:59:37.330
+David Schaich (he): number
+
+1015
+00:59:37.560 --> 00:59:43.169
+David Schaich (he): unique label that we assign to that particular collection of information.
+
+1016
+00:59:43.260 --> 00:59:44.499
+David Schaich (he): And this is
+
+1017
+00:59:45.060 --> 00:59:46.190
+David Schaich (he): a bit more
+
+1018
+00:59:47.030 --> 00:59:48.500
+David Schaich (he): general Van.
+
+1019
+00:59:49.150 --> 00:59:50.220
+David Schaich (he): The
+
+1020
+00:59:50.680 --> 00:59:52.280
+David Schaich (he): concept of a measurements.
+
+1021
+00:59:52.620 --> 00:59:54.609
+David Schaich (he): because those measurements are
+
+1022
+00:59:55.120 --> 00:59:57.540
+David Schaich (he): in general not going to be
+
+1023
+00:59:59.300 --> 01:00:00.339
+David Schaich (he): me
+
+1024
+01:00:00.560 --> 01:00:01.910
+David Schaich (he): so. X
+
+1025
+01:00:02.360 --> 01:00:15.969
+David Schaich (he): of Omega is likely to be the same for the large number of different states. Think of all the ways we could flip the coin, and it comes up heads regardless of when we flip it, how high we flip it, or where it lands. All of those produce
+
+1026
+01:00:16.010 --> 01:00:17.760
+David Schaich (he): that same measurement. And
+
+1027
+01:00:17.940 --> 01:00:19.040
+David Schaich (he): typically
+
+1028
+01:00:19.160 --> 01:00:20.780
+David Schaich (he): we're going to measure
+
+1029
+01:00:20.850 --> 01:00:22.190
+David Schaich (he): what we care about.
+
+1030
+01:00:22.440 --> 01:00:23.220
+Well.
+
+1031
+01:00:23.850 --> 01:00:24.869
+David Schaich (he): you put that
+
+1032
+01:00:24.980 --> 01:00:27.540
+David Schaich (he): we have to in order for you to care about
+
+1033
+01:00:28.690 --> 01:00:30.009
+David Schaich (he): what we measure.
+
+1034
+01:00:34.330 --> 01:00:35.279
+David Schaich (he): which
+
+1035
+01:00:35.390 --> 01:00:36.500
+David Schaich (he): means
+
+1036
+01:00:37.110 --> 01:00:42.149
+David Schaich (he): carrying about that outcome space instead of all possible outcomes, like
+
+1037
+01:00:42.300 --> 01:00:45.629
+David Schaich (he): 1, 2, 3, 4, 5, 6 for rolling a die.
+
+1038
+01:00:45.790 --> 01:00:47.850
+David Schaich (he): heads or tails for flipping a coin
+
+1039
+01:00:48.060 --> 01:00:49.240
+David Schaich (he): rather than
+
+1040
+01:00:49.750 --> 01:00:50.529
+David Schaich (he): the
+
+1041
+01:00:50.870 --> 01:00:52.300
+David Schaich (he): much larger
+
+1042
+01:00:52.430 --> 01:00:54.320
+David Schaich (he): set of all States Omega.
+
+1043
+01:00:55.470 --> 01:00:58.149
+David Schaich (he): So, focusing on those outcomes.
+
+1044
+01:00:58.430 --> 01:00:59.879
+David Schaich (he): It can be fine
+
+1045
+01:01:01.500 --> 01:01:02.680
+David Schaich (he): and events
+
+1046
+01:01:02.920 --> 01:01:04.090
+David Schaich (he): to be
+
+1047
+01:01:06.600 --> 01:01:08.049
+David Schaich (he): any subset
+
+1048
+01:01:09.410 --> 01:01:12.040
+David Schaich (he): of that outcome space. Okay.
+
+1049
+01:01:16.740 --> 01:01:17.779
+David Schaich (he): So
+
+1050
+01:01:19.360 --> 01:01:21.949
+David Schaich (he): it's getting back to that example of the
+
+1051
+01:01:22.280 --> 01:01:23.279
+you had.
+
+1052
+01:01:23.310 --> 01:01:25.109
+David Schaich (he): Yeah, from space, a
+
+1053
+01:01:26.230 --> 01:01:27.450
+David Schaich (he): being the
+
+1054
+01:01:28.430 --> 01:01:30.310
+David Schaich (he): 6 possible size
+
+1055
+01:01:30.340 --> 01:01:31.590
+David Schaich (he): that could come
+
+1056
+01:01:32.300 --> 01:01:34.339
+David Schaich (he): up on top when we measure that
+
+1057
+01:01:34.500 --> 01:01:35.529
+David Schaich (he): so
+
+1058
+01:01:35.710 --> 01:01:36.859
+David Schaich (he): in events
+
+1059
+01:01:38.290 --> 01:01:39.440
+David Schaich (he): it could be
+
+1060
+01:01:41.950 --> 01:01:46.900
+David Schaich (he): getting the 6 out of that outcome space, or just as well
+
+1061
+01:01:47.620 --> 01:01:48.790
+David Schaich (he): it could be
+
+1062
+01:01:49.010 --> 01:01:50.360
+David Schaich (he): giving any other number
+
+1063
+01:01:51.380 --> 01:01:53.000
+David Schaich (he): apart from 6.
+
+1064
+01:01:53.170 --> 01:01:57.939
+David Schaich (he): So all those 5 possibilities, if you get any of 1, 2, 3, 4, 5.
+
+1065
+01:01:57.990 --> 01:02:01.250
+David Schaich (he): We can treat that as a single event
+
+1066
+01:02:02.250 --> 01:02:06.839
+David Schaich (he): for the last one being another one being
+
+1067
+01:02:07.070 --> 01:02:08.390
+David Schaich (he): 0, one
+
+1068
+01:02:09.590 --> 01:02:10.989
+David Schaich (he): an even number
+
+1069
+01:02:11.370 --> 01:02:13.159
+David Schaich (he): 2, 4, or 6.
+
+1070
+01:02:13.210 --> 01:02:16.849
+David Schaich (he): All 3 of those are legitimate offense. They're each subset
+
+1071
+01:02:16.910 --> 01:02:18.040
+David Schaich (he): of the
+
+1072
+01:02:18.390 --> 01:02:20.779
+David Schaich (he): set of all possible outcomes.
+
+1073
+01:02:21.990 --> 01:02:27.539
+David Schaich (he): and it is these events to which we are going to assign probabilities.
+
+1074
+01:02:27.680 --> 01:02:28.500
+and
+
+1075
+01:02:28.840 --> 01:02:30.090
+David Schaich (he): it's the last step
+
+1076
+01:02:30.160 --> 01:02:32.780
+David Schaich (he): for that, let me just say
+
+1077
+01:02:35.280 --> 01:02:36.939
+David Schaich (he): similarly, have
+
+1078
+01:02:37.870 --> 01:02:44.069
+David Schaich (he): an event space like we have an outcome space collecting outcomes. The event space will just
+
+1079
+01:02:45.760 --> 01:02:46.660
+David Schaich (he): be
+
+1080
+01:02:47.670 --> 01:02:48.879
+David Schaich (he): you set
+
+1081
+01:02:53.480 --> 01:02:54.680
+David Schaich (he): of interest.
+
+1082
+01:02:59.030 --> 01:03:02.740
+David Schaich (he): So it is the set of subsets of outcomes.
+
+1083
+01:03:02.950 --> 01:03:05.979
+David Schaich (he): And it is this to which
+
+1084
+01:03:06.600 --> 01:03:08.470
+David Schaich (he): you assign
+
+1085
+01:03:08.680 --> 01:03:10.000
+David Schaich (he): probabilities.
+
+1086
+01:03:10.670 --> 01:03:12.160
+David Schaich (he): Any questions about
+
+1087
+01:03:12.640 --> 01:03:15.629
+David Schaich (he): all of those definitions. Now that we are
+
+1088
+01:03:17.360 --> 01:03:19.389
+David Schaich (he): getting to the
+
+1089
+01:03:27.120 --> 01:03:28.489
+David Schaich (he): so now we have it.
+
+1090
+01:03:32.290 --> 01:03:33.720
+David Schaich (he): the probability
+
+1091
+01:03:36.370 --> 01:03:38.089
+David Schaich (he): is a measure function.
+
+1092
+01:03:41.230 --> 01:03:42.480
+David Schaich (he): I will call
+
+1093
+01:03:43.000 --> 01:03:44.000
+David Schaich (he): the
+
+1094
+01:03:44.030 --> 01:03:45.390
+David Schaich (he): which maps
+
+1095
+01:03:45.690 --> 01:03:47.120
+David Schaich (he): the event space
+
+1096
+01:03:47.450 --> 01:03:48.700
+David Schaich (he): on to
+
+1097
+01:03:48.780 --> 01:03:50.139
+David Schaich (he): the real interval
+
+1098
+01:03:50.590 --> 01:03:52.789
+David Schaich (he): between 0 and one.
+
+1099
+01:03:53.450 --> 01:03:54.569
+David Schaich (he): So that
+
+1100
+01:03:54.810 --> 01:03:57.379
+David Schaich (he): is a formal definition based on
+
+1101
+01:03:58.750 --> 01:03:59.629
+David Schaich (he): the
+
+1102
+01:03:59.800 --> 01:04:04.520
+David Schaich (he): other definitions that we have gone through. See, will reach this event. Space. That is a
+
+1103
+01:04:05.620 --> 01:04:11.269
+David Schaich (he): an attempt for a capital curse of F. On my part, if you're wondering what the school are.
+
+1104
+01:04:11.540 --> 01:04:13.920
+David Schaich (he): I don't need to draw
+
+1105
+01:04:14.390 --> 01:04:17.280
+David Schaich (he): that letter too many times. So
+
+1106
+01:04:18.130 --> 01:04:20.769
+David Schaich (he): what this means? It's giving us
+
+1107
+01:04:21.130 --> 01:04:24.940
+David Schaich (he): a number between 0 and 100% 0 to one
+
+1108
+01:04:26.720 --> 01:04:27.649
+David Schaich (he): for
+
+1109
+01:04:28.200 --> 01:04:29.169
+David Schaich (he): each
+
+1110
+01:04:29.840 --> 01:04:31.860
+David Schaich (he): events of interest.
+
+1111
+01:04:33.610 --> 01:04:34.490
+David Schaich (he): So
+
+1112
+01:04:34.540 --> 01:04:38.649
+David Schaich (he): each of the subsets of the outcomes that we are going to
+
+1113
+01:04:38.730 --> 01:04:39.759
+David Schaich (he): look at
+
+1114
+01:04:40.390 --> 01:04:41.350
+David Schaich (he): and
+
+1115
+01:04:42.160 --> 01:04:48.279
+David Schaich (he): saying that this is a measure function means, it has to satisfy 2 requirements
+
+1116
+01:04:51.460 --> 01:04:52.430
+David Schaich (he): which
+
+1117
+01:04:53.350 --> 01:04:55.749
+David Schaich (he): hopefully, we'll make intuitive sense.
+
+1118
+01:04:57.110 --> 01:04:58.920
+David Schaich (he): If we look at the
+
+1119
+01:04:58.940 --> 01:05:00.759
+David Schaich (he): probability of
+
+1120
+01:05:04.130 --> 01:05:06.969
+David Schaich (he): multiple, usually exclusive
+
+1121
+01:05:07.300 --> 01:05:11.020
+David Schaich (he): events. In that event Space
+
+1122
+01:05:11.230 --> 01:05:12.879
+David Schaich (he): X and Y and Z.
+
+1123
+01:05:13.720 --> 01:05:14.410
+Yes.
+
+1124
+01:05:14.430 --> 01:05:15.330
+David Schaich (he): no.
+
+1125
+01:05:15.380 --> 01:05:17.349
+David Schaich (he): x and Y. Z. At all
+
+1126
+01:05:17.650 --> 01:05:18.750
+David Schaich (he): usually
+
+1127
+01:05:19.390 --> 01:05:20.709
+David Schaich (he): exclusive.
+
+1128
+01:05:22.570 --> 01:05:23.669
+David Schaich (he): Then that
+
+1129
+01:05:23.840 --> 01:05:31.800
+David Schaich (he): overall probability, it must be the sum of the probability of X occurring. That is a number between 0 and one.
+
+1130
+01:05:33.250 --> 01:05:34.840
+David Schaich (he): What's the probability of?
+
+1131
+01:05:34.890 --> 01:05:36.890
+David Schaich (he): Why, on its own.
+
+1132
+01:05:37.220 --> 01:05:39.500
+David Schaich (he): plus the
+
+1133
+01:05:39.700 --> 01:05:41.080
+David Schaich (he): well, more generally
+
+1134
+01:05:46.750 --> 01:05:48.250
+David Schaich (he): comfortable
+
+1135
+01:05:49.280 --> 01:05:51.689
+David Schaich (he): of events in the space.
+
+1136
+01:05:52.540 --> 01:05:57.330
+David Schaich (he): the probability of that union must be the sum of probabilities of
+
+1137
+01:05:57.410 --> 01:06:00.309
+David Schaich (he): the individual events being considered.
+
+1138
+01:06:01.370 --> 01:06:02.290
+David Schaich (he): So
+
+1139
+01:06:04.640 --> 01:06:07.980
+David Schaich (he): you, we will have examples of this, which is to
+
+1140
+01:06:08.330 --> 01:06:15.309
+David Schaich (he): state one right now, if we look at the probability of rolling a 2 or 3 or 4 from that D,
+
+1141
+01:06:15.340 --> 01:06:19.819
+David Schaich (he): we will get the probability of rolling a 2, plus the probability of rolling a 4.
+
+1142
+01:06:19.840 --> 01:06:23.089
+David Schaich (he): What's the problem with what's your building like? I said it 3
+
+1143
+01:06:23.870 --> 01:06:24.850
+David Schaich (he): hopefully.
+
+1144
+01:06:25.350 --> 01:06:28.770
+David Schaich (he): intuitively obvious. Shout out. If not.
+
+1145
+01:06:29.650 --> 01:06:35.940
+David Schaich (he): and there is a second requirement for this probability to be a measure function
+
+1146
+01:06:36.250 --> 01:06:37.609
+David Schaich (he): that if we
+
+1147
+01:06:38.610 --> 01:06:40.140
+David Schaich (he): set the
+
+1148
+01:06:40.920 --> 01:06:42.290
+David Schaich (he): event space.
+
+1149
+01:06:42.680 --> 01:06:44.780
+David Schaich (he): yeah, to be equal
+
+1150
+01:06:44.830 --> 01:06:46.790
+David Schaich (he): to the outcome set itself.
+
+1151
+01:06:48.120 --> 01:06:50.019
+David Schaich (he): So we are looking at the set
+
+1152
+01:06:50.130 --> 01:06:56.370
+David Schaich (he): of all outcomes, each of which is mutually exclusive by construction.
+
+1153
+01:06:56.920 --> 01:07:00.699
+David Schaich (he): This has to be equal to one for a 100%.
+
+1154
+01:07:01.140 --> 01:07:03.480
+David Schaich (he): And that is just saying that the
+
+1155
+01:07:03.780 --> 01:07:05.089
+David Schaich (he): experiments
+
+1156
+01:07:06.810 --> 01:07:09.069
+David Schaich (he): and measurement we do, These 2
+
+1157
+01:07:09.510 --> 01:07:10.790
+David Schaich (he): have someone
+
+1158
+01:07:12.850 --> 01:07:14.939
+David Schaich (he): measurable outcome.
+
+1159
+01:07:23.050 --> 01:07:23.779
+David Schaich (he): Yeah.
+
+1160
+01:07:24.880 --> 01:07:26.219
+David Schaich (he): it's also so
+
+1161
+01:07:26.480 --> 01:07:30.110
+David Schaich (he): the probability of something happening used to be a 100%.
+
+1162
+01:07:30.210 --> 01:07:31.050
+David Schaich (he): And the
+
+1163
+01:07:31.090 --> 01:07:32.939
+David Schaich (he): in essence this is a
+
+1164
+01:07:34.440 --> 01:07:42.139
+David Schaich (he): restriction on the experiments and measurements that we consider if we do an experiment that doesn't produce a visual outcome.
+
+1165
+01:07:42.160 --> 01:07:48.579
+David Schaich (he): You might as well not have that it at all. It doesn't filter through to that event space and through the probabilities.
+
+1166
+01:07:48.670 --> 01:07:50.100
+David Schaich (he): So when we talk about
+
+1167
+01:07:50.180 --> 01:07:57.460
+David Schaich (he): flipping a coin, we will talk only about the probabilities of it landing heads or tails, and not the probability that
+
+1168
+01:07:57.550 --> 01:07:59.409
+David Schaich (he): a seagull through spy, and
+
+1169
+01:07:59.620 --> 01:08:01.409
+David Schaich (he): it's it's in midair.
+
+1170
+01:08:01.500 --> 01:08:06.409
+David Schaich (he): That's going to be an experiment that we discard and Don't include
+
+1171
+01:08:06.820 --> 01:08:08.710
+David Schaich (he): in the set of outcomes.
+
+1172
+01:08:08.760 --> 01:08:09.819
+David Schaich (he): or in
+
+1173
+01:08:10.050 --> 01:08:12.290
+David Schaich (he): the probability space.
+
+1174
+01:08:13.330 --> 01:08:14.279
+David Schaich (he): I'm. Shy
+
+1175
+01:08:14.380 --> 01:08:16.730
+David Schaich (he): almost not to define. If we
+
+1176
+01:08:20.819 --> 01:08:22.080
+David Schaich (he): put together
+
+1177
+01:08:23.140 --> 01:08:24.900
+David Schaich (he): everything we defined
+
+1178
+01:08:25.420 --> 01:08:26.559
+David Schaich (he): so far.
+
+1179
+01:08:26.870 --> 01:08:28.699
+David Schaich (he): What we end up with is
+
+1180
+01:08:29.910 --> 01:08:31.540
+David Schaich (he): the concept of
+
+1181
+01:08:32.000 --> 01:08:33.800
+David Schaich (he): the probability space.
+
+1182
+01:08:34.760 --> 01:08:36.439
+David Schaich (he): hey?
+
+1183
+01:08:36.790 --> 01:08:37.990
+David Schaich (he): And P.
+
+1184
+01:08:39.029 --> 01:08:40.200
+David Schaich (he): So this is
+
+1185
+01:08:41.069 --> 01:08:42.649
+David Schaich (he): bringing together
+
+1186
+01:08:43.250 --> 01:08:44.890
+David Schaich (he): all of the outcomes
+
+1187
+01:08:44.910 --> 01:08:48.060
+David Schaich (he): of the experiments and measurement that we do.
+
+1188
+01:08:48.210 --> 01:08:54.790
+David Schaich (he): All of the events, the possible subsets of those outcomes that we're interested in, each of which has
+
+1189
+01:08:55.460 --> 01:08:57.679
+David Schaich (he): its own probability.
+
+1190
+01:09:05.390 --> 01:09:07.240
+David Schaich (he): This probability. Space
+
+1191
+01:09:08.020 --> 01:09:08.950
+David Schaich (he): is
+
+1192
+01:09:09.240 --> 01:09:10.420
+David Schaich (he): the basic
+
+1193
+01:09:11.390 --> 01:09:17.430
+David Schaich (he): object that we'll be working with in the form of what are called statistical ensembles.
+
+1194
+01:09:17.710 --> 01:09:22.790
+David Schaich (he): We'll revisit that more formally once we get to it.
+
+1195
+01:09:23.319 --> 01:09:28.469
+David Schaich (he): But a statistical ensemble is going to be like that example of argon atoms in a container.
+
+1196
+01:09:28.920 --> 01:09:33.260
+David Schaich (he): it will be the probability of space that corresponds to some collection of particles
+
+1197
+01:09:33.399 --> 01:09:36.259
+David Schaich (he): that involves in time. That's the experiment
+
+1198
+01:09:37.340 --> 01:09:38.790
+David Schaich (he): that we observed
+
+1199
+01:09:38.870 --> 01:09:39.990
+David Schaich (he): and measure
+
+1200
+01:09:40.590 --> 01:09:42.910
+David Schaich (he): the possible States. It has
+
+1201
+01:09:43.130 --> 01:09:45.720
+David Schaich (he): with corresponding probabilities
+
+1202
+01:09:45.870 --> 01:09:47.269
+David Schaich (he): that forms to you
+
+1203
+01:09:47.359 --> 01:09:48.750
+David Schaich (he): basis of
+
+1204
+01:09:51.149 --> 01:09:53.109
+David Schaich (he): the analysis that we will do
+
+1205
+01:09:53.680 --> 01:09:55.459
+David Schaich (he): first, that we still need to
+
+1206
+01:09:55.800 --> 01:09:58.750
+David Schaich (he): get to that wall of large numbers
+
+1207
+01:09:58.930 --> 01:10:00.910
+David Schaich (he): and central limit theorem. At least
+
+1208
+01:10:01.080 --> 01:10:02.430
+David Schaich (he): we stay in them
+
+1209
+01:10:03.900 --> 01:10:04.849
+and
+
+1210
+01:10:05.000 --> 01:10:05.969
+let's
+
+1211
+01:10:06.160 --> 01:10:08.100
+David Schaich (he): continue toward that, just by
+
+1212
+01:10:10.680 --> 01:10:14.989
+David Schaich (he): talking through another example for the remaining definitions that we have
+
+1213
+01:10:15.890 --> 01:10:17.179
+David Schaich (he): all through.
+
+1214
+01:10:17.590 --> 01:10:20.050
+David Schaich (he): Let's suppose we have
+
+1215
+01:10:20.410 --> 01:10:23.029
+David Schaich (he): some experiment that produces a
+
+1216
+01:10:23.850 --> 01:10:24.959
+David Schaich (he): how many nights
+
+1217
+01:10:25.820 --> 01:10:29.590
+David Schaich (he): a set of possible events. So the event space.
+
+1218
+01:10:30.230 --> 01:10:32.399
+David Schaich (he): It's just going to be omega one.
+
+1219
+01:10:33.080 --> 01:10:34.840
+David Schaich (he): some state omega 2,
+
+1220
+01:10:35.300 --> 01:10:36.550
+David Schaich (he): and then up to
+
+1221
+01:10:37.480 --> 01:10:40.980
+David Schaich (he): Omega sub capital n total number of
+
+1222
+01:10:41.640 --> 01:10:44.520
+David Schaich (he): states that we have is just a capital N,
+
+1223
+01:10:45.080 --> 01:10:46.189
+David Schaich (he): and then we
+
+1224
+01:10:48.430 --> 01:10:49.559
+David Schaich (he): measure
+
+1225
+01:10:49.730 --> 01:10:53.020
+David Schaich (he): something of interest on each of those States.
+
+1226
+01:10:53.470 --> 01:10:54.590
+David Schaich (he): which is, we
+
+1227
+01:10:54.830 --> 01:10:56.700
+David Schaich (he): says, this can't give
+
+1228
+01:10:58.660 --> 01:10:59.889
+David Schaich (he): the same
+
+1229
+01:11:00.770 --> 01:11:01.849
+David Schaich (he): outcome
+
+1230
+01:11:03.350 --> 01:11:04.150
+David Schaich (he): for
+
+1231
+01:11:05.750 --> 01:11:07.489
+David Schaich (he): different or distinct
+
+1232
+01:11:07.610 --> 01:11:08.639
+David Schaich (he): states.
+
+1233
+01:11:09.990 --> 01:11:11.349
+David Schaich (he): Mathematically
+
+1234
+01:11:11.620 --> 01:11:12.639
+David Schaich (he): excellent.
+
+1235
+01:11:12.820 --> 01:11:14.439
+David Schaich (he): We'll make this up all you
+
+1236
+01:11:15.290 --> 01:11:18.180
+David Schaich (he): can be equal to X of Omega subject.
+
+1237
+01:11:18.610 --> 01:11:19.769
+David Schaich (he): even when
+
+1238
+01:11:20.930 --> 01:11:23.920
+our distinct states.
+
+1239
+01:11:25.040 --> 01:11:26.949
+David Schaich (he): That's the example. We talked through
+
+1240
+01:11:27.050 --> 01:11:32.729
+David Schaich (he): slipping a coin and getting heads even when the coin flip was at a different time of different force.
+
+1241
+01:11:32.840 --> 01:11:34.319
+David Schaich (he): So that means that the
+
+1242
+01:11:34.830 --> 01:11:36.309
+David Schaich (he): outcome space
+
+1243
+01:11:38.270 --> 01:11:39.670
+David Schaich (he): it's going to be
+
+1244
+01:11:41.530 --> 01:11:43.749
+David Schaich (he): smaller than the overall
+
+1245
+01:11:46.710 --> 01:11:50.380
+David Schaich (he): that space, this this set of possible states.
+
+1246
+01:11:52.070 --> 01:12:01.329
+David Schaich (he): So we will have, say X. One you can use as a shorthand for some measurement on one of these states, Omega, not necessarily
+
+1247
+01:12:01.360 --> 01:12:05.390
+David Schaich (he): like a one or an x 2 for distinct
+
+1248
+01:12:06.560 --> 01:12:09.380
+David Schaich (he): measurement outcomes on a different set of states
+
+1249
+01:12:09.620 --> 01:12:13.100
+David Schaich (he): all the way up to an X to a lower case, and
+
+1250
+01:12:13.220 --> 01:12:16.060
+David Schaich (he): where number of elements in a
+
+1251
+01:12:16.590 --> 01:12:18.309
+David Schaich (he): it's the slower case, and
+
+1252
+01:12:18.540 --> 01:12:19.389
+David Schaich (he): which
+
+1253
+01:12:19.700 --> 01:12:23.169
+David Schaich (he): can be no larger than the number of States that we started off with it.
+
+1254
+01:12:23.720 --> 01:12:24.389
+We've
+
+1255
+01:12:24.590 --> 01:12:25.869
+David Schaich (he): put in here for you
+
+1256
+01:12:26.520 --> 01:12:30.799
+David Schaich (he): construction that all of these measurements are to stand
+
+1257
+01:12:32.430 --> 01:12:33.760
+David Schaich (he): so if we
+
+1258
+01:12:35.550 --> 01:12:37.059
+David Schaich (he): choose the
+
+1259
+01:12:37.490 --> 01:12:39.950
+David Schaich (he): that space of interest to be
+
+1260
+01:12:41.050 --> 01:12:42.880
+David Schaich (he): that's outcome. Space
+
+1261
+01:12:43.060 --> 01:12:45.780
+David Schaich (he): have equals day. Which just means that
+
+1262
+01:12:46.280 --> 01:12:50.410
+David Schaich (he): what events will be interested in when the outcome is x one
+
+1263
+01:12:50.530 --> 01:12:53.099
+David Schaich (he): another events, I mean the next 2.
+
+1264
+01:12:53.430 --> 01:12:54.359
+David Schaich (he): So on.
+
+1265
+01:12:54.670 --> 01:12:58.629
+David Schaich (he): for all of the remaining individual outcomes, looking at the one by one.
+
+1266
+01:12:59.940 --> 01:13:01.159
+David Schaich (he): These are all
+
+1267
+01:13:01.510 --> 01:13:04.949
+David Schaich (he): usually exclusive events by construction.
+
+1268
+01:13:05.120 --> 01:13:06.130
+David Schaich (he): So the
+
+1269
+01:13:06.370 --> 01:13:07.670
+David Schaich (he): probability, and
+
+1270
+01:13:07.740 --> 01:13:08.610
+David Schaich (he): oh.
+
+1271
+01:13:08.740 --> 01:13:09.920
+David Schaich (he): x I.
+
+1272
+01:13:10.260 --> 01:13:11.799
+David Schaich (he): For Xj.
+
+1273
+01:13:12.590 --> 01:13:13.540
+David Schaich (he): Is
+
+1274
+01:13:13.860 --> 01:13:15.259
+David Schaich (he): the some of the
+
+1275
+01:13:16.140 --> 01:13:20.219
+David Schaich (he): to individual probabilities of those 2 outcomes
+
+1276
+01:13:20.610 --> 01:13:21.620
+David Schaich (he): we can call
+
+1277
+01:13:22.650 --> 01:13:24.419
+David Schaich (he): Probability P. All in
+
+1278
+01:13:24.460 --> 01:13:25.980
+David Schaich (he): and Pj.
+
+1279
+01:13:27.320 --> 01:13:29.540
+David Schaich (he): That assumes I is not equal to J.
+
+1280
+01:13:29.760 --> 01:13:31.290
+David Schaich (he): And the
+
+1281
+01:13:32.620 --> 01:13:36.239
+David Schaich (he): probability of the outcome space as a whole.
+
+1282
+01:13:38.050 --> 01:13:39.050
+David Schaich (he): which is.
+
+1283
+01:13:39.240 --> 01:13:40.440
+David Schaich (he): how do you
+
+1284
+01:13:40.600 --> 01:13:41.790
+David Schaich (he): X, one.
+
+1285
+01:13:42.780 --> 01:13:44.250
+David Schaich (he): 4, x, 2,
+
+1286
+01:13:44.320 --> 01:13:46.400
+David Schaich (he): or any of the other outcomes
+
+1287
+01:13:46.610 --> 01:13:47.920
+David Schaich (he): up to Xn
+
+1288
+01:13:49.290 --> 01:13:51.099
+David Schaich (he): that? It's the sum
+
+1289
+01:13:51.850 --> 01:13:54.429
+David Schaich (he): I going from one to the
+
+1290
+01:13:54.620 --> 01:13:56.279
+David Schaich (he): all of each of those
+
+1291
+01:13:56.420 --> 01:13:58.290
+David Schaich (he): probabilities
+
+1292
+01:13:59.230 --> 01:14:03.580
+David Schaich (he): that we've defined for the individual outcomes, and we know that this
+
+1293
+01:14:03.710 --> 01:14:09.879
+David Schaich (he): as they add up to one. That's the requirement on the probability as a measure function.
+
+1294
+01:14:11.500 --> 01:14:12.570
+David Schaich (he): And
+
+1295
+01:14:13.340 --> 01:14:14.269
+David Schaich (he): hey you.
+
+1296
+01:14:15.500 --> 01:14:16.710
+David Schaich (he): it's yeah
+
+1297
+01:14:19.620 --> 01:14:20.860
+David Schaich (he): switch to
+
+1298
+01:14:21.490 --> 01:14:22.970
+David Schaich (he): a new page.
+
+1299
+01:14:23.210 --> 01:14:24.869
+David Schaich (he): Make sure there's space.
+
+1300
+01:14:25.480 --> 01:14:28.029
+David Schaich (he): Continue that example by it
+
+1301
+01:14:28.220 --> 01:14:30.090
+David Schaich (he): special specifying.
+
+1302
+01:14:30.260 --> 01:14:31.340
+David Schaich (he): Hey, you
+
+1303
+01:14:31.450 --> 01:14:34.660
+David Schaich (he): there die again the 6 sides you've written down
+
+1304
+01:14:34.860 --> 01:14:36.490
+David Schaich (he): the outcome space
+
+1305
+01:14:39.000 --> 01:14:40.179
+David Schaich (he): before
+
+1306
+01:14:44.480 --> 01:14:45.849
+David Schaich (he): it was just
+
+1307
+01:14:50.810 --> 01:14:53.530
+David Schaich (he): the number that comes out on top.
+
+1308
+01:14:54.560 --> 01:14:56.499
+David Schaich (he): And what we mean by fair
+
+1309
+01:14:56.520 --> 01:14:57.570
+David Schaich (he): is that
+
+1310
+01:14:57.610 --> 01:14:58.950
+David Schaich (he): the corresponding
+
+1311
+01:14:59.060 --> 01:15:03.159
+David Schaich (he): probabilities for each of those 6 outcomes
+
+1312
+01:15:03.480 --> 01:15:05.119
+David Schaich (he): are all going to be
+
+1313
+01:15:05.400 --> 01:15:06.450
+David Schaich (he): you cool
+
+1314
+01:15:07.580 --> 01:15:08.849
+David Schaich (he): Some probabilities
+
+1315
+01:15:08.890 --> 01:15:12.739
+David Schaich (he): piece of one through piece of 6, or on the quote and just call that
+
+1316
+01:15:12.770 --> 01:15:13.599
+David Schaich (he): P.
+
+1317
+01:15:15.320 --> 01:15:16.200
+David Schaich (he): So.
+
+1318
+01:15:16.900 --> 01:15:20.369
+David Schaich (he): acting with this probability measure function
+
+1319
+01:15:20.480 --> 01:15:21.550
+David Schaich (he): on that.
+
+1320
+01:15:21.730 --> 01:15:22.730
+David Schaich (he): the
+
+1321
+01:15:23.040 --> 01:15:25.849
+David Schaich (he): outcome space for this role of the dial.
+
+1322
+01:15:27.250 --> 01:15:28.469
+David Schaich (he): How was this that
+
+1323
+01:15:29.240 --> 01:15:30.380
+David Schaich (he): some
+
+1324
+01:15:31.310 --> 01:15:33.800
+David Schaich (he): I one to 6?
+
+1325
+01:15:34.070 --> 01:15:35.139
+David Schaich (he): Oh.
+
+1326
+01:15:35.190 --> 01:15:36.809
+David Schaich (he): it Constant P.
+
+1327
+01:15:39.150 --> 01:15:40.110
+David Schaich (he): It's just
+
+1328
+01:15:40.460 --> 01:15:43.739
+David Schaich (he): e plus p plus p plus p. 6 times
+
+1329
+01:15:43.810 --> 01:15:45.699
+David Schaich (he): that has to be equal to one.
+
+1330
+01:15:45.770 --> 01:15:46.849
+David Schaich (he): So
+
+1331
+01:15:46.870 --> 01:15:49.830
+David Schaich (he): we finally got into where some of you were already.
+
+1332
+01:15:49.990 --> 01:15:55.950
+David Schaich (he): that the probability for each outcome, the role of the fair die is 1 6.
+
+1333
+01:15:58.980 --> 01:16:00.070
+David Schaich (he): We can do
+
+1334
+01:16:00.190 --> 01:16:01.830
+David Schaich (he): that same for
+
+1335
+01:16:02.920 --> 01:16:05.080
+David Schaich (he): the same exercise, for that
+
+1336
+01:16:05.580 --> 01:16:07.239
+David Schaich (he): other example of
+
+1337
+01:16:08.380 --> 01:16:09.340
+David Schaich (he): for
+
+1338
+01:16:12.520 --> 01:16:19.260
+David Schaich (he): flips of the coin that we will now assume, we will now declare, is also fair.
+
+1339
+01:16:21.760 --> 01:16:28.290
+David Schaich (he): There says that we have the equal probability of getting either the 2 outcomes for each flip, heads or tails.
+
+1340
+01:16:28.430 --> 01:16:31.729
+David Schaich (he): There's no bias in one direction or the other.
+
+1341
+01:16:32.590 --> 01:16:33.620
+David Schaich (he): so
+
+1342
+01:16:33.890 --> 01:16:35.180
+David Schaich (he): we have that
+
+1343
+01:16:41.060 --> 01:16:46.379
+David Schaich (he): when we flip it 4 times we get 16 possible outcomes, each of which has
+
+1344
+01:16:46.420 --> 01:16:49.010
+David Schaich (he): equal probability. 2,
+
+1345
+01:16:49.610 --> 01:16:51.009
+David Schaich (he): all of the others.
+
+1346
+01:16:51.160 --> 01:16:54.909
+David Schaich (he): the PP. 16, and we'll call what you know it's again.
+
+1347
+01:16:55.100 --> 01:16:56.130
+David Schaich (he): and by
+
+1348
+01:16:56.260 --> 01:16:57.559
+David Schaich (he): acting on.
+
+1349
+01:17:00.440 --> 01:17:04.830
+David Schaich (he): by considering the probability of an event space
+
+1350
+01:17:05.060 --> 01:17:09.999
+David Schaich (he): that is equal to the outcome space. Each of those 16 possible outcomes
+
+1351
+01:17:10.250 --> 01:17:11.389
+David Schaich (he): you find
+
+1352
+01:17:12.140 --> 01:17:13.030
+David Schaich (he): to you
+
+1353
+01:17:13.150 --> 01:17:17.179
+David Schaich (he): some over 16 equal probabilities.
+
+1354
+01:17:17.390 --> 01:17:19.650
+David Schaich (he): which is 16 times
+
+1355
+01:17:19.710 --> 01:17:22.279
+David Schaich (he): the unusual probability. It must be one.
+
+1356
+01:17:23.410 --> 01:17:24.780
+David Schaich (he): Or, in other words.
+
+1357
+01:17:25.120 --> 01:17:25.990
+David Schaich (he): that's
+
+1358
+01:17:26.960 --> 01:17:33.489
+David Schaich (he): he is one over 16 for each of those 16 possible outcomes of flipping a Bitcoin
+
+1359
+01:17:33.570 --> 01:17:34.809
+David Schaich (he): 4 times.
+
+1360
+01:17:36.760 --> 01:17:39.779
+David Schaich (he): And now that we've determined the probabilities of
+
+1361
+01:17:39.940 --> 01:17:41.050
+David Schaich (he): each other.
+
+1362
+01:17:41.300 --> 01:17:44.870
+David Schaich (he): these individual events, so identifying an events as
+
+1363
+01:17:45.720 --> 01:17:46.610
+David Schaich (he): hey
+
+1364
+01:17:47.350 --> 01:17:49.600
+David Schaich (he): elements in the outcome space.
+
+1365
+01:17:49.670 --> 01:17:52.450
+David Schaich (he): we can think about different outcome spaces.
+
+1366
+01:17:52.580 --> 01:17:53.610
+David Schaich (he): So
+
+1367
+01:17:57.950 --> 01:18:02.990
+David Schaich (he): so from space is a the event space. You'll think about a different event space
+
+1368
+01:18:03.160 --> 01:18:08.000
+David Schaich (he): before I have 2 different events, 2 different subsets of the outcome space.
+
+1369
+01:18:08.520 --> 01:18:12.109
+David Schaich (he): One of the subsets will be the outcomes where
+
+1370
+01:18:13.020 --> 01:18:14.529
+David Schaich (he): number of heads
+
+1371
+01:18:14.860 --> 01:18:15.880
+David Schaich (he): and
+
+1372
+01:18:16.820 --> 01:18:18.709
+David Schaich (he): the number of tails are equal.
+
+1373
+01:18:19.230 --> 01:18:22.260
+David Schaich (he): and another events can be
+
+1374
+01:18:22.980 --> 01:18:24.709
+David Schaich (he): the outcome where
+
+1375
+01:18:25.240 --> 01:18:26.690
+David Schaich (he): number of heads
+
+1376
+01:18:27.070 --> 01:18:29.020
+David Schaich (he): and the number of tales is
+
+1377
+01:18:29.320 --> 01:18:30.240
+David Schaich (he): different.
+
+1378
+01:18:31.820 --> 01:18:33.210
+David Schaich (he): and we can now
+
+1379
+01:18:34.510 --> 01:18:36.340
+David Schaich (he): based on the
+
+1380
+01:18:37.100 --> 01:18:38.139
+David Schaich (he): other
+
+1381
+01:18:38.960 --> 01:18:44.120
+David Schaich (he): requirement. For that your function to determine the probabilities of these 2 events.
+
+1382
+01:18:45.320 --> 01:18:46.290
+David Schaich (he): So
+
+1383
+01:18:48.360 --> 01:18:49.559
+David Schaich (he): there are
+
+1384
+01:18:49.980 --> 01:18:50.740
+well
+
+1385
+01:18:50.760 --> 01:18:54.070
+David Schaich (he): how many different outcomes are there that's fall into this
+
+1386
+01:18:54.200 --> 01:18:57.320
+David Schaich (he): first subset, where a number of heads and tails
+
+1387
+01:18:57.410 --> 01:18:58.530
+David Schaich (he): are equal.
+
+1388
+01:19:04.700 --> 01:19:05.969
+David Schaich (he): What possible
+
+1389
+01:19:06.100 --> 01:19:08.199
+David Schaich (he): outcome of this form is to
+
+1390
+01:19:09.350 --> 01:19:13.889
+David Schaich (he): have 2 heads at first, and then 2 tails. Thereafter
+
+1391
+01:19:14.030 --> 01:19:17.560
+David Schaich (he): what the opposite could happen. 2 tails and 2 heads.
+
+1392
+01:19:22.710 --> 01:19:24.669
+David Schaich (he): and i'll just yeah go ahead and
+
+1393
+01:19:25.280 --> 01:19:28.310
+David Schaich (he): like the possible permutations
+
+1394
+01:19:28.580 --> 01:19:29.590
+David Schaich (he): of that
+
+1395
+01:19:30.310 --> 01:19:33.060
+David Schaich (he): outcome, the 2 heads into tails
+
+1396
+01:19:34.610 --> 01:19:35.780
+David Schaich (he): outcomes.
+
+1397
+01:19:42.170 --> 01:19:49.010
+David Schaich (he): So those are 6 events that have an equal number of 2 heads and 2 tails.
+
+1398
+01:19:49.330 --> 01:19:59.269
+David Schaich (he): It's a bit of thought hopefully. You will not object when I say that there are no other events from from the a point 4 times that have an equal number, they always have to be
+
+1399
+01:19:59.370 --> 01:20:00.580
+David Schaich (he): 2 and 2;
+
+1400
+01:20:01.700 --> 01:20:02.660
+David Schaich (he): and
+
+1401
+01:20:02.820 --> 01:20:05.850
+David Schaich (he): because the probability of
+
+1402
+01:20:06.640 --> 01:20:07.639
+David Schaich (he): this
+
+1403
+01:20:08.960 --> 01:20:11.669
+David Schaich (he): countable union of different outcomes.
+
+1404
+01:20:11.750 --> 01:20:14.040
+David Schaich (he): It's just the probability of
+
+1405
+01:20:14.370 --> 01:20:18.200
+David Schaich (he): but the sum of the probability of each individual outcome
+
+1406
+01:20:21.530 --> 01:20:22.920
+David Schaich (he): Probability of
+
+1407
+01:20:24.330 --> 01:20:29.050
+David Schaich (he): this first events in the event, space getting an equal number of Hasn't handles.
+
+1408
+01:20:29.890 --> 01:20:30.800
+David Schaich (he): He is
+
+1409
+01:20:31.120 --> 01:20:32.190
+David Schaich (he): 6
+
+1410
+01:20:33.830 --> 01:20:36.199
+David Schaich (he): outcomes, each of which has
+
+1411
+01:20:36.860 --> 01:20:43.360
+David Schaich (he): that equal probability of one sixteenth, which is known as 3 days to its friends.
+
+1412
+01:20:49.370 --> 01:20:51.069
+David Schaich (he): Similar bit of
+
+1413
+01:20:51.230 --> 01:20:52.620
+David Schaich (he): consideration
+
+1414
+01:20:53.380 --> 01:20:54.700
+David Schaich (he): we can think about
+
+1415
+01:20:54.840 --> 01:20:55.750
+David Schaich (he): the
+
+1416
+01:20:56.570 --> 01:20:57.900
+David Schaich (he): other events.
+
+1417
+01:20:58.150 --> 01:21:02.150
+David Schaich (he): Yeah, Convince yourselves if you have not done so already at
+
+1418
+01:21:02.340 --> 01:21:09.469
+David Schaich (he): every single event from flipping this point 4 times that does not give 2 heads and 2 tails has to give a different number
+
+1419
+01:21:09.510 --> 01:21:11.169
+David Schaich (he): of heads. And
+
+1420
+01:21:11.420 --> 01:21:12.240
+David Schaich (he): so
+
+1421
+01:21:12.680 --> 01:21:14.100
+David Schaich (he): you are 10 of those.
+
+1422
+01:21:14.220 --> 01:21:15.170
+plus the
+
+1423
+01:21:15.370 --> 01:21:17.939
+David Schaich (he): 6 out of 16 into those 10
+
+1424
+01:21:17.960 --> 01:21:21.880
+David Schaich (he): as a one over 16 probability with a fair coin. What!
+
+1425
+01:21:22.150 --> 01:21:23.400
+David Schaich (he): 5 days!
+
+1426
+01:21:24.370 --> 01:21:30.679
+David Schaich (he): So These are the probabilities that map the events in the event space onto
+
+1427
+01:21:30.700 --> 01:21:33.619
+David Schaich (he): that's real interval from 0 to one.
+
+1428
+01:21:38.740 --> 01:21:41.059
+David Schaich (he): What we can do now is
+
+1429
+01:21:41.530 --> 01:21:43.210
+David Schaich (he): introduce a
+
+1430
+01:21:45.340 --> 01:21:47.780
+David Schaich (he): more interesting example.
+
+1431
+01:21:48.070 --> 01:21:49.109
+David Schaich (he): Sh! I
+
+1432
+01:21:49.400 --> 01:21:51.459
+David Schaich (he): have put somewhere
+
+1433
+01:21:56.070 --> 01:21:57.059
+David Schaich (he): absolutely.
+
+1434
+01:21:58.040 --> 01:21:59.719
+David Schaich (he): I don't think of their page there.
+
+1435
+01:22:01.550 --> 01:22:02.559
+David Schaich (he): and
+
+1436
+01:22:07.080 --> 01:22:08.200
+David Schaich (he): this is
+
+1437
+01:22:08.320 --> 01:22:13.830
+David Schaich (he): a European roulette wheel that is a gambling game
+
+1438
+01:22:14.430 --> 01:22:18.349
+David Schaich (he): which i'm not going to advocate
+
+1439
+01:22:20.480 --> 01:22:22.109
+David Schaich (he): gambling. But
+
+1440
+01:22:22.370 --> 01:22:23.380
+David Schaich (he): it is
+
+1441
+01:22:24.010 --> 01:22:27.750
+David Schaich (he): something that gives us a lot of intricate probability to think about, especially if you
+
+1442
+01:22:27.950 --> 01:22:32.840
+David Schaich (he): find yourself by some strange coin in the Casino, where we let this ongoing.
+
+1443
+01:22:33.600 --> 01:22:34.970
+David Schaich (he): The idea is.
+
+1444
+01:22:35.000 --> 01:22:45.179
+David Schaich (he): this is a wheel that spins a ball. It's thrown into that wheel to spin around in the opposite direction, and as it slows it will land in one of these
+
+1445
+01:22:45.210 --> 01:22:46.469
+David Schaich (he): 37
+
+1446
+01:22:46.730 --> 01:22:47.740
+David Schaich (he): pockets
+
+1447
+01:22:47.820 --> 01:22:51.239
+David Schaich (he): let's see space I have on the screen here.
+
+1448
+01:22:57.290 --> 01:22:57.990
+David Schaich (he): and
+
+1449
+01:23:00.790 --> 01:23:01.559
+David Schaich (he): good
+
+1450
+01:23:01.790 --> 01:23:06.520
+David Schaich (he): the gambling works by placing a that beforehand on either which
+
+1451
+01:23:06.540 --> 01:23:12.819
+David Schaich (he): pockets the ball will end up in for which some of these pockets you will end up in.
+
+1452
+01:23:14.440 --> 01:23:17.540
+David Schaich (he): We can see you mentioned that 18
+
+1453
+01:23:17.760 --> 01:23:18.930
+David Schaich (he): of these
+
+1454
+01:23:19.460 --> 01:23:21.700
+David Schaich (he): pockets are.
+
+1455
+01:23:22.530 --> 01:23:23.860
+David Schaich (he): You can also bet.
+
+1456
+01:23:24.200 --> 01:23:28.849
+David Schaich (he): not the all ending up in any of those. There are 18 that are black.
+
+1457
+01:23:29.050 --> 01:23:30.230
+David Schaich (he): and there is
+
+1458
+01:23:30.550 --> 01:23:32.499
+David Schaich (he): the one green pocket
+
+1459
+01:23:32.580 --> 01:23:34.189
+David Schaich (he): number 0.
+
+1460
+01:23:35.390 --> 01:23:36.450
+David Schaich (he): There.
+
+1461
+01:23:38.380 --> 01:23:40.819
+David Schaich (he): We need to zoom out
+
+1462
+01:23:40.900 --> 01:23:42.429
+David Schaich (he): slightly to have
+
+1463
+01:23:42.680 --> 01:23:47.850
+David Schaich (he): that figure on the screen and some blank space underneath it. So the outcome sets
+
+1464
+01:23:48.310 --> 01:23:49.630
+David Schaich (he): are they spin
+
+1465
+01:23:50.130 --> 01:23:52.000
+David Schaich (he): of the roulette wheel
+
+1466
+01:23:57.110 --> 01:23:58.230
+David Schaich (he): measurements
+
+1467
+01:23:59.790 --> 01:24:02.869
+David Schaich (he): the pocket that the ball falls into
+
+1468
+01:24:05.630 --> 01:24:06.780
+David Schaich (he): gives us
+
+1469
+01:24:06.820 --> 01:24:08.040
+David Schaich (he): 37
+
+1470
+01:24:08.340 --> 01:24:10.699
+David Schaich (he): possibilities that we can
+
+1471
+01:24:11.190 --> 01:24:12.309
+David Schaich (he): legal
+
+1472
+01:24:13.260 --> 01:24:15.970
+David Schaich (he): 0, 1, 2 up to 36
+
+1473
+01:24:16.770 --> 01:24:21.099
+David Schaich (he): specifying which of these 37 pockets at the
+
+1474
+01:24:21.130 --> 01:24:22.090
+David Schaich (he): ball
+
+1475
+01:24:22.790 --> 01:24:25.629
+David Schaich (he): falls into. So we
+
+1476
+01:24:25.820 --> 01:24:27.769
+David Schaich (he): should remember gambling with that
+
+1477
+01:24:28.750 --> 01:24:30.059
+David Schaich (he): we are dealing with
+
+1478
+01:24:31.430 --> 01:24:33.690
+David Schaich (he): the scare roulette wheel.
+
+1479
+01:24:35.740 --> 01:24:37.679
+David Schaich (he): No, the same
+
+1480
+01:24:37.750 --> 01:24:40.679
+David Schaich (he): sorts of derivations that we did for the simpler examples.
+
+1481
+01:24:40.880 --> 01:24:42.170
+David Schaich (he): How? What's that for you?
+
+1482
+01:24:42.390 --> 01:24:45.469
+David Schaich (he): Some of I 0 to 36
+
+1483
+01:24:45.770 --> 01:24:50.439
+David Schaich (he): of equal probabilities for each of these 37 pockets.
+
+1484
+01:24:51.360 --> 01:24:54.269
+David Schaich (he): As up to that 100% probability.
+
+1485
+01:24:54.520 --> 01:24:55.889
+David Schaich (he): One of the words.
+
+1486
+01:24:56.670 --> 01:24:58.110
+David Schaich (he): there is a conference
+
+1487
+01:24:58.320 --> 01:25:00.510
+David Schaich (he): probability one over 37
+
+1488
+01:25:01.590 --> 01:25:05.679
+David Schaich (he): for each measurement outcome. The ball ended up in each of these
+
+1489
+01:25:05.800 --> 01:25:07.389
+David Schaich (he): 37 pockets.
+
+1490
+01:25:11.270 --> 01:25:13.940
+David Schaich (he): We can then consider the
+
+1491
+01:25:14.410 --> 01:25:17.600
+David Schaich (he): sort of event space that might be relevant to
+
+1492
+01:25:17.730 --> 01:25:21.250
+David Schaich (he): a gambling game being played with this roulette wheel
+
+1493
+01:25:22.300 --> 01:25:24.300
+David Schaich (he): that could be placed on
+
+1494
+01:25:24.540 --> 01:25:25.840
+David Schaich (he): whether the
+
+1495
+01:25:29.360 --> 01:25:31.790
+David Schaich (he): or the black pocket for that one
+
+1496
+01:25:32.810 --> 01:25:34.159
+David Schaich (he): me in pocket.
+
+1497
+01:25:34.940 --> 01:25:36.509
+David Schaich (he): We can check that. These
+
+1498
+01:25:39.070 --> 01:25:40.960
+David Schaich (he): events are all mutually
+
+1499
+01:25:41.480 --> 01:25:42.559
+David Schaich (he): exclusive.
+
+1500
+01:25:42.610 --> 01:25:44.099
+David Schaich (he): In that event, Space?
+
+1501
+01:25:44.230 --> 01:25:45.830
+David Schaich (he): Yeah, pretty easily confused.
+
+1502
+01:25:45.960 --> 01:25:48.570
+David Schaich (he): the corresponding probabilities again assuming
+
+1503
+01:25:49.540 --> 01:25:50.700
+David Schaich (he): at the
+
+1504
+01:25:50.840 --> 01:25:52.769
+David Schaich (he): wheel is fair. There are.
+
+1505
+01:25:52.910 --> 01:25:54.569
+David Schaich (he): she said, 18
+
+1506
+01:25:55.060 --> 01:25:56.389
+David Schaich (he): red pockets.
+
+1507
+01:25:56.570 --> 01:25:58.080
+David Schaich (he): each of which has
+
+1508
+01:25:58.630 --> 01:26:01.929
+David Schaich (he): an equal probability, one over 37,
+
+1509
+01:26:04.380 --> 01:26:06.639
+David Schaich (he): so that's probability of ending up.
+
+1510
+01:26:06.930 --> 01:26:08.159
+David Schaich (he): and that first
+
+1511
+01:26:08.590 --> 01:26:11.970
+David Schaich (he): subsets of the outcomes in our space.
+
+1512
+01:26:12.010 --> 01:26:12.920
+Yes.
+
+1513
+01:26:15.500 --> 01:26:17.100
+David Schaich (he): slightly under a half.
+
+1514
+01:26:17.320 --> 01:26:18.670
+David Schaich (he): It is actually
+
+1515
+01:26:18.710 --> 01:26:20.320
+David Schaich (he): same probability
+
+1516
+01:26:20.420 --> 01:26:21.599
+David Schaich (he): it's ending up
+
+1517
+01:26:22.260 --> 01:26:26.589
+David Schaich (he): in a black pocket. It's because there are equal number of red of black pockets.
+
+1518
+01:26:26.790 --> 01:26:28.339
+David Schaich (he): and then the green pockets.
+
+1519
+01:26:29.800 --> 01:26:31.909
+David Schaich (he): the on option out
+
+1520
+01:26:32.000 --> 01:26:33.320
+David Schaich (he): 3 meeting
+
+1521
+01:26:33.420 --> 01:26:34.980
+David Schaich (he): one over 37
+
+1522
+01:26:35.730 --> 01:26:37.059
+David Schaich (he): probability.
+
+1523
+01:26:37.780 --> 01:26:39.850
+David Schaich (he): and in roulette.
+
+1524
+01:26:40.180 --> 01:26:43.300
+David Schaich (he): maybe a correspondingly higher reward.
+
+1525
+01:26:43.490 --> 01:26:45.969
+David Schaich (he): So we will actually come back to this example.
+
+1526
+01:26:48.100 --> 01:26:49.750
+David Schaich (he): not today, but
+
+1527
+01:26:50.190 --> 01:26:51.670
+David Schaich (he): possibly tomorrow.
+
+1528
+01:26:51.840 --> 01:26:52.860
+David Schaich (he): and
+
+1529
+01:26:52.970 --> 01:26:55.079
+David Schaich (he): do some computations of
+
+1530
+01:26:58.180 --> 01:26:59.200
+David Schaich (he): how
+
+1531
+01:26:59.660 --> 01:27:03.730
+David Schaich (he): they g the game. Can you expect it to proceed? Based on these
+
+1532
+01:27:03.860 --> 01:27:05.170
+David Schaich (he): probabilities.
+
+1533
+01:27:08.140 --> 01:27:09.130
+David Schaich (he): and
+
+1534
+01:27:11.740 --> 01:27:15.460
+David Schaich (he): popping back to page we were on before, and just saying
+
+1535
+01:27:15.900 --> 01:27:17.610
+David Schaich (he): one final thing about
+
+1536
+01:27:17.700 --> 01:27:21.710
+David Schaich (he): these probabilities themselves. Now that we've defined the probability as
+
+1537
+01:27:21.780 --> 01:27:23.319
+David Schaich (he): a measure function.
+
+1538
+01:27:25.880 --> 01:27:28.619
+David Schaich (he): What we've been doing in these examples
+
+1539
+01:27:30.200 --> 01:27:31.750
+David Schaich (he): my assigned
+
+1540
+01:27:33.340 --> 01:27:34.790
+David Schaich (he): probabilities.
+
+1541
+01:27:37.240 --> 01:27:40.659
+David Schaich (he): 2 events in the United States I can zoom back in.
+
+1542
+01:27:40.880 --> 01:27:42.609
+David Schaich (he): but I don't have to keep that
+
+1543
+01:27:42.770 --> 01:27:44.399
+David Schaich (he): the picture visible.
+
+1544
+01:27:48.450 --> 01:27:49.599
+David Schaich (he): This we can.
+
+1545
+01:27:49.690 --> 01:27:50.950
+David Schaich (he): I believe.
+
+1546
+01:27:51.060 --> 01:27:53.030
+David Schaich (he): define or just call
+
+1547
+01:27:53.960 --> 01:27:55.720
+David Schaich (he): the procedure of modeling.
+
+1548
+01:27:57.320 --> 01:27:58.539
+David Schaich (he): So we are
+
+1549
+01:27:58.680 --> 01:28:01.110
+David Schaich (he): modeling the behavior
+
+1550
+01:28:01.150 --> 01:28:02.090
+David Schaich (he): of
+
+1551
+01:28:02.460 --> 01:28:03.959
+David Schaich (he): these simple systems.
+
+1552
+01:28:04.340 --> 01:28:06.899
+David Schaich (he): and in the cases that we've seen.
+
+1553
+01:28:07.050 --> 01:28:09.949
+David Schaich (he): this assignment of probabilities has been
+
+1554
+01:28:11.280 --> 01:28:14.429
+David Schaich (he): fixed by the symmetries of the system.
+
+1555
+01:28:17.300 --> 01:28:18.280
+David Schaich (he): so
+
+1556
+01:28:19.640 --> 01:28:28.000
+David Schaich (he): by assuming that the diver rolling is fair, we had say, a symmetry between each of the 6 size
+
+1557
+01:28:28.460 --> 01:28:30.290
+David Schaich (he): of that fair die.
+
+1558
+01:28:32.110 --> 01:28:35.250
+David Schaich (he): which, from the definition of the measure function
+
+1559
+01:28:35.370 --> 01:28:39.629
+David Schaich (he): fixed to the probabilities of getting each of those outcomes.
+
+1560
+01:28:40.490 --> 01:28:44.490
+David Schaich (he): Now, if we don't know whether the dialer ruling is there?
+
+1561
+01:28:44.520 --> 01:28:48.139
+David Schaich (he): Or if we have a more complicated system, or we don't just have
+
+1562
+01:28:48.160 --> 01:28:51.170
+David Schaich (he): 6 outcomes for the symmetry between them.
+
+1563
+01:28:51.880 --> 01:28:55.650
+David Schaich (he): We can do this modeling, or sign these probabilities
+
+1564
+01:28:56.170 --> 01:28:58.119
+David Schaich (he): more generally
+
+1565
+01:28:59.980 --> 01:29:01.220
+David Schaich (he): with what's called
+
+1566
+01:29:01.490 --> 01:29:03.130
+David Schaich (he): the approach.
+
+1567
+01:29:05.410 --> 01:29:07.719
+David Schaich (he): So we don't need to
+
+1568
+01:29:08.810 --> 01:29:13.430
+David Schaich (he): so many symmetries, or you, or the fairness of any die.
+
+1569
+01:29:13.500 --> 01:29:15.590
+David Schaich (he): What we do is take that
+
+1570
+01:29:15.630 --> 01:29:16.790
+David Schaich (he): experiments.
+
+1571
+01:29:17.350 --> 01:29:18.549
+David Schaich (he): You repeat
+
+1572
+01:29:19.840 --> 01:29:21.340
+David Schaich (he): many times
+
+1573
+01:29:25.600 --> 01:29:26.980
+David Schaich (he): any time.
+
+1574
+01:29:27.480 --> 01:29:28.480
+David Schaich (he): measure or
+
+1575
+01:29:28.880 --> 01:29:31.340
+David Schaich (he): monitor that random variable.
+
+1576
+01:29:32.780 --> 01:29:34.599
+David Schaich (he): the outcome that we get.
+
+1577
+01:29:35.440 --> 01:29:36.469
+David Schaich (he): And then
+
+1578
+01:29:36.510 --> 01:29:38.129
+David Schaich (he): from those outcomes.
+
+1579
+01:29:38.310 --> 01:29:39.160
+David Schaich (he): okay.
+
+1580
+01:29:41.030 --> 01:29:42.990
+David Schaich (he): and for the probabilities
+
+1581
+01:29:48.000 --> 01:29:49.920
+David Schaich (he): of each outcome
+
+1582
+01:29:50.680 --> 01:29:54.050
+David Schaich (he): in the outcome space for each events in the event space.
+
+1583
+01:29:55.260 --> 01:29:57.830
+David Schaich (he): thanks to what it's called the
+
+1584
+01:29:59.830 --> 01:30:03.419
+David Schaich (he): log of large numbers, so we rely on.
+
+1585
+01:30:10.420 --> 01:30:14.150
+David Schaich (he): But first for our next target for
+
+1586
+01:30:15.000 --> 01:30:16.939
+David Schaich (he): like probability foundation.
+
+1587
+01:30:17.670 --> 01:30:21.409
+David Schaich (he): that's a will not go to unless there are questions about
+
+1588
+01:30:21.830 --> 01:30:23.529
+David Schaich (he): what we've done so far.
+
+1589
+01:30:27.590 --> 01:30:28.219
+David Schaich (he): What
+
+1590
+01:30:28.240 --> 01:30:29.730
+David Schaich (he): seeing any?
+
+1591
+01:30:32.060 --> 01:30:34.080
+David Schaich (he): Let's get on to that
+
+1592
+01:30:34.260 --> 01:30:36.589
+David Schaich (he): all of large numbers, and
+
+1593
+01:30:37.570 --> 01:30:39.059
+David Schaich (he): start off with
+
+1594
+01:30:39.430 --> 01:30:40.740
+David Schaich (he): it's restating
+
+1595
+01:30:42.560 --> 01:30:45.129
+David Schaich (he): in particular context. So getting back to
+
+1596
+01:30:45.660 --> 01:30:50.250
+David Schaich (he): and in that space which is a finite outcome, set that X one
+
+1597
+01:30:50.590 --> 01:30:51.820
+David Schaich (he): x, 2
+
+1598
+01:30:52.000 --> 01:30:53.070
+David Schaich (he): up to
+
+1599
+01:30:53.550 --> 01:30:54.809
+David Schaich (he): X, and
+
+1600
+01:30:54.830 --> 01:30:55.900
+David Schaich (he): that was
+
+1601
+01:30:56.240 --> 01:30:58.660
+David Schaich (he): a previous generic example.
+
+1602
+01:30:59.390 --> 01:31:00.370
+David Schaich (he): The
+
+1603
+01:31:00.830 --> 01:31:02.099
+David Schaich (he): probability, yeah
+
+1604
+01:31:02.400 --> 01:31:03.330
+David Schaich (he): of
+
+1605
+01:31:03.860 --> 01:31:05.220
+David Schaich (he): each outcome in
+
+1606
+01:31:05.530 --> 01:31:08.090
+David Schaich (he): Yeah, from space. Xi. We can call
+
+1607
+01:31:08.750 --> 01:31:09.950
+David Schaich (he): piece of I
+
+1608
+01:31:10.310 --> 01:31:11.820
+David Schaich (he): number between
+
+1609
+01:31:12.260 --> 01:31:14.299
+David Schaich (he): 0 and one inclusive.
+
+1610
+01:31:14.480 --> 01:31:16.400
+David Schaich (he): with the sum over all.
+
+1611
+01:31:19.180 --> 01:31:20.570
+David Schaich (he): some overall
+
+1612
+01:31:20.730 --> 01:31:24.160
+David Schaich (he): and P. Sub. I. Adding up to 100%,
+
+1613
+01:31:28.020 --> 01:31:29.389
+David Schaich (he): you privately.
+
+1614
+01:31:31.880 --> 01:31:34.140
+David Schaich (he): You can express this
+
+1615
+01:31:35.880 --> 01:31:38.429
+David Schaich (he): as a sum over all
+
+1616
+01:31:39.080 --> 01:31:40.820
+David Schaich (he): outcomes in
+
+1617
+01:31:40.990 --> 01:31:44.809
+David Schaich (he): the outcome space, so i'll come back and the outcome space a.
+
+1618
+01:31:45.580 --> 01:31:48.250
+David Schaich (he): The probability of that outcome
+
+1619
+01:31:48.670 --> 01:31:51.780
+David Schaich (he): has to add up to one again, because
+
+1620
+01:31:52.830 --> 01:31:58.339
+David Schaich (he): we're sending over an event space which is all of the outcomes in that outcome stays, say.
+
+1621
+01:31:58.610 --> 01:32:05.590
+David Schaich (he): assuming the countable union with a finite number of outcomes. So this will generalize to uncountable
+
+1622
+01:32:05.760 --> 01:32:07.659
+outcome spaces as well.
+
+1623
+01:32:10.860 --> 01:32:12.410
+David Schaich (he): Then based on
+
+1624
+01:32:13.510 --> 01:32:14.719
+David Schaich (he): the setting
+
+1625
+01:32:15.520 --> 01:32:20.530
+David Schaich (he): we can or based on this probability space, I should say, probabilities p
+
+1626
+01:32:20.560 --> 01:32:22.750
+David Schaich (he): the events space at
+
+1627
+01:32:23.140 --> 01:32:25.750
+David Schaich (he): a subset of the outcome space. A.
+
+1628
+01:32:27.450 --> 01:32:30.810
+David Schaich (he): We can define. What is that? I suspect you
+
+1629
+01:32:31.570 --> 01:32:33.019
+David Schaich (he): seen before
+
+1630
+01:32:34.240 --> 01:32:37.640
+David Schaich (he): what the mean value of the outcome space
+
+1631
+01:32:38.600 --> 01:32:39.970
+David Schaich (he): we'll call You
+
+1632
+01:32:40.430 --> 01:32:42.100
+David Schaich (he): Also write it as
+
+1633
+01:32:45.390 --> 01:32:48.629
+David Schaich (he): X. In these angle brackets
+
+1634
+01:32:49.840 --> 01:32:52.460
+David Schaich (he): so an expected or expectation value
+
+1635
+01:32:53.600 --> 01:32:55.569
+David Schaich (he): all that the me is.
+
+1636
+01:32:55.680 --> 01:32:57.339
+David Schaich (he): It's the way that some
+
+1637
+01:32:58.140 --> 01:32:59.740
+David Schaich (he): over events
+
+1638
+01:32:59.820 --> 01:33:01.510
+David Schaich (he): in that outcome space
+
+1639
+01:33:01.730 --> 01:33:03.300
+David Schaich (he): of the events itself
+
+1640
+01:33:03.680 --> 01:33:06.539
+David Schaich (he): multiply by its probability.
+
+1641
+01:33:09.980 --> 01:33:11.590
+David Schaich (he): and hopefully that is
+
+1642
+01:33:12.230 --> 01:33:16.169
+David Schaich (he): fairly familiar and just being recast in the language that we have
+
+1643
+01:33:16.310 --> 01:33:18.099
+David Schaich (he): introduced so far today.
+
+1644
+01:33:27.480 --> 01:33:31.380
+David Schaich (he): There is a similar concept of the variance.
+
+1645
+01:33:32.950 --> 01:33:35.830
+David Schaich (he): Again, a property of the probability space
+
+1646
+01:33:36.550 --> 01:33:37.370
+David Schaich (he): that's
+
+1647
+01:33:37.540 --> 01:33:38.530
+David Schaich (he): we'll call
+
+1648
+01:33:39.820 --> 01:33:44.070
+David Schaich (he): sigma squared. So my 4 thoughts
+
+1649
+01:33:44.160 --> 01:33:45.920
+David Schaich (he): what this variance is
+
+1650
+01:33:46.620 --> 01:33:49.610
+David Schaich (he): is essentially a measure how much should be
+
+1651
+01:33:49.940 --> 01:33:53.440
+David Schaich (he): outcome to the outcome space area around that mean
+
+1652
+01:33:54.990 --> 01:33:57.149
+David Schaich (he): so an expectation value
+
+1653
+01:33:58.090 --> 01:33:59.610
+David Schaich (he): of the outcomes
+
+1654
+01:33:59.640 --> 01:34:01.100
+David Schaich (he): compared to the meeting
+
+1655
+01:34:01.720 --> 01:34:02.780
+David Schaich (he): square.
+
+1656
+01:34:04.620 --> 01:34:06.260
+David Schaich (he): the chrome, maybe some
+
+1657
+01:34:06.280 --> 01:34:08.130
+David Schaich (he): over all of the outcomes.
+
+1658
+01:34:08.150 --> 01:34:09.070
+David Schaich (he): Oh.
+
+1659
+01:34:10.470 --> 01:34:15.560
+David Schaich (he): this these fluctuations of X around the mean, squared and weighted
+
+1660
+01:34:15.810 --> 01:34:18.779
+David Schaich (he): by the probability of each outcome. X.
+
+1661
+01:34:19.950 --> 01:34:20.719
+David Schaich (he): And
+
+1662
+01:34:23.510 --> 01:34:24.900
+David Schaich (he): more generally
+
+1663
+01:34:25.060 --> 01:34:26.130
+David Schaich (he): you can
+
+1664
+01:34:27.440 --> 01:34:32.359
+David Schaich (he): to find the expected value of expectation. Value is probably what I will see if I haven't.
+
+1665
+01:34:32.480 --> 01:34:33.280
+I can just
+
+1666
+01:34:33.320 --> 01:34:34.530
+David Schaich (he): written this here.
+
+1667
+01:34:34.810 --> 01:34:36.500
+David Schaich (he): Any function
+
+1668
+01:34:38.080 --> 01:34:39.189
+David Schaich (he): of
+
+1669
+01:34:39.230 --> 01:34:40.539
+David Schaich (he): the outcomes
+
+1670
+01:34:42.930 --> 01:34:46.430
+David Schaich (he): has an expectation value given by these angle brackets.
+
+1671
+01:34:46.720 --> 01:34:48.450
+David Schaich (he): It's the way that it's
+
+1672
+01:34:48.560 --> 01:34:50.760
+David Schaich (he): over outcomes in the outcome space
+
+1673
+01:34:51.650 --> 01:34:52.850
+David Schaich (he): F. Of X.
+
+1674
+01:34:53.040 --> 01:34:55.980
+David Schaich (he): Weighted by the corresponding probability
+
+1675
+01:34:56.180 --> 01:34:58.269
+David Schaich (he): of X,
+
+1676
+01:35:02.550 --> 01:35:03.690
+David Schaich (he): which is
+
+1677
+01:35:04.440 --> 01:35:05.540
+David Schaich (he): it's golf
+
+1678
+01:35:05.580 --> 01:35:08.080
+David Schaich (he): we can see. This is a linear operation
+
+1679
+01:35:09.680 --> 01:35:10.709
+David Schaich (he): so that you
+
+1680
+01:35:10.740 --> 01:35:18.020
+David Schaich (he): expectation. Value of the sum of 2 functions is the sum of the expectation values of those individual functions.
+
+1681
+01:35:18.200 --> 01:35:19.010
+and
+
+1682
+01:35:19.240 --> 01:35:23.730
+David Schaich (he): analogously, when functions are weighted by
+
+1683
+01:35:25.480 --> 01:35:32.590
+David Schaich (he): any constant factor that will be useful when we look. I think next time, given the time
+
+1684
+01:35:32.690 --> 01:35:34.279
+David Schaich (he): you will introduce the
+
+1685
+01:35:34.390 --> 01:35:35.849
+David Schaich (he): standard deviation
+
+1686
+01:35:40.350 --> 01:35:42.149
+David Schaich (he): of the probability space.
+
+1687
+01:35:42.310 --> 01:35:44.340
+David Schaich (he): this will be the same model
+
+1688
+01:35:44.540 --> 01:35:47.559
+David Schaich (he): square root of the variance. Sigma squared.
+
+1689
+01:35:47.710 --> 01:35:54.309
+David Schaich (he): We will be able to express this in terms of expectation values, and then start
+
+1690
+01:35:55.600 --> 01:35:56.890
+David Schaich (he): working with it.
+
+1691
+01:35:57.710 --> 01:35:58.750
+David Schaich (he): and
+
+1692
+01:35:59.420 --> 01:36:04.079
+David Schaich (he): the context of a law of large numbers which will be
+
+1693
+01:36:04.190 --> 01:36:09.340
+David Schaich (he): our topic for next time. So we've seen today our first
+
+1694
+01:36:09.940 --> 01:36:11.400
+David Schaich (he): motivation for
+
+1695
+01:36:11.430 --> 01:36:16.440
+David Schaich (he): going through these formal definitions and considerations of statistical physics.
+
+1696
+01:36:16.560 --> 01:36:17.170
+David Schaich (he): Yeah.
+
+1697
+01:36:17.500 --> 01:36:20.309
+David Schaich (he): lots of Nobel prizes that have been awarded.
+
+1698
+01:36:20.640 --> 01:36:28.339
+David Schaich (he): We talked about the 1926, 2,006 and 2,021 Nobel Prize for working statistical physics. Many more are you to come?
+
+1699
+01:36:29.550 --> 01:36:31.339
+David Schaich (he): We check out the logistics.
+
+1700
+01:36:31.710 --> 01:36:36.160
+David Schaich (he): Let me know if there's any concerns about that. And now we've gone through
+
+1701
+01:36:36.530 --> 01:36:43.040
+David Schaich (he): It's sort of what I find the most important with the physicists, which is the formal definitions of things like
+
+1702
+01:36:44.350 --> 01:36:51.630
+David Schaich (he): experiments, states, measurements, outcomes, outcome spaces of that spaces and probability spaces.
+
+1703
+01:36:51.710 --> 01:36:55.939
+David Schaich (he): And now we're getting to the statement of the whole course. Numbers based on
+
+1704
+01:36:56.070 --> 01:37:03.349
+David Schaich (he): those definitions in those concepts. That's where we'll pick up tomorrow afternoon. Not here, but next door.
+
+1705
+01:37:03.400 --> 01:37:06.970
+David Schaich (he): Any final questions before you wrap up for this morning.
+
+1706
+01:37:09.310 --> 01:37:11.840
+David Schaich (he): I hope to see you again tomorrow.
+
+1707
+01:37:18.040 --> 01:37:19.030
+David Schaich (he): That one
+
+1708
+01:37:19.140 --> 01:37:21.010
+David Schaich (he): question of the chat. Thanks.
+
+1709
+01:37:21.080 --> 01:37:23.220
+David Schaich (he): thanks for joining remotely
+
+1710
+01:37:23.620 --> 01:37:24.740
+David Schaich (he): what it's done.
+
+1711
+01:37:25.740 --> 01:37:28.910
+David Schaich (he): I'm sorry if I just pronounce your name.
+
+1712
+01:37:29.380 --> 01:37:30.719
+David Schaich (he): Have a recording
+
+1713
+01:37:31.500 --> 01:37:31.910
+David Schaich (he): sure.
+
