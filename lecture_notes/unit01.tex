@@ -27,7 +27,9 @@ Statistical physics instead produces simple mathematical descriptions of large-s
 Historically, the difficulty of detecting the stochastic processes underlying such \textit{thermodynamic} properties made it challenging to convince skeptics that atoms and molecules really exist.
 \href{https://en.wikipedia.org/wiki/Ludwig_Boltzmann}{Ludwig Boltzmann}, a prominent early developer of statistical physics, endured a constant struggle to defend his ideas, which likely contributed to his deteriorating mental health and eventual suicide in 1906.
 A significant step to convincingly establish the existence of atoms was Albert Einstein's use of statistical physics to explain the observed ``\href{https://en.wikipedia.org/wiki/Brownian_motion}{Brownian motion}'' of particles suspended in fluids --- this work was part of Einstein's ``miracle year'' in 1905, along with special relativity and early contributions to quantum physics.
-More recent applications of statistical physics include explaining why stars don't collapse under the `weight' of their own gravity, and identifying effects of dark matter in temperature fluctuations observable in the \textit{cosmic microwave background} lingering from the early years of the universe.
+\href{https://en.wikipedia.org/wiki/Jean_Baptiste_Perrin}{Jean Perrin} soon verified Einstein's predictions and used them to determine Avogadro's number; he was awarded the 1926 Nobel Prize in Physics for helping to demonstrate ``the discontinuous structure of matter''.
+More recently, applications of statistical physics to advance our ``understanding of complex physical systems'' were recognized by the \href{https://www.nobelprize.org/prizes/physics/2021/summary/}{2021 Nobel Prize in Physics} shared between Syukuro Manabe, Klaus Hasselmann and Giorgio Parisi.
+Other modern topics we will encounter in this module include explaining why stars don't collapse under the `weight' of their own gravity, and identifying effects of dark matter in temperature fluctuations observable in the \textit{cosmic microwave background} lingering from the early years of the universe.
 
 In this unit we will focus on some of the foundational mathematics that will underlie our later development and application of statistical ensembles.
 Looking back to Boltzmann's times, we can consider the following question one of his critics might have asked:
@@ -68,16 +70,16 @@ Let's consider some examples to clarify these definitions.
 With an experiment of rolling a six-sided die and measuring the number ($1$--$6$) that comes out on top, what is the set of all outcomes $A$?
 What additional information could be included in a corresponding state $\om$?
 \begin{mdframed}
-  \ \\[100 pt]
+  \ \\[75 pt] % WARNING: ADJUSTED SIZE BY HAND TO FIT ON PAGE
 \end{mdframed}
 What is the outcome space $A$ if we toss a coin four times and measure whether it lands heads up ($H$) or tails up ($T$) each time? % Note four tosses is being defined as a single experiment...
 \begin{mdframed}
-  \ \\[100 pt]
+  \ \\[75 pt] % WARNING: ADJUSTED SIZE BY HAND TO FIT ON PAGE
 \end{mdframed}
 What information could characterize a state \om for a gas of $10^{23}$ argon atoms in a container?
 What might be interesting to measure?
 \begin{mdframed}
-  \ \\[100 pt]
+  \ \\[95 pt] % WARNING: ADJUSTED SIZE BY HAND TO FIT ON PAGE
 \end{mdframed}
 
 We can generalize the concept of measurement by introducing a unique number as a \textit{label} to characterize each state \om in the set $\Om$.
@@ -104,8 +106,8 @@ which must satisfy the following two requirements: \\[-24 pt]
 \begin{enumerate}
   \item The probability of a countable union of mutually exclusive events must equal the sum of the probabilities of each of these events.
   \item The probability of the outcome space ($\cF = A$) must equal $1$, even if $A$ is uncountable.
-        This simply means that the experiment \cE must produce an outcome.
-        If no outcome were produced, it would not make sense to say that the experiment had occurred. \\[-24 pt]
+        This simply means that the experiment \cE must produce a measurable outcome.
+        We discard any experiment that doesn't produce such an outcome. \\[-24 pt]
 \end{enumerate}
 Combining the outcome space, event space and probability measure gives us a \textit{probability space} $(A, \cF, P)$.
 
@@ -113,17 +115,13 @@ For example, consider an experiment that can only produce $N$ possible states, s
 \begin{equation*}
   \Om = \left\{\om_1, \om_2, \cdots, \om_N\right\}.
 \end{equation*}
-If two states are identical, $\om_i = \om_j$, they must produce the same measurement outcomes $X(\om_i) = X(\om_j)$, which implies the contrapositive
-\begin{equation*}
-  X(\om_i) \ne X(\om_j) \qquad \Lra \qquad \om_i \ne \om_j.
-\end{equation*}
-On the other hand, as described above, it is possible to have $X(\om_i) = X(\om_j)$ even when $\om_i \ne \om_j$.
+As described above, it is possible for two different states $\om_i \ne \om_j$ to produce the same measurement outcome $X(\om_i) = X(\om_j)$.
 This means that the size $n$ of the outcome space $A$ may be smaller than the size of $\Om$, $n \leq N$.
 We can write
 \begin{equation*}
   A = \left\{X_1, X_2, \cdots, X_n\right\},
 \end{equation*}
-where each $X_{\al}$ is distinct and its index does \textit{not} necessarily correspond to that on $\om_i$.
+where each $X_{\al}$ is distinct and its index does not necessarily correspond to that on $\om_i$.
 We can take the individual $X_{\al}$ themselves to be the events we're interested in, choosing the event space
 \begin{equation}
   \label{eq:finite_set}
@@ -153,6 +151,7 @@ what are the probabilities $p_{\text{equal}}$ and $p_{\text{diff}}$ for the two 
   \ \\[100 pt]
 \end{mdframed}
 
+\newpage % WARNING: FORMATTING BY HAND
 \begin{minipage}{0.4\textwidth}
   \includegraphics[width=0.75\textwidth]{figs/unit01_roulette.pdf}
 \end{minipage}%
