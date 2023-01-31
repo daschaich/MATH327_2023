@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 1}
-\renewcommand{\moddate}{Last modified 30 Jan.~2023}
+\renewcommand{\moddate}{Last modified 31 Jan.~2023}
 \setcounter{section}{1}
 \setcounter{subsection}{0}
 \phantomsection
@@ -339,12 +339,12 @@ In addition to asserting that the collective behaviour of many independent and i
 % ------------------------------------------------------------------
 \subsection{\label{sec:diffusion}Diffusion and the central limit theorem}
 \subsubsection{Random walk on a line}
-As a more general application and illustration of the central limit theorem, let's consider the behaviour of a randomly moving object.
+As a more powerful application and illustration of the central limit theorem, let's consider the behaviour of a randomly moving object.
 Such \textbf{random walks} appear frequently in mathematical modelling of stochastic phenomena (including Brownian motion), and can be applied to movement through either physical space or more abstract vector spaces.
-They are examples of \href{https://en.wikipedia.org/wiki/Markov_process}{Markov processes}, in which the state of the system (in this case the position of the `walker') at any time probabilistically depends only on the system's prior state at the previous point in time---there is no `memory' of any earlier states. % Named after \href{https://en.wikipedia.org/wiki/Andrey_Markov}{Andrey Markov}...
+They are examples of \href{https://en.wikipedia.org/wiki/Markov_process}{Markov processes}, in which the state of the system (in this case the position of the `walker') at any time probabilistically depends only on the system's prior state at the previous point in time --- there is no `memory' of any earlier states. % Named after \href{https://en.wikipedia.org/wiki/Andrey_Markov}{Andrey Markov}...
 The resulting sequence of system states is known as a \textit{Markov chain}, since each state is produced from the one before, like links in a chain.
 
-To start with a simple case, let's consider a random walker that moves only in a single spatial dimension --- to the left or to the right on a line --- and can only take `steps' of a fixed length, which we can set to $\ell = 1$ without loss of generality.
+Let's consider the simple example of a random walker that moves only in a single spatial dimension --- to the left or to the right on a line --- and can only take `steps' of a fixed length, which we can set to $\ell = 1$ without loss of generality.
 At each point in time, the walker takes either a step to the right ($R$) with probability $p$ or a step to the left ($L$) with probability $q = 1 - p$.
 We will further assume that each step takes a constant amount of time $\De t$, so a walk of $N$ steps will last for total time
 \begin{equation}
@@ -361,9 +361,9 @@ How many possible walks are there for general $N$, and what is the probability f
 \end{mdframed}
 
 We will be interested in the walker's final position $x$ at time $t$ after it has taken $N$ steps.
-Just as for the possible gains after $N$ spins of the roulette wheel considered in \secref{sec:CLT}, there are a range of possible final positions $x$, each of which has some probability $P(x)$ of being realized.
+Just as for the sum of $n$ rolls of a die considered in \secref{sec:CLT}, there are a range of possible final positions $x$, each of which has some probability $P(x)$ of being realized.
 The key pieces of information we want to determine are the expectation value $\vev{x}$ and the variance $\vev{x^2} - \vev{x}^2$ that indicates the scale of fluctuations we can expect around $\vev{x}$ as the $N$-step walk is repeated many times from the same starting point.
-(We reserve the variables $\mu$ and $\si^2$ for the mean and variance (respectively) of the single-step process, which will appear when we apply the central limit theorem in \secref{sec:RW_CLT}.)
+(We reserve the variables $\mu$ and $\si^2$ for the respective mean and variance of the single-step process, which will appear when we apply the central limit theorem in \secref{sec:RW_CLT}.)
 
 Suppose the $N$ total steps involve $r$ steps to the right.
 What is the final position $x$ of the walker in terms of $N$ and $r$?
