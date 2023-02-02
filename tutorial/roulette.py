@@ -27,8 +27,8 @@ print("with standard deviation %.5g" % np.sqrt(var))
 # Directly evaluate probabilities of winning
 # 'N + 1' to include both all wins and all losses
 # binom(N, k) is N-choose-k binomial coefficient
-gain = np.empty(N + 1, dtype = np.int)
-prob = np.empty(N + 1, dtype = np.float64)
+gain = np.empty(N + 1)
+prob = np.empty_like(gain)
 for W in range(N + 1):
   gain[W] = 10 * W - 5 * N
   prob[W] = special.binom(N, W) * np.power(p, W) * np.power(q, N - W)
