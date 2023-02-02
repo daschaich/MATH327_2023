@@ -83,7 +83,7 @@ print("Probabilities sum to %.4g" % np.sum(integ))
 # Plot all three data sets using matplotlib.pyplot ('plt')
 # 'mfc' is short for markerfacecolor; 'none' gives an empty symbol
 plt.figure(figsize=(6.40, 3.84))    # Standard Gnuplot size
-plt.plot(gain, prob, 'go', mfc='none', label='Direct')  # Green circles
+plt.plot(gain, prob, 'go', mfc='none', label='Exact')   # Green circles
 plt.plot(gain, integ, 'b+', label='Integrated')         # Blue pluses
 plt.plot(gain, const, 'rx', label='Constant')           # Red x's
 
@@ -102,8 +102,8 @@ plt.xlabel('Gain')
 plt.ylabel('Probability')
 plt.grid()
 plt.legend()
-plt.show()
 
 # Optionally save pdf --- 'tight' reduces surrounding whitespace
 #plt.savefig('figs/roulette_prob.pdf', bbox_inches='tight')
+plt.show()
 # ------------------------------------------------------------------
