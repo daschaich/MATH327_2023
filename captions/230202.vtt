@@ -1,0 +1,1222 @@
+WEBVTT
+
+1
+00:00:04.580 --> 00:00:05.510
+David Schaich (he): Okay, we should be
+
+2
+00:00:06.070 --> 00:00:08.780
+David Schaich (he): pretty much set up.
+
+3
+00:00:09.730 --> 00:00:13.390
+David Schaich (he): So, good morning, folks.  I hope the first week of the term
+
+4
+00:00:13.590 --> 00:00:16.049
+has gone well for you so far.
+
+5
+00:00:16.410 --> 00:00:17.689
+David Schaich (he): What we have
+
+6
+00:00:17.730 --> 00:00:19.459
+David Schaich (he): here is... something very much out of focus.
+
+7
+00:00:24.680 --> 00:00:25.840
+David Schaich (he): That's a bit better.
+
+8
+00:00:28.030 --> 00:00:29.119
+David Schaich (he): Thursday, at the start of February, and the
+
+9
+00:00:34.710 --> 00:00:36.469
+David Schaich (he): 6-digit code
+
+10
+00:00:37.310 --> 00:00:38.540
+David Schaich (he): for today is
+
+11
+00:00:40.730 --> 00:00:42.160
+David Schaich (he): 1, 4,
+
+12
+00:00:42.840 --> 00:00:44.880
+David Schaich (he): 3, 4, 2, 2.
+
+13
+00:00:46.900 --> 00:00:48.180
+David Schaich (he): And, it's
+
+14
+00:00:48.610 --> 00:00:49.470
+David Schaich (he): still not the
+
+15
+00:00:52.180 --> 00:00:53.850
+David Schaich (he): best focus there...
+
+16
+00:00:59.520 --> 00:01:03.739
+David Schaich (he): So the first tutorial for statistical physics. My understanding is that
+
+17
+00:01:03.880 --> 00:01:05.710
+David Schaich (he): tutorials are
+
+18
+00:01:07.250 --> 00:01:09.369
+David Schaich (he): supposed to shut up and let you have some of.
+
+19
+00:01:09.960 --> 00:01:10.880
+David Schaich (he): So
+
+20
+00:01:11.650 --> 00:01:12.729
+David Schaich (he): I have
+
+21
+00:01:12.850 --> 00:01:13.920
+David Schaich (he): taken
+
+22
+00:01:14.110 --> 00:01:17.020
+David Schaich (he): some of the stuff that was in the lecture notes, and
+
+23
+00:01:17.090 --> 00:01:18.589
+David Schaich (he): chop it all into a
+
+24
+00:01:18.840 --> 00:01:20.880
+David Schaich (he): the tutorial activity for you to
+
+25
+00:01:21.100 --> 00:01:23.770
+David Schaich (he): work on Today I will be
+
+26
+00:01:23.950 --> 00:01:25.059
+David Schaich (he): uploaded
+
+27
+00:01:25.780 --> 00:01:30.309
+David Schaich (he): all of the model solutions for this activity, but it's still
+
+28
+00:01:30.730 --> 00:01:34.570
+David Schaich (he): useful for you to actually do it yourself. Is that how you you practice
+
+29
+00:01:34.770 --> 00:01:39.040
+David Schaich (he): doing statistical physics calculations, and depending on
+
+30
+00:01:39.240 --> 00:01:44.559
+David Schaich (he): how it goes for you today. There is not 105, but i'll keep an eye on
+
+31
+00:01:45.770 --> 00:01:48.150
+David Schaich (he): I'm. On my phone, depending on how you can, all
+
+32
+00:01:48.320 --> 00:01:50.080
+David Schaich (he): With this activity
+
+33
+00:01:51.070 --> 00:01:56.239
+David Schaich (he): you can start to encounter some of the Python programming that also focus on
+
+34
+00:01:56.310 --> 00:01:57.690
+David Schaich (he): a bit more detail on
+
+35
+00:01:58.350 --> 00:02:02.760
+David Schaich (he): computer lab on Tuesday and training for that computer project. Speaking of which
+
+36
+00:02:03.160 --> 00:02:04.329
+David Schaich (he): maybe I should
+
+37
+00:02:04.830 --> 00:02:07.320
+David Schaich (he): mentioned before we go on, that
+
+38
+00:02:07.680 --> 00:02:13.590
+David Schaich (he): the computer project is up and active for you to check out
+
+39
+00:02:13.630 --> 00:02:15.840
+David Schaich (he): in advance of Tuesday. So do when
+
+40
+00:02:16.310 --> 00:02:18.469
+David Schaich (he): little under 3 weeks.
+
+41
+00:02:18.830 --> 00:02:19.860
+David Schaich (he): and it
+
+42
+00:02:19.970 --> 00:02:21.160
+David Schaich (he): looks
+
+43
+00:02:21.570 --> 00:02:24.860
+David Schaich (he): maybe more substantial than it is
+
+44
+00:02:25.180 --> 00:02:26.519
+David Schaich (he): because it's got
+
+45
+00:02:26.840 --> 00:02:27.730
+David Schaich (he): a lot of
+
+46
+00:02:27.890 --> 00:02:30.650
+David Schaich (he): the usual instructions, but also
+
+47
+00:02:30.840 --> 00:02:33.440
+David Schaich (he): relevant background material that
+
+48
+00:02:33.760 --> 00:02:36.010
+David Schaich (he): hopefully, it will be useful to have
+
+49
+00:02:36.580 --> 00:02:38.850
+David Schaich (he): close to hand here in the
+
+50
+00:02:39.350 --> 00:02:42.160
+David Schaich (he): assignment itself, rather than hiding in
+
+51
+00:02:42.310 --> 00:02:43.459
+David Schaich (he): that demo.
+
+52
+00:02:44.990 --> 00:02:46.019
+David Schaich (he): So
+
+53
+00:02:46.940 --> 00:02:48.900
+David Schaich (he): python programming or
+
+54
+00:02:49.210 --> 00:02:51.869
+David Schaich (he): elsewhere in the lecture notes. So 5
+
+55
+00:02:52.000 --> 00:02:54.269
+David Schaich (he): exercises which have
+
+56
+00:02:54.830 --> 00:02:58.220
+David Schaich (he): 3 weeks to do in those computer labs
+
+57
+00:02:58.980 --> 00:03:00.310
+David Schaich (he): the deadline.
+
+58
+00:03:01.100 --> 00:03:05.660
+David Schaich (he): It's not set When I requested it. It is actually just a couple of hours after they
+
+59
+00:03:05.740 --> 00:03:13.120
+David Schaich (he): that third computer lab. So ideally, it will have things mostly under control by the time you come in for that last one on
+
+60
+00:03:13.280 --> 00:03:15.299
+David Schaich (he): twenty-first of February itself.
+
+61
+00:03:15.510 --> 00:03:17.240
+David Schaich (he): And just
+
+62
+00:03:17.370 --> 00:03:19.670
+David Schaich (he): there we go and finish it already.
+
+63
+00:03:21.030 --> 00:03:22.100
+David Schaich (he): But
+
+64
+00:03:22.190 --> 00:03:27.879
+David Schaich (he): are there immediate questions about those logistics, or indeed anything we've seen over this week
+
+65
+00:03:28.020 --> 00:03:29.570
+David Schaich (he): before we jump into
+
+66
+00:03:29.910 --> 00:03:32.140
+David Schaich (he): little activity, for today is 2 to 0.
+
+67
+00:03:38.720 --> 00:03:42.919
+David Schaich (he): Not seeing any. I'll hop back here and point out that 6 digit covered again.
+
+68
+00:03:42.970 --> 00:03:46.209
+David Schaich (he): 1, 4, 3, 4, 2, 2.
+
+69
+00:03:46.830 --> 00:03:48.400
+You supposed to have that
+
+70
+00:03:57.610 --> 00:03:59.280
+David Schaich (he): you get off of this page
+
+71
+00:03:59.990 --> 00:04:01.070
+David Schaich (he): as the
+
+72
+00:04:02.520 --> 00:04:03.720
+David Schaich (he): activity
+
+73
+00:04:03.750 --> 00:04:07.069
+David Schaich (he): looking at what requires zooming out is
+
+74
+00:04:07.400 --> 00:04:09.469
+David Schaich (he): the game based on
+
+75
+00:04:09.790 --> 00:04:12.210
+David Schaich (he): the rule that we all that we saw
+
+76
+00:04:12.480 --> 00:04:13.790
+David Schaich (he): on Monday.
+
+77
+00:04:13.990 --> 00:04:15.239
+David Schaich (he): So this is
+
+78
+00:04:15.490 --> 00:04:16.950
+David Schaich (he): slightly edited
+
+79
+00:04:17.910 --> 00:04:19.329
+David Schaich (he): version of the
+
+80
+00:04:19.589 --> 00:04:23.239
+David Schaich (he): figure that I had up on Monday and scroll down there with some
+
+81
+00:04:24.820 --> 00:04:27.940
+David Schaich (he): still not great with this on this
+
+82
+00:04:28.240 --> 00:04:29.280
+David Schaich (he): here will
+
+83
+00:04:32.450 --> 00:04:34.340
+David Schaich (he): little green box highlighting, maybe.
+
+84
+00:04:34.770 --> 00:04:37.320
+David Schaich (he): Yeah, that is in the corresponding
+
+85
+00:04:37.680 --> 00:04:39.799
+David Schaich (he): place in the lecture notes.
+
+86
+00:04:40.090 --> 00:04:45.409
+David Schaich (he): just to brief briefly review what we have with the set up the standard roulette wheel has
+
+87
+00:04:45.480 --> 00:04:49.860
+David Schaich (he): 37 pockets, with 3 different colors. 18, red, 18, black.
+
+88
+00:04:50.140 --> 00:04:51.699
+David Schaich (he): and 0 is
+
+89
+00:04:51.810 --> 00:04:54.390
+David Schaich (he): the special green pocket. There, at the top
+
+90
+00:04:55.630 --> 00:05:02.999
+David Schaich (he): you spin the wheel, roll it all, and bet on which pocket that all ends up in as it slows down, it comes to a stop
+
+91
+00:05:03.330 --> 00:05:04.340
+David Schaich (he): and
+
+92
+00:05:06.210 --> 00:05:07.360
+David Schaich (he): a simple.
+
+93
+00:05:09.370 --> 00:05:13.499
+David Schaich (he): but that we couldn't imagine
+
+94
+00:05:13.920 --> 00:05:16.300
+David Schaich (he): computer. It's a simple example
+
+95
+00:05:17.980 --> 00:05:19.979
+David Schaich (he): in class earlier in the week
+
+96
+00:05:20.850 --> 00:05:21.830
+David Schaich (he): or 2.
+
+97
+00:05:22.140 --> 00:05:23.449
+David Schaich (he): Same place
+
+98
+00:05:24.220 --> 00:05:25.900
+David Schaich (he): the £5 bets
+
+99
+00:05:27.060 --> 00:05:28.729
+David Schaich (he): on every spin of the wheel.
+
+100
+00:05:29.520 --> 00:05:30.730
+David Schaich (he): This this
+
+101
+00:05:31.320 --> 00:05:32.590
+David Schaich (he): visible
+
+102
+00:05:32.830 --> 00:05:33.710
+David Schaich (he): to you.
+
+103
+00:05:33.860 --> 00:05:34.760
+David Schaich (he): Okay.
+
+104
+00:05:41.790 --> 00:05:44.060
+David Schaich (he): try again. Maybe you do better
+
+105
+00:05:44.590 --> 00:05:45.700
+David Schaich (he): so.
+
+106
+00:05:46.070 --> 00:05:47.310
+David Schaich (he): and we will bet.
+
+107
+00:05:47.830 --> 00:05:49.250
+David Schaich (he): say, on
+
+108
+00:05:50.970 --> 00:05:51.920
+David Schaich (he): black.
+
+109
+00:05:52.110 --> 00:05:55.580
+David Schaich (he): So a £5 bet that the ball ends up in one
+
+110
+00:05:55.650 --> 00:05:56.240
+to you
+
+111
+00:05:56.450 --> 00:05:59.440
+David Schaich (he): black pockets.
+
+112
+00:06:00.210 --> 00:06:01.640
+David Schaich (he): which is to say.
+
+113
+00:06:01.940 --> 00:06:03.309
+David Schaich (he): if the ball.
+
+114
+00:06:04.380 --> 00:06:05.350
+David Schaich (he): and so
+
+115
+00:06:07.920 --> 00:06:09.420
+David Schaich (he): in a black pocket
+
+116
+00:06:12.640 --> 00:06:13.900
+David Schaich (he): we will win
+
+117
+00:06:14.520 --> 00:06:18.890
+David Schaich (he): twice the amount we put in, so we get £10 back
+
+118
+00:06:19.690 --> 00:06:24.109
+David Schaich (he): in total. Otherwise, you know 5 time that is just lost.
+
+119
+00:06:24.580 --> 00:06:26.180
+David Schaich (he): Your question is.
+
+120
+00:06:26.600 --> 00:06:28.390
+David Schaich (he): What can we expect to?
+
+121
+00:06:28.440 --> 00:06:33.390
+David Schaich (he): We don't lose, as we repeat, these spins several times, getting into that
+
+122
+00:06:33.580 --> 00:06:34.840
+David Schaich (he): repetition
+
+123
+00:06:34.960 --> 00:06:36.749
+David Schaich (he): experiment that we have.
+
+124
+00:06:36.850 --> 00:06:37.890
+David Schaich (he): So.
+
+125
+00:06:40.580 --> 00:06:42.440
+David Schaich (he): switching back to
+
+126
+00:06:45.900 --> 00:06:47.449
+David Schaich (he): the canvas sites.
+
+127
+00:06:47.940 --> 00:06:49.629
+David Schaich (he): you may well have seen
+
+128
+00:06:50.150 --> 00:06:51.840
+David Schaich (he): the activity. That's
+
+129
+00:06:52.180 --> 00:06:54.499
+David Schaich (he): it, came up on one day which has
+
+130
+00:06:54.760 --> 00:06:56.150
+David Schaich (he): the sequence of
+
+131
+00:06:56.640 --> 00:06:57.630
+David Schaich (he): for
+
+132
+00:06:57.770 --> 00:06:59.759
+David Schaich (he): questions about this set up.
+
+133
+00:07:01.480 --> 00:07:02.710
+David Schaich (he): I can
+
+134
+00:07:03.090 --> 00:07:04.480
+David Schaich (he): zoom in on.
+
+135
+00:07:04.790 --> 00:07:06.560
+David Schaich (he): Okay, that's the maximum zoom
+
+136
+00:07:06.940 --> 00:07:08.090
+David Schaich (he): hopefully. That's
+
+137
+00:07:08.540 --> 00:07:10.789
+David Schaich (he): visible in the back. And if not
+
+138
+00:07:11.480 --> 00:07:12.090
+okay.
+
+139
+00:07:13.070 --> 00:07:16.480
+David Schaich (he): one copy of the print out here
+
+140
+00:07:16.710 --> 00:07:19.089
+David Schaich (he): a laptop, or if you have that handy.
+
+141
+00:07:20.330 --> 00:07:21.280
+David Schaich (he): So.
+
+142
+00:07:22.120 --> 00:07:25.900
+David Schaich (he): placing these £5 bits on black, we want to compute
+
+143
+00:07:25.940 --> 00:07:28.719
+David Schaich (he): the probabilities of winning and losing, and what we get.
+
+144
+00:07:29.260 --> 00:07:31.289
+David Schaich (he): as again each time.
+
+145
+00:07:33.210 --> 00:07:37.420
+David Schaich (he): and then start doing some computations of
+
+146
+00:07:38.040 --> 00:07:44.759
+David Schaich (he): the general expressions for both the probabilities that we win some number of times W out of.
+
+147
+00:07:44.920 --> 00:07:46.590
+David Schaich (he): and total spins
+
+148
+00:07:46.620 --> 00:07:50.499
+David Schaich (he): of the wheel, computing examples of those, seeing that they're all sensible.
+
+149
+00:07:50.540 --> 00:07:55.120
+David Schaich (he): and then eventually applying the central limit theorem
+
+150
+00:07:56.170 --> 00:08:03.999
+David Schaich (he): to this repeated experiment of placing that spinning wheel, getting some probabilistic outcome.
+
+151
+00:08:04.980 --> 00:08:09.700
+David Schaich (he): and seeing how well the central limit, theorem predicts the exact
+
+152
+00:08:11.170 --> 00:08:23.859
+David Schaich (he): probabilities and wins or losses that we can compute either explicitly for a small number in, or using a computer programming or a more arbitrary value.
+
+153
+00:08:27.220 --> 00:08:30.550
+David Schaich (he): and just before I pause the recording and let you
+
+154
+00:08:30.650 --> 00:08:31.679
+David Schaich (he): you know with it
+
+155
+00:08:31.910 --> 00:08:34.540
+David Schaich (he): you this these activities
+
+156
+00:08:34.909 --> 00:08:36.310
+David Schaich (he): i'll mention that
+
+157
+00:08:37.289 --> 00:08:42.149
+David Schaich (he): as we talked about on Tuesday. I believe the central limit theorem gives us a
+
+158
+00:08:42.169 --> 00:08:45.189
+David Schaich (he): probability distribution or a density.
+
+159
+00:08:45.250 --> 00:08:46.870
+David Schaich (he): so to actually extract
+
+160
+00:08:47.430 --> 00:08:51.519
+David Schaich (he): probabilities from that density that has to be integrated.
+
+161
+00:08:52.050 --> 00:08:53.380
+David Schaich (he): So that is what
+
+162
+00:08:53.460 --> 00:08:55.590
+David Schaich (he): this equation is representing here.
+
+163
+00:08:55.630 --> 00:08:57.640
+David Schaich (he): If we want the probability of
+
+164
+00:08:58.230 --> 00:08:59.960
+David Schaich (he): gaining some
+
+165
+00:09:01.360 --> 00:09:04.480
+David Schaich (he): some value corresponding to some number of wins.
+
+166
+00:09:04.730 --> 00:09:09.749
+David Schaich (he): Given the density from the central limit theorem we have to integrate that it can be done
+
+167
+00:09:09.820 --> 00:09:10.390
+David Schaich (he): either
+
+168
+00:09:10.900 --> 00:09:13.399
+David Schaich (he): analytically, numerically, or with some
+
+169
+00:09:13.460 --> 00:09:18.380
+David Schaich (he): approximations, for example, approximating this probability as a constants
+
+170
+00:09:18.500 --> 00:09:23.480
+David Schaich (he): within its limits of integration about the crudest approximation
+
+171
+00:09:23.720 --> 00:09:24.790
+David Schaich (he): we could have.
+
+172
+00:09:24.970 --> 00:09:26.520
+David Schaich (he): The integral, then just
+
+173
+00:09:26.710 --> 00:09:28.870
+David Schaich (he): turns into the product
+
+174
+00:09:29.140 --> 00:09:31.810
+David Schaich (he): of that constant probability times.
+
+175
+00:09:32.330 --> 00:09:33.990
+David Schaich (he): the delta she with
+
+176
+00:09:34.520 --> 00:09:37.210
+David Schaich (he): of the window being integrated over.
+
+177
+00:09:38.570 --> 00:09:39.670
+David Schaich (he): And
+
+178
+00:09:40.260 --> 00:09:42.850
+David Schaich (he): there are various ways you can
+
+179
+00:09:43.270 --> 00:09:44.910
+David Schaich (he): numerically evaluate.
+
+180
+00:09:45.400 --> 00:09:47.149
+David Schaich (he): I do that integral or.
+
+181
+00:09:47.560 --> 00:09:48.550
+David Schaich (he): yeah.
+
+182
+00:09:48.940 --> 00:09:50.560
+David Schaich (he): approximation to it
+
+183
+00:09:52.540 --> 00:09:57.999
+David Schaich (he): practical from Alpha just that websites can handle a numerical integral of this sort.
+
+184
+00:10:00.620 --> 00:10:01.610
+David Schaich (he): and
+
+185
+00:10:03.120 --> 00:10:05.549
+David Schaich (he): depending on how you get on
+
+186
+00:10:05.740 --> 00:10:06.490
+next
+
+187
+00:10:07.350 --> 00:10:10.350
+David Schaich (he): 10 or 20 min. With these exercises we could see
+
+188
+00:10:10.530 --> 00:10:13.420
+David Schaich (he): some python code that has the advantage.
+
+189
+00:10:13.560 --> 00:10:14.430
+David Schaich (he): That's
+
+190
+00:10:15.030 --> 00:10:21.189
+David Schaich (he): this end. The total number of spins can be elected as a free parameter, Just read in and repeated automatically.
+
+191
+00:10:21.740 --> 00:10:24.010
+David Schaich (he): Any number you might be interested in
+
+192
+00:10:24.140 --> 00:10:25.699
+David Schaich (he): within reason, maybe
+
+193
+00:10:25.790 --> 00:10:27.619
+David Schaich (he): up to a 1 billion or a trillion.
+
+194
+00:10:28.630 --> 00:10:30.259
+David Schaich (he): One of the advantages of
+
+195
+00:10:30.460 --> 00:10:32.690
+David Schaich (he): programming solutions.
+
+196
+00:10:32.710 --> 00:10:35.740
+David Schaich (he): Is it out by hand, especially where you are.
+
+197
+00:10:35.900 --> 00:10:37.270
+David Schaich (he): But that is the
+
+198
+00:10:37.440 --> 00:10:39.210
+David Schaich (he): one step in this activity.
+
+199
+00:10:40.170 --> 00:10:42.859
+David Schaich (he): Also. See if anything is unclear about
+
+200
+00:10:43.130 --> 00:10:44.140
+David Schaich (he): what you
+
+201
+00:10:45.130 --> 00:10:47.680
+David Schaich (he): get to play with with this.
+
+202
+00:10:50.550 --> 00:10:52.530
+David Schaich (he): and not seeing any of
+
+203
+00:10:52.720 --> 00:10:54.100
+David Schaich (he): but you get off with it.
+
+204
+00:10:54.440 --> 00:10:56.040
+David Schaich (he): you know, with myself, and
+
+205
+00:10:56.160 --> 00:10:59.250
+David Schaich (he): check in after 10 min or so
+
+206
+00:10:59.410 --> 00:11:00.550
+David Schaich (he): to see
+
+207
+00:11:01.120 --> 00:11:01.710
+it.
+
+208
+00:11:02.020 --> 00:11:03.730
+David Schaich (he): I'll actually turn the
+
+209
+00:11:03.770 --> 00:11:05.499
+David Schaich (he): reporting that all there
+
+210
+00:11:06.330 --> 00:11:07.620
+David Schaich (he): for a few minutes.
+
+211
+00:11:07.640 --> 00:11:08.500
+David Schaich (he): and
+
+212
+00:11:08.640 --> 00:11:10.300
+David Schaich (he): hop over 2 months.
+
+213
+00:11:10.680 --> 00:11:14.479
+David Schaich (he): These numerical calculations for the the integrations
+
+214
+00:11:16.260 --> 00:11:19.010
+David Schaich (he): they need to exit full screen
+
+215
+00:11:20.250 --> 00:11:21.640
+David Schaich (he): could be able to
+
+216
+00:11:21.890 --> 00:11:23.300
+David Schaich (he): well from Alpha
+
+217
+00:11:27.290 --> 00:11:29.449
+David Schaich (he): on buttons on this keyboard
+
+218
+00:11:31.380 --> 00:11:33.600
+David Schaich (he): to go from Alpha Plugin.
+
+219
+00:11:33.940 --> 00:11:35.690
+David Schaich (he): Our expression for
+
+220
+00:11:36.150 --> 00:11:38.210
+David Schaich (he): the probability of density
+
+221
+00:11:38.540 --> 00:11:40.069
+David Schaich (he): multiplied by
+
+222
+00:11:41.470 --> 00:11:45.599
+David Schaich (he): this Delta G, which I got to be 10,
+
+223
+00:11:47.690 --> 00:11:49.870
+David Schaich (he): maybe in the interest of wrapping up
+
+224
+00:11:49.920 --> 00:11:51.859
+David Schaich (he): more or less on time.
+
+225
+00:11:52.380 --> 00:11:53.240
+David Schaich (he): I will
+
+226
+00:11:55.190 --> 00:11:56.859
+David Schaich (he): head over to.
+
+227
+00:12:01.250 --> 00:12:06.490
+David Schaich (he): I can get this guy to respond. Okay, lost the assignment. But we don't
+
+228
+00:12:07.350 --> 00:12:08.639
+David Schaich (he): the links to
+
+229
+00:12:10.960 --> 00:12:12.470
+David Schaich (he): the logistics
+
+230
+00:12:12.690 --> 00:12:13.890
+David Schaich (he): where I can
+
+231
+00:12:15.680 --> 00:12:17.130
+David Schaich (he): get to
+
+232
+00:12:23.060 --> 00:12:25.359
+David Schaich (he): the Github repository over it in
+
+233
+00:12:26.070 --> 00:12:28.250
+David Schaich (he): some python code.
+
+234
+00:12:28.300 --> 00:12:32.619
+David Schaich (he): If it ever loads. That will do these computations.
+
+235
+00:12:34.080 --> 00:12:35.320
+David Schaich (he): I thought, it is
+
+236
+00:12:35.420 --> 00:12:37.640
+David Schaich (he): more than is muted for this.
+
+237
+00:12:39.580 --> 00:12:40.640
+David Schaich (he): and
+
+238
+00:12:40.970 --> 00:12:42.659
+David Schaich (he): certainly sufficient.
+
+239
+00:12:43.450 --> 00:12:45.060
+David Schaich (he): if not necessary.
+
+240
+00:12:46.740 --> 00:12:49.529
+David Schaich (he): I realized that I may need to
+
+241
+00:12:50.000 --> 00:12:51.430
+David Schaich (he): log into
+
+242
+00:12:53.330 --> 00:12:54.810
+David Schaich (he): yet another
+
+243
+00:12:55.600 --> 00:12:58.140
+David Schaich (he): system here in order to run things.
+
+244
+00:13:00.060 --> 00:13:00.920
+David Schaich (he): Yeah.
+
+245
+00:13:02.550 --> 00:13:04.480
+David Schaich (he): open up a new notebook.
+
+246
+00:13:05.600 --> 00:13:06.830
+David Schaich (he): grab the
+
+247
+00:13:07.270 --> 00:13:09.120
+David Schaich (he): raw Python code.
+
+248
+00:13:10.960 --> 00:13:12.750
+David Schaich (he): the Github Repository.
+
+249
+00:13:14.930 --> 00:13:16.070
+David Schaich (he): and
+
+250
+00:13:17.410 --> 00:13:19.070
+David Schaich (he): I must be logged in
+
+251
+00:13:36.220 --> 00:13:37.349
+David Schaich (he): a
+
+252
+00:13:38.740 --> 00:13:41.099
+David Schaich (he): an issue because it's the more password.
+
+253
+00:13:41.530 --> 00:13:43.560
+David Schaich (he): So it's maybe
+
+254
+00:13:49.060 --> 00:13:50.750
+David Schaich (he): less of a
+
+255
+00:13:55.000 --> 00:13:56.560
+David Schaich (he): fun conclusion.
+
+256
+00:13:58.860 --> 00:14:00.360
+I was hoping for.
+
+257
+00:14:09.690 --> 00:14:11.899
+David Schaich (he): Everyone is demanding that I.
+
+258
+00:14:12.610 --> 00:14:14.150
+David Schaich (he): We have accounts.
+
+259
+00:14:20.760 --> 00:14:23.050
+David Schaich (he): So on this computer I'm.
+
+260
+00:14:23.430 --> 00:14:25.009
+David Schaich (he): not going to be able to.
+
+261
+00:14:26.220 --> 00:14:27.969
+We get code in time.
+
+262
+00:14:28.110 --> 00:14:28.710
+Yeah.
+
+263
+00:14:29.680 --> 00:14:31.990
+David Schaich (he): is probably not worth
+
+264
+00:14:32.770 --> 00:14:34.200
+David Schaich (he): looking at.
+
+265
+00:14:34.530 --> 00:14:36.070
+David Schaich (he): just as it is
+
+266
+00:14:38.080 --> 00:14:42.569
+David Schaich (he): so sorry about that. Maybe i'll record
+
+267
+00:14:42.650 --> 00:14:44.020
+David Schaich (he): little additional
+
+268
+00:14:45.210 --> 00:14:48.279
+David Schaich (he): video showing all how it works. And for you
+
+269
+00:14:48.330 --> 00:14:49.310
+David Schaich (he): my being.
+
+270
+00:14:50.710 --> 00:14:51.620
+David Schaich (he): It was
+
+271
+00:14:51.970 --> 00:14:53.180
+David Schaich (he): the results
+
+272
+00:14:53.370 --> 00:14:55.189
+David Schaich (he): that it gives just for
+
+273
+00:14:58.350 --> 00:14:59.200
+I wish.
+
+274
+00:15:00.240 --> 00:15:02.019
+David Schaich (he): look like this: the 6
+
+275
+00:15:02.360 --> 00:15:03.650
+David Schaich (he): probabilities
+
+276
+00:15:03.680 --> 00:15:04.660
+David Schaich (he): coming out with
+
+277
+00:15:05.050 --> 00:15:08.020
+David Schaich (he): direct or exact values, that all those
+
+278
+00:15:08.110 --> 00:15:11.719
+David Schaich (he): powers, of 18 over 37, and 1,937
+
+279
+00:15:12.030 --> 00:15:13.040
+coefficients.
+
+280
+00:15:13.130 --> 00:15:14.800
+circles.
+
+281
+00:15:15.270 --> 00:15:16.220
+David Schaich (he): and then
+
+282
+00:15:17.300 --> 00:15:19.020
+David Schaich (he): numerically integrating
+
+283
+00:15:19.930 --> 00:15:26.110
+David Schaich (he): prediction from the central limit theorem even for this small number of 5 spins.
+
+284
+00:15:26.450 --> 00:15:27.440
+David Schaich (he): we will
+
+285
+00:15:27.680 --> 00:15:31.110
+David Schaich (he): of science that in most cases are Google happen
+
+286
+00:15:31.210 --> 00:15:32.990
+David Schaich (he): with the exact circles
+
+287
+00:15:33.370 --> 00:15:37.939
+David Schaich (he): and the improved approximation that the probability of distribution is a constant
+
+288
+00:15:38.090 --> 00:15:39.190
+David Schaich (he): throughout
+
+289
+00:15:39.290 --> 00:15:40.650
+David Schaich (he): each of these
+
+290
+00:15:41.800 --> 00:15:43.099
+David Schaich (he): intervals. So
+
+291
+00:15:45.240 --> 00:15:48.320
+David Schaich (he): plus or minus 5, is a total of 10 for the game.
+
+292
+00:15:48.610 --> 00:15:51.079
+David Schaich (he): It's getting those red crosses
+
+293
+00:15:51.280 --> 00:15:56.759
+David Schaich (he): that are still in good agreement with the true values. So this is
+
+294
+00:15:56.860 --> 00:15:58.170
+David Schaich (he): something that
+
+295
+00:15:59.390 --> 00:16:03.350
+David Schaich (he): you can look at over the weekend, and
+
+296
+00:16:04.150 --> 00:16:08.740
+David Schaich (he): during the computer lab I have a chance to see what I thought in action. Starting off with the
+
+297
+00:16:09.370 --> 00:16:11.719
+David Schaich (he): looking at the demo and
+
+298
+00:16:13.260 --> 00:16:19.250
+David Schaich (he): computer project itself. So that's on Tuesday for Monday. We'll talk about random walks, of which
+
+299
+00:16:19.380 --> 00:16:23.359
+David Schaich (he): this from that game was actually an example of the right of my space.
+
+300
+00:16:23.540 --> 00:16:25.210
+David Schaich (he): So sorry about the
+
+301
+00:16:25.870 --> 00:16:28.529
+David Schaich (he): probably with showing off python here.
+
+302
+00:16:28.940 --> 00:16:30.609
+David Schaich (he): but hopefully
+
+303
+00:16:31.420 --> 00:16:34.460
+David Schaich (he): we have to play with it over the coming weeks.
+
+304
+00:16:34.480 --> 00:16:35.510
+David Schaich (he): I'll see you
+
+305
+00:16:35.840 --> 00:16:37.090
+David Schaich (he): on Monday.
+
