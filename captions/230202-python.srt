@@ -1,0 +1,495 @@
+1
+00:00:01,860 --> 00:00:05,610
+OK, we had some technical difficulties at the end
+
+2
+00:00:05,610 --> 00:00:08,730
+of the first week's tutorial, so this is just a
+
+3
+00:00:09,090 --> 00:00:11,370
+few minutes showing off what I had hoped to
+
+4
+00:00:11,430 --> 00:00:14,790
+demonstrate live there. Now, as a reminder, the
+
+5
+00:00:14,940 --> 00:00:19,020
+activity we were playing with was based on the
+
+6
+00:00:19,740 --> 00:00:23,220
+roulette example, a form of a random walk, as we
+
+7
+00:00:23,220 --> 00:00:26,520
+will see soon, and specifically looking at
+
+8
+00:00:26,520 --> 00:00:30,120
+ways to numerically integrate the probability
+
+9
+00:00:30,120 --> 00:00:32,550
+distribution predicted by the central limit
+
+10
+00:00:32,550 --> 00:00:35,520
+theorem for a large number of spins of this
+
+11
+00:00:35,520 --> 00:00:37,470
+roulette wheel, a large number of repetitions of
+
+12
+00:00:37,470 --> 00:00:42,840
+our experiment, which give the probability for a
+
+13
+00:00:42,840 --> 00:00:45,660
+certain outcome how much money we win or more
+
+14
+00:00:45,660 --> 00:00:52,240
+likely lose. And on a reasonable computer system
+
+15
+00:00:52,240 --> 00:00:56,080
+like this one that's running Linux and this sort
+
+16
+00:00:56,080 --> 00:01:02,660
+of activity can be demonstrated just by directly
+
+17
+00:01:02,660 --> 00:01:06,860
+running Python on the code that has been set up to
+
+18
+00:01:06,920 --> 00:01:10,310
+solve that numerical integration as well as the
+
+19
+00:01:10,520 --> 00:01:14,520
+exact computation. Of the probability is figured
+
+20
+00:01:14,520 --> 00:01:17,770
+out beforehand and a cruder, constant
+
+21
+00:01:17,820 --> 00:01:21,330
+approximation that approximates the probability
+
+22
+00:01:21,330 --> 00:01:24,330
+distribution as a constant within each of these
+
+23
+00:01:24,840 --> 00:01:29,700
+intervals that define how much we win or lose. So
+
+24
+00:01:29,700 --> 00:01:35,100
+given five spins of that wheel. We immediately
+
+25
+00:01:35,100 --> 00:01:38,940
+recovered the plot that was shown at the end of
+
+26
+00:01:38,940 --> 00:01:41,670
+the tutorial showing all three of those
+
+27
+00:01:41,970 --> 00:01:44,220
+computations of the probabilities, the exact
+
+28
+00:01:44,220 --> 00:01:47,910
+values, the numerical integration based on the
+
+29
+00:01:47,910 --> 00:01:49,690
+central limit theorem and the constant
+
+30
+00:01:49,740 --> 00:01:52,920
+approximation to that. They are all coming out
+
+31
+00:01:52,920 --> 00:01:56,670
+quite close together. Most likely to lose a bit of
+
+32
+00:01:56,670 --> 00:02:01,560
+money and the approximation coming from the
+
+33
+00:02:01,560 --> 00:02:04,530
+central limit theorem, which becomes exact as the
+
+34
+00:02:04,650 --> 00:02:08,370
+value of N goes to infinity. Five is far from
+
+35
+00:02:08,370 --> 00:02:11,340
+infinity. So we have some small deviations from
+
+36
+00:02:11,340 --> 00:02:14,280
+that. If we look at the exact probabilities
+
+37
+00:02:15,420 --> 00:02:18,240
+compared to those coming from the central limit
+
+38
+00:02:18,240 --> 00:02:21,180
+theorem. You see that there are sort of
+
+39
+00:02:21,870 --> 00:02:25,590
+differences in the third decimal place and in
+
+40
+00:02:25,590 --> 00:02:28,500
+particular, the sum of the probabilities from the
+
+41
+00:02:28,500 --> 00:02:31,860
+central limit theorem are almost eight percent off
+
+42
+00:02:31,860 --> 00:02:34,770
+from adding up to one hundred percent that we
+
+43
+00:02:34,770 --> 00:02:37,980
+expect for a true probability probability
+
+44
+00:02:37,980 --> 00:02:42,360
+distribution. I can say if we just look at this
+
+45
+00:02:42,360 --> 00:02:47,100
+example of. N equals five spins four, which we
+
+46
+00:02:47,790 --> 00:02:50,070
+could write down all the probabilities exactly
+
+47
+00:02:50,070 --> 00:02:53,250
+pretty easily and compute them just with Wolfram
+
+48
+00:02:53,250 --> 00:02:58,110
+Alpha, a bit of typing to put in the expression
+
+49
+00:02:58,110 --> 00:03:00,780
+for the probability distribution from the central
+
+50
+00:03:00,780 --> 00:03:04,050
+limit theorem, which is just plugging in the
+
+51
+00:03:04,500 --> 00:03:08,510
+single spin machine minus five, three sevens and
+
+52
+00:03:08,520 --> 00:03:10,920
+variance, which is a hundred twenty five
+
+53
+00:03:11,370 --> 00:03:14,250
+multiplied by the number of spins and showing up
+
+54
+00:03:14,250 --> 00:03:18,450
+in the skeleton form. Exponential of X squared
+
+55
+00:03:19,020 --> 00:03:23,700
+gives us. These same numbers point zero three
+
+56
+00:03:23,700 --> 00:03:27,600
+seven five five for that first probability of
+
+57
+00:03:27,600 --> 00:03:30,640
+losing all five spins and thereby losing all
+
+58
+00:03:30,660 --> 00:03:34,980
+twenty five pounds, that our bet and also for all
+
+59
+00:03:34,980 --> 00:03:39,810
+six of the probabilities we get to that total sum,
+
+60
+00:03:39,990 --> 00:03:43,560
+ninety nine point two six percent. And just by
+
+61
+00:03:43,560 --> 00:03:46,550
+adjusting the limits of immigration there, the
+
+62
+00:03:46,560 --> 00:03:49,080
+advantage to programming this in Python, rather
+
+63
+00:03:49,080 --> 00:03:51,630
+than going through Wolfram Alpha or some fancy
+
+64
+00:03:51,630 --> 00:03:57,270
+calculator, is that it becomes trivial to rerun
+
+65
+00:03:57,270 --> 00:04:00,930
+this with a larger number of spins. Or we see
+
+66
+00:04:00,930 --> 00:04:03,330
+something that looks a bit more like a Gaussian
+
+67
+00:04:03,330 --> 00:04:07,440
+peaked at losing a somewhat larger amount of money.
+
+68
+00:04:08,070 --> 00:04:13,500
+And repeat that for. Five hundred or indeed five
+
+69
+00:04:13,500 --> 00:04:20,210
+thousand spins with. No further work getting to
+
+70
+00:04:20,210 --> 00:04:24,710
+the point where fifty thousand spins, there is
+
+71
+00:04:25,070 --> 00:04:29,450
+essentially 100 percent probability that we lose a
+
+72
+00:04:29,450 --> 00:04:32,690
+significant amount of money, no chance at all of
+
+73
+00:04:32,690 --> 00:04:37,190
+any gain. So we will look at python code in
+
+74
+00:04:37,190 --> 00:04:40,220
+general in more detail at the computer labs. I
+
+75
+00:04:40,220 --> 00:04:43,870
+have uploaded the code for this will revive
+
+76
+00:04:43,910 --> 00:04:49,740
+activity to the. Module's page on the Canada site,
+
+77
+00:04:50,610 --> 00:04:53,820
+just where we were, just there it is there for you,
+
+78
+00:04:54,170 --> 00:04:56,910
+you can't really do much with it on canvas apart
+
+79
+00:04:56,910 --> 00:05:01,860
+from copying it and putting it into something like
+
+80
+00:05:01,980 --> 00:05:07,830
+Google's collaboratory. Where? Can run and play
+
+81
+00:05:07,830 --> 00:05:10,920
+with this yourself. One thing will have to do is
+
+82
+00:05:10,920 --> 00:05:15,900
+change the argument passing rather than reading in
+
+83
+00:05:15,900 --> 00:05:20,240
+some number of spins. We just set that by hand. We
+
+84
+00:05:20,330 --> 00:05:24,030
+produce. The results you've already seen, both the
+
+85
+00:05:24,030 --> 00:05:27,210
+plot and all of those six probabilities computed
+
+86
+00:05:27,210 --> 00:05:31,170
+in three different ways within a second or two.
+
+87
+00:05:33,000 --> 00:05:36,810
+And if we come out of the printing out all of
+
+88
+00:05:36,810 --> 00:05:40,590
+these probabilities in each of the three different
+
+89
+00:05:40,590 --> 00:05:45,510
+ways of comparing them. We can quickly check that.
+
+90
+00:05:46,540 --> 00:05:48,160
+If a larger number of spin's.
+
+91
+00:05:50,160 --> 00:05:54,720
+The. Distributions do add up to one to a very good
+
+92
+00:05:54,840 --> 00:05:58,530
+approximation already. One other thing that might
+
+93
+00:05:58,530 --> 00:06:02,220
+be fun to see here is that if we get up to that
+
+94
+00:06:02,220 --> 00:06:05,430
+very large number, even though it still takes only
+
+95
+00:06:05,970 --> 00:06:10,410
+zero point eight seconds to run. We start having
+
+96
+00:06:10,410 --> 00:06:14,240
+errors pop up. Which are related to the binomial
+
+97
+00:06:14,240 --> 00:06:17,810
+coefficient that showed up in the exact
+
+98
+00:06:17,810 --> 00:06:20,420
+probability that was computed in the tutorial,
+
+99
+00:06:20,870 --> 00:06:24,020
+that probability is the binomial coefficient and
+
+100
+00:06:24,020 --> 00:06:29,330
+choose W for W wins and spins multiplied by the
+
+101
+00:06:29,570 --> 00:06:32,210
+power of winning each of those W spins, which is
+
+102
+00:06:32,510 --> 00:06:34,700
+eighteen thirty seven, slightly less than half,
+
+103
+00:06:35,420 --> 00:06:39,380
+also multiplied by the power of losing the minus W
+
+104
+00:06:39,380 --> 00:06:43,730
+other spins. That two is nineteen out of thirty
+
+105
+00:06:43,730 --> 00:06:47,010
+seven, slightly more than one half. But this
+
+106
+00:06:47,010 --> 00:06:51,300
+binomial coefficients involves in the factorial W
+
+107
+00:06:51,300 --> 00:06:54,990
+factorial and minus W factorial, I believe it is
+
+108
+00:06:55,170 --> 00:06:59,790
+right there and. Once again, it's up to this range
+
+109
+00:06:59,790 --> 00:07:03,730
+of thousands and factorial a thousand factories,
+
+110
+00:07:03,750 --> 00:07:06,960
+it becomes such a large number that it actually
+
+111
+00:07:06,960 --> 00:07:10,590
+overflows the number of integers that Python is
+
+112
+00:07:10,590 --> 00:07:14,460
+set up to handle without doing something special.
+
+113
+00:07:15,540 --> 00:07:19,680
+And that is the source of that error there, which
+
+114
+00:07:19,890 --> 00:07:22,020
+is something you may want to keep an eye out for
+
+115
+00:07:22,020 --> 00:07:25,650
+as you work on that computer project, but we have
+
+116
+00:07:25,650 --> 00:07:28,830
+seen just a quick look through the code that
+
+117
+00:07:29,430 --> 00:07:35,740
+involves some. Special functions that binomial
+
+118
+00:07:35,740 --> 00:07:38,890
+coefficient and numerical integration from a new
+
+119
+00:07:38,890 --> 00:07:42,640
+package called Scientific Python that you have in
+
+120
+00:07:42,640 --> 00:07:45,610
+addition to the numerical python and the
+
+121
+00:07:45,610 --> 00:07:49,490
+matplotlib that are discussed in the demo, I
+
+122
+00:07:49,570 --> 00:07:53,800
+should leave all of the details about this python
+
+123
+00:07:53,830 --> 00:07:57,910
+or any other examples for the computer lab coming
+
+124
+00:07:57,910 --> 00:07:58,470
+up soon.
