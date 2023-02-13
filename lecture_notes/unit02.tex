@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 2}
-\renewcommand{\moddate}{Last modified 5 Feb.~2023}
+\renewcommand{\moddate}{Last modified 13 Feb.~2023}
 \setcounter{section}{2}
 \setcounter{subsection}{0}
 \phantomsection
@@ -135,7 +135,7 @@ What is the entropy if $E = 0$ with $H > 0$ (which requires $n_+ = n_-$)?
 % ------------------------------------------------------------------
 \subsubsection{Extensivity}
 The increase in entropy for an increasing number of micro-states $M$ is a reflection of entropy being an \textit{extensive} quantity.
-Extensive quantities are formally defined by considering how they behave if two isolated systems are \textit{analyzed} as a single system---while still remaining isolated from each other, exchanging neither energy nor particles.
+Extensive quantities are formally defined by considering how they behave if two isolated systems are \textit{analyzed} as a single system --- while still remaining isolated from each other, exchanging neither energy nor particles.
 This is clearest to consider through the specific example shown below of two isolated spin systems, $\Om_1$ \& $\Om_2$, respectively characterized by the corresponding energies $E_1$ \& $E_2$ and particle numbers $N_1$ \& $N_2$.
 To simplify the subsequent analysis, we can assume that both systems are placed in magnetic fields with the same $H$, so that $E_S = -H\left(n_+^{(S)} - n_-^{(S)}\right)$ for $S \in \left\{1, 2\right\}$.
 \begin{center}
@@ -237,7 +237,7 @@ This is all we can say in full generality, without specifying more details of a 
 Though we won't go through a more general derivation here, it turns out that the total entropy never decreases (and generically increases) as time passes, under \textit{any} circumstances.
 This has many far-reaching consequences, the first of which is a more general definition of thermodynamic equilibrium that (unlike \eq{eq:micro_equil}) will also apply when we consider statistical ensembles other than the micro-canonical ensemble.
 For simplicity we assume that any system under consideration has a finite number of micro-states, which means that its entropy is bounded from above.
-To motivate the definition below, note that the overall system \Om may have undergone an equilibration process to reach its thermodynamic equilibrium after its two (independently equilibrated) subsystems were brought into thermal contact---and in this process the entropy was non-decreasing.
+To motivate the definition below, note that the overall system \Om may have undergone an equilibration process to reach its thermodynamic equilibrium after its two (independently equilibrated) subsystems were brought into thermal contact --- and in this process the entropy was non-decreasing.
 
 \begin{shaded}
   A system is defined to be in \textbf{thermodynamic equilibrium} if its entropy is maximal.
@@ -299,7 +299,7 @@ Your results should generalize to
   M(E_{n_-}) = \binom{N}{n_-} = \frac{N!}{n_-! \; (N - n_-)!}.
 \end{equation}
 
-To take the derivative in \eq{eq:temperature}, we need to express $n_+$ in terms of $\left\{E, N\right\}$.
+To take the derivative in \eq{eq:temperature}, we need to express $n_-$ in terms of $\left\{E, N\right\}$.
 It will also be convenient to avoid the factorial operation, which is inconvenient to differentiate.
 For $N \gg 1$, we can accomplish both these goals by treating the spin system as a random walk (in the space of its possible energies $E$) and applying the central limit theorem: \\[-24 pt]
 \begin{itemize} % Adapted from a tutorial exercise since sufficiently important to include in the main material...
