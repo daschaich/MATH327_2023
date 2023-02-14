@@ -1,0 +1,726 @@
+WEBVTT
+
+1
+00:00:02.370 --> 00:00:10.440
+David Schaich (he): Okay, I'll just say a few words now that we're all set up, and I've manage to log into at least a few
+
+2
+00:00:11.610 --> 00:00:14.180
+David Schaich (he): of these tools.  So
+
+3
+00:00:15.550 --> 00:00:19.260
+David Schaich (he): I'll come around just after I to a bit of
+
+4
+00:00:19.280 --> 00:00:21.490
+recording at the start. But just to
+
+5
+00:00:23.170 --> 00:00:35.020
+David Schaich (he): reiterate what I was going on about in an announcement a few days ago: We're about halfway from the start of the computer labs to the deadline for
+
+6
+00:00:35.130 --> 00:00:40.080
+David Schaich (he): this project. And if you have gotten through those first 3 exercises
+
+7
+00:00:42.350 --> 00:00:43.500
+David Schaich (he): that's also around the halfway point, and a good place to be.
+
+8
+00:00:45.170 --> 00:00:47.960
+David Schaich (he): If you're not there yet, then don't worry,
+
+9
+00:00:48.620 --> 00:00:51.000
+David Schaich (he): there's still plenty of time to catch up.
+
+10
+00:00:52.500 --> 00:00:57.240
+David Schaich (he): What I'll do today is check if there are general questions about those
+
+11
+00:00:57.390 --> 00:00:59.550
+David Schaich (he): first 3 exercises
+
+12
+00:01:00.620 --> 00:01:04.519
+David Schaich (he): deal with pseudo random numbers, inverse transform sampling
+
+13
+00:01:04.849 --> 00:01:07.670
+David Schaich (he): and random walks more generally.
+
+14
+00:01:08.170 --> 00:01:19.020
+David Schaich (he): And if you right now just say a few things about the final 2 exercises. the Co. She, Lorenz Distribution.
+
+15
+00:01:20.260 --> 00:01:23.230
+David Schaich (he): and anomalous diffusion
+
+16
+00:01:24.760 --> 00:01:28.720
+David Schaich (he): miles of our destination for this project.
+
+17
+00:01:31.900 --> 00:01:34.340
+David Schaich (he): and not hearing any questions
+
+18
+00:01:35.950 --> 00:01:38.260
+David Schaich (he): just highlight, a few things that are
+
+19
+00:01:38.790 --> 00:01:41.740
+David Schaich (he): covered in in this background, material about
+
+20
+00:01:41.940 --> 00:01:52.620
+David Schaich (he): the cost of the Lorentz distribution. one of which is to emphasize that I tell you already here that the central limit theorem will not be applicable to this distribution.
+
+21
+00:01:52.740 --> 00:01:56.100
+David Schaich (he): and based on what we saw in class, not the central to the
+
+22
+00:01:56.210 --> 00:01:58.810
+David Schaich (he): we know that the only assumptions it makes
+
+23
+00:02:00.260 --> 00:02:05.940
+David Schaich (he): mean and variance of the distribution that is providing each single step.
+
+24
+00:02:06.290 --> 00:02:19.460
+David Schaich (he): You know a random walk. What does mean and and variance have to be finite. So this is already a hint about what is going to happen with some of the properties of the the coach. You launch distribution that
+
+25
+00:02:19.520 --> 00:02:21.070
+David Schaich (he): you're asked to look into.
+
+26
+00:02:22.360 --> 00:02:24.210
+David Schaich (he): So the plan is, we'll be doing
+
+27
+00:02:24.400 --> 00:02:30.750
+David Schaich (he): Random walks with step. Size is drawn from It's Koshi distribution.
+
+28
+00:02:31.030 --> 00:02:35.360
+David Schaich (he): and to get a feel for? Why, this might be interesting. We can
+
+29
+00:02:35.570 --> 00:02:40.360
+David Schaich (he): just look at the plot of the Kosher distribution with 3 different values of
+
+30
+00:02:40.580 --> 00:02:53.680
+David Schaich (he): it's parameter. B compared to the normal Gaussian distribution some particular value for it's standard deviation, Sigma. in that exponential.
+
+31
+00:02:54.290 --> 00:03:05.060
+David Schaich (he): But we can see that depending on the the peak of the coaching distribution can either be above or below the Gaussian distribution. But for any value I would be
+
+32
+00:03:05.810 --> 00:03:10.060
+David Schaich (he): as we get far away from that peak. The Koshi distribution
+
+33
+00:03:10.150 --> 00:03:16.770
+David Schaich (he): always has a larger probability for a large value of X than the Gaussian distribution.
+
+34
+00:03:18.440 --> 00:03:22.510
+David Schaich (he): What this is to say is that there is a larger possibility of
+
+35
+00:03:24.350 --> 00:03:26.750
+David Schaich (he): rare events or extreme
+
+36
+00:03:26.790 --> 00:03:30.280
+David Schaich (he): steps in the random box will be taking.
+
+37
+00:03:30.600 --> 00:03:43.600
+David Schaich (he): These are also called fat tails. or the tails of the distribution, are referring to the portions far away from its peak. and this is fairly easy to appreciate. From the functional form
+
+38
+00:03:43.670 --> 00:03:45.050
+David Schaich (he): can see that when
+
+39
+00:03:45.390 --> 00:03:47.580
+David Schaich (he): X is large this
+
+40
+00:03:47.870 --> 00:03:52.980
+David Schaich (he): coaching distribution is decreasing like one over X squared, or as the Gaussian distribution
+
+41
+00:03:53.000 --> 00:03:59.640
+David Schaich (he): is an exponential E to the minus X squared, exponentially suppressed and going t0 0 much more rapidly.
+
+42
+00:04:03.700 --> 00:04:10.700
+David Schaich (he): So, looking at the task here, when we have the caution distribution and want to find the
+
+43
+00:04:12.220 --> 00:04:14.190
+David Schaich (he): transform that
+
+44
+00:04:14.490 --> 00:04:20.110
+David Schaich (he): we'll give us random numbers distributed according to it based on
+
+45
+00:04:20.250 --> 00:04:23.210
+David Schaich (he): the relation that we talked through last week.
+
+46
+00:04:23.430 --> 00:04:25.990
+David Schaich (he): We can guess that extracting
+
+47
+00:04:26.530 --> 00:04:29.500
+David Schaich (he): a f inverse of X,
+
+48
+00:04:30.230 --> 00:04:33.830
+David Schaich (he): and then inverting it to hit F. Of you. Given that
+
+49
+00:04:33.840 --> 00:04:43.800
+David Schaich (he): the transfer, given the distribution of interest will require integrating both sides, introducing a positive integration that can be fixed by
+
+50
+00:04:44.110 --> 00:04:48.690
+David Schaich (he): clearly mapping the 2 domains of uniform random numbers
+
+51
+00:04:48.860 --> 00:04:51.780
+and the coaching distributed random Numbers X
+
+52
+00:04:51.830 --> 00:04:53.130
+David Schaich (he): onto each other.
+
+53
+00:04:53.740 --> 00:04:59.300
+David Schaich (he): So that's the the basic procedure to do there, which there were some questions about the
+
+54
+00:04:59.410 --> 00:05:09.030
+David Schaich (he): context of going the other direction in this past week. Given a transformation, taking the derivative to find the corresponding distribution.
+
+55
+00:05:13.300 --> 00:05:17.090
+David Schaich (he): These 2 plots here are sort of the illustration of why
+
+56
+00:05:17.130 --> 00:05:22.020
+David Schaich (he): this coaching distribution can be interesting and and possibly tricky to consider.
+
+57
+00:05:22.170 --> 00:05:25.860
+David Schaich (he): These are 2 random walks here in 2 variables. So.
+
+58
+00:05:26.000 --> 00:05:28.150
+David Schaich (he): as we take a step, we
+
+59
+00:05:28.280 --> 00:05:34.290
+David Schaich (he): take that step not only left or right on the line, but at any randomly. It shows an angle around it
+
+60
+00:05:34.620 --> 00:05:38.960
+David Schaich (he): the complex plane, or just the Xy plane, or generally
+
+61
+00:05:39.310 --> 00:05:48.790
+David Schaich (he): so, we have steps of different lengths and different angles in the plot on the left the step lengths are drawn from that normal Gaussian distribution.
+
+62
+00:05:50.070 --> 00:05:57.110
+David Schaich (he): and in the step in the plot on the right the step lengths are drawn from Akoshi, Lorentz distribution.
+
+63
+00:05:57.980 --> 00:06:01.240
+David Schaich (he): and the clear difference between the 2 is that
+
+64
+00:06:01.880 --> 00:06:09.640
+David Schaich (he): in the with steps drawn from the Kosher distribution we have occasional steps that are extremely large.
+
+65
+00:06:09.700 --> 00:06:19.970
+David Schaich (he): especially when we look at the different scales on the X and Y. Axes that are about 10 times different between the 2, and see some of these individual steps.
+
+66
+00:06:19.990 --> 00:06:29.800
+David Schaich (he): or traveling farther than a normal random walk that obeys the wall. Diffusion was able to get in a 1,000. So steps all added together.
+
+67
+00:06:32.580 --> 00:06:45.590
+David Schaich (he): due to the in applicability of the central limit theorem. and therefore the inadmissibility of the law of diffusion for the kosher lattice distribution.
+
+68
+00:06:46.060 --> 00:06:54.370
+David Schaich (he): If we want to analyze the final positions of walks with steps draw from that distribution. We actually need to generalize the
+
+69
+00:06:54.520 --> 00:06:58.430
+David Schaich (he): diffusion length that we have seen before, and are used to just the
+
+70
+00:07:00.260 --> 00:07:04.500
+David Schaich (he): So if we look at this equation for the generalized diffusion length.
+
+71
+00:07:05.970 --> 00:07:07.540
+David Schaich (he): I can see that it is
+
+72
+00:07:09.840 --> 00:07:14.440
+David Schaich (he): operating in the same spirit as the diffusion length, which is the
+
+73
+00:07:15.070 --> 00:07:18.520
+square roots of the square of that mean.
+
+74
+00:07:18.640 --> 00:07:21.490
+David Schaich (he): You generalize that instead. Now, to have a
+
+75
+00:07:21.590 --> 00:07:24.590
+David Schaich (he): real parameter theta is greater than 0.
+
+76
+00:07:24.920 --> 00:07:26.120
+David Schaich (he): We raise
+
+77
+00:07:26.730 --> 00:07:30.300
+David Schaich (he): the final position of the walk to the power of theta.
+
+78
+00:07:30.650 --> 00:07:31.710
+David Schaich (he): take the
+
+79
+00:07:31.790 --> 00:07:37.590
+David Schaich (he): expectation value of the mean, and then take the theta through the one over beta power
+
+80
+00:07:37.680 --> 00:07:38.500
+David Schaich (he): to
+
+81
+00:07:40.090 --> 00:07:42.950
+David Schaich (he): put things on a an equal footing.
+
+82
+00:07:44.900 --> 00:07:49.040
+David Schaich (he): you will find that for the social rest distribution
+
+83
+00:07:49.290 --> 00:07:51.490
+theta equals 2. Is not.
+
+84
+00:07:51.690 --> 00:07:56.070
+David Schaich (he): Are you valid value for that parameter we have to use
+
+85
+00:07:57.140 --> 00:08:01.070
+David Schaich (he): different values, and for those different values we will find
+
+86
+00:08:01.220 --> 00:08:08.500
+David Schaich (he): that the generalized diffusion length is not proportional to the square root of the number of steps. So it does not obey
+
+87
+00:08:08.840 --> 00:08:19.930
+David Schaich (he): the law of diffusion that we saw in lectures. But there is a real parameter alpha, a exponent in this power law that
+
+88
+00:08:20.130 --> 00:08:25.220
+David Schaich (he): it's not equal to a half. So we don't have the square root. We have either super diffusion
+
+89
+00:08:25.330 --> 00:08:29.490
+David Schaich (he): or sub diffusion. and yes.
+
+90
+00:08:29.510 --> 00:08:32.940
+David Schaich (he): part of your task is to figure out which is which.
+
+91
+00:08:32.990 --> 00:08:38.570
+David Schaich (he): and how this Alpha may depend on. Theta So that is
+
+92
+00:08:40.880 --> 00:08:43.669
+David Schaich (he): reminding me of one last thing to
+
+93
+00:08:44.169 --> 00:08:57.670
+David Schaich (he): look at before I let you get on with it, which is the piece of the programming demo that we didn't look at last time, and for that matter. I'm also
+
+94
+00:08:58.400 --> 00:09:00.170
+David Schaich (he): remembering that
+
+95
+00:09:03.550 --> 00:09:07.030
+David Schaich (he): I forgot to tell you the 6 digit.
+
+96
+00:09:08.160 --> 00:09:20.410
+David Schaich (he): the attendance code for today. which is 9 2 2 2, 1 4 right. Keep that at the top of
+
+97
+00:09:21.710 --> 00:09:24.790
+David Schaich (he): the demo for a moment.
+
+98
+00:09:26.880 --> 00:09:31.830
+David Schaich (he): and then hop down to the bottom of the demo. which
+
+99
+00:09:33.490 --> 00:09:44.690
+David Schaich (he): looks at a trick to simplify the source of power law fits that had arise in the context of a novelist diffusion. But we don't know
+
+100
+00:09:44.750 --> 00:09:50.050
+David Schaich (he): the exponents in the power law, and we want to predict that from numerical data
+
+101
+00:09:51.520 --> 00:09:52.700
+David Schaich (he): there is a trick
+
+102
+00:09:53.210 --> 00:09:59.050
+David Schaich (he): to extract that first thing. I'll say it is possible to use python just to fit
+
+103
+00:09:59.170 --> 00:10:02.950
+David Schaich (he): a excellent a power wall directly
+
+104
+00:10:03.560 --> 00:10:07.570
+giving it. This is the fit function to fit data to.
+
+105
+00:10:07.840 --> 00:10:11.770
+David Schaich (he): There is a way to simplify this, though, and get back to
+
+106
+00:10:12.660 --> 00:10:16.100
+David Schaich (he): the sort of thing that you were doing, and exercise 3 for
+
+107
+00:10:16.370 --> 00:10:21.270
+David Schaich (he): a random walk, that they more well behaved with distribution for a step sizes, and that is
+
+108
+00:10:21.410 --> 00:10:30.040
+David Schaich (he): to take the logarithm of both sides of this equation, so that the law of L is equal to the log of C plus alpha times
+
+109
+00:10:30.240 --> 00:10:35.180
+David Schaich (he): the log of in. So this now is a
+
+110
+00:10:35.260 --> 00:10:37.500
+David Schaich (he): linear relation
+
+111
+00:10:38.180 --> 00:10:41.200
+David Schaich (he): between the variables of the logarithm of N.
+
+112
+00:10:41.450 --> 00:10:47.720
+David Schaich (he): And the logarithm of L. For N. Is the number of steps, and L is the distance that the walk travels.
+
+113
+00:10:48.070 --> 00:10:51.170
+David Schaich (he): This is. it's obvious, if you know, to
+
+114
+00:10:51.360 --> 00:10:56.540
+David Schaich (he): go through this procedure, it's not necessarily obvious to come up with in the first place.
+
+115
+00:10:57.290 --> 00:11:00.720
+David Schaich (he): And yeah, the choice is yours whether you want to
+
+116
+00:11:01.220 --> 00:11:03.300
+apply this trick or
+
+117
+00:11:03.510 --> 00:11:15.630
+David Schaich (he): attempts a direct fit to a power law in the programming solution that you choose for the exercise and these tasks.
+
+118
+00:11:17.180 --> 00:11:24.390
+David Schaich (he): So any general questions about at the remainder of yeah project and Demo.
+
+119
+00:11:28.330 --> 00:11:35.350
+David Schaich (he): not seeing any. All calls the recording for the time being. You get on with things, and also
+
+120
+00:11:36.380 --> 00:11:46.090
+David Schaich (he): Don't. Let me interrupt your work, but I just resume the recording to look into a question that came up about
+
+121
+00:11:49.420 --> 00:11:53.620
+David Schaich (he): ways to take powers of numbers in Python.
+
+122
+00:11:53.710 --> 00:11:57.650
+David Schaich (he): There's the observation that in this first exercise
+
+123
+00:11:58.890 --> 00:12:04.600
+David Schaich (he): all of these 5 different are different by it. factor of 10. So you might
+
+124
+00:12:04.610 --> 00:12:15.620
+David Schaich (he): try an elegant way of programming that as 10 to the power. one or power, 2 10 to the 3 4, and 5. So
+
+125
+00:12:16.520 --> 00:12:17.410
+David Schaich (he): in
+
+126
+00:12:18.750 --> 00:12:20.490
+David Schaich (he): numerical python
+
+127
+00:12:22.500 --> 00:12:29.660
+David Schaich (he): there is a sub routine called power. which takes
+
+128
+00:12:29.860 --> 00:12:37.030
+David Schaich (he): at least 2 arguments. Here's an example in here with the first argument is
+
+129
+00:12:37.150 --> 00:12:38.870
+David Schaich (he): the base of
+
+130
+00:12:39.680 --> 00:12:44.150
+David Schaich (he): the the power, the number that you want reduce to some power.
+
+131
+00:12:44.400 --> 00:12:51.170
+David Schaich (he): and then the second argument is the power to raise that base to. So in this example
+
+132
+00:12:51.570 --> 00:12:55.850
+David Schaich (he): we're looking at 6 different possibilities for that base
+
+133
+00:12:56.090 --> 00:13:08.470
+David Schaich (he): 0 1 2 3 4, and 5, and raising each of them to the third power. S0 0 cubed is 0 0ne cubed is one. 2 cubed is 8 and s0 0n up t0 5 cubed is 125.
+
+134
+00:13:10.360 --> 00:13:23.110
+David Schaich (he): What you don't want to do is the what might seem natural this upward pointing carrot see? If I can
+
+135
+00:13:24.400 --> 00:13:27.720
+David Schaich (he): get to Google to search
+
+136
+00:13:28.800 --> 00:13:32.190
+David Schaich (he): for this explicitly.
+
+137
+00:13:45.080 --> 00:13:46.430
+David Schaich (he): This is your state
+
+138
+00:13:46.440 --> 00:13:49.360
+David Schaich (he): random site that came up on the
+
+139
+00:13:50.930 --> 00:14:04.170
+David Schaich (he): Google Search, and may or may not. There it is this upward pointing arrow. what you might naively write for a power
+
+140
+00:14:04.430 --> 00:14:16.480
+David Schaich (he): is a bitwise exclusive, or operation so representing X and y as some sequences, of 32 0r 64 zeros, and what they're called bits
+
+141
+00:14:16.590 --> 00:14:30.450
+David Schaich (he): that encode the numerical value. This is looking at those 2 numbers bit by bit, in those 32 places applying the exclusive or operation. So the output is one
+
+142
+00:14:30.760 --> 00:14:42.590
+David Schaich (he): here. Either X or Y has a one in that bit location. and it's 0 0therwise that doesn't really matter. Those details. What matters is this? Is not
+
+143
+00:14:42.650 --> 00:14:43.610
+David Schaich (he): the power
+
+144
+00:14:43.720 --> 00:14:46.410
+Numerical Python has
+
+145
+00:14:46.750 --> 00:14:53.540
+David Schaich (he): the numerical tool that you want to use for this purpose. So that was a nice question that led to some
+
+146
+00:14:53.870 --> 00:14:57.400
+David Schaich (he): interesting look into the guts of
+
+147
+00:14:57.710 --> 00:15:01.830
+David Schaich (he): python and the bit wise representation of floating point Numbers
+
+148
+00:15:03.350 --> 00:15:04.150
+David Schaich (he): Good.
+
+149
+00:15:05.920 --> 00:15:20.330
+David Schaich (he): Yeah. Just on Thursday, recording for one more comment that need not interrupt you. But we were talking about in exercise 3, I think, looking at the
+
+150
+00:15:20.490 --> 00:15:29.570
+David Schaich (he): 500 steps in the random walks, or, I should say, random walks of each length up from one step t0 500 steps.
+
+151
+00:15:29.710 --> 00:15:34.260
+David Schaich (he): There's some complaints about that, taking many minutes to to run
+
+152
+00:15:34.390 --> 00:15:36.400
+David Schaich (he): on a laptop
+
+153
+00:15:36.780 --> 00:15:40.330
+David Schaich (he): and making the fan unhappy as we heard it.
+
+154
+00:15:41.400 --> 00:15:50.430
+David Schaich (he): I will say that there are tricks that it's a bit of thought can cut down the amount of time
+
+155
+00:15:50.580 --> 00:15:53.710
+David Schaich (he): the things safe to run. I think enough. None
+
+156
+00:15:54.100 --> 00:15:56.450
+David Schaich (he): of these calculations
+
+157
+00:15:56.560 --> 00:15:59.910
+David Schaich (he): took me more than a minute, even running them on
+
+158
+00:16:00.230 --> 00:16:10.950
+David Schaich (he): that Google cloud. which was about half the speed of my laptop. So it was sort of 20 t0 30 s maximum for any of these exercises on
+
+159
+00:16:10.990 --> 00:16:13.780
+David Schaich (he): my laptop. But
+
+160
+00:16:13.990 --> 00:16:18.640
+David Schaich (he): if you can't figure out how to speed things up to that extent, the
+
+161
+00:16:19.150 --> 00:16:22.940
+David Schaich (he): those cloud solutions can also provide a way for
+
+162
+00:16:23.070 --> 00:16:26.340
+David Schaich (he): things to run for a more extended period of time without
+
+163
+00:16:26.520 --> 00:16:31.150
+David Schaich (he): taking over your laptop and enforcing its fan to work over time.
+
+164
+00:16:31.540 --> 00:16:36.690
+David Schaich (he): So keep in mind that i'm not trying to make this very yet
+
+165
+00:16:37.020 --> 00:16:38.440
+challenging
+
+166
+00:16:38.780 --> 00:16:42.960
+David Schaich (he): project in terms of the amount of
+
+167
+00:16:43.160 --> 00:16:47.600
+David Schaich (he): cycles that you're being demanded to burn on the computer.
+
+168
+00:16:47.810 --> 00:16:48.930
+David Schaich (he): It's
+
+169
+00:16:49.510 --> 00:16:53.000
+David Schaich (he): goal is to get you to think about what that computer is doing.
+
+170
+00:16:53.110 --> 00:16:59.300
+David Schaich (he): and how to make it do what you want it to do rather than just work it for hours on end.
+
+171
+00:17:05.020 --> 00:17:17.369
+David Schaich (he): All right. I'm going to wrap things up for this week's computer lab and get things shut down ready for the next class. It will be coming in here in a few minutes, but I do have
+
+172
+00:17:18.050 --> 00:17:25.160
+David Schaich (he): office hour for the next hour and the make up office hours scheduled at 11 0n Thursday.
+
+173
+00:17:25.450 --> 00:17:37.120
+David Schaich (he): just because I had to leave halfway through the regular one after yesterday's lecture. You're also free to email or make appointments. If you
+
+174
+00:17:37.150 --> 00:17:44.630
+David Schaich (he): continue having difficulties, just keep in mind that with the deadline for the project that
+
+175
+00:17:44.910 --> 00:17:49.620
+David Schaich (he): 5 next Tuesday there will be so much time to wrap things up after
+
+176
+00:17:49.770 --> 00:18:02.750
+David Schaich (he): the final computer lab next week. So because you make sure you take a first pass, at least at all the exercises before then, and just bring in
+
+177
+00:18:02.850 --> 00:18:05.430
+David Schaich (he): any immediate questions that have been giving you trouble
+
+178
+00:18:05.610 --> 00:18:07.330
+David Schaich (he): to wrap up
+
+179
+00:18:07.500 --> 00:18:11.320
+David Schaich (he): that Tuesday afternoon to get things done. Have a good time.
+
+180
+00:18:13.680 --> 00:18:25.810
+David Schaich (he): so may be in touch over the remainder of the week as infamously. But those are. I don't see till Monday. I hope the rest of the weekend we can go as well. I'll see you then
+
+181
+00:18:26.010 --> 00:18:32.190
+David Schaich (he): next week for the canonical ensemble. The end of the computer project.
+
