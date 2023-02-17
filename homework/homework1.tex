@@ -1,0 +1,182 @@
+% ------------------------------------------------------------------
+\documentclass[12 pt]{article} % A4 paper set by geometry package below
+\pagenumbering{arabic}
+\setlength{\parindent}{10 mm}
+\setlength{\parskip}{12 pt}
+
+% Nimbus Sans font should be reasonably legible
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}  % Without this \textsterling produces $
+
+% Section header spacing
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{verbatim}    % For comment
+\usepackage[paper=a4paper, marginparwidth=0 cm, marginparsep=0 cm, top=2.5 cm, bottom=2.5 cm, left=3 cm, right=3 cm, includemp]{geometry}
+\usepackage[pdftex, pdfstartview={FitH}, pdfnewwindow=true, colorlinks=true, citecolor=blue, filecolor=blue, linkcolor=blue, urlcolor=blue, pdfpagemode=UseNone]{hyperref}
+
+% Put module code and last-modified date in footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{{\small \thisweek}\hfill \thepage\hfill {\small \moddate}}
+
+% Hopefully address Canvas complaints about pdf tagging and title
+%\usepackage[tagged]{accessibility}
+\hypersetup {
+  pdfauthor={David Schaich},
+  pdftitle={Statistical Physics Homework},
+}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+% Shortcuts
+\newcommand{\be}{\ensuremath{\beta} }
+\newcommand{\De}{\ensuremath{\Delta} }
+\newcommand{\eps}{\ensuremath{\varepsilon} }
+\newcommand{\si}{\ensuremath{\sigma} }
+\newcommand{\vdr}{\ensuremath{v_{\mathrm{dr}}} }
+\newcommand{\vev}[1]{\ensuremath{\left\langle #1 \right\rangle} }
+\newcommand{\pderiv}[2]{\ensuremath{\frac{\partial #1}{\partial #2}} }
+\newcommand{\showmarks}[1]{\rightline{\texttt{[#1 marks]}}} % \showmarks needs to follow a blank line!
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{#1}}}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\begin{document}
+\newcommand{\thisweek}{MATH327 Homework 1}
+\newcommand{\moddate}{Last modified 17 Feb.~2023}
+\begin{center}
+  {\Large \textbf{MATH327: Statistical Physics, Spring 2023}} \\[12 pt]
+  {\Large \textbf{Homework assignment 1}} \\[24 pt]
+\end{center}
+
+\section*{Instructions}
+Complete all three questions below and submit your solutions by file upload \href{https://canvas.liverpool.ac.uk/courses/60601/assignments/226600}{on Canvas}.\footnote{By submitting solutions to this assessment you affirm that you have read and understood the \href{https://www.liverpool.ac.uk/media/livacuk/tqsd/code-of-practice-on-assessment/appendix_L_cop_assess.pdf}{Academic Integrity Policy} detailed in Appendix L of the Code of Practice on Assessment and have successfully passed the Academic Integrity Tutorial and Quiz.  The marks achieved on this assessment remain provisional until they are ratified by the Board of Examiners in June 2023.}
+Clear and neat presentations of your workings and the logic behind them will contribute to your mark.
+This assignment is \textbf{due Tuesday, 28 February}.
+Anonymous marking is turned on and I will aim to return feedback by 17 March. % Earlier if computer project feedback done ahead of expectations...
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\vfill
+\section*{Question 1: Drift and diffusion}
+At 06:30~UTC on Monday, 28 April 1986, radiation detectors started going off at the Forsmark Nuclear Power Plant in Sweden.
+By 10:00~UTC, the Swedes had confirmed that the radiation was coming from some distant source.
+Based on the prevailing winds, the Swedish authorities asked the Soviet Union what had happened.
+Although the USSR initially denied any incident, that evening they released a \href{https://www.youtube.com/watch?v=sC7n_QgJRks}{17-second news bulletin} reporting an accident at the Chernobyl Nuclear Power Plant in northern Ukraine.
+
+The lack of reliable official information made it urgent to estimate how severe this accident may have been.
+We can do this by modelling the motion of each radioactive particle in the atmosphere as a one-dimensional random walk along the $1100~\mathrm{km}$ line between Chernobyl and Forsmark.
+
+Suppose that the wind produced a steady drift velocity $\vdr = 15~\mathrm{km}/\mathrm{hour}$ from Chernobyl to Forsmark, and that the radioactive particles have a diffusion constant $D = 6~\mathrm{km}/\sqrt{\mathrm{hour}}$.
+Further suppose that measurements at 06:30~UTC indicated a billion becquerels ($1~\mathrm{GBq}$) of radioactivity had travelled at least $1100~\mathrm{km}$ from Chernobyl, while those at 10:00~UTC indicated rapid growth in this radio-activity, to $584~\mathrm{GBq}$.
+(The \href{https://en.wikipedia.org/wiki/Becquerel}{becquerel} is the SI unit of radioactivity.)
+From this information, we can use the central limit theorem to estimate both the \textbf{time} of the accident and the \textbf{amount} of radioactivity released.
+
+\newpage % TODO: Spacing hack...
+The determination of the time is a bit tricky, so you can take it as given that the accident occurred around 21:30~UTC on Friday, 25 April.
+(Feel free to attempt this calculation if you want!)
+Based on this information, how much radioactivity was released?
+
+\showmarks{25}
+
+The calculation above involves several simplifying assumptions and approximations.
+Choose at least one and explain --- without attempting to carry out a corrected calculation --- what qualitative effect it had on the analysis.
+In particular, did this simplification cause an underestimate or an overestimate of the amount of radioactive material released?
+
+\showmarks{10}
+
+\textbf{Hint:} The error function
+\begin{equation*}
+  \mathrm{erf}(u) = \frac{1}{\sqrt{\pi}} \int_{-u}^u e^{-x^2} \; dx
+\end{equation*}
+may appear in your work, with $u \geq 0$.
+The following values of its complement, $1 - \mathrm{erf}(u)$, may be useful.
+\begin{verbatim}
+>>> import numpy as np
+>>> from scipy import special
+>>>
+>>> for u in np.arange(0.1934905, 5.0, 0.9077254):
+...   erfc = 1.0 - special.erf(u)
+...   print("1 - erf(%.8g) = %.4g" % (u, erfc))
+
+1 - erf(0.1934905) = 0.7844
+1 - erf(1.1012159) = 0.1194
+1 - erf(2.0089413) = 0.004496
+1 - erf(2.9166667) = 3.711e-05
+1 - erf(3.8243921) = 6.355e-08
+1 - erf(4.7321175) = 2.198e-11
+\end{verbatim}
+
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\vfill
+\section*{Question 2: Negative temperature}
+Consider a system of $N$ distinguishable particles in which the energy of each particle can assume only two distinct values, $0$ and $\eps$.
+Denote by $n_0$ the number of particles that have energy $0$, and by $n_1 = N - n_0$ the number of particles that have energy $\eps$.
+Assume the system is in thermodynamic equilibrium with both $n_0 \gg 1$ and $n_1 \gg 1$.
+
+Suppose the system is isolated and governed by the micro-canonical ensemble with conserved total energy $E$.
+Approximating $\log(n!) \approx n\log n - n$, what is the entropy of the system in terms of $N$, $E$ and $\eps$?
+
+\showmarks{10}
+
+What is the temperature $T$ of the system in terms of $N$, $E$ and $\eps$?
+Show that $T$ can be negative.
+
+\showmarks{10}
+
+What happens when a system of negative temperature is brought into thermal contact with a system of positive temperature?
+
+\showmarks{10}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\vfill
+\section*{Question 3: Heat capacity}
+Starting from the average internal energy for the canonical ensemble,
+\begin{equation*}
+  \vev{E} = \frac{1}{Z} \sum_{i = 1}^M E_i \, e^{-\be E_i},
+\end{equation*}
+derive a relation between the heat capacity
+\begin{equation*}
+  c_v = \pderiv{}{T} \vev{E}
+\end{equation*}
+and the quantity $\vev{\left(E - \vev{E}\right)^2}$.
+
+\showmarks{15}
+
+If the heat capacity vanishes at finite temperature, what can we conclude about the micro-state energies $E_i$?
+
+\showmarks{5}
+
+Derive a relation between $c_v$, $\pderiv{}{T} c_v$ and the quantity $\vev{\left(E - \vev{E}\right)^3}$.
+
+\showmarks{15}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\end{document}
+% ------------------------------------------------------------------
