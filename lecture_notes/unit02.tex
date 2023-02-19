@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 2}
-\renewcommand{\moddate}{Last modified 13 Feb.~2023}
+\renewcommand{\moddate}{Last modified 19 Feb.~2023}
 \setcounter{section}{2}
 \setcounter{subsection}{0}
 \phantomsection
@@ -296,13 +296,13 @@ What are $E_0$ and $E_1$ in terms of $\left\{N, H\right\}$, and how many distinc
 Your results should generalize to
 \begin{equation}
   \label{eq:spin_states}
-  M(E_{n_-}) = \binom{N}{n_-} = \frac{N!}{n_-! \; (N - n_-)!}.
+  M(E_{n_-}) = \binom{N}{n_-} = \frac{N!}{n_-! \; (N - n_-)!} = \binom{N}{n_+}.
 \end{equation}
 
 To take the derivative in \eq{eq:temperature}, we need to express $n_-$ in terms of $\left\{E, N\right\}$.
-It will also be convenient to avoid the factorial operation, which is inconvenient to differentiate.
-For $N \gg 1$, we can accomplish both these goals by treating the spin system as a random walk (in the space of its possible energies $E$) and applying the central limit theorem: \\[-24 pt]
-\begin{itemize} % Adapted from a tutorial exercise since sufficiently important to include in the main material...
+It will also be useful to avoid the factorial operation, which is inconvenient to differentiate.
+For $N \gg 1$, we can accomplish both these goals by treating the spin system as a random walk in the space of its possible energies $E$ and applying the central limit theorem:\footnote{Applying Stirling's formula, $\log(N!) \approx N \log N - N$, is another possible approach.} \\[-24 pt]
+\begin{itemize} % Adapted from a tutorial activity since sufficiently important to include in the main material...
   \item Each spin adds to $x \equiv \frac{E}{-H} = 2n_+ - N$ a `step' of fixed `length' $\pm 1$.
         Our task therefore coincides with the special case we considered in \secref{sec:diffusion}.
   \item We don't impose any preference for positive vs.\ negative energies, meaning $p = q = \frac{1}{2}$ in the terminology of \secref{sec:diffusion}.
@@ -314,11 +314,11 @@ For $N \gg 1$, we can accomplish both these goals by treating the spin system as
   \item To estimate $P_{n_+}$ for $N \gg 1$, we apply the central limit theorem just as in \secref{sec:RW_CLT}.
         In particular, we can re-use our computation that $\mu = 2p - 1 = 0$ and $\si^2 = 4pq = 1$, to find
         \begin{equation*}
-          p(x) \approx \frac{1}{\sqrt{2\pi N}}\exp\left[-\frac{x^2}{2N}\right] = \frac{1}{\sqrt{2\pi N}}\exp\left[-\frac{E^2}{2NH^2}\right]
+          p(x) \approx \frac{1}{\sqrt{2\pi N}}\exp\left[-\frac{x^2}{2N}\right]
         \end{equation*}
         for the probability \textit{distribution} from which we want to extract $P_{n_+}$.
-  \item We saw in \secref{sec:CLT} that $P_{\text{const}}(n_+) = p(2n_+ - N) \De n_+$ is a good approximation, and $\De n_+ = 1$.
-        Therefore we find
+  \item We saw in a tutorial that $P_{\text{const}}(n_+) = p(2n_+ - N) \De n_+$ is a good approximation, and $\De n_+ = 1$.
+        With $2n_+ - N = \frac{E}{-H}$, we therefore find
         \begin{equation}
           \label{eq:CLT_states}
           M(E) = 2^N p(2n_+ - N) \approx \frac{2^N}{\sqrt{2\pi N}}\exp\left[-\frac{E^2}{2NH^2}\right].
@@ -337,10 +337,10 @@ You should find the temperature
 \end{align}
 which in several ways does \textit{not} seem to match our expectations from everyday experiences: This $T$ diverges as $E \to 0$ for $n_+ \approx n_-$, and it is negative whenever $n_+ < n_-$ to produce $E > 0$.
 You can check that this $T < 0$ corresponds to the number of micro-states decreasing for larger internal energies, $\pderiv{M}{E} < 0$.
-In so-called \textit{natural} systems, larger energies make more micro-states accessible, producing $\pderiv{M}{E} > 0$ and a positive temperature. % TODO: Remove `so-called'...
-When $H = 0$, we also have $E = 0$ and $T$ is ill-defined.
+In so-called \textbf{natural} systems, larger energies make more micro-states accessible, producing $\pderiv{M}{E} > 0$ and a positive temperature. % TODO: Remove `so-called'...
+If $H = 0$, we also have $E = 0$ and $T$ is ill-defined.
 
-Restricting our attention to positive temperatures with $H > 0$ and $n_+ > n_-$, we also see that this temperature cannot vanish.
+Restricting our attention to $H > 0$ and $n_+ > n_-$, we also see that the resulting non-negative temperature cannot vanish.
 It is minimized by the most-negative energy you found above, $T_{\text{min}} = H > 0$ for $E_{\text{min}} = -NH$.
 The non-zero minimum temperature is specific to spin systems, while some of the other oddities result from the micro-canonical approach more generally.
 This will motivate turning to the canonical ensemble in Unit~3, but first we can check that some aspects of the micro-canonical temperature defined in \eq{eq:temperature} do match our everyday expectations, at least in the `natural' positive-temperature regime.
@@ -350,13 +350,13 @@ This will motivate turning to the canonical ensemble in Unit~3, but first we can
 
 % ------------------------------------------------------------------
 \subsection{\label{sec:heat_ex}Heat exchange}
-From \eq{eq:spin_temp} for the temperature of micro-canonical spin systems, we can see that `natural' positive temperatures correspond to negative energies, and therefore increase as the energy increases by becoming less negative (with a smaller magnitude).
+From \eq{eq:spin_temp} for the temperature of a micro-canonical spin system, we can see that `natural' positive temperatures correspond to negative energies, and therefore increase as the energy increases by becoming less negative (with a smaller magnitude).
 Such a direct relation between energy and temperature is very generic, and we will study it in more detail when considering thermodynamic cycles in a few weeks.
 For now, considering unspecified systems that exhibit this natural behaviour, let's ask what would happen if we take two initially isolated micro-canonical systems --- $\Om_A$ and $\Om_B$ with temperatures $T_A$ and $T_B$ in thermodynamic equilibrium --- and bring them into thermal contact.
 
 In micro-canonical terms, the temperatures $T_A$ and $T_B$ are derived from the corresponding energies $E_A$ and $E_B$, while thermal contact allows the two systems to exchange energy (but not particles) as non-isolated subsystems of a combined micro-canonical system $\Om_C$.
 Once the two subsystems have been in thermal contact long enough for the combined system to have reached thermodynamic equilibrium, it will have temperature $T_C$.
-We can then re-isolate the two subsystems, which will now have energies $E_A'$ and $E_B'$ with (in thermodynamic equilibrium) temperatures $T_A'$ and $T_B'$.
+We can then re-isolate the two subsystems, which will remain in thermodynamic equilibrium with energies $\left\{E_A', E_B'\right\}$ and temperatures $\left\{T_A', T_B'\right\}$.
 This three-step procedure is illustrated below.
 
 \begin{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
