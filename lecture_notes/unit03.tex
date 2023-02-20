@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 3}
-\renewcommand{\moddate}{Last modified 6 Feb.~2023}
+\renewcommand{\moddate}{Last modified 20 Feb.~2023}
 \setcounter{section}{3}
 \setcounter{subsection}{0}
 \phantomsection
@@ -9,7 +9,7 @@
 \subsection{\label{sec:reservoir}The thermal reservoir}
 \subsubsection{\label{sec:replicas}Replicas and occupation numbers}
 While it is relatively easy to prevent particle exchange, for example by sealing gases inside airtight containers, it is not practical to forbid energy exchange as would be needed to fully isolate statistical systems.
-Any thermal insulator is imperfect, and even in the deepest reaches of space the system would still be bombarded by cosmic microwave radiation.
+Any thermal insulator is imperfect, and any observation of the system would require exchanging energy with the external observer. % E.g., we want to analyze a gas in a container without having to include ourselves as part of this system....
 In practice it is more convenient to work with physical systems that are characterized by their (intensive) temperatures rather than their (extensive) internal energies.
 
 \begin{shaded}
@@ -20,7 +20,7 @@ The second part of this definition connects the fixed temperature to the fundame
 This is done by proposing that our system of interest \Om is in thermal contact with a much larger external system $\Om_{\text{res}}$ --- the thermal reservoir, sometimes called a ``heat bath''.
 The overall combined system $\Om_{\text{tot}} = \Om_{\text{res}} \otimes \Om$ is governed by the micro-canonical ensemble, with conserved total energy $E_{\text{tot}} = E_{\text{res}} + E \approx E_{\text{res}}$, while the energy $E$ of \Om is allowed to fluctuate. % TODO: Could note that approximation is motivated by extensivity of energy...
 The key qualitative idea is that, in thermodynamic equilibrium, \Om has a negligible effect on the overall system.
-In particular, the temperature of that overall system---and therefore the temperature of $\Om$, by intensivity---is set by the reservoir and remains fixed even as $E$ fluctuates.
+In particular, the temperature of that overall system --- and therefore the temperature of $\Om$, by intensivity --- is set by the reservoir and remains fixed even as $E$ fluctuates.
 This effectively generalizes the setup we used to analyze heat exchange in the previous section, where we saw that thermal contact causes a net flow of energy from hotter systems to colder systems.
 When these systems are `natural', this cools the hotter one by heating the colder one.
 
@@ -201,7 +201,7 @@ and together with \be specifies the probabilities
   p_i = \frac{1}{Z} e^{-E_i / T}
 \end{equation}
 from \eq{eq:occ_prob}.
-This $p_i$ is now the probability---in thermodynamic equilibrium---that \Om adopts micro-state $\om_i$ with (non-conserved) internal energy $E_i$.
+This $p_i$ is now the thermodynamic equilibrium probability that \Om adopts micro-state $\om_i$ with (non-conserved) internal energy $E_i$.
 This probability distribution is called either the \textbf{Boltzmann distribution} or the \textbf{Gibbs distribution}, while $e^{-E_i / T}$ itself is known as a \textbf{Boltzmann factor}.
 All micro-states with the same energy have the same probability in thermodynamic equilibrium, which is consistent with the micro-canonical behaviour we saw in Unit~2.
 % ------------------------------------------------------------------
@@ -245,7 +245,7 @@ From our everyday experience, we expect a similar direct relation between temper
 
 The subscript indicates that the volume of the system is kept fixed; we'll consider the role of the volume more carefully starting in Unit~4.
 In a homework assignment you will confirm $c_v \geq 0$ by deriving a \textbf{fluctuation--dissipation} (or \textbf{fluctuation--response}) \textbf{relation}.
-That relation will be a special case of a \href{https://en.wikipedia.org/wiki/Fluctuation-dissipation_theorem}{more general theorem}, and will connect the fluctuations of the internal energy around its expectation value, $\sum_i \left(E_i - \vev{E}\right)^2$, to the energy's \textit{response} to a change in temperature, $\pderiv{}{T} \vev{E}$.
+That relation will be a special case of a \href{https://en.wikipedia.org/wiki/Fluctuation-dissipation_theorem}{more general theorem}, and will connect the fluctuations of the internal energy around its expectation value, $\left(E_i - \vev{E}\right)^2$, to the energy's \textit{response} to a change in temperature, $\pderiv{}{T} \vev{E}$.
 Equality will hold only in extremely special cases, meaning that the heat capacity is generically positive, in agreement with our intuition that higher temperatures produce larger internal energies.
 
 \newpage % WARNING: FORMATTING BY HAND
@@ -302,7 +302,7 @@ From these results we can read off the more elegant expressions promised above:
 As a first application of the canonical ensemble, we will explore physically observable effects that depend on the pure information content of a statistical system.
 You may be aware of the importance of information through the famous \href{https://en.wikipedia.org/wiki/Black_hole_information_paradox}{black hole information paradox}, but that topic is well beyond the scope of this module since it involves quantum mechanics and general relativity in addition to statistical physics.
 Here we will consider simple spin systems as introduced in \secref{sec:ensemble}, contrasting the behaviour of their average internal energy $\vev{E}$ and entropy $S$ depending on whether or not the spins can (in principle) be distinguished from each other.
-It's important to appreciate that the ``information'' discussed here is an intrinsic property of the system---what is \textit{knowable} about it in principle.
+It's important to appreciate that the ``information'' discussed here is an intrinsic property of the system --- what is \textit{knowable} about it in principle.
 It does not matter whether or not any observer actually knows this information; so long as it can possibly be known it will have an effect.
 
 \subsubsection{\label{sec:spin_chain}Distinguishable spins in a solid}
