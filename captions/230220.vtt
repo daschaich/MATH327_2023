@@ -1,0 +1,4182 @@
+WEBVTT
+
+1
+00:00:02.560 --> 00:00:06.680
+David Schaich (he): All right, we may as well get going today.  And let me just start with the
+
+2
+00:00:07.050 --> 00:00:14.330
+David Schaich (he): 6-digit attendance code this time: 1, 2, 1, 1, 4, 5.
+
+3
+00:00:15.890 --> 00:00:18.940
+David Schaich (he): It's a bit smaller crowd than usual, though I
+
+4
+00:00:19.180 --> 00:00:23.930
+David Schaich (he): suspect some folks may be busy working on the computer project that's due tomorrow.  Are there
+
+5
+00:00:24.010 --> 00:00:28.620
+David Schaich (he): any questions about that, or about the homework for next week before we get under way?
+
+6
+00:00:31.950 --> 00:00:33.050
+David Schaich (he): I can also
+
+7
+00:00:35.070 --> 00:00:39.640
+David Schaich (he): expand that to ask if there any questions about what we covered last week.
+
+8
+00:00:40.840 --> 00:00:42.900
+David Schaich (he): This introduced
+
+9
+00:00:43.850 --> 00:00:48.440
+David Schaich (he): the micro-canonical ensemble, our first
+
+10
+00:00:50.080 --> 00:01:00.430
+David Schaich (he): concrete realization of a statistical ensemble --- an example of a probability space that consists of a collection of degrees of freedom, or particles, that
+
+11
+00:01:00.500 --> 00:01:05.530
+David Schaich (he): evolve in time, randomly sampling the possible micro-states
+
+12
+00:01:05.600 --> 00:01:09.360
+David Schaich (he): of all those particles.  And characterized by
+
+13
+00:01:09.590 --> 00:01:13.720
+David Schaich (he): conserved qualities. In the case of the micro-canonical ensemble
+
+14
+00:01:13.990 --> 00:01:16.750
+David Schaich (he): there's a picture we can use to
+
+15
+00:01:18.580 --> 00:01:30.370
+David Schaich (he): recall what those conserved quantities are. If I zoom out to put it on the screen.  In the micro-canonical case, both the number of degrees of freedom (the particle number, N)
+
+16
+00:01:30.560 --> 00:01:37.470
+David Schaich (he): as well as the internal energy of the system. our conserved as time passes, and
+
+17
+00:01:37.660 --> 00:01:42.080
+David Schaich (he): the degrees of freedom adopt all of the possible microstates probabilistically.
+
+18
+00:01:42.680 --> 00:01:52.830
+David Schaich (he): and what this means in order to have energy conservation consistent with the first law thermodynamics is that any microeconomic ensemble has to be
+
+19
+00:01:52.860 --> 00:02:02.070
+David Schaich (he): the isolated from the surroundings that shown on here as some insulation around it closed, be her with
+
+20
+00:02:02.270 --> 00:02:06.380
+David Schaich (he): a collection of particles bouncing around inside it. So there's no way to
+
+21
+00:02:07.370 --> 00:02:12.960
+David Schaich (he): exchange of the particles or energy with the outside world, which is the
+
+22
+00:02:13.140 --> 00:02:15.090
+David Schaich (he): they consider these
+
+23
+00:02:15.480 --> 00:02:22.470
+David Schaich (he): impractical. We' not to talk about physical experiments and making observations of these systems.
+
+24
+00:02:23.550 --> 00:02:25.190
+David Schaich (he): but it does provide a nice
+
+25
+00:02:25.800 --> 00:02:33.010
+David Schaich (he): sensible connection to that first law thermodynamics, the conservation of energy. We just impose that from the outset.
+
+26
+00:02:33.310 --> 00:02:34.270
+David Schaich (he): and
+
+27
+00:02:34.330 --> 00:02:41.570
+David Schaich (he): gives us a starting point to find important thermodynamical concepts like equilibrium.
+
+28
+00:02:43.520 --> 00:02:47.640
+David Schaich (he): We saw that thermodynamic equilibrium
+
+29
+00:02:49.120 --> 00:02:50.160
+David Schaich (he): is
+
+30
+00:02:51.150 --> 00:02:58.530
+David Schaich (he): smooth and steady, Large scale behavior of these systems, but it's still dynamic in the sense that the system continues
+
+31
+00:02:58.670 --> 00:03:04.200
+David Schaich (he): evolving from microstates microstates as time goes on. And it just
+
+32
+00:03:04.700 --> 00:03:11.500
+David Schaich (he): happens to be that all of those microstates that evolution produce the smooth behavior that we're used to
+
+33
+00:03:11.550 --> 00:03:23.220
+David Schaich (he): from it our everyday experience. This is intimately related to the concept of in a particular thermodynamic equilibrium. Can't be you.
+
+34
+00:03:23.380 --> 00:03:32.510
+David Schaich (he): It's fine bye. demanding that the is maximized. The entropy in general
+
+35
+00:03:32.550 --> 00:03:35.210
+David Schaich (he): it's the negative sum over
+
+36
+00:03:35.730 --> 00:03:38.800
+David Schaich (he): the probability of each micro State times. This logarithm
+
+37
+00:03:39.720 --> 00:03:44.990
+David Schaich (he): in the micro canonical case specifically, and for theatic equilibrium
+
+38
+00:03:45.060 --> 00:03:57.650
+David Schaich (he): I just maximize to the logarithm of the number of microstates and the identification of equilibrium with the state of maximum entropy is related to
+
+39
+00:03:57.670 --> 00:04:01.000
+David Schaich (he): so called second ball of thermodynamics.
+
+40
+00:04:01.050 --> 00:04:08.350
+David Schaich (he): that the entropy you use always now decreasing as time passes and generically increases.
+
+41
+00:04:09.780 --> 00:04:24.170
+David Schaich (he): and if there are no questions about that aspect of the those aspects of the microeconomical ensemble. What a plan for today is to actually wrap up material we have on the micro canonical ensemble which is defining
+
+42
+00:04:24.730 --> 00:04:38.280
+David Schaich (he): the temperature. Yes, a derived quantity. and you stop the conservative particle, number and energy. and also checking that the temperature behaved sensibly, as we would expect
+
+43
+00:04:38.380 --> 00:04:41.200
+David Schaich (he): again for everyday experience from
+
+44
+00:04:41.430 --> 00:04:43.790
+David Schaich (he): the process of heat exchange.
+
+45
+00:04:44.560 --> 00:04:49.590
+David Schaich (he): It will then move on to It's called the
+
+46
+00:04:51.220 --> 00:04:55.200
+David Schaich (he): See how it is easier to work with than the micro canonical case.
+
+47
+00:04:56.370 --> 00:04:57.600
+David Schaich (he): Also define.
+
+48
+00:04:58.430 --> 00:04:59.320
+Yes.
+
+49
+00:04:59.850 --> 00:05:04.620
+David Schaich (he): for the essential fundamental aspects, something known as
+
+50
+00:05:04.780 --> 00:05:10.010
+David Schaich (he): the partition function generating functional of various derived quantities, one of which
+
+51
+00:05:10.180 --> 00:05:12.240
+David Schaich (he): the heat capacity appears
+
+52
+00:05:12.640 --> 00:05:17.110
+David Schaich (he): on the homework assignment to a week from tomorrow, so I want to make sure to.
+
+53
+00:05:17.350 --> 00:05:23.250
+David Schaich (he): I touch on that today any questions before we get under way.
+
+54
+00:05:29.200 --> 00:05:31.480
+David Schaich (he): But with that what they do
+
+55
+00:05:35.970 --> 00:05:45.120
+David Schaich (he): the for sure. You know. the micro canonical ensemble is a derived quantity. like the entropy. so
+
+56
+00:05:46.420 --> 00:05:47.800
+David Schaich (he): also, like the
+
+57
+00:05:48.880 --> 00:05:50.520
+David Schaich (he): entropy, it should be
+
+58
+00:05:51.210 --> 00:05:54.160
+David Schaich (he): stable in from a dynamic equilibrium.
+
+59
+00:05:55.530 --> 00:06:03.600
+David Schaich (he): As time goes on in the system evolves from the microstates to microstates.
+
+60
+00:06:08.050 --> 00:06:09.980
+David Schaich (he): so that is to say, that
+
+61
+00:06:10.100 --> 00:06:12.960
+David Schaich (he): the temperature, like the entropy, is
+
+62
+00:06:13.140 --> 00:06:17.830
+David Schaich (he): the function of the conserved quantities that
+
+63
+00:06:19.220 --> 00:06:25.990
+David Schaich (he): are required to be stable as yeah system of all
+
+64
+00:06:28.560 --> 00:06:34.340
+David Schaich (he): this but the temperature t it's a function of the conserved energy and particle number.
+
+65
+00:06:35.890 --> 00:06:41.840
+David Schaich (he): and we'll just go ahead, and you find the inverse temperature
+
+66
+00:06:42.350 --> 00:06:43.950
+David Schaich (he): actually to be
+
+67
+00:06:44.430 --> 00:06:46.690
+David Schaich (he): of the
+
+68
+00:06:46.700 --> 00:06:53.460
+David Schaich (he): on that. The energy in the system. with the particle number fixed. and
+
+69
+00:06:53.530 --> 00:06:59.800
+David Schaich (he): as this is defined in thermodynamic equilibrium, that's the case, we will focus on in general.
+
+70
+00:07:00.040 --> 00:07:03.830
+David Schaich (he): unless otherwise specified. we can relate this to
+
+71
+00:07:03.970 --> 00:07:08.860
+David Schaich (he): the total number of microstates 40. Given that one of
+
+72
+00:07:08.950 --> 00:07:13.490
+David Schaich (he): the energy and a fixed number of particles. So
+
+73
+00:07:15.300 --> 00:07:19.810
+David Schaich (he): this is maybe not the most obvious or intuitive.
+
+74
+00:07:20.570 --> 00:07:25.040
+David Schaich (he): There are some examples in the lecture notes that are they recorded
+
+75
+00:07:25.050 --> 00:07:31.520
+David Schaich (he): separately as a supplement. I want to make sure that we get through the key capacity.
+
+76
+00:07:31.570 --> 00:07:37.860
+David Schaich (he): Today we'll just politically say, what does this equation mean
+
+77
+00:07:38.690 --> 00:07:41.940
+David Schaich (he): that we think about adding energy here
+
+78
+00:07:42.960 --> 00:07:43.930
+David Schaich (he): to
+
+79
+00:07:45.180 --> 00:07:46.410
+David Schaich (he): a system
+
+80
+00:07:48.630 --> 00:07:54.040
+David Schaich (he): so technically moving from one micro canonical system to the next by increasing this energy.
+
+81
+00:07:54.310 --> 00:07:56.180
+David Schaich (he): if that produces a
+
+82
+00:07:57.560 --> 00:08:00.120
+David Schaich (he): large increase in
+
+83
+00:08:01.390 --> 00:08:04.070
+David Schaich (he): the entropy. Yes.
+
+84
+00:08:05.590 --> 00:08:09.790
+David Schaich (he): then this partial derivative is a large number with the number of particles fixed.
+
+85
+00:08:09.910 --> 00:08:13.300
+David Schaich (he): so the inverse temperature must be
+
+86
+00:08:14.990 --> 00:08:15.990
+David Schaich (he): small.
+
+87
+00:08:17.430 --> 00:08:20.460
+David Schaich (he): One over a small number becomes that large number.
+
+88
+00:08:24.720 --> 00:08:37.240
+David Schaich (he): and the same is true. If there's a small increase that corresponds to a large temperature. So hot systems with a high temperature are the ones for which, adding a bit more energy, this fixed collection of particles does not have
+
+89
+00:08:37.250 --> 00:08:47.820
+David Schaich (he): much effect on the entropy, or the number of microstates and cold systems are those in which, adding a little bit of energy. It does have a large effect.
+
+90
+00:08:47.950 --> 00:08:48.800
+David Schaich (he): which.
+
+91
+00:08:49.660 --> 00:08:54.070
+David Schaich (he): if you think about it, is sensible enough qualitatively
+
+92
+00:08:54.630 --> 00:09:01.450
+David Schaich (he): the call system. You think of it as having less energy. So every little bit that is added has a bigger effect.
+
+93
+00:09:02.480 --> 00:09:03.760
+David Schaich (he): But maybe the
+
+94
+00:09:04.040 --> 00:09:13.010
+David Schaich (he): best way to check that. This kind of abstract definition in terms of microeconomical qualities is sensible is to
+
+95
+00:09:13.190 --> 00:09:17.460
+David Schaich (he): consider the process of heat exchange
+
+96
+00:09:19.770 --> 00:09:25.190
+David Schaich (he): between 2 systems. So we'll do this in 3 stages.
+
+97
+00:09:25.380 --> 00:09:27.650
+David Schaich (he): We start off with
+
+98
+00:09:29.400 --> 00:09:30.800
+David Schaich (he): to
+
+99
+00:09:32.170 --> 00:09:34.510
+David Schaich (he): isolated micro canonical systems
+
+100
+00:09:40.130 --> 00:09:51.660
+David Schaich (he): both of them are. and some of dynamic equilibrium. I'll call it one system a. Which is so number of particles in a
+
+101
+00:09:52.290 --> 00:10:00.940
+David Schaich (he): energy E. A. That together determine its temperature. Ta: that we will assume to be greater than 0 just for simplicity.
+
+102
+00:10:01.560 --> 00:10:03.920
+David Schaich (he): Yeah, same with the
+
+103
+00:10:04.730 --> 00:10:09.620
+David Schaich (he): other system, just with the is replaced by bees.
+
+104
+00:10:14.330 --> 00:10:16.260
+David Schaich (he): That's on the
+
+105
+00:10:16.730 --> 00:10:21.080
+David Schaich (he): dot can now. And the second step is that we
+
+106
+00:10:22.970 --> 00:10:26.590
+David Schaich (he): put these 2 systems into thermal contacts
+
+107
+00:10:29.510 --> 00:10:34.930
+David Schaich (he): and wait some amount of time for the combined system to
+
+108
+00:10:36.290 --> 00:10:38.540
+David Schaich (he): equilibrium to
+
+109
+00:10:39.560 --> 00:10:44.480
+David Schaich (he): a single intensive temperature that is shared by
+
+110
+00:10:44.510 --> 00:10:49.190
+David Schaich (he): both of the subsystems that are now allowed to exchange energy.
+
+111
+00:10:50.140 --> 00:10:52.220
+David Schaich (he): So This is
+
+112
+00:10:53.420 --> 00:11:00.350
+David Schaich (he): similar to what we did last week when deriving the second law thermodynamics. We.
+
+113
+00:11:02.490 --> 00:11:06.760
+David Schaich (he): If I was overall combined system, i'll make a senior
+
+114
+00:11:07.980 --> 00:11:14.900
+David Schaich (he): where each of its 2 subsystems still have their fixed number of particles. but the energies
+
+115
+00:11:15.130 --> 00:11:17.400
+David Schaich (he): and the 2 systems can be
+
+116
+00:11:18.130 --> 00:11:20.480
+David Schaich (he): swapped from one side
+
+117
+00:11:20.900 --> 00:11:26.720
+David Schaich (he): to the other, and only the total energy e a plus you. The
+
+118
+00:11:28.180 --> 00:11:29.530
+David Schaich (he): is conserved
+
+119
+00:11:31.470 --> 00:11:35.860
+David Schaich (he): within this overall micro canonical system, Omega, c.
+
+120
+00:11:37.270 --> 00:11:40.800
+David Schaich (he): So we wait some time for this overall system to
+
+121
+00:11:41.840 --> 00:11:45.540
+David Schaich (he): equilibrium for sure.
+
+122
+00:11:47.640 --> 00:11:51.430
+David Schaich (he): And then we we isolate
+
+123
+00:11:53.690 --> 00:11:55.420
+David Schaich (he): you 2 subsystems.
+
+124
+00:12:03.310 --> 00:12:05.190
+David Schaich (he): I decorate them now with
+
+125
+00:12:08.860 --> 00:12:12.750
+David Schaich (he): problems on all of these qualities. so
+
+126
+00:12:13.750 --> 00:12:18.180
+David Schaich (he): call it Omega, a prime, which is not necessarily the same.
+
+127
+00:12:18.360 --> 00:12:22.140
+David Schaich (he): is what we started off with Omega a. Because energy
+
+128
+00:12:22.210 --> 00:12:23.550
+David Schaich (he): may have been
+
+129
+00:12:25.320 --> 00:12:30.970
+David Schaich (he): exchange, and generically will have been exchanged between these 2 systems.
+
+130
+00:12:35.380 --> 00:12:40.480
+David Schaich (he): so there is some chance that E. A.
+
+131
+00:12:41.670 --> 00:12:45.780
+David Schaich (he): Will be the same as the initial.
+
+132
+00:12:47.390 --> 00:12:48.290
+David Schaich (he): but
+
+133
+00:12:48.870 --> 00:12:53.880
+David Schaich (he): more generally what that energy and the corresponding temperatures may be different.
+
+134
+00:12:55.250 --> 00:12:58.280
+David Schaich (he): And we can ask, what do we expect
+
+135
+00:12:58.300 --> 00:13:03.240
+David Schaich (he): physically without doing any calculations, what we expect physically wrong?
+
+136
+00:13:04.180 --> 00:13:06.580
+David Schaich (he): This three-step process
+
+137
+00:13:09.980 --> 00:13:10.840
+David Schaich (he): and
+
+138
+00:13:14.150 --> 00:13:15.180
+David Schaich (he): that will just
+
+139
+00:13:15.380 --> 00:13:19.010
+David Schaich (he): go ahead and write down my expectations hopefully. You will
+
+140
+00:13:19.100 --> 00:13:20.280
+David Schaich (he): agree with
+
+141
+00:13:22.220 --> 00:13:23.120
+David Schaich (he): that.
+
+142
+00:13:23.190 --> 00:13:31.660
+David Schaich (he): If one of the initial subsystems is hotter than the other. one is hover, one is colder, we would expect energy
+
+143
+00:13:32.240 --> 00:13:33.460
+David Schaich (he): to flow
+
+144
+00:13:35.330 --> 00:13:37.010
+David Schaich (he): probably harder system
+
+145
+00:13:40.190 --> 00:13:41.670
+David Schaich (he): to the colder one.
+
+146
+00:13:43.410 --> 00:13:49.570
+David Schaich (he): reducing the temperature of the hotter system, raising the temperature of the colder system and bringing them into
+
+147
+00:13:49.840 --> 00:13:54.710
+David Schaich (he): plus for alignment. So if you have, say a cup of coffee, and you or some
+
+148
+00:13:54.920 --> 00:13:59.630
+David Schaich (he): oh, milk into it. you expect us 2 systems to
+
+149
+00:14:00.140 --> 00:14:09.850
+David Schaich (he): come together to a temperature in between. The coffee gets cooler, you know it gets warmer. It's not the best example, because the particles there are mixing, but it's a familiar one
+
+150
+00:14:10.020 --> 00:14:11.480
+David Schaich (he): from every day
+
+151
+00:14:11.690 --> 00:14:13.620
+easily generalizable to
+
+152
+00:14:13.880 --> 00:14:20.400
+David Schaich (he): this case. So now let's actually do the mathematical calculation
+
+153
+00:14:20.670 --> 00:14:23.000
+David Schaich (he): to check that
+
+154
+00:14:23.240 --> 00:14:31.700
+David Schaich (he): our definition of the temperature, and produces that intuitively expected behavior.
+
+155
+00:14:35.440 --> 00:14:37.820
+David Schaich (he): So the way to do this we're calling
+
+156
+00:14:38.740 --> 00:14:41.800
+David Schaich (he): our definition of the inverse temperature.
+
+157
+00:14:42.060 --> 00:14:47.630
+David Schaich (he): we will need to figure out the entropy of the system, how they depend on the energies.
+
+158
+00:14:48.590 --> 00:14:51.360
+David Schaich (he): and see what that produces for
+
+159
+00:14:51.430 --> 00:14:52.580
+David Schaich (he): the temperature.
+
+160
+00:14:55.900 --> 00:14:59.220
+David Schaich (he): And from the second law
+
+161
+00:15:00.820 --> 00:15:13.230
+David Schaich (he): of thermodynamics we know that the entropy of these 2 systems, as time goes on. can never decrease and generically increases. So
+
+162
+00:15:13.730 --> 00:15:19.520
+David Schaich (he): the total entropy in that first stage of 2 isolated subsystems with
+
+163
+00:15:20.140 --> 00:15:21.520
+David Schaich (he): energies. Ea.
+
+164
+00:15:22.320 --> 00:15:28.740
+David Schaich (he): I'll ignore the particle numbers, because that's those are just fixed throughout the trivial.
+
+165
+00:15:29.920 --> 00:15:41.990
+David Schaich (he): In that first stage we know the entropy has to be no larger than the entropy of the mine system. We call the entropy the extensive quality that just adds across our systems
+
+166
+00:15:42.630 --> 00:15:46.590
+David Schaich (he): the entropy of the combined system right to help
+
+167
+00:15:47.770 --> 00:15:58.790
+David Schaich (he): like that. It depends on the total energy at between the 2 that is conserved. and this in turn can be no larger. and the final entropy
+
+168
+00:15:59.140 --> 00:16:00.940
+David Schaich (he): of the systems with
+
+169
+00:16:01.940 --> 00:16:03.470
+David Schaich (he): E. A. Prime
+
+170
+00:16:06.620 --> 00:16:10.810
+David Schaich (he): once they have been. we isolated in that final stage.
+
+171
+00:16:19.330 --> 00:16:20.360
+David Schaich (he): Now see what
+
+172
+00:16:20.380 --> 00:16:24.890
+David Schaich (he): make use of this. We need some way to connect
+
+173
+00:16:24.970 --> 00:16:25.960
+David Schaich (he): the you
+
+174
+00:16:25.990 --> 00:16:29.660
+David Schaich (he): entropy as functions of
+
+175
+00:16:32.760 --> 00:16:39.260
+David Schaich (he): it's called engineering subscripts. S. For system, System a and B. You
+
+176
+00:16:39.560 --> 00:16:44.310
+David Schaich (he): entropy start the energy E. A prime and eb. Prime
+
+177
+00:16:44.840 --> 00:16:48.770
+David Schaich (he): will just be the initial energy, the a or e
+
+178
+00:16:48.870 --> 00:16:49.830
+David Schaich (he): plus
+
+179
+00:16:50.440 --> 00:16:56.780
+David Schaich (he): some delta e. The amount of energy that is exchanged with the first law of thermodynamics.
+
+180
+00:16:57.020 --> 00:16:58.560
+David Schaich (he): guaranteeing that
+
+181
+00:17:00.320 --> 00:17:08.099
+David Schaich (he): the amount of energy, that the amount by which the energy changes in each system is equal and opposite
+
+182
+00:17:08.359 --> 00:17:14.270
+David Schaich (he): Delta E. B is negative, the energy on one side increases.
+
+183
+00:17:15.040 --> 00:17:18.550
+David Schaich (he): It has to come from the other side. I'm. Just there for decreases.
+
+184
+00:17:20.079 --> 00:17:26.339
+David Schaich (he): and assuming for simplicity that this change is relatively small compared to the total.
+
+185
+00:17:26.609 --> 00:17:33.850
+David Schaich (he): This is can be done without all in generality, because, if it's not the case, we can imagine going to computing this process several times.
+
+186
+00:17:33.920 --> 00:17:41.400
+David Schaich (he): we a small changes that I at all you can but functions of the energy through
+
+187
+00:17:42.550 --> 00:17:48.910
+David Schaich (he): you, Taylor expansion something like. should you have seen before. Possibly not for
+
+188
+00:17:49.120 --> 00:17:53.980
+David Schaich (he): a while. The entropy in system
+
+189
+00:17:54.700 --> 00:17:58.130
+David Schaich (he): is the best after we isolation is
+
+190
+00:18:00.540 --> 00:18:04.630
+David Schaich (he): the entropy of that original energy plus delta e.
+
+191
+00:18:06.030 --> 00:18:11.880
+David Schaich (he): which is the original entropy. plus its partial derivative
+
+192
+00:18:12.560 --> 00:18:17.750
+David Schaich (he): with respect to the energy evaluated
+
+193
+00:18:17.990 --> 00:18:29.570
+David Schaich (he): for the initial. multiply it bye the change in energy. and then up to these small corrections.
+
+194
+00:18:31.280 --> 00:18:36.510
+David Schaich (he): beginning with delta e squared that we can. What
+
+195
+00:18:37.860 --> 00:18:46.240
+David Schaich (he): this does assume that the entropy is continuous, differentiable function of the conservative quantities. which
+
+196
+00:18:46.260 --> 00:18:51.370
+David Schaich (he): is the case, except that what I call first order phase transitions which we'll get to after
+
+197
+00:18:51.390 --> 00:18:52.870
+David Schaich (he): the Easter break.
+
+198
+00:18:53.630 --> 00:18:57.620
+David Schaich (he): So for now that assumption holds, and
+
+199
+00:18:58.750 --> 00:19:04.020
+David Schaich (he): from the definition of it's not for sure as the derivative of
+
+200
+00:19:05.080 --> 00:19:08.390
+David Schaich (he): the inverse temperatures from the
+
+201
+00:19:09.840 --> 00:19:12.770
+David Schaich (he): you now have. hey? Nice
+
+202
+00:19:15.190 --> 00:19:24.540
+David Schaich (he): connection between the entropy after we actually the systems at the end of that 3 step process and the initial energy
+
+203
+00:19:24.560 --> 00:19:26.850
+David Schaich (he): along with the initial temperature
+
+204
+00:19:27.380 --> 00:19:34.210
+David Schaich (he): T. A. And TV so plugging that in to our inequalities. From the second off
+
+205
+00:19:36.630 --> 00:19:48.810
+David Schaich (he): we have with the sum s of the a and Smb. Has to be less than or equal to 2 of our expansions
+
+206
+00:19:49.060 --> 00:19:54.270
+David Schaich (he): approximate symbol, just because i'm dropping the high order terms on that line.
+
+207
+00:19:56.840 --> 00:20:04.680
+David Schaich (he): We have S. Of E. A. Prime. That's a. V a plus delta the a. Over T. A.
+
+208
+00:20:08.720 --> 00:20:11.460
+David Schaich (he): And then. similarly for
+
+209
+00:20:12.250 --> 00:20:15.840
+David Schaich (he): system, Omega v. Prime, it has to be
+
+210
+00:20:20.360 --> 00:20:32.500
+David Schaich (he): so. There's lots of cancellations and no just with the statement that. And still to ebay
+
+211
+00:20:33.430 --> 00:20:37.030
+David Schaich (he): over t a plus delta eb, which
+
+212
+00:20:37.450 --> 00:20:40.140
+David Schaich (he): is the negative of Delta E
+
+213
+00:20:43.070 --> 00:20:46.190
+David Schaich (he): over TV has to be greater than
+
+214
+00:20:47.020 --> 00:20:55.610
+David Schaich (he): or equal to 0, or just pulling out that overall factor. the differences
+
+215
+00:20:55.740 --> 00:20:59.000
+David Schaich (he): of the inverse temperatures multiplied by
+
+216
+00:20:59.420 --> 00:21:03.850
+David Schaich (he): the change. The energy of the initial system
+
+217
+00:21:03.860 --> 00:21:08.960
+David Schaich (he): has to be a non-negative number, and will be a positive number, except in
+
+218
+00:21:09.230 --> 00:21:13.590
+David Schaich (he): the very special and unusual circumstances.
+
+219
+00:21:15.150 --> 00:21:18.060
+David Schaich (he): So there are
+
+220
+00:21:19.110 --> 00:21:22.080
+David Schaich (he): 3 cases that we could consider.
+
+221
+00:21:23.110 --> 00:21:25.100
+David Schaich (he): First possibility is that
+
+222
+00:21:25.170 --> 00:21:29.510
+David Schaich (he): the initial temperature in system a is larger than that and System B.
+
+223
+00:21:30.130 --> 00:21:34.050
+David Schaich (he): So it's in verses smaller. You are subtracting a
+
+224
+00:21:34.420 --> 00:21:40.700
+David Schaich (he): larger inverse from a smaller inverse. We come out with the overall negative number in the parentheses.
+
+225
+00:21:40.860 --> 00:21:45.810
+David Schaich (he): so the other number also generically needs to be negative
+
+226
+00:21:46.240 --> 00:21:50.110
+David Schaich (he): people here for the product to be non-negative.
+
+227
+00:21:50.970 --> 00:21:58.190
+David Schaich (he): that is, delta e they less than 0. So the energy in this 3 step procedure
+
+228
+00:21:58.780 --> 00:22:00.900
+David Schaich (he): is flowing from
+
+229
+00:22:03.220 --> 00:22:04.890
+David Schaich (he): the hotter system
+
+230
+00:22:07.890 --> 00:22:10.880
+David Schaich (he): Omega 8 with the water temperature. Ta
+
+231
+00:22:13.200 --> 00:22:14.210
+David Schaich (he): to
+
+232
+00:22:15.620 --> 00:22:22.320
+David Schaich (he): colder system will make it be just as we expect, lowering the higher temperature and reason the lower temperature.
+
+233
+00:22:27.190 --> 00:22:28.830
+David Schaich (he): Similarly, if we
+
+234
+00:22:29.130 --> 00:22:32.920
+David Schaich (he): this reverse this inequality. And suppose this
+
+235
+00:22:33.670 --> 00:22:42.450
+David Schaich (he): system B and the larger temperature to start off with, then we have a larger, inverse, minus a smaller inverse, so a positive
+
+236
+00:22:43.040 --> 00:22:45.110
+David Schaich (he): value in the parentheses
+
+237
+00:22:45.200 --> 00:22:47.460
+David Schaich (he): that requires the positive
+
+238
+00:22:48.010 --> 00:22:52.190
+David Schaich (he): change in the energy of system. Ea, in order to get a positive product.
+
+239
+00:22:54.040 --> 00:22:55.480
+David Schaich (he): So that is the
+
+240
+00:22:55.720 --> 00:23:01.500
+David Schaich (he): same behavior. The energy is flowing from the hotter system in this case only to be
+
+241
+00:23:02.300 --> 00:23:03.290
+David Schaich (he): to
+
+242
+00:23:03.440 --> 00:23:06.350
+David Schaich (he): system, which is Omega a.
+
+243
+00:23:06.400 --> 00:23:17.150
+David Schaich (he): And the final case is the very special case where the initial temperatures were equal. There is that
+
+244
+00:23:18.490 --> 00:23:23.000
+David Schaich (he): no energy flow? And this is the special situation in which the
+
+245
+00:23:23.860 --> 00:23:29.580
+David Schaich (he): inequality saturated. We actually have no change in the
+
+246
+00:23:30.450 --> 00:23:34.730
+David Schaich (he): and the flow of the energy. No change in the temperature either.
+
+247
+00:23:35.210 --> 00:23:43.910
+David Schaich (he): So they are all people. They state people. all the issues behaving as you would expect, and connecting that
+
+248
+00:23:44.320 --> 00:23:47.470
+David Schaich (he): definition mathematically in terms of the
+
+249
+00:23:47.700 --> 00:24:01.070
+David Schaich (he): energy dependence of the entropy to usual familiar, everyday behavior. So any questions about temperature or heat exchange in the micro canonical ensemble.
+
+250
+00:24:06.840 --> 00:24:12.370
+David Schaich (he): You may already be anticipating the next step which ones
+
+251
+00:24:12.490 --> 00:24:14.540
+David Schaich (he): the the question that
+
+252
+00:24:14.570 --> 00:24:17.060
+David Schaich (he): I put up on getting set up for you to think about
+
+253
+00:24:17.280 --> 00:24:23.090
+David Schaich (he): that with the complete isolation of microeconomic.
+
+254
+00:24:25.650 --> 00:24:31.600
+David Schaich (he): this allow any change in their energy or any exchange of energy with their surroundings.
+
+255
+00:24:32.530 --> 00:24:34.270
+David Schaich (he): It turns out to be
+
+256
+00:24:35.610 --> 00:24:44.060
+David Schaich (he): essentially impossible to observe these systems from the outside. There's no way to make an observation without exchanging some energy or particle in the system.
+
+257
+00:24:44.640 --> 00:24:50.610
+David Schaich (he): and since we don't want to include ourselves in a system of, say, gas particles
+
+258
+00:24:50.760 --> 00:24:58.890
+David Schaich (he): with a fixed amount of energy microeconomical system, despite it's nice connection to The first and second law of thermodynamics
+
+259
+00:24:59.330 --> 00:25:05.200
+David Schaich (he): is in practice not terribly useful, because that energy conservation is never
+
+260
+00:25:05.640 --> 00:25:10.770
+David Schaich (he): realize in the physical experiments that we want to describe mathematically.
+
+261
+00:25:11.200 --> 00:25:13.680
+David Schaich (he): so they much more useful approach
+
+262
+00:25:17.120 --> 00:25:20.610
+David Schaich (he): is known as the economical ensemble
+
+263
+00:25:24.260 --> 00:25:29.020
+David Schaich (he): sacrifice. The direct connection to the first law of thermodynamics.
+
+264
+00:25:30.190 --> 00:25:30.940
+David Schaich (he): With
+
+265
+00:25:33.020 --> 00:25:34.010
+David Schaich (he): Yeah, more
+
+266
+00:25:34.220 --> 00:25:37.890
+David Schaich (he): practical economical way of setting things up
+
+267
+00:25:40.340 --> 00:25:42.240
+David Schaich (he): that complete isolation
+
+268
+00:25:44.180 --> 00:25:48.280
+David Schaich (he): from the environment demanded by the microconic on some one. It's not realistic.
+
+269
+00:25:52.290 --> 00:25:54.380
+David Schaich (he): So instead, we will work with
+
+270
+00:26:00.700 --> 00:26:02.400
+David Schaich (he): not a call ensemble.
+
+271
+00:26:04.030 --> 00:26:05.800
+David Schaich (he): It's characterized
+
+272
+00:26:08.090 --> 00:26:09.710
+David Schaich (he): the longer by
+
+273
+00:26:11.590 --> 00:26:17.430
+David Schaich (he): a conserved energy. but instead I fixed temperature
+
+274
+00:26:21.220 --> 00:26:22.130
+t
+
+275
+00:26:24.230 --> 00:26:25.710
+David Schaich (he): and the same
+
+276
+00:26:27.140 --> 00:26:29.020
+David Schaich (he): sure particle number.
+
+277
+00:26:31.510 --> 00:26:38.050
+David Schaich (he): and it's the microeconomic a well sample, and which is a much less stringent condition. You've already been thinking about
+
+278
+00:26:38.420 --> 00:26:40.340
+David Schaich (he): heat exchange between 2
+
+279
+00:26:41.730 --> 00:26:44.570
+David Schaich (he): subsystems of the micro canonical ensemble
+
+280
+00:26:44.630 --> 00:26:52.830
+David Schaich (he): where it's fairly easy to say, make an air kind of container that can serve as aable number, but it doesn't require that the energy be
+
+281
+00:26:53.380 --> 00:26:54.940
+David Schaich (he): completely insulated.
+
+282
+00:26:55.040 --> 00:27:00.130
+David Schaich (he): So we keep the conserved particle number, condition, and we add to it the condition of
+
+283
+00:27:00.170 --> 00:27:01.800
+David Schaich (he): it. Fixed temperature.
+
+284
+00:27:01.870 --> 00:27:08.340
+David Schaich (he): which raises the question of how do we imagine that temperature can be fixed.
+
+285
+00:27:10.000 --> 00:27:16.830
+David Schaich (he): So the component part I. The definition of the
+
+286
+00:27:18.560 --> 00:27:21.430
+David Schaich (he): is that this fixed temperature is realized.
+
+287
+00:27:22.290 --> 00:27:24.810
+David Schaich (he): Thermal contact
+
+288
+00:27:26.920 --> 00:27:31.790
+David Schaich (he): with its surroundings. the so called thermal reservoir.
+
+289
+00:27:37.070 --> 00:27:38.440
+David Schaich (he): which is sometimes
+
+290
+00:27:41.500 --> 00:27:47.960
+David Schaich (he): there's a key path. so a picture that we can have in here. It was
+
+291
+00:27:48.130 --> 00:27:53.630
+David Schaich (he): doing an experiment with a collection of gas particles and some container in our lab.
+
+292
+00:27:54.080 --> 00:27:57.460
+David Schaich (he): The gas particles in that container is the
+
+293
+00:27:57.890 --> 00:28:02.330
+David Schaich (he): system of interest described by the economical ensemble and the rest of our lab. The
+
+294
+00:28:02.450 --> 00:28:13.060
+David Schaich (he): they are in the environment. That it is in thermal contact with. It is fixing its temperature and allowing us to treat it as economical, ensemble
+
+295
+00:28:15.490 --> 00:28:18.610
+David Schaich (he): with a fixed temperature rather than fix energy.
+
+296
+00:28:20.820 --> 00:28:23.810
+David Schaich (he): Now, this still actually
+
+297
+00:28:23.820 --> 00:28:29.370
+David Schaich (he): as a remnant of the micro canonical ensemble in it. Because if we consider that
+
+298
+00:28:30.350 --> 00:28:32.100
+David Schaich (he): system and
+
+299
+00:28:32.270 --> 00:28:35.140
+David Schaich (he): it's environment
+
+300
+00:28:36.910 --> 00:28:49.250
+David Schaich (he): in combination. So I call the system Omega. Call that reservoir. They'll make it red overall system. The total oh, make up
+
+301
+00:28:50.830 --> 00:28:52.270
+David Schaich (he): This remains
+
+302
+00:28:53.370 --> 00:28:54.890
+David Schaich (he): Micro Cannot Nicole.
+
+303
+00:28:57.960 --> 00:29:00.010
+David Schaich (he): and in particular, that means that
+
+304
+00:29:00.280 --> 00:29:04.340
+David Schaich (he): the total energy of the system, plus and thermal reservoir
+
+305
+00:29:04.530 --> 00:29:18.500
+David Schaich (he): which we've seen, energy is. and extensive quantity, adding across those subsystems that remains conserved. We have a closed system of which we're just looking at
+
+306
+00:29:18.660 --> 00:29:19.960
+David Schaich (he): a small heart
+
+307
+00:29:20.270 --> 00:29:23.770
+David Schaich (he): in particular, the energy e of
+
+308
+00:29:23.890 --> 00:29:27.800
+David Schaich (he): economical system, Omega. It's allowed to
+
+309
+00:29:29.050 --> 00:29:32.290
+David Schaich (he): by exchanging energy with this reservoir.
+
+310
+00:29:33.270 --> 00:29:35.130
+David Schaich (he): The idea is that the
+
+311
+00:29:35.140 --> 00:29:39.560
+David Schaich (he): fluctuations of the canonical system and this reservoir
+
+312
+00:29:42.910 --> 00:29:47.720
+David Schaich (he): are such that any fluctuations in them do not change the
+
+313
+00:29:49.220 --> 00:29:57.100
+David Schaich (he): temperature, which is an intensive quality, the same across all of the subsystems, independent of the subsystem size.
+
+314
+00:30:00.050 --> 00:30:08.810
+David Schaich (he): you know a key step to having the economical ensemble makes sense. To be something that we can work with mathematically
+
+315
+00:30:09.210 --> 00:30:17.170
+David Schaich (he): is that we don't want to always have to rely on stepping up to the combined system plus reservoir
+
+316
+00:30:17.190 --> 00:30:22.790
+David Schaich (he): total, that for me. It's micro-canonic couple days that first of all thermodynamics.
+
+317
+00:30:24.840 --> 00:30:29.620
+David Schaich (he): We need to show that's the details
+
+318
+00:30:31.240 --> 00:30:32.750
+David Schaich (he): how the rest of you are
+
+319
+00:30:33.910 --> 00:30:35.520
+David Schaich (he): don't actually matter
+
+320
+00:30:38.410 --> 00:30:41.860
+David Schaich (he): 2, the canonical system, Omega.
+
+321
+00:30:43.640 --> 00:30:47.910
+David Schaich (he): And if we can do that, that will allow us to just consider
+
+322
+00:30:52.370 --> 00:30:56.010
+David Schaich (he): as economical, unsolvable
+
+323
+00:30:56.610 --> 00:31:01.240
+David Schaich (he): rather than part of a much bigger.
+
+324
+00:31:04.600 --> 00:31:06.160
+David Schaich (he): all clear so far
+
+325
+00:31:06.270 --> 00:31:09.120
+David Schaich (he): it's a bit more definitions.
+
+326
+00:31:09.400 --> 00:31:14.620
+David Schaich (he): a definite goal for us to pursue.
+
+327
+00:31:20.100 --> 00:31:21.960
+Yeah, the main road, the
+
+328
+00:31:22.750 --> 00:31:35.770
+David Schaich (he): first half of today's lecture. The way that we can do this. which is a trick introduced by Miller, gives in the early 19 hundreds
+
+329
+00:31:35.820 --> 00:31:38.580
+David Schaich (he): on the founders on the
+
+330
+00:31:38.760 --> 00:31:42.630
+David Schaich (he): Statistical Physics and its connections to thermodynamics
+
+331
+00:31:43.570 --> 00:31:45.160
+David Schaich (he): is known as
+
+332
+00:31:46.230 --> 00:31:47.700
+David Schaich (he): the replica trick.
+
+333
+00:31:49.150 --> 00:31:51.480
+David Schaich (he): which is.
+
+334
+00:31:52.670 --> 00:31:55.870
+David Schaich (he): or, I guess. for the form of
+
+335
+00:31:57.180 --> 00:32:02.040
+David Schaich (he): that large several reservoir which we will then use to show that
+
+336
+00:32:02.130 --> 00:32:08.530
+David Schaich (he): the form we are guessing. It's not actually that. So we we'll let
+
+337
+00:32:09.530 --> 00:32:13.590
+David Schaich (he): this reservoir the a large number
+
+338
+00:32:14.050 --> 00:32:16.850
+David Schaich (he): of copies of the system of interest.
+
+339
+00:32:16.860 --> 00:32:19.420
+David Schaich (he): I'll say this composed of
+
+340
+00:32:21.560 --> 00:32:24.570
+David Schaich (he): R. Minus one replicas for copies.
+
+341
+00:32:25.280 --> 00:32:31.420
+David Schaich (he): So if we had, you know Mega as the final one, the total system.
+
+342
+00:32:31.660 --> 00:32:37.530
+David Schaich (he): Omega total is accounting for our total copies that we assume is a large number.
+
+343
+00:32:39.240 --> 00:32:42.930
+David Schaich (he): All of these replicas all right
+
+344
+00:32:45.040 --> 00:32:47.250
+David Schaich (he): in full contact with each other.
+
+345
+00:32:50.580 --> 00:33:00.340
+David Schaich (he): and and through it equilibrium with each other. So the overall system is in front of every equilibrium, as
+
+346
+00:33:00.370 --> 00:33:04.090
+David Schaich (he): is all of its, or as all its subsystems.
+
+347
+00:33:07.500 --> 00:33:08.470
+David Schaich (he): So
+
+348
+00:33:08.480 --> 00:33:16.760
+David Schaich (he): what this on thoughts does is guarantee that the reservoir is a physically sensible system, without having to
+
+349
+00:33:16.880 --> 00:33:20.770
+David Schaich (he): specify what particular system that is.
+
+350
+00:33:20.860 --> 00:33:29.580
+David Schaich (he): If we are interested in any given system, Omega, whether that's a system of spins pointing up or down, or a collection of particles in some container.
+
+351
+00:33:29.600 --> 00:33:34.280
+David Schaich (he): Then a large number of copies of that is going to be just as
+
+352
+00:33:34.330 --> 00:33:42.450
+David Schaich (he): physical and just as reasonable to talk about. So the sense that says, we're not doing anything special.
+
+353
+00:33:42.490 --> 00:33:43.690
+David Schaich (he): With this setup
+
+354
+00:33:45.390 --> 00:33:46.420
+David Schaich (he): we are
+
+355
+00:33:47.920 --> 00:33:56.890
+David Schaich (he): ensuring a reasonable system about specifying it. and we can right down that that total energy of the system.
+
+356
+00:33:58.470 --> 00:34:00.460
+David Schaich (he): plus the reservoir
+
+357
+00:34:03.190 --> 00:34:05.850
+David Schaich (he): is by extensivity
+
+358
+00:34:06.220 --> 00:34:15.440
+David Schaich (he): just the sum over our all our of these replicas. So I think this one, through our have
+
+359
+00:34:16.620 --> 00:34:19.170
+David Schaich (he): some value of the energy E of our.
+
+360
+00:34:19.190 --> 00:34:26.020
+David Schaich (he): You can pick out one of those to be our system of interest with energy, and all the rest come up with the form.
+
+361
+00:34:26.030 --> 00:34:29.440
+David Schaich (he): The reservoir that we hope will
+
+362
+00:34:29.699 --> 00:34:31.790
+David Schaich (he): fix the temperature
+
+363
+00:34:31.870 --> 00:34:36.719
+David Schaich (he): of the system without need to know any further details.
+
+364
+00:34:40.679 --> 00:34:44.280
+David Schaich (he): You can now turn this on his head, and just a bit.
+
+365
+00:34:44.670 --> 00:34:45.650
+David Schaich (he): and
+
+366
+00:34:49.739 --> 00:34:53.989
+David Schaich (he): you find an energy e sub. I rather than e sub r
+
+367
+00:34:57.400 --> 00:34:58.780
+David Schaich (he): energy of
+
+368
+00:35:03.050 --> 00:35:05.320
+David Schaich (he): and corresponding microstates
+
+369
+00:35:11.200 --> 00:35:15.690
+David Schaich (he): we call Omega I. And in particular this is a microstate of
+
+370
+00:35:16.030 --> 00:35:18.420
+David Schaich (he): our system of interest, of which we have
+
+371
+00:35:18.820 --> 00:35:20.910
+David Schaich (he): our replicas in total.
+
+372
+00:35:23.190 --> 00:35:28.350
+David Schaich (he): And because these the system is in contact with this reservoir.
+
+373
+00:35:28.720 --> 00:35:37.240
+David Schaich (he): the energy is no longer conserved. Different microstates can have different energy, and can be adopted by exchanging energy between the system
+
+374
+00:35:37.290 --> 00:35:40.500
+David Schaich (he): and the surrounding reservoir.
+
+375
+00:35:41.990 --> 00:35:44.680
+David Schaich (he): And based on this, we will define
+
+376
+00:35:47.290 --> 00:35:49.130
+David Schaich (he): the occupation, number
+
+377
+00:35:51.360 --> 00:35:53.190
+David Schaich (he): and supply
+
+378
+00:35:55.110 --> 00:36:01.720
+David Schaich (he): to be the number of replicas out of the our tool
+
+379
+00:36:05.360 --> 00:36:06.670
+David Schaich (he): that adopt
+
+380
+00:36:07.700 --> 00:36:13.470
+David Schaich (he): this particular microstate omega to I. So All of these replicas are copies
+
+381
+00:36:13.550 --> 00:36:16.460
+David Schaich (he): of our system that make up. They are all
+
+382
+00:36:16.890 --> 00:36:24.350
+David Schaich (he): in microstates of that system at any point in time. Say we have a finite number in microstates as usual.
+
+383
+00:36:25.200 --> 00:36:27.860
+David Schaich (he): and we've a list.
+
+384
+00:36:27.890 --> 00:36:31.820
+David Schaich (he): We count how many of these replicas are
+
+385
+00:36:34.430 --> 00:36:42.930
+David Schaich (he): in each of the microstates at any point in time. So that means that you saw
+
+386
+00:36:43.520 --> 00:36:45.820
+David Schaich (he): from one to M
+
+387
+00:36:45.920 --> 00:36:49.160
+David Schaich (he): of the occupation number, for each microstate
+
+388
+00:36:49.590 --> 00:36:59.120
+David Schaich (he): has to account for all of the replicas in all of the microstates and total number of
+
+389
+00:36:59.150 --> 00:37:00.410
+David Schaich (he): the rest of you are.
+
+390
+00:37:01.970 --> 00:37:16.550
+David Schaich (he): The total energy can now be rewritten, not. or both, as some over all our replicas. but also as the sum over all M. Microstates
+
+391
+00:37:16.940 --> 00:37:22.780
+David Schaich (he): of the You. Energy, e sub. I. Of that microstate. Multiply it by
+
+392
+00:37:23.190 --> 00:37:26.480
+David Schaich (he): the number of times that microstate appears
+
+393
+00:37:26.540 --> 00:37:28.110
+David Schaich (he): among the
+
+394
+00:37:31.860 --> 00:37:32.810
+David Schaich (he): and
+
+395
+00:37:46.700 --> 00:37:50.630
+David Schaich (he): I'm. Just deciding whether or not to give an example. I think I we have time
+
+396
+00:37:51.160 --> 00:37:54.550
+David Schaich (he): for that before the break before I do
+
+397
+00:37:54.960 --> 00:37:58.300
+David Schaich (he): also consider dividing this relation
+
+398
+00:37:58.890 --> 00:38:01.300
+David Schaich (he): by our on both sides.
+
+399
+00:38:02.590 --> 00:38:08.810
+David Schaich (he): and give us us shifting things back into view. Sum over, I.
+
+400
+00:38:09.170 --> 00:38:14.490
+David Schaich (he): Of the occupation number is a fraction of the total number of replicas
+
+401
+00:38:14.960 --> 00:38:21.140
+David Schaich (he): is something that we can call P. Sub. I. That adds up to one like a probability.
+
+402
+00:38:23.190 --> 00:38:24.970
+David Schaich (he): So this piece of I.
+
+403
+00:38:27.580 --> 00:38:28.870
+David Schaich (he): It finds
+
+404
+00:38:30.610 --> 00:38:39.970
+David Schaich (he): occupation, probability, and based on the occupation number. which we should interpret as the probability that if we
+
+405
+00:38:40.050 --> 00:38:43.670
+David Schaich (he): choose a replica at random, it is in
+
+406
+00:38:43.760 --> 00:38:46.160
+David Schaich (he): microstates, or make it some, I
+
+407
+00:38:47.580 --> 00:38:53.850
+David Schaich (he): and we will end up by reinterpreting this occupation. Probability, once we
+
+408
+00:38:54.160 --> 00:38:56.590
+David Schaich (he): show that the
+
+409
+00:38:56.790 --> 00:39:00.460
+David Schaich (he): form of the reservoir and its replicas are
+
+410
+00:39:01.750 --> 00:39:05.400
+David Schaich (he): irrelevance to the overall to the canonical system.
+
+411
+00:39:07.020 --> 00:39:10.170
+David Schaich (he): So we have occupation, numbers, and occupation probabilities.
+
+412
+00:39:10.180 --> 00:39:12.550
+David Schaich (he): Just to quickly make this
+
+413
+00:39:12.590 --> 00:39:20.370
+David Schaich (he): concept a little more concrete. You can consider it very. very small example of Hey: yeah.
+
+414
+00:39:20.770 --> 00:39:28.570
+David Schaich (he): Canonical system. So a system just of 2 spins that has 2 to 2 or 4 micro States
+
+415
+00:39:28.860 --> 00:39:29.690
+David Schaich (he): sorry.
+
+416
+00:39:29.810 --> 00:39:33.760
+David Schaich (he): highlighted in red the system
+
+417
+00:39:34.010 --> 00:39:36.640
+David Schaich (he): Omega that we're interested in. We then have
+
+418
+00:39:37.140 --> 00:39:44.930
+David Schaich (he): R. Minus one copies or replicas on that system that we put in surrounding it; and the idea is that
+
+419
+00:39:45.260 --> 00:39:49.120
+David Schaich (he): all of these replicas are exchanging
+
+420
+00:39:49.160 --> 00:39:55.740
+David Schaich (he): energy with each other in with the original system, internal contact in several equilibrium.
+
+421
+00:39:58.280 --> 00:40:02.310
+David Schaich (he): We're assuming that the 2 spins in the system are distinguishable.
+
+422
+00:40:02.510 --> 00:40:13.230
+David Schaich (he): let's call it you a important topic next week. But that how does that be? Microstates with
+
+423
+00:40:13.470 --> 00:40:23.160
+David Schaich (he): a downward, pointing spin on the left, and the upper pointing spin on the right are distinct from those would be down reporting spin on the right, and the other parting on the left.
+
+424
+00:40:23.540 --> 00:40:25.610
+David Schaich (he): so we can easily catalog
+
+425
+00:40:26.970 --> 00:40:29.720
+David Schaich (he): the 4 micro States.
+
+426
+00:40:31.410 --> 00:40:41.440
+David Schaich (he): both spins, pointing up. That's been pointing out right from pointing down vice versa. and those things pointing down call it
+
+427
+00:40:43.580 --> 00:40:47.630
+David Schaich (he): the corresponding occupation number.
+
+428
+00:40:48.850 --> 00:40:53.690
+David Schaich (he): counting the system as well as the reservoir. You see to
+
+429
+00:40:55.050 --> 00:40:58.080
+David Schaich (he): replicas that are in this first
+
+430
+00:40:58.610 --> 00:41:00.450
+David Schaich (he): micro.
+
+431
+00:41:02.460 --> 00:41:05.270
+David Schaich (he): See another 2 that have
+
+432
+00:41:05.400 --> 00:41:10.950
+David Schaich (he): up on the left and right down on the right. I see
+
+433
+00:41:12.700 --> 00:41:14.090
+David Schaich (he): finally 2
+
+434
+00:41:14.290 --> 00:41:18.160
+David Schaich (he): that have the opposite pattern down the left, up on the right.
+
+435
+00:41:18.280 --> 00:41:25.270
+David Schaich (he): and then 3 that are both down. and we can check that the some over
+
+436
+00:41:26.660 --> 00:41:36.160
+David Schaich (he): the occupation number something over all of the different microstates. 2 plus 2, 3 is 9,
+
+437
+00:41:36.200 --> 00:41:40.460
+David Schaich (he): which is indeed the number of replicas that we are looking for.
+
+438
+00:41:43.080 --> 00:41:44.750
+David Schaich (he): and perhaps the
+
+439
+00:41:46.150 --> 00:41:47.240
+David Schaich (he): Yes.
+
+440
+00:41:48.220 --> 00:41:54.470
+David Schaich (he): Yeah. So this is very simple example that I don't think is going to inspire any
+
+441
+00:41:54.620 --> 00:42:08.030
+David Schaich (he): questions. But it. It was straightforward. and we justify the next claim that for you overall system what I should call the system
+
+442
+00:42:10.750 --> 00:42:17.090
+David Schaich (he): reservoir. that will make a total is fully specified
+
+443
+00:42:21.740 --> 00:42:22.890
+David Schaich (he): bye
+
+444
+00:42:23.370 --> 00:42:25.940
+David Schaich (he): those that of them
+
+445
+00:42:25.980 --> 00:42:27.780
+David Schaich (he): occupation numbers.
+
+446
+00:42:30.360 --> 00:42:31.340
+David Schaich (he): So yeah.
+
+447
+00:42:33.070 --> 00:42:35.840
+David Schaich (he): number of replicas in each
+
+448
+00:42:36.850 --> 00:42:50.840
+David Schaich (he): of the M. Microstates. or equivalently the animal occupation probabilities. The probability that you randomly chose and replicate on microstates.
+
+449
+00:42:51.580 --> 00:42:59.960
+David Schaich (he): So we can ask, based on the definition that we introduced at the start of the day.
+
+450
+00:43:03.010 --> 00:43:04.740
+David Schaich (he): What is the temperature
+
+451
+00:43:08.810 --> 00:43:12.200
+David Schaich (he): of this overall micro canonical system
+
+452
+00:43:13.480 --> 00:43:15.330
+David Schaich (he): that's defined by
+
+453
+00:43:16.740 --> 00:43:30.940
+David Schaich (he): for you derivative of the entropy of that total system, with all our replicas divided by it's total energy with a fixed number of
+
+454
+00:43:31.750 --> 00:43:33.190
+David Schaich (he): and particles.
+
+455
+00:43:34.760 --> 00:43:35.730
+David Schaich (he): And
+
+456
+00:43:36.830 --> 00:43:39.780
+David Schaich (he): because we assumed thermodynamic equilibrium
+
+457
+00:43:42.670 --> 00:43:55.200
+David Schaich (he): energy derivative of the the total number of microstates across all our of those replicas. and before the break I think we have
+
+458
+00:43:56.250 --> 00:43:57.930
+David Schaich (he): plenty of time to
+
+459
+00:43:58.040 --> 00:44:01.890
+David Schaich (he): figure out what the total number of microstates is
+
+460
+00:44:03.960 --> 00:44:11.170
+David Schaich (he): which you can do what? Just by counting the
+
+461
+00:44:13.510 --> 00:44:15.170
+David Schaich (he): number of ways.
+
+462
+00:44:16.750 --> 00:44:21.310
+David Schaich (he): Yeah to you all replicas can be arranged.
+
+463
+00:44:26.280 --> 00:44:29.830
+David Schaich (he): The set of occupation. Numbers yes.
+
+464
+00:44:32.100 --> 00:44:34.290
+David Schaich (he): specify the system.
+
+465
+00:44:35.080 --> 00:44:39.000
+David Schaich (he): so we have it all replicas. We want to sort them
+
+466
+00:44:40.820 --> 00:44:43.870
+David Schaich (he): into a set of. and
+
+467
+00:44:45.050 --> 00:44:47.170
+David Schaich (he): my occupation numbers.
+
+468
+00:44:51.930 --> 00:44:55.930
+David Schaich (he): So there are. and of these occupation
+
+469
+00:44:56.010 --> 00:45:01.360
+David Schaich (he): numbers that we want to pick out from among the
+
+470
+00:45:01.740 --> 00:45:06.190
+David Schaich (he): so we can start with any given one of those occupation numbers
+
+471
+00:45:07.130 --> 00:45:08.610
+David Schaich (he): so mathematically.
+
+472
+00:45:09.880 --> 00:45:14.850
+David Schaich (he): We want first to choose. say, and one
+
+473
+00:45:15.160 --> 00:45:18.080
+David Schaich (he): of these replicas that are in
+
+474
+00:45:19.670 --> 00:45:22.450
+David Schaich (he): microstates, omega, one of the
+
+475
+00:45:22.690 --> 00:45:25.200
+David Schaich (he): the small system that is replicated.
+
+476
+00:45:26.440 --> 00:45:31.940
+David Schaich (he): and the way of choosing. and one of the our replicas to be in that microstate is
+
+477
+00:45:32.330 --> 00:45:37.750
+David Schaich (he): exactly the
+
+478
+00:45:39.140 --> 00:45:42.050
+David Schaich (he): So that is just part of the
+
+479
+00:45:43.690 --> 00:45:46.790
+David Schaich (he): calculation. Yeah.
+
+480
+00:45:49.530 --> 00:45:59.060
+David Schaich (he): the next step is just to repeat this process for the remaining micro-states and remaining occupation numbers. If we move on to
+
+481
+00:45:59.180 --> 00:46:05.350
+David Schaich (he): microstates omega 2, we have n 2 of those out of the remaining replicas so.
+
+482
+00:46:05.710 --> 00:46:10.600
+David Schaich (he): and one of the replicas had already been assigned to Micro State one.
+
+483
+00:46:10.940 --> 00:46:14.030
+David Schaich (he): Our minus and one remain, and you want to choose.
+
+484
+00:46:14.190 --> 00:46:17.700
+David Schaich (he): and 2 of those to be in micro state, and 2
+
+485
+00:46:19.290 --> 00:46:20.730
+David Schaich (he): that you suspect
+
+486
+00:46:20.940 --> 00:46:26.430
+David Schaich (he): R. Minus n, one minus n 2 microstates I wish to choose, and 3,
+
+487
+00:46:26.520 --> 00:46:29.980
+David Schaich (he): and so on up until the end.
+
+488
+00:46:30.080 --> 00:46:31.320
+David Schaich (he): and so em
+
+489
+00:46:31.590 --> 00:46:34.410
+David Schaich (he): occupation number, which will be
+
+490
+00:46:34.940 --> 00:46:36.590
+David Schaich (he): necessarily
+
+491
+00:46:37.790 --> 00:46:43.000
+David Schaich (he): only determined by being identified with all of the remaining
+
+492
+00:46:43.220 --> 00:46:45.150
+David Schaich (he): microstates that
+
+493
+00:46:45.920 --> 00:46:48.200
+David Schaich (he): have not yet been assigned to any of the other.
+
+494
+00:46:50.490 --> 00:46:56.880
+David Schaich (he): So any of all the remaining replicas that have been assigned to any of the other micro states
+
+495
+00:46:57.320 --> 00:46:58.300
+David Schaich (he): so
+
+496
+00:46:58.470 --> 00:47:01.880
+David Schaich (he): hopefully that makes sense as I talked it through
+
+497
+00:47:02.280 --> 00:47:07.160
+David Schaich (he): from this point, so mathematical manipulation from the definition of
+
+498
+00:47:08.930 --> 00:47:10.080
+David Schaich (he): coefficients
+
+499
+00:47:11.800 --> 00:47:14.700
+David Schaich (he): that first our shoes and one factor is the
+
+500
+00:47:18.560 --> 00:47:24.840
+David Schaich (he): ratio of our factorial by and one factorial on this R minus one factorial
+
+501
+00:47:25.430 --> 00:47:31.130
+David Schaich (he): next has. and one factorial choosing and 2
+
+502
+00:47:31.230 --> 00:47:34.890
+David Schaich (he): factorial, the
+
+503
+00:47:35.050 --> 00:47:37.340
+David Schaich (he): the other factor in the denominator.
+
+504
+00:47:39.670 --> 00:47:46.810
+David Schaich (he): moving on our minus one minus and 2 from the numerator with, and 3 factorial
+
+505
+00:47:47.550 --> 00:47:57.660
+David Schaich (he): in the to 3 actually all the way up to. And so yeah.
+
+506
+00:47:59.220 --> 00:48:05.300
+David Schaich (he): So what we have is a telescoping correct
+
+507
+00:48:05.330 --> 00:48:08.770
+David Schaich (he): another day, telescoping some in each
+
+508
+00:48:09.190 --> 00:48:16.480
+David Schaich (he): pair of terms. The numerator of the second cances out one of the factors in the denominator of the first.
+
+509
+00:48:16.890 --> 00:48:21.380
+David Schaich (he): and leaves us just with the first factor of our
+
+510
+00:48:21.390 --> 00:48:23.690
+David Schaich (he): and then all of the remaining
+
+511
+00:48:23.780 --> 00:48:24.910
+David Schaich (he): and one
+
+512
+00:48:26.060 --> 00:48:32.510
+David Schaich (he): factorial and 2 factorial and 3 factorial all the way up to.
+
+513
+00:48:32.850 --> 00:48:36.210
+David Schaich (he): And so then factorial in the denominator.
+
+514
+00:48:42.280 --> 00:48:46.540
+David Schaich (he): So that is the total number of microstates for
+
+515
+00:48:46.690 --> 00:48:52.460
+David Schaich (he): the micro canonical combination of our system of interest, plus this reservoir.
+
+516
+00:48:53.970 --> 00:48:56.420
+David Schaich (he): thanks to this replica trick.
+
+517
+00:48:56.980 --> 00:49:02.380
+David Schaich (he): and that will be our starting point for figuring out
+
+518
+00:49:02.440 --> 00:49:06.600
+David Schaich (he): the remainder of the calculation of the temperature. After
+
+519
+00:49:06.740 --> 00:49:10.500
+David Schaich (he): Hey, we've break from the question so far about the
+
+520
+00:49:10.740 --> 00:49:14.780
+David Schaich (he): set up for this replica trick, for the number of microstates
+
+521
+00:49:14.960 --> 00:49:18.690
+David Schaich (he): computed for that overall combined system.
+
+522
+00:49:24.430 --> 00:49:30.090
+David Schaich (he): Not seeing a deal pause, the recording it's something to drink and be back
+
+523
+00:49:30.290 --> 00:49:32.810
+David Schaich (he): at 10
+
+524
+00:49:32.860 --> 00:49:36.330
+David Schaich (he): second half of of this morning's lecture.
+
+525
+00:49:43.880 --> 00:49:55.460
+David Schaich (he): Okay, I think it's time to proceed. Okay. we break for reflection. Now. you any answer questions about what we've seen so far today.
+
+526
+00:49:58.130 --> 00:49:59.800
+David Schaich (he): not seeing any of the
+
+527
+00:50:00.080 --> 00:50:03.940
+David Schaich (he): next step that we have on our way to figuring out the temperature
+
+528
+00:50:04.740 --> 00:50:06.060
+David Schaich (he): is to
+
+529
+00:50:06.260 --> 00:50:13.850
+David Schaich (he): If the logarithm of this total number of microseconds we calculated. and then try to figure out how it depends.
+
+530
+00:50:13.860 --> 00:50:17.710
+David Schaich (he): Total energy of our canonical system.
+
+531
+00:50:17.730 --> 00:50:20.860
+David Schaich (he): reservoir of replicas
+
+532
+00:50:22.840 --> 00:50:23.790
+David Schaich (he): and.
+
+533
+00:50:26.580 --> 00:50:29.130
+David Schaich (he): thanks to the properties of
+
+534
+00:50:29.690 --> 00:50:30.970
+David Schaich (he): logarithms.
+
+535
+00:50:36.010 --> 00:50:39.590
+David Schaich (he): we can break up the logarithm of this
+
+536
+00:50:39.880 --> 00:50:43.130
+David Schaich (he): ratio of factorial products into
+
+537
+00:50:44.220 --> 00:50:49.990
+David Schaich (he): the difference between the log of the numerator. minus the
+
+538
+00:50:50.690 --> 00:50:55.540
+David Schaich (he): log of the denominator. It's a log of a product which becomes a sum.
+
+539
+00:50:55.990 --> 00:51:01.460
+David Schaich (he): The floors we you from one to M. Of
+
+540
+00:51:02.640 --> 00:51:08.420
+David Schaich (he): the occupation number and supply factorial within the logarithm.
+
+541
+00:51:10.170 --> 00:51:11.360
+David Schaich (he): Now, if we
+
+542
+00:51:12.940 --> 00:51:14.980
+David Schaich (he): assume we are dealing with a
+
+543
+00:51:15.400 --> 00:51:23.060
+David Schaich (he): large number of particles and a large number of replicas. the usual say before physical physics.
+
+544
+00:51:23.700 --> 00:51:28.310
+David Schaich (he): and it's different than the what we look at is just 2 spins.
+
+545
+00:51:28.640 --> 00:51:34.600
+David Schaich (he): You can assume that all of the occupation numbers are large. So there's a
+
+546
+00:51:35.390 --> 00:51:39.780
+David Schaich (he): you, an arbitrarily large number. That's a finite number of replicas.
+
+547
+00:51:41.180 --> 00:51:44.050
+David Schaich (he): and this assumption allows us
+
+548
+00:51:44.080 --> 00:51:45.030
+David Schaich (he): to
+
+549
+00:51:47.180 --> 00:51:50.880
+David Schaich (he): apply service approximation
+
+550
+00:51:55.750 --> 00:51:56.850
+David Schaich (he): to
+
+551
+00:51:57.290 --> 00:52:01.540
+David Schaich (he): the logarithm of it factorial, which is.
+
+552
+00:52:02.130 --> 00:52:10.160
+David Schaich (he): is that a familiar term. Maybe if I write it down. Yes. total is approximately
+
+553
+00:52:13.390 --> 00:52:22.470
+David Schaich (he): minus car minus the So over I okay, similar. and I
+
+554
+00:52:25.390 --> 00:52:33.530
+David Schaich (he): minus. And I so that this really is for me what the long of a large factorial is
+
+555
+00:52:35.040 --> 00:52:36.620
+David Schaich (he): in this case. Our factory is
+
+556
+00:52:36.650 --> 00:52:39.900
+David Schaich (he): our our minus r plus corrections.
+
+557
+00:52:41.330 --> 00:52:45.130
+David Schaich (he): No one is subject to that. So it's something you may have seen before.
+
+558
+00:52:45.200 --> 00:52:47.860
+David Schaich (he): and if not, there is a tutorial activity that
+
+559
+00:52:47.920 --> 00:52:51.880
+David Schaich (he): actually go through the derivation of this, as well as the
+
+560
+00:52:52.300 --> 00:52:54.590
+David Schaich (he): small correction terms to it.
+
+561
+00:52:56.700 --> 00:52:57.600
+David Schaich (he): Of the
+
+562
+00:52:58.260 --> 00:53:04.440
+David Schaich (he): what this allows us to do at this level of approximation is the call that
+
+563
+00:53:08.660 --> 00:53:10.550
+David Schaich (he): the sum over all the
+
+564
+00:53:10.670 --> 00:53:16.120
+David Schaich (he): microstates of the occupation number has to be equal to the total number of replicas
+
+565
+00:53:16.180 --> 00:53:28.240
+David Schaich (he): relative negative sign between those 2. So those terms cancel out. and you can also express the occupation number itself
+
+566
+00:53:28.680 --> 00:53:30.470
+David Schaich (he): as the
+
+567
+00:53:30.880 --> 00:53:33.300
+David Schaich (he): products of the occupation, probability.
+
+568
+00:53:33.320 --> 00:53:36.600
+David Schaich (he): and the total number of replicas in the remaining
+
+569
+00:53:36.640 --> 00:53:41.840
+David Schaich (he): term in the so it's this expression
+
+570
+00:53:46.030 --> 00:53:58.420
+David Schaich (he): some now over R. Times, P. I mean I can come down with some there and then the logarithm of P. I. Times are.
+
+571
+00:53:59.080 --> 00:54:02.750
+David Schaich (he): Let me see you one with one rhythm of the product.
+
+572
+00:54:03.870 --> 00:54:05.110
+I can see some
+
+573
+00:54:05.290 --> 00:54:06.730
+David Schaich (he): of log rhythms.
+
+574
+00:54:09.320 --> 00:54:10.370
+David Schaich (he): and
+
+575
+00:54:10.640 --> 00:54:15.940
+David Schaich (he): since these occupation probabilities, like all probabilities, sum up to one
+
+576
+00:54:16.480 --> 00:54:23.160
+David Schaich (he): the our Api log, our term the P. I. Drops out. That's equal to one.
+
+577
+00:54:23.250 --> 00:54:27.640
+David Schaich (he): We have a second factor of our with with
+
+578
+00:54:27.810 --> 00:54:31.000
+David Schaich (he): the negative sign compared to that first factor.
+
+579
+00:54:32.890 --> 00:54:39.640
+David Schaich (he): and we are left with just our factors of
+
+580
+00:54:40.800 --> 00:54:44.440
+David Schaich (he): some over the single system. Entropy
+
+581
+00:54:46.150 --> 00:54:51.230
+David Schaich (he): P. I. Of the Roots microstates I. From one to N.
+
+582
+00:54:59.990 --> 00:55:08.080
+David Schaich (he): Now the question is. how do we get this expression for the entropy
+
+583
+00:55:08.730 --> 00:55:13.340
+David Schaich (he): express in terms of the energy, so that we can take its derivative.
+
+584
+00:55:13.500 --> 00:55:17.020
+David Schaich (he): and find this temperature. The
+
+585
+00:55:18.170 --> 00:55:22.150
+David Schaich (he): energy dependence is implicit in here. Next to
+
+586
+00:55:22.550 --> 00:55:34.840
+David Schaich (he): that, that. the total energy that we want to take the derivative, with respect to is just a so of occupation. Number Times Microstate Energy or
+
+587
+00:55:34.880 --> 00:55:39.260
+David Schaich (he): Rpi Times, e. I. Somebody is hiding there.
+
+588
+00:55:39.690 --> 00:55:42.550
+David Schaich (he): The question is how to get it out.
+
+589
+00:55:43.650 --> 00:55:52.830
+David Schaich (he): We, and trick to do that which it's not necessarily obvious to look at. It is to apply what we know about
+
+590
+00:55:56.490 --> 00:56:00.470
+David Schaich (he): equilibrium for the overall
+
+591
+00:56:02.260 --> 00:56:05.350
+David Schaich (he): system of
+
+592
+00:56:05.680 --> 00:56:08.540
+David Schaich (he): it's reservoir.
+
+593
+00:56:09.380 --> 00:56:12.010
+David Schaich (he): that is, micro canonical, but just in general.
+
+594
+00:56:13.030 --> 00:56:14.330
+David Schaich (he): we know that
+
+595
+00:56:14.730 --> 00:56:18.830
+David Schaich (he): some dynamic equilibrium corresponds to
+
+596
+00:56:18.880 --> 00:56:22.870
+David Schaich (he): the maximum entropy given the constraints
+
+597
+00:56:25.120 --> 00:56:27.330
+David Schaich (he): that's probability here
+
+598
+00:56:29.380 --> 00:56:34.750
+David Schaich (he): and in the case of the whole system, energy
+
+599
+00:56:34.960 --> 00:56:42.900
+David Schaich (he): are conserved that back under the screen there. so the overall system with our replicas
+
+600
+00:56:43.540 --> 00:56:45.390
+David Schaich (he): has to be subject to
+
+601
+00:56:46.460 --> 00:56:50.530
+David Schaich (he): conservation of energy. I see micro canonical setup.
+
+602
+00:56:51.570 --> 00:56:54.530
+David Schaich (he): The occupation probabilities
+
+603
+00:56:55.000 --> 00:56:59.950
+David Schaich (he): we have seen also have to be conserved to add up to 100%
+
+604
+00:57:00.230 --> 00:57:04.220
+David Schaich (he): and maximizing the entropy subject to
+
+605
+00:57:04.280 --> 00:57:06.330
+David Schaich (he): these 2 constraints, you just
+
+606
+00:57:06.370 --> 00:57:10.170
+David Schaich (he): a very similar procedure to what we did
+
+607
+00:57:10.410 --> 00:57:13.400
+David Schaich (he): last week when derived David.
+
+608
+00:57:13.620 --> 00:57:23.830
+David Schaich (he): The expression for thermodynamic equilibrium to the market economic ensemble. Just from this second law of thermodynamics that identifies the equilibrium
+
+609
+00:57:24.070 --> 00:57:27.430
+David Schaich (he): system as one with maximum entropy.
+
+610
+00:57:28.250 --> 00:57:39.580
+David Schaich (he): We introduce the drums multipliers and consider the modified energy that starts off with the so a lot of an entropy that starts off with the total entropy
+
+611
+00:57:39.670 --> 00:57:41.570
+David Schaich (he): of these all replicas
+
+612
+00:57:44.000 --> 00:57:45.050
+David Schaich (he): our.
+
+613
+00:57:47.430 --> 00:57:52.270
+David Schaich (he): And then, as that 2 Lagrange multipliers, one
+
+614
+00:57:54.950 --> 00:57:56.620
+David Schaich (he): that enforcing the
+
+615
+00:57:56.740 --> 00:58:01.470
+David Schaich (he): conservation for probability. I believe it's all I have to set up to one.
+
+616
+00:58:01.760 --> 00:58:05.650
+David Schaich (he): and the second
+
+617
+00:58:07.170 --> 00:58:09.200
+David Schaich (he): just refute later simplicity
+
+618
+00:58:09.560 --> 00:58:11.820
+David Schaich (he): requires that the
+
+619
+00:58:13.360 --> 00:58:14.430
+David Schaich (he): so
+
+620
+00:58:16.050 --> 00:58:17.220
+David Schaich (he): i'll see you
+
+621
+00:58:17.660 --> 00:58:21.290
+David Schaich (he): energies weighted by the occupation probabilities.
+
+622
+00:58:21.600 --> 00:58:33.220
+David Schaich (he): times, ours, the occupation number of times. The energy has the to the total energy that is conserved in the micro canonical system.
+
+623
+00:58:37.260 --> 00:58:38.810
+David Schaich (he): I think there is
+
+624
+00:58:39.890 --> 00:58:41.130
+David Schaich (he): space
+
+625
+00:58:41.320 --> 00:58:44.050
+David Schaich (he): here just to quickly take the
+
+626
+00:58:44.260 --> 00:58:47.320
+David Schaich (he): derivative of this modified entropy
+
+627
+00:58:47.530 --> 00:58:53.070
+David Schaich (he): with respect to an arbitrary one of those occupation Probabilities want to
+
+628
+00:58:53.140 --> 00:58:57.050
+David Schaich (he): maximize this set the derivative equal to 0.
+
+629
+00:58:57.790 --> 00:59:03.220
+David Schaich (he): It's also easy to check that. The second derivative. Is negative which we oh, skipped last week. But
+
+630
+00:59:03.270 --> 00:59:05.740
+David Schaich (he): you can do on your own
+
+631
+00:59:06.470 --> 00:59:10.640
+David Schaich (he): the derivative of P. I.
+
+632
+00:59:10.750 --> 00:59:14.360
+David Schaich (he): Same expression we worked with last week, the overall factor
+
+633
+00:59:14.410 --> 00:59:15.780
+David Schaich (he): minus R.
+
+634
+00:59:17.240 --> 00:59:20.170
+David Schaich (he): We get a chronic or delta. I. K.
+
+635
+00:59:20.320 --> 00:59:24.030
+David Schaich (he): The derivative of P. I. The
+
+636
+00:59:25.370 --> 00:59:26.060
+right
+
+637
+00:59:26.070 --> 00:59:27.290
+David Schaich (he): changes the
+
+638
+00:59:28.090 --> 00:59:33.480
+David Schaich (he): index, i. To K. And the only remaining term that survives from that big sum.
+
+639
+00:59:34.820 --> 00:59:37.780
+David Schaich (he): Similarly, a ek
+
+640
+00:59:37.830 --> 00:59:40.780
+David Schaich (he): divided by the derivative
+
+641
+00:59:41.160 --> 00:59:43.430
+David Schaich (he): it is.
+
+642
+00:59:44.570 --> 00:59:46.060
+David Schaich (he): you can pull out
+
+643
+00:59:47.940 --> 00:59:53.030
+David Schaich (he): a chronic or delta, I. K. This sum of the first Lagrange, multiplier.
+
+644
+00:59:54.230 --> 00:59:56.190
+comic, or delta, gives us one
+
+645
+00:59:56.330 --> 00:59:59.800
+David Schaich (he): when I equals K. And 0 the rest of the time
+
+646
+01:00:01.530 --> 01:00:03.690
+David Schaich (he): it's. Similarly. there you go.
+
+647
+01:00:04.360 --> 01:00:13.020
+David Schaich (he): Delta, I. K. Gives us minus beta, all right. E. K. From the second.
+
+648
+01:00:13.240 --> 01:00:14.900
+David Schaich (he): the branch multiplier.
+
+649
+01:00:15.920 --> 01:00:21.320
+David Schaich (he): So all of that those 3 terms something to 0 we can rearrange to
+
+650
+01:00:21.760 --> 01:00:23.840
+David Schaich (he): isolate that log
+
+651
+01:00:23.920 --> 01:00:25.430
+David Schaich (he): E. K. Factor
+
+652
+01:00:27.520 --> 01:00:29.460
+David Schaich (he): that will have on the other side
+
+653
+01:00:29.790 --> 01:00:32.730
+David Schaich (he): a minus one we divide through.
+
+654
+01:00:32.820 --> 01:00:35.940
+David Schaich (he): The other. Term is by minus R.
+
+655
+01:00:37.110 --> 01:00:47.480
+David Schaich (he): And i'll shift them to the other side of the equal sign. You get a plus alpha over R. The cars canceled out there meeting us with a minus data.
+
+656
+01:00:48.760 --> 01:00:49.830
+David Schaich (he): Okay.
+
+657
+01:00:53.410 --> 01:00:54.560
+David Schaich (he): actually go ahead.
+
+658
+01:00:55.620 --> 01:00:57.040
+David Schaich (he): In addition to
+
+659
+01:00:58.920 --> 01:01:02.980
+David Schaich (he): next, she trying to keep both on the screen at once.
+
+660
+01:01:03.140 --> 01:01:08.580
+David Schaich (he): We exponentiate both sides. We have an expression for the occupation probability
+
+661
+01:01:09.030 --> 01:01:14.700
+David Schaich (he): in terms of these 2 Lagrange multipliers, alpha and Beta.
+
+662
+01:01:15.120 --> 01:01:17.480
+David Schaich (he): It's the exponential.
+
+663
+01:01:17.730 --> 01:01:19.280
+David Schaich (he): These 3 terms.
+
+664
+01:01:19.640 --> 01:01:20.960
+actually minus
+
+665
+01:01:21.400 --> 01:01:27.620
+David Schaich (he): one minus L. Over R. Mine is the in K.
+
+666
+01:01:29.050 --> 01:01:41.770
+David Schaich (he): So I've written in that way, so that I can rearrange it to exponential of divided by the exponential of the positive factor, one minus
+
+667
+01:01:42.250 --> 01:01:44.770
+David Schaich (he): also over all that that
+
+668
+01:01:46.660 --> 01:01:51.390
+David Schaich (he): e to the negative x. It's one over e to the plus x.
+
+669
+01:01:51.560 --> 01:01:54.130
+David Schaich (he): and about change variables
+
+670
+01:01:54.270 --> 01:01:58.670
+David Schaich (he): and define a an alternative parameter Z.
+
+671
+01:01:59.490 --> 01:02:03.520
+David Schaich (he): That is the exponential of one minus alpha over r
+
+672
+01:02:05.880 --> 01:02:12.310
+David Schaich (he): the E. To the minus beta. E. K. Comes along with Roy.
+
+673
+01:02:14.830 --> 01:02:15.720
+David Schaich (he): so
+
+674
+01:02:16.140 --> 01:02:18.690
+David Schaich (he): you have an expression for
+
+675
+01:02:18.820 --> 01:02:23.400
+David Schaich (he): the occupation, probabilities in thermodynamic equilibrium
+
+676
+01:02:23.450 --> 01:02:25.990
+David Schaich (he): in terms of 2
+
+677
+01:02:26.150 --> 01:02:29.790
+David Schaich (he): and cross, multiplier parameters, Beta and Z,
+
+678
+01:02:29.870 --> 01:02:31.170
+David Schaich (he): that we can
+
+679
+01:02:32.480 --> 01:02:34.900
+David Schaich (he): in a grip on by composing
+
+680
+01:02:37.000 --> 01:02:40.530
+David Schaich (he): you constraints that we started off with.
+
+681
+01:02:41.370 --> 01:02:51.100
+David Schaich (he): That's how we get back from the modified and for the to the true entropy as total that we want to maximize.
+
+682
+01:02:51.450 --> 01:02:58.340
+David Schaich (he): so demand that you occupation probabilities all some up to one.
+
+683
+01:02:59.770 --> 01:03:01.180
+David Schaich (he): How is this? Just that
+
+684
+01:03:02.720 --> 01:03:12.140
+David Schaich (he): one over said so? All of these exponential factors? E. To the minus Beta. the I equals one.
+
+685
+01:03:14.050 --> 01:03:24.330
+David Schaich (he): and if we multiply that through. and we find is that as a function of beta, it is just some overall
+
+686
+01:03:24.680 --> 01:03:31.560
+David Schaich (he): of the microstates of the canonical system, the exponential minus state of the times, the I.
+
+687
+01:03:33.120 --> 01:03:34.840
+David Schaich (he): This is known as
+
+688
+01:03:36.090 --> 01:03:37.760
+David Schaich (he): the partition function.
+
+689
+01:03:39.510 --> 01:03:41.930
+David Schaich (he): and turns out to be
+
+690
+01:03:42.170 --> 01:03:43.960
+David Schaich (he): the fundamental
+
+691
+01:03:46.600 --> 01:03:55.690
+David Schaich (he): quantity that really characterizes a canonical system, and from which all of the derived quantities of interest, like the
+
+692
+01:03:56.030 --> 01:04:02.270
+David Schaich (he): internal energy and heat, capacity, or entropy, can be dropped. This is
+
+693
+01:04:02.470 --> 01:04:03.240
+yeah
+
+694
+01:04:03.400 --> 01:04:15.020
+David Schaich (he): quantity that it will be seeing repeatedly as we first wrap up the derivation of the canonical ensemble. Again. apply the economical ensemble to you various
+
+695
+01:04:15.840 --> 01:04:19.130
+David Schaich (he): examples and situations.
+
+696
+01:04:20.910 --> 01:04:23.340
+David Schaich (he): The other constraint is that
+
+697
+01:04:24.260 --> 01:04:27.460
+David Schaich (he): in total energy has to be given by
+
+698
+01:04:27.780 --> 01:04:36.700
+David Schaich (he): that sum over occupation numbers for our times. P. I. Weighted by the energy e. I. Of each microstate.
+
+699
+01:04:38.210 --> 01:04:42.300
+David Schaich (he): and what we can do here if we were to.
+
+700
+01:04:42.640 --> 01:04:47.040
+David Schaich (he): So I get what we have for P. I. Is now a
+
+701
+01:04:47.280 --> 01:04:54.350
+David Schaich (he): ratio of an exponential factor, divided by a sum of exponential actors where you get basically a mess.
+
+702
+01:04:56.120 --> 01:04:59.220
+David Schaich (he): But if we insert this into
+
+703
+01:04:59.620 --> 01:05:00.510
+David Schaich (he): the year
+
+704
+01:05:01.890 --> 01:05:07.140
+David Schaich (he): expression for the entropy that we had. and minus R
+
+705
+01:05:07.550 --> 01:05:13.350
+David Schaich (he): times, the some of the microstates of P. I. From the occupation probabilities
+
+706
+01:05:14.600 --> 01:05:15.950
+David Schaich (he): you can insert
+
+707
+01:05:17.980 --> 01:05:29.230
+David Schaich (he): our results for the occupation probabilities inside that logarithm. So pi it's one over the partition function times the exponential.
+
+708
+01:05:29.880 --> 01:05:32.960
+David Schaich (he): even the minus data e. I
+
+709
+01:05:36.130 --> 01:05:43.360
+David Schaich (he): If we break up that log of the product into a sum of 2 logs. We have
+
+710
+01:05:43.470 --> 01:05:48.840
+David Schaich (he): the minus R Times log of one over Z.
+
+711
+01:05:49.460 --> 01:05:50.540
+David Schaich (he): We have
+
+712
+01:05:51.090 --> 01:05:55.310
+David Schaich (he): all all independent of I. They some
+
+713
+01:05:55.870 --> 01:06:01.440
+David Schaich (he): P. Of I. Over a microstate i. Which add up to one as always.
+
+714
+01:06:02.290 --> 01:06:10.490
+David Schaich (he): Then we have. The second factor is a minus r times, the logarithm of the to the minus beta times the energy
+
+715
+01:06:11.180 --> 01:06:14.730
+David Schaich (he): It's just it's argument.
+
+716
+01:06:15.010 --> 01:06:17.890
+David Schaich (he): So we have a minus R. Times minus beta
+
+717
+01:06:18.910 --> 01:06:22.890
+David Schaich (he): plus our data. they some over
+
+718
+01:06:24.370 --> 01:06:28.440
+David Schaich (he): probabilities weighted by the energy, is going down
+
+719
+01:06:28.610 --> 01:06:31.700
+David Schaich (he): from that exponential factor, or, in other words.
+
+720
+01:06:32.780 --> 01:06:40.610
+David Schaich (he): imposing the constraints that are as a some p. I. E. As up to the total energy
+
+721
+01:06:42.460 --> 01:06:46.590
+David Schaich (he): we have, that the total energy, this whole entropy is
+
+722
+01:06:47.300 --> 01:06:51.650
+David Schaich (he): maybe the Times. This tool energy, plus an additional term
+
+723
+01:06:51.790 --> 01:06:53.890
+David Schaich (he): of the.
+
+724
+01:06:54.890 --> 01:06:56.070
+David Schaich (he): and this is
+
+725
+01:06:56.280 --> 01:06:58.830
+David Schaich (he): where we wanted to get. In order to
+
+726
+01:06:58.880 --> 01:07:12.450
+David Schaich (he): take the derivative and determine the inverse temperature. I will drop the total subscripts just for use of writing for the time being. So one over temperature
+
+727
+01:07:13.320 --> 01:07:18.320
+David Schaich (he): is Dsde, fixing the number of particles
+
+728
+01:07:20.390 --> 01:07:23.300
+The easiest derivative to take is
+
+729
+01:07:23.350 --> 01:07:30.360
+David Schaich (he): with respect to itself that we use that multiplicative factor of Beta, our Lagrange multiplier.
+
+730
+01:07:30.730 --> 01:07:37.180
+David Schaich (he): But we also need to account for the possibility that Beta itself depends on energy.
+
+731
+01:07:37.470 --> 01:07:41.600
+David Schaich (he): just like everything else. Indeed. micro canonical system that
+
+732
+01:07:43.470 --> 01:07:48.710
+David Schaich (he): we are currently analyzing from Omega plus its reservoir.
+
+733
+01:07:49.910 --> 01:07:51.900
+David Schaich (he): R is just a number.
+
+734
+01:07:52.290 --> 01:07:55.770
+David Schaich (he): The number of replicas about Z.
+
+735
+01:07:55.920 --> 01:08:09.480
+David Schaich (he): You have seen is yeah. involves the energy. and is also cast as a function of Beta. So it will be useful to
+
+736
+01:08:10.530 --> 01:08:13.420
+David Schaich (he): take the derivative of log. Z. That gives us
+
+737
+01:08:14.430 --> 01:08:26.840
+David Schaich (he): all right over, said times by the changing one, the derivative of Z itself. With respect to E. You've written that as a function of data. So we will take
+
+738
+01:08:27.220 --> 01:08:32.590
+David Schaich (he): derivative in the Chamber with respect to data. another factor of
+
+739
+01:08:33.979 --> 01:08:35.470
+David Schaich (he): derivative of
+
+740
+01:08:35.500 --> 01:08:41.640
+David Schaich (he): with respect to the energy at same factor that showed up the other term.
+
+741
+01:08:44.910 --> 01:08:46.830
+David Schaich (he): So what can we do with this?
+
+742
+01:08:48.729 --> 01:08:51.960
+David Schaich (he): The best thing to do is apply
+
+743
+01:08:52.510 --> 01:08:56.200
+David Schaich (he): the definition of the partition function that we have
+
+744
+01:08:56.640 --> 01:08:57.770
+David Schaich (he): come up with.
+
+745
+01:08:59.180 --> 01:09:02.960
+David Schaich (he): We consider one over. Z.
+
+746
+01:09:04.779 --> 01:09:07.939
+David Schaich (he): You said you pay now and
+
+747
+01:09:10.359 --> 01:09:14.649
+David Schaich (he): plug in that some of over all microstates.
+
+748
+01:09:18.140 --> 01:09:23.680
+David Schaich (he): I We pick up a factor of negative E. I.
+
+749
+01:09:25.210 --> 01:09:27.290
+David Schaich (he): Inside that. So
+
+750
+01:09:28.859 --> 01:09:30.540
+David Schaich (he): the exponential factor
+
+751
+01:09:32.340 --> 01:09:38.960
+David Schaich (he): is unaffected by the derivative and we can recognize.
+
+752
+01:09:39.779 --> 01:09:44.930
+David Schaich (he): and that one over Z is exponential of minus a times the energy.
+
+753
+01:09:45.170 --> 01:09:58.430
+David Schaich (he): the you occupation, probability that we computed from maximizing the entropy. So this is a factor of negative. Some P. I.
+
+754
+01:09:58.580 --> 01:10:01.720
+David Schaich (he): Times, e. I. Which
+
+755
+01:10:02.870 --> 01:10:15.000
+David Schaich (he): constraint is still on the screen is negative. Total energy divided by the number of replicas. All right. so plugging that into
+
+756
+01:10:16.250 --> 01:10:19.690
+David Schaich (he): our calculation for the inverse temperature is the derivative.
+
+757
+01:10:20.210 --> 01:10:21.000
+Entropy
+
+758
+01:10:21.810 --> 01:10:22.860
+David Schaich (he): we have it.
+
+759
+01:10:25.170 --> 01:10:26.400
+David Schaich (he): Let's see
+
+760
+01:10:29.750 --> 01:10:37.200
+David Schaich (he): us, our times, whatever it is that the beta is minus here over our.
+
+761
+01:10:37.770 --> 01:10:39.050
+David Schaich (he): and then there's a
+
+762
+01:10:41.000 --> 01:10:42.520
+David Schaich (he): the energy there.
+
+763
+01:10:44.190 --> 01:10:48.100
+David Schaich (he): our signs one of our it cancels off, and we have Yeah.
+
+764
+01:10:52.140 --> 01:10:58.100
+David Schaich (he): and remarkably simple results. That's the temperature
+
+765
+01:10:58.110 --> 01:11:02.380
+David Schaich (he): is just one over this with large multiplier data.
+
+766
+01:11:06.470 --> 01:11:07.450
+David Schaich (he): So
+
+767
+01:11:11.840 --> 01:11:14.540
+David Schaich (he): what we have at this point
+
+768
+01:11:17.270 --> 01:11:20.360
+David Schaich (he): is, in fact, our final expression
+
+769
+01:11:20.470 --> 01:11:21.500
+David Schaich (he): for
+
+770
+01:11:22.740 --> 01:11:24.460
+David Schaich (he): economical system.
+
+771
+01:11:27.730 --> 01:11:29.070
+David Schaich (he): What is new
+
+772
+01:11:33.570 --> 01:11:36.840
+David Schaich (he): either as the gives distribution or
+
+773
+01:11:36.900 --> 01:11:40.900
+David Schaich (he): the Boltzmann distribution. as always in
+
+774
+01:11:41.130 --> 01:11:42.430
+thermodynamic
+
+775
+01:11:43.120 --> 01:11:44.570
+David Schaich (he): equilibrium.
+
+776
+01:11:45.630 --> 01:11:46.870
+David Schaich (he): we have a
+
+777
+01:11:47.960 --> 01:11:50.560
+David Schaich (he): probability piece of I
+
+778
+01:11:51.110 --> 01:11:52.820
+David Schaich (he): that is, one over z
+
+779
+01:11:53.550 --> 01:11:56.720
+David Schaich (he): e to the minus energy over T
+
+780
+01:11:57.030 --> 01:12:01.610
+David Schaich (he): for the corresponding micro state back on the screen there
+
+781
+01:12:02.190 --> 01:12:07.030
+David Schaich (he): and then. The partition function is the sum over all microstates
+
+782
+01:12:07.090 --> 01:12:09.890
+David Schaich (he): of the minus energy over T
+
+783
+01:12:10.130 --> 01:12:14.710
+David Schaich (he): and one over T itself. We can also call Beta the
+
+784
+01:12:14.900 --> 01:12:16.320
+David Schaich (he): inverse temperature.
+
+785
+01:12:18.760 --> 01:12:24.010
+David Schaich (he): So this is also known as the Boltzmann distribution, and this exponential factor.
+
+786
+01:12:24.260 --> 01:12:27.290
+David Schaich (he): so it's it's specifically.
+
+787
+01:12:27.620 --> 01:12:28.590
+David Schaich (he): No.
+
+788
+01:12:30.270 --> 01:12:32.120
+David Schaich (he): as the Boltzmann factor.
+
+789
+01:12:34.680 --> 01:12:38.370
+David Schaich (he): And what we can do now is note that
+
+790
+01:12:40.010 --> 01:12:46.960
+David Schaich (he): in this gives distribution there is no longer any explicit
+
+791
+01:12:47.880 --> 01:12:54.360
+David Schaich (he): reference to our ons offs before the reservoir that was fixing the temperature
+
+792
+01:12:54.530 --> 01:12:57.240
+David Schaich (he): one over beta work
+
+793
+01:12:58.420 --> 01:13:00.640
+David Schaich (he): our economical system.
+
+794
+01:13:01.160 --> 01:13:04.640
+David Schaich (he): so we can interpret this P. I
+
+795
+01:13:06.800 --> 01:13:10.720
+David Schaich (he): no longer has in occupation, probability.
+
+796
+01:13:15.400 --> 01:13:19.130
+David Schaich (he): but as a microstate probability.
+
+797
+01:13:22.380 --> 01:13:24.220
+David Schaich (he): the probability for it.
+
+798
+01:13:26.340 --> 01:13:28.380
+David Schaich (he): our system of interest, Omega.
+
+799
+01:13:29.380 --> 01:13:32.990
+David Schaich (he): to adopt the corresponding microstates.
+
+800
+01:13:34.000 --> 01:13:35.330
+David Schaich (he): Little Omega
+
+801
+01:13:43.320 --> 01:13:44.480
+David Schaich (he): and
+
+802
+01:13:47.480 --> 01:13:51.620
+David Schaich (he): microstate has energy, e sub i. That is
+
+803
+01:13:52.700 --> 01:13:54.550
+David Schaich (he): no water conserved.
+
+804
+01:13:58.530 --> 01:14:03.700
+David Schaich (he): So we have reached the goal that we set out before the break.
+
+805
+01:14:03.890 --> 01:14:10.770
+David Schaich (he): We have an expression for our system, Omega in terms of a fixed temperature.
+
+806
+01:14:11.860 --> 01:14:25.410
+David Schaich (he): and the non-conserved energies of the corresponding microstates. and all of the details of the reservoir that we bye use the rep like a trick to come up with an exhaust force that ons up is now irrelevant
+
+807
+01:14:25.420 --> 01:14:27.110
+David Schaich (he): and even.
+
+808
+01:14:29.230 --> 01:14:31.590
+David Schaich (he): and in the canonical approach.
+
+809
+01:14:31.780 --> 01:14:33.170
+David Schaich (he): Apart from
+
+810
+01:14:35.450 --> 01:14:45.430
+David Schaich (he): fixing this temperature T. And for dynamic equilibrium all the details of that not only it irrelevant, but also just unknowable in principle.
+
+811
+01:14:47.000 --> 01:14:49.890
+David Schaich (he): You just know it has
+
+812
+01:14:54.450 --> 01:14:56.260
+David Schaich (he): fixed temperature
+
+813
+01:14:58.460 --> 01:15:12.650
+David Schaich (he): that economical system picks up, thanks to the temperature being and intensive quality. So that is the derivation of the economic ensemble in from dynamic.
+
+814
+01:15:12.780 --> 01:15:15.690
+David Schaich (he): from maximizing the entropy
+
+815
+01:15:15.790 --> 01:15:17.700
+David Schaich (he): which gives us an expression for
+
+816
+01:15:17.820 --> 01:15:21.380
+David Schaich (he): microstate probabilities and the partition function
+
+817
+01:15:22.300 --> 01:15:23.560
+David Schaich (he): that
+
+818
+01:15:23.570 --> 01:15:28.370
+David Schaich (he): is the starting point for deriving any other quantity of interest.
+
+819
+01:15:29.150 --> 01:15:30.700
+David Schaich (he): Any questions about
+
+820
+01:15:31.860 --> 01:15:38.590
+David Schaich (he): the fairly long, like the information that we went through to to get to this point.
+
+821
+01:15:51.030 --> 01:15:56.660
+David Schaich (he): So if you're all happy with that. that, so it starts arriving
+
+822
+01:15:58.030 --> 01:16:00.470
+David Schaich (he): interesting quantities.
+
+823
+01:16:00.690 --> 01:16:02.710
+David Schaich (he): the canonical ensemble.
+
+824
+01:16:12.710 --> 01:16:16.820
+David Schaich (he): So back in the micro canonical ensemble, as we saw actually at the
+
+825
+01:16:16.960 --> 01:16:18.300
+David Schaich (he): very beginning
+
+826
+01:16:19.240 --> 01:16:25.230
+David Schaich (he): for lecture today, the temperature is one of you survive products that depends on
+
+827
+01:16:25.300 --> 01:16:29.660
+David Schaich (he): it can serve energy that characterizes the micro canonical ensemble.
+
+828
+01:16:31.050 --> 01:16:34.920
+David Schaich (he): The canonical approach turns that on his head.
+
+829
+01:16:35.040 --> 01:16:45.450
+David Schaich (he): We now have the temperature fixed. and the energy of the system is fluctuating in thermodynamic equilibrium, as the system keeps probabilistically adopting
+
+830
+01:16:45.530 --> 01:16:53.050
+David Schaich (he): one microstate after the next. But there is a well defined
+
+831
+01:16:54.240 --> 01:16:57.910
+David Schaich (he): quantity of that energy. They may be here
+
+832
+01:16:59.330 --> 01:17:02.510
+David Schaich (he): expectation value, the expected value.
+
+833
+01:17:04.460 --> 01:17:06.120
+David Schaich (he): I'll be in trouble, energy.
+
+834
+01:17:08.940 --> 01:17:22.220
+David Schaich (he): something that we can derive now based on the fixed temperature so right that, as always in the angular brackets for expectation, value of the energy.
+
+835
+01:17:22.400 --> 01:17:30.590
+David Schaich (he): Note that it is a function of temperature, also a function of particle number that we can leave implicit.
+
+836
+01:17:31.570 --> 01:17:37.880
+David Schaich (he): just because we're used to the particle number being conserved in both the micro canonical economical cases.
+
+837
+01:17:38.220 --> 01:17:39.470
+David Schaich (he): And then it.
+
+838
+01:17:40.480 --> 01:17:45.970
+David Schaich (he): Definition of the expectation value is, as always, the
+
+839
+01:17:45.990 --> 01:17:50.270
+David Schaich (he): some over all of the outcomes in our outcome space.
+
+840
+01:17:50.760 --> 01:17:52.550
+David Schaich (he): That's because the some
+
+841
+01:17:53.090 --> 01:17:56.130
+all of our microstates, let's say there are some of them
+
+842
+01:17:58.380 --> 01:18:04.940
+David Schaich (he): of the quality is expectation value we are considering. So the energy E of I. In Microsoft, omega i.
+
+843
+01:18:05.140 --> 01:18:09.030
+David Schaich (he): We did by the probability of the system adopting
+
+844
+01:18:10.260 --> 01:18:14.240
+David Schaich (he): this Microsoft Omega, I. With the energy.
+
+845
+01:18:15.090 --> 01:18:16.640
+David Schaich (he): So we know the
+
+846
+01:18:17.110 --> 01:18:22.980
+David Schaich (he): probabilities in the not for what sample or given by the use distribution.
+
+847
+01:18:23.240 --> 01:18:25.740
+David Schaich (he): You can plug that in. I'm gonna be
+
+848
+01:18:28.330 --> 01:18:32.500
+David Schaich (he): I Independence partition function factor out front
+
+849
+01:18:32.740 --> 01:18:41.740
+David Schaich (he): and be left with the energy waited by each of the minus beta times the energy
+
+850
+01:18:44.300 --> 01:18:48.420
+David Schaich (he): which actually, if we look back to
+
+851
+01:18:50.520 --> 01:18:54.500
+David Schaich (he): calculations that we were doing to figure out the temperature.
+
+852
+01:18:55.100 --> 01:18:56.110
+David Schaich (he): Okay.
+
+853
+01:18:57.070 --> 01:19:04.330
+David Schaich (he): see this one over, said some energy times exponential pulsing factor appearing
+
+854
+01:19:04.340 --> 01:19:18.330
+David Schaich (he): being related to the negative all of one over Z, the derivative of a set with respect to data not too surprisingly carrying out that derivative with respect to David, just brings down
+
+855
+01:19:18.360 --> 01:19:26.150
+David Schaich (he): that energy so plenty of that negative sign. it comes along with it. since one of
+
+856
+01:19:28.010 --> 01:19:30.560
+David Schaich (he): he's in. he made up.
+
+857
+01:19:32.410 --> 01:19:33.310
+David Schaich (he): which
+
+858
+01:19:34.890 --> 01:19:45.060
+David Schaich (he): we consider the chain rule is just the inverse temperature. Derivative i'll be you logarithm of the partition function.
+
+859
+01:19:46.200 --> 01:19:48.100
+David Schaich (he): So this is an illustration of
+
+860
+01:19:48.220 --> 01:19:52.240
+David Schaich (he): the importance of that partition function I was hinting at earlier.
+
+861
+01:19:52.280 --> 01:19:53.750
+David Schaich (he): is taking the
+
+862
+01:19:54.890 --> 01:20:05.340
+David Schaich (he): temperature, or probably inverse temperature. Derivative The logarithm of the partition function gives us the expectation value for the internal energy of
+
+863
+01:20:05.430 --> 01:20:07.010
+David Schaich (he): economical system.
+
+864
+01:20:08.190 --> 01:20:09.170
+David Schaich (he): and
+
+865
+01:20:09.250 --> 01:20:13.270
+David Schaich (he): is worthwhile to ask. Given that the energy is now
+
+866
+01:20:13.520 --> 01:20:15.500
+David Schaich (he): a function of the temperature.
+
+867
+01:20:18.800 --> 01:20:20.490
+David Schaich (he): How exactly does
+
+868
+01:20:21.780 --> 01:20:23.010
+David Schaich (he): the energy
+
+869
+01:20:24.140 --> 01:20:27.090
+David Schaich (he): expectation value? Yeah.
+
+870
+01:20:31.070 --> 01:20:35.160
+David Schaich (he): Depend on the temperature team?
+
+871
+01:20:41.660 --> 01:20:42.730
+David Schaich (he): This is.
+
+872
+01:20:43.750 --> 01:20:45.320
+David Schaich (he): in the sense the
+
+873
+01:20:46.700 --> 01:20:51.790
+David Schaich (he): same question and principle that we looked at we're talking about heat exchange, we thought.
+
+874
+01:20:51.810 --> 01:20:54.390
+David Schaich (he): How does the temperature depend on the energy?
+
+875
+01:20:55.450 --> 01:20:58.900
+David Schaich (he): Does it rise or fall as the amount of energy
+
+876
+01:20:59.320 --> 01:21:01.740
+David Schaich (he): increases or decreases.
+
+877
+01:21:04.270 --> 01:21:15.890
+David Schaich (he): and to answer the question of how the energy now depends on the temperature that characterizes economical ensemble. You can define
+
+878
+01:21:16.740 --> 01:21:18.140
+David Schaich (he): the quantity.
+
+879
+01:21:20.500 --> 01:21:21.950
+David Schaich (he): No, that's the
+
+880
+01:21:23.360 --> 01:21:33.510
+David Schaich (he): each capacity. C sub b, which is the derivative of the energy, expectation, value. With respect to the temperature
+
+881
+01:21:35.680 --> 01:21:36.660
+David Schaich (he): and
+
+882
+01:21:37.100 --> 01:21:40.270
+David Schaich (he): in the homework assignment to next week
+
+883
+01:21:40.350 --> 01:21:49.390
+David Schaich (he): you will show the Pd. Capacity is not negative. It is to say that higher temperatures
+
+884
+01:21:52.760 --> 01:21:55.170
+David Schaich (he): never decrease the
+
+885
+01:21:57.060 --> 01:22:04.010
+David Schaich (he): internal energy, and generically you will see that the quality holds only in very special
+
+886
+01:22:05.910 --> 01:22:16.830
+David Schaich (he): and specific cases. So generically. the higher temperature needs to a larger internal energy which is
+
+887
+01:22:18.300 --> 01:22:27.880
+David Schaich (he): in nice alignment with what we would expect based on our everyday experience with concepts of energy and temperature.
+
+888
+01:22:30.730 --> 01:22:32.200
+David Schaich (he): I'll see that
+
+889
+01:22:33.220 --> 01:22:34.590
+David Schaich (he): the way to
+
+890
+01:22:35.280 --> 01:22:40.580
+David Schaich (he): drive this and she may have already seen if you look at homework is by
+
+891
+01:22:42.180 --> 01:22:45.940
+David Schaich (he): providing this heat capacity to
+
+892
+01:22:46.240 --> 01:22:50.550
+David Schaich (he): the fluctuations of microstate energies around
+
+893
+01:22:50.680 --> 01:22:57.420
+David Schaich (he): this expectation value, so e on one, is the expectation value squared. This is a
+
+894
+01:23:03.680 --> 01:23:05.870
+David Schaich (he): an example of a
+
+895
+01:23:07.380 --> 01:23:18.090
+David Schaich (he): general and and quite powerful aspect of statistical physics. Notice fluctuation, response relations where
+
+896
+01:23:19.210 --> 01:23:24.880
+David Schaich (he): the fluctuations around the expectation value
+
+897
+01:23:24.930 --> 01:23:31.200
+David Schaich (he): are related to the response of that expectation value to the change in
+
+898
+01:23:31.290 --> 01:23:34.610
+David Schaich (he): some parameter that defines the system. In this case the
+
+899
+01:23:34.630 --> 01:23:38.750
+David Schaich (he): temperature that defines the canonical on song.
+
+900
+01:23:40.850 --> 01:23:52.930
+David Schaich (he): One other thing to mention just in passing is that the subscript be on the heat capacity is there because we're assuming that the
+
+901
+01:23:53.020 --> 01:23:55.810
+David Schaich (he): volume of the system is
+
+902
+01:23:56.470 --> 01:24:07.190
+David Schaich (he): staying fixed in this definition that put into the definition here as an explicit constraint, because you're not yet included the volume
+
+903
+01:24:07.220 --> 01:24:09.750
+David Schaich (he): as an explicit parameter
+
+904
+01:24:10.680 --> 01:24:13.290
+David Schaich (he): in a thermodynamic system that something
+
+905
+01:24:13.390 --> 01:24:19.330
+David Schaich (he): get to, Probably in a couple weeks time, certainly before the break will look at thermodynamic cycles.
+
+906
+01:24:20.450 --> 01:24:29.630
+David Schaich (he): and you more of. or the interrelations between pressure, volume. temperature, and energy.
+
+907
+01:24:30.010 --> 01:24:35.020
+David Schaich (he): There is an alternative key capacity that counts the pressure of C sub p.
+
+908
+01:24:35.170 --> 01:24:41.230
+David Schaich (he): Which I will show up in that context. and a different only slightly from
+
+909
+01:24:41.280 --> 01:24:44.960
+David Schaich (he): C sub b. So in both cases the derivative
+
+910
+01:24:45.240 --> 01:24:48.950
+David Schaich (he): of the average internal energy with your stuff in the temperature.
+
+911
+01:24:49.070 --> 01:24:52.960
+David Schaich (he): keeping either the joining or the pressure fixed.
+
+912
+01:24:58.920 --> 01:25:02.240
+David Schaich (he): So that should give you a
+
+913
+01:25:02.550 --> 01:25:06.560
+David Schaich (he): everything you need for the homework requirements, and we can move on to
+
+914
+01:25:06.580 --> 01:25:15.830
+David Schaich (he): other interesting derived quantities. you know, like a ensemble. one of which, of course, is. do you entropy?
+
+915
+01:25:16.470 --> 01:25:18.500
+David Schaich (he): We consider this in
+
+916
+01:25:18.740 --> 01:25:23.550
+David Schaich (he): the derivation of the with reference to
+
+917
+01:25:23.680 --> 01:25:29.860
+David Schaich (he): the various replicas, you know, on a large thermal reservoir.
+
+918
+01:25:30.620 --> 01:25:35.780
+David Schaich (he): We now want to derive the entropy based on
+
+919
+01:25:36.000 --> 01:25:39.600
+David Schaich (he): micro State probabilities, with no reference to
+
+920
+01:25:39.630 --> 01:25:40.960
+David Schaich (he): the unknowable.
+
+921
+01:25:41.230 --> 01:25:44.160
+David Schaich (he): The whole reservoir. So we go back to
+
+922
+01:25:45.660 --> 01:25:49.190
+David Schaich (he): the general definition. The entropy is
+
+923
+01:25:49.480 --> 01:25:59.760
+David Schaich (he): the negative sum over P. I. I. For the microstate capabilities. Yeah. And we can plug in our gives distribution for
+
+924
+01:26:00.150 --> 01:26:03.300
+David Schaich (he): one of those factors of Pi.
+
+925
+01:26:04.400 --> 01:26:08.370
+David Schaich (he): So as before I one over the partition function.
+
+926
+01:26:08.870 --> 01:26:10.280
+David Schaich (he): the exponential
+
+927
+01:26:10.770 --> 01:26:14.800
+David Schaich (he): Boltzmann factor E. To the minus beta Times energy.
+
+928
+01:26:16.350 --> 01:26:17.490
+David Schaich (he): and again
+
+929
+01:26:21.240 --> 01:26:27.520
+David Schaich (he): breaking up the log of the product into the sum of walks. We have. you know. negative.
+
+930
+01:26:29.940 --> 01:26:38.930
+David Schaich (he): What is that? I'm just over all probabilities, adding up to one. So here is it what I said.
+
+931
+01:26:39.920 --> 01:26:44.370
+David Schaich (he): The other term is the log of the exponential. So just the argument comes down
+
+932
+01:26:44.960 --> 01:26:46.760
+David Schaich (he): 2 negative factors.
+
+933
+01:26:47.800 --> 01:26:50.770
+David Schaich (he): They I independence
+
+934
+01:26:50.980 --> 01:26:59.900
+David Schaich (he): Beta, multiplying the sum of the microstates of the microstate.
+
+935
+01:27:00.900 --> 01:27:07.160
+David Schaich (he): Well, that is just the definition of the internal energy expectation value.
+
+936
+01:27:08.750 --> 01:27:15.540
+David Schaich (he): So we have a more than a partition function plus expectation value
+
+937
+01:27:16.010 --> 01:27:20.210
+David Schaich (he): times, data, the inverse temperature, or currently divided
+
+938
+01:27:20.290 --> 01:27:21.470
+David Schaich (he): by the temperature.
+
+939
+01:27:22.970 --> 01:27:27.640
+David Schaich (he): We can also rearrange this to express the
+
+940
+01:27:27.900 --> 01:27:31.060
+David Schaich (he): internal energy, expectation, value is
+
+941
+01:27:31.440 --> 01:27:40.510
+David Schaich (he): the Temperature Times. The entropy. By this in times of the of the partition function.
+
+942
+01:27:41.810 --> 01:27:45.760
+David Schaich (he): And this way of writing things.
+
+943
+01:27:48.250 --> 01:27:50.070
+David Schaich (he): We're calling that the
+
+944
+01:27:51.380 --> 01:27:53.600
+David Schaich (he): energy and
+
+945
+01:27:55.500 --> 01:28:03.470
+David Schaich (he): entropy are themselves functions of the temperature actually motivates introducing a new concept.
+
+946
+01:28:04.270 --> 01:28:18.230
+David Schaich (he): So we have temperature, times, entropy. What what is known as a free energy, a little call app. It's just this quantity. The negative Temperature Times, the logarithm of the partition function.
+
+947
+01:28:19.280 --> 01:28:20.090
+David Schaich (he): and
+
+948
+01:28:23.700 --> 01:28:27.770
+David Schaich (he): this is specifically known as be helpful.
+
+949
+01:28:30.400 --> 01:28:31.770
+David Schaich (he): Pre. Or G.
+
+950
+01:28:34.150 --> 01:28:40.410
+David Schaich (he): Yeah. A function of temperature is negative temperature, times.
+
+951
+01:28:40.710 --> 01:28:46.140
+David Schaich (he): or the partition function, which itself is a function of the temperature.
+
+952
+01:28:48.250 --> 01:28:53.380
+David Schaich (he): If we rearrange this to solve for the partition function, Z.
+
+953
+01:28:53.700 --> 01:28:58.010
+David Schaich (he): Divide 3 by negative.
+
+954
+01:29:00.140 --> 01:29:03.200
+David Schaich (he): That gives us just
+
+955
+01:29:04.000 --> 01:29:06.560
+David Schaich (he): the exponential of minus app
+
+956
+01:29:07.960 --> 01:29:09.570
+David Schaich (he): over to you. So they
+
+957
+01:29:10.850 --> 01:29:21.550
+David Schaich (he): contact expression for the partition function that has the implicit within it.
+
+958
+01:29:25.610 --> 01:29:28.130
+David Schaich (he): That's just rearranging the definition.
+
+959
+01:29:28.190 --> 01:29:30.050
+David Schaich (he): the helpful free energy.
+
+960
+01:29:30.490 --> 01:29:32.460
+David Schaich (he): And we can also
+
+961
+01:29:33.090 --> 01:29:38.860
+David Schaich (he): put this into microstate probability that gives distribution
+
+962
+01:29:43.960 --> 01:29:55.170
+David Schaich (he): whatever that is. one, over the exponential of a negative number which is the exponential of a positive number. We just have the the free energy
+
+963
+01:29:55.470 --> 01:29:57.460
+David Schaich (he): minus the microstate energy.
+
+964
+01:29:57.670 --> 01:30:00.700
+David Schaich (he): all weighted by the fixed temperature
+
+965
+01:30:01.640 --> 01:30:02.510
+David Schaich (he): and
+
+966
+01:30:03.650 --> 01:30:07.070
+David Schaich (he): free energy is to some extent so
+
+967
+01:30:08.100 --> 01:30:18.310
+David Schaich (he): okay terminology. But this is the gives an idea for the considerations that let's with the call that that's all.
+
+968
+01:30:18.820 --> 01:30:23.110
+David Schaich (he): It combines with the energy of each individual microstates
+
+969
+01:30:23.130 --> 01:30:34.550
+David Schaich (he): to determine the probability of that corresponding microstate. In particular, it has the same dimensions as energy and temperature in our units with
+
+970
+01:30:37.010 --> 01:30:38.550
+David Schaich (he): energy and temperature, having
+
+971
+01:30:38.910 --> 01:30:42.290
+David Schaich (he): the same dimensions and same units.
+
+972
+01:30:42.680 --> 01:30:51.640
+David Schaich (he): so the free energy is essentially what is left from the entropy has been
+
+973
+01:30:51.680 --> 01:30:58.090
+David Schaich (he): maximized, which. so we can see from the signs in this relation, minimizes the
+
+974
+01:30:58.480 --> 01:30:59.690
+David Schaich (he): free energy
+
+975
+01:31:04.400 --> 01:31:07.880
+David Schaich (he): continuing on in this veins are actually
+
+976
+01:31:10.000 --> 01:31:19.460
+David Schaich (he): there's a little bit more use. We can get out of the I don't know it's free energy just by considering it so. Derivatives
+
+977
+01:31:26.030 --> 01:31:38.690
+David Schaich (he): to the derivatives of the help of free energy will turn out to be. We'll lean into the other. talking about
+
+978
+01:31:39.350 --> 01:31:42.030
+David Schaich (he): the average internal energy
+
+979
+01:31:43.660 --> 01:31:47.930
+David Schaich (he): and the functions, except for sure.
+
+980
+01:31:49.430 --> 01:31:58.050
+David Schaich (he): So, hopping back to the expression we came up with just a few minutes ago with the internal energy. is
+
+981
+01:31:58.510 --> 01:32:01.380
+David Schaich (he): the negative beta, derivative.
+
+982
+01:32:01.760 --> 01:32:04.090
+David Schaich (he): The more of the partition function.
+
+983
+01:32:05.390 --> 01:32:10.010
+David Schaich (he): You write that here for it. Videos
+
+984
+01:32:18.920 --> 01:32:20.630
+David Schaich (he): you can recognize that
+
+985
+01:32:21.190 --> 01:32:23.730
+David Schaich (he): negative
+
+986
+01:32:24.030 --> 01:32:28.100
+David Schaich (he): is the ratio of
+
+987
+01:32:28.110 --> 01:32:31.140
+David Schaich (he): almost free energy to the temperature.
+
+988
+01:32:31.630 --> 01:32:42.800
+David Schaich (he): This is derivative with respect to the inverse temperature of elements, free energy divided by the temperature. we can't convert into a
+
+989
+01:32:43.420 --> 01:32:44.990
+David Schaich (he): temperature derivative
+
+990
+01:32:48.050 --> 01:32:59.300
+David Schaich (he): just an over a factor of the derivative of the temperature itself with respect to his inverse. So with T being one over data, we can take the
+
+991
+01:32:59.360 --> 01:33:03.410
+David Schaich (he): derivative of one over data our heads it's minus one
+
+992
+01:33:03.780 --> 01:33:05.480
+David Schaich (he): over Beta squared.
+
+993
+01:33:11.480 --> 01:33:17.870
+David Schaich (he): and of course, one over. Beta is just the temperature itself.
+
+994
+01:33:21.790 --> 01:33:23.140
+David Schaich (he): So there is
+
+995
+01:33:24.480 --> 01:33:30.470
+David Schaich (he): another illustration of how the partition function now in the form of the
+
+996
+01:33:31.140 --> 01:33:39.440
+David Schaich (he): is the starting point to analyze and derive these quantities, like the average eternal energy.
+
+997
+01:33:39.640 --> 01:33:41.700
+David Schaich (he): And similarly, for
+
+998
+01:33:43.580 --> 01:33:46.310
+David Schaich (he): the entropy we consider just the
+
+999
+01:33:46.570 --> 01:33:50.110
+David Schaich (he): temperature dependence of the free energy
+
+1000
+01:33:50.290 --> 01:33:51.410
+David Schaich (he): by itself.
+
+1001
+01:33:53.200 --> 01:33:55.860
+David Schaich (he): I'll pick up 2 terms.
+
+1002
+01:33:57.050 --> 01:33:58.020
+David Schaich (he): problem.
+
+1003
+01:34:00.020 --> 01:34:04.220
+David Schaich (he): first, the derivative of T. With respect to C, it's just one.
+
+1004
+01:34:07.060 --> 01:34:15.500
+David Schaich (he): and then we have myst times. It's your derivative of the in itself.
+
+1005
+01:34:17.150 --> 01:34:22.100
+David Schaich (he): and we just not finished for leading
+
+1006
+01:34:22.440 --> 01:34:27.470
+David Schaich (he): a derivative of what set with respect to an inverse temperature, to the internal energy.
+
+1007
+01:34:27.760 --> 01:34:30.520
+David Schaich (he): If we keep track of
+
+1008
+01:34:32.430 --> 01:34:35.910
+David Schaich (he): negative signs and factors of T,
+
+1009
+01:34:36.250 --> 01:34:37.060
+it's.
+
+1010
+01:34:38.020 --> 01:34:45.840
+David Schaich (he): you can see in our heads with some care, or work it out explicitly from this line here is changing variables from Beta to T.
+
+1011
+01:34:46.490 --> 01:34:47.330
+David Schaich (he): That
+
+1012
+01:34:47.480 --> 01:34:49.140
+David Schaich (he): this derivative
+
+1013
+01:34:50.090 --> 01:34:58.910
+David Schaich (he): is negative internal energy over the temperature. and
+
+1014
+01:34:59.640 --> 01:35:08.870
+David Schaich (he): our first derivation of the entropy we found plus internal energy over temperature.
+
+1015
+01:35:09.120 --> 01:35:10.430
+David Schaich (he): So this is
+
+1016
+01:35:11.120 --> 01:35:14.240
+David Schaich (he): negative entropy. You would put it another way.
+
+1017
+01:35:14.780 --> 01:35:16.100
+David Schaich (he): The
+
+1018
+01:35:17.750 --> 01:35:30.220
+David Schaich (he): is given by even simpler derivative of the free energy which we can also relates to the difference between
+
+1019
+01:35:30.350 --> 01:35:33.830
+David Schaich (he): the free energy, the average internal energy
+
+1020
+01:35:34.290 --> 01:35:37.980
+David Schaich (he): weighted by the temperature just
+
+1021
+01:35:39.380 --> 01:35:43.200
+David Schaich (he): inverting back from the water of the partition function to
+
+1022
+01:35:43.880 --> 01:35:52.890
+David Schaich (he): the free energy divided by temperature. And that is actually a good place to stop for today
+
+1023
+01:35:54.270 --> 01:35:58.350
+David Schaich (he): a couple minutes to one speaker, one out of time.
+
+1024
+01:36:00.530 --> 01:36:10.150
+David Schaich (he): So this recap, because we went through a lot of the I wanted to make sure we got to the heat capacity, so that you had plenty of exposure to that. With
+
+1025
+01:36:10.370 --> 01:36:23.620
+David Schaich (he): more than 8 we about to work on that homework assignment. We started off in the micro canonical ups of all, with a definition of the temperature of that looks fairly abstract as the response
+
+1026
+01:36:23.630 --> 01:36:35.830
+David Schaich (he): of the entropy to a change in the energy with the fixed number of particles we saw that it's produced sensible behavior and the context of heat exchange
+
+1027
+01:36:35.980 --> 01:36:40.460
+David Schaich (he): that agreed with our everyday intuition that energy should flow
+
+1028
+01:36:40.520 --> 01:36:51.420
+David Schaich (he): for power to colder systems, bringing their temperatures closer together. and then based on the practicalities of actually carrying out physics, experiments.
+
+1029
+01:36:51.440 --> 01:36:55.330
+David Schaich (he): observing the statistical systems that we're talking about.
+
+1030
+01:36:55.900 --> 01:37:01.420
+David Schaich (he): I don't want to happen completely isolated from us. For the rest of the universe.
+
+1031
+01:37:01.660 --> 01:37:05.030
+David Schaich (he): You want to be able to observe them and exchange energy with them.
+
+1032
+01:37:05.330 --> 01:37:08.250
+David Schaich (he): so that led us to the canonical ensemble.
+
+1033
+01:37:09.060 --> 01:37:10.000
+David Schaich (he): Hey?
+
+1034
+01:37:10.080 --> 01:37:14.410
+David Schaich (he): Means of allowing the energy of a system to fluctuate
+
+1035
+01:37:14.490 --> 01:37:26.490
+David Schaich (he): by exchange with its environment while fixing its temperature through thermal contact with a large external reservoir. It roughly, the trick showed us that the details of that
+
+1036
+01:37:26.770 --> 01:37:28.860
+David Schaich (he): thermal reservoir, or
+
+1037
+01:37:28.920 --> 01:37:33.120
+David Schaich (he): irrelevant to the chemical ensemble, and, in fact, unknowable
+
+1038
+01:37:33.160 --> 01:37:46.200
+David Schaich (he): in the canonical approach. What we have is the Gibbs distribution and it's pulsing factor from which you have the partition function. It can derive
+
+1039
+01:37:46.400 --> 01:37:52.700
+David Schaich (he): all of these interesting qualities, energy, entropy, and free energy, that we will
+
+1040
+01:37:53.350 --> 01:37:58.140
+David Schaich (he): begin playing with next week in top 3 applications.
+
+1041
+01:37:58.870 --> 01:38:04.990
+David Schaich (he): So a busy day today. I'm: sure you're also busy with the computer project due tomorrow.
+
+1042
+01:38:05.190 --> 01:38:07.840
+David Schaich (he): I'll let you get on with all of that
+
+1043
+01:38:07.970 --> 01:38:11.060
+David Schaich (he): just checking the last time to see if there are
+
+1044
+01:38:11.230 --> 01:38:17.140
+David Schaich (he): any questions about those assignments. or what we covered in the past couple of hours.
+
+1045
+01:38:25.540 --> 01:38:29.840
+David Schaich (he): So good luck with that project that assignments and.
+
