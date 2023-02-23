@@ -1,0 +1,1062 @@
+WEBVTT
+
+1
+00:00:01.550 --> 00:00:11.330
+David Schaich (he): So, keen readers of the lecture notes will have noticed that on the twentieth of February we skipped over an example,
+
+2
+00:00:11.490 --> 00:00:12.630
+David Schaich (he): that
+
+3
+00:00:13.300 --> 00:00:21.590
+David Schaich (he): I think started this life as a tutorial activity. We haven't had tutorials for a few weeks either, but it might be interesting to go through with this
+
+4
+00:00:21.760 --> 00:00:25.710
+David Schaich (he): hopefully quick, supplemental Pencast.  To
+
+5
+00:00:26.200 --> 00:00:39.310
+David Schaich (he): both talk a bit about negative temperatures, which come up on that first homework assignment to next week, as well as --- probably more importantly --- providing a fun example of the utility of random walks as a modeling tool.
+
+6
+00:00:39.610 --> 00:00:43.230
+David Schaich (he): So this is a supplement to
+
+7
+00:00:44.950 --> 00:00:51.170
+David Schaich (he): the lecture on the twentieth of February, where we looked at the
+
+8
+00:00:52.260 --> 00:00:57.510
+David Schaich (he): definition of temperature in the micro-canonical ensemble.
+
+9
+00:01:03.270 --> 00:01:06.390
+David Schaich (he): To remind you that the inverse temperature was
+
+10
+00:01:06.920 --> 00:01:09.190
+David Schaich (he): defined by the response of the
+
+11
+00:01:09.560 --> 00:01:15.810
+David Schaich (he): entropy to a change in energy evaluated with a fixed number of particles.
+
+12
+00:01:16.150 --> 00:01:28.150
+David Schaich (he): This is in normally thermodynamic equilibrium. so that the entropy can be replaced just by the logarithm of the number of microstates.
+
+13
+00:01:28.900 --> 00:01:32.330
+David Schaich (he): and we will look at the example
+
+14
+00:01:33.740 --> 00:01:37.310
+David Schaich (he): of the spin system that was
+
+15
+00:01:38.450 --> 00:01:50.540
+David Schaich (he): introduced last week. We have the the energy it was given by the negative value of the external magnetic field.
+
+16
+00:01:50.680 --> 00:01:56.880
+David Schaich (he): multiply by twice the number of upward pointing spins that are aligned with that
+
+17
+00:01:57.370 --> 00:01:59.620
+David Schaich (he): minus the total number of spins
+
+18
+00:02:01.440 --> 00:02:02.840
+David Schaich (he): just to
+
+19
+00:02:07.080 --> 00:02:08.190
+David Schaich (he): cool
+
+20
+00:02:08.770 --> 00:02:13.140
+David Schaich (he): that general illustration. We have an extra one from the page.
+
+21
+00:02:13.200 --> 00:02:18.750
+David Schaich (he): and then the scans are pointing. either out or down compared to that
+
+22
+00:02:19.130 --> 00:02:19.980
+these
+
+23
+00:02:20.150 --> 00:02:27.450
+David Schaich (he): 6 spins have for aligned upwards with the field, contributing negative energy.
+
+24
+00:02:27.620 --> 00:02:33.580
+David Schaich (he): 2 that are anti align with the field that are contributing positive energy and pointing downward.
+
+25
+00:02:34.890 --> 00:02:36.180
+Now for each
+
+26
+00:02:36.580 --> 00:02:40.380
+David Schaich (he): difference that we have.
+
+27
+00:02:43.770 --> 00:02:49.030
+David Schaich (he): we know, in the micro canonical ensemble the energy is conserved.
+
+28
+00:02:50.320 --> 00:02:56.460
+David Schaich (he): So for each different value of the we have a different number
+
+29
+00:02:58.120 --> 00:03:02.430
+David Schaich (he): of upward or down reporting spins with the total fixed.
+
+30
+00:03:04.430 --> 00:03:16.830
+David Schaich (he): And then this different number of corresponding to the different energy will give us a different number of microstates. which then gives us a different entropy.
+
+31
+00:03:16.850 --> 00:03:21.090
+David Schaich (he): which then gives us a different temperature by our definition.
+
+32
+00:03:22.120 --> 00:03:24.600
+David Schaich (he): So, just to some quick illustrations
+
+33
+00:03:25.440 --> 00:03:32.430
+David Schaich (he): for the micro canonical system with the lowest possible energy. In this. In system
+
+34
+00:03:33.060 --> 00:03:34.620
+David Schaich (he): this occurs when
+
+35
+00:03:34.860 --> 00:03:40.310
+David Schaich (he): all of the spins are pointing upwards, aligned with that
+
+36
+00:03:40.460 --> 00:03:41.870
+David Schaich (he): external. If you don't
+
+37
+00:03:43.610 --> 00:03:44.840
+David Schaich (he): like. So
+
+38
+00:03:47.080 --> 00:03:50.710
+David Schaich (he): So in this case. and plus is just n
+
+39
+00:03:51.330 --> 00:03:55.660
+David Schaich (he): and minus 0, and the energy putting things in
+
+40
+00:03:56.070 --> 00:03:57.010
+David Schaich (he): he is
+
+41
+00:03:58.490 --> 00:04:04.950
+David Schaich (he): minus N. Times H. So that's the most negative value that the energy can have.
+
+42
+00:04:05.190 --> 00:04:13.100
+David Schaich (he): This is sometimes referred to as the ground states that is, terminology. We will come back to later on in the module.
+
+43
+00:04:13.230 --> 00:04:28.660
+David Schaich (he): The important thing here for the temperature is that the multiplicity of this critical state of the number of microstates with this energy we call that. And as a function of the
+
+44
+00:04:28.930 --> 00:04:37.950
+David Schaich (he): there is just one possible collection of spin orientations that can produce this number of microstates is just this one
+
+45
+00:04:38.140 --> 00:04:42.240
+David Schaich (he): that changes for the next lowest energy.
+
+46
+00:04:47.050 --> 00:04:48.070
+David Schaich (he): Yeah.
+
+47
+00:04:49.350 --> 00:04:57.660
+David Schaich (he): okay. policy. Yeah. Video: To think about this for a minute or 2. Hopefully, it's not surprising that
+
+48
+00:04:57.750 --> 00:05:06.020
+David Schaich (he): This is the system where all but one of the spins is pointing up the line with the field. The last one is pointing down.
+
+49
+00:05:06.810 --> 00:05:08.270
+David Schaich (he): and there are
+
+50
+00:05:08.640 --> 00:05:14.360
+David Schaich (he): 6 different options. For which of these 6 spins can be the one pointing down.
+
+51
+00:05:15.150 --> 00:05:28.120
+David Schaich (he): So those 2 microstates they both have that same energy with. and plus of N. Minus one single down, recording spin
+
+52
+00:05:29.000 --> 00:05:31.560
+David Schaich (he): corresponding energy of the
+
+53
+00:05:32.680 --> 00:05:33.870
+David Schaich (he): then
+
+54
+00:05:35.330 --> 00:05:47.170
+David Schaich (he): N. Minus one factors of minus H plus that single factor of H, which is minus N. Minus 2 H. So still negative, but less negative than
+
+55
+00:05:47.800 --> 00:05:58.780
+David Schaich (he): the ground state and the number of microstates. With this energy one is 6. For this
+
+56
+00:05:59.360 --> 00:06:12.840
+David Schaich (he): case we're in more generally. which we can recognize based on what we actually looked in the house. There's that I've been writing. We can recognize this as
+
+57
+00:06:15.020 --> 00:06:20.680
+David Schaich (he): coefficient, or end to choose one, and choosing a single spin out of the total end
+
+58
+00:06:20.710 --> 00:06:22.900
+David Schaich (he): to be allied against the field.
+
+59
+00:06:24.870 --> 00:06:26.410
+David Schaich (he): So generalizing.
+
+60
+00:06:27.660 --> 00:06:32.130
+David Schaich (he): based on those 2 simple examples we can
+
+61
+00:06:32.960 --> 00:06:40.050
+David Schaich (he): to find the number of microstates for the energy with some number of downward pointing spins.
+
+62
+00:06:40.110 --> 00:06:44.320
+David Schaich (he): Just to be and choose that number of
+
+63
+00:06:45.700 --> 00:06:56.660
+David Schaich (he): you should convince yourself that this is also I tend to call to, and choosing the number up and pointing stands. It is just factorial
+
+64
+00:06:56.880 --> 00:07:02.130
+David Schaich (he): over in plus and minus and plus factorial.
+
+65
+00:07:03.460 --> 00:07:09.370
+David Schaich (he): You can recognize n minus n plus as n minus, and then plus is and minus.
+
+66
+00:07:10.180 --> 00:07:12.560
+David Schaich (he): Now you get the temperature
+
+67
+00:07:13.440 --> 00:07:14.090
+David Schaich (he): problem.
+
+68
+00:07:14.490 --> 00:07:17.550
+David Schaich (he): This number of micro states.
+
+69
+00:07:23.000 --> 00:07:26.650
+David Schaich (he): We need both to take the derivative of this expression.
+
+70
+00:07:28.020 --> 00:07:34.280
+David Schaich (he): What we do say a lot with the of this expression to get the entropy, and then the derivative
+
+71
+00:07:35.480 --> 00:07:36.630
+David Schaich (he): of that.
+
+72
+00:07:39.620 --> 00:07:40.720
+David Schaich (he): So
+
+73
+00:07:41.940 --> 00:07:44.360
+David Schaich (he): that tells us 2 things. First of all.
+
+74
+00:07:45.640 --> 00:07:50.660
+David Schaich (he): we need this. and plus
+
+75
+00:07:53.260 --> 00:08:02.830
+David Schaich (he): in terms of you, can serve qualities that we take the derivative with respect to and end, we will fix. But more importantly.
+
+76
+00:08:04.050 --> 00:08:05.600
+David Schaich (he): we also need
+
+77
+00:08:06.860 --> 00:08:08.310
+David Schaich (he): a differentiable
+
+78
+00:08:10.010 --> 00:08:11.600
+David Schaich (he): approximation
+
+79
+00:08:13.960 --> 00:08:22.180
+David Schaich (he): to these factorial factors, which are not convenience to differentiate
+
+80
+00:08:24.230 --> 00:08:32.929
+David Schaich (he): in the homework assignments We're given what option he's applying formula
+
+81
+00:08:33.990 --> 00:08:38.390
+David Schaich (he): before that log of your large number is approximately
+
+82
+00:08:40.179 --> 00:08:42.350
+David Schaich (he): sorry. A large number of factorial
+
+83
+00:08:43.159 --> 00:08:44.730
+right, that more clearly
+
+84
+00:08:45.460 --> 00:08:49.550
+David Schaich (he): the logarithm of the factorial of a large number
+
+85
+00:08:49.570 --> 00:08:56.630
+David Schaich (he): is approximately any more and minus and with higher order corrections. There he is
+
+86
+00:08:56.660 --> 00:09:02.330
+David Schaich (he): another option. Go through in this podcast.
+
+87
+00:09:03.640 --> 00:09:07.440
+David Schaich (he): which is to model the
+
+88
+00:09:09.390 --> 00:09:10.860
+David Schaich (he): It's been a system
+
+89
+00:09:15.880 --> 00:09:17.720
+David Schaich (he): as a random walk.
+
+90
+00:09:20.900 --> 00:09:24.180
+David Schaich (he): You know the space of its energies
+
+91
+00:09:25.570 --> 00:09:26.340
+David Schaich (he): hold it
+
+92
+00:09:27.830 --> 00:09:31.350
+David Schaich (he): random, walk. energy, space.
+
+93
+00:09:33.590 --> 00:09:39.530
+David Schaich (he): So if we look at these sorts of illustrations and think about how
+
+94
+00:09:39.610 --> 00:09:44.240
+David Schaich (he): the energy is adding up from each of the spins that are
+
+95
+00:09:44.260 --> 00:09:49.110
+David Schaich (he): at play. In the total system we can interpret. It
+
+96
+00:09:55.590 --> 00:09:57.000
+David Schaich (he): is a step
+
+97
+00:09:58.500 --> 00:10:04.550
+David Schaich (he): of a fixed length, plus or minus one in a variable x.
+
+98
+00:10:04.730 --> 00:10:07.540
+David Schaich (he): which is minus C over H,
+
+99
+00:10:08.290 --> 00:10:13.210
+David Schaich (he): which something got it from our starting point in the spin system that we looked at earlier
+
+100
+00:10:13.330 --> 00:10:14.600
+David Schaich (he): is just
+
+101
+00:10:15.050 --> 00:10:17.780
+David Schaich (he): 2 and plus minus n.
+
+102
+00:10:19.610 --> 00:10:26.000
+David Schaich (he): So taking steps either to the left or right, or plus, or minus one in energy.
+
+103
+00:10:26.290 --> 00:10:33.360
+David Schaich (he): is the simple example that we considered when introducing random walks in the lecture.
+
+104
+00:10:33.810 --> 00:10:34.900
+David Schaich (he): So
+
+105
+00:10:37.930 --> 00:10:41.830
+David Schaich (he): it's. Modeling just reduces to
+
+106
+00:10:43.800 --> 00:10:48.750
+David Schaich (he): That's simple. On the random walk, for example, with a fixed step plan.
+
+107
+00:10:48.920 --> 00:10:57.500
+David Schaich (he): and in particular, because we are not imposing any preference on whether a spin points up or down. You're just counting them.
+
+108
+00:10:58.990 --> 00:11:00.180
+David Schaich (he): Then we
+
+109
+00:11:03.750 --> 00:11:07.320
+David Schaich (he): stepping up to one, or stepping with minus, one.
+
+110
+00:11:07.680 --> 00:11:13.130
+David Schaich (he): become the same. Those are just stop both 50%
+
+111
+00:11:18.580 --> 00:11:20.640
+David Schaich (he): E equals. Q. Equals a half.
+
+112
+00:11:21.680 --> 00:11:31.630
+David Schaich (he): So with this particular set of set of probabilities. oh. 2 to the power in possible walks
+
+113
+00:11:33.160 --> 00:11:36.300
+David Schaich (he): for each each walk
+
+114
+00:11:37.760 --> 00:11:41.220
+David Schaich (he): he's really a spin configuration
+
+115
+00:11:44.520 --> 00:11:45.990
+David Schaich (he): all of them are.
+
+116
+00:11:49.850 --> 00:11:52.440
+David Schaich (he): and the
+
+117
+00:11:54.470 --> 00:11:57.290
+David Schaich (he): the number of spins with
+
+118
+00:12:00.610 --> 00:12:09.570
+David Schaich (he): and minus downward pointing, so the number of configurations with and not it's down reporting spins. It's just going to be given by
+
+119
+00:12:10.170 --> 00:12:15.020
+David Schaich (he): the total number of walks times the probability i'll end up with.
+
+120
+00:12:15.500 --> 00:12:17.530
+David Schaich (he): and by this steps
+
+121
+00:12:17.550 --> 00:12:18.470
+David Schaich (he): a flag.
+
+122
+00:12:18.710 --> 00:12:20.490
+and my steps minus one.
+
+123
+00:12:20.960 --> 00:12:27.710
+David Schaich (he): and my the steps to the left and the random walk example. which
+
+124
+00:12:31.580 --> 00:12:36.360
+David Schaich (he): we know that that probability itself is just the
+
+125
+00:12:38.190 --> 00:12:39.750
+David Schaich (he): number of
+
+126
+00:12:43.210 --> 00:12:44.350
+David Schaich (he): ways
+
+127
+00:12:45.430 --> 00:12:46.310
+David Schaich (he): of
+
+128
+00:12:47.410 --> 00:12:51.010
+David Schaich (he): taking and minus out of the end spins
+
+129
+00:12:52.860 --> 00:12:57.790
+David Schaich (he): in that direction, divided by the total number of spins.
+
+130
+00:13:00.530 --> 00:13:05.850
+David Schaich (he): But now what we have. So this is a
+
+131
+00:13:06.130 --> 00:13:09.610
+David Schaich (he): essentially rehash of what we had on the previous
+
+132
+00:13:10.250 --> 00:13:16.810
+David Schaich (he): screen. We know that. and of the given energy is the binomial factor.
+
+133
+00:13:17.020 --> 00:13:21.580
+David Schaich (he): We've related that to the total number of spins and the probability for
+
+134
+00:13:21.820 --> 00:13:31.530
+David Schaich (he): the walks with the corresponding number of spins of the proper orientation. The power comes from the central limit theorem.
+
+135
+00:13:33.990 --> 00:13:35.910
+David Schaich (he): This will allow us to
+
+136
+00:13:36.190 --> 00:13:39.870
+David Schaich (he): get another expression. For this probability
+
+137
+00:13:40.220 --> 00:13:41.520
+David Schaich (he): I will actually
+
+138
+00:13:43.090 --> 00:13:46.040
+David Schaich (he): work with. and plus
+
+139
+00:13:46.520 --> 00:13:49.650
+David Schaich (he): rather than n minus, just for notational
+
+140
+00:13:49.750 --> 00:13:50.940
+David Schaich (he): convenience.
+
+141
+00:14:00.980 --> 00:14:11.310
+David Schaich (he): I'm. With the central limit theorem of gives us for a large number of spins is a probability distribution in this variable X,
+
+142
+00:14:18.500 --> 00:14:33.410
+David Schaich (he): the pre-factor, whatever with 2 pi and Sigma Square, and then the exponential of X minus U squared over 2. And Sigma squared for a single step with P. And Q. Equal
+
+143
+00:14:33.500 --> 00:14:34.550
+I have.
+
+144
+00:14:38.870 --> 00:14:45.770
+David Schaich (he): You can recall and look out that this was 2 P. Minus one for the simple case of 6 step lights.
+
+145
+00:14:46.260 --> 00:14:51.610
+David Schaich (he): Well, that's 0, as we should expect. If there's an equal probability of stepping way or left.
+
+146
+00:14:52.190 --> 00:14:56.640
+David Schaich (he): the expectation value is to end up about where we started.
+
+147
+00:14:57.980 --> 00:15:01.400
+David Schaich (he): and similarly, the variants
+
+148
+00:15:01.530 --> 00:15:07.050
+David Schaich (he): You' it to be 4 P. Queue, with both P. And Q. And equal to half. That's one.
+
+149
+00:15:07.310 --> 00:15:17.110
+David Schaich (he): So the probability distribution is just one over root, 2 pi n times the exponential of minus X squared
+
+150
+00:15:17.390 --> 00:15:18.660
+over to.
+
+151
+00:15:20.140 --> 00:15:22.620
+David Schaich (he): Now, this is the distribution. If we want
+
+152
+00:15:22.880 --> 00:15:28.220
+David Schaich (he): the actual probability for a given number of spins that we need to
+
+153
+00:15:28.270 --> 00:15:29.650
+David Schaich (he): integrate this
+
+154
+00:15:31.250 --> 00:15:36.250
+David Schaich (he): over a suitable range of X values.
+
+155
+00:15:40.340 --> 00:15:46.230
+David Schaich (he): In the first tutorial that we did have, we looked at the central limit theorem, and saw that
+
+156
+00:15:47.100 --> 00:15:56.080
+David Schaich (he): approximating this distribution as a constant within this range of integration is a good approximation, as the number of
+
+157
+00:15:56.350 --> 00:15:59.190
+David Schaich (he): steps or the number of spins becomes large.
+
+158
+00:16:07.030 --> 00:16:09.820
+David Schaich (he): So we will use that here.
+
+159
+00:16:12.200 --> 00:16:13.780
+David Schaich (he): and we will
+
+160
+00:16:15.590 --> 00:16:19.460
+David Schaich (he): determine that the range we want to integrate over. So
+
+161
+00:16:20.310 --> 00:16:26.530
+David Schaich (he): It's. P. Constant for a given value, and plus is the value of the
+
+162
+00:16:26.760 --> 00:16:30.030
+David Schaich (he): probability distribution from the
+
+163
+00:16:31.250 --> 00:16:40.040
+David Schaich (he): my X equal 2 and plus minus 10 times the width of the range
+
+164
+00:16:40.180 --> 00:16:44.940
+David Schaich (he): between this value and plus and the next, and plus it's just counting
+
+165
+00:16:45.160 --> 00:16:52.440
+David Schaich (he): the number of spins that are pointing up or down that changes by one as we integrated both of that.
+
+166
+00:16:54.060 --> 00:16:56.680
+David Schaich (he): And we can. So
+
+167
+00:16:57.390 --> 00:17:07.400
+David Schaich (he): probably from this Council approximation is just the distribution where we can also recognize that this argument. X. To handle
+
+168
+00:17:07.740 --> 00:17:10.890
+David Schaich (he): my capital N. Is just
+
+169
+00:17:11.960 --> 00:17:19.210
+David Schaich (he): minus E over H, so that the probability coming from a distribution
+
+170
+00:17:20.670 --> 00:17:26.650
+David Schaich (he): and ultimately for me central limit theorem and the training of the work. Modeling
+
+171
+00:17:27.930 --> 00:17:29.810
+David Schaich (he): is an exponential
+
+172
+00:17:31.720 --> 00:17:34.630
+David Schaich (he): minus. E squared over 2 N.
+
+173
+00:17:35.190 --> 00:17:36.800
+H. Squared.
+
+174
+00:17:38.030 --> 00:17:39.150
+David Schaich (he): and then
+
+175
+00:17:40.360 --> 00:17:48.560
+David Schaich (he): from the top of the screen we just need a factor of 2 to the N. To connect this probability to the total number of walks.
+
+176
+00:17:48.890 --> 00:17:51.850
+David Schaich (he): or equally the total number of
+
+177
+00:17:52.730 --> 00:18:06.510
+David Schaich (he): microstates that have a given value of the energy. This is an approximation that becomes exactly the into infinity limit. And more importantly, it is a
+
+178
+00:18:06.880 --> 00:18:16.450
+David Schaich (he): that is continuous and differentiable. Oh, sure! Oh. the energy! Yeah. the in the particle.
+
+179
+00:18:17.790 --> 00:18:21.470
+David Schaich (he): So taking the derivative
+
+180
+00:18:25.610 --> 00:18:27.530
+David Schaich (he): of the water rhythm
+
+181
+00:18:28.940 --> 00:18:31.440
+David Schaich (he): of them to give us the inverse temperature.
+
+182
+00:18:33.210 --> 00:18:34.380
+David Schaich (he): Well, the
+
+183
+00:18:34.890 --> 00:18:42.150
+David Schaich (he): property of the law, as always, is going to break up this product of factories into a some of
+
+184
+00:18:44.370 --> 00:18:48.240
+David Schaich (he): one of those terms is the what name of the exponential of
+
+185
+00:18:48.650 --> 00:18:55.420
+David Schaich (he): minus. E squared over 2 and H squared the log of the exponential is just it's argument.
+
+186
+00:18:56.540 --> 00:19:03.040
+David Schaich (he): and then everything else is actually independent of the energy. so
+
+187
+00:19:03.480 --> 00:19:07.970
+David Schaich (he): we can ignore it when it's taking this derivative, and we just end up with
+
+188
+00:19:08.830 --> 00:19:10.820
+David Schaich (he): minus E over
+
+189
+00:19:11.640 --> 00:19:13.610
+of 2,
+
+190
+00:19:13.720 --> 00:19:18.650
+David Schaich (he): the other one so minus E over and h squared. or
+
+191
+00:19:23.040 --> 00:19:24.870
+David Schaich (he): the temperature itself.
+
+192
+00:19:26.130 --> 00:19:29.430
+David Schaich (he): we have found that temperature is
+
+193
+00:19:32.870 --> 00:19:36.330
+David Schaich (he): approximately with a very good approximation
+
+194
+00:19:37.130 --> 00:19:40.400
+David Schaich (he): for a large number
+
+195
+00:19:40.480 --> 00:19:45.160
+David Schaich (he): out of degrees of freedom. It's about minus N. H. Squared over E.
+
+196
+00:19:51.420 --> 00:20:01.920
+David Schaich (he): So let's just make a few observations or comments about this. You wrap up this fantas before it goes you want
+
+197
+00:20:03.490 --> 00:20:04.800
+David Schaich (he): that
+
+198
+00:20:06.670 --> 00:20:07.840
+David Schaich (he): we checked
+
+199
+00:20:08.840 --> 00:20:13.630
+David Schaich (he): in the lecture on the twentieth of that
+
+200
+00:20:14.340 --> 00:20:27.740
+David Schaich (he): temperature, and the micro canonical, unsolvable behaves as we expect when we talk about heat exchange. It leads to a flow of energy from other systems to cover systems, bringing their temperatures into
+
+201
+00:20:27.910 --> 00:20:29.250
+David Schaich (he): better agreement.
+
+202
+00:20:30.670 --> 00:20:41.020
+David Schaich (he): But in this case there are some features of this expression from the temperature that are a bit different than our everyday expectations.
+
+203
+00:20:41.060 --> 00:20:42.340
+David Schaich (he): So, for one thing.
+
+204
+00:20:43.530 --> 00:20:47.030
+David Schaich (he): this temperature he comes in for this.
+
+205
+00:20:48.380 --> 00:20:53.940
+David Schaich (he): If the energy actually goes to 0. So one over e diverges.
+
+206
+00:20:54.020 --> 00:20:54.960
+David Schaich (he): and
+
+207
+00:20:55.320 --> 00:21:04.110
+David Schaich (he): the energy goes to 0 when there are roughly equal numbers for exactly equal numbers of upward and downward, pointing space.
+
+208
+00:21:05.400 --> 00:21:07.240
+maybe even more surprising.
+
+209
+00:21:07.670 --> 00:21:14.560
+David Schaich (he): depending on how far you've gotten with the homework is that the temperature becomes negative
+
+210
+00:21:15.040 --> 00:21:19.880
+David Schaich (he): whenever the energy is greater than 0. You solve
+
+211
+00:21:20.010 --> 00:21:21.050
+David Schaich (he): for the
+
+212
+00:21:22.550 --> 00:21:33.580
+David Schaich (he): lowest and next lowest energies. Those values were solidly below your phone. but it is possible to have a positive energy.
+
+213
+00:21:34.050 --> 00:21:36.490
+David Schaich (he): and that's it. A negative temperature.
+
+214
+00:21:37.010 --> 00:21:43.530
+David Schaich (he): Whenever there are more skins. can see a line with the external.
+
+215
+00:21:43.760 --> 00:21:55.940
+David Schaich (he): then there are along with it, so n minus is greater than n plus. So this gets us back to the physical meaning behind this definition of the temperature. that this
+
+216
+00:21:56.050 --> 00:21:58.710
+David Schaich (he): positive energy regime
+
+217
+00:21:59.820 --> 00:22:00.830
+David Schaich (he): is
+
+218
+00:22:01.270 --> 00:22:03.680
+David Schaich (he): a regime in which.
+
+219
+00:22:04.420 --> 00:22:05.820
+David Schaich (he): adding energy
+
+220
+00:22:07.400 --> 00:22:09.040
+David Schaich (he): to the spin system
+
+221
+00:22:10.890 --> 00:22:14.730
+David Schaich (he): with a fixed number of spins, actually reduces
+
+222
+00:22:15.760 --> 00:22:17.680
+David Schaich (he): the number of microstates
+
+223
+00:22:19.860 --> 00:22:21.050
+David Schaich (he): that the
+
+224
+00:22:21.550 --> 00:22:25.950
+David Schaich (he): system can adopt in the micro canonical ensemble where the energy is fixed.
+
+225
+00:22:29.270 --> 00:22:36.980
+David Schaich (he): That's getting back to this form of the definition of temperature. If
+
+226
+00:22:37.050 --> 00:22:44.290
+David Schaich (he): a positive increase in energy reduces the logarithm of, and then that sign feeds through
+
+227
+00:22:44.420 --> 00:22:46.040
+David Schaich (he): to the temperature itself.
+
+228
+00:22:47.100 --> 00:22:51.380
+David Schaich (he): We can also notice that the expression
+
+229
+00:22:53.790 --> 00:22:55.680
+David Schaich (he): you'll define whatever
+
+230
+00:22:56.590 --> 00:23:04.970
+David Schaich (he): the magnetic field is turned off, which leads to all microstates having vanishing energy, and gives us a 0 over 0
+
+231
+00:23:05.140 --> 00:23:06.520
+David Schaich (he): in that expression.
+
+232
+00:23:08.870 --> 00:23:11.480
+David Schaich (he): But you this
+
+233
+00:23:13.280 --> 00:23:16.590
+David Schaich (he): unusual behavior it's worth noting as well that
+
+234
+00:23:16.730 --> 00:23:22.300
+David Schaich (he): there is a regime where the temperature is positive and behaves
+
+235
+00:23:22.590 --> 00:23:26.290
+David Schaich (he): more like what we expect. We actually define
+
+236
+00:23:29.210 --> 00:23:31.330
+David Schaich (he): natural systems
+
+237
+00:23:32.890 --> 00:23:34.920
+David Schaich (he): that on the screen.
+
+238
+00:23:39.060 --> 00:23:42.890
+David Schaich (he): so a natural system in the context of temperature
+
+239
+00:23:44.930 --> 00:23:52.260
+David Schaich (he): as you get a positive temperature in the case of the spin system.
+
+240
+00:23:54.210 --> 00:24:02.060
+David Schaich (he): this requires a negative energy, just like the ground states and the next lowest energy state we started off with.
+
+241
+00:24:02.230 --> 00:24:07.210
+David Schaich (he): So it's a natural regime without the only possible.
+
+242
+00:24:08.530 --> 00:24:11.590
+David Schaich (he): and this corresponds to the state in which
+
+243
+00:24:12.020 --> 00:24:17.330
+David Schaich (he): larger amounts of energy increase the number of microstates that are available
+
+244
+00:24:17.780 --> 00:24:21.120
+David Schaich (he): in the spin system. Even in the natural regime
+
+245
+00:24:21.340 --> 00:24:23.300
+David Schaich (he): there is a
+
+246
+00:24:25.780 --> 00:24:27.310
+David Schaich (he): minimum temperature.
+
+247
+00:24:30.980 --> 00:24:32.350
+David Schaich (he): In this case
+
+248
+00:24:33.760 --> 00:24:36.420
+David Schaich (he): we have. We can see that
+
+249
+00:24:36.750 --> 00:24:44.430
+David Schaich (he): when the energy becomes the most negative value, it can be at E equals
+
+250
+00:24:44.640 --> 00:24:50.660
+David Schaich (he): minus N. H. From that ground states, and the in one factor of the H cancel.
+
+251
+00:24:52.900 --> 00:24:57.910
+David Schaich (he): and the minimum energy comes out to be yes. minus H.
+
+252
+00:24:59.840 --> 00:25:01.670
+David Schaich (he): That corresponds to
+
+253
+00:25:03.500 --> 00:25:06.240
+David Schaich (he): the lowest energy. We compute it.
+
+254
+00:25:07.620 --> 00:25:10.380
+David Schaich (he): and We can also see that
+
+255
+00:25:10.950 --> 00:25:12.240
+whatever we here
+
+256
+00:25:14.390 --> 00:25:17.460
+David Schaich (he): increase the energy in the system.
+
+257
+00:25:19.840 --> 00:25:20.790
+David Schaich (he): we
+
+258
+00:25:22.330 --> 00:25:31.970
+David Schaich (he): get to a less negative energy. Yeah. reduce the magnitude of the E. That's in the denominator. so
+
+259
+00:25:31.980 --> 00:25:36.580
+David Schaich (he): that ratio of the temperature also becomes smaller, so it also becomes larger.
+
+260
+00:25:37.030 --> 00:25:42.340
+David Schaich (he): Whatever a smaller number increases the temperature.
+
+261
+00:25:45.140 --> 00:25:55.530
+David Schaich (he): I get matching our expectations for physical systems. So this natural regime is generally what we will be interested in a part for that homework assignment where.
+
+262
+00:25:56.460 --> 00:25:57.570
+but also
+
+263
+00:25:58.200 --> 00:26:00.290
+David Schaich (he): considering the
+
+264
+00:26:01.760 --> 00:26:09.920
+David Schaich (he): temperature in a similar system, with a difference, analysis, and approximation, rather than using a ring, the wall and
+
+265
+00:26:10.100 --> 00:26:16.020
+David Schaich (he): checking to see what it really means to have a negative temperature rather than a natural one.
+
