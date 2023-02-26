@@ -1,12 +1,12 @@
 #!/usr/bin/python3
+# ------------------------------------------------------------------
+# Check particle number consistency condition for
+# non-relativistic fermion gas, given temperature and chemical potential
 import sys
 import numpy as np
 from scipy import special, integrate
 import matplotlib.pyplot as plt
 plt.rcParams["figure.figsize"] = (6,3)
-# ------------------------------------------------------------------
-# Check particle number consistency condition for
-# non-relativistic fermion gas, given temperature and chemical potential
 
 # Parse arguments: Temperature t=T/E_F and chemical potential c=mu/E_F
 #                  in units of the Fermi energy E_F
