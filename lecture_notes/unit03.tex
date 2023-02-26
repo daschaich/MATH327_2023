@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 3}
-\renewcommand{\moddate}{Last modified 20 Feb.~2023}
+\renewcommand{\moddate}{Last modified 26 Feb.~2023}
 \setcounter{section}{3}
 \setcounter{subsection}{0}
 \phantomsection
@@ -313,12 +313,12 @@ The spins distinguished in this way will be aligned either anti-parallel or para
 The canonical system therefore has $M = 2^N$ distinct micro-states $\om_i$ with energies $E_i$ and probabilities $p_i = \frac{1}{Z} e^{-E_i / T}$, each defined by the orientations of all $N$ spins.
 
 To streamline our notation, we can represent the orientation of the $n$th spin as $s_n \in \left\{1, -1\right\}$, where $s_n = 1$ indicates alignment parallel to the field and $s_n = -1$ indicates alignment anti-parallel to the field.
-Since the spins don't interact with each other, the internal energy of the system in micro-state $\om_i$ specified by the $N$ spins $\left\{s_n\right\}$ is therefore
+Since the spins don't interact with each other, the internal energy of the system in micro-state $\om_i$ specified by the $N$ spins $\left\{s\right\}$ is therefore
 \begin{equation}
   \label{eq:spin_energy}
   E_i = -H \sum_{n = 1}^N s_n.
 \end{equation}
-To compute the canonical partition function $Z_D$, where the subscript reminds us of the spins' distinguishability, we have to sum over all $2^N$ possible spin configurations $\left\{s_n\right\}$.
+To compute the canonical partition function $Z_D$, where the subscript reminds us of the spins' distinguishability, we have to sum over all $2^N$ possible spin configurations $\left\{s\right\}$.
 In this process we can save some space by defining the dimensionless variable $x = \be H = \frac{H}{T}$:
 \begin{align}
   Z_D & = \sum_{s_1 = \pm 1} \cdots \sum_{s_N = \pm 1} e^{-\be E_i} = \sum_{s_1 = \pm 1} \cdots \sum_{s_N = \pm 1} \exp\left[x \sum_{n = 1}^N s_n\right] \cr
@@ -333,19 +333,19 @@ The corresponding Helmholtz free energy
   F_D(\be) = -\frac{\log Z(\be)}{\be} = -\frac{N \log\left[2\cosh\left(\be H\right)\right]}{\be}
 \end{equation}
 is all we need to compute the average internal energy:
-\begin{mdframed}
-  $\displaystyle \vev{E}_D = \pderiv{}{\be}\left[\be F_D(\be)\right] = $ \\[100 pt]
+\begin{mdframed} % WARNING: ADJUSTED SIZE BY HAND TO FIT ON PAGE
+  $\displaystyle \vev{E}_D = \pderiv{}{\be}\left[\be F_D(\be)\right] = $ \\[90 pt]
 \end{mdframed}
 From this we immediately obtain the entropy
 \begin{equation}
   \label{eq:dist_entropy}
   S_D = \be\left(\vev{E}_D - F_D\right) = -N\be H \tanh\left(\be H\right) + N \log\left[2\cosh\left(\be H\right)\right].
 \end{equation}
-These results for $\vev{E}_D$ and $S_D$ are plotted below as functions of $\frac{T}{H} = \frac{1}{\be H}$.
+These results for $\vev{E}_D$ and $S_D$ are plotted below as functions of $\frac{T}{H} = \frac{1}{\be H}$, using \href{https://github.com/daschaich/MATH327_2023/blob/main/lecture_notes/unit03_distinguish.py}{this Python code}.
 Since both these quantities are extensive, we normalize them by showing $\frac{\vev{E}_D}{NH}$ and $\frac{S_D}{N}$.
 
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/unit03_distinguish.pdf}
+  \includegraphics[width=0.9\textwidth]{figs/unit03_distinguish.pdf}
 \end{center}
 
 Let's check the asymptotic behaviour of these functions, starting with \textbf{low temperatures}.
