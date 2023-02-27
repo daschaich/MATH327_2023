@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 3}
-\renewcommand{\moddate}{Last modified 26 Feb.~2023}
+\renewcommand{\moddate}{Last modified 27 Feb.~2023}
 \setcounter{section}{3}
 \setcounter{subsection}{0}
 \phantomsection
@@ -356,8 +356,9 @@ Correspondingly, $\log\left[2\cosh\left(\be H\right)\right] \to \log e^{\be H} =
 This vanishing entropy is a generic consequence of temperatures approaching \textit{absolute zero}.
 
 For low but non-zero temperatures, $\vev{E}_D$ and $S_D$ will be affected by the non-zero probability for the system to adopt micro-states $\om_i$ with higher energies $E_i > E_0$.
-These higher-energy configurations are often referred to as ``excited states'', with the drawback that a single excited state may correspond to many different micro-states.
-For example, in \secref{sec:temp} you also computed the energy $E_1 = -(N - 2)H$ of the first excited state, which is realized by $N$ distinct micro-states (with $n_- = 1$).
+These higher-energy configurations are often referred to as ``excited states''.
+Note that each energy $E_i > E_0$ may correspond to many different micro-states.
+For example, in \secref{sec:temp} you also computed the energy $E_1 = -(N - 2)H$ of the first excited state, which is realized by the $N$ distinct micro-states with $n_- = 1$.
 In the case of spin systems, we can instead refer to \textit{energy levels} that are all separated by a constant \textit{energy gap} $\De E \equiv E_{n_- + 1} - E_{n_-} = 2H$.
 
 \newpage % WARNING: FORMATTING BY HAND
@@ -414,7 +415,7 @@ We demand that they move slowly so that we can ignore their kinetic energy and t
 Since the spins don't interact with each other, they can freely move past each other, and even occupy the same space, making it impossible for them to be distinguished from one another in any way. % Statistical treatment started by assuming we don't trace the motion of all the degrees of freedom...
 
 To compute the fundamental canonical partition function (\eq{eq:canon_part_func}), we have to sum over the micro-states of the system.
-These micro-states are no longer in one-to-one correspondence with the full configurations $\left\{s_n\right\}$ of the $N$ spins.
+These micro-states are no longer in one-to-one correspondence with the full configurations $\left\{s\right\}$ of the $N$ spins.
 Because the spins are now indistinguishable, certain spin configurations also cannot be distinguished from each other.
 The simplest example comes from the two-spin system considered in \secref{sec:replicas}, where the configurations $\downarrow\uparrow$ and $\uparrow\downarrow$ now both map onto a single micro-state.
 In this micro-state, we know only that one spin is $s_i = 1$ while the other is $s_k = -1$; it's not possible to distinguish which is which.
@@ -450,11 +451,11 @@ In contrast to \eq{eq:dist_Helm}, $F_I(\be)$ is no longer proportional to $N$.
 In a homework assignment you will use $F_I$ to determine the average internal energy $\vev{E}_I$ and entropy $S_I$ shown in the figures below, and also check the low- and high-temperature expansions like we did for the distinguishable case above.
 Unlike our results for the distinguishable case, you will find that $\frac{\vev{E}_I}{NH}$ and $\frac{S_I}{N}$ depend on $N$, which requires us to fix $N = 4$ in the plots below.
 \begin{center} % Don't need centering, but this will provide consistent vertical spacing
-  \includegraphics[width=0.45\textwidth]{figs/unit03_energies.pdf}\hfill \includegraphics[width=0.45\textwidth]{figs/unit03_entropies.pdf}
+  \includegraphics[width=0.475\textwidth]{figs/unit03_energies.pdf}\hfill \includegraphics[width=0.475\textwidth]{figs/unit03_entropies.pdf}
 \end{center}
 
-The dash-dotted lines in these figures are exactly the distinguishable-spin results we previously discussed.
-The solid lines are the new results for indistinguishable spins.
+The solid blue lines in these figures are exactly the distinguishable-spin results we previously discussed.
+The red dash-dotted lines are the new results for indistinguishable spins.
 We see that the same $T \to 0$ limits are approached in both cases: $E \to -NH$ and $S \to 0$.
 At low temperatures, the indistinguishable results approach these limits more quickly --- they still feature exponential suppression of excited-state effects by the energy gap, $\propto$$e^{-\be \De E}$, but this now comes with additional factors of $N$.
 
