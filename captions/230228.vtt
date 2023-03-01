@@ -1,0 +1,2294 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.230
+David Schaich (he): All right, we have a few folks online and a few in the room, so we may as well get underway.  It's Tuesday afternoon, just about at the end of February, and also just about the
+
+2
+00:00:11.300 --> 00:00:14.380
+David Schaich (he): deadline for the homework assignment, which I suspect some other folks
+
+3
+00:00:16.600 --> 00:00:18.180
+David Schaich (he): are off working on.
+
+4
+00:00:25.950 --> 00:00:27.610
+David Schaich (he): Before I forget, here is the
+
+5
+00:00:29.520 --> 00:00:31.910
+David Schaich (he): 6-digit code for today.
+
+6
+00:00:33.240 --> 00:00:34.010
+First let me get
+
+7
+00:00:34.280 --> 00:00:36.330
+David Schaich (he): the focus fixed there...
+
+8
+00:00:37.830 --> 00:00:40.170
+David Schaich (he): 7, 1, 6,
+
+9
+00:00:41.170 --> 00:00:43.970
+David Schaich (he): 0, 9, 9.
+
+10
+00:00:45.230 --> 00:00:47.690
+David Schaich (he): I'll put it on the board as well, in case
+
+11
+00:00:48.410 --> 00:00:49.160
+anyone
+
+12
+00:00:49.470 --> 00:00:51.850
+David Schaich (he): arrives a bit late.
+
+13
+00:00:57.920 --> 00:01:00.890
+David Schaich (he): And, what we've been doing---
+
+14
+00:01:01.290 --> 00:01:05.700
+David Schaich (he): Well, before we get into what we've been doing, are there any immediate questions about
+
+15
+00:01:06.080 --> 00:01:08.430
+David Schaich (he): yesterday's lecture, the homework, or
+
+16
+00:01:09.560 --> 00:01:12.650
+David Schaich (he): other aspects of statistical physics?
+
+17
+00:01:15.860 --> 00:01:16.910
+David Schaich (he): You are
+
+18
+00:01:18.810 --> 00:01:21.510
+David Schaich (he): at the moment deep into applications
+
+19
+00:01:22.910 --> 00:01:29.010
+David Schaich (he): of the second main statistical.
+
+20
+00:01:29.350 --> 00:01:35.020
+David Schaich (he): Look at in this module. and yesterday we
+
+21
+00:01:35.110 --> 00:01:45.740
+David Schaich (he): went through the example of I'm. Hearing it. Canonical ensemble analyses of system so distinguishable
+
+22
+00:01:50.710 --> 00:01:52.460
+David Schaich (he): from that
+
+23
+00:01:54.420 --> 00:01:57.880
+David Schaich (he): observable physical effects that depended
+
+24
+00:01:58.300 --> 00:02:00.190
+David Schaich (he): only on the
+
+25
+00:02:00.280 --> 00:02:06.400
+David Schaich (he): intrinsic information content of these 2 different types of systems.
+
+26
+00:02:10.060 --> 00:02:12.620
+David Schaich (he): and we went on from there to
+
+27
+00:02:12.670 --> 00:02:14.890
+David Schaich (he): turn to the next topic of
+
+28
+00:02:15.070 --> 00:02:16.090
+little gases.
+
+29
+00:02:17.730 --> 00:02:19.180
+David Schaich (he): and specifically
+
+30
+00:02:28.480 --> 00:02:31.090
+David Schaich (he): through the economical ensemble. So
+
+31
+00:02:31.160 --> 00:02:32.500
+David Schaich (he): it starts with
+
+32
+00:02:36.340 --> 00:02:37.040
+David Schaich (he): some of
+
+33
+00:02:37.060 --> 00:02:38.400
+that. We.
+
+34
+00:02:38.860 --> 00:02:42.060
+David Schaich (he): It could be just a simple cubic box.
+
+35
+00:02:42.950 --> 00:02:44.000
+David Schaich (he): hey?
+
+36
+00:02:44.200 --> 00:02:49.140
+David Schaich (he): In all of these analyses for the 2 different types of spin systems
+
+37
+00:02:49.510 --> 00:02:55.270
+David Schaich (he): with different information, content as well as these high your gases. The procedure has been the same.
+
+38
+00:02:55.860 --> 00:02:57.040
+The high level
+
+39
+00:02:59.190 --> 00:03:01.440
+David Schaich (he): start with the fundamental
+
+40
+00:03:01.890 --> 00:03:03.980
+David Schaich (he): partition function.
+
+41
+00:03:09.350 --> 00:03:12.940
+David Schaich (he): It's just the repackaging of that partition portion.
+
+42
+00:03:15.160 --> 00:03:24.350
+David Schaich (he): This is based on something over all of the microstate scale of the information about the energy, all each particle in the system.
+
+43
+00:03:25.300 --> 00:03:29.220
+David Schaich (he): and from partition, functional free energy which you derive.
+
+44
+00:03:33.160 --> 00:03:38.790
+David Schaich (he): We we are focusing on the internal energy of the many particle system.
+
+45
+00:03:38.960 --> 00:03:40.460
+expectation, value
+
+46
+00:03:40.550 --> 00:03:52.900
+David Schaich (he): of B, which is no longer concerned for microstate to microstates and economical approach to temperature is Instead, it'll fixed on the external. And we're also interested in the
+
+47
+00:03:54.550 --> 00:03:59.820
+David Schaich (he): as which is a measure of the information content of the system. So
+
+48
+00:04:00.210 --> 00:04:13.930
+David Schaich (he): just picking up with the ideal gas systems that we started talking about yesterday. So long as there are no questions inspired by this. we review.
+
+49
+00:04:14.150 --> 00:04:17.000
+David Schaich (he): We have a fixed number of n particles
+
+50
+00:04:17.120 --> 00:04:20.230
+David Schaich (he): in our system we can find 2. This
+
+51
+00:04:22.830 --> 00:04:24.280
+David Schaich (he): you say, that boxes
+
+52
+00:04:24.310 --> 00:04:25.190
+on team.
+
+53
+00:04:25.280 --> 00:04:32.010
+David Schaich (he): It's fixed. It's your tea through a thermal contact with it. It's surrounding a large reservoir
+
+54
+00:04:32.990 --> 00:04:39.040
+David Schaich (he): each of the end particles in the system. Is it some position in this box with?
+
+55
+00:04:39.230 --> 00:04:41.760
+David Schaich (he): So we'll make some 3 vector. It.
+
+56
+00:04:44.000 --> 00:04:44.830
+David Schaich (he): Yeah.
+
+57
+00:04:46.090 --> 00:04:56.750
+David Schaich (he): As time passes, these particles are bouncing around, adopting all of these different possible microstates with probabilities dictated by the it gives distribution.
+
+58
+00:05:00.840 --> 00:05:07.000
+David Schaich (he): and from this we want to analyze the partition function and use that to
+
+59
+00:05:07.030 --> 00:05:15.260
+David Schaich (he): provide a zoom room properly. Use of a large scale macroscopic system of with particles using the tools we've developed.
+
+60
+00:05:15.480 --> 00:05:16.280
+David Schaich (he): How are you
+
+61
+00:05:17.880 --> 00:05:23.520
+David Schaich (he): probably considered yesterday is the clash between
+
+62
+00:05:25.120 --> 00:05:32.760
+David Schaich (he): the continuous energies that we having to set up from the continuous
+
+63
+00:05:34.860 --> 00:05:37.770
+David Schaich (he): moments of he, of all the end particles.
+
+64
+00:05:40.140 --> 00:05:52.170
+David Schaich (he): and figuring out how to incorporate continuously, varying all of these into a position function that is the
+
+65
+00:05:52.490 --> 00:05:54.970
+David Schaich (he): over microstates.
+
+66
+00:05:55.410 --> 00:06:02.660
+David Schaich (he): The Boltzmann factor, the exponential of the minus energy of each microstate divided by T, we have to be able to
+
+67
+00:06:02.790 --> 00:06:09.650
+David Schaich (he): enumerate the microstates in order to sum over them in this way. but if they are continuous, and they are accountable.
+
+68
+00:06:10.760 --> 00:06:14.870
+David Schaich (he): So the strategy, what we only got halfway through yesterday
+
+69
+00:06:15.020 --> 00:06:22.330
+David Schaich (he): use It's called regularization, or just regulating the system.
+
+70
+00:06:25.200 --> 00:06:27.620
+David Schaich (he): This gives us. Yeah, you know.
+
+71
+00:06:28.960 --> 00:06:31.320
+David Schaich (he): comfortable 7 micro states
+
+72
+00:06:36.030 --> 00:06:40.990
+David Schaich (he): which we can then sum over to get the function. and then
+
+73
+00:06:41.160 --> 00:06:44.080
+David Schaich (he): we get back to we use continuous
+
+74
+00:06:44.530 --> 00:06:49.670
+David Schaich (he): moment to. I, considering the limits in which.
+
+75
+00:06:51.680 --> 00:06:53.380
+David Schaich (he): in that partition function.
+
+76
+00:06:54.840 --> 00:06:57.850
+David Schaich (he): it's really very continuous integrations.
+
+77
+00:07:02.940 --> 00:07:06.700
+David Schaich (he): So, in particular, the regulation that
+
+78
+00:07:07.610 --> 00:07:10.060
+David Schaich (he): you host is
+
+79
+00:07:12.800 --> 00:07:17.830
+David Schaich (he): just an odds. I suggest for what the moment in the system can be.
+
+80
+00:07:19.290 --> 00:07:27.190
+David Schaich (he): You mentioned that it's motivated by quantum mechanics, but it doesn't actually involve any quantum mechanics as well. It's just a way to make them out.
+
+81
+00:07:27.410 --> 00:07:29.720
+David Schaich (he): Come out in a manageable way.
+
+82
+00:07:31.810 --> 00:07:33.400
+David Schaich (he): We propose that.
+
+83
+00:07:36.170 --> 00:07:41.190
+David Schaich (he): and only take certain discrete values that depends on
+
+84
+00:07:43.590 --> 00:07:56.280
+David Schaich (he): linear size of the volume in which the particles are bouncing around. So pi over L. This factor of H. Bar, the find constants doing the unit conversion from inverse lengths to momentum.
+
+85
+00:07:56.560 --> 00:07:57.460
+David Schaich (he): and then you
+
+86
+00:07:57.620 --> 00:08:00.120
+David Schaich (he): 3 components of the momentum
+
+87
+00:08:00.610 --> 00:08:02.430
+David Schaich (he): or just replaced by
+
+88
+00:08:03.800 --> 00:08:08.220
+David Schaich (he): 3 non-negative integers she execute like, he said.
+
+89
+00:08:09.760 --> 00:08:14.190
+David Schaich (he): I can start at 0 and we're off to.
+
+90
+00:08:15.570 --> 00:08:19.610
+David Schaich (he): And we ended yesterday by checking out the
+
+91
+00:08:21.510 --> 00:08:23.520
+David Schaich (he): the
+
+92
+00:08:27.740 --> 00:08:28.790
+David Schaich (he): yeah, the
+
+93
+00:08:28.900 --> 00:08:32.020
+David Schaich (he): energy for each particle.
+
+94
+00:08:34.059 --> 00:08:36.570
+David Schaich (he): the inner product, probably
+
+95
+00:08:36.590 --> 00:08:37.549
+David Schaich (he): he
+
+96
+00:08:40.630 --> 00:08:42.809
+David Schaich (he): that squares the H bar
+
+97
+00:08:47.690 --> 00:08:53.130
+David Schaich (he): in the in the product of this. Okay, X squared
+
+98
+00:08:53.480 --> 00:08:56.550
+David Schaich (he): Q. Y squared.
+
+99
+00:08:57.250 --> 00:08:58.770
+David Schaich (he): We can also call.
+
+100
+00:09:01.340 --> 00:09:05.080
+David Schaich (he): Let's see, you know, for our K Square of that 3, vector
+
+101
+00:09:07.820 --> 00:09:09.260
+David Schaich (he): and we saw that
+
+102
+00:09:10.240 --> 00:09:14.430
+David Schaich (he): these discrete energy levels are
+
+103
+00:09:14.720 --> 00:09:16.510
+David Schaich (he): not quick, the same
+
+104
+00:09:16.970 --> 00:09:20.310
+David Schaich (he): as those
+
+105
+00:09:21.140 --> 00:09:22.490
+David Schaich (he): previously.
+
+106
+00:09:33.320 --> 00:09:37.700
+David Schaich (he): because these energies okay.
+
+107
+00:09:37.740 --> 00:09:39.530
+David Schaich (he): they're not evenly spaced
+
+108
+00:09:41.040 --> 00:09:42.510
+David Schaich (he): as Katie berries.
+
+109
+00:09:42.750 --> 00:09:47.390
+David Schaich (he): That's just due to the fact that they are bringing in 3 factors of these
+
+110
+00:09:48.680 --> 00:09:52.090
+David Schaich (he): non-negative integers square, so, for example.
+
+111
+00:09:53.860 --> 00:09:55.440
+David Schaich (he): in this expression.
+
+112
+00:09:55.720 --> 00:09:58.540
+David Schaich (he): involving that it's the number 2 squared
+
+113
+00:09:58.610 --> 00:10:01.530
+David Schaich (he): possible values that can take our limited
+
+114
+00:10:02.460 --> 00:10:05.040
+David Schaich (he): if we want the K squared of 6,
+
+115
+00:10:05.250 --> 00:10:21.250
+David Schaich (he): the we just have to have this integer. Vector K. You. This is 2, 1, one for any permutations. Oh, for that! So squaring! Each of those, adding them gives us one plus one plus 1 6.
+
+116
+00:10:21.720 --> 00:10:23.110
+David Schaich (he): You can see where we get.
+
+117
+00:10:26.530 --> 00:10:27.210
+We have
+
+118
+00:10:27.500 --> 00:10:35.950
+David Schaich (he): you 2 to 0 vector implementations of that much. There's no way to get
+
+119
+00:10:36.720 --> 00:10:39.910
+David Schaich (he): the key squared of 7, and there are similar gaps in
+
+120
+00:10:40.060 --> 00:10:45.370
+David Schaich (he): it's called the spectrum of energies, the set of energy levels. As
+
+121
+00:10:45.580 --> 00:10:47.680
+David Schaich (he): he's
+
+122
+00:10:47.880 --> 00:10:49.270
+David Schaich (he): higher values.
+
+123
+00:10:55.110 --> 00:10:59.370
+David Schaich (he): So at this point we have the accountable number of
+
+124
+00:10:59.710 --> 00:11:04.730
+David Schaich (he): possible values for the momenta across the accountable number of possible energies
+
+125
+00:11:04.740 --> 00:11:06.150
+David Schaich (he): for each particle
+
+126
+00:11:07.400 --> 00:11:09.210
+David Schaich (he): Use that to
+
+127
+00:11:09.230 --> 00:11:15.050
+David Schaich (he): It's coming. The partition function are starting point for a statistical physical analysis.
+
+128
+00:11:15.150 --> 00:11:21.390
+David Schaich (he): I'm. Summing over all the microstates defined by these momentum and energies.
+
+129
+00:11:26.870 --> 00:11:28.920
+David Schaich (he): Easiest starting point is
+
+130
+00:11:29.010 --> 00:11:30.680
+David Schaich (he): so. Look at the
+
+131
+00:11:32.620 --> 00:11:33.960
+David Schaich (he): he's first.
+
+132
+00:11:35.610 --> 00:11:37.540
+David Schaich (he): Not just a single particle
+
+133
+00:11:38.950 --> 00:11:40.410
+David Schaich (he): in this box.
+
+134
+00:11:43.870 --> 00:11:47.130
+David Schaich (he): So we set any one and
+
+135
+00:11:47.720 --> 00:11:52.560
+David Schaich (he): the partition function. So one for this single particle.
+
+136
+00:11:53.320 --> 00:11:53.980
+Yeah.
+
+137
+00:11:56.710 --> 00:12:03.830
+David Schaich (he): it's just given by the self over all possible values. Oh, yeah.
+
+138
+00:12:05.810 --> 00:12:09.490
+David Schaich (he): the energy that define the microstates that we have
+
+139
+00:12:10.340 --> 00:12:13.530
+David Schaich (he): just to say that we
+
+140
+00:12:13.700 --> 00:12:16.790
+David Schaich (he): all the yeah. i'll mention 3 vectors
+
+141
+00:12:19.290 --> 00:12:20.660
+David Schaich (he): exponential
+
+142
+00:12:21.340 --> 00:12:27.360
+David Schaich (he): of the for 2 M. Times T:
+
+143
+00:12:27.730 --> 00:12:30.970
+David Schaich (he): that negative slide I'm. Looking at
+
+144
+00:12:32.780 --> 00:12:34.510
+David Schaich (he): on the screen.
+
+145
+00:12:34.720 --> 00:12:37.710
+David Schaich (he): Vectors K. For each component of K
+
+146
+00:12:38.050 --> 00:12:40.590
+David Schaich (he): from 0 to infinity.
+
+147
+00:12:40.740 --> 00:12:43.390
+David Schaich (he): This is your steps, this exponential.
+
+148
+00:12:45.880 --> 00:12:50.550
+David Schaich (he): because that same factor, minus each
+
+149
+00:12:54.420 --> 00:12:55.600
+David Schaich (he): L squared
+
+150
+00:12:56.650 --> 00:13:03.870
+David Schaich (he): times that some of the squares 2 y squared. Is it squared just purely
+
+151
+00:13:04.170 --> 00:13:05.720
+David Schaich (he): there.
+
+152
+00:13:06.620 --> 00:13:09.650
+David Schaich (he): and we can immediately start simplifying this.
+
+153
+00:13:09.860 --> 00:13:11.390
+David Schaich (he): just by noting that.
+
+154
+00:13:13.780 --> 00:13:16.350
+David Schaich (he): dividing this some
+
+155
+00:13:17.240 --> 00:13:18.500
+David Schaich (he): into
+
+156
+00:13:20.310 --> 00:13:30.010
+David Schaich (he): factorizing this initial factor across that sum, we have an exponential of 3 terms in the sum which we can convert to a product of 3 exponentials.
+
+157
+00:13:30.220 --> 00:13:36.340
+David Schaich (he): Each of those exponentials depends on a different variable, each being summed from 0 to infinity.
+
+158
+00:13:39.250 --> 00:13:41.920
+David Schaich (he): Shift back over here just to write down that
+
+159
+00:13:43.690 --> 00:13:45.710
+need a simplification that we can
+
+160
+00:13:46.640 --> 00:13:48.670
+David Schaich (he): just write a single one of those.
+
+161
+00:13:49.290 --> 00:13:55.230
+David Schaich (he): some of the exponential factors. each
+
+162
+00:13:56.210 --> 00:14:01.020
+David Schaich (he): 2 in this case the I squared.
+
+163
+00:14:02.440 --> 00:14:04.210
+David Schaich (he): So that's what we get for
+
+164
+00:14:04.660 --> 00:14:08.250
+David Schaich (he): That's what we get for.
+
+165
+00:14:08.370 --> 00:14:09.960
+David Schaich (he): and what we get for.
+
+166
+00:14:10.140 --> 00:14:12.680
+David Schaich (he): She said it was 3
+
+167
+00:14:13.420 --> 00:14:20.060
+David Schaich (he): different integers. Just give us 3 h of this series of exponential functions.
+
+168
+00:14:23.350 --> 00:14:24.640
+David Schaich (he): So that's the
+
+169
+00:14:25.560 --> 00:14:29.770
+David Schaich (he): this success of the first stage of that regularization process.
+
+170
+00:14:30.180 --> 00:14:31.300
+David Schaich (he): And now
+
+171
+00:14:31.510 --> 00:14:33.520
+David Schaich (he): you are in a position to
+
+172
+00:14:34.780 --> 00:14:36.170
+David Schaich (he): get back to you
+
+173
+00:14:37.480 --> 00:14:41.310
+David Schaich (he): continuous moment in energy by approximating
+
+174
+00:14:41.400 --> 00:14:43.250
+David Schaich (he): each of these cells.
+
+175
+00:14:47.080 --> 00:14:48.390
+David Schaich (he): I am in to school.
+
+176
+00:14:49.180 --> 00:14:52.500
+David Schaich (he): and we do that by considering what exactly is
+
+177
+00:14:52.560 --> 00:14:54.070
+David Schaich (he): being summed over.
+
+178
+00:14:54.780 --> 00:14:56.970
+David Schaich (he): So what one thing to
+
+179
+00:15:00.310 --> 00:15:02.960
+David Schaich (he): appreciate it about this
+
+180
+00:15:03.400 --> 00:15:06.540
+David Schaich (he): kind of complicated expression Here is
+
+181
+00:15:07.910 --> 00:15:12.670
+David Schaich (he): what our assumptions of the form of this ideal gas
+
+182
+00:15:12.830 --> 00:15:14.530
+David Schaich (he): imply for
+
+183
+00:15:16.310 --> 00:15:21.850
+David Schaich (he): the different values that we can have for the mass, the temperature, and the length of the box.
+
+184
+00:15:22.240 --> 00:15:23.350
+David Schaich (he): So we are.
+
+185
+00:15:24.970 --> 00:15:28.700
+David Schaich (he): Now I want to more classical guesses.
+
+186
+00:15:30.180 --> 00:15:32.240
+David Schaich (he): It turns out to me that
+
+187
+00:15:32.500 --> 00:15:35.960
+David Schaich (he): the temperature is relatively large.
+
+188
+00:15:36.400 --> 00:15:39.330
+David Schaich (he): and also that the box is relatively large
+
+189
+00:15:40.610 --> 00:15:43.520
+David Schaich (he): compared to the scales
+
+190
+00:15:45.450 --> 00:15:46.680
+David Schaich (he): set by
+
+191
+00:15:47.950 --> 00:15:51.800
+David Schaich (he): it's cost of that unit conversion factor which
+
+192
+00:15:52.980 --> 00:15:54.100
+David Schaich (he): tells us
+
+193
+00:15:54.520 --> 00:15:59.910
+David Schaich (he): when we have to worry about quantum effects at a given length or temperature scale.
+
+194
+00:16:01.750 --> 00:16:04.740
+David Schaich (he): If the temperature is too low and
+
+195
+00:16:06.270 --> 00:16:14.180
+David Schaich (he): quantum effects will become important, we will see examples of this later on in the module. Similarly, if the box becomes so small that
+
+196
+00:16:14.360 --> 00:16:21.910
+David Schaich (he): these particles, all of it squeezed into a very small area. and basically the system is able to tell.
+
+197
+00:16:24.120 --> 00:16:29.520
+David Schaich (he): quantized and described by wave functions rather than possible for particles.
+
+198
+00:16:29.950 --> 00:16:31.060
+David Schaich (he): and we will
+
+199
+00:16:32.120 --> 00:16:35.950
+David Schaich (he): not be able to describe our system in this way. So
+
+200
+00:16:36.060 --> 00:16:48.500
+David Schaich (he): our assumptions I need that those 2 factors are large. We also discussed yesterday that the means that the
+
+201
+00:16:48.520 --> 00:16:51.950
+David Schaich (he): mass of the particle is also large.
+
+202
+00:16:54.100 --> 00:16:55.700
+David Schaich (he): Again, compared to
+
+203
+00:16:56.720 --> 00:17:01.260
+David Schaich (he): Yeah. My's concept that appears in here, which
+
+204
+00:17:03.450 --> 00:17:07.470
+David Schaich (he): also it is the scale of relativistic effects.
+
+205
+00:17:08.130 --> 00:17:16.300
+David Schaich (he): All this is to say something we can think is a given it for the guesses. We are analyzing here that the
+
+206
+00:17:17.160 --> 00:17:20.310
+David Schaich (he): constant factor in this exponential
+
+207
+00:17:25.319 --> 00:17:35.520
+David Schaich (he): L squared has 3 factors in the denominator, each of which are much larger than a factor in the numerator. So this is a very small
+
+208
+00:17:36.290 --> 00:17:38.520
+David Schaich (he): okay to the
+
+209
+00:17:39.470 --> 00:17:43.110
+David Schaich (he): exponential that we have is going to.
+
+210
+00:17:45.210 --> 00:17:46.550
+David Schaich (he): So what this means?
+
+211
+00:17:53.120 --> 00:17:55.070
+David Schaich (he): I'm going to
+
+212
+00:17:58.750 --> 00:18:00.630
+David Schaich (he): very smoothly at least.
+
+213
+00:18:02.810 --> 00:18:08.750
+David Schaich (he): then a I squared is relatively small.
+
+214
+00:18:12.150 --> 00:18:23.550
+David Schaich (he): So if we have a very small factor multiplying, K. I. Squared and increasing the K. I. Squared by any amount, is going to give us another very small factor. Taking the exponential of that.
+
+215
+00:18:23.600 --> 00:18:29.030
+David Schaich (he): you have to say very small change from one term in this cell to the next.
+
+216
+00:18:30.760 --> 00:18:37.960
+David Schaich (he): so we can only see where we're driving it. With that we want to get for that, some to an integral, adding up
+
+217
+00:18:38.280 --> 00:18:44.630
+David Schaich (he): an infinite number of I'm going through that quickly because I mentioned it's something you've
+
+218
+00:18:44.730 --> 00:18:59.180
+David Schaich (he): seen many times in many different modules. The one thing we have to worry about is what happens if our into your vector control of the discrete moment it gets very large.
+
+219
+00:18:59.220 --> 00:19:02.030
+David Schaich (he): So, as each of these K. I
+
+220
+00:19:02.080 --> 00:19:04.200
+David Schaich (he): go to infinity. What we end up with
+
+221
+00:19:04.240 --> 00:19:09.570
+David Schaich (he): is the exponential factor of an asymptotically large negative number
+
+222
+00:19:09.630 --> 00:19:12.710
+David Schaich (he): and E to the minus negative. If you.
+
+223
+00:19:13.220 --> 00:19:16.130
+David Schaich (he): a large negative number goes to 0.
+
+224
+00:19:19.540 --> 00:19:26.420
+David Schaich (he): So that is a region we can neglect in this process. and those 2
+
+225
+00:19:26.480 --> 00:19:29.320
+David Schaich (he): handles give us the confidence to
+
+226
+00:19:29.470 --> 00:19:37.490
+David Schaich (he): approximate this bye. a integral what we lose by doing that are
+
+227
+00:19:37.820 --> 00:19:42.440
+David Schaich (he): manageable terms at large. K. And it's a good approximation.
+
+228
+00:19:44.940 --> 00:19:51.770
+David Schaich (he): Where are you? Exponential contributions are actually not negligible and meaningful.
+
+229
+00:19:52.930 --> 00:19:54.170
+David Schaich (he): So looking.
+
+230
+00:19:54.240 --> 00:19:59.570
+David Schaich (he): you just add a single one of these sounds that gets queued.
+
+231
+00:20:11.630 --> 00:20:15.170
+David Schaich (he): We can approximate this very well.
+
+232
+00:20:17.170 --> 00:20:19.200
+David Schaich (he): My, the continuous integral
+
+233
+00:20:19.460 --> 00:20:22.670
+David Schaich (he): over. Say, hey, that is now
+
+234
+00:20:24.540 --> 00:20:28.280
+David Schaich (he): a real number with the same
+
+235
+00:20:30.860 --> 00:20:32.590
+David Schaich (he): exponential factor.
+
+236
+00:20:38.260 --> 00:20:39.600
+David Schaich (he): This is your kid.
+
+237
+00:20:42.320 --> 00:20:46.820
+David Schaich (he): and because this expression depends only on the
+
+238
+00:20:46.930 --> 00:20:48.010
+David Schaich (he): we can
+
+239
+00:20:49.320 --> 00:20:52.300
+David Schaich (he): switch the domain of it
+
+240
+00:20:52.450 --> 00:20:53.810
+David Schaich (he): from 0 to
+
+241
+00:20:55.020 --> 00:20:58.170
+David Schaich (he): exactly minus infinity to infinity.
+
+242
+00:20:58.760 --> 00:21:03.650
+David Schaich (he): and a factor of a half to cancel out the 2 identical contributions from
+
+243
+00:21:04.340 --> 00:21:05.410
+David Schaich (he): hey? He?
+
+244
+00:21:06.010 --> 00:21:09.380
+David Schaich (he): So, hey? That is now the continuous
+
+245
+00:21:09.720 --> 00:21:12.040
+David Schaich (he): real number
+
+246
+00:21:12.820 --> 00:21:18.990
+David Schaich (he): or negative. just picking up a actually okay.
+
+247
+00:21:21.080 --> 00:21:23.110
+David Schaich (he): And the calling that
+
+248
+00:21:24.150 --> 00:21:33.980
+David Schaich (he): continuous moment when we started off with this piece of I, We're just related to okay this way.
+
+249
+00:21:34.920 --> 00:21:38.310
+David Schaich (he): You can change your
+
+250
+00:21:38.330 --> 00:21:39.490
+David Schaich (he): in help with.
+
+251
+00:21:40.590 --> 00:21:42.760
+David Schaich (he): So that Dk: I is
+
+252
+00:21:48.550 --> 00:21:51.770
+David Schaich (he): to email comes out from
+
+253
+00:21:53.320 --> 00:21:56.160
+David Schaich (he): the H of all high. We have a factor of 2,
+
+254
+00:21:57.310 --> 00:21:59.500
+David Schaich (he): and then integrating it
+
+255
+00:22:04.240 --> 00:22:08.900
+David Schaich (he): over the moment it itself. This exponential factor where
+
+256
+00:22:09.160 --> 00:22:13.250
+David Schaich (he): the K. H. Bar pi over L
+
+257
+00:22:14.110 --> 00:22:16.950
+David Schaich (he): is just you I squared.
+
+258
+00:22:19.590 --> 00:22:23.630
+David Schaich (he): We can recognize this integral as
+
+259
+00:22:24.030 --> 00:22:29.380
+David Schaich (he): the energy over temperature of the Boltzmann factor that we started off with.
+
+260
+00:22:32.430 --> 00:22:33.690
+David Schaich (he): So are there any
+
+261
+00:22:34.050 --> 00:22:38.770
+David Schaich (he): questions or injections to the regularization process that I've
+
+262
+00:22:38.910 --> 00:22:41.540
+David Schaich (he): are you through with a mixture of
+
+263
+00:22:42.100 --> 00:22:45.900
+David Schaich (he): calculations and heuristic arguments.
+
+264
+00:22:51.320 --> 00:22:58.240
+David Schaich (he): It's a good thing to you thinking about. See if you can poke any holes into the argument that I was given.
+
+265
+00:23:01.760 --> 00:23:02.880
+David Schaich (he): This is
+
+266
+00:23:03.000 --> 00:23:05.770
+David Schaich (he): a legitimate procedure
+
+267
+00:23:06.470 --> 00:23:10.950
+David Schaich (he): going through relatively quickly, and not so formally as
+
+268
+00:23:11.180 --> 00:23:23.900
+David Schaich (he): some modules might. How great what we are interested in is getting back to the large number of particles that we have for a statistical system.
+
+269
+00:23:24.960 --> 00:23:26.130
+David Schaich (he): One thing
+
+270
+00:23:26.580 --> 00:23:30.430
+David Schaich (he): we're only looking here at one of the sums in the single particle
+
+271
+00:23:30.660 --> 00:23:32.070
+David Schaich (he): partition function.
+
+272
+00:23:33.620 --> 00:23:35.270
+David Schaich (he): all 3,
+
+273
+00:23:37.240 --> 00:23:40.660
+David Schaich (he): the 2 pi, h bar you.
+
+274
+00:23:41.730 --> 00:23:42.730
+David Schaich (he): and then
+
+275
+00:23:43.610 --> 00:23:48.530
+David Schaich (he): integration over the 3 vector moment. So call it a. D. 3 P.
+
+276
+00:23:50.300 --> 00:23:57.020
+David Schaich (he): Just the product of integrations over each independent moment separately. and
+
+277
+00:23:59.240 --> 00:24:00.560
+the exponential
+
+278
+00:24:01.690 --> 00:24:03.330
+Yeah. Just piece clear
+
+279
+00:24:03.410 --> 00:24:07.620
+David Schaich (he): over to Mt. This P. Squared It's good
+
+280
+00:24:09.580 --> 00:24:10.910
+David Schaich (he): started off with
+
+281
+00:24:12.770 --> 00:24:16.650
+David Schaich (he): now getting back to. and that
+
+282
+00:24:18.140 --> 00:24:20.100
+David Schaich (he): independence, and
+
+283
+00:24:20.600 --> 00:24:22.080
+David Schaich (he): also distinguishable
+
+284
+00:24:23.560 --> 00:24:24.660
+David Schaich (he): particles.
+
+285
+00:24:30.400 --> 00:24:31.600
+David Schaich (he): We can
+
+286
+00:24:34.370 --> 00:24:44.540
+David Schaich (he): just immediately write down the partitioned option for indistinguishable particles based on the same arguments that we've used before.
+
+287
+00:24:45.120 --> 00:24:49.840
+David Schaich (he): or each individual particle in the system. Thank you.
+
+288
+00:24:49.930 --> 00:24:53.750
+David Schaich (he): I have any value. How the energy with this false, and wait
+
+289
+00:24:53.780 --> 00:25:03.040
+David Schaich (he): completely independently of what the of the other particles are doing, is not interacting with any of the and not so we can break up
+
+290
+00:25:03.190 --> 00:25:08.860
+David Schaich (he): the partition function of n particles into, and transition functions of a single particle.
+
+291
+00:25:09.050 --> 00:25:10.180
+David Schaich (he): And then, just
+
+292
+00:25:12.020 --> 00:25:13.290
+David Schaich (he): all together
+
+293
+00:25:14.890 --> 00:25:15.940
+David Schaich (he): to get
+
+294
+00:25:17.910 --> 00:25:20.460
+David Schaich (he): 3 and factors of
+
+295
+00:25:20.690 --> 00:25:21.540
+David Schaich (he): this
+
+296
+00:25:24.210 --> 00:25:27.400
+David Schaich (he): 3 and factors of integration.
+
+297
+00:25:31.640 --> 00:25:41.400
+David Schaich (he): and then the exponential factor of this all over all 3 and particles.
+
+298
+00:25:47.990 --> 00:25:50.250
+David Schaich (he): Your product accounts for it.
+
+299
+00:25:50.330 --> 00:25:59.900
+David Schaich (he): 3 of the the some accounts for the factors of N, and then 2 and 2 in the nominator.
+
+300
+00:26:03.710 --> 00:26:04.520
+So.
+
+301
+00:26:04.810 --> 00:26:15.830
+David Schaich (he): But this is an example of the the factorization that we also solve for the spin systems at the maybe particle notation function is just a large power of
+
+302
+00:26:16.520 --> 00:26:21.790
+David Schaich (he): the partition option for a single degree of freedom. What we have here really are
+
+303
+00:26:22.350 --> 00:26:25.720
+David Schaich (he): 3 and completely independence.
+
+304
+00:26:32.440 --> 00:26:33.740
+David Schaich (he): So
+
+305
+00:26:33.850 --> 00:26:39.110
+David Schaich (he): you get a product piece of n squared into each of its 3,
+
+306
+00:26:41.310 --> 00:26:44.880
+David Schaich (he): and each of those Josh integrals integrated over.
+
+307
+00:26:45.310 --> 00:26:49.430
+David Schaich (he): Thank you component for a given particle.
+
+308
+00:26:53.430 --> 00:26:56.300
+David Schaich (he): How is that component with this
+
+309
+00:26:56.330 --> 00:26:59.120
+David Schaich (he): factor is something that we have
+
+310
+00:26:59.780 --> 00:27:01.230
+David Schaich (he): seen before?
+
+311
+00:27:02.260 --> 00:27:15.570
+David Schaich (he): It just brings in the factor of the square root of Pi I. The council factor in the denominator of the It's too high. and you
+
+312
+00:27:17.940 --> 00:27:24.440
+David Schaich (he): so combining 3 n hours of 2 pi times the mass times the temperature.
+
+313
+00:27:26.140 --> 00:27:28.930
+David Schaich (he): leading it pre-factor
+
+314
+00:27:38.100 --> 00:27:41.410
+David Schaich (he): the 2 pi in far
+
+315
+00:27:42.490 --> 00:27:47.620
+David Schaich (he): to the 3 and items 2 pi
+
+316
+00:27:48.340 --> 00:27:51.990
+David Schaich (he): 3 and the square root.
+
+317
+00:27:54.140 --> 00:27:57.220
+David Schaich (he): We end up with the 2 highest cancelling.
+
+318
+00:27:58.240 --> 00:27:59.310
+David Schaich (he): and
+
+319
+00:28:01.430 --> 00:28:02.160
+David Schaich (he): well.
+
+320
+00:28:04.490 --> 00:28:16.270
+David Schaich (he): the you square root of 2 pi in the denominator. Each is not effective at all squared. and also a square.
+
+321
+00:28:16.310 --> 00:28:18.520
+David Schaich (he): Hello. I'll be there
+
+322
+00:28:19.090 --> 00:28:25.120
+David Schaich (he): to the 3 N. Over 2 power.
+
+323
+00:28:27.720 --> 00:28:29.400
+David Schaich (he): Just for convenience.
+
+324
+00:28:31.740 --> 00:28:35.570
+David Schaich (he): We'll write this in terms of compact
+
+325
+00:28:36.890 --> 00:28:38.160
+David Schaich (he): variable
+
+326
+00:28:41.660 --> 00:28:42.540
+David Schaich (he): so
+
+327
+00:28:44.940 --> 00:28:50.260
+David Schaich (he): efficient function as this. L. Squared over
+
+328
+00:28:51.280 --> 00:28:57.690
+David Schaich (he): the name of the cell ph squared. which I notice a function of team
+
+329
+00:28:59.660 --> 00:29:01.150
+David Schaich (he): over to how it
+
+330
+00:29:03.920 --> 00:29:05.380
+David Schaich (he): i'm off the screen
+
+331
+00:29:08.150 --> 00:29:10.440
+David Schaich (he): for convenience. I'm just packaging
+
+332
+00:29:11.570 --> 00:29:17.090
+David Schaich (he): all of these properties of the ideal gas into
+
+333
+00:29:19.540 --> 00:29:23.760
+David Schaich (he): It's so cool. totally wavelength.
+
+334
+00:29:25.070 --> 00:29:27.620
+David Schaich (he): So we can read all
+
+335
+00:29:27.860 --> 00:29:30.190
+David Schaich (he): that Lambda squared
+
+336
+00:29:30.200 --> 00:29:36.270
+David Schaich (he): is 2. Pi hr squared over into so land itself.
+
+337
+00:29:36.580 --> 00:29:37.530
+David Schaich (he): Yes.
+
+338
+00:29:38.220 --> 00:29:40.700
+David Schaich (he): 2 pi Hr. Squared over Mt.
+
+339
+00:29:41.920 --> 00:29:43.230
+David Schaich (he): Square root.
+
+340
+00:29:47.140 --> 00:29:48.840
+David Schaich (he): This is named after
+
+341
+00:29:50.230 --> 00:29:56.720
+David Schaich (he): we definitely who proposed that with a given mass.
+
+342
+00:29:57.060 --> 00:30:02.050
+David Schaich (he): We're governed by we in this way during the only 100 years ago. Now.
+
+343
+00:30:07.080 --> 00:30:08.630
+David Schaich (he): historical side
+
+344
+00:30:15.560 --> 00:30:16.840
+David Schaich (he): this is.
+
+345
+00:30:18.820 --> 00:30:22.090
+David Schaich (he): It depends on the temperature.
+
+346
+00:30:23.690 --> 00:30:26.490
+David Schaich (he): so you have to do it. Now.
+
+347
+00:30:29.090 --> 00:30:32.610
+David Schaich (he): partition function, for in this way
+
+348
+00:30:32.780 --> 00:30:38.860
+David Schaich (he): what we can do is swap out the elsewhere to the 3 halves, palette, or l cube.
+
+349
+00:30:38.960 --> 00:30:43.930
+David Schaich (he): which? What's the volume of the container that we started off with?
+
+350
+00:30:44.540 --> 00:30:46.260
+David Schaich (he): Similarly, with
+
+351
+00:30:46.880 --> 00:30:48.210
+David Schaich (he): 3 h.
+
+352
+00:30:51.680 --> 00:30:53.860
+David Schaich (he): all of that analysis
+
+353
+00:30:55.490 --> 00:30:58.570
+David Schaich (he): to the end. Power and freehouse have been absorbed
+
+354
+00:30:59.890 --> 00:31:02.060
+David Schaich (he): if we can note that
+
+355
+00:31:05.960 --> 00:31:08.290
+David Schaich (he): they saw that the conditions we
+
+356
+00:31:08.400 --> 00:31:20.050
+David Schaich (he): and then reviewed just a few minutes ago. We have dealing with the classical, Non- optimistic set of particles. Mt. And L. Are all large compared to H. Bar.
+
+357
+00:31:21.650 --> 00:31:22.610
+David Schaich (he): So this
+
+358
+00:31:28.610 --> 00:31:35.430
+David Schaich (he): which brings it a large mit in the denominator, the small H bar squared and numerator.
+
+359
+00:31:35.450 --> 00:31:36.470
+David Schaich (he): That must be
+
+360
+00:31:36.920 --> 00:31:39.050
+David Schaich (he): much more, much smaller.
+
+361
+00:31:39.070 --> 00:31:39.890
+David Schaich (he): Then
+
+362
+00:31:40.150 --> 00:31:43.110
+David Schaich (he): the large size of the container
+
+363
+00:31:45.210 --> 00:31:46.840
+David Schaich (he): here, both sides
+
+364
+00:31:53.060 --> 00:31:56.900
+David Schaich (he): is much smaller that we have out there.
+
+365
+00:31:58.560 --> 00:32:03.110
+David Schaich (he): Maybe the you think the notes that was
+
+366
+00:32:04.910 --> 00:32:11.930
+David Schaich (he): the partition function that we have now found it is that in addition to
+
+367
+00:32:13.570 --> 00:32:17.220
+David Schaich (he): the number of particles and the temperature that's hiding
+
+368
+00:32:21.180 --> 00:32:26.430
+David Schaich (he): the partition function actually depends on the volume. If the guest occupies.
+
+369
+00:32:27.860 --> 00:32:33.040
+David Schaich (he): she said. significant change spin systems.
+
+370
+00:32:34.140 --> 00:32:36.600
+David Schaich (he): we haven't, yet totally.
+
+371
+00:32:43.230 --> 00:32:44.520
+David Schaich (he): So that is all right.
+
+372
+00:32:44.550 --> 00:32:46.560
+David Schaich (he): starting point for
+
+373
+00:32:46.640 --> 00:32:48.920
+David Schaich (he): computing large scale properties.
+
+374
+00:32:52.880 --> 00:32:59.270
+David Schaich (he): Basically just the information about how the energy of each gas particle depends on this moment.
+
+375
+00:33:01.170 --> 00:33:03.610
+David Schaich (he): But before we get into that.
+
+376
+00:33:04.720 --> 00:33:05.730
+David Schaich (he): It's worth
+
+377
+00:33:08.220 --> 00:33:09.320
+David Schaich (he): considering the
+
+378
+00:33:12.880 --> 00:33:23.880
+David Schaich (he): what would happen if these and particles were indistinguishable. and rather than growing things up live. I took the number to you
+
+379
+00:33:24.260 --> 00:33:25.960
+David Schaich (he): printing out
+
+380
+00:33:27.000 --> 00:33:38.350
+David Schaich (he): the cartoon that illustrates what we have to worry about. We saw yesterday that distinguishable versus indistinguishable particles behave significantly differently
+
+381
+00:33:38.700 --> 00:33:50.040
+David Schaich (he): in the case of spin systems. so it's worth currently considering him what happens in an ideal gas depending on whether or not we can distinguish different particles.
+
+382
+00:33:51.450 --> 00:33:52.460
+David Schaich (he): Now.
+
+383
+00:33:52.950 --> 00:33:58.050
+David Schaich (he): in this context, distinguishing a particle means being able to apply some label to it.
+
+384
+00:33:58.120 --> 00:34:02.040
+David Schaich (he): saying that this.
+
+385
+00:34:02.060 --> 00:34:09.500
+David Schaich (he): some other particles it will be, and they can tell apart the system where those 2 particles panel
+
+386
+00:34:09.560 --> 00:34:11.520
+David Schaich (he): the same position in momentum.
+
+387
+00:34:12.570 --> 00:34:24.280
+David Schaich (he): probably. and otherwise. It's been through microstates. It's all the same positions for each particle, but just a different label. In that case this particle of
+
+388
+00:34:24.290 --> 00:34:25.840
+David Schaich (he): that Obviously it will be
+
+389
+00:34:29.460 --> 00:34:35.270
+David Schaich (he): distinct microstates that we have to sum over my computing the partition function that we
+
+390
+00:34:35.280 --> 00:34:37.750
+David Schaich (he): just found.
+
+391
+00:34:37.980 --> 00:34:43.179
+David Schaich (he): and the industry is working. So we don't have any you labels
+
+392
+00:34:44.080 --> 00:34:47.830
+David Schaich (he): available to.
+
+393
+00:34:48.630 --> 00:34:49.949
+David Schaich (he): They are the same
+
+394
+00:34:52.239 --> 00:35:01.070
+David Schaich (he): in terms of their intrinsic information, content in principle, there's no way to label the
+
+395
+00:35:02.180 --> 00:35:10.780
+David Schaich (he): once it one of these microstates from the other, which is to say that they are, in fact, not different microstates, but the same microscope.
+
+396
+00:35:12.430 --> 00:35:17.880
+David Schaich (he): So in this simple example of 2 particles.
+
+397
+00:35:24.080 --> 00:35:25.060
+David Schaich (he): each
+
+398
+00:35:26.300 --> 00:35:30.040
+David Schaich (he): microstate of indistinguishable system
+
+399
+00:35:33.540 --> 00:35:35.180
+David Schaich (he): corresponded to
+
+400
+00:35:36.350 --> 00:35:41.330
+David Schaich (he): twice as many microstates of the distinguishable system just based on
+
+401
+00:35:41.620 --> 00:35:43.170
+David Schaich (he): number of different ways.
+
+402
+00:35:43.510 --> 00:35:46.430
+David Schaich (he): the distinguishable particles to be labeled
+
+403
+00:35:47.720 --> 00:35:48.660
+David Schaich (he): so
+
+404
+00:35:54.170 --> 00:35:57.130
+David Schaich (he): half as many micro states
+
+405
+00:35:57.200 --> 00:35:59.560
+David Schaich (he): absence of information
+
+406
+00:35:59.750 --> 00:36:01.890
+David Schaich (he): about labeling particles.
+
+407
+00:36:03.380 --> 00:36:05.760
+David Schaich (he): and it's a
+
+408
+00:36:07.490 --> 00:36:11.410
+David Schaich (he): straightforward calculation to
+
+409
+00:36:13.040 --> 00:36:16.660
+David Schaich (he): generalize this sort of argumentation to you.
+
+410
+00:36:16.740 --> 00:36:19.550
+David Schaich (he): The larger number of particles inside
+
+411
+00:36:20.020 --> 00:36:21.740
+David Schaich (he): zoom back into way.
+
+412
+00:36:23.040 --> 00:36:26.490
+David Schaich (he): larger text size. i'm recording.
+
+413
+00:36:29.220 --> 00:36:31.140
+David Schaich (he): So if we take 3 particles.
+
+414
+00:36:34.480 --> 00:36:36.800
+David Schaich (he): P. One into
+
+415
+00:36:37.370 --> 00:36:42.040
+David Schaich (he): 3, 3. Yeah. I will assume that
+
+416
+00:36:43.860 --> 00:36:47.510
+David Schaich (he): all of these moments are distinct and distinguishable.
+
+417
+00:36:48.490 --> 00:36:49.560
+David Schaich (he): Good shot
+
+418
+00:36:50.560 --> 00:36:59.610
+David Schaich (he): is a reliable assumption. Again, for the classical, non relativistic. Yes, as we are considering. then
+
+419
+00:37:01.520 --> 00:37:04.400
+David Schaich (he): we can all we have to do to connect
+
+420
+00:37:04.760 --> 00:37:13.120
+David Schaich (he): the distinguishable and indistinguishable cases is count how many ways distinguishable particles.
+
+421
+00:37:13.610 --> 00:37:14.530
+You can call
+
+422
+00:37:14.630 --> 00:37:15.610
+David Schaich (he): the first one
+
+423
+00:37:15.660 --> 00:37:16.610
+a
+
+424
+00:37:16.870 --> 00:37:18.120
+David Schaich (he): this second.
+
+425
+00:37:18.340 --> 00:37:20.140
+David Schaich (he): That's a particle B,
+
+426
+00:37:22.590 --> 00:37:28.400
+David Schaich (he): or just go through all possible permutations. They're up.
+
+427
+00:37:32.570 --> 00:37:33.390
+David Schaich (he): Let's see
+
+428
+00:37:33.440 --> 00:37:34.050
+there you go
+
+429
+00:37:36.010 --> 00:37:36.970
+David Schaich (he): so
+
+430
+00:37:39.000 --> 00:37:40.630
+David Schaich (he): for a single
+
+431
+00:37:43.260 --> 00:37:48.420
+David Schaich (he): microstates out there into sensible particles. There are
+
+432
+00:37:50.000 --> 00:37:51.310
+David Schaich (he): you 6
+
+433
+00:37:54.950 --> 00:37:56.390
+David Schaich (he): microstates?
+
+434
+00:37:57.420 --> 00:37:59.220
+If the particles were
+
+435
+00:37:59.260 --> 00:38:01.310
+David Schaich (he): distinguishable and
+
+436
+00:38:02.610 --> 00:38:04.650
+David Schaich (he): generalizing.
+
+437
+00:38:07.000 --> 00:38:09.500
+David Schaich (he): see what the head is going to be
+
+438
+00:38:11.040 --> 00:38:11.900
+David Schaich (he): so.
+
+439
+00:38:13.760 --> 00:38:22.810
+David Schaich (he): In general, the analysis of distinguishable. I don't know NASA's. I want to
+
+440
+00:38:24.340 --> 00:38:25.730
+David Schaich (he): all the same
+
+441
+00:38:28.740 --> 00:38:31.460
+David Schaich (he): integrals over the
+
+442
+00:38:32.820 --> 00:38:38.310
+David Schaich (he): and we individual with at the end of our regularization procedure.
+
+443
+00:38:41.400 --> 00:38:42.560
+David Schaich (he): But the
+
+444
+00:38:43.780 --> 00:38:46.790
+David Schaich (he): distinguishable case will introduce
+
+445
+00:38:46.860 --> 00:38:51.810
+David Schaich (he): in factorial different ways of distinguishing it. each of those integrals
+
+446
+00:38:51.920 --> 00:38:54.620
+David Schaich (he): due to the different ways that
+
+447
+00:38:55.070 --> 00:38:58.110
+David Schaich (he): the end particles can be labor
+
+448
+00:39:01.790 --> 00:39:04.250
+David Schaich (he): in factory. A few of my States.
+
+449
+00:39:07.890 --> 00:39:09.850
+David Schaich (he): without access to
+
+450
+00:39:10.000 --> 00:39:12.330
+David Schaich (he): the additional information that
+
+451
+00:39:15.360 --> 00:39:17.040
+David Schaich (he): those labels with her hide
+
+452
+00:39:18.050 --> 00:39:21.480
+David Schaich (he): she is. it's the long way of saying that the
+
+453
+00:39:25.840 --> 00:39:32.000
+David Schaich (he): is just one over n factorial Times economical partition function
+
+454
+00:39:32.400 --> 00:39:35.830
+David Schaich (he): that we just computed.
+
+455
+00:39:36.750 --> 00:39:38.560
+David Schaich (he): which itself was.
+
+456
+00:39:38.620 --> 00:39:43.060
+David Schaich (he): and powers of single particle partition function.
+
+457
+00:39:43.190 --> 00:39:44.320
+David Schaich (he): thanks to
+
+458
+00:39:44.520 --> 00:39:49.540
+David Schaich (he): the factorization that is for these non interacting ideal gases
+
+459
+00:39:55.280 --> 00:40:05.310
+David Schaich (he): to the power in just to break things out. And then the detail. This is the ratio of the volume
+
+460
+00:40:11.690 --> 00:40:14.220
+David Schaich (he): involved all of the factors of
+
+461
+00:40:15.960 --> 00:40:18.930
+David Schaich (he): temperature. legs.
+
+462
+00:40:20.970 --> 00:40:27.150
+David Schaich (he): unit conversion to you 3 n over 2.
+
+463
+00:40:29.300 --> 00:40:33.650
+David Schaich (he): So that is yeah full expression for
+
+464
+00:40:35.000 --> 00:40:36.650
+David Schaich (he): the partition function
+
+465
+00:40:41.100 --> 00:40:52.390
+David Schaich (he): and particles where the information content of distinguished rovers is indistinguishable. Articles only brings in this factor of one over n factorial from enabling
+
+466
+00:40:52.550 --> 00:40:53.140
+David Schaich (he): the
+
+467
+00:41:00.360 --> 00:41:01.700
+David Schaich (he): clean energy.
+
+468
+00:41:05.500 --> 00:41:06.540
+David Schaich (he): My, this
+
+469
+00:41:13.420 --> 00:41:14.350
+David Schaich (he): which
+
+470
+00:41:16.540 --> 00:41:21.500
+David Schaich (he): so 2 terms from these 2 factors that want to be one of them.
+
+471
+00:41:23.520 --> 00:41:24.910
+David Schaich (he): First, we have
+
+472
+00:41:25.240 --> 00:41:30.100
+David Schaich (he): whatever in factorial. It is the negative of the
+
+473
+00:41:30.190 --> 00:41:41.170
+David Schaich (he): There's a 2 more n factorial. and then you can bring down. Yeah, how are to a pre-factor?
+
+474
+00:41:42.050 --> 00:41:44.600
+David Schaich (he): 3 and over 2 times
+
+475
+00:41:44.790 --> 00:41:46.370
+David Schaich (he): negative temperature.
+
+476
+00:41:48.050 --> 00:41:48.690
+All right
+
+477
+00:41:50.010 --> 00:41:51.730
+David Schaich (he): of this item here.
+
+478
+00:41:53.310 --> 00:41:55.300
+It depends on the mass, temperature and
+
+479
+00:41:55.390 --> 00:42:01.240
+David Schaich (he): size of the container. It it was the gas yourself.
+
+480
+00:42:09.010 --> 00:42:13.420
+David Schaich (he): This is all we need in order to
+
+481
+00:42:16.500 --> 00:42:21.610
+David Schaich (he): large scale behavior of these systems. So your first yes.
+
+482
+00:42:28.470 --> 00:42:30.620
+David Schaich (he): the average internal energy. For
+
+483
+00:42:30.650 --> 00:42:32.090
+if I
+
+484
+00:42:32.170 --> 00:42:33.700
+David Schaich (he): of in particles.
+
+485
+00:42:35.650 --> 00:42:36.610
+David Schaich (he): hey, Andy
+
+486
+00:42:39.680 --> 00:42:42.600
+David Schaich (he): in the that
+
+487
+00:42:44.810 --> 00:42:46.230
+David Schaich (he): clear short. Later.
+
+488
+00:42:47.930 --> 00:42:50.180
+David Schaich (he): we have derived that
+
+489
+00:42:51.760 --> 00:42:54.180
+David Schaich (he): the average internal energy
+
+490
+00:42:54.390 --> 00:42:58.230
+David Schaich (he): it's related to a simple derivative
+
+491
+00:42:58.490 --> 00:43:06.200
+David Schaich (he): of the helpful free energy. The inside the derivative of this t squared outside.
+
+492
+00:43:07.850 --> 00:43:09.420
+David Schaich (he): So if we plug in
+
+493
+00:43:12.260 --> 00:43:15.600
+David Schaich (he): the help of free energy that we just compute it.
+
+494
+00:43:16.820 --> 00:43:27.470
+David Schaich (he): you're finding out the T in both of these terms more than 10 factorial, that we don't need to care about in the derivative because it's independent of temperature.
+
+495
+00:43:28.010 --> 00:43:30.230
+David Schaich (he): You will have
+
+496
+00:43:30.270 --> 00:43:32.720
+David Schaich (he): 3 cancel.
+
+497
+00:43:36.320 --> 00:43:43.350
+David Schaich (he): I'm. Z more of the temperature. And then everything else in here is independence
+
+498
+00:43:45.490 --> 00:43:48.860
+David Schaich (he): out the temperature and just drops out of the derivative
+
+499
+00:43:50.610 --> 00:44:02.440
+David Schaich (he): so the derivative. Of the team just brings in a one over T, which cancels off one of those 2 powers up there. The negative signs cancel
+
+500
+00:44:05.200 --> 00:44:06.760
+David Schaich (he): that the energy is
+
+501
+00:44:07.500 --> 00:44:11.890
+David Schaich (he): just 3 halves times the number of particles times the temperature
+
+502
+00:44:11.920 --> 00:44:12.840
+David Schaich (he): wish
+
+503
+00:44:14.360 --> 00:44:17.810
+David Schaich (he): you so remarkably simple results
+
+504
+00:44:18.430 --> 00:44:21.430
+David Schaich (he): given the starting point that we had
+
+505
+00:44:21.450 --> 00:44:29.600
+David Schaich (he): something over discrete momentum. and it's different particles in 3 dimensions. It's also a simple result
+
+506
+00:44:29.730 --> 00:44:33.050
+David Schaich (he): and create our temperature.
+
+507
+00:44:33.140 --> 00:44:34.350
+David Schaich (he): It's producing
+
+508
+00:44:34.480 --> 00:44:39.220
+David Schaich (he): a greater internal energy, which is also an extensive quality
+
+509
+00:44:39.330 --> 00:44:42.070
+David Schaich (he): linearly to the number of particles.
+
+510
+00:44:43.120 --> 00:44:44.500
+David Schaich (he): and maybe the
+
+511
+00:44:44.910 --> 00:44:48.920
+David Schaich (he): most remarkable context. Most remarkable aspect of this is
+
+512
+00:44:49.210 --> 00:44:50.500
+David Schaich (he): the way that
+
+513
+00:44:52.360 --> 00:44:54.880
+the statistical physics tool that we have
+
+514
+00:44:55.080 --> 00:45:02.220
+David Schaich (he): to develop this, giving us these very simple macroscopic relations between large scale behavior of
+
+515
+00:45:02.230 --> 00:45:08.120
+David Schaich (he): the just from that starting place. call me
+
+516
+00:45:10.340 --> 00:45:12.500
+David Schaich (he): microscopic, for
+
+517
+00:45:12.650 --> 00:45:16.420
+David Schaich (he): with the energy of a single particle in a
+
+518
+00:45:16.480 --> 00:45:19.500
+David Schaich (he): practical.
+
+519
+00:45:20.500 --> 00:45:21.450
+David Schaich (he): The you
+
+520
+00:45:22.830 --> 00:45:32.100
+David Schaich (he): entropy is every bit as easy to figure out, because we have the that we've arrived.
+
+521
+00:45:33.500 --> 00:45:35.460
+David Schaich (he): That's all. My
+
+522
+00:45:36.670 --> 00:45:40.540
+David Schaich (he): The difference between the internal energy.
+
+523
+00:45:40.750 --> 00:45:44.440
+David Schaich (he): the free energy divided by temperature.
+
+524
+00:45:45.280 --> 00:45:49.630
+David Schaich (he): internal energy over temperature, is just 3 halves. and
+
+525
+00:45:51.720 --> 00:45:54.970
+David Schaich (he): looking back to the whole world, free energy
+
+526
+00:45:56.840 --> 00:45:58.360
+David Schaich (he): back to you.
+
+527
+00:46:00.280 --> 00:46:04.660
+David Schaich (he): We have with the negative side. plus
+
+528
+00:46:05.730 --> 00:46:06.930
+David Schaich (he): 3 years.
+
+529
+00:46:11.230 --> 00:46:13.110
+Wait a month squared.
+
+530
+00:46:13.250 --> 00:46:14.540
+David Schaich (he): and then minus.
+
+531
+00:46:23.180 --> 00:46:36.010
+David Schaich (he): My name is Anne. So subtracting a negative end. Is this an additional factor in coming into that? So 5 years in?
+
+532
+00:46:36.450 --> 00:46:40.560
+David Schaich (he): And if we take this 3 handles. put that back into.
+
+533
+00:46:44.700 --> 00:46:48.600
+David Schaich (he): You can write this as call queue, which is the
+
+534
+00:46:49.100 --> 00:46:50.150
+David Schaich (he): over
+
+535
+00:46:55.380 --> 00:46:58.130
+David Schaich (he): there.
+
+536
+00:47:08.480 --> 00:47:17.790
+David Schaich (he): So I really have a time to really make a lot of comments about this. We will we, as a that on the Monday Sorry comparing it
+
+537
+00:47:19.350 --> 00:47:22.640
+David Schaich (he): how to make some physical intuition out of
+
+538
+00:47:23.390 --> 00:47:26.430
+David Schaich (he): these results for energy and entropy.
+
+539
+00:47:26.940 --> 00:47:32.480
+David Schaich (he): So what i'll wrap up with today is writing down
+
+540
+00:47:35.240 --> 00:47:36.680
+David Schaich (he): similar results.
+
+541
+00:47:39.830 --> 00:47:40.590
+David Schaich (he): Okay.
+
+542
+00:47:47.830 --> 00:47:53.490
+David Schaich (he): So I so they become clear Why, we first consider the case of indistinguishable particles.
+
+543
+00:47:54.090 --> 00:48:01.940
+David Schaich (he): That is because the difference between distinguishable and in the sensible particles is just this factor of one over n factorial.
+
+544
+00:48:02.080 --> 00:48:06.500
+David Schaich (he): So all we need to do in the any call results
+
+545
+00:48:06.790 --> 00:48:08.960
+David Schaich (he): that we just
+
+546
+00:48:09.020 --> 00:48:11.930
+David Schaich (he): and get rid of it. Everything involved in that.
+
+547
+00:48:14.420 --> 00:48:25.420
+David Schaich (he): So we can immediately write down from this expression that they call it free energy. It's not. One has 3
+
+548
+00:48:26.870 --> 00:48:27.990
+David Schaich (he): in the
+
+549
+00:48:30.760 --> 00:48:31.410
+okay.
+
+550
+00:48:32.380 --> 00:48:34.140
+David Schaich (he): the usual actor.
+
+551
+00:48:35.720 --> 00:48:37.340
+David Schaich (he): the internal energy.
+
+552
+00:48:38.390 --> 00:48:39.060
+Okay.
+
+553
+00:48:42.840 --> 00:48:45.010
+David Schaich (he): It does not change, because that
+
+554
+00:48:45.280 --> 00:48:48.580
+David Schaich (he): in factorial, this temperature independent and drop that
+
+555
+00:48:48.920 --> 00:48:51.720
+David Schaich (he): of the driven. I believe.
+
+556
+00:48:54.550 --> 00:48:59.500
+David Schaich (he): did not have or does not have, that more impact, her real case, which is these 2 terms.
+
+557
+00:49:04.090 --> 00:49:04.990
+David Schaich (he): Yes.
+
+558
+00:49:09.370 --> 00:49:11.180
+the T. Hq. So we'll pick up
+
+559
+00:49:12.560 --> 00:49:18.370
+David Schaich (he): on Monday with some discussion of what these results need now that we've derived from
+
+560
+00:49:18.940 --> 00:49:19.860
+David Schaich (he): and
+
+561
+00:49:21.260 --> 00:49:30.530
+David Schaich (he): before then be on a Thursday morning for a tutorial or a few things that we can look at. For instance.
+
+562
+00:49:31.850 --> 00:49:33.320
+David Schaich (he): seeing how
+
+563
+00:49:33.690 --> 00:49:37.480
+David Schaich (he): the interview behaves when different systems are combined, something that
+
+564
+00:49:37.740 --> 00:49:46.120
+David Schaich (he): will also be looking into media lectures next week. and I think it is useful thing to do.
+
+565
+00:49:47.400 --> 00:49:56.970
+David Schaich (he): But we're not. You've seen it before is actually derived. This approximation to the then factorial sterling's formula
+
+566
+00:49:57.140 --> 00:49:57.960
+David Schaich (he): which
+
+567
+00:49:58.410 --> 00:50:02.390
+David Schaich (he): can be done in many different ways.
+
+568
+00:50:02.610 --> 00:50:04.510
+David Schaich (he): questions about what we were able to
+
+569
+00:50:04.630 --> 00:50:12.250
+David Schaich (he): get through today. Writing down the partition function and observing all of these for these 2
+
+570
+00:50:12.400 --> 00:50:19.590
+David Schaich (he): different types of classical ideal gases which i'll start putting to work next week.
+
+571
+00:50:22.490 --> 00:50:25.320
+David Schaich (he): See you Thursday. You can enjoy not having
+
+572
+00:50:25.430 --> 00:50:28.580
+David Schaich (he): any more work to deal with this module
+
+573
+00:50:29.210 --> 00:50:31.280
+David Schaich (he): for you. A couple of those.
+
