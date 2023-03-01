@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 4}
-\renewcommand{\moddate}{Last modified 27 Feb.~2023}
+\renewcommand{\moddate}{Last modified 28 Feb.~2023}
 \setcounter{section}{4}
 \setcounter{subsection}{0}
 \phantomsection
@@ -24,7 +24,7 @@ The key particle properties are specified by the adjectives listed above: \\[-24
         As a result, the total energy of the gas is simply the sum of the energies of the $N$ individual particles,
         \begin{equation}
           \label{eq:momentum}
-          E = \frac{1}{2m} \sum_{i = n}^N p_n^2.
+          E = \frac{1}{2m} \sum_{n = 1}^N p_n^2.
         \end{equation}
 \end{itemize}
 
@@ -50,7 +50,7 @@ Specifically, we declare that the possible momenta are
 \end{align}
 Each component of the non-negative-integer vector $\vec k = (k_x, k_y, k_z)$ is independent.
 The constant factor $\hbar$ (``h-bar''), known as the (reduced) Planck constant (named after \href{https://en.wikipedia.org/wiki/Max_Planck}{Max Planck}), simply converts units from inverse-length ($\frac{1}{L}$) to momentum ($p$).
-Very similar discrete momenta turn out to be realized in nature, thanks to quantum mechanics---if you have previously studied quantum physics, you may recognize the momenta for a \href{https://en.wikipedia.org/wiki/Particle_in_a_box}{particle in a box}, but for the purposes of this module we can just adopt this result as an ansatz. % TODO: Planck also introduced this ansatz as a desperate measure; a difference with bona fide quantum mechanics is the presence of a zero mode...
+Very similar discrete momenta turn out to be realized in nature, thanks to quantum mechanics --- if you have previously studied quantum physics, you may recognize the momenta for a \href{https://en.wikipedia.org/wiki/Particle_in_a_box}{particle in a box}, but for the purposes of this module we can just adopt this result as an ansatz. % TODO: Planck also introduced this ansatz as a desperate measure; a difference with bona fide quantum mechanics is the presence of a zero mode...
 
 What are the energies that correspond to these discretized momenta?
 \begin{mdframed}
@@ -188,7 +188,7 @@ The entropy, however, does reflect the extra information that distinguishability
   S_D & = \frac{3}{2} N + N \log\left(\frac{V}{\lath^3}\right) &
   S_I & = \frac{5}{2} N + N \log\left(\frac{V}{N\lath^3}\right).
 \end{align}
-Because $N\log N > N$ for $N \gg 1$, we have $S_D > S_I$, as expected.
+The difference $S_I - S_D = N - N\log N \to -\log(N!) < 0$ means $S_I < S_D$, as expected.
 We can also note that $\lath \to \infty$ as the temperature approaches absolute zero, $T \to 0$, apparently producing negative entropies for fixed $V$.
 This is a warning sign that our classical assumptions are breaking down in this regime, and quantum effects would need to be taken into account.
 % ------------------------------------------------------------------
@@ -228,7 +228,7 @@ You should find $S_C = S_A + S_B$, which is consistent with the second law of th
 
 Things are more complicated when we re-separate the systems.
 Analogously to our considerations in \secref{sec:heat_ex}, we need to sum over all the possible ways of dividing the $2N$ indistinguishable particles between the two re-separated boxes.
-In particular, we need to perform this sum at the stage of computing the partition function $Z'$ for $\Om_A' + \Om_B'$, since this is the fundamental quantity from which the entropy is then derived as $S = \pderiv{}{T}\left(T\log Z'\right)$. % TODO: In other words, we have the logarithm of a sum rather than a sum of logarithms...
+In particular, we need to perform this sum at the stage of computing the partition function $Z'$ for $\Om_A' + \Om_B'$, since this is the fundamental quantity from which the entropy is then derived as $S' = \pderiv{}{T}\left(T\log Z'\right)$. % TODO: In other words, we have the logarithm of a sum rather than a sum of logarithms...
 In other words, we have to consider a logarithm of a sum rather than a sum of logarithms.
 
 If $\nu$ particles end up in system $\Om_A'$, then the other system $\Om_B'$ must contain the remaining $2N - \nu$ particles, giving us
@@ -241,7 +241,7 @@ Summing over all possible values of $0 \leq \nu \leq 2N$,
   \implies & S_A' + S_B' = 2N \pderiv{}{T}\left(T\log \left[\frac{V}{\lath^3}\right]\right) - \log[(2N)!] + \log\left[\sum_{\nu = 0}^{2N} \binom{2N}{\nu}\right].
 \end{align*}
 This is a complicated expression.
-We can simplify it with an approximation considered by J.\ Willard Gibbs in the 1870s, which we have already motivated in some of our tutorial discussions.
+We can simplify it with an approximation considered by J.\ Willard Gibbs in the 1870s, which we explored in last week's tutorial. % TODO: Check synchronization...
 For large $N \gg 1$, we saw that the entropy of two subsystems in thermal contact is nearly saturated by the case in which the energy is divided roughly evenly between the two subsystems, rather than being mostly in one of them.
 The same thing happens for two systems that are allowed to exchange particles: there are far more micro-states with particles divided roughly evenly between the two subsystems, $N_A' \approx N_B' \approx N$, compared to the particles being mostly in one of them.
 
