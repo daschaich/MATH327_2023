@@ -1,0 +1,1542 @@
+WEBVTT
+
+1
+00:00:01.620 --> 00:00:15.200
+David Schaich (he): Okay, I think we can get underway. It's been exactly a month since we were last in this room, so I had to sign into everything fresh. And,
+
+2
+00:00:17.560 --> 00:00:18.310
+David Schaich (he): well, before getting underway I should give you
+
+3
+00:00:24.890 --> 00:00:35.190
+David Schaich (he): the 6 digit code for today, here on the doc-cam.
+
+4
+00:00:45.680 --> 00:00:46.840
+David Schaich (he): The six
+
+5
+00:00:48.660 --> 00:00:50.060
+David Schaich (he): digits are
+
+6
+00:00:54.820 --> 00:00:56.880
+David Schaich (he): 9, 8, 0, 0, 3, 2.
+
+7
+00:01:09.280 --> 00:01:09.880
+Yep.
+
+8
+00:01:11.460 --> 00:01:12.700
+David Schaich (he): I'll also put that up here,
+
+9
+00:01:18.720 --> 00:01:22.370
+David Schaich (he): because I'm going to pop away from the projector for
+
+10
+00:01:22.380 --> 00:01:27.770
+David Schaich (he): just a few minutes and start with some logistical notes.
+
+11
+00:01:28.850 --> 00:01:40.680
+David Schaich (he): So one thing that may be of interest is that I have uploaded to canvas model solutions for the computer project that was to last week.  Both
+
+12
+00:01:40.870 --> 00:01:42.790
+David Schaich (he): a pdf and
+
+13
+00:01:43.720 --> 00:01:54.080
+David Schaich (he): the corresponding Python code. The pdf looks a bit bulkier than it really is, because it includes all of the code that is also
+
+14
+00:01:54.780 --> 00:01:58.340
+David Schaich (he): in this file separately.
+
+15
+00:01:58.880 --> 00:02:04.300
+David Schaich (he): My self-imposed deadline for getting those marked and
+
+16
+00:02:04.900 --> 00:02:11.690
+David Schaich (he): feedback returned to you is tomorrow, which I'm not going to make.  Apologies for
+
+17
+00:02:12.080 --> 00:02:13.870
+David Schaich (he): being slow
+
+18
+00:02:14.290 --> 00:02:20.720
+David Schaich (he): accumulation of deadlines probably due to the medical difficulties this past month.
+
+19
+00:02:21.310 --> 00:02:22.360
+David Schaich (he): Try to
+
+20
+00:02:22.880 --> 00:02:30.620
+David Schaich (he): catch up with that just over the next few days, and see if there are any issues worth discussing with these solutions
+
+21
+00:02:30.720 --> 00:02:33.540
+David Schaich (he): in in next week's tutorial. We now have
+
+22
+00:02:33.690 --> 00:02:38.010
+David Schaich (he): tutorials in here on Thursday mornings, on a regular basis for the
+
+23
+00:02:38.060 --> 00:02:40.270
+David Schaich (he): we can get back into
+
+24
+00:02:40.710 --> 00:02:43.540
+David Schaich (he): the habit of helping in here, and
+
+25
+00:02:43.680 --> 00:02:48.140
+David Schaich (he): model solutions for the homework also go on to canvas.
+
+26
+00:02:49.060 --> 00:02:52.710
+David Schaich (he): Whether or not I get those marked once
+
+27
+00:02:52.840 --> 00:03:00.020
+David Schaich (he): sort of 5 day period of like penalties passes over the coming week.
+
+28
+00:03:03.680 --> 00:03:04.850
+David Schaich (he): And
+
+29
+00:03:06.810 --> 00:03:08.890
+David Schaich (he): yeah, if there are any questions about.
+
+30
+00:03:09.320 --> 00:03:17.000
+David Schaich (he): at least the computer project, we can discuss this now, or any aspect of the lectures. The tutorial is a good opportunity to
+
+31
+00:03:17.110 --> 00:03:20.950
+David Schaich (he): follow up on points that maybe here confusing.
+
+32
+00:03:28.760 --> 00:03:36.460
+David Schaich (he): hearing any questions get under way with a couple of tutorial activities that are
+
+33
+00:03:37.560 --> 00:03:49.630
+David Schaich (he): to be relevant to. Oh. so things that we have done over the last few weeks, as well as one of the pieces of the upcoming extra on
+
+34
+00:03:49.690 --> 00:03:53.460
+David Schaich (he): Monday. So both of these tutorials
+
+35
+00:03:54.540 --> 00:04:02.650
+David Schaich (he): are in the modules page on canvas, and I also printed out it couple of copies in case they might be useful to have one of them
+
+36
+00:04:02.900 --> 00:04:07.080
+David Schaich (he): looking at Sterling's formula, and the other looking at the entropy.
+
+37
+00:04:07.950 --> 00:04:10.820
+David Schaich (he): So let me just
+
+38
+00:04:10.910 --> 00:04:14.430
+David Schaich (he): say a few words to introduce each of these.
+
+39
+00:04:16.329 --> 00:04:18.190
+David Schaich (he): the idea being that
+
+40
+00:04:18.470 --> 00:04:22.660
+David Schaich (he): we'll talk through sort of set up to the activity. You'll get some time to
+
+41
+00:04:22.780 --> 00:04:24.880
+David Schaich (he): play with it today, and then
+
+42
+00:04:24.970 --> 00:04:30.060
+David Schaich (he): chances are there will be more to do that. I can leave you with for
+
+43
+00:04:30.070 --> 00:04:36.170
+David Schaich (he): the coming week and the at the start of next Week's tutorial. Okay. highlight any here
+
+44
+00:04:36.690 --> 00:04:40.940
+David Schaich (he): main takeaways from these activities, any questions about them, and then move on to
+
+45
+00:04:40.950 --> 00:04:42.080
+David Schaich (he): the next one.
+
+46
+00:04:43.130 --> 00:04:47.320
+David Schaich (he): So that gives you a bit more to do during the weeks. Now that
+
+47
+00:04:47.830 --> 00:04:58.620
+David Schaich (he): the computer project and homework are wrapped up, at least until you return from the screen break reminds me of one other piece of
+
+48
+00:05:00.220 --> 00:05:12.760
+David Schaich (he): one of the resource that is also on canvas. Now zoom in a bit. I have uploaded it. Sample exams from each of the past 3 years. If you have the time and inclination to
+
+49
+00:05:13.840 --> 00:05:17.240
+David Schaich (he): start poking through those, seeing what sort of
+
+50
+00:05:17.340 --> 00:05:25.320
+David Schaich (he): questions tend to be asked. And but the usual format is. I will say that
+
+51
+00:05:25.740 --> 00:05:29.860
+David Schaich (he): each of those 3 years was unusual in terms of
+
+52
+00:05:31.690 --> 00:05:36.790
+David Schaich (he): lectures, exams, and in general. And so
+
+53
+00:05:37.400 --> 00:05:43.530
+David Schaich (he): for the exam, coming up this year in May or June. It's going to be a 2 h exam
+
+54
+00:05:43.670 --> 00:05:44.910
+David Schaich (he): in person
+
+55
+00:05:45.960 --> 00:05:51.300
+David Schaich (he): last year. The exam was also in person, but limited to a single hour.
+
+56
+00:05:51.360 --> 00:05:55.590
+David Schaich (he): So the 3 questions that are on here
+
+57
+00:05:57.340 --> 00:05:58.570
+David Schaich (he): I could
+
+58
+00:05:59.780 --> 00:06:04.230
+David Schaich (he): less work that will be asked for the 2 h that you'll have
+
+59
+00:06:04.260 --> 00:06:05.430
+David Schaich (he): this year
+
+60
+00:06:05.750 --> 00:06:09.690
+David Schaich (he): the previous exams in 2,020 and 2,021. We're both
+
+61
+00:06:10.560 --> 00:06:11.990
+David Schaich (he): both ended up being
+
+62
+00:06:12.820 --> 00:06:27.730
+David Schaich (he): open book Exams done remotely, and uploaded the 2,020 exam, which was prepared before the pandemic struck, was designed for a 2 and a half hour Exam. So it has a larger number of
+
+63
+00:06:28.010 --> 00:06:28.920
+David Schaich (he): cool.
+
+64
+00:06:29.630 --> 00:06:32.790
+David Schaich (he): challenging questions. So it is a
+
+65
+00:06:34.600 --> 00:06:38.640
+David Schaich (he): it better model of what the exam is going to look like
+
+66
+00:06:38.840 --> 00:06:39.950
+David Schaich (he): this spring.
+
+67
+00:06:41.860 --> 00:06:47.820
+David Schaich (he): So I think those are all the logistical notes I have this morning we can turn to
+
+68
+00:06:48.160 --> 00:06:53.880
+David Schaich (he): these actual tutorial activities. which why? I
+
+69
+00:06:54.210 --> 00:06:57.670
+David Schaich (he): brought up one of the things that we were doing
+
+70
+00:06:58.450 --> 00:07:08.230
+David Schaich (he): a couple of weeks ago, when, meeting the second law of thermodynamics in the context of the micro canonical software, we we went through the exercise of
+
+71
+00:07:08.530 --> 00:07:14.330
+David Schaich (he): taking 2 micro canonical systems. They fixed number of particles and fixed energy.
+
+72
+00:07:14.430 --> 00:07:20.960
+David Schaich (he): placing them in front of the contact. Should that be overall, the energy
+
+73
+00:07:22.800 --> 00:07:26.440
+David Schaich (he): is still conserved, but can be distributed in various ways
+
+74
+00:07:26.630 --> 00:07:29.020
+David Schaich (he): throughout these 2 systems.
+
+75
+00:07:30.260 --> 00:07:37.400
+David Schaich (he): and then trying to figure out the overall number of micro states.
+
+76
+00:07:38.590 --> 00:07:39.500
+David Schaich (he): So
+
+77
+00:07:41.060 --> 00:07:46.750
+David Schaich (he): the total number of possible microstates was combined system, and
+
+78
+00:07:47.500 --> 00:07:53.000
+David Schaich (he): was not only the product of the number of microstates, each of the cell systems, but had to
+
+79
+00:07:53.150 --> 00:08:01.420
+David Schaich (he): some over all possible ways. or that total energy to be distributed between those 2 subsystems.
+
+80
+00:08:03.120 --> 00:08:07.390
+David Schaich (he): So I just rewrite that here to have it in.
+
+81
+00:08:15.290 --> 00:08:21.330
+David Schaich (he): In this example, this whole number of my states. let's say, sell over energy distributions
+
+82
+00:08:21.710 --> 00:08:24.790
+David Schaich (he): of the
+
+83
+00:08:25.610 --> 00:08:33.159
+David Schaich (he): subsystem one remaining energy in subsystem 2, and we
+
+84
+00:08:33.549 --> 00:08:40.730
+David Schaich (he): noted that this is obviously greater than the number of microstates, as the
+
+85
+00:08:40.799 --> 00:08:43.380
+David Schaich (he): entropy is greater than the entropy that we had before
+
+86
+00:08:44.169 --> 00:08:48.720
+David Schaich (he): we separated subsystems which just correspond to one term
+
+87
+00:08:48.840 --> 00:08:55.360
+David Schaich (he): in the sum of all of our negative terms. so that people say
+
+88
+00:08:55.570 --> 00:08:59.260
+David Schaich (he): inequality that you identified as the second law
+
+89
+00:08:59.300 --> 00:09:00.820
+David Schaich (he): of thermodynamics.
+
+90
+00:09:02.030 --> 00:09:05.860
+David Schaich (he): We are going to be revisiting this sort of thing on Monday.
+
+91
+00:09:06.220 --> 00:09:08.280
+David Schaich (he): Let me look at
+
+92
+00:09:09.290 --> 00:09:17.440
+David Schaich (he): more elaborate procedure analogous to the heat exchange. We considered taking 2 systems, putting them together, and then we separated them.
+
+93
+00:09:17.520 --> 00:09:19.810
+David Schaich (he): and trying to ensure that
+
+94
+00:09:20.940 --> 00:09:24.760
+David Schaich (he): you entropy in that 3 step process.
+
+95
+00:09:25.970 --> 00:09:31.720
+David Schaich (he): It is consistent with the second wall thermal dynamics. For this
+
+96
+00:09:33.530 --> 00:09:35.000
+David Schaich (he): we are going to
+
+97
+00:09:36.400 --> 00:09:38.350
+David Schaich (he): the interested in.
+
+98
+00:09:38.670 --> 00:09:45.290
+David Schaich (he): Say, more than just that basic inequality about this total number of microstates.
+
+99
+00:09:52.800 --> 00:09:53.700
+David Schaich (he): so
+
+100
+00:09:54.980 --> 00:10:02.810
+David Schaich (he): simple but fairly sharp bounds on this total number microstates which we can get
+
+101
+00:10:03.030 --> 00:10:08.920
+David Schaich (he): with a pretty simple consideration of the structure of the terms
+
+102
+00:10:09.070 --> 00:10:10.240
+David Schaich (he): in this cell.
+
+103
+00:10:11.470 --> 00:10:12.350
+David Schaich (he): So
+
+104
+00:10:14.360 --> 00:10:15.340
+David Schaich (he): if we
+
+105
+00:10:16.980 --> 00:10:22.400
+David Schaich (he): let the if we denote the largest term in this cell. it is.
+
+106
+00:10:24.000 --> 00:10:25.370
+David Schaich (he): Yes, Max.
+
+107
+00:10:30.960 --> 00:10:32.970
+David Schaich (he): and if we say that there are
+
+108
+00:10:34.850 --> 00:10:37.230
+David Schaich (he): in terms of the which
+
+109
+00:10:44.240 --> 00:10:47.000
+David Schaich (he): off the page. so there is
+
+110
+00:10:47.200 --> 00:10:48.420
+that you center.
+
+111
+00:10:49.320 --> 00:10:51.680
+David Schaich (he): Then there are, is a fairly
+
+112
+00:10:52.510 --> 00:11:06.990
+David Schaich (he): obvious set of balance that we can have similarly to what we did. I'm talking about the second World thermodynamics. We know that the single term has to be the larger than the sum of all the terms
+
+113
+00:11:09.040 --> 00:11:13.630
+David Schaich (he): where the quality holds. If there is only one term in the.
+
+114
+00:11:15.350 --> 00:11:16.370
+David Schaich (he): and then
+
+115
+00:11:16.950 --> 00:11:19.630
+David Schaich (he): we also know that the some
+
+116
+00:11:21.060 --> 00:11:25.810
+David Schaich (he): has to be no larger than case
+
+117
+00:11:25.970 --> 00:11:30.710
+David Schaich (he): where every single term in it is the same, and is equal to
+
+118
+00:11:30.730 --> 00:11:32.030
+David Schaich (he): this maximum.
+
+119
+00:11:35.420 --> 00:11:38.310
+David Schaich (he): That projector, any act sure.
+
+120
+00:11:44.220 --> 00:11:49.350
+David Schaich (he): So the quality here holds all of the terms in some are the same in our
+
+121
+00:11:49.460 --> 00:11:54.430
+David Schaich (he): maximize. If we take the walk room of all of these
+
+122
+00:11:55.740 --> 00:12:04.030
+David Schaich (he): pieces that we have. That was on the entropy just before the the micro canonical on cell phone.
+
+123
+00:12:10.740 --> 00:12:12.710
+David Schaich (he): and despite the
+
+124
+00:12:12.870 --> 00:12:18.030
+David Schaich (he): simplicity of this derivation, it turns out that this is.
+
+125
+00:12:18.640 --> 00:12:23.140
+David Schaich (he): hey? Actually useful, a all of constraining
+
+126
+00:12:23.400 --> 00:12:25.830
+David Schaich (he): the entropy. So, as a
+
+127
+00:12:29.480 --> 00:12:34.410
+David Schaich (he): reasonable illustration of it. the power of this way of looking at
+
+128
+00:12:35.580 --> 00:12:38.000
+David Schaich (he): the set up. we can
+
+129
+00:12:40.520 --> 00:12:43.120
+David Schaich (he): suppose for an end particle system
+
+130
+00:12:43.540 --> 00:12:44.740
+over Charles
+
+131
+00:12:45.350 --> 00:12:49.320
+David Schaich (he): in this. It's just related to those end particles.
+
+132
+00:12:51.500 --> 00:12:59.690
+David Schaich (he): I'll leave you to work through a concrete example where this is the case. and we can also suppose that.
+
+133
+00:13:02.930 --> 00:13:06.120
+David Schaich (he): or this term is
+
+134
+00:13:06.150 --> 00:13:09.780
+David Schaich (he): exponentially large in that number of particles.
+
+135
+00:13:09.880 --> 00:13:16.500
+David Schaich (he): This is also something that we have seeing it in the context of it. Spin system.
+
+136
+00:13:18.010 --> 00:13:28.510
+David Schaich (he): We are sitting aside in the external magnetic field the number of terms which is to the end the 2 possibilities for each of the n particles
+
+137
+00:13:28.950 --> 00:13:31.650
+David Schaich (he): which is the exponential of
+
+138
+00:13:33.480 --> 00:13:34.810
+David Schaich (he): how Cisco
+
+139
+00:13:43.480 --> 00:13:44.910
+David Schaich (he): World 2
+
+140
+00:13:46.800 --> 00:14:00.470
+David Schaich (he): in this case give us that. and is less than you're comfortable. She has just
+
+141
+00:14:01.340 --> 00:14:04.150
+David Schaich (he): and terms plus the
+
+142
+00:14:09.210 --> 00:14:12.220
+David Schaich (he): if we stick in a typical.
+
+143
+00:14:15.240 --> 00:14:19.810
+David Schaich (he): we're gonna how we got this number 10 to the power 23 that we have.
+
+144
+00:14:22.510 --> 00:14:25.000
+David Schaich (he): the that the entropy is
+
+145
+00:14:26.070 --> 00:14:32.770
+David Schaich (he): between me and the power 23 it to the power 23.
+
+146
+00:14:34.130 --> 00:14:37.590
+David Schaich (he): We got an advances about 50 So this is
+
+147
+00:14:37.790 --> 00:14:42.740
+David Schaich (he): a battle that has a relevant precision of better than one part in 10 to the twentieth.
+
+148
+00:14:42.900 --> 00:14:45.000
+David Schaich (he): So, Basically, asymptotically.
+
+149
+00:14:46.640 --> 00:14:52.380
+David Schaich (he): you can see that the entropy is simply equal. and 23
+
+150
+00:14:56.000 --> 00:14:57.920
+David Schaich (he): for practical purposes.
+
+151
+00:15:01.100 --> 00:15:06.480
+David Schaich (he): So this is tutorial on the lecture. So i'll stop talking soon. The you
+
+152
+00:15:08.710 --> 00:15:10.090
+David Schaich (he): activity that
+
+153
+00:15:11.400 --> 00:15:14.910
+David Schaich (he): is set up here for you to work with.
+
+154
+00:15:17.430 --> 00:15:27.800
+David Schaich (he): This is we statement to what we just went through is actually computing these bounds for this
+
+155
+00:15:28.150 --> 00:15:30.960
+David Schaich (he): same example that we
+
+156
+00:15:30.980 --> 00:15:40.940
+David Schaich (he): we've got previously 2 spin systems in thermal contacts. each with the same number of spins they and one and then 2 or 10,
+
+157
+00:15:41.400 --> 00:15:47.320
+David Schaich (he): a fixed number of the overall entropy between those sorry, the overall energy between those 2 subsystems
+
+158
+00:15:48.660 --> 00:15:57.410
+David Schaich (he): here minus 10 in units where that external magnetic field has just a value of H. Equals one.
+
+159
+00:15:57.670 --> 00:16:02.870
+David Schaich (he): so it can drop out of all the expressions. and it's not too hard to
+
+160
+00:16:06.100 --> 00:16:11.590
+David Schaich (he): numerically evaluate these bounds just by hand. It becomes a bit more
+
+161
+00:16:11.710 --> 00:16:25.060
+David Schaich (he): computationally intensive is, and increases going up to 10 or 20 or 30, and each subsystem with that fixed energy. and by well checking these bounds
+
+162
+00:16:25.270 --> 00:16:37.510
+David Schaich (he): and considering where the maximum terms are coming from. you will actually connect to one of the first things we were talking about here over time.
+
+163
+00:16:37.530 --> 00:16:40.020
+David Schaich (he): showing how we can expect
+
+164
+00:16:40.190 --> 00:16:47.710
+David Schaich (he): spin systems to for any systems to evolve in time in only one direction.
+
+165
+00:16:48.660 --> 00:16:57.950
+David Schaich (he): So we had the example of putting a drop of down to a bigger water. We expect that to the spread out we will see something analogous
+
+166
+00:16:59.310 --> 00:17:06.579
+David Schaich (he): in this exercise. especially as. and becomes larger in the system. So
+
+167
+00:17:08.160 --> 00:17:15.579
+David Schaich (he): I will let you get on. With that pause the recording, and come back, and maybe 10 min to talk about the other activity that
+
+168
+00:17:15.680 --> 00:17:18.950
+David Schaich (he): I have to work on either questions about this one before
+
+169
+00:17:19.319 --> 00:17:20.430
+David Schaich (he): get up the way.
+
+170
+00:17:33.320 --> 00:17:40.640
+David Schaich (he): Maybe it's worth checking in for a few minutes to see. Yeah. we're on the right track.
+
+171
+00:17:42.450 --> 00:17:44.610
+David Schaich (he): I switch back to
+
+172
+00:17:45.250 --> 00:17:46.900
+David Schaich (he): projector here.
+
+173
+00:17:49.190 --> 00:17:54.120
+David Schaich (he): You ask first, how many terms are you? Finding that some
+
+174
+00:17:56.500 --> 00:17:57.880
+David Schaich (he): accommodation or
+
+175
+00:18:02.630 --> 00:18:04.370
+David Schaich (he): minus 10,
+
+176
+00:18:06.820 --> 00:18:09.440
+David Schaich (he): like I put on the board just behind me
+
+177
+00:18:14.180 --> 00:18:15.450
+David Schaich (he): twice in the
+
+178
+00:18:17.390 --> 00:18:19.640
+David Schaich (he): honest. That total number so on him
+
+179
+00:18:20.300 --> 00:18:22.860
+David Schaich (he): equals 10. This can take
+
+180
+00:18:24.350 --> 00:18:25.100
+is
+
+181
+00:18:26.230 --> 00:18:29.070
+David Schaich (he): up to 10,
+
+182
+00:18:32.350 --> 00:18:35.170
+David Schaich (he): and if we want to distribute
+
+183
+00:18:36.610 --> 00:18:41.570
+David Schaich (he): minus 10 units of energy among 2 subsystems
+
+184
+00:18:43.170 --> 00:18:44.600
+simply counts
+
+185
+00:18:45.920 --> 00:18:47.580
+David Schaich (he): number of different
+
+186
+00:18:47.910 --> 00:18:50.300
+David Schaich (he): ways. We can do that
+
+187
+00:18:52.550 --> 00:18:57.170
+David Schaich (he): criminal cases to have all of it the first subsystem
+
+188
+00:18:57.380 --> 00:19:01.020
+David Schaich (he): and then 0 energy, the second
+
+189
+00:19:02.480 --> 00:19:06.630
+David Schaich (he): allowable values for it. the 10 min that we have in each.
+
+190
+00:19:08.090 --> 00:19:19.750
+David Schaich (he): And then we can the opposite situation where all the energy in zoom. the other subsystem. And then there are it's 4 or 2 cases
+
+191
+00:19:20.810 --> 00:19:21.570
+David Schaich (he): totally
+
+192
+00:19:21.580 --> 00:19:22.250
+between
+
+193
+00:19:23.700 --> 00:19:26.460
+David Schaich (he): those 2 extremes.
+
+194
+00:19:29.810 --> 00:19:32.330
+David Schaich (he): It's visible, and
+
+195
+00:19:33.930 --> 00:19:36.160
+David Schaich (he): from the
+
+196
+00:19:38.630 --> 00:19:39.930
+David Schaich (he): connect this to the
+
+197
+00:19:39.980 --> 00:19:43.750
+David Schaich (he): number of
+
+198
+00:19:44.400 --> 00:19:46.590
+David Schaich (he): so the energy is minus 10,
+
+199
+00:19:46.650 --> 00:19:51.500
+David Schaich (he): then every single one of the
+
+200
+00:19:56.260 --> 00:19:57.050
+David Schaich (he): so.
+
+201
+00:19:58.190 --> 00:19:58.900
+David Schaich (he): Yes.
+
+202
+00:19:59.960 --> 00:20:10.020
+David Schaich (he): 10 up and 20 spins in those 2 cases to get the energy of 0 oh, 2 and minus 10 to 0, and and is 5
+
+203
+00:20:11.220 --> 00:20:14.380
+David Schaich (he): and so.
+
+204
+00:20:20.190 --> 00:20:21.360
+David Schaich (he): and not to
+
+205
+00:20:25.880 --> 00:20:33.490
+David Schaich (he): contributions to the sum, is the product of the microstates in each of these 2 subsystems.
+
+206
+00:20:36.270 --> 00:20:39.170
+David Schaich (he): So the number of microstates, if we have
+
+207
+00:20:39.320 --> 00:20:46.600
+David Schaich (he): and spins all which have to be pointing upward. it's just one possibility there
+
+208
+00:20:47.330 --> 00:20:50.000
+David Schaich (he): possible
+
+209
+00:20:55.040 --> 00:20:59.870
+David Schaich (he): is Well. we have choosing those 5 over 20 space out there.
+
+210
+00:21:02.580 --> 00:21:06.490
+David Schaich (he): which is one times deal.
+
+211
+00:21:06.610 --> 00:21:09.550
+David Schaich (he): I know your coefficients
+
+212
+00:21:10.360 --> 00:21:14.230
+David Schaich (he): in factorial time, 6 over
+
+213
+00:21:19.320 --> 00:21:20.060
+David Schaich (he): so
+
+214
+00:21:22.590 --> 00:21:25.880
+David Schaich (he): 3 and 2 cancel up with 6, 5, and 4,
+
+215
+00:21:26.310 --> 00:21:27.150
+you see
+
+216
+00:21:28.290 --> 00:21:32.010
+David Schaich (he): 10. It's both to 2.
+
+217
+00:21:33.170 --> 00:21:34.890
+David Schaich (he): So overall this is
+
+218
+00:21:36.490 --> 00:21:43.260
+David Schaich (he): 4 times 7 6 5 9 times 7,
+
+219
+00:21:43.940 --> 00:21:45.630
+David Schaich (he): 63.
+
+220
+00:21:47.910 --> 00:21:48.640
+It is
+
+221
+00:21:49.060 --> 00:21:52.790
+David Schaich (he): 2, 52. We have 12 and 240,
+
+222
+00:21:52.980 --> 00:21:54.930
+David Schaich (he): so there are 250
+
+223
+00:21:55.330 --> 00:21:59.160
+David Schaich (he): micro face in the cell from this first term
+
+224
+00:21:59.280 --> 00:22:02.440
+David Schaich (he): the same number of yeah.
+
+225
+00:22:02.620 --> 00:22:09.640
+David Schaich (he): obviously configuration, where the values of the energy and the other pointing to the same, which is solved between those 2 cell systems
+
+226
+00:22:11.510 --> 00:22:12.650
+David Schaich (he): there, too.
+
+227
+00:22:13.830 --> 00:22:14.990
+David Schaich (he): Consider it
+
+228
+00:22:18.680 --> 00:22:22.630
+David Schaich (he): around the middle. where there's even distribution of
+
+229
+00:22:26.720 --> 00:22:27.430
+David Schaich (he): yeah.
+
+230
+00:22:29.890 --> 00:22:30.610
+David Schaich (he): yeah.
+
+231
+00:22:33.720 --> 00:22:35.220
+David Schaich (he): 10 shoes 8 times.
+
+232
+00:22:36.280 --> 00:22:37.750
+David Schaich (he): and she's 7,
+
+233
+00:22:39.780 --> 00:22:42.730
+David Schaich (he): the 10
+
+234
+00:22:43.750 --> 00:22:45.410
+David Schaich (he): over to
+
+235
+00:22:48.520 --> 00:22:49.210
+things.
+
+236
+00:22:53.890 --> 00:22:55.320
+David Schaich (he): That is.
+
+237
+00:22:56.840 --> 00:22:57.840
+David Schaich (he): we have
+
+238
+00:22:59.620 --> 00:23:02.120
+David Schaich (he): 5 times 9 is 45,
+
+239
+00:23:03.990 --> 00:23:05.960
+David Schaich (he): you know.
+
+240
+00:23:07.460 --> 00:23:12.420
+David Schaich (he): 2 can cancel up and 9, so it's 3 times, 4, it's 12 times 10.
+
+241
+00:23:16.270 --> 00:23:18.060
+David Schaich (he): Yeah, that that is a
+
+242
+00:23:20.490 --> 00:23:24.710
+David Schaich (he): larger number by about a factor of 20 compared to
+
+243
+00:23:25.040 --> 00:23:28.360
+David Schaich (he): the case of all the energy in one subsystem
+
+244
+00:23:28.480 --> 00:23:29.570
+David Schaich (he): or the other.
+
+245
+00:23:31.180 --> 00:23:32.860
+David Schaich (he): Practically look at
+
+246
+00:23:37.070 --> 00:23:38.780
+David Schaich (he): 5,400.
+
+247
+00:23:43.720 --> 00:23:45.610
+Be this exercise.
+
+248
+00:23:46.380 --> 00:23:49.030
+David Schaich (he): evaluating the sum
+
+249
+00:23:49.390 --> 00:23:51.840
+David Schaich (he): in total.
+
+250
+00:23:53.060 --> 00:23:57.730
+David Schaich (he): gives us the entropy which turns out to be just to know
+
+251
+00:23:58.490 --> 00:24:00.870
+David Schaich (he): 10% larger than
+
+252
+00:24:01.020 --> 00:24:13.820
+David Schaich (he): what we would estimate. Just from this we just turned into some that comes from the with symmetric distribution between those 2 different subsystems.
+
+253
+00:24:15.440 --> 00:24:17.930
+David Schaich (he): and what you will see, as you
+
+254
+00:24:19.740 --> 00:24:20.940
+David Schaich (he): go through
+
+255
+00:24:21.650 --> 00:24:28.420
+David Schaich (he): the more elaborate exercises for larger numbers of spins approaching the so called thermodynamic limit, where we
+
+256
+00:24:29.480 --> 00:24:30.340
+we have
+
+257
+00:24:30.370 --> 00:24:33.040
+David Schaich (he): 10 to the 23 degrees of freedom
+
+258
+00:24:35.450 --> 00:24:36.620
+David Schaich (he): is that
+
+259
+00:24:37.270 --> 00:24:39.640
+the ratio between
+
+260
+00:24:39.740 --> 00:24:49.670
+David Schaich (he): the largest and smallest terms in this zone in this case at 5,400 is
+
+261
+00:24:50.830 --> 00:24:52.090
+David Schaich (he): something like
+
+262
+00:24:53.930 --> 00:24:57.650
+David Schaich (he): 20 times larger than the case in which all the interview
+
+263
+00:24:57.670 --> 00:25:01.360
+David Schaich (he): is. and those 2 subsystems.
+
+264
+00:25:02.940 --> 00:25:05.560
+David Schaich (he): So we were to look at
+
+265
+00:25:05.580 --> 00:25:08.130
+David Schaich (he): this combined system with just
+
+266
+00:25:08.610 --> 00:25:13.130
+David Schaich (he): 10 plus 10 particles as it involves in the time
+
+267
+00:25:15.460 --> 00:25:18.580
+David Schaich (he): you would expect to see
+
+268
+00:25:21.820 --> 00:25:23.680
+David Schaich (he): that even distribution
+
+269
+00:25:26.980 --> 00:25:28.390
+David Schaich (he): of spins
+
+270
+00:25:28.770 --> 00:25:37.120
+David Schaich (he): across the 2. So we started off with all of the energy in one system or the other, and looked at the system again. A little while later
+
+271
+00:25:38.690 --> 00:25:42.640
+David Schaich (he): there is a high probability that we would see those spins more evenly distributed.
+
+272
+00:25:45.730 --> 00:25:50.500
+David Schaich (he): diffuse outward rather than all the clustered in one subsystem or the other.
+
+273
+00:25:51.680 --> 00:25:54.660
+David Schaich (he): and come personally, if we were to start with.
+
+274
+00:25:57.790 --> 00:26:05.790
+David Schaich (he): but not expected to all clump on one side or the other. just because there are many fewer microstates.
+
+275
+00:26:06.650 --> 00:26:16.280
+David Schaich (he): That's I'll respond to that. Each of those microstates has even has the same probability in thermodynamic equilibrium.
+
+276
+00:26:17.770 --> 00:26:19.130
+David Schaich (he): Yes, you all right.
+
+277
+00:26:21.420 --> 00:26:25.420
+David Schaich (he): Sorry about him too quickly. Thanks for that
+
+278
+00:26:26.460 --> 00:26:28.550
+David Schaich (he): correction. And then you know
+
+279
+00:26:29.710 --> 00:26:33.540
+David Schaich (he): what I just described. It's what we call
+
+280
+00:26:35.980 --> 00:26:39.490
+David Schaich (he): of this module, the arrow of time. How
+
+281
+00:26:41.980 --> 00:26:53.940
+David Schaich (he): we can expect initial state that is, unbalanced or balance system. but not the other way around. That's the exactly the same consideration to
+
+282
+00:26:56.750 --> 00:26:57.810
+David Schaich (he): in the
+
+283
+00:27:00.180 --> 00:27:03.750
+David Schaich (he): illustration of dialing the using through
+
+284
+00:27:03.970 --> 00:27:09.850
+David Schaich (he): a beaker of water that we also looked at. This is the.
+
+285
+00:27:10.080 --> 00:27:13.610
+David Schaich (he): and she would have everyday illustration of this. So last
+
+286
+00:27:13.680 --> 00:27:17.350
+David Schaich (he): 500 of the tutorial. Let's introduce the
+
+287
+00:27:21.770 --> 00:27:25.050
+David Schaich (he): other activity. That is
+
+288
+00:27:25.190 --> 00:27:26.620
+David Schaich (he): so. We've seen that
+
+289
+00:27:30.070 --> 00:27:32.760
+David Schaich (he): already. And with you
+
+290
+00:27:32.810 --> 00:27:34.720
+David Schaich (he): explore the
+
+291
+00:27:37.970 --> 00:27:39.010
+David Schaich (he): almost
+
+292
+00:27:43.320 --> 00:27:46.140
+David Schaich (he): used a few times in the lecture
+
+293
+00:27:47.320 --> 00:27:48.500
+David Schaich (he): and before
+
+294
+00:27:52.340 --> 00:27:53.400
+David Schaich (he): it's approximately.
+
+295
+00:27:54.290 --> 00:27:57.900
+David Schaich (he): and then
+
+296
+00:27:58.140 --> 00:28:00.280
+David Schaich (he): exponential or both size.
+
+297
+00:28:03.060 --> 00:28:03.960
+Okay.
+
+298
+00:28:06.510 --> 00:28:10.390
+David Schaich (he): But as you will be in
+
+299
+00:28:14.170 --> 00:28:15.770
+David Schaich (he): which is
+
+300
+00:28:16.830 --> 00:28:18.360
+David Schaich (he): through the power. And
+
+301
+00:28:20.510 --> 00:28:24.540
+David Schaich (he): so that's the an approximation that we've been using. We're in device.
+
+302
+00:28:24.970 --> 00:28:31.860
+David Schaich (he): smooth, continuous, and differential approximations to the factorial. Function.
+
+303
+00:28:33.500 --> 00:28:35.710
+David Schaich (he): And there is a
+
+304
+00:28:38.220 --> 00:28:39.550
+David Schaich (he): more precise
+
+305
+00:28:41.180 --> 00:28:43.770
+David Schaich (he): for this approximation in the form
+
+306
+00:28:49.600 --> 00:28:51.980
+David Schaich (he): a power series
+
+307
+00:28:52.240 --> 00:28:53.640
+pre-factor
+
+308
+00:28:53.770 --> 00:28:59.270
+David Schaich (he): So we have the end over ease with how it end factor that we're used to.
+
+309
+00:28:59.550 --> 00:29:03.730
+David Schaich (he): we can bring in actually a
+
+310
+00:29:03.980 --> 00:29:09.580
+David Schaich (he): a series of smaller and smaller corrections
+
+311
+00:29:11.190 --> 00:29:13.410
+David Schaich (he): suppressed by a power zone.
+
+312
+00:29:15.110 --> 00:29:16.040
+David Schaich (he): This
+
+313
+00:29:24.350 --> 00:29:39.190
+David Schaich (he): one interesting thing about this series is that it's actually what's called an asymptotic series. which is the statement that it has a vanishing radius of convergence. We' to sum up the infinitely many terms in the series that we always
+
+314
+00:29:39.250 --> 00:29:42.250
+David Schaich (he): diverge. If we were to truncate
+
+315
+00:29:43.440 --> 00:29:48.800
+David Schaich (he): the series at the appropriate order, and we can get very accurate
+
+316
+00:29:48.910 --> 00:29:55.890
+David Schaich (he): approximation, which is something that you can explore. Video activity for you to
+
+317
+00:29:56.360 --> 00:30:00.220
+David Schaich (he): do is actually to derive this in a few stages.
+
+318
+00:30:01.340 --> 00:30:03.720
+David Schaich (he): First stage is the simplest
+
+319
+00:30:04.180 --> 00:30:05.160
+David Schaich (he): where
+
+320
+00:30:08.340 --> 00:30:10.480
+David Schaich (he): it's not too hard to
+
+321
+00:30:19.230 --> 00:30:20.590
+David Schaich (he): i'm sure it is
+
+322
+00:30:21.000 --> 00:30:26.100
+David Schaich (he): greater than the minus N. So the corrections for the
+
+323
+00:30:26.110 --> 00:30:30.160
+David Schaich (he): our usual way of looking at this not necessarily positive.
+
+324
+00:30:34.000 --> 00:30:36.350
+David Schaich (he): and it's even easier to show that it is
+
+325
+00:30:36.360 --> 00:30:39.100
+David Schaich (he): less than
+
+326
+00:30:42.070 --> 00:30:43.500
+David Schaich (he): the first letter.
+
+327
+00:30:47.090 --> 00:30:54.070
+David Schaich (he): and this it's us to the standard for all we have been using.
+
+328
+00:30:56.680 --> 00:31:00.370
+David Schaich (he): Give you a second pass through the analysis and
+
+329
+00:31:00.700 --> 00:31:03.750
+David Schaich (he): provide that
+
+330
+00:31:03.870 --> 00:31:05.060
+David Schaich (he): pre-factor.
+
+331
+00:31:07.730 --> 00:31:09.600
+David Schaich (he): Sure it is approximately
+
+332
+00:31:10.610 --> 00:31:11.620
+David Schaich (he): to I
+
+333
+00:31:12.590 --> 00:31:17.290
+David Schaich (he): and over e to the end. So that's that first term in the series.
+
+334
+00:31:19.940 --> 00:31:23.090
+David Schaich (he): There are many ways to derive all of these panels.
+
+335
+00:31:27.470 --> 00:31:32.950
+David Schaich (he): If you need a way of approaching this approximation is to
+
+336
+00:31:32.960 --> 00:31:33.860
+sure
+
+337
+00:31:35.510 --> 00:31:46.350
+David Schaich (he): in factorial. it is given. My. So call you get to grow up to the power in
+
+338
+00:31:46.530 --> 00:31:50.390
+David Schaich (he): E to the call minus X integrated from 0 to infinity
+
+339
+00:31:53.910 --> 00:31:55.470
+David Schaich (he): approximate.
+
+340
+00:31:57.420 --> 00:31:58.520
+David Schaich (he): Yeah, it's a great
+
+341
+00:32:00.490 --> 00:32:07.840
+David Schaich (he): as a so exactly. And then do you?
+
+342
+00:32:10.960 --> 00:32:12.290
+David Schaich (he): Third stage
+
+343
+00:32:12.310 --> 00:32:14.800
+David Schaich (he): of the activity is to
+
+344
+00:32:17.790 --> 00:32:19.000
+David Schaich (he): compute
+
+345
+00:32:19.130 --> 00:32:27.610
+David Schaich (he): some of the power suppressed corrections to that leaving term. So that's cool AV: and so on.
+
+346
+00:32:28.690 --> 00:32:29.490
+David Schaich (he): Where
+
+347
+00:32:31.000 --> 00:32:38.210
+David Schaich (he): get there, anyway? So doing this. the first one is to compare
+
+348
+00:32:40.610 --> 00:32:45.200
+David Schaich (he): the approximations that we would have for in factorial
+
+349
+00:32:46.210 --> 00:32:50.420
+David Schaich (he): compared to. and
+
+350
+00:32:51.610 --> 00:32:52.480
+of the
+
+351
+00:32:52.640 --> 00:32:53.870
+David Schaich (he): in factorial.
+
+352
+00:32:54.940 --> 00:32:55.820
+David Schaich (he): so
+
+353
+00:32:56.620 --> 00:33:02.420
+David Schaich (he): takes us to the end of time for today, and gives you something to
+
+354
+00:33:03.360 --> 00:33:05.540
+David Schaich (he): play with over the coming week.
+
+355
+00:33:07.230 --> 00:33:10.350
+David Schaich (he): which is also
+
+356
+00:33:11.140 --> 00:33:13.330
+David Schaich (he): on canvas. I can
+
+357
+00:33:14.150 --> 00:33:17.540
+David Schaich (he): zoom out there and zoom in here
+
+358
+00:33:20.060 --> 00:33:28.740
+David Schaich (he): a few more comments about each of these free analyses, and in particular the way which this euler integral
+
+359
+00:33:30.020 --> 00:33:33.670
+David Schaich (he): can be approximated by Hey Gaussian?
+
+360
+00:33:35.730 --> 00:33:42.650
+David Schaich (he): I'll leave you with that for today. Questions about either of the
+
+361
+00:33:43.110 --> 00:33:47.790
+David Schaich (he): the entropy of 4. It's the setup for driving
+
+362
+00:33:48.480 --> 00:33:51.530
+David Schaich (he): several levels of
+
+363
+00:33:57.060 --> 00:33:58.470
+David Schaich (he): And what?
+
+364
+00:34:03.270 --> 00:34:07.860
+David Schaich (he): Yeah. So the number of microstates is the number of ways that we
+
+365
+00:34:07.950 --> 00:34:13.850
+David Schaich (he): and arrange. and plus of the total number and particles to be
+
+366
+00:34:15.440 --> 00:34:17.429
+David Schaich (he): directly in that direction.
+
+367
+00:34:17.960 --> 00:34:24.050
+David Schaich (he): So 2 of us
+
+368
+00:34:24.560 --> 00:34:25.179
+Okay.
+
+369
+00:34:28.190 --> 00:34:33.909
+David Schaich (he): So yeah, 2. And plus one is the total energy
+
+370
+00:34:34.679 --> 00:34:36.590
+you think about the way. So here.
+
+371
+00:34:36.639 --> 00:34:40.060
+David Schaich (he): in this example on the board, so.
+
+372
+00:34:40.219 --> 00:34:43.409
+David Schaich (he): looking at the projected notes, we have
+
+373
+00:34:45.060 --> 00:34:50.679
+David Schaich (he): a single sorry we have 3 upper. I would
+
+374
+00:34:51.280 --> 00:34:53.590
+David Schaich (he): instead of 4. And there are
+
+375
+00:34:54.120 --> 00:34:56.730
+David Schaich (he): 4 different ways that we could have that.
+
+376
+00:35:11.680 --> 00:35:16.270
+David Schaich (he): So that factor of 4 is counting the number of
+
+377
+00:35:16.430 --> 00:35:18.550
+David Schaich (he): positions that we can choose
+
+378
+00:35:22.080 --> 00:35:26.540
+David Schaich (he): by coefficients
+
+379
+00:35:28.080 --> 00:35:34.740
+David Schaich (he): choosing 3 of the 4 students to be pointing out for. and then that gives those factors of.
+
+380
+00:35:37.500 --> 00:35:38.320
+David Schaich (he): So.
+
+381
+00:35:40.820 --> 00:35:53.610
+David Schaich (he): seeing that if there any remaining questions. What? I'm off to office hours now. Looks like they're early people showing up in the whole, so I will
+
+382
+00:35:54.890 --> 00:35:57.770
+David Schaich (he): shut things down and see you again
+
+383
+00:35:58.280 --> 00:36:04.370
+David Schaich (he): Monday morning. We will make you so. Some of those downs on the
+
+384
+00:36:04.430 --> 00:36:06.550
+David Schaich (he): entropy that we have.
+
+385
+00:36:07.170 --> 00:36:08.530
+David Schaich (he): and exploring.
+
