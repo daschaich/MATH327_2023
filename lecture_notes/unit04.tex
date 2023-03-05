@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 4}
-\renewcommand{\moddate}{Last modified 28 Feb.~2023}
+\renewcommand{\moddate}{Last modified 5 Mar.~2023}
 \setcounter{section}{4}
 \setcounter{subsection}{0}
 \phantomsection
@@ -227,7 +227,7 @@ To find the entropy $S_C$ of the combined system, we just need to consider what 
 You should find $S_C = S_A + S_B$, which is consistent with the second law of thermodynamics.
 
 Things are more complicated when we re-separate the systems.
-Analogously to our considerations in \secref{sec:heat_ex}, we need to sum over all the possible ways of dividing the $2N$ indistinguishable particles between the two re-separated boxes.
+Analogously to our considerations in \secref{sec:heat_ex}, we need to sum over all the possible ways of dividing the $2N$ indistinguishable particles between the two re-separated boxes. % Attentive students might object that summing over many systems with different particle numbers seems inappropriate in the canonical context --- could respond that this serves to forecast the grand-canonical ensemble...
 In particular, we need to perform this sum at the stage of computing the partition function $Z'$ for $\Om_A' + \Om_B'$, since this is the fundamental quantity from which the entropy is then derived as $S' = \pderiv{}{T}\left(T\log Z'\right)$. % TODO: In other words, we have the logarithm of a sum rather than a sum of logarithms...
 In other words, we have to consider a logarithm of a sum rather than a sum of logarithms.
 
@@ -241,7 +241,7 @@ Summing over all possible values of $0 \leq \nu \leq 2N$,
   \implies & S_A' + S_B' = 2N \pderiv{}{T}\left(T\log \left[\frac{V}{\lath^3}\right]\right) - \log[(2N)!] + \log\left[\sum_{\nu = 0}^{2N} \binom{2N}{\nu}\right].
 \end{align*}
 This is a complicated expression.
-We can simplify it with an approximation considered by J.\ Willard Gibbs in the 1870s, which we explored in last week's tutorial. % TODO: Check synchronization...
+We can simplify it with an approximation considered by J.\ Willard Gibbs in the 1870s, which is motivated by some of our tutorial activities.
 For large $N \gg 1$, we saw that the entropy of two subsystems in thermal contact is nearly saturated by the case in which the energy is divided roughly evenly between the two subsystems, rather than being mostly in one of them.
 The same thing happens for two systems that are allowed to exchange particles: there are far more micro-states with particles divided roughly evenly between the two subsystems, $N_A' \approx N_B' \approx N$, compared to the particles being mostly in one of them.
 
@@ -262,8 +262,8 @@ we find that the entropy increases upon combining the two initial systems.
 This $\De S_{\mathrm{mix}} > 0$ is known as the \textbf{mixing entropy}.
 
 This result $S_C > S_A + S_B$ is what we would expect from the second law of thermodynamics.
-However, repeating the argument above---that we should have $N_A' \approx N_B' \approx N$ and therefore $S_A' + S_B' = S_A + S_B$ after re-separating the systems---would imply $S_A' + S_B' < S_C$, indicating a \textit{decrease} in the entropy by $\De S_{\mathrm{mix}}$ and an apparent violation of the second law.
-This is known as the `Gibbs paradox', though Gibbs himself explained how a paradox is avoided.
+However, repeating the argument above --- that we should have $N_A' \approx N_B' \approx N$ leading to $S_A' + S_B' = S_A + S_B$ after re-separating the systems --- would imply $S_A' + S_B' < S_C$, indicating a \textit{decrease} in the entropy by $\De S_{\mathrm{mix}}$ and an apparent violation of the second law.
+This is known as the `Gibbs paradox', though Gibbs himself explained how a paradox is avoided. % `Paradoxes' in mathematical sciences typically indicate you've done something wrong...
 
 The explanation is that because the particles are now distinguishable, $N_A' = N_A$ no longer suffices to establish $\Om_A' = \Om_A$ and $S_A' = S_A$.
 Recovering $\Om_A$ would additionally require that the $N_A'$ particles in the re-separated system are the \emph{same} distinguishable particles that were initially in $\Om_A$.
