@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 5}
-\renewcommand{\moddate}{Last modified 28 Feb.~2023}
+\renewcommand{\moddate}{Last modified 6 Mar.~2023}
 \setcounter{section}{5}
 \setcounter{subsection}{0}
 \phantomsection
@@ -8,7 +8,7 @@
 \section*{Unit 5: Thermodynamic cycles}
 \subsection{\label{sec:work}Work, pressure and force}
 In the previous section we defined the pressure of a canonical ideal gas as the thermodynamic response of the internal energy to an isentropic change in the volume (\eq{eq:pressure}).
-At the same time, we motivated this definition by thinking about `squeezing' the system---exerting a force on it---which suggests a connection between pressure and force.
+At the same time, we motivated this definition by thinking about `squeezing' the system --- exerting a force on it --- which suggests a connection between pressure and force.
 Here we make this connection explicit by considering how the energy of an object changes when a force acts on it.
 
 Let's begin by considering a single object at position $\vec r = (x, y, z)$, and suppose it is displaced by a vector $d\vec r$ due to a force $\vec F(\vec r)$.
@@ -37,7 +37,7 @@ We can formalize this relation by considering the setup shown below (from Schroe
 \end{center}
 
 Here we have an ideal gas in a container of volume $V$, with one wall of that container being a piston that we can move by applying a force $F$.
-Let's demand that this process is isentropic---it does not change the entropy of the gas.
+Let's demand that this process is isentropic, leaving the entropy of the gas constant.
 The displacement $\De x$ shown in the figure reduces the volume of the gas, by $\De V = -A\De x < 0$ where $A$ is the surface area of the piston.
 Since the force $F$ is parallel to the piston's displacement $\De x$, it does positive work $W = F\De x > 0$.
 Therefore the internal energy of the gas increases by $\De\!\vev{E} = W$, at the same time as its volume decreases isentropically, so from \eq{eq:pressure} we have
@@ -60,7 +60,7 @@ However, as we will see in the next section, the non-constant entropy will intro
 Later we will be interested in using the gas as a thermodynamic engine that \textit{does work on} its surroundings.
 This removes energy from the gas, corresponding to a negative $W < 0$, and we will need to be careful to keep track of the negative signs and their physical meaning.
 
-Of course, as we change the volume of the gas, the pressure itself may change as described by the gas's equation of state---such as the ideal gas law, \eq{eq:ideal_gas_law}.
+Of course, as we change the volume of the gas, the pressure itself may change as described by the gas's equation of state --- such as the ideal gas law, \eq{eq:ideal_gas_law}.
 Recall that we are fixing the particle number $N$ in order to work with the canonical ensemble.
 With the equation of state providing an expression $P(V)$ for the pressure as a function of the volume, \eq{eq:work_constP} generalizes to
 \begin{equation}
