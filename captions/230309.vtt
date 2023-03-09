@@ -1,0 +1,1806 @@
+WEBVTT
+
+1
+00:00:01.910 --> 00:00:07.680
+David Schaich (he): Okay, we'll go ahead and get the recording underway for those who were able to
+
+2
+00:00:09.250 --> 00:00:11.400
+David Schaich (he): make it in person
+
+3
+00:00:12.480 --> 00:00:13.560
+David Schaich (he): here on the
+
+4
+00:00:13.960 --> 00:00:17.200
+David Schaich (he): snowiest day of the year so far. It's a Thursday morning,
+
+5
+00:00:21.180 --> 00:00:24.340
+David Schaich (he): the ninth of March, for
+
+6
+00:00:25.360 --> 00:00:29.370
+David Schaich (he): which I have 6-digit code:
+
+7
+00:00:30.570 --> 00:00:36.270
+David Schaich (he): 5, 7, 7, 7, 3, 7.
+
+8
+00:00:38.580 --> 00:00:39.770
+David Schaich (he): And, let's
+
+9
+00:00:42.400 --> 00:00:43.850
+David Schaich (he): see now, just wait a bit here for things to come into focus.
+
+10
+00:00:58.280 --> 00:01:02.370
+David Schaich (he): So, there are several things on the agenda today,
+
+11
+00:01:03.680 --> 00:01:14.330
+David Schaich (he): and, of course, as a tutorial, we are flexible if any of you want to ask any questions about any aspects of the module so far.
+
+12
+00:01:16.220 --> 00:01:22.730
+David Schaich (he): The computer projects marking should have been returned to you with feedback
+
+13
+00:01:22.910 --> 00:01:35.740
+David Schaich (he): yesterday. And there's a couple of quick things to say about that, followed by wrapping up the 2 activities
+
+14
+00:01:36.980 --> 00:01:43.120
+David Schaich (he): introduced last week --- the entropy bounds that we made use of on Monday,
+
+15
+00:01:46.170 --> 00:01:47.660
+David Schaich (he): and derivations of Stirling's formula at
+
+16
+00:01:51.940 --> 00:01:55.110
+David Schaich (he): various levels of accuracy.
+
+17
+00:01:55.260 --> 00:01:58.390
+David Schaich (he): Then we should introduce some new activity
+
+18
+00:01:59.450 --> 00:02:03.250
+David Schaich (he): for you to work on over the coming week, which
+
+19
+00:02:03.550 --> 00:02:05.240
+as promised on Tuesday will look
+
+20
+00:02:05.930 --> 00:02:11.490
+David Schaich (he): in a bit more detail at the mixing entropy and ensuring that the
+
+21
+00:02:11.620 --> 00:02:14.770
+David Schaich (he): second law of thermodynamics holds
+
+22
+00:02:14.870 --> 00:02:28.500
+David Schaich (he): in a simplified version of the thought experiment we went through in the lecture. Starting off with a computer project,
+
+23
+00:02:29.240 --> 00:02:30.390
+David Schaich (he): there were
+
+24
+00:02:31.920 --> 00:02:39.460
+David Schaich (he): quite a few excellent solutions there that we're essentially perfect. I met a few others that
+
+25
+00:02:39.680 --> 00:02:42.440
+David Schaich (he): struggle without any really
+
+26
+00:02:42.750 --> 00:02:46.690
+David Schaich (he): common issues, if things didn't go along for folks that tended to go on
+
+27
+00:02:46.850 --> 00:02:49.610
+David Schaich (he): all in different ways. But one.
+
+28
+00:02:51.350 --> 00:03:02.950
+David Schaich (he): maybe 2 aspects of the computer project that may be worth mentioning is. first, that the solutions are on the canvas site, and it might be worth
+
+29
+00:03:03.190 --> 00:03:05.510
+David Schaich (he): looking through these if they
+
+30
+00:03:05.950 --> 00:03:08.960
+David Schaich (he): here to load. In this screen.
+
+31
+00:03:10.150 --> 00:03:11.280
+David Schaich (he): The Pdf.
+
+32
+00:03:12.360 --> 00:03:18.130
+David Schaich (he): Includes the Python code, which is also uploaded separately. or folks to download it.
+
+33
+00:03:18.770 --> 00:03:20.340
+David Schaich (he): And if
+
+34
+00:03:20.480 --> 00:03:22.120
+David Schaich (he): everything goes away.
+
+35
+00:03:23.710 --> 00:03:30.260
+David Schaich (he): what this provides, which might be interesting is sort of ball python code that
+
+36
+00:03:31.050 --> 00:03:38.210
+David Schaich (he): it's not very fancy it's python code goes. I sort of did the most simplest and straightforward thing, because I know
+
+37
+00:03:38.240 --> 00:03:46.310
+David Schaich (he): so much of an expert in python, at least, compared to some of you who were doing things in much more. By the way.
+
+38
+00:03:47.330 --> 00:03:51.070
+David Schaich (he): I did it make an effort to keep things
+
+39
+00:03:51.440 --> 00:03:56.170
+David Schaich (he): fairly compact and within, say a single page for each of the parts here
+
+40
+00:03:56.570 --> 00:04:03.880
+David Schaich (he): by doing things like and say, exercise 3 B. Looping over the
+
+41
+00:04:04.540 --> 00:04:10.870
+David Schaich (he): numbers of repetitions that we have, rather than repeating this walk of code separately for each one. There's nothing
+
+42
+00:04:10.890 --> 00:04:14.570
+David Schaich (he): wrong with it that sort of repetition. What it does is
+
+43
+00:04:14.760 --> 00:04:21.470
+David Schaich (he): I have for you to go through more work, and also provide a few more opportunities for things to go wrong.
+
+44
+00:04:22.710 --> 00:04:29.950
+David Schaich (he): One other aspect of the computer project that may be worth touching on briefly. which
+
+45
+00:04:30.410 --> 00:04:34.010
+David Schaich (he): I uploaded some comments also on canvas
+
+46
+00:04:35.140 --> 00:04:38.230
+David Schaich (he): If they load. What's the
+
+47
+00:04:38.740 --> 00:04:42.000
+David Schaich (he): script in exercises 3 and 5
+
+48
+00:04:42.240 --> 00:04:43.590
+David Schaich (he): of using
+
+49
+00:04:45.630 --> 00:04:48.750
+David Schaich (he): correlated random walks. Hmm!
+
+50
+00:04:49.680 --> 00:05:01.440
+David Schaich (he): Rather than going through and doing separate walks for each of the and steps that were requested. So in both exercises, 3 and 5, we wanted to look at
+
+51
+00:05:01.560 --> 00:05:08.250
+David Schaich (he): random walks of every single step for one up to 500, and there were 2 ways to do this.
+
+52
+00:05:08.440 --> 00:05:18.600
+David Schaich (he): One is suggested in the demo was just to generate 500 step walks and extract the first step or the first 2 steps of those as one or 2 step walks
+
+53
+00:05:18.790 --> 00:05:23.940
+David Schaich (he): that we're already lying around from the work being done for the maximum length.
+
+54
+00:05:24.940 --> 00:05:29.650
+David Schaich (he): The other way was the brute force approach of running everything independently
+
+55
+00:05:29.770 --> 00:05:37.690
+David Schaich (he): which those 2 setups produce. These 2 sets of results on the left and right.
+
+56
+00:05:39.400 --> 00:05:48.270
+David Schaich (he): and I think it was about half and half in terms of which students chose to make use of that suggested trick, and which just
+
+57
+00:05:48.510 --> 00:05:55.900
+David Schaich (he): could be more straightforward thing of independent calculations for every length of walk
+
+58
+00:05:57.030 --> 00:06:02.500
+David Schaich (he): and part of the motivation for doing things independently might have been concerns about
+
+59
+00:06:03.120 --> 00:06:06.660
+David Schaich (he): the correlations that resolve a result.
+
+60
+00:06:07.030 --> 00:06:20.250
+David Schaich (he): If walks out, we used in this sort of way. You can see that what things are we used. The points are much smoother, and, in fact, artificially smoother. They kind of hide
+
+61
+00:06:20.680 --> 00:06:22.340
+David Schaich (he): the random, his that
+
+62
+00:06:22.420 --> 00:06:26.160
+David Schaich (he): is there, coming from the underlying random number sampling
+
+63
+00:06:26.210 --> 00:06:27.230
+David Schaich (he): in that
+
+64
+00:06:27.660 --> 00:06:29.940
+David Schaich (he): full calculation
+
+65
+00:06:30.480 --> 00:06:34.980
+David Schaich (he): of what this comment is doing is showing that
+
+66
+00:06:35.060 --> 00:06:44.230
+David Schaich (he): the overall results in terms of the functional form proportional to the square root of N. As well as the particular constants.
+
+67
+00:06:44.280 --> 00:06:55.740
+David Schaich (he): the vanishing intercept. see, and this concept of proportion led about to be the same to several degrees. Several of significant figures.
+
+68
+00:06:55.860 --> 00:06:57.530
+David Schaich (he): also in agreement with
+
+69
+00:06:58.000 --> 00:07:02.580
+David Schaich (he): the exact results in this case from the central limit theorem.
+
+70
+00:07:03.560 --> 00:07:11.530
+David Schaich (he): So the main difference ends up being that the trick speeds up the calculation by more than a 100 times
+
+71
+00:07:11.940 --> 00:07:15.720
+David Schaich (he): without significantly changing the results that are coming out.
+
+72
+00:07:16.440 --> 00:07:28.010
+David Schaich (he): I will say the changes look more significant for exercise. 5. The anomalous diffusion case where we are dealing with that Kosher Lorenz distribution. and as fatales that allow occasional
+
+73
+00:07:28.260 --> 00:07:32.260
+David Schaich (he): extreme fluctuations in the step size.
+
+74
+00:07:32.950 --> 00:07:35.950
+David Schaich (he): so especially with this large data.
+
+75
+00:07:35.960 --> 00:07:42.920
+David Schaich (he): 4.9. The independent points visually fluctuate a lot more than they do.
+
+76
+00:07:43.100 --> 00:07:47.280
+David Schaich (he): Let me just look at some sections of a single walk.
+
+77
+00:07:48.530 --> 00:07:55.070
+David Schaich (he): There's a much less fluctuation for smaller, theta because what this data is really doing.
+
+78
+00:07:55.470 --> 00:07:58.310
+David Schaich (he): and the calculations suppressing those
+
+79
+00:07:58.670 --> 00:08:12.340
+David Schaich (he): occasional big steps. But despite the difference in appearance between these 2 figures. note that the vertical axis increases by more than an order of magnitude.
+
+80
+00:08:12.720 --> 00:08:24.250
+David Schaich (he): The results of power. Law fits again come out to be the same to several significant figures, for the most part with a bit more sensitivity to fluctuations for that larger theta so
+
+81
+00:08:24.670 --> 00:08:28.370
+David Schaich (he): both approaches are in this case again with
+
+82
+00:08:29.340 --> 00:08:32.799
+David Schaich (he): a fast speed up from the trick which
+
+83
+00:08:32.990 --> 00:08:37.280
+David Schaich (he): but it kept you from having to wait too long for it. thanks to Ron.
+
+84
+00:08:38.730 --> 00:08:46.020
+David Schaich (he): So what could be interesting as Apollo to this is to actually estimate the uncertainties. obvious results
+
+85
+00:08:46.600 --> 00:08:50.500
+David Schaich (he): kind of beyond the scope of the project coming on here.
+
+86
+00:08:50.750 --> 00:09:02.420
+David Schaich (he): But to see how many of these significant figures we can actually trust. I figure I can leave the solutions here for you to look through unless there are
+
+87
+00:09:02.710 --> 00:09:05.760
+David Schaich (he): questions about that.
+
+88
+00:09:12.440 --> 00:09:17.130
+David Schaich (he): Not hearing any immediately move on to
+
+89
+00:09:18.170 --> 00:09:20.730
+David Schaich (he): again going quickly through.
+
+90
+00:09:20.910 --> 00:09:21.820
+David Schaich (he): Yeah.
+
+91
+00:09:21.910 --> 00:09:25.850
+David Schaich (he): First couple of points on the plan for today
+
+92
+00:09:26.070 --> 00:09:30.950
+David Schaich (he): to you entropy bound activity that we looked at
+
+93
+00:09:33.860 --> 00:09:38.340
+David Schaich (he): last in last Week's tutorial we already discussed
+
+94
+00:09:40.370 --> 00:09:44.360
+David Schaich (he): in last week's tutorial again that this Pdf. Ever here is to.
+
+95
+00:09:44.730 --> 00:09:47.510
+David Schaich (he): She was face on the screen.
+
+96
+00:09:50.450 --> 00:09:53.130
+David Schaich (he): We went through just a few minutes. This case of
+
+97
+00:09:54.260 --> 00:09:57.880
+David Schaich (he): having 2 systems with 10 spins each. They fixed
+
+98
+00:09:58.030 --> 00:10:07.120
+David Schaich (he): number of fixed total amounts of energy equals minus 10 units. That external magnetic field set to one. and found that
+
+99
+00:10:08.460 --> 00:10:20.170
+David Schaich (he): just looking at the single, most likely. and vision of those energies accounted for almost 90% of the total entropy
+
+100
+00:10:20.670 --> 00:10:28.140
+David Schaich (he): of those 2 systems after they are we separated in our heat exchange?
+
+101
+00:10:29.790 --> 00:10:34.250
+David Schaich (he): It's all experiment that is being redone to an extent in terms of the
+
+102
+00:10:34.430 --> 00:10:37.040
+David Schaich (he): particle, exchange, and mixing interview this week.
+
+103
+00:10:38.370 --> 00:10:41.400
+David Schaich (he): and what
+
+104
+00:10:42.420 --> 00:10:45.800
+David Schaich (he): becomes useful as the number of spins
+
+105
+00:10:45.820 --> 00:10:48.880
+David Schaich (he): increases. So recall that
+
+106
+00:10:50.380 --> 00:10:53.230
+David Schaich (he): in this the end of this activity.
+
+107
+00:10:54.930 --> 00:10:56.280
+David Schaich (he): after dealing with
+
+108
+00:10:57.460 --> 00:11:02.280
+David Schaich (he): 10 spins in each of the 2 subsystems. The question was, how does this change?
+
+109
+00:11:02.420 --> 00:11:04.900
+David Schaich (he): As the system size increases.
+
+110
+00:11:06.150 --> 00:11:07.550
+David Schaich (he): based on the
+
+111
+00:11:08.750 --> 00:11:21.940
+David Schaich (he): rough illustration that we. to motivate these balance, we expect much tighter bounds as the number of degrees of freedom increases. And this is something that
+
+112
+00:11:24.370 --> 00:11:26.160
+David Schaich (he): it comes useful to
+
+113
+00:11:26.380 --> 00:11:28.220
+David Schaich (he): automate, which
+
+114
+00:11:30.170 --> 00:11:41.520
+David Schaich (he): is done in the Python code that has been also uploaded to canvas. My experience can. This
+
+115
+00:11:45.630 --> 00:11:48.970
+David Schaich (he): does not play nicely with that code. It just has to be downloaded
+
+116
+00:11:49.010 --> 00:11:52.260
+David Schaich (he): and rerun that, or upload into
+
+117
+00:11:54.180 --> 00:11:56.130
+David Schaich (he): system like
+
+118
+00:11:57.490 --> 00:11:59.470
+David Schaich (he): it's Google Collaboratory.
+
+119
+00:12:00.520 --> 00:12:02.500
+David Schaich (he): or I should be able to
+
+120
+00:12:09.190 --> 00:12:11.620
+David Schaich (he): one in. I remember it.
+
+121
+00:12:12.200 --> 00:12:15.120
+David Schaich (he): a password and
+
+122
+00:12:17.110 --> 00:12:21.260
+David Schaich (he): 2 step 2 factor authentication.
+
+123
+00:12:28.810 --> 00:12:32.430
+David Schaich (he): There is that. And
+
+124
+00:12:39.000 --> 00:12:42.360
+David Schaich (he): here are entropy bounds.
+
+125
+00:12:47.340 --> 00:12:50.410
+David Schaich (he): Zoom in a bit to make it more visible.
+
+126
+00:12:53.620 --> 00:12:56.020
+David Schaich (he): Essentially a simple python code. Now that you've
+
+127
+00:12:56.160 --> 00:13:03.130
+David Schaich (he): gone through the exercise of that computer project where everyone did choose to use python rather than
+
+128
+00:13:03.140 --> 00:13:14.240
+David Schaich (he): things like that. Other solutions. We just have a simple for loop that goes through all the possible ways of distributing
+
+129
+00:13:14.250 --> 00:13:18.850
+David Schaich (he): a fixed total amount of energy between 2 subsystems.
+
+130
+00:13:20.670 --> 00:13:23.860
+David Schaich (he): You check all possible amounts of energy
+
+131
+00:13:23.890 --> 00:13:25.780
+David Schaich (he): in those 2 subsystems.
+
+132
+00:13:27.240 --> 00:13:29.930
+David Schaich (he): skip any division that
+
+133
+00:13:30.040 --> 00:13:39.680
+David Schaich (he): goes beyond the number of spins that are available. and then just compute using a scientific python routine
+
+134
+00:13:41.120 --> 00:13:45.760
+David Schaich (he): that gives us the binomial coefficients. She is the
+
+135
+00:13:47.270 --> 00:13:56.120
+David Schaich (he): multiplicity of each subsystem with a given amount of energy depending on the number of spins that it has.
+
+136
+00:13:56.200 --> 00:13:58.910
+David Schaich (he): We went through last week already.
+
+137
+00:13:59.100 --> 00:14:00.870
+David Schaich (he): Multiply those together.
+
+138
+00:14:00.990 --> 00:14:03.420
+David Schaich (he): And then, as we go through.
+
+139
+00:14:03.470 --> 00:14:04.900
+David Schaich (he): keep track. Of
+
+140
+00:14:06.590 --> 00:14:07.850
+David Schaich (he): which of these
+
+141
+00:14:10.570 --> 00:14:14.730
+David Schaich (he): contributions to that total energy is the largest, that maximum.
+
+142
+00:14:14.920 --> 00:14:17.650
+David Schaich (he): and compared the entropy coming from that
+
+143
+00:14:17.870 --> 00:14:22.580
+David Schaich (he): to the true entropy, along the total number of terms which we can
+
+144
+00:14:22.630 --> 00:14:24.680
+David Schaich (he): also account, just using
+
+145
+00:14:25.990 --> 00:14:37.200
+David Schaich (he): some simple I utilities. So repeating, we're running this for and spin. Will repeats what we went through by hand last week.
+
+146
+00:14:40.040 --> 00:14:43.300
+David Schaich (he): Once it connects and rooms.
+
+147
+00:14:53.190 --> 00:14:56.100
+David Schaich (he): it is unhappy because
+
+148
+00:14:58.110 --> 00:15:10.700
+David Schaich (he): it's a plus sign at the start. It ran in half a second to again. We reproduce just what we saw by hand. 5,400 is the largest term.
+
+149
+00:15:10.750 --> 00:15:23.100
+David Schaich (he): The maximum is 15 and a half 1,000. And then do you largest single largest term accounts for 90% of the entropy. And it becomes easy to
+
+150
+00:15:23.930 --> 00:15:25.290
+David Schaich (he): we run this
+
+151
+00:15:26.300 --> 00:15:38.030
+David Schaich (he): with larger numbers of end. Where there are more ways of dividing the energy between the 2 systems, it can have. plus 80 units on one side, minus 90 on the other to get that
+
+152
+00:15:38.070 --> 00:15:39.620
+David Schaich (he): fixed minus 10.
+
+153
+00:15:41.160 --> 00:15:42.320
+David Schaich (he): No, I've heard it.
+
+154
+00:15:42.830 --> 00:15:49.980
+David Schaich (he): 96 terms in the full entropy, ending up to a total of about 10 to the power, 58
+
+155
+00:15:50.140 --> 00:15:53.610
+David Schaich (he): of which the single most powerful division.
+
+156
+00:15:56.790 --> 00:16:07.710
+David Schaich (he): right here, minus 4. On one side one is 6, on the other accounts for about 8 times 10 to the 57 of those or 98 of the entropy.
+
+157
+00:16:08.920 --> 00:16:20.820
+David Schaich (he): By the time we have 500 spin still enormously smaller than the and the power 23 degrees of freedom that come from oligarchs. Number. Well with him one of
+
+158
+00:16:21.040 --> 00:16:22.530
+David Schaich (he): that total entry.
+
+159
+00:16:25.460 --> 00:16:36.690
+David Schaich (he): a few play with this code. You will see that it those breakdown. Not for 500, but rather now 500, 20. Yeah.
+
+160
+00:16:39.930 --> 00:16:43.370
+David Schaich (he): We end up with infinities. And
+
+161
+00:16:43.950 --> 00:16:46.340
+David Schaich (he): now the number results.
+
+162
+00:16:47.390 --> 00:16:59.930
+David Schaich (he): which is what that N. A n stands. For what's happening here is that the numbers become so large. We take the factorial of See
+
+163
+00:17:00.230 --> 00:17:05.010
+David Schaich (he): 156 factorial. No
+
+164
+00:17:05.780 --> 00:17:18.530
+David Schaich (he): giving up to Here we are. since we hit about 234 factorial that overflows the range of numbers that python is able to handle it.
+
+165
+00:17:19.140 --> 00:17:21.740
+David Schaich (he): 64 bit representation.
+
+166
+00:17:22.410 --> 00:17:29.570
+David Schaich (he): at least out of the box in the simple way. and some fancier programming would have to be done to
+
+167
+00:17:31.080 --> 00:17:32.360
+David Schaich (he): handle that.
+
+168
+00:17:34.670 --> 00:17:45.920
+David Schaich (he): And that is all I had planned to say about these interview bounds again, unless there are questions about them just wrapping up the stuff you've been able to play with
+
+169
+00:17:46.820 --> 00:17:48.310
+David Schaich (he): over the past week.
+
+170
+00:17:51.600 --> 00:17:55.700
+David Schaich (he): In that hearing any questions I know
+
+171
+00:18:00.050 --> 00:18:10.460
+David Schaich (he): again quickly move on to maybe the more substantial activity which were these 3 derivations of
+
+172
+00:18:13.700 --> 00:18:18.300
+David Schaich (he): Sterling's formula at a different levels, so
+
+173
+00:18:18.710 --> 00:18:27.290
+David Schaich (he): first quick checks that the logarithm of this n factorial was bounded by and log in on the one side
+
+174
+00:18:27.500 --> 00:18:30.690
+David Schaich (he): and log in minus N on the other.
+
+175
+00:18:32.550 --> 00:18:41.350
+David Schaich (he): So this is not quite establishing the leading terms of Sirlings formula. but at least
+
+176
+00:18:42.870 --> 00:18:48.030
+David Schaich (he): confirming that they are reasonable, and in that first term as an overestimate.
+
+177
+00:18:48.250 --> 00:18:53.610
+David Schaich (he): and once that end is attracted, we get an underestimate. I see true value.
+
+178
+00:18:55.510 --> 00:18:56.480
+David Schaich (he): and
+
+179
+00:18:58.300 --> 00:19:14.360
+David Schaich (he): some comments in Python code. for these calculations have been uploaded, and I won't go through a detail or the balance which sort of one line calculations doing that in factorial is the product of N. Times n minus one times that minus 2, and so on.
+
+180
+00:19:14.600 --> 00:19:20.180
+David Schaich (he): So replacing those end terms all by end, gives us a larger number. That is just that to the Admin.
+
+181
+00:19:20.790 --> 00:19:25.650
+David Schaich (he): And similarly in the series, expansion for each of the power, and
+
+182
+00:19:26.000 --> 00:19:34.840
+David Schaich (he): there is one particular term. it has an end to the power, and divided by in vectorial. All the other terms are
+
+183
+00:19:35.580 --> 00:19:38.970
+David Schaich (he): making a positive contribution to this series.
+
+184
+00:19:39.130 --> 00:19:47.710
+David Schaich (he): So we can just rearrange with that n factorial on the left E to the power and on the right. and we get the other bound
+
+185
+00:19:48.440 --> 00:19:51.490
+David Schaich (he): that the logarithm of n factorial is larger
+
+186
+00:19:51.630 --> 00:19:54.400
+David Schaich (he): in the log of them. Of this fraction.
+
+187
+00:20:00.890 --> 00:20:01.850
+David Schaich (he): The
+
+188
+00:20:05.220 --> 00:20:06.370
+David Schaich (he): second
+
+189
+00:20:08.230 --> 00:20:09.880
+David Schaich (he): derivation in
+
+190
+00:20:11.390 --> 00:20:14.640
+David Schaich (he): this main activity from last week is a
+
+191
+00:20:14.820 --> 00:20:16.350
+David Schaich (he): less trivial one.
+
+192
+00:20:17.540 --> 00:20:18.390
+David Schaich (he): which
+
+193
+00:20:19.920 --> 00:20:22.870
+David Schaich (he): maybe worth actually saying that
+
+194
+00:20:23.700 --> 00:20:26.460
+David Schaich (he): things about for more than a minute.
+
+195
+00:20:27.840 --> 00:20:34.480
+David Schaich (he): The first task was to relate in factorial to It's so called boy learning to roll
+
+196
+00:20:36.770 --> 00:20:38.220
+David Schaich (he): Basically, by.
+
+197
+00:20:38.690 --> 00:20:45.220
+David Schaich (he): Well, there are several ways of doing this because it's a fundamental mathematical relation that can be
+
+198
+00:20:46.410 --> 00:20:50.250
+David Schaich (he): determined in. anyway. Please.
+
+199
+00:20:51.760 --> 00:20:54.460
+David Schaich (he): Yeah. What I suggested was to
+
+200
+00:20:56.790 --> 00:20:58.920
+David Schaich (he): look at derivatives
+
+201
+00:20:59.010 --> 00:21:02.710
+David Schaich (he): of that integral one side
+
+202
+00:21:04.410 --> 00:21:08.040
+David Schaich (he): so minus a x, the
+
+203
+00:21:08.510 --> 00:21:09.430
+people to
+
+204
+00:21:10.160 --> 00:21:12.920
+David Schaich (he): one over a or a to the power minus one.
+
+205
+00:21:14.440 --> 00:21:22.410
+David Schaich (he): to take him a derivative with respect to a of both sides. that equality Bring down.
+
+206
+00:21:23.700 --> 00:21:25.770
+David Schaich (he): Okay, my, this X
+
+207
+00:21:30.950 --> 00:21:40.620
+David Schaich (he): one over a squared. taking another derivative of that over another effect, really minus X
+
+208
+00:21:41.190 --> 00:21:46.270
+David Schaich (he): on the left, minus signs. You cancel off on the left or right at each of these stages.
+
+209
+00:21:46.590 --> 00:21:47.340
+David Schaich (he): What it is
+
+210
+00:21:47.480 --> 00:21:54.280
+David Schaich (he): 2 a. To the minus 3. The next to it gives 3 times 2 is 6, a. To the minus 4,
+
+211
+00:21:55.210 --> 00:22:04.620
+David Schaich (he): and so on. where we get to. Yes. it's derivative on the left hand side we have.
+
+212
+00:22:06.920 --> 00:22:09.750
+David Schaich (he): and the factors of minus X
+
+213
+00:22:10.450 --> 00:22:13.750
+David Schaich (he): and with the exponential unaffected.
+
+214
+00:22:15.160 --> 00:22:17.520
+David Schaich (he): And then. yeah, minus one
+
+215
+00:22:17.920 --> 00:22:21.230
+David Schaich (he): to the end, chances on both sides
+
+216
+00:22:21.690 --> 00:22:35.970
+David Schaich (he): the n factorial from to you. one over a to the end, powers continuing to increase the final paid. the minus n plus one. which we can then set to a fixed value of one.
+
+217
+00:22:36.510 --> 00:22:37.540
+This expression
+
+218
+00:22:39.160 --> 00:22:40.480
+David Schaich (he): cancel all those
+
+219
+00:22:45.350 --> 00:22:51.860
+David Schaich (he): desire to E to the minus X is just separated
+
+220
+00:22:53.140 --> 00:22:54.550
+David Schaich (he): and factorial.
+
+221
+00:22:57.540 --> 00:23:10.730
+David Schaich (he): Then the next step. this way of derived external formula was to see whether this integral could be approximated.
+
+222
+00:23:11.980 --> 00:23:15.680
+David Schaich (he): my Gaussian around its maximum value.
+
+223
+00:23:17.340 --> 00:23:18.110
+David Schaich (he): and it.
+
+224
+00:23:18.820 --> 00:23:26.360
+David Schaich (he): I assume you had no difficulty, seeing that the maximum value is at X. Equals, N.
+
+225
+00:23:26.720 --> 00:23:32.490
+David Schaich (he): It's reported derivative that we can go through if there are questions about it.
+
+226
+00:23:34.920 --> 00:23:35.890
+David Schaich (he): So
+
+227
+00:23:37.610 --> 00:23:38.710
+David Schaich (he): before it
+
+228
+00:23:40.190 --> 00:23:45.600
+David Schaich (he): going into detailed calculations of derivatives.
+
+229
+00:23:48.220 --> 00:23:52.370
+David Schaich (he): I can head back to It's collaboratorial
+
+230
+00:23:53.520 --> 00:23:55.270
+David Schaich (he): here, and
+
+231
+00:23:56.790 --> 00:24:04.110
+David Schaich (he): mentioned that there is again some Python code related to Sterling's formula on the canvas site.
+
+232
+00:24:05.220 --> 00:24:07.640
+David Schaich (he): This one and the first thing
+
+233
+00:24:07.850 --> 00:24:09.390
+David Schaich (he): that we do here
+
+234
+00:24:10.420 --> 00:24:11.820
+David Schaich (he): is actually
+
+235
+00:24:13.280 --> 00:24:16.100
+David Schaich (he): compare the
+
+236
+00:24:18.670 --> 00:24:22.880
+David Schaich (he): integrand of this integral, so X over
+
+237
+00:24:23.200 --> 00:24:26.950
+David Schaich (he): X to the power N. Times, E. To the minus x
+
+238
+00:24:27.000 --> 00:24:32.840
+David Schaich (he): normalized by that maximum value. When X equals N. This becomes end of the end
+
+239
+00:24:32.870 --> 00:24:34.650
+David Schaich (he): E to the minus. And so that's
+
+240
+00:24:36.140 --> 00:24:40.590
+David Schaich (he): why some extra ends are showing up in the integrand here. So that is the
+
+241
+00:24:40.780 --> 00:24:45.650
+David Schaich (he): sell, a black curve. It's normalized to have a maximum, that one.
+
+242
+00:24:45.850 --> 00:24:48.180
+David Schaich (he): and we are comparing that to
+
+243
+00:24:48.330 --> 00:24:49.150
+David Schaich (he): the
+
+244
+00:24:50.250 --> 00:24:52.850
+David Schaich (he): Gaussian, integral again, normalized.
+
+245
+00:24:53.130 --> 00:24:54.400
+expanded in
+
+246
+00:24:54.600 --> 00:24:55.480
+David Schaich (he): that
+
+247
+00:24:59.590 --> 00:25:03.900
+David Schaich (he): change, that different variable y be
+
+248
+00:25:03.960 --> 00:25:11.870
+David Schaich (he): distance from the maximum. So why is X minus N. That gets squared
+
+249
+00:25:12.040 --> 00:25:15.910
+David Schaich (he): divided by 2 n the blue dotted line is
+
+250
+00:25:16.460 --> 00:25:19.590
+David Schaich (he): the Gaussian function around the maximum.
+
+251
+00:25:19.620 --> 00:25:24.060
+David Schaich (he): and we can see for n equals 100, that
+
+252
+00:25:24.470 --> 00:25:28.020
+David Schaich (he): this discussion is a pretty good approximation.
+
+253
+00:25:28.140 --> 00:25:29.890
+David Schaich (he): with, in fact, barely any
+
+254
+00:25:31.160 --> 00:25:33.320
+David Schaich (he): difference being visible
+
+255
+00:25:34.320 --> 00:25:35.640
+David Schaich (he): as the
+
+256
+00:25:36.060 --> 00:25:41.660
+peak goes down to 0. So this is an approximation that gets better as in increases.
+
+257
+00:25:42.090 --> 00:25:47.150
+David Schaich (he): this integr becomes more sharply peaked around. This maximum X equals n
+
+258
+00:25:47.590 --> 00:25:56.090
+David Schaich (he): right there. So, dropping down to 10 degrees of freedom, you can see a bit clear discrepancies
+
+259
+00:25:56.660 --> 00:26:07.890
+David Schaich (he): between the Gaussian I mean integrand of the order integral even more so if there's a single degree of freedom. Hmm.
+
+260
+00:26:08.350 --> 00:26:11.860
+David Schaich (he): Ends up being a fairly bad approximation. But
+
+261
+00:26:12.190 --> 00:26:17.990
+David Schaich (he): going out to I get the limit that we can handle without any of these
+
+262
+00:26:19.860 --> 00:26:32.430
+David Schaich (he): powers. Or. yeah, the exponential and minus X will eventually overflow numerical precision you around a few 100
+
+263
+00:26:32.840 --> 00:26:33.920
+David Schaich (he): we're in.
+
+264
+00:26:35.310 --> 00:26:38.790
+David Schaich (he): as we head up to sort of 10 to the power. 23
+
+265
+00:26:38.880 --> 00:26:40.130
+David Schaich (he): discussion
+
+266
+00:26:41.130 --> 00:26:44.760
+David Schaich (he): integral becomes a very good approximation.
+
+267
+00:26:47.330 --> 00:26:48.930
+David Schaich (he): So we then have it
+
+268
+00:26:49.960 --> 00:26:52.730
+David Schaich (he): from that. This relation
+
+269
+00:26:57.110 --> 00:26:57.760
+David Schaich (he): just
+
+270
+00:26:57.950 --> 00:27:00.400
+David Schaich (he): swapping the 2 sides
+
+271
+00:27:00.650 --> 00:27:04.380
+David Schaich (he): of the equation for the n factorial on the left
+
+272
+00:27:05.010 --> 00:27:10.130
+David Schaich (he): we have that it's equal to an integral over Y, now running from minus n
+
+273
+00:27:10.280 --> 00:27:11.630
+David Schaich (he): to infinity
+
+274
+00:27:11.740 --> 00:27:14.340
+David Schaich (he): of this combined exponential
+
+275
+00:27:15.180 --> 00:27:16.210
+David Schaich (he): function.
+
+276
+00:27:21.250 --> 00:27:27.570
+David Schaich (he): minus Y squared over 2 n plus order of the Y over in
+
+277
+00:27:28.650 --> 00:27:29.710
+David Schaich (he): cute.
+
+278
+00:27:30.880 --> 00:27:32.780
+David Schaich (he): which we can break up into
+
+279
+00:27:32.800 --> 00:27:37.380
+David Schaich (he): the product of exponentials. Everything independent of why it's
+
+280
+00:27:37.900 --> 00:27:41.470
+David Schaich (he): pull out of that integral into the end.
+
+281
+00:27:47.740 --> 00:27:53.070
+David Schaich (he): Y squared over 2, and plus that
+
+282
+00:27:54.990 --> 00:28:01.800
+David Schaich (he): approximation that we have. it's given in the activity. Yeah, it is safe to
+
+283
+00:28:02.270 --> 00:28:05.540
+David Schaich (he): extend a little range of integration all the way down to
+
+284
+00:28:06.260 --> 00:28:13.820
+David Schaich (he): negative infinity. It gives an exponential, exponentially suppressed error. and gives us that
+
+285
+00:28:15.400 --> 00:28:18.280
+David Schaich (he): square root, 2 pi and
+
+286
+00:28:21.640 --> 00:28:23.530
+David Schaich (he): e to the minus. And there is
+
+287
+00:28:24.560 --> 00:28:28.000
+David Schaich (he): the sort of leading logarithmic correction
+
+288
+00:28:28.710 --> 00:28:29.530
+David Schaich (he): to
+
+289
+00:28:33.880 --> 00:28:35.830
+David Schaich (he): this expression through
+
+290
+00:28:36.220 --> 00:28:39.740
+David Schaich (he): and minus N.
+
+291
+00:28:39.900 --> 00:28:40.830
+David Schaich (he): And then
+
+292
+00:28:41.540 --> 00:28:48.030
+David Schaich (he): what's that going of a square root which is one half walk, 2 by end.
+
+293
+00:28:50.940 --> 00:29:01.490
+David Schaich (he): And if we actually look at some of the numerical values that this approximation gives us for
+
+294
+00:29:04.210 --> 00:29:08.710
+David Schaich (he): the logarithm of the factorial, that's the next cell
+
+295
+00:29:09.330 --> 00:29:11.180
+David Schaich (he): in this notebook that is
+
+296
+00:29:13.190 --> 00:29:16.890
+David Schaich (he): on canvas for you to look at. If you want to stop
+
+297
+00:29:18.820 --> 00:29:20.710
+David Schaich (he): a few different ways of
+
+298
+00:29:21.390 --> 00:29:25.560
+David Schaich (he): directly computing the log of the factorial of admin
+
+299
+00:29:25.780 --> 00:29:31.600
+David Schaich (he): compared to N. Log n minus n plus 4.5. So that's it.
+
+300
+00:29:31.670 --> 00:29:34.890
+David Schaich (he): Square roots.
+
+301
+00:29:35.430 --> 00:29:38.860
+David Schaich (he): We can put in any number you care.
+
+302
+00:29:39.800 --> 00:29:42.730
+David Schaich (he): saying end of 10 and see that
+
+303
+00:29:43.260 --> 00:29:49.560
+David Schaich (he): although that n log n minus n was about 14% off the true, the direct
+
+304
+00:29:49.970 --> 00:29:52.900
+David Schaich (he): log of them so 15 versus 13,
+
+305
+00:29:53.140 --> 00:30:01.110
+David Schaich (he): adding that login term Already it's us to well within the per mill level, that one of the 1,000.
+
+306
+00:30:02.150 --> 00:30:05.750
+David Schaich (he): So this is this little table for
+
+307
+00:30:05.940 --> 00:30:08.760
+David Schaich (he): a few representative values
+
+308
+00:30:10.180 --> 00:30:12.100
+David Schaich (he): where the true
+
+309
+00:30:14.530 --> 00:30:19.900
+David Schaich (he): results for the logarithm is this last row. And see, there are some.
+
+310
+00:30:21.130 --> 00:30:23.930
+David Schaich (he): you know, 10% discrepancies
+
+311
+00:30:24.000 --> 00:30:28.920
+David Schaich (he): at and around 10 going down to 1% around any 100
+
+312
+00:30:29.140 --> 00:30:32.140
+David Schaich (he): that are almost all accounted for by
+
+313
+00:30:32.660 --> 00:30:36.500
+David Schaich (he): the next to leaving correction. That more the root and
+
+314
+00:30:37.640 --> 00:30:43.240
+David Schaich (he): I get things both within a percent already for even 5 or 10. And
+
+315
+00:30:44.890 --> 00:31:01.370
+David Schaich (he): and by the time and approaches a 100, basically the challenge is printing enough significant figures in this table to actually see. hey? Disagreement between these levels of approximation, though I may be
+
+316
+00:31:01.640 --> 00:31:05.090
+David Schaich (he): getting it beyond myself, because there was that third
+
+317
+00:31:05.190 --> 00:31:09.460
+David Schaich (he): activity in of expressing here. It is
+
+318
+00:31:12.100 --> 00:31:18.950
+David Schaich (he): accounting for those corrections of extending
+
+319
+00:31:19.140 --> 00:31:23.600
+David Schaich (he): that lower limit of integration from minus n to minus infinity.
+
+320
+00:31:24.300 --> 00:31:38.410
+David Schaich (he): as those are exponentially suppressed. We expect they can be captured by a power series in one over N. The task, then, is to compute what are the unknown coefficients, a, B and C
+
+321
+00:31:38.920 --> 00:31:40.870
+David Schaich (he): that are showing up on
+
+322
+00:31:41.940 --> 00:31:46.180
+David Schaich (he): as the coefficients of each of those terms to the order. And
+
+323
+00:31:49.070 --> 00:31:52.270
+David Schaich (he): in that expansion. and again.
+
+324
+00:31:53.540 --> 00:32:05.920
+David Schaich (he): something where there are many ways of computing that just to quickly sketch out the trick suggested in the activity and quickly in case you have it.
+
+325
+00:32:06.370 --> 00:32:11.250
+David Schaich (he): problems with it. The idea was to use this sort of trivial
+
+326
+00:32:14.060 --> 00:32:20.990
+David Schaich (he): identity that's in plus one factorial is just n plus one times in factory. All this gives us a
+
+327
+00:32:21.260 --> 00:32:22.830
+David Schaich (he): recurrence relation.
+
+328
+00:32:23.790 --> 00:32:26.390
+David Schaich (he): and it allows us to
+
+329
+00:32:27.200 --> 00:32:28.440
+David Schaich (he): log in
+
+330
+00:32:29.640 --> 00:32:34.330
+David Schaich (he): the generic form of this expansion. Both sides
+
+331
+00:32:36.930 --> 00:32:40.120
+David Schaich (he): to pilot a plus one.
+
+332
+00:32:45.850 --> 00:32:49.400
+David Schaich (he): I was the series expansion in terms of
+
+333
+00:32:51.670 --> 00:32:53.100
+David Schaich (he): n plus one
+
+334
+00:32:56.730 --> 00:33:01.940
+David Schaich (he): whatever interest one hugely the right hand side. We have this.
+
+335
+00:33:04.760 --> 00:33:09.720
+David Schaich (he): you serious expansion. in fact.
+
+336
+00:33:11.620 --> 00:33:12.730
+more familiar.
+
+337
+00:33:15.440 --> 00:33:17.730
+David Schaich (he): We're very importantly with
+
+338
+00:33:19.110 --> 00:33:22.950
+David Schaich (he): the same coefficients, a and B on both sides.
+
+339
+00:33:24.160 --> 00:33:26.780
+David Schaich (he): and all we need to do now is
+
+340
+00:33:28.370 --> 00:33:29.740
+David Schaich (he): match the
+
+341
+00:33:33.640 --> 00:33:35.540
+David Schaich (he): coefficients that up here
+
+342
+00:33:35.740 --> 00:33:39.440
+David Schaich (he): we over and to some powerp terms
+
+343
+00:33:41.370 --> 00:33:42.870
+David Schaich (he): on both sides.
+
+344
+00:33:45.830 --> 00:33:46.990
+David Schaich (he): So there's a few
+
+345
+00:33:47.030 --> 00:33:50.920
+David Schaich (he): intermediate steps to get to there. Things like this.
+
+346
+00:33:51.510 --> 00:33:56.430
+David Schaich (he): hey? Over n plus one. I need to be reorganized in terms of
+
+347
+00:33:58.640 --> 00:34:06.190
+David Schaich (he): inverse powers and into the P. Rather than and plus one of the P. Which we can do, using
+
+348
+00:34:06.550 --> 00:34:08.210
+David Schaich (he): geometric series.
+
+349
+00:34:10.880 --> 00:34:16.929
+David Schaich (he): Very good. A over N. Minus a over N. Squared. That's an order one
+
+350
+00:34:17.199 --> 00:34:18.120
+the queue.
+
+351
+00:34:18.520 --> 00:34:29.850
+David Schaich (he): We also need to deal with these 2 pre factors. which, if we combined them all on to one side, all the one powers of the cancel
+
+352
+00:34:30.300 --> 00:34:38.400
+David Schaich (he): and the n plus one cancels the and plus one will be one power there. So we end up with
+
+353
+00:34:40.120 --> 00:34:43.590
+David Schaich (he): hey? Yeah. square root of
+
+354
+00:34:44.920 --> 00:34:53.850
+David Schaich (he): and plus one over N, which we can realize into one plus one over N. So we have that in the square root we have that with
+
+355
+00:34:55.969 --> 00:35:01.890
+David Schaich (he): so. and then that one lasts. you know, for E.
+
+356
+00:35:03.150 --> 00:35:04.570
+David Schaich (he): And it is a
+
+357
+00:35:05.550 --> 00:35:10.700
+David Schaich (he): fun exercise to similarly expand this in terms of
+
+358
+00:35:14.590 --> 00:35:19.910
+David Schaich (he): a polynomial in one over N, which ends up being one.
+
+359
+00:35:20.160 --> 00:35:22.790
+David Schaich (he): this one over 12 and squared.
+
+360
+00:35:27.000 --> 00:35:28.520
+David Schaich (he): and in fact, the same
+
+361
+00:35:29.580 --> 00:35:43.970
+David Schaich (he): approximations that give this also a way to. So It's a famous representation of this to see you limit of going to infinity.
+
+362
+00:35:47.150 --> 00:35:50.930
+David Schaich (he): that you know one plus whatever, and to the power, and it can already
+
+363
+00:35:51.040 --> 00:35:56.730
+David Schaich (he): see that here we'll be in turn. It's one as it goes to infinity. All these corrections cancel off
+
+364
+00:35:56.980 --> 00:36:00.380
+David Schaich (he): the plus a half becomes negative more compared to infinity.
+
+365
+00:36:01.070 --> 00:36:02.910
+You basically just re-
+
+366
+00:36:02.980 --> 00:36:06.540
+David Schaich (he): this result that you may well have seen.
+
+367
+00:36:07.550 --> 00:36:08.740
+David Schaich (he): So if we
+
+368
+00:36:10.050 --> 00:36:11.990
+David Schaich (he): match on these 2 sides
+
+369
+00:36:13.900 --> 00:36:16.590
+David Schaich (he): terms that have one over into the power 0
+
+370
+00:36:17.000 --> 00:36:18.420
+4 to one terms.
+
+371
+00:36:20.460 --> 00:36:23.150
+David Schaich (he): We end up with the condition
+
+372
+00:36:23.280 --> 00:36:28.470
+David Schaich (he): that one equals one which is true, but maybe not so interesting
+
+373
+00:36:30.330 --> 00:36:32.260
+David Schaich (he): one over in.
+
+374
+00:36:36.850 --> 00:36:38.640
+David Schaich (he): and the
+
+375
+00:36:39.270 --> 00:36:42.050
+David Schaich (he): one over n square. Next to
+
+376
+00:36:42.980 --> 00:36:44.520
+David Schaich (he): these expansions
+
+377
+00:36:46.240 --> 00:36:49.450
+David Schaich (he): that 1 12 There you are.
+
+378
+00:36:51.260 --> 00:36:52.460
+David Schaich (he): possibly here.
+
+379
+00:36:52.590 --> 00:36:56.320
+David Schaich (he): minus a on one side, equals the other
+
+380
+00:36:56.810 --> 00:36:57.800
+David Schaich (he): for a
+
+381
+00:36:58.980 --> 00:37:00.110
+David Schaich (he): it's 1 12.
+
+382
+00:37:01.110 --> 00:37:02.270
+The next room
+
+383
+00:37:02.950 --> 00:37:05.110
+David Schaich (he): correlation between a and B
+
+384
+00:37:07.480 --> 00:37:08.590
+and plug. In
+
+385
+00:37:11.530 --> 00:37:14.930
+David Schaich (he): the result we already have for a. and
+
+386
+00:37:15.250 --> 00:37:19.980
+David Schaich (he): this sort of term, by term matching actually becomes something that
+
+387
+00:37:20.580 --> 00:37:26.310
+David Schaich (he): you can program with a bit of a effort. So I haven't attempted to do that.
+
+388
+00:37:27.740 --> 00:37:32.510
+David Schaich (he): but it's possible using computers to
+
+389
+00:37:34.090 --> 00:37:36.460
+David Schaich (he): computes just an arbitrary
+
+390
+00:37:36.510 --> 00:37:40.190
+David Schaich (he): number of terms in the series become one of the
+
+391
+00:37:40.810 --> 00:37:48.550
+David Schaich (he): in this mathematical sequences. if it looked up. and the books and
+
+392
+00:37:49.900 --> 00:37:54.940
+David Schaich (he): one last thing i'll say about Sterling's formula. One is to reiterate something I
+
+393
+00:37:55.860 --> 00:37:58.740
+David Schaich (he): lost over quickly last week. For that.
+
+394
+00:37:59.440 --> 00:38:01.460
+David Schaich (he): This series we have
+
+395
+00:38:01.980 --> 00:38:05.740
+David Schaich (he): in terms of one over N. Is actually asymptotic.
+
+396
+00:38:08.060 --> 00:38:12.710
+David Schaich (he): I think this is a footnote, so the radius of conversions is 0.
+
+397
+00:38:13.220 --> 00:38:17.730
+David Schaich (he): If we try to include it, all of the infinite terms in this series.
+
+398
+00:38:18.080 --> 00:38:22.180
+David Schaich (he): it will always diverge for any finite value of N.
+
+399
+00:38:22.540 --> 00:38:24.230
+David Schaich (he): That's illustrated by
+
+400
+00:38:25.440 --> 00:38:27.900
+David Schaich (he): this figure, which is not coming out in
+
+401
+00:38:30.280 --> 00:38:44.420
+David Schaich (he): very great focus. Taken from Wikipedia, showing the relative error in approximations to still things for me, a lot for a small value, and in 10 or 20 or 30,
+
+402
+00:38:44.580 --> 00:38:54.280
+David Schaich (he): depending on the number of terms that are retained in this series. So we computed the first 2 just now a and B, and that to get up to 200,
+
+403
+00:38:54.710 --> 00:38:58.640
+David Schaich (he): and see that for these finite values.
+
+404
+00:38:58.770 --> 00:39:01.570
+David Schaich (he): and at some point.
+
+405
+00:39:02.730 --> 00:39:12.460
+David Schaich (he): what's the number of too large? The error and the approximation actually stops improving
+
+406
+00:39:16.210 --> 00:39:29.530
+David Schaich (he): actually here increases, and eventually how virtues you want. And, bill you time. There are 200 terms for a small. and as it increases
+
+407
+00:39:30.230 --> 00:39:31.070
+David Schaich (he): to you.
+
+408
+00:39:31.300 --> 00:39:34.110
+David Schaich (he): point the number of terms where
+
+409
+00:39:34.920 --> 00:39:37.800
+David Schaich (he): the you approximation is
+
+410
+00:39:39.240 --> 00:39:47.140
+David Schaich (he): optimized and the extension starts breaking down shifts off to larger and larger values.
+
+411
+00:39:48.590 --> 00:39:54.930
+David Schaich (he): So what's said about? Certainly strongly large, or any questions about any of that toward
+
+412
+00:39:55.020 --> 00:39:59.220
+David Schaich (he): intermediate step. Sign lost over kind of quickly
+
+413
+00:40:02.330 --> 00:40:07.240
+David Schaich (he): What? To make sure that an activity for the next week
+
+414
+00:40:09.590 --> 00:40:10.840
+David Schaich (he): is
+
+415
+00:40:11.140 --> 00:40:14.730
+David Schaich (he): introduced with some time, so you will just take a quick look at it
+
+416
+00:40:14.900 --> 00:40:15.930
+David Schaich (he): today.
+
+417
+00:40:17.680 --> 00:40:20.890
+David Schaich (he): So. moving on next
+
+418
+00:40:26.510 --> 00:40:34.850
+David Schaich (he): shut down Sterling's formula, and look at the next activity related to the mixing entropy.
+
+419
+00:40:37.120 --> 00:40:37.900
+David Schaich (he): I did
+
+420
+00:40:44.130 --> 00:40:46.420
+David Schaich (he): to have a paper and copy that.
+
+421
+00:40:53.800 --> 00:41:05.000
+David Schaich (he): So we've talked about that mixing interview already, and the general case where we have either distinguishable or indistinguishable particles. We have that 3 stage process
+
+422
+00:41:05.220 --> 00:41:10.980
+David Schaich (he): of initially having 2 canonical subsystems divided by a wall.
+
+423
+00:41:12.140 --> 00:41:13.720
+David Schaich (he): So here that is this
+
+424
+00:41:15.000 --> 00:41:17.420
+David Schaich (he): dotted from dashed line.
+
+425
+00:41:22.670 --> 00:41:24.810
+David Schaich (he): What I should do is
+
+426
+00:41:31.500 --> 00:41:32.690
+David Schaich (he): 100.
+
+427
+00:41:50.780 --> 00:41:53.150
+David Schaich (he): Go ahead somewhere.
+
+428
+00:41:53.820 --> 00:42:02.090
+David Schaich (he): Let's go back here. So we start off with those 2 divided systems. We combine them. We remove that wall, allow all to end particles to mix.
+
+429
+00:42:02.170 --> 00:42:09.720
+David Schaich (he): and then we separate them. The argument we went through in lecture earlier this week is that we can expect.
+
+430
+00:42:09.980 --> 00:42:16.060
+David Schaich (he): and even number of particles to end up on both sides of that wall. That's the lesson of the
+
+431
+00:42:16.400 --> 00:42:28.940
+David Schaich (he): and through the mountains activity. They went through over the past week. And now we look at a kind of intermediate case which simplifies the
+
+432
+00:42:30.420 --> 00:42:37.000
+David Schaich (he): calculation where the mixing entropy was not 0, and things were a bit complicated. Instead of having all
+
+433
+00:42:37.460 --> 00:42:50.930
+David Schaich (he): to end of these particles be fully distinguishable. we put them. We classified them in 2 sets. so within each set. The particles are all identical and indistinguishable.
+
+434
+00:42:51.360 --> 00:43:04.220
+David Schaich (he): but particles from one set can be distinguished from those from another. The other sets so one that is red. The other side is blue. and then we have initial and final states that look like this.
+
+435
+00:43:04.630 --> 00:43:15.850
+David Schaich (he): So you want to first compute the mixing entropy for this sort of intermediate case with 2 sets that are distinguishable, each with an indistinguishable particles.
+
+436
+00:43:17.430 --> 00:43:29.410
+David Schaich (he): and then actually compute the final entropy, and see whether the entropy continues to be non decreasing as we go through the 3 stages of this process. which is what the
+
+437
+00:43:29.490 --> 00:43:37.070
+David Schaich (he): second all demands. So also recording. Stop talking for the few remaining minutes. and
+
+438
+00:43:38.220 --> 00:43:40.660
+David Schaich (he): that you get started, at least for that first task.
+
+439
+00:43:41.100 --> 00:43:42.330
+with the
+
+440
+00:43:42.370 --> 00:43:43.780
+David Schaich (he): second to
+
+441
+00:43:45.730 --> 00:43:48.380
+David Schaich (he): go through over the coming week
+
+442
+00:43:52.770 --> 00:43:59.870
+David Schaich (he): as usual. I talk too much, and only left you with a few minutes to explore that. But let's check in before
+
+443
+00:43:59.920 --> 00:44:07.940
+David Schaich (he): wrapping up for today to see if there are any immediate questions about this activity, for you, too. play with over the coming week.
+
+444
+00:44:09.600 --> 00:44:10.860
+David Schaich (he): not seeing any.
+
+445
+00:44:11.350 --> 00:44:13.910
+David Schaich (he): See you on Monday morning
+
+446
+00:44:14.150 --> 00:44:19.840
+David Schaich (he): we. i'll do what some of the classic results.
+
+447
+00:44:20.360 --> 00:44:23.610
+David Schaich (he): I just like more efficiency, or possibly get into
+
+448
+00:44:23.870 --> 00:44:25.510
+David Schaich (he): the
+
+449
+00:44:27.250 --> 00:44:28.440
+David Schaich (he): you. Enjoy the
+
+450
+00:44:28.840 --> 00:44:31.690
+David Schaich (he): snow. All lasts, probably not for
+
+451
+00:44:31.860 --> 00:44:33.300
+David Schaich (he): very long.
+
