@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 5}
-\renewcommand{\moddate}{Last modified 6 Mar.~2023}
+\renewcommand{\moddate}{Last modified 12 Mar.~2023}
 \setcounter{section}{5}
 \setcounter{subsection}{0}
 \phantomsection
@@ -186,7 +186,7 @@ This makes it convenient to represent the system's macro-state as a point in a \
 The manipulations discussed above correspond to lines in $PV$~diagrams.
 In the case of a thermodynamic cycle, the lines must meet up to form a closed path for the system to go around as the cycle is repeated.
 
-As a first example, the figure below shows the $PV$~diagram for a (slow) isothermal expansion of the gas.
+As a first example, the figure below shows the $PV$~diagram for isothermal expansion of the gas, which is slow enough for heat to enter the system to keep the temperature fixed despite the expansion.
 \begin{center}
   \includegraphics[width=0.6\textwidth]{figs/unit05_isotherm.pdf}
 \end{center}
@@ -198,7 +198,7 @@ What would it mean if two isotherms were to cross in a $PV$~diagram?
   \ \\[100 pt]
 \end{mdframed}
 
-Similarly, we can consider the $PV$~diagram below for a (fast) adiabatic compression of the gas.
+Similarly, we can consider the $PV$~diagram below for adiabatic compression of the gas, which occurs too quickly for heat to be exchanged.
 \begin{center}
   \includegraphics[width=0.6\textwidth]{figs/unit05_adiabat.pdf}
 \end{center}
@@ -233,9 +233,9 @@ In words, the four stages are the following: \\[-24 pt]
 
 We need to make sure that these four processes really do produce a self-consistent closed cycle that our system could repeatedly follow.
 In a real experiment, we would have full control over the four variables $\left\{P_A, V_A, V_B, V_C\right\}$ coloured red in the $PV$~diagram above.
-Specifically, we can prepare our $N$-particle system in initial macro-state $A$ with our choice of pressure $P_A$ and volume $V_A$, which through the ideal gas law specify the temperature $T_H = \frac{P_A V_A}{N}$ of the hot reservoir.
+Specifically, we can prepare our $N$-particle system in initial macro-state $A$ with our choice of pressure $P_A$ and volume $V_A$, which through the ideal gas law specifies the temperature $T_H = \frac{P_A V_A}{N}$ of the hot reservoir.
 We can then freely choose the volume $V_B > V_A$ at which to switch from isothermal expansion to adiabatic expansion, and similarly choose the volume $V_C > V_B$ at which we stop expanding and start compressing.
-(The choice of $V_C$ is equivalent to choosing the temperature $T_L$ of the cold reservoir.) % Both choices are within our power...
+These choices of $V_B$ and $V_C$ are equivalent to choosing the temperature $T_L$ of the cold reservoir. % Both choices are within our power...
 
 At this point, however, we are no longer free to choose an arbitrary volume $V_D < V_C$ at which to switch from isothermal compression to adiabatic compression --- this switch needs to happen at precisely the correct point in order for the final stage to bring the system back to its initial macro-state $A$.
 While we can expect that this will be possible for the Carnot cycle, a priori there is no guarantee that a given sequence of processes will close to form a self-consistent thermodynamic cycle.
@@ -307,8 +307,8 @@ Next, in the adiabatic expansion from point $B$ to point $C$, we know $Q_{BC} = 
 \end{mdframed}
 You should find that the system continues doing work on its surroundings during this stage, $W_{BC} < 0$.
 
-Finally, the computations for the two compression stages are directly analogous to those above.
-For the isothermal compression from point $C$ to point $D$, we have
+Finally, the computations for the two compression stages are directly analogous to those for the two expansion stages considered above.
+For the isothermal compression from point $C$ to point $D$, the ideal gas law again provides $P(V)$:
 \begin{mdframed}
   $\displaystyle W_{CD} = -\int_{V_C}^{V_D} P(V) \; dV = $ \\[50 pt]
 \end{mdframed}
