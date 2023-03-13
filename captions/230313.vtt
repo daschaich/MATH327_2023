@@ -1,0 +1,4498 @@
+WEBVTT
+
+1
+00:00:02.100 --> 00:00:06.280
+David Schaich (he): Well, given the time, I think we should get under way.  Though I see
+
+2
+00:00:06.990 --> 00:00:09.360
+David Schaich (he): more folks have gotten into the habit of
+
+3
+00:00:09.570 --> 00:00:17.930
+David Schaich (he): joining remotely on the Monday mornings. It is a bit wet today, even though it's
+
+4
+00:00:19.000 --> 00:00:27.860
+David Schaich (he): warmed up quite a bit from all the snow last week. So let's going with that magic number for today:
+
+5
+00:00:30.140 --> 00:00:32.610
+David Schaich (he): 6, 8, 5,
+
+6
+00:00:33.310 --> 00:00:35.320
+David Schaich (he): 1, 9, 2.
+
+7
+00:00:35.950 --> 00:00:41.770
+David Schaich (he): And we are at the start of the seventh week in the term, so the halfway point, and
+
+8
+00:00:41.810 --> 00:00:49.700
+David Schaich (he): just about halfway through the material for this module as well. We've had a bit of a mix of
+
+9
+00:00:51.800 --> 00:00:54.260
+David Schaich (he): statistical physics foundations and applications
+
+10
+00:00:54.710 --> 00:00:57.880
+David Schaich (he): up until now. The second half is going to be a bit
+
+11
+00:00:57.990 --> 00:01:02.920
+David Schaich (he): more foundation, but a greater proportion of application.
+
+12
+00:01:03.830 --> 00:01:05.010
+David Schaich (he): Just to
+
+13
+00:01:06.220 --> 00:01:09.730
+David Schaich (he): check in on where we are from last week,
+
+14
+00:01:10.060 --> 00:01:11.760
+David Schaich (he): we have built up
+
+15
+00:01:12.810 --> 00:01:16.960
+David Schaich (he): from probability foundations to the concept of
+
+16
+00:01:17.950 --> 00:01:22.560
+David Schaich (he): statistical ensembles, in the particular, the canonical ensemble
+
+17
+00:01:24.390 --> 00:01:26.710
+David Schaich (he): partition function that is the
+
+18
+00:01:27.430 --> 00:01:31.570
+David Schaich (he): starting point for the chemical ensemble. We have
+
+19
+00:01:32.580 --> 00:01:34.830
+David Schaich (he): derive the behavior
+
+20
+00:01:36.860 --> 00:01:44.850
+David Schaich (he): of ideal gases. and started to look at putting those ideal gases to work to
+
+21
+00:01:46.780 --> 00:01:47.820
+David Schaich (he): fine
+
+22
+00:01:48.820 --> 00:01:51.380
+David Schaich (he): engines and refrigerators
+
+23
+00:01:55.940 --> 00:01:59.000
+David Schaich (he): based on thermodynamic cycles.
+
+24
+00:02:02.430 --> 00:02:07.630
+David Schaich (he): What we have derived a few key equations. Yeah.
+
+25
+00:02:08.630 --> 00:02:12.990
+David Schaich (he): Average internal energy of an ideal gas in the economical ensemble
+
+26
+00:02:13.310 --> 00:02:24.320
+David Schaich (he): directly proportional to the temperature. We've derived that the entropy. It's proportional to the volume of the gas I see. or he has covered this temperature.
+
+27
+00:02:25.270 --> 00:02:37.720
+David Schaich (he): We derived the ideal gas law that you may well have seen before the Pressure Times. The volume of the gas is the number of particles in it multiplied by the temperature. and a
+
+28
+00:02:39.500 --> 00:02:52.880
+David Schaich (he): generalized form of the first law of thermodynamics that any change. the average internal energy of the gas has to be due to some flow of either heats queue
+
+29
+00:02:53.000 --> 00:03:01.350
+David Schaich (he): between the gas and the surroundings for work that is done on the gas by the surroundings.
+
+30
+00:03:04.500 --> 00:03:05.590
+David Schaich (he): and we
+
+31
+00:03:06.980 --> 00:03:10.140
+David Schaich (he): wrapped up last week by defining
+
+32
+00:03:10.840 --> 00:03:12.550
+David Schaich (he): so called pressure voice
+
+33
+00:03:14.000 --> 00:03:25.240
+David Schaich (he): diagrams. That's a line provide a useful way to capture the macro stage or thermodynamic states of these systems.
+
+34
+00:03:27.260 --> 00:03:28.730
+David Schaich (he): and in particular
+
+35
+00:03:28.820 --> 00:03:32.760
+David Schaich (he): capture what happens that macro state is, we carry out
+
+36
+00:03:33.400 --> 00:03:40.210
+David Schaich (he): processes and then change some of these thermodynamic quantities, pressure, volume, temperature, internal energy.
+
+37
+00:03:40.360 --> 00:03:42.910
+David Schaich (he): So are there any questions about that before we
+
+38
+00:03:43.400 --> 00:03:45.950
+David Schaich (he): dive into using these
+
+39
+00:03:45.980 --> 00:03:48.040
+David Schaich (he): as a tool
+
+40
+00:03:48.110 --> 00:03:51.820
+David Schaich (he): to analyze thermodynamic cycles and see how we can get
+
+41
+00:03:52.050 --> 00:03:53.340
+David Schaich (he): work out with them.
+
+42
+00:04:02.480 --> 00:04:05.610
+David Schaich (he): So that is essentially the plan for today is
+
+43
+00:04:07.080 --> 00:04:08.910
+David Schaich (he): going through in detail
+
+44
+00:04:11.100 --> 00:04:13.030
+David Schaich (he): these analyses.
+
+45
+00:04:14.820 --> 00:04:19.600
+David Schaich (he): based on pressure volume diagrams where we saw last week that
+
+46
+00:04:20.820 --> 00:04:21.899
+David Schaich (he): a given
+
+47
+00:04:23.380 --> 00:04:28.720
+David Schaich (he): state is defined. Thanks to these 4 equations, the pressure and the volume
+
+48
+00:04:28.910 --> 00:04:34.460
+David Schaich (he): determine every other aspect of that macroscopic from the dynamic state.
+
+49
+00:04:34.820 --> 00:04:37.840
+David Schaich (he): So it point on the Heb diagram
+
+50
+00:04:37.980 --> 00:04:40.240
+David Schaich (he): specified by a certain value
+
+51
+00:04:40.350 --> 00:04:42.690
+David Schaich (he): of the pressure and the bullying
+
+52
+00:04:42.720 --> 00:04:45.990
+David Schaich (he): gives us the temperature of the internal energy and the entropy.
+
+53
+00:04:47.400 --> 00:04:48.520
+David Schaich (he): and if we
+
+54
+00:04:48.560 --> 00:04:51.720
+David Schaich (he): change that state through a thermodynamic process.
+
+55
+00:04:51.860 --> 00:04:54.360
+David Schaich (he): you end up with a line.
+
+56
+00:04:54.560 --> 00:05:01.690
+David Schaich (he): And finally, if we stitch together a sequence of these processes that form a closed path
+
+57
+00:05:01.720 --> 00:05:03.080
+David Schaich (he): in the diagram
+
+58
+00:05:04.160 --> 00:05:05.440
+David Schaich (he): that defines
+
+59
+00:05:05.590 --> 00:05:14.810
+David Schaich (he): a through a dynamic cycle that can be repeated over and over again. always getting back to its initial starting macro state.
+
+60
+00:05:15.920 --> 00:05:17.900
+David Schaich (he): thanks to exchanging
+
+61
+00:05:18.500 --> 00:05:23.470
+David Schaich (he): energy, either the form of heat or work with its surroundings. So 2
+
+62
+00:05:24.560 --> 00:05:26.320
+David Schaich (he): go through an explicit
+
+63
+00:05:27.950 --> 00:05:31.300
+David Schaich (he): example of how this works. let's consider
+
+64
+00:05:34.110 --> 00:05:36.050
+David Schaich (he): isothermal expansion
+
+65
+00:05:38.030 --> 00:05:42.520
+David Schaich (he): of the gas, which i'll remind you I temperature is
+
+66
+00:05:44.120 --> 00:05:47.710
+David Schaich (he): fixed, which requires that the
+
+67
+00:05:48.260 --> 00:05:52.820
+David Schaich (he): process be slow, so that all possible heat exchange
+
+68
+00:05:53.370 --> 00:05:56.440
+David Schaich (he): as an opportunity to be carried out.
+
+69
+00:05:57.000 --> 00:05:58.550
+David Schaich (he): and for expanding
+
+70
+00:05:58.920 --> 00:06:07.400
+David Schaich (he): the system from this initial volume V 0 to some larger volume. The F. We want to figure out what happens to
+
+71
+00:06:07.830 --> 00:06:09.360
+David Schaich (he): the other quantities.
+
+72
+00:06:09.380 --> 00:06:15.580
+David Schaich (he): You've been a fixed temperature. and maybe something that you can consider as we go through. This is
+
+73
+00:06:15.860 --> 00:06:22.260
+David Schaich (he): which direction he will be exchanged as we expand the system is it's going to
+
+74
+00:06:22.310 --> 00:06:26.690
+David Schaich (he): want to heat up, and we'll have to exchange sheets by pushing it out
+
+75
+00:06:26.910 --> 00:06:29.620
+David Schaich (he): as wasted into its surroundings.
+
+76
+00:06:29.800 --> 00:06:34.490
+David Schaich (he): or whether it want to cool down and have to bring in additional heat
+
+77
+00:06:34.540 --> 00:06:38.500
+David Schaich (he): from the reservoir. In order to maintain this fixed temperature.
+
+78
+00:06:40.160 --> 00:06:45.720
+David Schaich (he): we will see the answer to that. But to begin with, we can
+
+79
+00:06:46.750 --> 00:06:51.370
+David Schaich (he): combine this condition of an isothermal, fixed temperature with
+
+80
+00:06:51.540 --> 00:06:56.570
+David Schaich (he): the ideal gas and all that gives us the relation between
+
+81
+00:06:57.820 --> 00:06:59.750
+David Schaich (he): initial pressure and volume.
+
+82
+00:07:01.100 --> 00:07:02.940
+David Schaich (he): the final pressure for you.
+
+83
+00:07:03.480 --> 00:07:07.130
+David Schaich (he): which, if we solve for that final pressure.
+
+84
+00:07:10.840 --> 00:07:12.780
+David Schaich (he): we immediately get that
+
+85
+00:07:15.680 --> 00:07:25.370
+David Schaich (he): this cancelling out. those ends moving. the final going to the other side. you get the initial Pressure Times. This ratio
+
+86
+00:07:25.500 --> 00:07:30.670
+David Schaich (he): of initial and final volume. Since the final volume is larger, this is smaller.
+
+87
+00:07:30.830 --> 00:07:35.480
+David Schaich (he): the initial pressure, so we can draw the line that corresponds to this process
+
+88
+00:07:37.750 --> 00:07:39.870
+David Schaich (he): small final pressure.
+
+89
+00:07:41.130 --> 00:07:43.290
+David Schaich (he): Then we started off with
+
+90
+00:07:43.780 --> 00:07:47.280
+David Schaich (he): so the overall change in pressure
+
+91
+00:07:47.490 --> 00:07:51.410
+David Schaich (he): that we have final pressure minus the initial one.
+
+92
+00:07:52.570 --> 00:07:53.740
+David Schaich (he): It's just
+
+93
+00:08:00.080 --> 00:08:02.080
+David Schaich (he): proportional to the initial pressure
+
+94
+00:08:02.110 --> 00:08:07.260
+David Schaich (he): times. The difference between this ratio of 0 over B up on this one.
+
+95
+00:08:07.920 --> 00:08:09.500
+David Schaich (he): which is less than 0.
+
+96
+00:08:12.830 --> 00:08:13.810
+David Schaich (he): So.
+
+97
+00:08:14.470 --> 00:08:19.610
+David Schaich (he): given this form of the process. It's not obvious
+
+98
+00:08:19.770 --> 00:08:22.980
+David Schaich (he): which direction the temperature would want to go. But
+
+99
+00:08:23.150 --> 00:08:27.350
+David Schaich (he): while the volume is increasing, the pressure is decreasing, so it's keep
+
+100
+00:08:27.380 --> 00:08:28.910
+David Schaich (he): the temperature fixed.
+
+101
+00:08:30.700 --> 00:08:33.429
+David Schaich (he): The process that is sketched out in this way.
+
+102
+00:08:35.390 --> 00:08:39.240
+David Schaich (he): Let's see name of an Iso.
+
+103
+00:08:40.039 --> 00:08:47.910
+David Schaich (he): So the line on the Pv diagram or responding to isothermal either expansion in this case or
+
+104
+00:08:48.500 --> 00:08:52.910
+David Schaich (he): impression. If we were to go the other way and end up with a smaller
+
+105
+00:08:53.040 --> 00:08:54.860
+David Schaich (he): volume, then we started off with.
+
+106
+00:08:56.880 --> 00:09:09.340
+David Schaich (he): if we recall that the energies, the individual microstates that we're our starting point, the partition function from which we've derived everything else for the past couple of weeks.
+
+107
+00:09:09.810 --> 00:09:10.820
+David Schaich (he): Those
+
+108
+00:09:12.360 --> 00:09:13.970
+David Schaich (he): we're proportional to this
+
+109
+00:09:15.120 --> 00:09:28.760
+David Schaich (he): has a factor of h bar squared pi squared over 2 times. The mass of the particles times l squared elsewhere is before you the two-thirds power. So, and it's. The volume increases
+
+110
+00:09:28.830 --> 00:09:39.420
+David Schaich (he): in this expansion. We expect the energy of every microstate to decrease uniformly due to this dependence on the volume.
+
+111
+00:09:41.240 --> 00:09:43.460
+David Schaich (he): and since that energy is just
+
+112
+00:09:43.590 --> 00:09:45.740
+David Schaich (he): directly proportional to the temperature
+
+113
+00:09:47.320 --> 00:09:53.440
+David Schaich (he): that would decrease if there were no heat exchange. So therefore. you know that to you.
+
+114
+00:09:53.880 --> 00:09:56.400
+David Schaich (he): Heat exchange that occurs
+
+115
+00:09:57.970 --> 00:10:05.710
+David Schaich (he): in this is the from. The expansion has to come into the system from its reservoir, in order to keep the temperature fixed
+
+116
+00:10:07.380 --> 00:10:08.640
+David Schaich (he): when it would.
+
+117
+00:10:10.030 --> 00:10:13.810
+David Schaich (he): if left to itself, want to decrease due to the larger volume.
+
+118
+00:10:16.180 --> 00:10:17.170
+David Schaich (he): So it is
+
+119
+00:10:17.270 --> 00:10:22.240
+David Schaich (he): there any questions or objections about that kind of argumentation.
+
+120
+00:10:27.070 --> 00:10:29.460
+David Schaich (he): I'm seeing any. Let's more quickly go through.
+
+121
+00:10:29.850 --> 00:10:33.280
+David Schaich (he): Oh, consider! Before we move on.
+
+122
+00:10:33.350 --> 00:10:43.250
+David Schaich (he): One question is. what would it mean if 2 of these isotherms and a Pv diagram where to cross. Well.
+
+123
+00:10:51.720 --> 00:10:52.580
+David Schaich (he): I mean
+
+124
+00:10:53.620 --> 00:10:57.230
+David Schaich (he): our starting point for these diagrams is that each point
+
+125
+00:10:57.560 --> 00:11:03.490
+David Schaich (he): fixes the pressure volume, and from them every other macroscopic on the date.
+
+126
+00:11:04.650 --> 00:11:09.730
+David Schaich (he): and in particular. when, if 2 Iso terms were the cross, they would have
+
+127
+00:11:10.860 --> 00:11:15.950
+David Schaich (he): same pressure and volume. If we divide that by end
+
+128
+00:11:17.070 --> 00:11:23.220
+David Schaich (he): we get the they correspond to the same temperature, and since the temperature is fixed on an isotherm
+
+129
+00:11:23.820 --> 00:11:24.750
+in addition.
+
+130
+00:11:27.730 --> 00:11:31.010
+David Schaich (he): the only way that 2 of these isotherms can cross
+
+131
+00:11:31.230 --> 00:11:34.220
+David Schaich (he): in a TV diagram is, if they are in fact.
+
+132
+00:11:35.340 --> 00:11:37.190
+David Schaich (he): very same iso term.
+
+133
+00:11:38.240 --> 00:11:42.570
+David Schaich (he): So if there are different iso firms at fixed different temperatures.
+
+134
+00:11:42.620 --> 00:11:46.170
+David Schaich (he): they will be these parallel curves
+
+135
+00:11:47.650 --> 00:11:50.810
+David Schaich (he): that this functional form of one over
+
+136
+00:11:52.800 --> 00:11:55.170
+David Schaich (he): so we can all that
+
+137
+00:11:59.640 --> 00:12:00.940
+David Schaich (he): like. So
+
+138
+00:12:03.050 --> 00:12:10.060
+David Schaich (he): I have say one. This is something like that second place of through that is
+
+139
+00:12:11.070 --> 00:12:14.200
+David Schaich (he): parallel to it as best I can
+
+140
+00:12:14.460 --> 00:12:16.030
+David Schaich (he): draw this
+
+141
+00:12:17.670 --> 00:12:18.680
+David Schaich (he): and
+
+142
+00:12:19.740 --> 00:12:22.190
+David Schaich (he): the question now. So
+
+143
+00:12:23.550 --> 00:12:24.670
+David Schaich (he): you say, yeah.
+
+144
+00:12:25.790 --> 00:12:27.970
+David Schaich (he): you have 2 different temperatures.
+
+145
+00:12:29.840 --> 00:12:31.060
+David Schaich (he): A. With
+
+146
+00:12:31.440 --> 00:12:36.440
+David Schaich (he): What is a process that will take us from one of these iso terms
+
+147
+00:12:36.470 --> 00:12:39.090
+David Schaich (he): to the next, something that has to rise
+
+148
+00:12:39.340 --> 00:12:40.670
+David Schaich (he): more steeply.
+
+149
+00:12:42.320 --> 00:12:44.620
+David Schaich (he): Then these fixed temperature curves.
+
+150
+00:12:47.000 --> 00:12:49.330
+David Schaich (he): What this gives us is
+
+151
+00:12:50.090 --> 00:12:54.090
+David Schaich (he): a second example to consider, and just to switch things up.
+
+152
+00:13:00.090 --> 00:13:09.830
+David Schaich (he): changed from expansion to compressions, are going from a larger initial board to a smaller.
+
+153
+00:13:11.060 --> 00:13:12.030
+David Schaich (he): and you
+
+154
+00:13:16.460 --> 00:13:19.260
+David Schaich (he): specifying that this will correspond to
+
+155
+00:13:20.530 --> 00:13:21.390
+David Schaich (he): the
+
+156
+00:13:21.650 --> 00:13:25.400
+David Schaich (he): opposite extreme of idiomatic
+
+157
+00:13:26.570 --> 00:13:34.540
+David Schaich (he): impression. So whereas isothermal compression was slow, so that all possible to the exchange could take place and keep the temperature fixed.
+
+158
+00:13:34.650 --> 00:13:40.360
+David Schaich (he): If you had a compression, it's fast so that no heat exchange occurs.
+
+159
+00:13:41.760 --> 00:13:48.750
+David Schaich (he): so the amount of heat that flows into rather than the system is 0. And since this is
+
+160
+00:13:49.630 --> 00:13:52.630
+David Schaich (he): given by the temperature times, the change
+
+161
+00:13:53.090 --> 00:13:54.430
+David Schaich (he): in the entropy.
+
+162
+00:13:55.860 --> 00:13:59.180
+David Schaich (he): we know that the and for P. You
+
+163
+00:13:59.400 --> 00:14:02.080
+David Schaich (he): it is kept constant, and we can bring to their
+
+164
+00:14:02.130 --> 00:14:08.460
+David Schaich (he): a condition of Council of Entropy another one of those key equations that we derived from the canonical partition function
+
+165
+00:14:09.810 --> 00:14:11.920
+David Schaich (he): importantly, that change in the energy.
+
+166
+00:14:14.460 --> 00:14:15.500
+David Schaich (he): Also.
+
+167
+00:14:17.600 --> 00:14:20.750
+David Schaich (he): there's a company by the change in the temperature connecting
+
+168
+00:14:23.400 --> 00:14:24.940
+David Schaich (he): it was too parallel
+
+169
+00:14:25.930 --> 00:14:27.800
+David Schaich (he): isotherms.
+
+170
+00:14:30.940 --> 00:14:33.190
+David Schaich (he): and we can't compute
+
+171
+00:14:33.340 --> 00:14:38.360
+David Schaich (he): that change in the temperature as well as the change in the pressure
+
+172
+00:14:38.480 --> 00:14:46.700
+David Schaich (he): from that condition of constant entropy. So the volume times the free hash power of the temperature
+
+173
+00:14:50.920 --> 00:15:02.430
+David Schaich (he): has to stay fixed throughout the sole process. It's the same at the beginning and the end. so we arrange in gives us the final temperature. which is
+
+174
+00:15:03.440 --> 00:15:07.260
+David Schaich (he): the same ratio of
+
+175
+00:15:07.600 --> 00:15:11.400
+David Schaich (he): That's the initial point you. since the initial volume.
+
+176
+00:15:11.870 --> 00:15:14.680
+David Schaich (he): because now the larger one is
+
+177
+00:15:14.750 --> 00:15:17.400
+David Schaich (he): is a factor that is greater than one
+
+178
+00:15:17.890 --> 00:15:18.650
+to
+
+179
+00:15:18.910 --> 00:15:23.810
+David Schaich (he): okay, another way. The change in for sure.
+
+180
+00:15:25.250 --> 00:15:26.190
+David Schaich (he): Here's
+
+181
+00:15:27.420 --> 00:15:30.800
+David Schaich (he): a volume ratio. So it's you through is power minus one.
+
+182
+00:15:30.830 --> 00:15:33.620
+David Schaich (he): I said. Initial temperature, you can buy it.
+
+183
+00:15:35.110 --> 00:15:38.720
+David Schaich (he): the initial pressure going in and particle number.
+
+184
+00:15:39.190 --> 00:15:41.370
+David Schaich (he): So a positive change in temperature.
+
+185
+00:15:44.840 --> 00:15:55.820
+David Schaich (he): So the isotherm. Why, above the initial one has a larger temperature, which is not too surprising, but not guaranteed
+
+186
+00:15:55.970 --> 00:15:58.590
+David Schaich (he): a priori. Say it result that we have
+
+187
+00:15:58.620 --> 00:16:00.060
+David Schaich (he): derived from this
+
+188
+00:16:00.200 --> 00:16:04.410
+David Schaich (he): simple calculation. And now having both the
+
+189
+00:16:04.430 --> 00:16:13.150
+David Schaich (he): or having a connection between that initial and final temperature. We can't use the equation of states, the ideal gas law
+
+190
+00:16:13.190 --> 00:16:17.960
+David Schaich (he): to compute the changing the pressure just like we did, for
+
+191
+00:16:18.260 --> 00:16:20.190
+David Schaich (he): in case of an Iso firm.
+
+192
+00:16:23.480 --> 00:16:24.400
+David Schaich (he): so
+
+193
+00:16:27.070 --> 00:16:30.890
+David Schaich (he): plugging in the expression for this temperature from
+
+194
+00:16:30.940 --> 00:16:33.900
+David Schaich (he): the ideal gas, well, Pb equals nt
+
+195
+00:16:36.460 --> 00:16:37.490
+David Schaich (he): we have
+
+196
+00:16:39.300 --> 00:16:44.530
+David Schaich (he): that the initial temperature was he not to be not over and
+
+197
+00:16:45.760 --> 00:16:57.380
+David Schaich (he): go ahead. Take the two-thirds power of both sides to isolate the quality that we are now interested in the final pressure.
+
+198
+00:16:59.750 --> 00:17:07.310
+David Schaich (he): Anything cancel off on both sides and rearranging. We just find out the final pressure is
+
+199
+00:17:08.569 --> 00:17:12.950
+David Schaich (he): the ratio of volumes to the one plus 2 thirds, is
+
+200
+00:17:13.170 --> 00:17:14.740
+David Schaich (he): 5 thirds power.
+
+201
+00:17:22.250 --> 00:17:25.450
+David Schaich (he): and changing pressure, then
+
+202
+00:17:26.480 --> 00:17:29.960
+David Schaich (he): looks very much like the change in temperature.
+
+203
+00:17:30.740 --> 00:17:34.590
+David Schaich (he): just with a different power on that volume ratio.
+
+204
+00:17:38.090 --> 00:17:40.390
+David Schaich (he): and as we drew here
+
+205
+00:17:40.470 --> 00:17:44.000
+David Schaich (he): the pressure that increases as we compress
+
+206
+00:17:44.350 --> 00:17:48.940
+David Schaich (he): and increases even more quickly than the temperature does.
+
+207
+00:17:51.090 --> 00:18:04.390
+David Schaich (he): So those are a couple of examples of thermodynamic processes in TV diagrams. The 2 extremes of isothermal and idiotic expansion that you mentioned that
+
+208
+00:18:05.430 --> 00:18:16.910
+David Schaich (he): this line here. It's cost of entropy. It's no, it's an 80, or that. And analogy with Iso that we had for the awesome temperature case.
+
+209
+00:18:17.620 --> 00:18:19.960
+David Schaich (he): There's that visible for you.
+
+210
+00:18:21.350 --> 00:18:23.580
+David Schaich (he): and there are, of course.
+
+211
+00:18:24.390 --> 00:18:29.270
+David Schaich (he): difference processes that we could consider, doing, say, fixing the volume
+
+212
+00:18:29.290 --> 00:18:33.270
+David Schaich (he): and pouring in heat to raise the temperature and pressure
+
+213
+00:18:33.450 --> 00:18:40.850
+David Schaich (he): the other way of extracting heat. imposing a constant force, so that the pressure is constant or the volume of the temperature change.
+
+214
+00:18:41.190 --> 00:18:45.940
+David Schaich (he): But just the extremes of the isotherm and any of that
+
+215
+00:18:46.850 --> 00:18:48.680
+David Schaich (he): will suffice to
+
+216
+00:18:49.180 --> 00:18:56.140
+David Schaich (he): to fall in a famous thermodynamic cycle. So, putting 4 of these processes
+
+217
+00:18:57.270 --> 00:19:01.600
+David Schaich (he): together in this particular sequence.
+
+218
+00:19:02.970 --> 00:19:06.850
+David Schaich (he): so if we say we, starting from point, a yeah
+
+219
+00:19:09.250 --> 00:19:15.570
+David Schaich (he): demand will be be clear. That's point a is.
+
+220
+00:19:18.350 --> 00:19:20.880
+David Schaich (he): and a high temperature, Th
+
+221
+00:19:21.430 --> 00:19:24.830
+David Schaich (he): that is set by thermal contact with
+
+222
+00:19:24.890 --> 00:19:29.220
+David Schaich (he): a hot external reservoir. We
+
+223
+00:19:30.910 --> 00:19:38.800
+David Schaich (he): carry out a stage of isothermal expansion to this point B. And so, following, increasing from Va.
+
+224
+00:19:38.820 --> 00:19:41.690
+David Schaich (he): The Vp. Along and Isotherm.
+
+225
+00:19:42.820 --> 00:19:43.920
+David Schaich (he): and then
+
+226
+00:19:45.870 --> 00:19:49.750
+David Schaich (he): carry out an additional stage of fast expansion
+
+227
+00:19:49.870 --> 00:19:55.240
+David Schaich (he): that freezes the entropy does not allow any heat to be exchanged.
+
+228
+00:19:55.520 --> 00:20:02.090
+David Schaich (he): and gives us this idea that from point B to point, c. That leaves us at a lower temperature
+
+229
+00:20:02.580 --> 00:20:03.800
+David Schaich (he): that we can
+
+230
+00:20:04.310 --> 00:20:15.760
+David Schaich (he): appreciate or understand, as the system now being in thermal contact with a different external reservoir that has a colder temperature
+
+231
+00:20:15.800 --> 00:20:17.570
+David Schaich (he): T. L. For t level.
+
+232
+00:20:18.980 --> 00:20:26.060
+David Schaich (he): and then at that point, c. We simply repeat the process, carry out some slow isothermal compression.
+
+233
+00:20:26.170 --> 00:20:27.660
+David Schaich (he): Now to Point D,
+
+234
+00:20:27.680 --> 00:20:31.350
+David Schaich (he): and then the second stage of fast idiomatic compression.
+
+235
+00:20:31.370 --> 00:20:35.740
+David Schaich (he): to get back to exactly the same macro state that we started off with
+
+236
+00:20:38.000 --> 00:20:42.170
+David Schaich (he): at point a so this
+
+237
+00:20:43.400 --> 00:20:46.890
+David Schaich (he): particular through the hemic cycle is
+
+238
+00:20:48.540 --> 00:20:55.440
+David Schaich (he): notice the Carnot cycle, named after French engineer, Saudi Carnot, who proposed it in
+
+239
+00:20:56.180 --> 00:21:00.300
+David Schaich (he): 1824, which, if you remember the re historical, aside
+
+240
+00:21:00.850 --> 00:21:10.580
+David Schaich (he): from last week, was actually before things like the ideal gas law had been written down, or wasn't derived from statistical physics.
+
+241
+00:21:11.290 --> 00:21:14.070
+David Schaich (he): So. It was very much a
+
+242
+00:21:14.690 --> 00:21:18.360
+David Schaich (he): inspired construction on his part to
+
+243
+00:21:19.760 --> 00:21:21.910
+David Schaich (he): figure out that these
+
+244
+00:21:23.090 --> 00:21:28.950
+David Schaich (he): various sorts of processes, isothermal and Adiabatic expansion and compression arranged in this way
+
+245
+00:21:28.960 --> 00:21:30.550
+David Schaich (he): could be used to
+
+246
+00:21:31.570 --> 00:21:37.850
+David Schaich (he): could be put together into this closed path around the pressure volume, diagram, getting back to the initial state.
+
+247
+00:21:37.860 --> 00:21:40.520
+David Schaich (he): and in particular, as we will see.
+
+248
+00:21:42.750 --> 00:21:48.680
+David Schaich (he): And thanks to going around this path. this provides a way for
+
+249
+00:21:48.930 --> 00:21:57.020
+David Schaich (he): our ideal gas to actually do work on the surroundings by moving heat between those 2 reservoirs, the hop
+
+250
+00:21:57.080 --> 00:22:03.530
+David Schaich (he): reservoir. the cold rest of these 2 different temperatures. just to reiterate
+
+251
+00:22:04.690 --> 00:22:05.360
+David Schaich (he): Yeah.
+
+252
+00:22:06.430 --> 00:22:08.050
+David Schaich (he): 4 stages here.
+
+253
+00:22:09.810 --> 00:22:11.290
+David Schaich (he): maybe a more physical.
+
+254
+00:22:13.090 --> 00:22:18.010
+David Schaich (he): We're looking at things rather than the kind of abstract pressure, holding diagram
+
+255
+00:22:22.370 --> 00:22:24.210
+David Schaich (he): as we go around from
+
+256
+00:22:25.570 --> 00:22:30.300
+David Schaich (he): Point a to B C, D. And then back to a. We start off with
+
+257
+00:22:30.550 --> 00:22:33.890
+David Schaich (he): the slow isothermal expansion
+
+258
+00:22:34.090 --> 00:22:36.550
+David Schaich (he): that takes heat in
+
+259
+00:22:36.660 --> 00:22:37.550
+David Schaich (he): from
+
+260
+00:22:38.210 --> 00:22:43.380
+David Schaich (he): the hot reservoir which here is being drawn to the right of our ideal gas system.
+
+261
+00:22:46.660 --> 00:22:53.240
+David Schaich (he): So the idea it's being illustrated by the insulation on
+
+262
+00:22:53.390 --> 00:22:57.310
+David Schaich (he): this side of the ideal gas is that this is
+
+263
+00:22:57.420 --> 00:23:00.840
+David Schaich (he): connection with that hot, external reservoir
+
+264
+00:23:01.090 --> 00:23:07.380
+David Schaich (he): on the right hand side that allows heat to flow in during that slow expansion which we then change
+
+265
+00:23:07.510 --> 00:23:11.110
+David Schaich (he): you fast. Adiabatic expansion, with no heat. Exchange
+
+266
+00:23:11.390 --> 00:23:12.980
+David Schaich (he): procedures. B to C.
+
+267
+00:23:14.810 --> 00:23:17.810
+David Schaich (he): That takes us down to Hey, You
+
+268
+00:23:18.150 --> 00:23:22.850
+David Schaich (he): cold temperature, bad will be fixed by
+
+269
+00:23:22.970 --> 00:23:32.310
+David Schaich (he): a different external reservoir here drawn to the left of the system. whereas we go through the slow isothermal compression stage
+
+270
+00:23:32.700 --> 00:23:36.930
+David Schaich (he): fixes the temperature at T out by expelling waste
+
+271
+00:23:37.230 --> 00:23:49.460
+David Schaich (he): That's cold reservoir on the left. and then, finally the final stage of fast Adiabatic expansion. Sorry you got a compression
+
+272
+00:23:49.940 --> 00:23:52.630
+David Schaich (he): to get back to that starting point a.
+
+273
+00:23:54.920 --> 00:23:56.900
+David Schaich (he): And the question to
+
+274
+00:23:57.080 --> 00:23:58.770
+one question to ask about
+
+275
+00:23:59.350 --> 00:24:01.010
+David Schaich (he): this cargo cycle
+
+276
+00:24:05.460 --> 00:24:06.450
+David Schaich (he): is
+
+277
+00:24:07.720 --> 00:24:14.300
+David Schaich (he): whether it is self-consistent. whether it is possible in principle to put together these
+
+278
+00:24:14.350 --> 00:24:20.850
+David Schaich (he): 4 stages in such a way that we do, in fact, get back to the starting point, and can repeat the cycle
+
+279
+00:24:21.150 --> 00:24:24.620
+David Schaich (he): an arbitrary number of times 2
+
+280
+00:24:25.730 --> 00:24:34.710
+David Schaich (he): How to do the work that we want. So the key idea is that we have ideal gas connected
+
+281
+00:24:35.980 --> 00:24:38.300
+David Schaich (he): to 2 external reservoirs.
+
+282
+00:24:40.320 --> 00:24:48.700
+David Schaich (he): which is hot with a high temperature, th you know, which is cool. That low temperature. Tl
+
+283
+00:24:56.150 --> 00:24:59.090
+David Schaich (he): I think i'm not giving away anything when I tell you that
+
+284
+00:25:00.460 --> 00:25:06.520
+David Schaich (he): the answer to this question is that yes, the car no cycle isn't, he self-consistent.
+
+285
+00:25:08.310 --> 00:25:09.400
+David Schaich (he): This is
+
+286
+00:25:10.400 --> 00:25:19.370
+David Schaich (he): something that this is a general question that can be asked of any set of processes going around It's pressure volume diagram, so useful to
+
+287
+00:25:21.400 --> 00:25:28.770
+David Schaich (he): go through the exercise of verifying this for a case where we know everything should work out. and then
+
+288
+00:25:29.600 --> 00:25:34.030
+David Schaich (he): we will have that experience. These tools available
+
+289
+00:25:34.410 --> 00:25:35.230
+David Schaich (he): for it
+
+290
+00:25:35.820 --> 00:25:42.080
+David Schaich (he): other sorts of more general cycles, where the answer is not quite so obvious.
+
+291
+00:25:42.250 --> 00:25:43.210
+David Schaich (he): So.
+
+292
+00:25:44.430 --> 00:25:47.840
+David Schaich (he): looking back at the
+
+293
+00:25:48.180 --> 00:25:52.560
+David Schaich (he): part of the cycle which I won't bother redrawing. Since I have this illustration.
+
+294
+00:25:52.630 --> 00:25:53.740
+David Schaich (he): print it out.
+
+295
+00:25:55.420 --> 00:25:57.360
+David Schaich (he): we can imagine that we
+
+296
+00:25:57.890 --> 00:26:04.360
+David Schaich (he): have freedom to define the certain position of this initial state
+
+297
+00:26:04.630 --> 00:26:08.380
+David Schaich (he): of the cycle at Point a. It's given
+
+298
+00:26:08.770 --> 00:26:14.080
+David Schaich (he): the number of particles in the gas and the pressure and volume that we can choose in the starting point.
+
+299
+00:26:15.340 --> 00:26:21.540
+David Schaich (he): And then you're also free to decide how long you do that isothermal expansion.
+
+300
+00:26:22.440 --> 00:26:23.620
+David Schaich (he): or you know.
+
+301
+00:26:23.830 --> 00:26:31.610
+David Schaich (he): in other words, at what Boeing dB: we switch over from isothermal expansion to it the panic expansion
+
+302
+00:26:31.750 --> 00:26:33.410
+David Schaich (he): as well as the volume.
+
+303
+00:26:34.080 --> 00:26:38.490
+David Schaich (he): Do you see it which we stop expanding altogether and start compressing
+
+304
+00:26:39.670 --> 00:26:41.010
+David Schaich (he): at this point?
+
+305
+00:26:41.210 --> 00:26:43.950
+David Schaich (he): But we don't have any freedom.
+
+306
+00:26:44.100 --> 00:26:47.720
+David Schaich (he): Excuse me longer is this volume
+
+307
+00:26:50.070 --> 00:26:52.380
+David Schaich (he): that's will have to be
+
+308
+00:26:52.620 --> 00:26:55.030
+David Schaich (he): fixed to the
+
+309
+00:26:55.110 --> 00:27:03.170
+David Schaich (he): particular correct value in order for the combination of isothermal and Adiabatic compression to get us back to the starting point.
+
+310
+00:27:04.770 --> 00:27:06.770
+David Schaich (he): and it will also turn out to that.
+
+311
+00:27:08.990 --> 00:27:10.100
+David Schaich (he): The
+
+312
+00:27:11.070 --> 00:27:17.900
+David Schaich (he): combinations of pressure and volume, as we said, are determining the high and low temperatures
+
+313
+00:27:18.580 --> 00:27:30.530
+David Schaich (he): in case of the high temperature is just PA Times B a. Over N. From the ideal gas law. So given these experimental inputs that we imagine we have control over.
+
+314
+00:27:30.760 --> 00:27:32.000
+David Schaich (he): You want to
+
+315
+00:27:32.270 --> 00:27:35.020
+David Schaich (he): find the correct
+
+316
+00:27:36.140 --> 00:27:46.340
+David Schaich (he): value of that volume that allows the cycle to close and be repeated. And in the process of doing so we will see that
+
+317
+00:27:46.600 --> 00:27:49.620
+David Schaich (he): such a volume does in fact, exist.
+
+318
+00:27:49.760 --> 00:27:55.410
+David Schaich (he): That is the resolve. It may not be guaranteed for
+
+319
+00:27:55.580 --> 00:27:58.120
+David Schaich (he): the more general dynamic cycle.
+
+320
+00:28:00.280 --> 00:28:01.450
+David Schaich (he): So given
+
+321
+00:28:04.030 --> 00:28:05.550
+David Schaich (he): the initial state.
+
+322
+00:28:07.780 --> 00:28:12.890
+David Schaich (he): the a. yeah, and the fixed number of particles.
+
+323
+00:28:16.040 --> 00:28:20.420
+David Schaich (he): plus a choice of how far to we expand is so
+
+324
+00:28:20.790 --> 00:28:22.540
+David Schaich (he): and adiabatically
+
+325
+00:28:24.460 --> 00:28:27.090
+David Schaich (he): to show the consistency of the cycle.
+
+326
+00:28:27.810 --> 00:28:29.350
+David Schaich (he): we have to find.
+
+327
+00:28:31.220 --> 00:28:32.130
+David Schaich (he): Yeah.
+
+328
+00:28:34.550 --> 00:28:38.470
+David Schaich (he): one correct value of the
+
+329
+00:28:39.580 --> 00:28:44.330
+David Schaich (he): with the compression changes from
+
+330
+00:28:45.280 --> 00:28:48.090
+David Schaich (he): isothermal to
+
+331
+00:28:51.550 --> 00:28:54.600
+David Schaich (he): so we do this by going around the cycle
+
+332
+00:28:54.630 --> 00:28:56.860
+David Schaich (he): and determining all of the
+
+333
+00:28:58.020 --> 00:28:59.660
+David Schaich (he): properties of the
+
+334
+00:29:00.010 --> 00:29:10.540
+David Schaich (he): Macro States that have not been specified by our procedure of fixing that initial state we're choosing the volume so going from
+
+335
+00:29:10.630 --> 00:29:13.800
+David Schaich (he): with a to Point B, we know that the
+
+336
+00:29:14.360 --> 00:29:18.540
+David Schaich (he): temperature is fixed at the high temperature just by virtually
+
+337
+00:29:18.620 --> 00:29:20.250
+David Schaich (he): isothermal expansion.
+
+338
+00:29:21.300 --> 00:29:23.290
+David Schaich (he): and this in turn is given by
+
+339
+00:29:24.620 --> 00:29:27.950
+David Schaich (he): PA. Times V. A. Over N. For the ideal gas law.
+
+340
+00:29:29.680 --> 00:29:30.680
+David Schaich (he): and
+
+341
+00:29:30.900 --> 00:29:39.250
+David Schaich (he): you find the pressure at Point B. This is the same exercise that we went through for the isotherm at the start of today.
+
+342
+00:29:39.620 --> 00:29:42.610
+David Schaich (he): Yeah. I don't guess what
+
+343
+00:29:47.760 --> 00:29:50.680
+David Schaich (he): we just plug in that high temperature
+
+344
+00:29:51.870 --> 00:29:58.520
+David Schaich (he): number of particles cancels out. and we get you expected ratio of the volume
+
+345
+00:30:00.050 --> 00:30:06.420
+David Schaich (he): T. A. Sorry V. A. Over Bb. Times. The initial pressure. So that is the same as
+
+346
+00:30:06.880 --> 00:30:09.580
+David Schaich (he): that we just considered nicer firm and isolation.
+
+347
+00:30:11.320 --> 00:30:13.760
+David Schaich (he): I think it's good a bit less trivial
+
+348
+00:30:14.260 --> 00:30:20.220
+David Schaich (he): Once we change from isothermal to Adiabatic expansion
+
+349
+00:30:21.870 --> 00:30:25.770
+David Schaich (he): so going from might be to see
+
+350
+00:30:28.140 --> 00:30:34.260
+David Schaich (he): the Adiabatic condition. Entropy of these 2 points is fixed.
+
+351
+00:30:35.000 --> 00:30:38.280
+David Schaich (he): so that the combination
+
+352
+00:30:40.000 --> 00:30:44.240
+David Schaich (he): of the volume times the temperature to the 3 half hour
+
+353
+00:30:47.610 --> 00:30:48.810
+David Schaich (he): it's fixed.
+
+354
+00:30:50.140 --> 00:30:55.890
+David Schaich (he): And here we know all of these qualities. Except for that low temperature which we can
+
+355
+00:30:57.950 --> 00:31:01.340
+David Schaich (he): isolate again as before
+
+356
+00:31:02.770 --> 00:31:04.860
+David Schaich (he): you brief. You are calling me
+
+357
+00:31:08.590 --> 00:31:15.620
+David Schaich (he): times the initial temperature. That boy in ratio raised to the two-thirds power again
+
+358
+00:31:20.440 --> 00:31:21.650
+David Schaich (he): plugging in
+
+359
+00:31:22.720 --> 00:31:23.690
+David Schaich (he): the
+
+360
+00:31:26.440 --> 00:31:27.060
+you
+
+361
+00:31:27.160 --> 00:31:32.450
+David Schaich (he): a result for the high temperature in terms of the initial state that we started off with.
+
+362
+00:31:33.690 --> 00:31:36.570
+David Schaich (he): You can right. This is PA
+
+363
+00:31:37.880 --> 00:31:41.780
+David Schaich (he): the a over in times.
+
+364
+00:31:42.880 --> 00:31:45.640
+David Schaich (he): and what your ratio to the hour two-thirds.
+
+365
+00:31:45.760 --> 00:31:49.230
+David Schaich (he): and see that from this volume ratio
+
+366
+00:31:49.460 --> 00:31:51.270
+David Schaich (he): this is as expected.
+
+367
+00:31:51.300 --> 00:31:55.270
+David Schaich (he): It's strictly lower temperature and the high temperature that we started off with.
+
+368
+00:31:56.470 --> 00:31:57.510
+David Schaich (he): This is
+
+369
+00:31:57.820 --> 00:32:02.300
+David Schaich (he): a qualitative result that we were able to just see by inspection
+
+370
+00:32:02.440 --> 00:32:04.640
+David Schaich (he): of the Pv diagram.
+
+371
+00:32:06.190 --> 00:32:07.850
+David Schaich (he): we now have a
+
+372
+00:32:08.850 --> 00:32:14.730
+David Schaich (he): oh creed mathematical derivation for precisely how much lower that low temperature is
+
+373
+00:32:14.910 --> 00:32:18.120
+David Schaich (he): compared to the high temperature of the hot reservoir.
+
+374
+00:32:20.510 --> 00:32:32.770
+David Schaich (he): We also need to figure out the pressure at Point C, which we can again get from the ideal gas law. The number of particles is fixed. as we
+
+375
+00:32:33.780 --> 00:32:36.550
+David Schaich (he): you around the cycle in particular.
+
+376
+00:32:39.410 --> 00:32:40.960
+David Schaich (he): fixed from the
+
+377
+00:32:41.040 --> 00:32:44.220
+David Schaich (he): initial States at the high temperature. H.
+
+378
+00:32:44.350 --> 00:32:45.770
+David Schaich (he): All the way to
+
+379
+00:32:46.930 --> 00:32:48.090
+David Schaich (he): Point c.
+
+380
+00:32:48.750 --> 00:32:52.490
+David Schaich (he): Where do we reach that low temperature? Tl.
+
+381
+00:32:53.380 --> 00:32:58.020
+David Schaich (he): So PC. Rearranging things is
+
+382
+00:32:59.250 --> 00:33:05.180
+David Schaich (he): refuel of the volumes. Multiply it by the ratio
+
+383
+00:33:06.660 --> 00:33:08.090
+David Schaich (he): of the temperatures
+
+384
+00:33:10.120 --> 00:33:17.770
+David Schaich (he): compared to that initial pressure and the ratio of the temperatures. We have already computed.
+
+385
+00:33:24.320 --> 00:33:28.340
+David Schaich (he): We get the a times bb to the two-thirds.
+
+386
+00:33:28.450 --> 00:33:31.330
+David Schaich (he): divided by Vc.
+
+387
+00:33:31.820 --> 00:33:34.090
+David Schaich (he): The 5 thirds, and as
+
+388
+00:33:34.310 --> 00:33:38.820
+David Schaich (he): Vc. Is the largest volume that we have with Va. And V. Or smaller.
+
+389
+00:33:41.240 --> 00:33:43.880
+David Schaich (he): we have the consistency check that
+
+390
+00:33:44.200 --> 00:33:49.810
+David Schaich (he): the pressure at Point c. Is smaller than that at point a. As expected.
+
+391
+00:33:55.100 --> 00:33:56.140
+David Schaich (he): So the
+
+392
+00:33:57.290 --> 00:33:59.630
+David Schaich (he): final step i'm getting set to
+
+393
+00:33:59.680 --> 00:34:02.940
+David Schaich (he): where we want to be as we go from
+
+394
+00:34:02.980 --> 00:34:06.550
+David Schaich (he): Point C back to. We also have to
+
+395
+00:34:07.890 --> 00:34:09.770
+David Schaich (he): consider the
+
+396
+00:34:10.639 --> 00:34:11.620
+David Schaich (he): final
+
+397
+00:34:11.840 --> 00:34:16.530
+David Schaich (he): process from Point D up to point a, and make sure that
+
+398
+00:34:17.900 --> 00:34:21.870
+David Schaich (he): the pressure and volume of this point the are located at
+
+399
+00:34:23.280 --> 00:34:26.020
+David Schaich (he): the you self-consistent
+
+400
+00:34:28.000 --> 00:34:29.100
+David Schaich (he): value.
+
+401
+00:34:30.100 --> 00:34:34.670
+David Schaich (he): So with isothermal compression, from Point c.
+
+402
+00:34:37.219 --> 00:34:45.500
+David Schaich (he): You know that the temperature points D is fixed to be the same low temperature that we had at Point c. Computed already
+
+403
+00:34:46.630 --> 00:34:50.480
+David Schaich (he): from the fact of the idiotic compression between DNA.
+
+404
+00:34:50.560 --> 00:34:51.750
+David Schaich (he): You know the
+
+405
+00:34:51.960 --> 00:34:54.600
+David Schaich (he): entropies of those 2 points
+
+406
+00:34:54.840 --> 00:34:56.040
+David Schaich (he): are equal
+
+407
+00:35:05.920 --> 00:35:07.440
+David Schaich (he): simulation
+
+408
+00:35:07.760 --> 00:35:12.400
+David Schaich (he): that we had between B and C. Polls between the
+
+409
+00:35:12.740 --> 00:35:15.560
+David Schaich (he): and a. just with the
+
+410
+00:35:20.030 --> 00:35:21.530
+David Schaich (he): ratio of
+
+411
+00:35:22.050 --> 00:35:24.960
+David Schaich (he): temperatures involving the flip. So we have
+
+412
+00:35:25.340 --> 00:35:34.130
+David Schaich (he): that the volume now is the ratio of hot and or high low temperatures to the Free House Power Times.
+
+413
+00:35:34.230 --> 00:35:35.110
+David Schaich (he): That's
+
+414
+00:35:36.720 --> 00:35:38.550
+David Schaich (he): initial
+
+415
+00:35:39.700 --> 00:35:45.760
+David Schaich (he): which we can just plug in the refuel if you see in Vb. So
+
+416
+00:35:47.120 --> 00:35:49.970
+David Schaich (he): th over to the threehouse hour is just
+
+417
+00:35:50.170 --> 00:35:51.680
+David Schaich (he): that ratio to be
+
+418
+00:35:52.150 --> 00:35:53.300
+David Schaich (he): one power
+
+419
+00:35:55.440 --> 00:35:57.870
+David Schaich (he): so hot or below is C.
+
+420
+00:36:01.630 --> 00:36:03.010
+David Schaich (he): Times. V. A.
+
+421
+00:36:04.240 --> 00:36:09.570
+David Schaich (he): Which we can confer is greater than Va. In particular. If we
+
+422
+00:36:09.630 --> 00:36:21.570
+David Schaich (he): rearrange this relation between all 4 of the volumes. We can express that as a ratio of V. A. Over Pd. Is equal to
+
+423
+00:36:21.750 --> 00:36:25.990
+David Schaich (he): this B. Over PC. So the
+
+424
+00:36:27.150 --> 00:36:31.270
+David Schaich (he): amount of Adiabatic compression that is done between
+
+425
+00:36:33.240 --> 00:36:38.160
+David Schaich (he): used to be proportional, the amount of Adiabatic expansion done between
+
+426
+00:36:38.180 --> 00:36:39.320
+David Schaich (he): B and C.
+
+427
+00:36:41.230 --> 00:36:42.180
+David Schaich (he): Or
+
+428
+00:36:43.800 --> 00:36:45.290
+David Schaich (he): alternately, if we
+
+429
+00:36:45.660 --> 00:36:47.970
+David Schaich (he): rearrange things further.
+
+430
+00:36:48.080 --> 00:37:00.510
+David Schaich (he): you can write the a. Over V. B. Equals the D. Over Vc. Which is just saying the amount of isothermal expansion between
+
+431
+00:37:00.710 --> 00:37:03.250
+David Schaich (he): A and B has to be you
+
+432
+00:37:04.380 --> 00:37:13.930
+David Schaich (he): related in this way to the amount of isothermal compression between C and D. So, thanks to that symmetry of the Carnot cycle.
+
+433
+00:37:15.150 --> 00:37:18.560
+David Schaich (he): the balance between isothermal and idiomatic stages.
+
+434
+00:37:20.760 --> 00:37:23.820
+David Schaich (he): the volumes that we come up with.
+
+435
+00:37:23.830 --> 00:37:28.900
+David Schaich (he): I'll have to match in this way, both on the Adiabatic
+
+436
+00:37:29.980 --> 00:37:32.580
+David Schaich (he): science and the isothermal science.
+
+437
+00:37:34.420 --> 00:37:36.160
+David Schaich (he): And then, finally, the
+
+438
+00:37:38.450 --> 00:37:44.030
+David Schaich (he): one last piece of information available for the cycle is the
+
+439
+00:37:44.110 --> 00:37:46.120
+David Schaich (he): pressure at Point D,
+
+440
+00:37:47.650 --> 00:37:51.380
+David Schaich (he): which. as before from the
+
+441
+00:37:52.490 --> 00:37:58.000
+David Schaich (he): is Mt. Over V. Temperature is t low.
+
+442
+00:37:59.580 --> 00:38:00.780
+David Schaich (he): and if we
+
+443
+00:38:06.070 --> 00:38:07.540
+David Schaich (he): swapped in.
+
+444
+00:38:09.010 --> 00:38:13.350
+David Schaich (he): Yeah. V. A. Times, Vc. Over Vb.
+
+445
+00:38:19.310 --> 00:38:20.030
+David Schaich (he): Oops.
+
+446
+00:38:20.160 --> 00:38:23.780
+David Schaich (he): This is one over. V. So we want PA. Sorry.
+
+447
+00:38:24.320 --> 00:38:27.060
+David Schaich (he): Vb: over the ABC.
+
+448
+00:38:29.430 --> 00:38:30.750
+David Schaich (he): Upside down.
+
+449
+00:38:31.840 --> 00:38:35.920
+David Schaich (he): one over volume. and for that low temperature
+
+450
+00:38:36.960 --> 00:38:40.140
+David Schaich (he): we have the result that
+
+451
+00:38:43.020 --> 00:38:47.040
+David Schaich (he): low temperature is related to P. A. Over N.
+
+452
+00:38:47.260 --> 00:38:48.300
+David Schaich (he): Times
+
+453
+00:38:51.470 --> 00:38:53.270
+David Schaich (he): to the 2 thirds power
+
+454
+00:38:59.720 --> 00:39:02.870
+David Schaich (he): we have Va. Is cancelling out.
+
+455
+00:39:04.460 --> 00:39:05.630
+David Schaich (he): We have
+
+456
+00:39:07.440 --> 00:39:14.490
+David Schaich (he): the ends cancelling out. and just 2 factors of V. Over Vc.
+
+457
+00:39:14.520 --> 00:39:19.920
+David Schaich (he): First to the 1 h and then to the 2 thirds power. So this all applies down to
+
+458
+00:39:20.100 --> 00:39:21.180
+David Schaich (he): that's simple
+
+459
+00:39:26.270 --> 00:39:27.910
+to the five-thirds power.
+
+460
+00:39:30.240 --> 00:39:36.320
+David Schaich (he): since we see us the more just point that we have this. I was expecting from the
+
+461
+00:39:37.310 --> 00:39:42.460
+David Schaich (he): cycle that we and really start off with is larger than I'm. Sorry it's smaller than
+
+462
+00:39:42.770 --> 00:39:44.290
+David Schaich (he): the initial pressure.
+
+463
+00:39:46.710 --> 00:39:47.670
+David Schaich (he): That is
+
+464
+00:39:48.000 --> 00:39:49.450
+okay, confirming the
+
+465
+00:39:49.670 --> 00:39:53.070
+David Schaich (he): consistency of all of these results that
+
+466
+00:39:53.170 --> 00:39:56.120
+David Schaich (he): we have been able to arrived
+
+467
+00:39:58.800 --> 00:40:00.860
+David Schaich (he): for our key equations for
+
+468
+00:40:01.020 --> 00:40:03.500
+David Schaich (he): an ideal gas going around
+
+469
+00:40:04.640 --> 00:40:07.220
+David Schaich (he): this these 4 stages.
+
+470
+00:40:09.020 --> 00:40:09.970
+David Schaich (he): So
+
+471
+00:40:13.670 --> 00:40:18.010
+David Schaich (he): in the end. This demand. how they self-consistent cycle
+
+472
+00:40:23.100 --> 00:40:26.100
+David Schaich (he): has given us oh!
+
+473
+00:40:28.120 --> 00:40:32.300
+David Schaich (he): Of the unknown pressures temperatures and
+
+474
+00:40:34.780 --> 00:40:36.210
+David Schaich (he): final volume
+
+475
+00:40:39.490 --> 00:40:41.170
+David Schaich (he): fixed in terms of the
+
+476
+00:40:45.210 --> 00:40:46.290
+David Schaich (he): to control
+
+477
+00:40:47.480 --> 00:40:49.760
+David Schaich (he): in any physical realization
+
+478
+00:40:51.850 --> 00:40:53.380
+David Schaich (he): on this system.
+
+479
+00:40:55.000 --> 00:41:04.110
+David Schaich (he): So any questions about this procedure of going around the part of the cycle checking it self-consistency and deriving
+
+480
+00:41:04.460 --> 00:41:08.740
+David Schaich (he): all of the unknown quantities in terms of the inputs that we have
+
+481
+00:41:19.540 --> 00:41:23.260
+David Schaich (he): not seeing any questions and checking the time
+
+482
+00:41:23.540 --> 00:41:26.560
+David Schaich (he): we have a few minutes to.
+
+483
+00:41:29.200 --> 00:41:30.770
+David Schaich (he): or they go on to the
+
+484
+00:41:31.420 --> 00:41:39.930
+David Schaich (he): core question. Now that we've seen the cycle of self-consistent, we've derived expressions for all of the variables in terms of
+
+485
+00:41:39.970 --> 00:41:52.080
+David Schaich (he): just these few inputs. We can get back to the point, to the exercise which was to use these processes to do work by
+
+486
+00:41:52.430 --> 00:41:55.740
+David Schaich (he): moving he from or between.
+
+487
+00:41:56.020 --> 00:41:59.190
+David Schaich (he): It was hot and cold reservoirs. So the
+
+488
+00:42:01.290 --> 00:42:06.200
+David Schaich (he): point to the Carter cycle Why cargo developed this in the first place, even before
+
+489
+00:42:06.300 --> 00:42:08.680
+David Schaich (he): the ideal gas law had been formulated.
+
+490
+00:42:12.280 --> 00:42:15.160
+David Schaich (he): was doing work. bye.
+
+491
+00:42:16.600 --> 00:42:20.040
+David Schaich (he): moving heat. and the question is.
+
+492
+00:42:23.660 --> 00:42:26.600
+David Schaich (he): how much sheets do we have to move.
+
+493
+00:42:27.040 --> 00:42:28.380
+David Schaich (he): and how much work
+
+494
+00:42:29.980 --> 00:42:33.210
+David Schaich (he): can we do through that process?
+
+495
+00:42:38.790 --> 00:42:39.950
+David Schaich (he): So this is
+
+496
+00:42:42.780 --> 00:42:46.670
+David Schaich (he): the more interesting question that we
+
+497
+00:42:46.920 --> 00:42:52.220
+David Schaich (he): we'll be able to answer, thanks to having all around that cycle the first time, and
+
+498
+00:42:52.430 --> 00:42:54.560
+David Schaich (he): come up with relations between
+
+499
+00:42:55.010 --> 00:42:58.400
+David Schaich (he): all of the variables, just in terms of a few inputs.
+
+500
+00:42:58.530 --> 00:43:03.420
+David Schaich (he): and for the purpose of answering these questions, how much he to do, how much work.
+
+501
+00:43:04.500 --> 00:43:05.430
+David Schaich (he): It is
+
+502
+00:43:07.000 --> 00:43:08.480
+David Schaich (he): convenient to
+
+503
+00:43:11.960 --> 00:43:14.260
+David Schaich (he): you. Find a few
+
+504
+00:43:19.200 --> 00:43:21.340
+David Schaich (he): variations on the
+
+505
+00:43:21.740 --> 00:43:32.990
+David Schaich (he): heat and the work that will help us keep track of the signs that are involved. This heat flows in and out, and work is done both on the system by a surroundings and by the system on the surroundings.
+
+506
+00:43:33.310 --> 00:43:35.030
+David Schaich (he): In particular. If we
+
+507
+00:43:36.250 --> 00:43:38.120
+David Schaich (he): you work on the system
+
+508
+00:43:40.140 --> 00:43:43.420
+David Schaich (he): that raises it's energy.
+
+509
+00:43:45.830 --> 00:43:50.410
+David Schaich (he): and you will call this work going into the system
+
+510
+00:43:50.560 --> 00:43:53.760
+David Schaich (he): which is just going to be equal to the
+
+511
+00:43:55.500 --> 00:44:00.640
+David Schaich (he): work done that we defined last week. which is
+
+512
+00:44:01.300 --> 00:44:05.450
+David Schaich (he): greater than 0 when work is done on the system. To raise this energy.
+
+513
+00:44:07.540 --> 00:44:11.980
+David Schaich (he): things get more interesting when we look at by the system.
+
+514
+00:44:14.590 --> 00:44:16.260
+David Schaich (he): we're we're out
+
+515
+00:44:16.540 --> 00:44:19.640
+David Schaich (he): that lowers this energy to
+
+516
+00:44:19.740 --> 00:44:23.690
+David Schaich (he): do useful things for us like turning the wheels on the car
+
+517
+00:44:24.430 --> 00:44:31.180
+David Schaich (he): in order to keep everything positive. We'll find this to be the negative of the work done on the system.
+
+518
+00:44:31.610 --> 00:44:37.080
+David Schaich (he): So the integral of pressure over volume. the positive sign
+
+519
+00:44:38.080 --> 00:44:42.740
+David Schaich (he): that's is necessarily greater than 0, because the
+
+520
+00:44:42.760 --> 00:44:46.810
+David Schaich (he): internal energy of the system is being decreased by this process.
+
+521
+00:44:48.760 --> 00:45:00.530
+David Schaich (he): As an aside, i'll mention that this integral of pressure over the the is just the area under any of the curves on this pressure volume, diagram
+
+522
+00:45:00.680 --> 00:45:03.380
+David Schaich (he): what the integral amounts to
+
+523
+00:45:03.720 --> 00:45:06.500
+David Schaich (he): we will come back to that perhaps after
+
+524
+00:45:06.680 --> 00:45:08.540
+David Schaich (he): a break. But similarly
+
+525
+00:45:08.860 --> 00:45:11.010
+David Schaich (he): you will find both the
+
+526
+00:45:11.950 --> 00:45:13.650
+David Schaich (he): you into the system
+
+527
+00:45:14.770 --> 00:45:20.140
+David Schaich (he): and he out of the system to be positive qualities. So when he comes in
+
+528
+00:45:20.620 --> 00:45:23.390
+David Schaich (he): that raises the internal energy
+
+529
+00:45:25.690 --> 00:45:27.500
+David Schaich (he): integral of
+
+530
+00:45:27.950 --> 00:45:37.290
+David Schaich (he): temperature times, the change in entropy which is positive, due to raising the average internal energy of the system.
+
+531
+00:45:38.700 --> 00:45:39.580
+David Schaich (he): and
+
+532
+00:45:40.920 --> 00:45:45.000
+David Schaich (he): when he was expelled from the system to
+
+533
+00:45:45.230 --> 00:45:47.230
+David Schaich (he): a reservoir, you just
+
+534
+00:45:47.280 --> 00:45:56.670
+David Schaich (he): account for that negative sign in this definition, and then we'll have to worry about it as we go around the cycle.
+
+535
+00:45:58.500 --> 00:46:03.110
+David Schaich (he): So given all of these definitions. yeah
+
+536
+00:46:03.700 --> 00:46:10.150
+David Schaich (he): question that we have to address how much work can be done if they give it. Another piece.
+
+537
+00:46:10.480 --> 00:46:14.720
+David Schaich (he): boils down into the compensation
+
+538
+00:46:15.950 --> 00:46:30.930
+David Schaich (he): of what's called the efficiency of the cycle you can defined to be network that is done by the cycle divided by, or in units of, the total amount of heat
+
+539
+00:46:31.120 --> 00:46:38.000
+David Schaich (he): it has to flow into the cycle in order to do that work. So the net amount of work done
+
+540
+00:46:38.560 --> 00:46:42.410
+David Schaich (he): is the work that the system does on its surroundings.
+
+541
+00:46:42.750 --> 00:46:50.410
+David Schaich (he): minus the work that we have to go into the system that the surroundings do all the assistance to raise this energy
+
+542
+00:46:52.270 --> 00:46:53.680
+David Schaich (he): and all that is
+
+543
+00:46:54.720 --> 00:46:57.850
+David Schaich (he): divided by the inflowing heat
+
+544
+00:46:59.530 --> 00:47:01.030
+David Schaich (he): coming into the system
+
+545
+00:47:02.060 --> 00:47:06.440
+David Schaich (he): from man. one of its external reservoirs. So this is the
+
+546
+00:47:10.880 --> 00:47:12.020
+David Schaich (he): network
+
+547
+00:47:13.690 --> 00:47:17.810
+David Schaich (he): done by each iteration of the cycle
+
+548
+00:47:21.990 --> 00:47:23.390
+David Schaich (he): in UN itself
+
+549
+00:47:28.790 --> 00:47:30.820
+David Schaich (he): He that flows in.
+
+550
+00:47:31.400 --> 00:47:32.810
+David Schaich (he): So if we
+
+551
+00:47:35.630 --> 00:47:37.100
+David Schaich (he): that we have
+
+552
+00:47:39.180 --> 00:47:40.150
+David Schaich (he): hey.
+
+553
+00:47:44.890 --> 00:47:52.510
+David Schaich (he): this is a system that does more heat, more work on the surroundings than we have to put in in order for it to run.
+
+554
+00:47:52.940 --> 00:47:55.170
+David Schaich (he): so that corresponds
+
+555
+00:47:55.750 --> 00:47:56.740
+David Schaich (he): to the
+
+556
+00:47:56.820 --> 00:48:01.470
+David Schaich (he): efficiency being greater than 0. So all 3 of these
+
+557
+00:48:01.540 --> 00:48:09.530
+David Schaich (he): have been defined to be positive quantities. So with what we're being done by the system. and we had to put in to
+
+558
+00:48:10.440 --> 00:48:14.460
+David Schaich (he): make it wrong. We get a positive efficiency, a lower bound
+
+559
+00:48:14.680 --> 00:48:15.390
+David Schaich (he): on.
+
+560
+00:48:18.550 --> 00:48:19.660
+David Schaich (he): and engine
+
+561
+00:48:20.700 --> 00:48:27.060
+David Schaich (he): doing work. and it's also possible to It's an upper band. If we consider the
+
+562
+00:48:27.520 --> 00:48:30.160
+David Schaich (he): first of all, i'll fill with the
+
+563
+00:48:31.450 --> 00:48:37.770
+David Schaich (he): in the generalized form that we derived last week. the change in internal energy.
+
+564
+00:48:39.560 --> 00:48:53.220
+David Schaich (he): thanks to the conservation of energy, has to be matched by the amount of keeps that flows into out of the system. Similarly, the amount of work that flows into out of the system.
+
+565
+00:48:53.440 --> 00:48:56.930
+David Schaich (he): all of those have to balance, so that energy is conserved.
+
+566
+00:48:57.100 --> 00:48:58.600
+David Schaich (he): So rearranging.
+
+567
+00:48:59.950 --> 00:49:05.950
+David Schaich (he): We have this difference between the work done by the system and done on the system
+
+568
+00:49:06.130 --> 00:49:08.380
+David Schaich (he): is just that difference between
+
+569
+00:49:08.620 --> 00:49:10.140
+David Schaich (he): he that flows in
+
+570
+00:49:10.640 --> 00:49:12.690
+David Schaich (he): and the heat that flows out.
+
+571
+00:49:13.770 --> 00:49:17.520
+David Schaich (he): which is trivially less than or equal to
+
+572
+00:49:17.630 --> 00:49:24.610
+David Schaich (he): total amount to in, because all of these, again, are positive quantities. The smallest amount we can subtract
+
+573
+00:49:25.030 --> 00:49:27.970
+David Schaich (he): is going to be 0, which is where quality holds.
+
+574
+00:49:28.990 --> 00:49:32.350
+David Schaich (he): If the in the case where there is no waste
+
+575
+00:49:32.510 --> 00:49:33.700
+David Schaich (he): expelled
+
+576
+00:49:35.040 --> 00:49:40.620
+David Schaich (he): as we go around our cycle. so if
+
+577
+00:49:41.090 --> 00:49:48.380
+David Schaich (he): the numerator of the efficiency is less than or equal to this denominator. That is a fancy way of saying
+
+578
+00:49:48.640 --> 00:49:50.060
+David Schaich (he): the efficiency
+
+579
+00:49:50.770 --> 00:49:53.440
+David Schaich (he): is down in the boat by one
+
+580
+00:49:54.400 --> 00:50:02.430
+David Schaich (he): down the below by 0, and we can interpret this as the you fraction
+
+581
+00:50:04.190 --> 00:50:09.130
+David Schaich (he): of the heat flow back on the screen there at the
+
+582
+00:50:11.550 --> 00:50:13.090
+David Schaich (he): engine can convert
+
+583
+00:50:16.390 --> 00:50:20.190
+David Schaich (he): to work on its surroundings.
+
+584
+00:50:21.830 --> 00:50:23.400
+David Schaich (he): and the fact that
+
+585
+00:50:23.680 --> 00:50:28.300
+David Schaich (he): the efficiency is bounded by one to the personal thermodynamics
+
+586
+00:50:28.520 --> 00:50:35.070
+David Schaich (he): is sometimes phrase is saying that you can't win. and not
+
+587
+00:50:38.710 --> 00:50:50.500
+David Schaich (he): the context of converting energy to work. You cannot get more work out. then. The amount of energy in the form of heat that goes into the system.
+
+588
+00:50:51.760 --> 00:50:53.180
+David Schaich (he): and we'll take a
+
+589
+00:50:53.330 --> 00:50:59.300
+David Schaich (he): break now unless there are any immediate questions. and coming back after the break, we all
+
+590
+00:50:59.370 --> 00:51:02.760
+David Schaich (he): compute the efficiency of the car. No cycle.
+
+591
+00:51:04.040 --> 00:51:07.790
+David Schaich (he): See if we can make sense of yeah.
+
+592
+00:51:08.150 --> 00:51:12.210
+David Schaich (he): resulting form of it. And in general lessons we can apply for
+
+593
+00:51:12.310 --> 00:51:16.220
+David Schaich (he): throw dynamic cycles, doing work more generally.
+
+594
+00:51:16.740 --> 00:51:24.410
+David Schaich (he): So any questions Before I pause the recording, and we have here brief break to wake up.
+
+595
+00:51:35.610 --> 00:51:36.820
+David Schaich (he): All right. Well
+
+596
+00:51:36.830 --> 00:51:43.600
+David Schaich (he): get back under way. No. sure. Why, the microphones flashing all different colors, but hopefully.
+
+597
+00:51:43.740 --> 00:51:47.430
+David Schaich (he): those of you who are connected remotely can't hear me
+
+598
+00:51:48.440 --> 00:51:51.430
+David Schaich (he): speak up in it. Things are not coming through.
+
+599
+00:51:53.190 --> 00:51:58.290
+David Schaich (he): so any questions occur during the break before we go on to the example.
+
+600
+00:52:03.480 --> 00:52:08.940
+David Schaich (he): Efficiency it's able to do for
+
+601
+00:52:09.650 --> 00:52:11.080
+David Schaich (he): you. This heat flood, or
+
+602
+00:52:14.330 --> 00:52:18.710
+David Schaich (he): the strategy will be the same as we went through, and checking consistency
+
+603
+00:52:18.830 --> 00:52:20.730
+David Schaich (he): to go around.
+
+604
+00:52:20.810 --> 00:52:25.740
+David Schaich (he): or stages of the cycle, and figure out what heats and what work
+
+605
+00:52:25.970 --> 00:52:29.480
+David Schaich (he): it's associated with each of those. and
+
+606
+00:52:30.120 --> 00:52:33.460
+David Schaich (he): it's useful as we do so just for you to
+
+607
+00:52:34.900 --> 00:52:36.130
+David Schaich (he): look at the
+
+608
+00:52:38.130 --> 00:52:43.130
+David Schaich (he): corresponding process in the Pv diagram and try to use that to decide If you expect.
+
+609
+00:52:44.560 --> 00:52:55.960
+David Schaich (he): keep the flow in or out. If you expect work to be done on the system, provide the system. and then the the precise mathematical results in each stage can be checked
+
+610
+00:52:56.040 --> 00:52:59.020
+David Schaich (he): against that complicated expectation
+
+611
+00:53:00.060 --> 00:53:02.990
+David Schaich (he): to see if things are working out
+
+612
+00:53:03.320 --> 00:53:14.680
+David Schaich (he): in the proper way. So you get used to things that can also be a shortcut by inspection you can see which stages are bringing in or out which stages are
+
+613
+00:53:14.880 --> 00:53:24.510
+David Schaich (he): doing work on on the system, or doing more to the system on its surroundings. and look only at those to extract the efficiency
+
+614
+00:53:26.130 --> 00:53:31.360
+David Schaich (he): for more general cycles. So with that
+
+615
+00:53:32.650 --> 00:53:39.970
+David Schaich (he): first stage we have to consider this is a purple expansion from a to B. We are
+
+616
+00:53:42.470 --> 00:53:44.300
+David Schaich (he): working on in this stage
+
+617
+00:53:44.600 --> 00:53:46.550
+David Schaich (he): is defined by it.
+
+618
+00:53:46.670 --> 00:53:51.050
+David Schaich (he): the integral I'm. Starting voting to the final volume.
+
+619
+00:53:51.620 --> 00:53:55.760
+David Schaich (he): The pressure it's. Functioning.
+
+620
+00:53:57.380 --> 00:54:11.180
+David Schaich (he): which we know from the ideal gas law is the number of particles Times. The high temperature that is fixed along this stage. divided by the volume integrate over the volume. So
+
+621
+00:54:12.150 --> 00:54:15.680
+David Schaich (he): you just go with the X over X is the one.
+
+622
+00:54:17.230 --> 00:54:20.810
+David Schaich (he): and then to you at your constants that come out.
+
+623
+00:54:28.340 --> 00:54:36.160
+David Schaich (he): It can be right. It's the of that ratio. and bring in that negative sign to
+
+624
+00:54:37.250 --> 00:54:41.590
+David Schaich (he): invert the ratio, and it's a. A,
+
+625
+00:54:46.340 --> 00:54:57.890
+David Schaich (he): 11 B. And since Volume B is a larger volume. The argument of the logarithm is less than one. The what, if it itself is negative and overall? We have
+
+626
+00:54:57.900 --> 00:54:59.620
+David Schaich (he): negative work.
+
+627
+00:55:00.890 --> 00:55:03.670
+David Schaich (he): which means that to get this positive quantity
+
+628
+00:55:04.430 --> 00:55:16.940
+David Schaich (he): we need to negate it and identify this as a contribution to the work beating done. My, the system contributing to ultimate quality work out
+
+629
+00:55:17.560 --> 00:55:20.120
+David Schaich (he): so hopefully that alliance with
+
+630
+00:55:21.580 --> 00:55:26.400
+David Schaich (he): what you expected. based on the the qualitative and homelessness
+
+631
+00:55:26.930 --> 00:55:28.000
+David Schaich (he): and the you
+
+632
+00:55:28.050 --> 00:55:30.750
+David Schaich (he): amount to keep flow in the stage
+
+633
+00:55:31.580 --> 00:55:42.940
+David Schaich (he): in order to keep the temperature fixed. We already saw that it's is expected to flow into the system. We can confirm this plan. considering the
+
+634
+00:55:43.660 --> 00:55:48.650
+David Schaich (he): connection between internal energy and for sure.
+
+635
+00:55:51.160 --> 00:55:56.110
+David Schaich (he): the change in temperature being 0 and change in internal energy being
+
+636
+00:55:57.280 --> 00:55:58.380
+David Schaich (he): the heat
+
+637
+00:56:00.520 --> 00:56:03.670
+David Schaich (he): plus the work from the
+
+638
+00:56:03.840 --> 00:56:09.230
+David Schaich (he): we just have that the heat flow in this first stage from a to B
+
+639
+00:56:09.710 --> 00:56:12.410
+David Schaich (he): is negative of the work.
+
+640
+00:56:12.680 --> 00:56:14.270
+David Schaich (he): and greater than 0,
+
+641
+00:56:15.290 --> 00:56:17.460
+David Schaich (he): so contributing to
+
+642
+00:56:17.560 --> 00:56:21.090
+David Schaich (he): you can flow in amount of heat you in
+
+643
+00:56:21.290 --> 00:56:24.890
+David Schaich (he): by contributing to the efficiency of the cycle.
+
+644
+00:56:37.820 --> 00:56:40.440
+David Schaich (he): So that's one stage down in the next stage.
+
+645
+00:56:40.620 --> 00:56:41.310
+This.
+
+646
+00:56:42.130 --> 00:56:45.420
+David Schaich (he): to remind ourselves, is idiomatic expansion
+
+647
+00:56:45.800 --> 00:56:48.680
+David Schaich (he): I need to see which turns out to be
+
+648
+00:56:49.750 --> 00:56:53.100
+David Schaich (he): a bit simpler than the isothermal expansion.
+
+649
+00:56:54.080 --> 00:56:56.890
+David Schaich (he): simply because the
+
+650
+00:56:58.170 --> 00:57:00.260
+David Schaich (he): he that is exchanged
+
+651
+00:57:00.440 --> 00:57:13.290
+David Schaich (he): in this stage is 0 on the definition of the idiotic process. and as a consequence of the change and the energy is simply given by it. You work
+
+652
+00:57:14.190 --> 00:57:15.050
+David Schaich (he): sure
+
+653
+00:57:19.110 --> 00:57:21.590
+David Schaich (he): all of these.
+
+654
+00:57:22.200 --> 00:57:24.100
+David Schaich (he): and that change in the energy
+
+655
+00:57:24.510 --> 00:57:28.090
+David Schaich (he): is related to a change in the temperature.
+
+656
+00:57:30.560 --> 00:57:37.660
+David Schaich (he): We has n times the final temperature t little I see initial temperature t high
+
+657
+00:57:38.610 --> 00:57:45.180
+David Schaich (he): we're we're in a real factor of See how they one of the
+
+658
+00:57:45.440 --> 00:57:48.860
+David Schaich (he): temperature ratios that we computed before the break.
+
+659
+00:57:50.750 --> 00:57:52.350
+David Schaich (he): and I can't write.
+
+660
+00:57:53.400 --> 00:57:54.370
+David Schaich (he): Yes.
+
+661
+00:57:57.880 --> 00:58:00.600
+David Schaich (he): P. A. V. A. By the ideal gas law
+
+662
+00:58:02.290 --> 00:58:06.130
+David Schaich (he): and the ratio of temperatures
+
+663
+00:58:08.880 --> 00:58:14.040
+David Schaich (he): being related to the ratio of the volumes that we can fix
+
+664
+00:58:14.060 --> 00:58:17.590
+David Schaich (he): experimentally, we that two-thirds power.
+
+665
+00:58:18.180 --> 00:58:25.610
+David Schaich (he): So we have the over Vc. To the two-thirds. minus one.
+
+666
+00:58:27.250 --> 00:58:31.250
+David Schaich (he): because the ratio is less than one
+
+667
+00:58:31.360 --> 00:58:33.090
+David Schaich (he): negative
+
+668
+00:58:33.250 --> 00:58:42.990
+David Schaich (he): number. So another contribution 2 W. Out of work done by the system on its surroundings, which we can put to use
+
+669
+00:58:44.790 --> 00:58:46.520
+David Schaich (he): to
+
+670
+00:58:49.700 --> 00:58:51.660
+David Schaich (he): any other form of work.
+
+671
+00:58:53.920 --> 00:58:55.530
+David Schaich (he): And at this point we are
+
+672
+00:58:57.610 --> 00:59:09.400
+David Schaich (he): very nearly done, thanks to symmetry and the Carnot cycle, that the isothermal mediatic expansion is followed by matching isothermal and Adiabatic compression stages with
+
+673
+00:59:10.320 --> 00:59:14.220
+David Schaich (he): the fixed volume ratios that we derived before.
+
+674
+00:59:14.690 --> 00:59:16.290
+David Schaich (he): So the
+
+675
+00:59:16.830 --> 00:59:19.860
+David Schaich (he): compression from 1 point, C to D,
+
+676
+00:59:20.820 --> 00:59:22.200
+David Schaich (he): it just proceeds
+
+677
+00:59:22.420 --> 00:59:24.910
+David Schaich (he): in much the same way, as
+
+678
+00:59:25.400 --> 00:59:28.460
+David Schaich (he): you know, isothermal expansion from a to B.
+
+679
+00:59:29.840 --> 00:59:30.550
+David Schaich (he): There you go.
+
+680
+00:59:32.740 --> 00:59:36.510
+David Schaich (he): that the work is the integral
+
+681
+00:59:37.950 --> 00:59:45.640
+David Schaich (he): from the the final volume out of now and times, the low temperature
+
+682
+00:59:49.030 --> 00:59:50.430
+David Schaich (he): which we can
+
+683
+00:59:50.530 --> 00:59:52.670
+David Schaich (he): rewrite it as.
+
+684
+00:59:53.080 --> 00:59:55.770
+David Schaich (he): and times the high temperature.
+
+685
+00:59:58.050 --> 01:00:07.020
+David Schaich (he): I'm the ratio. I to high temperatures, so I just multiply them, divided by th. and pointed
+
+686
+01:00:07.270 --> 01:00:09.560
+David Schaich (he): in. Here
+
+687
+01:00:09.570 --> 01:00:10.800
+David Schaich (he): we will have
+
+688
+01:00:11.130 --> 01:00:15.910
+David Schaich (he): the Board of Pd. Over PC. With the negative sign that I call
+
+689
+01:00:21.000 --> 01:00:22.390
+David Schaich (he): over Vd.
+
+690
+01:00:24.120 --> 01:00:28.480
+David Schaich (he): So again we have the temperature ratio that we computed.
+
+691
+01:00:28.610 --> 01:00:29.620
+David Schaich (he): and the you
+
+692
+01:00:29.950 --> 01:00:32.770
+David Schaich (he): ratio of those 2 volumes.
+
+693
+01:00:33.020 --> 01:00:40.530
+David Schaich (he): the C. Over v. D we related to Vb over V. A. So that gives us
+
+694
+01:00:45.060 --> 01:00:50.170
+David Schaich (he): that's the ratio of the two-thirds times, the logarithm
+
+695
+01:00:52.010 --> 01:00:57.880
+David Schaich (he): Oh. the ratio of different.
+
+696
+01:00:59.200 --> 01:01:00.320
+David Schaich (he): So
+
+697
+01:01:00.900 --> 01:01:06.200
+David Schaich (he): all of those are positive factors.
+
+698
+01:01:06.980 --> 01:01:08.440
+David Schaich (he): So let me
+
+699
+01:01:08.570 --> 01:01:11.260
+David Schaich (he): how's the work being done, contribution
+
+700
+01:01:11.500 --> 01:01:19.020
+David Schaich (he): to work that has to be done on the system by its surroundings rather than useful work. that we are getting out
+
+701
+01:01:19.140 --> 01:01:20.140
+the system.
+
+702
+01:01:21.960 --> 01:01:24.460
+David Schaich (he): and finally, as well for the
+
+703
+01:01:24.630 --> 01:01:27.930
+David Schaich (he): you back compression. Our final stage.
+
+704
+01:01:28.700 --> 01:01:34.630
+David Schaich (he): There is no and change. The internal energy
+
+705
+01:01:37.770 --> 01:01:39.280
+David Schaich (he): is just a work
+
+706
+01:01:40.430 --> 01:01:42.910
+David Schaich (he): which is 3 has
+
+707
+01:01:43.150 --> 01:01:48.730
+David Schaich (he): times 10 times the final temperature, minus the initial temperature
+
+708
+01:01:49.000 --> 01:01:50.310
+David Schaich (he): exactly
+
+709
+01:01:50.820 --> 01:01:54.620
+David Schaich (he): what we had about with an overall negative sign.
+
+710
+01:01:57.370 --> 01:02:03.310
+David Schaich (he): Negative work of the Id of adding expansion phase which we saw is greater than 0.
+
+711
+01:02:03.690 --> 01:02:08.900
+David Schaich (he): Therefore, another stage where we have to do work on the system rather than
+
+712
+01:02:09.220 --> 01:02:10.660
+David Schaich (he): didn't work out of it.
+
+713
+01:02:13.270 --> 01:02:14.210
+David Schaich (he): So we
+
+714
+01:02:21.200 --> 01:02:22.860
+David Schaich (he): almost forgot to mention
+
+715
+01:02:24.470 --> 01:02:30.820
+David Schaich (he): in the I. Of the impression Stage, CD. We again have that the work is the negative.
+
+716
+01:02:31.060 --> 01:02:33.920
+David Schaich (he): So the heat exchange is the negative work.
+
+717
+01:02:35.470 --> 01:02:39.980
+David Schaich (he): so that's greater than 0. So that's less than 0 that goes into you
+
+718
+01:02:41.000 --> 01:02:50.820
+David Schaich (he): The waste he's expelled to the low Temperature reservoir that we were in contact with along the isothermal compression stage.
+
+719
+01:02:54.350 --> 01:02:59.230
+David Schaich (he): which means that we can ignore that when computing the
+
+720
+01:02:59.550 --> 01:03:01.640
+David Schaich (he): overall efficiency of the cycle.
+
+721
+01:03:03.880 --> 01:03:12.130
+David Schaich (he): that's a shortcut we can take. That's for your confidence in analyzing the overall quality of shape of the cycle to
+
+722
+01:03:13.570 --> 01:03:21.810
+David Schaich (he): where the different contributions are arising. and we now have all of the to compute
+
+723
+01:03:24.190 --> 01:03:25.550
+David Schaich (he): the efficiency.
+
+724
+01:03:25.940 --> 01:03:27.330
+We write it Here
+
+725
+01:03:28.730 --> 01:03:30.150
+David Schaich (he): it's close to hand.
+
+726
+01:03:31.510 --> 01:03:32.220
+David Schaich (he): Hmm.
+
+727
+01:03:32.660 --> 01:03:39.280
+David Schaich (he): Me for the efficiency. The you know we're in the by the system, minus the work done on the system.
+
+728
+01:03:40.380 --> 01:03:47.400
+David Schaich (he): Provide the system is the negative work done in the
+
+729
+01:03:48.550 --> 01:03:52.960
+David Schaich (he): and CD. Because we have to find work to be
+
+730
+01:03:53.790 --> 01:03:58.460
+David Schaich (he): You'll work that he's on on the system to raise this internal energy by giving that
+
+731
+01:03:58.660 --> 01:03:59.580
+David Schaich (he): we did
+
+732
+01:04:00.410 --> 01:04:03.370
+David Schaich (he): a positive quality for the workouts.
+
+733
+01:04:04.610 --> 01:04:07.480
+David Schaich (he): So we are here. Oh, no!
+
+734
+01:04:08.000 --> 01:04:11.770
+David Schaich (he): Our definitions of we're in the
+
+735
+01:04:13.040 --> 01:04:14.670
+David Schaich (he): positive qualities
+
+736
+01:04:16.280 --> 01:04:18.800
+David Schaich (he): and make it easy to keep practical signs.
+
+737
+01:04:19.880 --> 01:04:22.780
+David Schaich (he): And then we need the
+
+738
+01:04:23.330 --> 01:04:28.880
+David Schaich (he): that flows into the system which comes entirely from that initial stage
+
+739
+01:04:29.940 --> 01:04:33.160
+David Schaich (he): from a Tob, because for a little expansion
+
+740
+01:04:35.450 --> 01:04:37.240
+David Schaich (he): that this was
+
+741
+01:04:38.620 --> 01:04:42.810
+David Schaich (he): that stage again, a positive quantity.
+
+742
+01:04:42.890 --> 01:04:46.450
+David Schaich (he): So if we plug all of this in work out
+
+743
+01:04:46.930 --> 01:04:48.910
+David Schaich (he): minus W. A. B
+
+744
+01:04:50.950 --> 01:04:52.510
+David Schaich (he): minus the work in.
+
+745
+01:04:54.730 --> 01:04:58.060
+David Schaich (he): And this here is.
+
+746
+01:04:59.720 --> 01:05:00.870
+David Schaich (he): Can you go ahead?
+
+747
+01:05:02.380 --> 01:05:10.620
+David Schaich (he): So this 2 expansion stages both contribute to the work done by the system. Yeah. Other 2 stages are subtracted.
+
+748
+01:05:10.970 --> 01:05:13.700
+David Schaich (he): You get a minus work, CD.
+
+749
+01:05:14.590 --> 01:05:15.860
+David Schaich (he): On this work.
+
+750
+01:05:18.740 --> 01:05:25.320
+David Schaich (he): all of that divided by it. Negative of the work on the is in front of the expansion stage.
+
+751
+01:05:26.910 --> 01:05:29.140
+David Schaich (he): This simplifies a bit because
+
+752
+01:05:30.190 --> 01:05:31.600
+David Schaich (he): we saw that
+
+753
+01:05:31.770 --> 01:05:36.270
+David Schaich (he): the work, the a done in the final idiomatic stage was the negative
+
+754
+01:05:39.950 --> 01:05:43.290
+David Schaich (he): initial expansion fees. So
+
+755
+01:05:43.760 --> 01:05:49.670
+David Schaich (he): those 2 terms cancel all of the negative signs cancel, and we can just
+
+756
+01:05:50.330 --> 01:05:51.430
+David Schaich (he): you buy it
+
+757
+01:05:51.440 --> 01:05:56.860
+David Schaich (he): both of the remaining terms by the input he. W. A. To get one.
+
+758
+01:05:56.900 --> 01:05:59.070
+David Schaich (he): What the ratio
+
+759
+01:06:00.510 --> 01:06:02.450
+David Schaich (he): the work in the isothermal
+
+760
+01:06:02.810 --> 01:06:06.320
+David Schaich (he): compression things over that to be isothermal
+
+761
+01:06:06.330 --> 01:06:07.480
+David Schaich (he): expansion.
+
+762
+01:06:09.570 --> 01:06:10.540
+David Schaich (he): So
+
+763
+01:06:11.610 --> 01:06:15.040
+David Schaich (he): you have computer those quantities work.
+
+764
+01:06:18.010 --> 01:06:19.320
+David Schaich (he): See the
+
+765
+01:06:19.710 --> 01:06:24.190
+David Schaich (he): he's here where he was on the previous page.
+
+766
+01:06:26.820 --> 01:06:36.450
+David Schaich (he): Just plug them in into the overall expression for the efficiency. You have it. Yeah.
+
+767
+01:06:37.140 --> 01:06:41.070
+David Schaich (he): Times. This ratio of temperatures
+
+768
+01:06:43.490 --> 01:06:45.750
+David Schaich (he): all right the
+
+769
+01:06:46.320 --> 01:06:48.560
+David Schaich (he): over the a
+
+770
+01:06:49.210 --> 01:07:03.930
+David Schaich (he): impression work back from the first stage. We have a similar now here arguments in the opposite orientation log of Va
+
+771
+01:07:04.930 --> 01:07:06.260
+David Schaich (he): over Vb.
+
+772
+01:07:07.270 --> 01:07:19.350
+David Schaich (he): Okay. pre-factor cancels. The logs are the same up to an overall negative sign that inverts. The ratio of one of the other of them. So we find
+
+773
+01:07:19.620 --> 01:07:24.370
+David Schaich (he): ultimately with the the efficiency of the Carnot cycle
+
+774
+01:07:24.730 --> 01:07:27.860
+David Schaich (he): is one minus the temperature ratio
+
+775
+01:07:28.490 --> 01:07:30.390
+David Schaich (he): the L. Over T. H.
+
+776
+01:07:32.000 --> 01:07:33.140
+David Schaich (he): So we can
+
+777
+01:07:34.920 --> 01:07:39.730
+David Schaich (he): check that this behaves as an efficiency. Should we found that
+
+778
+01:07:41.090 --> 01:07:44.760
+David Schaich (he): we're engine, we should be a positive quantity, and because
+
+779
+01:07:45.530 --> 01:07:51.980
+David Schaich (he): t level is. should be less than see how we have
+
+780
+01:07:53.810 --> 01:07:57.480
+David Schaich (he): the quantity that is always less than one in this ratio.
+
+781
+01:07:58.090 --> 01:08:02.060
+David Schaich (he): and the efficiency approaches 0 as
+
+782
+01:08:04.450 --> 01:08:14.530
+David Schaich (he): the temperatures approach each other high in the temperatures of the 2 reservoirs that the cycle that the system is in contact with as it goes around the cycle.
+
+783
+01:08:14.780 --> 01:08:27.510
+David Schaich (he): No, to be here the same if they go to one. the 2 terms cancel off, and you end up with vanishing efficiency. This is the situation where
+
+784
+01:08:28.529 --> 01:08:35.859
+David Schaich (he): overall cycle just collapses into a single iso term. with no idiotic expansion spaces.
+
+785
+01:08:35.910 --> 01:08:39.210
+David Schaich (he): You expand as a terminally contract. Iso properly.
+
+786
+01:08:40.859 --> 01:08:42.779
+David Schaich (he): Don't get anything.
+
+787
+01:08:42.970 --> 01:08:44.100
+David Schaich (he): How about that?
+
+788
+01:08:45.700 --> 01:08:48.660
+David Schaich (he): You keep it as being exchanged along those
+
+789
+01:08:52.000 --> 01:08:57.189
+David Schaich (he): processes. and then the other extreme. We're
+
+790
+01:08:59.189 --> 01:09:05.850
+David Schaich (he): the ratio. It was 0, but the maximum that we can have is
+
+791
+01:09:07.109 --> 01:09:10.220
+David Schaich (he): just one on the second term vanishes.
+
+792
+01:09:10.460 --> 01:09:11.470
+David Schaich (he): And
+
+793
+01:09:12.120 --> 01:09:16.340
+David Schaich (he): the reason I have made this a strict inequality rather than
+
+794
+01:09:17.330 --> 01:09:18.189
+David Schaich (he): hey you
+
+795
+01:09:18.240 --> 01:09:23.859
+David Schaich (he): less than or equals 2 that we got from the first law of thermodynamics is just because
+
+796
+01:09:24.870 --> 01:09:29.840
+David Schaich (he): really this ratio of temperatures going to 0 is not really physical, but
+
+797
+01:09:30.109 --> 01:09:42.229
+David Schaich (he): you would need it either, or both of the low temperature heading to absolute 0. What are you? High temperature Reservoir becoming a
+
+798
+01:09:42.370 --> 01:09:45.770
+David Schaich (he): definitely helped. both of which
+
+799
+01:09:46.010 --> 01:09:50.550
+David Schaich (he): are not going to be realized in any physical material.
+
+800
+01:09:51.460 --> 01:09:52.460
+David Schaich (he): So
+
+801
+01:09:55.680 --> 01:09:58.010
+David Schaich (he): we can just impose that bit of
+
+802
+01:09:58.620 --> 01:10:02.880
+David Schaich (he): external physical knowledge to identify that
+
+803
+01:10:02.960 --> 01:10:17.870
+David Schaich (he): the efficiency is going to be less than one. and this, in fact. next to a the general results. even though
+
+804
+01:10:19.230 --> 01:10:20.380
+David Schaich (he): this is the year
+
+805
+01:10:20.470 --> 01:10:27.150
+David Schaich (he): efficiency computed just for a particular and rather special thermodynamic cycle discovered by Carnot
+
+806
+01:10:27.190 --> 01:10:29.370
+David Schaich (he): very nearly 200 years ago
+
+807
+01:10:30.440 --> 01:10:35.850
+David Schaich (he): some of the lessons that we are seeing from our results our
+
+808
+01:10:37.630 --> 01:10:46.050
+David Schaich (he): fully general for any self-consistent from a dynamic cycle that's comes back around the 2 with starting points.
+
+809
+01:10:47.680 --> 01:10:48.760
+David Schaich (he): So
+
+810
+01:10:53.120 --> 01:10:55.160
+David Schaich (he): in general, whenever the
+
+811
+01:10:56.460 --> 01:10:59.430
+David Schaich (he): minimum and maximum temperatures of the cycle
+
+812
+01:11:00.010 --> 01:11:02.940
+David Schaich (he): approach each other where there's no temperature change.
+
+813
+01:11:04.580 --> 01:11:05.940
+David Schaich (he): you will always
+
+814
+01:11:07.880 --> 01:11:18.150
+David Schaich (he): Hello! The vanishing efficiency 0 just because there is in this case. No.
+
+815
+01:11:18.840 --> 01:11:23.980
+David Schaich (he): we'll repeat to you any of the work that we want the engine to do
+
+816
+01:11:28.050 --> 01:11:29.190
+David Schaich (he): or 2.
+
+817
+01:11:30.340 --> 01:11:32.030
+David Schaich (he): Turn this on its head.
+
+818
+01:11:33.050 --> 01:11:33.990
+David Schaich (he): The
+
+819
+01:11:35.500 --> 01:11:37.590
+David Schaich (he): smaller this ratio of so the
+
+820
+01:11:39.270 --> 01:11:43.340
+David Schaich (he): larger the hot reservoir can be made
+
+821
+01:11:44.130 --> 01:11:45.450
+David Schaich (he): compared to
+
+822
+01:11:45.600 --> 01:11:48.710
+David Schaich (he): the cold reservoir that it's the low temperature.
+
+823
+01:11:49.790 --> 01:11:52.430
+David Schaich (he): Yes. a more efficient engine.
+
+824
+01:11:53.730 --> 01:11:54.510
+which
+
+825
+01:11:55.040 --> 01:11:58.380
+David Schaich (he): later in the nineteenth century, this general result
+
+826
+01:11:58.440 --> 01:12:01.480
+David Schaich (he): was motivation for a fellow named Rudolf, us
+
+827
+01:12:01.520 --> 01:12:05.420
+David Schaich (he): to try to come up with a thermodynamic cycle.
+
+828
+01:12:05.680 --> 01:12:07.410
+the physical realization of it
+
+829
+01:12:07.540 --> 01:12:22.980
+David Schaich (he): that would maximize the efficiency by maximizing Yeah. High temperature compared to the low temperature of a cycle. and the result we known about today as the Diesel Engine
+
+830
+01:12:23.060 --> 01:12:25.910
+David Schaich (he): tutorial on Thursday.
+
+831
+01:12:27.700 --> 01:12:33.000
+David Schaich (he): and there's actually there's also something that we can say about the
+
+832
+01:12:34.650 --> 01:12:37.640
+David Schaich (he): upper bound or the limit on this efficiency.
+
+833
+01:12:38.720 --> 01:12:41.280
+David Schaich (he): So for you the call
+
+834
+01:12:44.530 --> 01:12:46.900
+David Schaich (he): from the first of all, that
+
+835
+01:12:48.010 --> 01:12:54.980
+David Schaich (he): the difference you know the network done by the cycle compared to the on those.
+
+836
+01:12:55.990 --> 01:13:01.840
+David Schaich (he): Of course it has to be done on the system in order for disabled to run has to be equal
+
+837
+01:13:02.690 --> 01:13:07.880
+David Schaich (he): to the net amount of heat. Well, in order to consider energy.
+
+838
+01:13:08.180 --> 01:13:11.450
+David Schaich (he): we can rewrite the efficiency in general as
+
+839
+01:13:12.490 --> 01:13:14.140
+David Schaich (he): entirely in terms
+
+840
+01:13:16.500 --> 01:13:17.820
+David Schaich (he): that amount
+
+841
+01:13:19.310 --> 01:13:24.880
+David Schaich (he): on the numerator divided by the total influence he in the denominator.
+
+842
+01:13:25.730 --> 01:13:27.110
+David Schaich (he): one minus
+
+843
+01:13:27.460 --> 01:13:30.030
+David Schaich (he): the ratio of waste.
+
+844
+01:13:30.210 --> 01:13:42.800
+David Schaich (he): It's still to the cold reservoir compared to the input needs coming from the hot reservoir. But we forget this physical illustration of the process
+
+845
+01:13:44.060 --> 01:13:48.510
+David Schaich (he): one more time, not bothering to zoom out because we're only interested in
+
+846
+01:13:48.680 --> 01:14:02.540
+David Schaich (he): the key flow here in a particular. observing that the inflowing heat it's coming in from that hot reservoir at the high temperature th the waste he was expelled into the cold reservoir
+
+847
+01:14:02.760 --> 01:14:05.980
+David Schaich (he): on the left, the temperature to low.
+
+848
+01:14:09.700 --> 01:14:12.250
+David Schaich (he): which means that we can
+
+849
+01:14:13.110 --> 01:14:17.090
+David Schaich (he): we, in our definition of heat, as that
+
+850
+01:14:17.150 --> 01:14:29.340
+David Schaich (he): fixed temperature times the chain to the entropy. to rewrite this expression and kind of the looks for sure. I see now just entropy
+
+851
+01:14:29.510 --> 01:14:30.820
+David Schaich (he): that is expelled
+
+852
+01:14:31.650 --> 01:14:34.440
+David Schaich (he): to the call for some more divided by the
+
+853
+01:14:36.940 --> 01:14:39.570
+David Schaich (he): high temperature of the hot reservoir.
+
+854
+01:14:44.100 --> 01:14:45.290
+David Schaich (he): This is coming in
+
+855
+01:14:47.370 --> 01:14:48.980
+David Schaich (he): hot reservoir.
+
+856
+01:14:51.600 --> 01:14:54.950
+David Schaich (he): so the inflowing heat is the high temperature
+
+857
+01:14:54.960 --> 01:14:58.100
+David Schaich (he): times the amount of entropy that what was
+
+858
+01:14:59.060 --> 01:15:02.590
+David Schaich (he): from the hot reservoir into the system.
+
+859
+01:15:04.670 --> 01:15:06.050
+David Schaich (he): So after
+
+860
+01:15:08.400 --> 01:15:10.250
+David Schaich (he): each iteration of the cycle.
+
+861
+01:15:11.790 --> 01:15:14.280
+David Schaich (he): we end up back to our starting point
+
+862
+01:15:14.560 --> 01:15:17.690
+David Schaich (he): a defined by a
+
+863
+01:15:18.730 --> 01:15:22.600
+David Schaich (he): which determines the amount of entropy that is.
+
+864
+01:15:22.820 --> 01:15:29.800
+David Schaich (he): in the system itself. All that essay it's fixed from our calculations previously.
+
+865
+01:15:30.690 --> 01:15:35.310
+David Schaich (he): and through the process of going around the 4 stages of the cycle, or.
+
+866
+01:15:35.660 --> 01:15:39.480
+David Schaich (he): in fact, for general cycle. How many stages there are?
+
+867
+01:15:40.910 --> 01:15:41.970
+David Schaich (he): What are you?
+
+868
+01:15:48.470 --> 01:15:51.610
+David Schaich (he): And to the cool reservoir?
+
+869
+01:15:53.510 --> 01:15:54.490
+David Schaich (he): Wow.
+
+870
+01:15:57.650 --> 01:16:00.230
+David Schaich (he): it's been removed
+
+871
+01:16:03.670 --> 01:16:10.290
+David Schaich (he): on the hot reservoir? So if we now apply it. the second law, in addition to
+
+872
+01:16:11.540 --> 01:16:13.960
+David Schaich (he): the first. you know the
+
+873
+01:16:14.210 --> 01:16:18.150
+David Schaich (he): whole change in entropy for the system and its surroundings
+
+874
+01:16:18.310 --> 01:16:21.070
+David Schaich (he): as we go around. Each iteration of the cycle
+
+875
+01:16:22.340 --> 01:16:30.340
+David Schaich (he): is going to be the S. A. Is the same, so that cancels out before and after
+
+876
+01:16:33.190 --> 01:16:37.650
+David Schaich (he): the increase in that entropy in the cold reservoir.
+
+877
+01:16:37.830 --> 01:16:41.910
+David Schaich (he): with a positive sign to the change. The
+
+878
+01:16:42.180 --> 01:16:47.020
+David Schaich (he): removal of entropy from the reservoir comes in with a negative sign.
+
+879
+01:16:48.110 --> 01:16:50.330
+David Schaich (he): and the second one tells us that this is
+
+880
+01:16:50.560 --> 01:16:57.020
+David Schaich (he): always non-negative and generally positive. So if we rearrange this expression, we
+
+881
+01:16:57.180 --> 01:16:58.870
+David Schaich (he): I get this ratio
+
+882
+01:17:01.640 --> 01:17:02.460
+David Schaich (he): oh.
+
+883
+01:17:02.640 --> 01:17:05.990
+David Schaich (he): changes in entropy in the cold and hot reservoirs
+
+884
+01:17:06.560 --> 01:17:10.540
+David Schaich (he): always has to be greater than or equal to one.
+
+885
+01:17:14.810 --> 01:17:19.780
+David Schaich (he): Which means that video ratio of
+
+886
+01:17:20.790 --> 01:17:27.570
+David Schaich (he): keep flowing out to the cold reservoir compared to heat flowing in from the hot one. it's not necessarily
+
+887
+01:17:27.650 --> 01:17:32.510
+David Schaich (he): or equal to the corresponding ratio of the temperatures.
+
+888
+01:17:33.640 --> 01:17:36.090
+David Schaich (he): So, going back to the efficiency
+
+889
+01:17:36.830 --> 01:17:40.990
+David Schaich (he): which we have in terms of either the heat or this ratio of
+
+890
+01:17:41.700 --> 01:17:43.050
+David Schaich (he): entropy flows
+
+891
+01:17:44.010 --> 01:17:47.750
+David Schaich (he): when, the amount being subtracted, is maximized.
+
+892
+01:17:47.930 --> 01:17:48.980
+David Schaich (he): have one.
+
+893
+01:17:52.410 --> 01:18:01.490
+David Schaich (he): then we have. I'm sorry when it's minimized. The email. being subtracted has to be at least one. It's minimum is one. When you subtract the minimum amount
+
+894
+01:18:01.590 --> 01:18:03.770
+David Schaich (he): you get the maximum efficiency.
+
+895
+01:18:06.850 --> 01:18:09.970
+David Schaich (he): the efficiency can be no more, and
+
+896
+01:18:10.270 --> 01:18:11.550
+David Schaich (he): one minus
+
+897
+01:18:12.090 --> 01:18:17.380
+David Schaich (he): the ratio of those temperatures which we saw was less than one.
+
+898
+01:18:19.440 --> 01:18:29.370
+David Schaich (he): My Our condition, that below temperature of the cold reservoir is lower. and that is the top reservoir. So
+
+899
+01:18:30.580 --> 01:18:35.890
+David Schaich (he): there is a general theoretical maximum on the efficiency
+
+900
+01:18:36.090 --> 01:18:37.980
+David Schaich (he): of the engine.
+
+901
+01:18:39.030 --> 01:18:42.160
+David Schaich (he): So this is sometimes phrase is saying
+
+902
+01:18:43.560 --> 01:18:51.100
+David Schaich (he): that if the first law tells you you can't win, You get out more work from an engine that you put in in the fall of heat.
+
+903
+01:18:54.540 --> 01:19:03.470
+David Schaich (he): the maximum efficiency. It's less than one from the second law sometimes. Not only can we not win.
+
+904
+01:19:04.570 --> 01:19:16.820
+David Schaich (he): you can't even break even. There's no such thing as a perpetual motion. That machine that would you represented as a thermodynamic cycle that goes around
+
+905
+01:19:18.600 --> 01:19:19.510
+David Schaich (he): on day
+
+906
+01:19:19.760 --> 01:19:23.310
+David Schaich (he): as it goes around it stages it converts the
+
+907
+01:19:23.520 --> 01:19:30.380
+David Schaich (he): 100% of the heat flow into useful work. There is always some that has to be lost
+
+908
+01:19:31.890 --> 01:19:43.040
+David Schaich (he): as a consequence of that second law of thermodynamics. And, moreover. you can recognize this down from the second law. Yes, exactly the
+
+909
+01:19:43.310 --> 01:19:46.230
+David Schaich (he): efficiency we computer for the Carnot cycle itself.
+
+910
+01:19:48.360 --> 01:19:52.570
+David Schaich (he): So the kind of cycle ends up being.
+
+911
+01:19:54.040 --> 01:19:57.860
+David Schaich (he): We're having the maximum possible
+
+912
+01:20:00.670 --> 01:20:02.630
+David Schaich (he): efficiency data.
+
+913
+01:20:04.880 --> 01:20:05.840
+David Schaich (he): You guys
+
+914
+01:20:06.030 --> 01:20:11.030
+David Schaich (he): consistent with the first and second laws of thermodynamics, conservation of energy
+
+915
+01:20:11.100 --> 01:20:12.890
+David Schaich (he): and the increase of entropy.
+
+916
+01:20:15.520 --> 01:20:16.370
+David Schaich (he): And
+
+917
+01:20:18.440 --> 01:20:21.820
+David Schaich (he): it may be worth considering why it
+
+918
+01:20:22.640 --> 01:20:30.600
+David Schaich (he): We don't actually use the Carnot cycle. It's maximum efficiency to do things like drive our cars
+
+919
+01:20:31.090 --> 01:20:34.000
+David Schaich (he): instead. We use things like Diesel cycles, or the
+
+920
+01:20:34.070 --> 01:20:38.560
+David Schaich (he): so called auto cycle that corresponds to an internal combustion petrol
+
+921
+01:20:38.660 --> 01:20:41.520
+David Schaich (he): engine. I can look at those on Thursday.
+
+922
+01:20:44.010 --> 01:20:44.860
+David Schaich (he): but
+
+923
+01:20:45.890 --> 01:20:51.130
+David Schaich (he): the car of the cycle, despite being the most efficient use of energy.
+
+924
+01:20:51.320 --> 01:20:52.280
+David Schaich (he): is
+
+925
+01:20:54.050 --> 01:20:56.450
+David Schaich (he): not used for any practical devices.
+
+926
+01:20:57.000 --> 01:20:57.690
+I know
+
+927
+01:20:57.750 --> 01:20:58.510
+David Schaich (he): the goal.
+
+928
+01:21:01.200 --> 01:21:06.810
+David Schaich (he): See if any of you have any suggestions as to why. That is
+
+929
+01:21:31.100 --> 01:21:33.130
+David Schaich (he): reason is that
+
+930
+01:21:33.770 --> 01:21:36.930
+David Schaich (he): isothermal
+
+931
+01:21:37.680 --> 01:21:51.340
+David Schaich (he): expansion and compression stages. I have to go slowly in order for key transfers. We will proceed and keep the temperature fixed so expanding from a to B, and then compressing from C to D.
+
+932
+01:21:51.630 --> 01:22:01.370
+David Schaich (he): All of those are too slow to be useful in everyday applications. We need want to
+
+933
+01:22:02.270 --> 01:22:04.620
+David Schaich (he): probably all that
+
+934
+01:22:04.740 --> 01:22:08.140
+David Schaich (he): 20 miles an hour rather than 20 feet a day.
+
+935
+01:22:11.930 --> 01:22:14.560
+David Schaich (he): It may be useful exercise actually to
+
+936
+01:22:15.630 --> 01:22:22.170
+David Schaich (he): come up with an estimate of how fast you provide the car based on the Carnot cycle compared to the cycles
+
+937
+01:22:22.580 --> 01:22:26.330
+David Schaich (he): Cfo. Next homework assigned.
+
+938
+01:22:29.450 --> 01:22:36.730
+David Schaich (he): If there's one last topic related to thermodynamics. So all these stats
+
+939
+01:22:39.510 --> 01:22:46.090
+David Schaich (he): we will wrap up with today, which is what happens if we
+
+940
+01:22:48.250 --> 01:22:54.110
+David Schaich (he): cycle or any other cycle in reverse.
+
+941
+01:22:55.160 --> 01:22:56.100
+David Schaich (he): then
+
+942
+01:22:57.100 --> 01:22:58.780
+David Schaich (he): what we would be doing so
+
+943
+01:23:00.000 --> 01:23:01.240
+David Schaich (he): rather than
+
+944
+01:23:01.810 --> 01:23:05.540
+David Schaich (he): expanding. I said thermally at the high temperature, teh
+
+945
+01:23:05.570 --> 01:23:08.010
+David Schaich (he): and compressing at the low temperature T. L.
+
+946
+01:23:08.160 --> 01:23:11.300
+David Schaich (he): If we were to impress at the highest
+
+947
+01:23:13.530 --> 01:23:16.320
+David Schaich (he): and expand at the low temperature.
+
+948
+01:23:17.590 --> 01:23:29.410
+David Schaich (he): Simply from that all the work that we've already done. We just have to negate all the signs. So we are going to put in. I met animals
+
+949
+01:23:29.620 --> 01:23:38.790
+David Schaich (he): work into the cycle. We have to do work on it rather than getting more out of it. and instead of having heat flow
+
+950
+01:23:38.910 --> 01:23:41.980
+David Schaich (he): from the hot reservoir to the cold reservoir.
+
+951
+01:23:44.010 --> 01:23:47.760
+David Schaich (he): As we go around the cycle and reverse, we remove these.
+
+952
+01:23:50.500 --> 01:23:51.500
+David Schaich (he): probably
+
+953
+01:23:54.600 --> 01:23:58.730
+David Schaich (he): that cool reservoir. So
+
+954
+01:23:59.840 --> 01:24:01.770
+David Schaich (he): this rather than a
+
+955
+01:24:03.160 --> 01:24:05.260
+David Schaich (he): and Jim
+
+956
+01:24:06.380 --> 01:24:07.800
+David Schaich (he): the refrigerator.
+
+957
+01:24:09.840 --> 01:24:12.980
+David Schaich (he): putting in work to remove heat.
+
+958
+01:24:14.910 --> 01:24:16.090
+David Schaich (he): and
+
+959
+01:24:23.740 --> 01:24:27.670
+David Schaich (he): on to you another page, just to
+
+960
+01:24:28.450 --> 01:24:33.350
+David Schaich (he): we find the analogy, the analogous quantity to efficiency.
+
+961
+01:24:33.390 --> 01:24:37.450
+David Schaich (he): I'll be able to what it's called. do you?
+
+962
+01:24:39.490 --> 01:24:40.830
+David Schaich (he): How efficient
+
+963
+01:24:43.730 --> 01:24:45.600
+David Schaich (he): a performance for
+
+964
+01:24:46.820 --> 01:24:50.160
+David Schaich (he): this set up The question is.
+
+965
+01:24:51.500 --> 01:24:58.620
+David Schaich (he): how much he's I mean into the cycle. Can we remove from the cold reservoir
+
+966
+01:24:58.830 --> 01:25:03.430
+David Schaich (he): for a given net amount of work being done
+
+967
+01:25:08.960 --> 01:25:14.250
+David Schaich (he): so that that amount of work now is.
+
+968
+01:25:19.290 --> 01:25:20.160
+David Schaich (he): See it
+
+969
+01:25:20.620 --> 01:25:21.310
+oops
+
+970
+01:25:33.730 --> 01:25:36.020
+David Schaich (he): science in this equation.
+
+971
+01:25:43.030 --> 01:25:50.390
+David Schaich (he): Yeah, we're interested in not how much work we can do out of the cycle, but how much work we have to put in. So
+
+972
+01:25:50.450 --> 01:25:51.670
+that is
+
+973
+01:25:51.930 --> 01:25:56.770
+David Schaich (he): what is going to be the quality of the denominator. We have to worry about
+
+974
+01:25:57.050 --> 01:26:02.680
+David Schaich (he): any work that we can get out at some stage in the refrigerator. It's just a win
+
+975
+01:26:03.050 --> 01:26:05.770
+David Schaich (he): we get applying. Indeed.
+
+976
+01:26:10.290 --> 01:26:23.370
+David Schaich (he): the network is equal to the negative of the that heat. so that the overall energy is conserved. and we can rearrange this into
+
+977
+01:26:26.470 --> 01:26:29.520
+David Schaich (he): one divided by the ratio
+
+978
+01:26:29.700 --> 01:26:31.700
+David Schaich (he): of keep flowing out
+
+979
+01:26:32.090 --> 01:26:39.060
+David Schaich (he): now into the hot reservoir. If I could like to keep going in
+
+980
+01:26:39.300 --> 01:26:41.580
+David Schaich (he): to the cold reservoir. So
+
+981
+01:26:48.230 --> 01:26:49.190
+David Schaich (he): yeah.
+
+982
+01:26:52.680 --> 01:27:00.410
+David Schaich (he): incoming heats corresponding to th Times Delta S. Is he's given by
+
+983
+01:27:01.920 --> 01:27:05.660
+David Schaich (he): the low temperature? Then it flows out
+
+984
+01:27:07.050 --> 01:27:08.320
+David Schaich (he): 6 bill.
+
+985
+01:27:10.040 --> 01:27:16.210
+David Schaich (he): The high temperature ensemble. so the overall ratio
+
+986
+01:27:17.280 --> 01:27:21.400
+David Schaich (he): find the second one again. In the
+
+987
+01:27:22.100 --> 01:27:23.120
+David Schaich (he): is
+
+988
+01:27:25.360 --> 01:27:30.590
+David Schaich (he): the upload entropy. It's always greater than the influence. Entropy of the overall amount of entropy
+
+989
+01:27:30.620 --> 01:27:32.080
+David Schaich (he): never decreases.
+
+990
+01:27:33.940 --> 01:27:37.980
+David Schaich (he): We use some of our work well, just to jail straight to
+
+991
+01:27:38.470 --> 01:27:44.030
+David Schaich (he): inequality. Now the T out is associated with hot temperature.
+
+992
+01:27:45.050 --> 01:27:45.840
+David Schaich (he): and then
+
+993
+01:27:47.600 --> 01:27:51.000
+David Schaich (he): incoming heat is associated with the low temperature.
+
+994
+01:27:51.380 --> 01:27:53.550
+David Schaich (he): So this is the
+
+995
+01:27:53.900 --> 01:27:55.020
+David Schaich (he): minimum
+
+996
+01:27:58.270 --> 01:28:08.200
+David Schaich (he): value for this refuel of it. He transfers that shows up in the coefficient of performance. So when that denominator is minimized.
+
+997
+01:28:08.430 --> 01:28:12.320
+David Schaich (he): we end up with a maximum coefficient of performance
+
+998
+01:28:12.490 --> 01:28:14.160
+David Schaich (he): on that.
+
+999
+01:28:15.510 --> 01:28:18.420
+David Schaich (he): So the maximum that we can have.
+
+1000
+01:28:18.550 --> 01:28:26.040
+David Schaich (he): Yes. one over temperature, ratio. minimum temperature, ratio.
+
+1001
+01:28:27.100 --> 01:28:27.950
+David Schaich (he): When
+
+1002
+01:28:29.020 --> 01:28:34.310
+David Schaich (he): the amount of entropy in the universe it's left on change minus one
+
+1003
+01:28:37.340 --> 01:28:40.090
+David Schaich (he): you right in this way.
+
+1004
+01:28:43.790 --> 01:28:44.730
+David Schaich (he): It is
+
+1005
+01:28:46.310 --> 01:28:49.710
+David Schaich (he): the low temperature divided by the difference
+
+1006
+01:28:49.780 --> 01:28:55.480
+David Schaich (he): between the high and low temperature temperatures of the
+
+1007
+01:28:56.580 --> 01:29:08.450
+David Schaich (he): So one thing to note about this red, and the contrast to the efficiency. It is easy for the coefficients to be greater than one and a Dean Wendy.
+
+1008
+01:29:09.310 --> 01:29:12.500
+David Schaich (he): Temperatures of the I called reservoirs
+
+1009
+01:29:12.680 --> 01:29:14.580
+David Schaich (he): approach each other become
+
+1010
+01:29:17.230 --> 01:29:18.620
+David Schaich (he): and believe it, or they
+
+1011
+01:29:19.250 --> 01:29:28.040
+David Schaich (he): perhaps, to having that same temperature, we actually did a diversion to coefficient of performance. a low temperature divided by 0,
+
+1012
+01:29:29.000 --> 01:29:30.690
+David Schaich (he): and all that is saying is
+
+1013
+01:29:30.760 --> 01:29:42.200
+David Schaich (he): not very interesting or useful in the case where the cold reservoir is the same temperature as the hot reservoir. we Don't have to do any work to
+
+1014
+01:29:42.280 --> 01:29:43.820
+David Schaich (he): shit to you between them.
+
+1015
+01:29:45.440 --> 01:29:54.510
+David Schaich (he): But typical coefficients of performance or so. The commercial refrigerator is that.
+
+1016
+01:29:54.650 --> 01:29:57.770
+David Schaich (he): or in the kitchen tend to be around
+
+1017
+01:29:58.190 --> 01:29:59.500
+David Schaich (he): 5 to 6,
+
+1018
+01:30:00.510 --> 01:30:04.660
+David Schaich (he): I think greater than one is still order one. And
+
+1019
+01:30:06.230 --> 01:30:08.850
+David Schaich (he): as what's the case for the
+
+1020
+01:30:10.470 --> 01:30:13.230
+David Schaich (he): efficiency, the cardio cycle
+
+1021
+01:30:13.620 --> 01:30:16.060
+David Schaich (he): realizes this maximum
+
+1022
+01:30:19.080 --> 01:30:22.680
+David Schaich (he): coefficient to performance. It's used as a refrigerator.
+
+1023
+01:30:24.930 --> 01:30:32.910
+David Schaich (he): But again, it is too slow to carry out those iso thermal cycles for the size of the processes in the Carnot cycle.
+
+1024
+01:30:33.480 --> 01:30:34.510
+David Schaich (he): So bad
+
+1025
+01:30:34.940 --> 01:30:38.480
+David Schaich (he): real refrigerators are significantly less efficient than
+
+1026
+01:30:40.610 --> 01:30:44.520
+David Schaich (he): the Carnot isothermal Adiabatic expansion would be.
+
+1027
+01:30:46.660 --> 01:30:50.160
+David Schaich (he): So that is actually
+
+1028
+01:30:50.200 --> 01:30:54.020
+David Schaich (he): the end of applications of the canonical ensemble.
+
+1029
+01:30:54.570 --> 01:31:11.090
+David Schaich (he): We started from micro State energies. Use those 2 derive the partition function from there. Yeah. Internal energy, the entropy, ideal gas law and generalized first of all thermodynamics.
+
+1030
+01:31:11.350 --> 01:31:15.020
+David Schaich (he): and then put all of those results to work
+
+1031
+01:31:18.930 --> 01:31:20.690
+David Schaich (he): in the form of it.
+
+1032
+01:31:20.810 --> 01:31:33.460
+David Schaich (he): Heat, engines, and refrigerators, focusing on the Carnot cycle as sorry. first and most efficient. I don't know what happened there. First, the most efficient
+
+1033
+01:31:34.390 --> 01:31:40.520
+David Schaich (he): heat engine approaching this 200 fourth day. and on Thursday we will look at
+
+1034
+01:31:40.800 --> 01:31:47.420
+David Schaich (he): some more practical. It's less efficient. It's thermodynamic cycles corresponding to
+
+1035
+01:31:47.830 --> 01:31:58.290
+David Schaich (he): natural and Diesel engines. But for the remaining few minutes, of today and all of tomorrow you will pop back to
+
+1036
+01:31:59.970 --> 01:32:02.350
+David Schaich (he): foundational theory. And look at the
+
+1037
+01:32:03.980 --> 01:32:12.510
+David Schaich (he): statistical ensemble that we focus on in this module. It's called Grand canonical ensemble. I'll introduce you today. Dig into it tomorrow.
+
+1038
+01:32:12.650 --> 01:32:15.570
+David Schaich (he): Before that. Any questions about
+
+1039
+01:32:16.530 --> 01:32:22.810
+David Schaich (he): thermodynamic cycles. the Carnot cycle, heat engines, refrigerators, efficiency
+
+1040
+01:32:22.980 --> 01:32:29.140
+David Schaich (he): or any of those applications before we switch gears back to something a bit more
+
+1041
+01:32:29.210 --> 01:32:31.320
+David Schaich (he): theoretical and less applied.
+
+1042
+01:32:55.400 --> 01:32:59.720
+David Schaich (he): So to motivate the grand canonical ensemble.
+
+1043
+01:33:01.250 --> 01:33:11.340
+David Schaich (he): It is useful to think back about where we started with Cisco ensembles in this molecule. Recalling that the
+
+1044
+01:33:11.460 --> 01:33:14.350
+David Schaich (he): the generic statistical ensemble is
+
+1045
+01:33:14.380 --> 01:33:21.950
+David Schaich (he): a probability space where the the microstates, the outcome sets that we observe.
+
+1046
+01:33:22.220 --> 01:33:27.660
+David Schaich (he): we consider to be some collection of particles that are evolving in time.
+
+1047
+01:33:28.200 --> 01:33:30.730
+David Schaich (he): and each possible outcome is a snapshot
+
+1048
+01:33:30.760 --> 01:33:36.120
+David Schaich (he): of all of the information about all those particles at a given point in time
+
+1049
+01:33:36.240 --> 01:33:37.890
+David Schaich (he): for the unsolved and
+
+1050
+01:33:39.370 --> 01:33:41.010
+David Schaich (he): probabilistically
+
+1051
+01:33:41.850 --> 01:33:50.240
+David Schaich (he): samples those different possible microstates, as time goes on. subject to certain constraints that are
+
+1052
+01:33:50.280 --> 01:33:52.220
+motivated by physics.
+
+1053
+01:33:52.800 --> 01:33:59.200
+David Schaich (he): Do you? Simplest realization of which. in that micro
+
+1054
+01:34:01.070 --> 01:34:02.100
+David Schaich (he): all right
+
+1055
+01:34:05.330 --> 01:34:08.070
+David Schaich (he): systems that directly conserve
+
+1056
+01:34:09.490 --> 01:34:10.700
+David Schaich (he): the energy
+
+1057
+01:34:12.170 --> 01:34:13.720
+David Schaich (he): and the particle number.
+
+1058
+01:34:15.450 --> 01:34:17.280
+David Schaich (he): so systems that are
+
+1059
+01:34:18.320 --> 01:34:26.030
+David Schaich (he): completely isolated from their surroundings. Unable to exchange any heat, unable to do any work.
+
+1060
+01:34:26.310 --> 01:34:29.940
+David Schaich (he): and unable to change the number of particles that they have.
+
+1061
+01:34:30.750 --> 01:34:34.010
+David Schaich (he): and to get to a more useful
+
+1062
+01:34:36.300 --> 01:34:38.380
+David Schaich (he): situation that we could.
+
+1063
+01:34:38.570 --> 01:34:42.830
+David Schaich (he): We're usually imagine experimenting with and manipulating.
+
+1064
+01:34:44.260 --> 01:34:45.130
+David Schaich (he): We
+
+1065
+01:34:46.650 --> 01:34:48.060
+David Schaich (he): introduce me
+
+1066
+01:34:51.320 --> 01:35:04.350
+David Schaich (he): demanding this complete isolation. You were able to allow energy to be exchanged between the system and its surroundings. We fixed temperature
+
+1067
+01:35:05.380 --> 01:35:07.420
+David Schaich (he): of the
+
+1068
+01:35:08.470 --> 01:35:11.670
+David Schaich (he): through heat exchange with some large
+
+1069
+01:35:12.220 --> 01:35:15.050
+David Schaich (he): external from the reservoir, and that is the
+
+1070
+01:35:18.570 --> 01:35:26.200
+David Schaich (he): the starting point of the context in which we've been carrying out all this work on ideal gases and dynamic cycles.
+
+1071
+01:35:26.600 --> 01:35:30.640
+David Schaich (he): So the next step now is, it's the logical
+
+1072
+01:35:31.910 --> 01:35:35.480
+David Schaich (he): conclusion of these 2 processes
+
+1073
+01:35:36.730 --> 01:35:45.740
+David Schaich (he): going from the micro canonical case of conservative particle number of energy completely isolated problem.
+
+1074
+01:35:47.490 --> 01:35:48.950
+David Schaich (he): The surroundings
+
+1075
+01:35:54.870 --> 01:36:00.050
+David Schaich (he): and the canonical case. Yeah. actually a particle number fixed
+
+1076
+01:36:02.020 --> 01:36:04.680
+David Schaich (he): energy, or to be exchanged
+
+1077
+01:36:05.290 --> 01:36:10.870
+David Schaich (he): between the particle in a simple reservoir. And now, in the grand economical case.
+
+1078
+01:36:10.920 --> 01:36:15.260
+David Schaich (he): you no longer impose conservation of either energy, or.
+
+1079
+01:36:15.420 --> 01:36:22.440
+David Schaich (he): instead of you fix 2 other quantities through exchange of particles, and he
+
+1080
+01:36:24.160 --> 01:36:27.130
+David Schaich (he): with a large external
+
+1081
+01:36:28.730 --> 01:36:30.260
+David Schaich (he): particle reservoir.
+
+1082
+01:36:43.240 --> 01:36:46.440
+David Schaich (he): So Now, in the
+
+1083
+01:36:50.910 --> 01:36:53.050
+David Schaich (he): a little while both
+
+1084
+01:36:55.310 --> 01:36:56.740
+David Schaich (he): heat, exchange.
+
+1085
+01:36:57.940 --> 01:36:59.790
+David Schaich (he): and particle, exchange
+
+1086
+01:37:03.320 --> 01:37:09.060
+David Schaich (he): and generalize the thermal reservoir that we've been working with for the past few weeks
+
+1087
+01:37:13.770 --> 01:37:15.590
+David Schaich (he): to a
+
+1088
+01:37:17.910 --> 01:37:20.070
+David Schaich (he): the general particle reservoir.
+
+1089
+01:37:21.820 --> 01:37:25.150
+David Schaich (he): not real. Ultimately you can serve both
+
+1090
+01:37:25.220 --> 01:37:30.870
+David Schaich (he): the overall energy of system and the surroundings in line with first law thermodynamics.
+
+1091
+01:37:31.090 --> 01:37:34.070
+David Schaich (he): and also consider the number of part of this.
+
+1092
+01:37:36.120 --> 01:37:40.610
+David Schaich (he): and as we that was hinted in the
+
+1093
+01:37:42.040 --> 01:37:43.290
+David Schaich (he): I Just.
+
+1094
+01:37:43.990 --> 01:37:47.540
+David Schaich (he): and up here to give a qualitative picture.
+
+1095
+01:37:47.620 --> 01:37:49.810
+David Schaich (he): there will be a corresponding
+
+1096
+01:37:49.930 --> 01:37:52.970
+David Schaich (he): variable that is going to be fixed
+
+1097
+01:37:53.200 --> 01:37:58.820
+David Schaich (he): due to this particle change. So, in addition to the temperature.
+
+1098
+01:38:00.640 --> 01:38:01.630
+David Schaich (he): we will
+
+1099
+01:38:03.390 --> 01:38:07.080
+David Schaich (he): have a an additional quantity
+
+1100
+01:38:13.030 --> 01:38:19.030
+David Schaich (he): all the way through the derivation of this, just in a couple of minutes that we made.
+
+1101
+01:38:23.010 --> 01:38:24.660
+David Schaich (he): we call that
+
+1102
+01:38:25.880 --> 01:38:38.580
+David Schaich (he): allowing key exchange led to a fixed temperature between the and the system. You can recall definition of temperature in the context of
+
+1103
+01:38:39.040 --> 01:38:51.090
+David Schaich (he): micro- thermodynamic equilibrium related to the response of the entropy to a change in the energy they fixed particle number.
+
+1104
+01:38:51.840 --> 01:38:57.950
+David Schaich (he): If we swap the rule of energy and particle number.
+
+1105
+01:39:00.110 --> 01:39:01.250
+David Schaich (he): we get the
+
+1106
+01:39:02.630 --> 01:39:03.880
+David Schaich (he): definition
+
+1107
+01:39:05.440 --> 01:39:06.370
+David Schaich (he): of
+
+1108
+01:39:07.720 --> 01:39:09.650
+David Schaich (he): and quality known as the
+
+1109
+01:39:11.940 --> 01:39:13.420
+David Schaich (he): chemical potential.
+
+1110
+01:39:14.910 --> 01:39:16.190
+David Schaich (he): which is this.
+
+1111
+01:39:18.020 --> 01:39:19.440
+David Schaich (he): into that here.
+
+1112
+01:39:21.940 --> 01:39:23.750
+David Schaich (he): so that chemical potential
+
+1113
+01:39:25.560 --> 01:39:30.500
+David Schaich (he): you to be a negative temperature.
+
+1114
+01:39:30.640 --> 01:39:43.730
+David Schaich (he): How is the response of the entropy? We change in part of the number with the fixed internal entropy. Oh. a micro economical system again in thermodynamic
+
+1115
+01:39:43.760 --> 01:39:44.920
+David Schaich (he): equilibrium.
+
+1116
+01:39:46.250 --> 01:39:53.480
+David Schaich (he): And that is it good place to wrap up, or do they define the chemical potential. You
+
+1117
+01:39:54.190 --> 01:39:55.760
+need to make sense
+
+1118
+01:39:55.770 --> 01:39:56.970
+David Schaich (he): of what this
+
+1119
+01:39:57.130 --> 01:39:59.630
+David Schaich (he): equation that means
+
+1120
+01:39:59.750 --> 01:40:05.580
+David Schaich (he): more conceptual in more physical terms. That's where we will
+
+1121
+01:40:05.710 --> 01:40:09.030
+David Schaich (he): pick up my after next door. Are there any
+
+1122
+01:40:09.280 --> 01:40:13.250
+David Schaich (he): questions before I, that you have often the rest of your day.
+
+1123
+01:40:18.120 --> 01:40:26.400
+David Schaich (he): not seeing any look forward to seeing you again tomorrow for the Grand Canonical on software
+
+1124
+01:40:26.560 --> 01:40:27.890
+David Schaich (he): chemical potential.
+
