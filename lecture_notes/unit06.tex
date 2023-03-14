@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 6}
-\renewcommand{\moddate}{Last modified 12 Mar.~2023}
+\renewcommand{\moddate}{Last modified 14 Mar.~2023}
 \setcounter{section}{6}
 \setcounter{subsection}{0}
 \phantomsection
@@ -41,16 +41,15 @@ This can be checked explicitly from \eq{eq:CLT_states} for the micro-canonical s
 The presence of the negative sign in \eq{eq:chem_pot} is really a choice we have made.
 The motivation for this choice comes from considering a net flow of particles between two systems $\Om_A$ and $\Om_B$ with the same temperature $T > 0$ but different
 \begin{equation*}
-  \left(\pderiv{S}{N}\right)_{\!\!\!A} > \left(\pderiv{S}{N}\right)_{\!\!\!B} > 0 \qquad \Lra \qquad \mu_A < \mu_B.
+  \pderiv{S_A}{N_A} > \pderiv{S_B}{N_B} > 0 \qquad \Lra \qquad \mu_A < \mu_B < 0.
 \end{equation*}
 Due to the negative sign in \eq{eq:chem_pot}, the system with the larger partial derivative has the smaller (more-negative) chemical potential.
-According to the second law of thermodynamics, if there is any net flow of particles, it must be from $\Om_B$ to $\Om_A$.
-We can see this by considering
+Particle exchange between these two systems, $\De N_A = -\De N_B$, causes the (extensive) entropy to change by
 \begin{equation*}
-  \De S_A = \left(\pderiv{S}{N}\right)_{\!\!\!A} \De N \ > \ \left(\pderiv{S}{N}\right)_{\!\!\!B} \De N = \De S_B,
+  \De S = \De S_A + \De S_B = \left(\pderiv{S_A}{N_A}\right) \De N_A + \left(\pderiv{S_B}{N_B}\right) \De N_B = \left[\pderiv{S_A}{N_A} - \pderiv{S_B}{N_B}\right] \De N_A.
 \end{equation*}
-meaning that more entropy is gained by adding $\De N$ particles to system $\Om_A$ than is lost by removing them from system $\Om_B$.
-This ensures that the process increases the total entropy of the universe, $\De S = |\De S_A| - |\De S_B| > 0$.
+According to the second law of thermodynamics, $\De S \geq 0$, and since the term in square brackets is positive we must also have $\De N_A \geq 0$.
+We can also appreciate this by noting that more entropy is gained by adding each particle to system $\Om_A$ than is lost by removing it from system $\Om_B$, ensuring that the total entropy of the universe doesn't decrease.
 
 In other words, the choice of sign in \eq{eq:chem_pot} ensures that particles flow \textit{from} systems with larger chemical potentials \textit{to} systems with smaller chemical potential.
 This provides a useful analogy to heat flowing from hotter systems with larger temperatures to colder systems with smaller temperatures, allowing us to reuse our intuition based on the temperature.
@@ -112,7 +111,7 @@ Writing everything in terms of occupation probabilities, we see that we need to 
 adding the Lagrange multiplier \ga to the \al and (negative) \be we previously had in \secref{sec:canon_part}.
 What is the occupation probability $p_k$ that maximizes $\Sbar$?
 \begin{mdframed}
-  $\displaystyle 0 = \pderiv{\Sbar}{p_k} = $ \\[170 pt] % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
+  $\displaystyle 0 = \pderiv{\Sbar}{p_k} = $ \\[140 pt] % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
 \end{mdframed}
 
 You should find a probability of the form
@@ -137,15 +136,15 @@ now produce complicated relations between $\left\{\be, \ga\right\}$ and $\left\{
   \Etot & = R \frac{\sum_{i = 1}^M E_i \; e^{-\be E_i + \ga N_i}}{\sum_{j = 1}^M e^{-\be E_j + \ga N_j}} = -\frac{R}{Z_g} \pderiv{}{\be} \sum_{i = 1}^M e^{-\be E_i + \ga N_i} = -R \pderiv{}{\be} \log Z_g(\be, \ga) \label{eq:grand_be_deriv} \\
   \Ntot & = R \frac{\sum_{i = 1}^M N_i \; e^{-\be E_i + \ga N_i}}{\sum_{j = 1}^M e^{-\be E_j + \ga N_j}} =  \frac{R}{Z_g} \pderiv{}{\ga} \sum_{i = 1}^M e^{-\be E_i + \ga N_i} =  R \pderiv{}{\ga} \log Z_g(\be, \ga). \label{eq:grand_ga_deriv}
 \end{align}
-Here we take the opportunity to relate \Etot and \Ntot to partial derivatives of $\log Z_g$, which will prove useful when we consider the partial derivatives of the entropy that define the temperature and chemical potential.
+These relations between $\left\{\Etot, \Ntot\right\}$ and partial derivatives of $\log Z_g$ will be useful when we consider the partial derivatives of the entropy that define the temperature and chemical potential.
 Of course, in order to consider those partial derivatives, we need to express the entropy itself in terms of $\Etot$, \Ntot and the parameters
 \begin{equation*}
-  \left\{Z_g(\be, \ga), \quad \be(\Etot, \Ntot), \quad \ga(\Etot, \Ntot)\right\}
+  \left\{Z_g(\be, \ga), \qquad \be(\Etot, \Ntot), \qquad \ga(\Etot, \Ntot)\right\}
 \end{equation*}
 that we have now related to \Etot and $\Ntot$.
 What do you obtain upon inserting \eq{eq:grand_Lagrange} for $p_i$ into the formula for the entropy?
 \begin{mdframed}
-  $\displaystyle S(\Etot, \Ntot) = -R \sum_{i = 1}^M p_i \log p_i = $ \\[75 pt] % WARNING: ADJUSTED SIZE BY HAND TO FIT IN PAGE
+  $\displaystyle S(\Etot, \Ntot) = -R \sum_{i = 1}^M p_i \log p_i = $ \\[90 pt] % WARNING: ADJUSTED SIZE BY HAND TO FIT IN PAGE
 \end{mdframed}
 
 Taking the derivative of the resulting entropy with respect to $\Etot$, keeping \Ntot fixed, gives the temperature from \eq{eq:temperature}.
@@ -166,7 +165,7 @@ and the desired result that all information about the particle reservoir has dro
 This large external reservoir is still present to fix the temperature $T$ and chemical potential $\mu$ that characterize the grand-canonical system $\Om$, but beyond that nothing about it is relevant (or even knowable) in the grand-canonical approach.
 
 Every aspect of \Om can now be specified in terms of its fixed temperature $T$ and chemical potential $\mu$, starting with the parameters $\be = 1 / T$ and $\ga = \mu / T$.
-In particular, the probability---in thermodynamic equilibrium---that \Om adopts micro-state $\om_i$ with (non-conserved) internal energy $E_i$ and particle number $N_i$ is
+In particular, the thermodynamic equilibrium probability that \Om adopts micro-state $\om_i$ with (non-conserved) internal energy $E_i$ and particle number $N_i$ is
 \begin{equation}
   \label{eq:grand_prob}
   p_i = \frac{1}{Z_g} e^{-\be (E_i - \mu N_i)} = \frac{1}{Z_g} e^{-(E_i - \mu N_i) / T}.
