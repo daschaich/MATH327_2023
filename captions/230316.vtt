@@ -1,0 +1,1650 @@
+WEBVTT
+
+1
+00:00:01.490 --> 00:00:02.740
+David Schaich (he): Let's start
+
+2
+00:00:04.140 --> 00:00:08.010
+David Schaich (he): getting the tutorial for this week underway.
+
+3
+00:00:12.050 --> 00:00:13.610
+David Schaich (he): On Thursday morning,
+
+4
+00:00:15.650 --> 00:00:24.150
+David Schaich (he): sixteenth of March, the magic number for today is
+
+5
+00:00:26.580 --> 00:00:28.070
+David Schaich (he): 5, 0,
+
+6
+00:00:29.410 --> 00:00:31.490
+David Schaich (he): 3, 9, 3, 4.
+
+7
+00:00:34.740 --> 00:00:39.090
+David Schaich (he): And the plan for today is to set aside the
+
+8
+00:00:39.360 --> 00:00:44.300
+David Schaich (he): new material we saw on Tuesday about the grand-canonical ensemble and
+
+9
+00:00:44.320 --> 00:00:46.660
+David Schaich (he): step back for a
+
+10
+00:00:47.640 --> 00:00:54.780
+David Schaich (he): quick wrap-up of the two topics we've been looking at --- the two applications we focused on
+
+11
+00:00:55.250 --> 00:00:58.930
+David Schaich (he): in the context of the canonical ensemble --- the
+
+12
+00:00:59.340 --> 00:01:02.400
+David Schaich (he): mixing of ideal gases in this
+
+13
+00:01:02.930 --> 00:01:15.960
+David Schaich (he): activity that was introduced last week, as well as a new activity on thermodynamical cycles going beyond the Carnot cycle from 200 years ago
+
+14
+00:01:16.010 --> 00:01:17.000
+David Schaich (he): and
+
+15
+00:01:18.660 --> 00:01:20.850
+David Schaich (he): looking at some cycles with a bit more
+
+16
+00:01:21.450 --> 00:01:30.270
+David Schaich (he): relevance to our everyday life in the twenty-first century. In particular cycles that avoid slow
+
+17
+00:01:30.320 --> 00:01:41.190
+David Schaich (he): isothermal stages that take too long to carry out in practical engines. But before this is opportunity to
+
+18
+00:01:42.040 --> 00:01:44.460
+David Schaich (he): ask any questions about
+
+19
+00:01:45.100 --> 00:01:55.680
+David Schaich (he): any topic of the module things we've looked at and aren't clear What things, were you? Yeah, I looked at that seem related to.
+
+20
+00:01:57.470 --> 00:01:58.510
+David Schaich (he): and maybe not
+
+21
+00:02:01.490 --> 00:02:07.420
+David Schaich (he): ask the question of my over while you consider if you have any of yours. which is
+
+22
+00:02:07.670 --> 00:02:11.310
+David Schaich (he): how much details you you want to see about
+
+23
+00:02:12.060 --> 00:02:23.670
+David Schaich (he): rapidly through this mixing entropy calculation that was introduced last week in particular. Do any of you want to shout out the
+
+24
+00:02:23.860 --> 00:02:29.390
+David Schaich (he): results they've got for the mixing entropy in this slightly simplified case, where
+
+25
+00:02:30.240 --> 00:02:33.750
+David Schaich (he): all the particles are indistinguishable except for
+
+26
+00:02:34.040 --> 00:02:42.860
+David Schaich (he): one, that property, red versus new color that allows 2 sets of particles to be distinguished, one set from the other
+
+27
+00:03:13.720 --> 00:03:24.790
+David Schaich (he): bones here a result for the mixing entropy in this particular case from the where we looked at so indistinguishable fully
+
+28
+00:03:25.000 --> 00:03:29.370
+David Schaich (he): in the lecture. You know I have an intermediate case, and maybe
+
+29
+00:03:31.230 --> 00:03:33.620
+David Schaich (he): it might be worthwhile, for
+
+30
+00:03:34.490 --> 00:03:47.550
+David Schaich (he): we need to show it alternative way of carrying out the computation of that mixing entropy that differs from what we went through
+
+31
+00:03:47.770 --> 00:03:49.060
+David Schaich (he): in class.
+
+32
+00:03:50.040 --> 00:03:58.380
+David Schaich (he): So in particular from the class we would. The procedure will be introduced in classes to start, as always, with the
+
+33
+00:03:58.430 --> 00:04:04.470
+David Schaich (he): partition function that contains the full information about all of the microstates.
+
+34
+00:04:04.730 --> 00:04:05.660
+David Schaich (he): all of it
+
+35
+00:04:06.310 --> 00:04:09.710
+David Schaich (he): our system
+
+36
+00:04:13.680 --> 00:04:15.230
+David Schaich (he): right, that here, so
+
+37
+00:04:16.769 --> 00:04:25.100
+David Schaich (he): we have it just 2 factors of whatever n factorial and 2 and actors. all of it
+
+38
+00:04:27.910 --> 00:04:29.530
+David Schaich (he): to
+
+39
+00:04:30.800 --> 00:04:39.790
+David Schaich (he): particles in that in Volume 2 V. With the usual thermodynamic wavelength. That accounts for the part of those mass and temperature.
+
+40
+00:04:40.210 --> 00:04:41.310
+David Schaich (he): and
+
+41
+00:04:42.250 --> 00:04:49.720
+David Schaich (he): we have relations between the entropy and the hell, all free energy coming from the logarithm of this partition function.
+
+42
+00:04:49.850 --> 00:04:53.260
+David Schaich (he): there is a trick that yes, it is
+
+43
+00:04:53.490 --> 00:04:56.260
+David Schaich (he): suggested in the activity.
+
+44
+00:04:57.400 --> 00:04:58.000
+David Schaich (he): And it
+
+45
+00:04:59.140 --> 00:05:09.230
+David Schaich (he): it any of you take this route as it goes to but one that we're 3, 4, one, that we went through in the lecture.
+
+46
+00:05:11.170 --> 00:05:12.750
+David Schaich (he): shaking heads so
+
+47
+00:05:12.810 --> 00:05:14.180
+useful to
+
+48
+00:05:15.440 --> 00:05:26.280
+David Schaich (he): consider what we have in terms of so mixing entropy is the difference between interview that combined system minus the entropy, that we started off with the initial system
+
+49
+00:05:26.560 --> 00:05:39.240
+David Schaich (he): before the random group particles are about to mix. And, as I was saying. each of those entropies is the derivative with respect to temperature of the
+
+50
+00:05:39.460 --> 00:05:49.130
+David Schaich (he): free energy. And that's right. The negative, helpful, free energy, which is the positive temperature times, the log of the corresponding partition function.
+
+51
+00:05:50.450 --> 00:05:56.770
+David Schaich (he): So the difference between logs and partition functions in a derivative
+
+52
+00:05:56.960 --> 00:05:59.140
+David Schaich (he): and property of
+
+53
+00:06:00.850 --> 00:06:08.770
+David Schaich (he): it's a. Of the ratio of partition functions
+
+54
+00:06:09.120 --> 00:06:15.950
+David Schaich (he): which is useful because in that ratio. There can be many cancellations.
+
+55
+00:06:17.760 --> 00:06:22.450
+David Schaich (he): So in particular email mixing. And for video
+
+56
+00:06:23.760 --> 00:06:29.830
+David Schaich (he): here, the one, the expression we have, we can find proficient function just from the activity
+
+57
+00:06:31.250 --> 00:06:35.480
+David Schaich (he): we can actually carry out. This derivative.
+
+58
+00:06:35.560 --> 00:06:37.580
+Temperature is once we just get the
+
+59
+00:06:37.890 --> 00:06:40.300
+David Schaich (he): what was the partition function ratio?
+
+60
+00:06:41.430 --> 00:06:44.660
+David Schaich (he): We have temperature times
+
+61
+00:06:46.230 --> 00:06:48.020
+David Schaich (he): of that ratio.
+
+62
+00:06:49.890 --> 00:06:52.900
+David Schaich (he): Yeah. Given the
+
+63
+00:06:53.400 --> 00:06:57.410
+David Schaich (he): partition function for 2 separate gases of
+
+64
+00:06:58.160 --> 00:07:04.580
+David Schaich (he): particles that are indistinguishable on either side of that wall in the initial state. you know that
+
+65
+00:07:09.270 --> 00:07:13.610
+David Schaich (he): I can write this ratio. is It's repeating it.
+
+66
+00:07:14.080 --> 00:07:18.180
+David Schaich (he): We add to the left while we're in that
+
+67
+00:07:18.700 --> 00:07:24.740
+David Schaich (he): to be over lamb, the queue, and get to the 2 end. We have 2
+
+68
+00:07:26.760 --> 00:07:31.620
+David Schaich (he): guesses in the
+
+69
+00:07:33.300 --> 00:07:41.400
+David Schaich (he): each with and particles. So that's the partition function that we get for each one. They multiply because they are independent.
+
+70
+00:07:42.390 --> 00:07:43.970
+David Schaich (he): and everything
+
+71
+00:07:44.360 --> 00:07:50.150
+David Schaich (he): cancels off. Once you distribute that square, except for the
+
+72
+00:07:50.750 --> 00:07:57.790
+David Schaich (he): factor of to in the numerator. 2 to 2,
+
+73
+00:07:57.920 --> 00:08:00.880
+David Schaich (he): which is
+
+74
+00:08:01.240 --> 00:08:03.770
+David Schaich (he): second term, drops out immediately.
+
+75
+00:08:04.280 --> 00:08:11.710
+David Schaich (he): and the mixing entropy we immediately have It's the logarithm of this ratio to n more 2.
+
+76
+00:08:14.480 --> 00:08:19.540
+David Schaich (he): Of course, this is also what we can hit by computing that video.
+
+77
+00:08:19.990 --> 00:08:25.290
+David Schaich (he): almost free energy, and this derivative starting from that combined efficient function.
+
+78
+00:08:26.550 --> 00:08:27.690
+David Schaich (he): It's just
+
+79
+00:08:28.400 --> 00:08:33.950
+David Schaich (he): the cover way of organizing things that carries out cancellations prior to
+
+80
+00:08:33.980 --> 00:08:44.430
+David Schaich (he): taking derivatives rather than by going through the full process and observing the cancellations monthly and products. One other thing we can note is that
+
+81
+00:08:46.130 --> 00:08:48.970
+David Schaich (he): this 2 and log 2 with the 2 N.
+
+82
+00:08:50.370 --> 00:08:52.510
+David Schaich (he): 4 particles that we have
+
+83
+00:08:54.590 --> 00:08:59.640
+David Schaich (he): is actually the same mixing entropy as we had
+
+84
+00:09:00.030 --> 00:09:03.980
+David Schaich (he): in the case of fully distinguishable particles.
+
+85
+00:09:05.720 --> 00:09:20.880
+David Schaich (he): So this mixing entropy is the same mixing entropy that we. when we had more than just a color to tell particles that we can actually label every individual particle and keep track of them.
+
+86
+00:09:22.730 --> 00:09:26.270
+David Schaich (he): So in this case there is less information
+
+87
+00:09:27.270 --> 00:09:37.380
+David Schaich (he): about each particle that we can know in principle. But when we mix particles, even if we have 2 sets of otherwise
+
+88
+00:09:37.740 --> 00:09:45.560
+David Schaich (he): indistinguishable particles that different only by this single property. The increase in the entropy that we get from that mix in
+
+89
+00:09:45.660 --> 00:09:47.670
+David Schaich (he): is the same
+
+90
+00:09:48.050 --> 00:09:49.830
+David Schaich (he): as if we could label it all.
+
+91
+00:09:52.540 --> 00:09:54.980
+David Schaich (he): So this is something that is.
+
+92
+00:09:55.350 --> 00:09:59.340
+David Schaich (he): i'm not obvious, is not something I can really make a.
+
+93
+00:09:59.550 --> 00:10:05.160
+David Schaich (he): and she would have the conceptual physical argument, for it's something that is coming out of the mathematics and telling this
+
+94
+00:10:06.820 --> 00:10:16.650
+David Schaich (he): something very deep and not obvious about properties all the way physical systems. and how their information content
+
+95
+00:10:19.310 --> 00:10:20.910
+David Schaich (he): plays a role
+
+96
+00:10:22.090 --> 00:10:23.950
+David Schaich (he): as they all in time.
+
+97
+00:10:26.880 --> 00:10:31.970
+David Schaich (he): So that was the first task from the activity introduced
+
+98
+00:10:32.640 --> 00:10:38.840
+David Schaich (he): last week to be carried out over the the past week. and the second activity was actually the
+
+99
+00:10:38.880 --> 00:10:41.500
+David Schaich (he): the fun part that was looking at
+
+100
+00:10:41.650 --> 00:10:47.140
+David Schaich (he): this final state where the wall is reinserted in this
+
+101
+00:10:48.420 --> 00:10:50.930
+David Schaich (he): system. To separate
+
+102
+00:10:51.370 --> 00:10:56.460
+David Schaich (he): the guess is back into 2 separate subsystems.
+
+103
+00:10:56.610 --> 00:10:58.760
+David Schaich (he): We are now, thanks to
+
+104
+00:10:58.770 --> 00:11:07.820
+David Schaich (he): the mixing stage, we have residues on either side, and we want to check to make sure that the second wall of through dynamics
+
+105
+00:11:07.910 --> 00:11:12.960
+David Schaich (he): is obeyed, and the entropy continues to increase as we re insert
+
+106
+00:11:13.120 --> 00:11:14.020
+David Schaich (he): this wall
+
+107
+00:11:15.290 --> 00:11:18.450
+David Schaich (he): something that we. our view, is the case
+
+108
+00:11:18.580 --> 00:11:22.270
+David Schaich (he): in the lecture for fully disable particles.
+
+109
+00:11:22.410 --> 00:11:27.270
+David Schaich (he): What's left? This left for this tutorial activity
+
+110
+00:11:28.320 --> 00:11:29.890
+in order to actually
+
+111
+00:11:30.160 --> 00:11:31.950
+David Schaich (he): carry out the calculation
+
+112
+00:11:32.080 --> 00:11:34.840
+David Schaich (he): that things do work out
+
+113
+00:11:35.680 --> 00:11:38.880
+David Schaich (he): So it's. I'm assuming that if you
+
+114
+00:11:39.360 --> 00:11:43.260
+David Schaich (he): we're eager to volunteer the mixing entropy and that
+
+115
+00:11:43.310 --> 00:11:53.890
+David Schaich (he): sort of fits on these 2 lines. It's also worth going through the computation of the final entropy to make sure that
+
+116
+00:11:55.130 --> 00:11:58.630
+David Schaich (he): you get the feedback on how that should turn out, and some of the people
+
+117
+00:12:00.290 --> 00:12:02.550
+David Schaich (he): features being counter along the way.
+
+118
+00:12:02.900 --> 00:12:04.320
+Now, seeing
+
+119
+00:12:04.480 --> 00:12:12.100
+David Schaich (he): I mean you disagree with that plan. All try to keep an eye on the clock talk too long, and have enough time to
+
+120
+00:12:13.200 --> 00:12:16.430
+David Schaich (he): give you a new activity for the coming week.
+
+121
+00:12:17.860 --> 00:12:18.660
+David Schaich (he): Not a real
+
+122
+00:12:22.200 --> 00:12:23.490
+David Schaich (he): those that
+
+123
+00:12:24.770 --> 00:12:31.270
+David Schaich (he): this trick we have developed of relating the differences of interviews to
+
+124
+00:12:32.240 --> 00:12:36.600
+David Schaich (he): the ratio of partition functions also helps to simplify
+
+125
+00:12:36.970 --> 00:12:40.490
+David Schaich (he): the computation of that final entropy which we can
+
+126
+00:12:40.850 --> 00:12:43.130
+David Schaich (he): perfectly rewrite as
+
+127
+00:12:46.260 --> 00:12:52.640
+David Schaich (he): the final entropy, minus the combined entropy, plus the combined entropy just scanning is attracting the same quantity
+
+128
+00:12:53.310 --> 00:13:06.570
+David Schaich (he): which from our work above is the up, the whole of the ratio motion divided by in my
+
+129
+00:13:07.350 --> 00:13:08.180
+David Schaich (he): plus
+
+130
+00:13:09.270 --> 00:13:12.470
+David Schaich (he): the entropy we have in the combined system.
+
+131
+00:13:14.220 --> 00:13:17.570
+David Schaich (he): So we need to break down. I would have to be that
+
+132
+00:13:19.560 --> 00:13:23.100
+David Schaich (he): partition function for this final system, where
+
+133
+00:13:24.620 --> 00:13:27.020
+David Schaich (he): and we'll be
+
+134
+00:13:27.590 --> 00:13:35.430
+David Schaich (he): as we looked at in the previous tutorial with balance of the entropy is to assume up to sort of longer than the corrections
+
+135
+00:13:35.500 --> 00:13:39.390
+David Schaich (he): that are negligible. When we have a large number of particles.
+
+136
+00:13:39.580 --> 00:13:43.440
+David Schaich (he): it's safe to assume that the number of particles
+
+137
+00:13:43.810 --> 00:13:48.740
+David Schaich (he): end up on inside of that we inserted wall just by
+
+138
+00:13:49.180 --> 00:13:53.280
+David Schaich (he): the fact that the number of microstates with that even division
+
+139
+00:13:53.550 --> 00:13:57.370
+David Schaich (he): his followers to the any other possibilities.
+
+140
+00:14:01.260 --> 00:14:07.310
+David Schaich (he): So there are 2 and total particles, and we we assume, and are on each side of the wall.
+
+141
+00:14:07.530 --> 00:14:13.020
+David Schaich (he): So it on the left side
+
+142
+00:14:14.990 --> 00:14:17.300
+David Schaich (he): we have new
+
+143
+00:14:18.070 --> 00:14:27.110
+David Schaich (he): red particles. then we must necessarily have. and minus new blue particles on the left.
+
+144
+00:14:28.170 --> 00:14:36.590
+David Schaich (he): the remaining and minus new red and new blue also have to be on the right.
+
+145
+00:14:37.460 --> 00:14:41.020
+David Schaich (he): and the final partition function sums over
+
+146
+00:14:41.260 --> 00:14:49.770
+David Schaich (he): all the possible values of new. We can have none of the particles on the left being read, all of them on the right.
+
+147
+00:14:50.200 --> 00:14:52.960
+Our entropy balance is expected to be unlikely.
+
+148
+00:14:56.970 --> 00:15:05.280
+David Schaich (he): or we can have all in red particles, new equals, and on the left it is equally unlikely compared to hey you
+
+149
+00:15:06.620 --> 00:15:09.250
+David Schaich (he): or mixed distribution.
+
+150
+00:15:11.070 --> 00:15:14.620
+David Schaich (he): The partition function is a new that
+
+151
+00:15:14.690 --> 00:15:22.520
+David Schaich (he): corresponds to this particular. we get the particles you can right, and as
+
+152
+00:15:22.990 --> 00:15:27.110
+David Schaich (he): a one over 2 factorial V over
+
+153
+00:15:27.410 --> 00:15:39.800
+David Schaich (he): to you. That's the new red particles on the left we have the and minus new blue particles. the same
+
+154
+00:15:40.310 --> 00:15:48.430
+David Schaich (he): different number of particles. and then on the right we have the same numbers of new. And so this
+
+155
+00:15:48.720 --> 00:15:54.630
+David Schaich (he): full product. Just get squared of one factor for the left system and one for the right.
+
+156
+00:15:56.080 --> 00:15:57.260
+David Schaich (he): So we can
+
+157
+00:16:00.140 --> 00:16:02.760
+David Schaich (he): do a bit of cancellation.
+
+158
+00:16:02.860 --> 00:16:06.760
+David Schaich (he): So that's new independent after
+
+159
+00:16:07.470 --> 00:16:11.660
+David Schaich (he): a volume over Lambda, cubed to the 2 N.
+
+160
+00:16:11.860 --> 00:16:17.680
+David Schaich (he): And then the for new and goals. one over
+
+161
+00:16:18.880 --> 00:16:21.250
+David Schaich (he): 2 factors of your
+
+162
+00:16:24.210 --> 00:16:25.490
+David Schaich (he): factorial.
+
+163
+00:16:27.260 --> 00:16:28.470
+David Schaich (he): which we can
+
+164
+00:16:29.780 --> 00:16:41.460
+David Schaich (he): recognize as the binomial, coefficient, and she's new squared. divided through by the overall factorial
+
+165
+00:16:42.030 --> 00:16:45.660
+David Schaich (he): So partition function itself.
+
+166
+00:16:48.100 --> 00:16:49.560
+David Schaich (he): Then the
+
+167
+00:16:51.700 --> 00:16:57.240
+David Schaich (he): overall factor of one over
+
+168
+00:16:57.430 --> 00:17:07.119
+David Schaich (he): and occupy the volume. and some overdue just includes that's squared and binomial coefficients. which
+
+169
+00:17:08.609 --> 00:17:18.579
+David Schaich (he): is a this. Some of the binomial coefficients squared, is known as a binomial cell in the hypertometric functions, all sorts of from self.
+
+170
+00:17:19.140 --> 00:17:23.270
+David Schaich (he): It's also a special case of this
+
+171
+00:17:23.490 --> 00:17:35.080
+David Schaich (he): vendor Volume got credit for by publishing it at some point in the 17 hundreds. It was some time later we go on to that Chinese mathematician, if you and
+
+172
+00:17:35.280 --> 00:17:36.560
+David Schaich (he): discovered it
+
+173
+00:17:36.690 --> 00:17:40.830
+David Schaich (he): something like tough 400 to 500 years before
+
+174
+00:17:41.040 --> 00:17:53.850
+David Schaich (he): as that knowledge trickled through eventually to Europe. Hey! Move It's some historical recognition. But this sum over the square 5 of the coefficients is just
+
+175
+00:17:53.940 --> 00:17:55.940
+David Schaich (he): a single one on your coefficients
+
+176
+00:17:57.010 --> 00:18:00.410
+David Schaich (he): 2 in she was in. So we have
+
+177
+00:18:01.790 --> 00:18:03.530
+David Schaich (he): this compact expression
+
+178
+00:18:05.700 --> 00:18:08.470
+David Schaich (he): for the final partition function.
+
+179
+00:18:11.240 --> 00:18:14.250
+David Schaich (he): Once the wall has been reinserted and
+
+180
+00:18:15.320 --> 00:18:19.330
+David Schaich (he): the particles are we divided within on
+
+181
+00:18:19.670 --> 00:18:21.110
+David Schaich (he): good size?
+
+182
+00:18:28.030 --> 00:18:34.660
+David Schaich (he): So all we have to do to get the entropy is now divided. This partition function by
+
+183
+00:18:34.810 --> 00:18:38.460
+David Schaich (he): yeah combined one that we looked at earlier.
+
+184
+00:18:41.820 --> 00:18:46.400
+David Schaich (he): She is written up for the top of the page.
+
+185
+00:18:53.330 --> 00:18:55.420
+David Schaich (he): so the one over n
+
+186
+00:18:55.490 --> 00:18:59.540
+David Schaich (he): factorial square terms cancel out.
+
+187
+00:18:59.640 --> 00:19:05.700
+David Schaich (he): The Lamb is cancel out. Volume cancels out. All that does not cancel out is
+
+188
+00:19:06.170 --> 00:19:07.470
+factor of 2.
+
+189
+00:19:07.570 --> 00:19:11.850
+David Schaich (he): We have the to.
+
+190
+00:19:16.170 --> 00:19:17.760
+David Schaich (he): and then the
+
+191
+00:19:18.000 --> 00:19:20.460
+David Schaich (he): prohibitions that we have
+
+192
+00:19:21.830 --> 00:19:36.650
+David Schaich (he): now in the final state from something over all of the possible distributions of regular particles. So that is the same. and the denominator from the combined system.
+
+193
+00:19:37.970 --> 00:19:44.000
+David Schaich (he): binomial, coefficient, also independent of temperature. So the second term in the
+
+194
+00:19:44.480 --> 00:19:47.320
+David Schaich (he): entropy difference will cancel out
+
+195
+00:19:51.350 --> 00:19:54.080
+David Schaich (he): is the combined entropy, plus
+
+196
+00:19:55.450 --> 00:19:58.990
+David Schaich (he): the lord of that binomial coefficients.
+
+197
+00:19:59.080 --> 00:20:01.780
+David Schaich (he): 2 and and then
+
+198
+00:20:03.370 --> 00:20:10.620
+David Schaich (he): 2 end factors of the log of 2 with the negative sign, because that is now in the denominator.
+
+199
+00:20:15.260 --> 00:20:16.410
+David Schaich (he): So it is
+
+200
+00:20:16.660 --> 00:20:19.750
+David Schaich (he): also suggested in the activity we
+
+201
+00:20:20.430 --> 00:20:24.890
+David Schaich (he): make a real, safe assumption that it is very large. We
+
+202
+00:20:27.320 --> 00:20:36.450
+David Schaich (he): hit this results with certainly this formula, one neglected. We're going in terms. So what we have to do is
+
+203
+00:20:36.580 --> 00:20:38.360
+David Schaich (he): break up the
+
+204
+00:20:38.750 --> 00:20:44.390
+David Schaich (he): I know the coefficient into It's called I factorials.
+
+205
+00:20:45.890 --> 00:20:47.980
+We have the log of 2 and
+
+206
+00:20:48.170 --> 00:20:54.410
+David Schaich (he): factorial by n factorial and 2 and minus the number and factorial.
+
+207
+00:20:57.450 --> 00:21:06.970
+David Schaich (he): So the numerator log of 2 n factorial But Sterling is going to be 2 in 1, 2 and a minus 2 in and then
+
+208
+00:21:07.040 --> 00:21:08.500
+negative sign
+
+209
+00:21:08.830 --> 00:21:13.950
+David Schaich (he): problem. Having these other factors in the denominator, we have 2 of them.
+
+210
+00:21:14.130 --> 00:21:18.450
+David Schaich (he): and they are just a single end factorial. So in
+
+211
+00:21:20.500 --> 00:21:21.820
+David Schaich (he): my name is, and
+
+212
+00:21:22.880 --> 00:21:34.640
+David Schaich (he): you can see that the constant terms. minus 2 n minus 2 times minus n cancel all the and log in
+
+213
+00:21:34.880 --> 00:21:39.780
+David Schaich (he): terms cancel. All. All that is left is
+
+214
+00:21:41.900 --> 00:21:42.930
+David Schaich (he): hey?
+
+215
+00:21:45.620 --> 00:21:47.650
+David Schaich (he): 2 and 1, 2,
+
+216
+00:21:47.690 --> 00:21:51.490
+David Schaich (he): which looks familiar because it cancels off.
+
+217
+00:21:52.540 --> 00:21:56.050
+David Schaich (he): Video. we're meeting term coming from now.
+
+218
+00:21:57.510 --> 00:22:03.460
+David Schaich (he): our trick of adding is attracting that combined system interview. So
+
+219
+00:22:06.010 --> 00:22:17.450
+David Schaich (he): all of those cancel. The end result is that at this level of approximation from St. This formula. the final entropy you
+
+220
+00:22:17.500 --> 00:22:22.510
+David Schaich (he): is equal to the combined entropy, which is greater greater than the starting entropy.
+
+221
+00:22:22.720 --> 00:22:24.360
+David Schaich (he): And the second law
+
+222
+00:22:24.690 --> 00:22:26.730
+David Schaich (he): is very happy
+
+223
+00:22:27.100 --> 00:22:28.230
+David Schaich (he): with that.
+
+224
+00:22:31.200 --> 00:22:32.490
+David Schaich (he): So that is
+
+225
+00:22:35.250 --> 00:22:37.620
+David Schaich (he): where we can declare victory, at least
+
+226
+00:22:38.080 --> 00:22:43.000
+David Schaich (he): in the large, and in so called from a dynamic limit, where sterling this
+
+227
+00:22:43.260 --> 00:22:44.310
+David Schaich (he): formula
+
+228
+00:22:45.660 --> 00:22:48.540
+David Schaich (he): becomes a better and better approximation at this level.
+
+229
+00:22:50.420 --> 00:22:51.680
+David Schaich (he): If we
+
+230
+00:22:52.920 --> 00:22:57.610
+David Schaich (he): end up, including the logarithmic terms in this expansion, it's
+
+231
+00:22:57.650 --> 00:23:04.450
+David Schaich (he): through the one line calculation that okay verify
+
+232
+00:23:07.110 --> 00:23:09.440
+David Schaich (he): it gives us a final entropy
+
+233
+00:23:09.720 --> 00:23:12.690
+David Schaich (he): that is equal to the combined entropy
+
+234
+00:23:13.370 --> 00:23:18.110
+David Schaich (he): minus the wall rhythm of pie. i'm in
+
+235
+00:23:22.980 --> 00:23:24.810
+David Schaich (he): over to you. Actually
+
+236
+00:23:27.450 --> 00:23:30.020
+David Schaich (he): okay. square root.
+
+237
+00:23:34.300 --> 00:23:39.830
+David Schaich (he): which is less then yes, see
+
+238
+00:23:40.120 --> 00:23:42.980
+David Schaich (he): which should cause us to worry
+
+239
+00:23:43.590 --> 00:23:44.180
+David Schaich (he): the you.
+
+240
+00:23:46.100 --> 00:23:47.670
+David Schaich (he): Resolution to
+
+241
+00:23:48.420 --> 00:23:51.090
+David Schaich (he): the calculation at this
+
+242
+00:23:52.360 --> 00:23:54.590
+more stringent level approximation
+
+243
+00:23:54.750 --> 00:24:01.780
+David Schaich (he): is to add, in the very highly suppressed contributions from
+
+244
+00:24:04.540 --> 00:24:11.220
+David Schaich (he): the possibility that we have different numbers of particles, as well as different mixtures of red and blue
+
+245
+00:24:11.270 --> 00:24:14.130
+David Schaich (he): on each side of that final system.
+
+246
+00:24:14.200 --> 00:24:15.740
+David Schaich (he): What's the wall?
+
+247
+00:24:19.950 --> 00:24:22.830
+David Schaich (he): A logarithmic contribution
+
+248
+00:24:25.550 --> 00:24:30.170
+David Schaich (he): that keeps the second law of thermodynamics obeyed
+
+249
+00:24:31.680 --> 00:24:39.450
+David Schaich (he): and can be carried out in the same sort of way that we've gone through here. So go on
+
+250
+00:24:40.750 --> 00:24:43.300
+David Schaich (he): a bit too long about this All
+
+251
+00:24:43.460 --> 00:24:46.420
+David Schaich (he): how to see if everyone is happy with it.
+
+252
+00:24:49.320 --> 00:24:51.920
+David Schaich (he): That sort of results from
+
+253
+00:24:52.610 --> 00:24:55.670
+David Schaich (he): last week's mixing entropy, activity.
+
+254
+00:25:09.760 --> 00:25:20.860
+David Schaich (he): and I will. We move on to the next thing I you what to mention, as in the side, one
+
+255
+00:25:22.970 --> 00:25:28.560
+David Schaich (he): concept or an idea that you might have encountered before. Which is
+
+256
+00:25:29.600 --> 00:25:32.370
+it goes by the name of the Max
+
+257
+00:25:32.910 --> 00:25:33.860
+David Schaich (he): a
+
+258
+00:25:34.060 --> 00:25:38.040
+David Schaich (he): called Experiment, that James with Maxwell
+
+259
+00:25:38.380 --> 00:25:41.890
+David Schaich (he): came up with mid 18 hundreds.
+
+260
+00:25:43.960 --> 00:25:45.990
+1,867.
+
+261
+00:25:47.220 --> 00:25:55.840
+David Schaich (he): So, carrying out these considerations even before the concept of thermodynamic ensemble had been.
+
+262
+00:25:56.020 --> 00:26:04.090
+David Schaich (he): will be formalized mathematically. People realize that empirically
+
+263
+00:26:05.370 --> 00:26:16.870
+David Schaich (he): guesses would all would tend to mix into a disorder of states, and not unmix themselves into the other direction. So it would be unnatural
+
+264
+00:26:16.880 --> 00:26:17.750
+David Schaich (he): for
+
+265
+00:26:17.850 --> 00:26:20.870
+David Schaich (he): a mixed state like this final state to
+
+266
+00:26:21.870 --> 00:26:28.370
+David Schaich (he): turn into an initial state. We have that area of time that we've seen before Maxwell. Imagine well what it
+
+267
+00:26:29.560 --> 00:26:31.020
+David Schaich (he): we have some.
+
+268
+00:26:32.270 --> 00:26:42.410
+David Schaich (he): So what he called demon, which is a called. You can think of this as just some mechanical device that is able to choose what particles to let through.
+
+269
+00:26:42.610 --> 00:26:46.190
+David Schaich (he): of all dividing our usual 2 subsystems.
+
+270
+00:26:46.220 --> 00:26:58.740
+David Schaich (he): So in our case it this device sees a red particle, it doesn't move on to the left. If the device is a blue particle, that's it through on the right. and in that way they can reverse the early time
+
+271
+00:26:59.180 --> 00:27:05.640
+David Schaich (he): unmixed these gases, and in a lot of understanding, reduce the entropy and violate that second wall
+
+272
+00:27:05.650 --> 00:27:07.160
+David Schaich (he): of thermodynamics
+
+273
+00:27:13.510 --> 00:27:23.730
+David Schaich (he): In the illustration shown here, which is more in line with what actually was thinking rather than labeling particles as red. And we were talking about their entropy, which was a concept that wasn't
+
+274
+00:27:23.880 --> 00:27:32.050
+David Schaich (he): really in place at the time he introduced this idea he figured that this device might last
+
+275
+00:27:32.250 --> 00:27:41.640
+David Schaich (he): energetic, fast moving particles into the left hand system B of the slower moving blue, or the color particles going to the system a.
+
+276
+00:27:42.670 --> 00:27:55.160
+David Schaich (he): And this code introduce a spontaneous all temperature difference. We would have an unnatural heat flow from a cold system to a cost system
+
+277
+00:27:55.350 --> 00:28:07.280
+David Schaich (he): and generate Hey, You temperature on one side greater than the temperature out the other, which could then be put into a heat engine and use to to do work
+
+278
+00:28:07.470 --> 00:28:18.060
+David Schaich (he): so you can get work or power from nothing. The basic idea of the professional motion machine, the second wall of thermodynamics for this by saying.
+
+279
+00:28:18.440 --> 00:28:24.710
+David Schaich (he): Not only can't we win with thermodynamic cycles, we can't even break even.
+
+280
+00:28:27.620 --> 00:28:29.000
+David Schaich (he): and the basic
+
+281
+00:28:30.500 --> 00:28:32.160
+David Schaich (he): argument.
+
+282
+00:28:33.230 --> 00:28:34.190
+David Schaich (he): So
+
+283
+00:28:38.220 --> 00:28:40.510
+David Schaich (he): in the context of Maxwell's email.
+
+284
+00:28:41.560 --> 00:28:44.480
+David Schaich (he): I would say conceptual arguments
+
+285
+00:28:48.150 --> 00:28:52.110
+David Schaich (he): that any device that accomplishes
+
+286
+00:28:52.420 --> 00:28:53.380
+David Schaich (he): this
+
+287
+00:28:54.340 --> 00:29:03.790
+David Schaich (he): stated goal of unmixing gases and putting particles with certain properties on one side. Those are other properties; on the other.
+
+288
+00:29:07.130 --> 00:29:08.150
+David Schaich (he): The
+
+289
+00:29:11.620 --> 00:29:20.390
+David Schaich (he): activities of this demon or device have have their own interview cost.
+
+290
+00:29:23.880 --> 00:29:25.700
+David Schaich (he): So if we look at the
+
+291
+00:29:27.070 --> 00:29:30.010
+David Schaich (he): one system. oh.
+
+292
+00:29:31.900 --> 00:29:35.430
+David Schaich (he): the demon for the device interacting with these gases.
+
+293
+00:29:35.510 --> 00:29:38.120
+David Schaich (he): We also have to account for
+
+294
+00:29:38.160 --> 00:29:40.230
+David Schaich (he): the entropy, you
+
+295
+00:29:41.390 --> 00:29:44.070
+David Schaich (he): of the activities of this device itself.
+
+296
+00:29:44.550 --> 00:29:58.650
+David Schaich (he): which part of the whole and these activities themselves, and a certain amount of entropy as a result of whatever it needs to be done. In order to do this division, and lower the energy of the gases themselves.
+
+297
+00:29:58.840 --> 00:29:59.640
+David Schaich (he): So
+
+298
+00:29:59.660 --> 00:30:00.740
+that's
+
+299
+00:30:02.830 --> 00:30:05.350
+David Schaich (he): that leaves the second law.
+
+300
+00:30:06.210 --> 00:30:13.120
+David Schaich (he): Okay? And this conceptual argument has actually been
+
+301
+00:30:14.280 --> 00:30:15.720
+David Schaich (he): checked in
+
+302
+00:30:16.860 --> 00:30:19.160
+David Schaich (he): practice much more recently.
+
+303
+00:30:20.760 --> 00:30:25.450
+David Schaich (he): So our technological capabilities. So what
+
+304
+00:30:27.660 --> 00:30:31.320
+David Schaich (he): exceed those available in the 1860 S.
+
+305
+00:30:33.610 --> 00:30:39.650
+David Schaich (he): And there are actually quite a few examples of
+
+306
+00:30:40.340 --> 00:30:42.200
+they're called demon experience.
+
+307
+00:30:42.580 --> 00:30:46.880
+David Schaich (he): That's
+
+308
+00:30:46.910 --> 00:30:56.200
+David Schaich (he): uses these sorts of devices to carry out in the case of
+
+309
+00:30:56.470 --> 00:30:58.970
+David Schaich (he): this illustration, by
+
+310
+00:31:00.790 --> 00:31:06.930
+David Schaich (he): encouraging a particle to move to a state where it has more potential energy.
+
+311
+00:31:07.450 --> 00:31:09.000
+we use to do work.
+
+312
+00:31:09.050 --> 00:31:18.010
+David Schaich (he): So this is a conceptual illustration of experiments by the Japanese group.
+
+313
+00:31:19.280 --> 00:31:24.580
+David Schaich (he): It's all about Well, years ago published in 2,010,
+
+314
+00:31:27.790 --> 00:31:32.830
+David Schaich (he): so they are using lasers to
+
+315
+00:31:34.160 --> 00:31:35.980
+David Schaich (he): track particles in
+
+316
+00:31:36.510 --> 00:31:40.150
+David Schaich (he): such a way that when a particle fluctuates.
+
+317
+00:31:40.480 --> 00:31:42.650
+David Schaich (he): thanks with thermal energy to
+
+318
+00:31:42.700 --> 00:31:47.910
+David Schaich (he): a state with that higher potential energy, the laser is readjusted to
+
+319
+00:31:48.900 --> 00:31:52.580
+David Schaich (he): track that particle in that higher energy stage. This is repeated
+
+320
+00:31:53.240 --> 00:32:04.060
+David Schaich (he): over and over again, which causes that particle to effectively roll up a staircase any more potential energy that can then be used to do work.
+
+321
+00:32:05.170 --> 00:32:08.900
+David Schaich (he): And I said that registration aside.
+
+322
+00:32:10.160 --> 00:32:11.040
+David Schaich (he): Yeah.
+
+323
+00:32:13.340 --> 00:32:26.250
+David Schaich (he): Give you the understand from it. If you do a careful accounting out of what happens to the lasers that you have to manipulates in order to put these crafts into place.
+
+324
+00:32:28.710 --> 00:32:36.860
+David Schaich (he): This procedure adds entropy to universe through those
+
+325
+00:32:38.070 --> 00:32:39.840
+David Schaich (he): users themselves.
+
+326
+00:32:41.290 --> 00:32:43.080
+David Schaich (he): and the second law
+
+327
+00:32:43.240 --> 00:32:48.790
+David Schaich (he): is obeyed. And if you are curious about this. I've added to
+
+328
+00:32:49.550 --> 00:32:51.760
+David Schaich (he): the extra resources on me.
+
+329
+00:32:51.980 --> 00:32:55.590
+David Schaich (he): Can this module a relatively recent
+
+330
+00:32:56.600 --> 00:33:02.900
+David Schaich (he): article about it from the physics today. Magazine from
+
+331
+00:33:02.910 --> 00:33:09.150
+David Schaich (he): November 2011. So, about 15 months ago, the demons haunting thermodynamics
+
+332
+00:33:09.260 --> 00:33:10.120
+David Schaich (he): which
+
+333
+00:33:13.020 --> 00:33:20.630
+David Schaich (he): some experiments in their real realizations in modern day experiments.
+
+334
+00:33:23.280 --> 00:33:27.550
+David Schaich (he): So any questions about Maxwell's team in the second of all.
+
+335
+00:33:28.210 --> 00:33:31.850
+David Schaich (he): or entropy before we move on to the promise
+
+336
+00:33:32.050 --> 00:33:42.320
+David Schaich (he): through a dynamic cycle application that I saying we would do today. We have enough time to get back introduced in under way.
+
+337
+00:33:57.000 --> 00:33:57.860
+David Schaich (he): Good.
+
+338
+00:33:59.940 --> 00:34:03.060
+David Schaich (he): Let's move on to what the
+
+339
+00:34:04.250 --> 00:34:13.290
+David Schaich (he): new activity for you to play with over the coming week, which is to consider it the thermodynamic cycle defined by this
+
+340
+00:34:13.380 --> 00:34:17.000
+David Schaich (he): on the screen.
+
+341
+00:34:17.900 --> 00:34:21.920
+David Schaich (he): This is known as the Auto Cycle.
+
+342
+00:34:27.050 --> 00:34:31.120
+David Schaich (he): named after his his name Auto, and
+
+343
+00:34:31.219 --> 00:34:43.290
+David Schaich (he): differs in a few important ways from the Our No cycle that we looked at in the lecture. One thing it is a a great deal more recent
+
+344
+00:34:43.429 --> 00:34:53.370
+David Schaich (he): sort of introduced around the late nineteenth or early twentieth century. and its main role is actually as a model of
+
+345
+00:34:54.540 --> 00:35:02.260
+David Schaich (he): an ideal, a realization of how petrol engines so internal combustion engines. What
+
+346
+00:35:04.040 --> 00:35:09.540
+David Schaich (he): So the idea is if we start at like one in this Pv diagram.
+
+347
+00:35:10.620 --> 00:35:15.140
+David Schaich (he): we carrying out some compression of our gas.
+
+348
+00:35:16.490 --> 00:35:18.160
+David Schaich (he): That is
+
+349
+00:35:21.330 --> 00:35:34.170
+David Schaich (he): a real real process, and occurs pretty rapidly. If you think about How many times per minute do you internal combustion engine in there a call or a bus?
+
+350
+00:35:34.660 --> 00:35:37.090
+David Schaich (he): It goes through its cycle.
+
+351
+00:35:38.220 --> 00:35:45.150
+David Schaich (he): You can appreciate just how quickly this compression is being. This whole cycle is being carried out.
+
+352
+00:35:46.550 --> 00:35:50.400
+David Schaich (he): so that compression increases the pressure of
+
+353
+00:35:51.030 --> 00:36:02.450
+David Schaich (he): the gas as we've seen before idiotic procedures. and I should mention, before going any further, that the Yes
+
+354
+00:36:02.740 --> 00:36:05.370
+David Schaich (he): be considered in this cycle
+
+355
+00:36:06.490 --> 00:36:08.240
+David Schaich (he): is actually a
+
+356
+00:36:10.820 --> 00:36:12.840
+David Schaich (he): mixture of air
+
+357
+00:36:15.450 --> 00:36:17.110
+David Schaich (he): and vaporized control
+
+358
+00:36:20.970 --> 00:36:23.040
+David Schaich (he): it. Once the
+
+359
+00:36:23.790 --> 00:36:29.940
+David Schaich (he): volume is reduced to this V. 2 from the starting one. You're going to be one
+
+360
+00:36:30.080 --> 00:36:31.460
+David Schaich (he): at point 2.
+
+361
+00:36:32.480 --> 00:36:34.370
+David Schaich (he): A spark is introduced
+
+362
+00:36:34.530 --> 00:36:40.840
+David Schaich (he): to the system that he heights this mix of air and the petrol.
+
+363
+00:36:41.200 --> 00:36:51.130
+David Schaich (he): and it's very rapidly. does a large amount of heat into the gas essentially, instantaneously So here it is.
+
+364
+00:36:52.580 --> 00:36:53.680
+David Schaich (he): hey
+
+365
+00:36:53.840 --> 00:36:58.200
+David Schaich (he): addition of heat from the submission stage burning the petrol.
+
+366
+00:36:58.350 --> 00:36:59.110
+David Schaich (he): yes.
+
+367
+00:36:59.480 --> 00:37:04.580
+David Schaich (he): goes into the gas so quickly that the volume does not have any time to change.
+
+368
+00:37:04.770 --> 00:37:06.690
+David Schaich (he): and even though the
+
+369
+00:37:06.930 --> 00:37:11.660
+David Schaich (he): gas itself is perfect to introduce the seeds and raise the temperature.
+
+370
+00:37:11.980 --> 00:37:23.990
+David Schaich (he): which in turn raises the pressure from the We can't still model this and think about it as Keith, coming in from some external from a reservoir
+
+371
+00:37:24.250 --> 00:37:32.220
+David Schaich (he): just happening very quickly at a fixed volume over the next instance the volume is able to expand.
+
+372
+00:37:32.260 --> 00:37:37.650
+David Schaich (he): This drives the gears and the wheels on the car provide the power and work.
+
+373
+00:37:37.750 --> 00:37:42.120
+David Schaich (he): This is another. We have the process kind of Adiabatic expansion.
+
+374
+00:37:43.520 --> 00:37:48.380
+David Schaich (he): and then, finally, the hot broadcast is
+
+375
+00:37:48.900 --> 00:37:53.440
+David Schaich (he): produce. Exhaust is expelled from the system. and
+
+376
+00:37:54.810 --> 00:37:56.650
+David Schaich (he): an equal number of
+
+377
+00:38:01.470 --> 00:38:06.820
+David Schaich (he): fresh fuel particles. Another, a new mixture of
+
+378
+00:38:08.230 --> 00:38:20.340
+David Schaich (he): petrol is brought in to replace that burns exhaust which lowers the temperature of the system, closes the cycle and gets us back to that starting part of wall.
+
+379
+00:38:22.710 --> 00:38:27.720
+David Schaich (he): So video question if you will consider
+
+380
+00:38:29.000 --> 00:38:30.480
+David Schaich (he): we've given a
+
+381
+00:38:31.890 --> 00:38:33.530
+David Schaich (he): thermodynamic cycle
+
+382
+00:38:38.350 --> 00:38:44.410
+David Schaich (he): is, what is this efficiency? And in particular, how is that efficiency? Compare
+
+383
+00:38:44.710 --> 00:38:47.460
+David Schaich (he): to the efficiency of the Carnot cycle.
+
+384
+00:38:58.020 --> 00:38:59.440
+David Schaich (he): So that is
+
+385
+00:39:00.660 --> 00:39:14.960
+David Schaich (he): something for you to work out just in the start of the last 10 min. See? Make sure you can get under way. I'm around. If there are immediate questions that I can pull up instead of just handwritten, those the
+
+386
+00:39:15.610 --> 00:39:18.400
+David Schaich (he): activity itself also from
+
+387
+00:39:18.690 --> 00:39:20.530
+David Schaich (he): I can this site.
+
+388
+00:39:22.150 --> 00:39:26.650
+David Schaich (he): So there is the cycle, the description of those 4 phases. and
+
+389
+00:39:28.380 --> 00:39:41.060
+David Schaich (he): I forgot to mention this useful concept of compression ratio. The ratio of the 2 volume set up here is here. It's a larger volume on top, so that R. Is greater than one
+
+390
+00:39:42.300 --> 00:39:47.880
+David Schaich (he): which will appear in the efficiency of the auto cycle.
+
+391
+00:39:48.880 --> 00:39:52.730
+David Schaich (he): and you want to compute that and compare it to
+
+392
+00:39:52.760 --> 00:40:03.580
+David Schaich (he): the Carnot cycle. which we've already computed earlier this week. The efficiency it, a. C of the Carnot cycle is one minus the temperature ratio
+
+393
+00:40:03.750 --> 00:40:08.540
+David Schaich (he): at the coldest points. One versus the hottest points 3
+
+394
+00:40:09.940 --> 00:40:14.590
+David Schaich (he): so always between 0 and one, and turning off when
+
+395
+00:40:14.690 --> 00:40:19.680
+David Schaich (he): pull the top become the same temperature. So i'll pause the recording.
+
+396
+00:40:19.780 --> 00:40:22.130
+David Schaich (he): I need this to you for
+
+397
+00:40:23.330 --> 00:40:27.830
+David Schaich (he): okay, I'll just resume the recording for the last minute here to
+
+398
+00:40:31.170 --> 00:40:34.570
+David Schaich (he): questions or ambiguities about this
+
+399
+00:40:35.050 --> 00:40:36.890
+David Schaich (he): activity for the coming week.
+
+400
+00:40:42.800 --> 00:40:47.150
+David Schaich (he): Not seeing any objections or concerns, I
+
+401
+00:40:47.340 --> 00:40:47.970
+4
+
+402
+00:40:48.040 --> 00:40:49.160
+David Schaich (he): remotely
+
+403
+00:40:50.600 --> 00:41:02.400
+David Schaich (he): something that in the mission earlier in that perhaps should have, was the suggestion that I think came up in the lecture that a good place to start is to figure out which of these
+
+404
+00:41:03.660 --> 00:41:08.180
+David Schaich (he): cycles is actually contributing to
+
+405
+00:41:09.360 --> 00:41:15.620
+David Schaich (he): the efficiency which is doing work which requires for it to be done. I wish we was.
+
+406
+00:41:17.700 --> 00:41:19.370
+David Schaich (he): you know, like he's
+
+407
+00:41:20.140 --> 00:41:23.160
+David Schaich (he): into the system, and all the other
+
+408
+00:41:23.500 --> 00:41:30.450
+David Schaich (he): contributions are going to work or teach. and then you ignored it. The goal of computing this efficiency, which
+
+409
+00:41:31.660 --> 00:41:38.560
+David Schaich (he): check in all that it's time next week, just before we turn right. so
+
+410
+00:41:39.650 --> 00:41:41.780
+David Schaich (he): last call for it
+
+411
+00:41:43.160 --> 00:41:47.380
+David Schaich (he): questions as I'll shut things down and head off to
+
+412
+00:41:47.500 --> 00:41:49.090
+David Schaich (he): today's office hours.
+
