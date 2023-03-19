@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 6}
-\renewcommand{\moddate}{Last modified 14 Mar.~2023}
+\renewcommand{\moddate}{Last modified 19 Mar.~2023}
 \setcounter{section}{6}
 \setcounter{subsection}{0}
 \phantomsection
@@ -187,8 +187,8 @@ Since the particle number $N_i$ is dimensionless, the combination $E_i - \mu N_i
 % ------------------------------------------------------------------
 \subsection{\label{sec:grand_pot}The grand-canonical potential, internal energy, entropy, and particle number}
 The development of the grand-canonical ensemble we have seen so far closely resembles our earlier work setting up the canonical ensemble.
-We have generalized the thermal reservoir to a particle reservoir that allows both the internal energy and particle number of the system \Om to vary, while keeping its temperature $T$ and chemical potential $\mu$ fixed.
-By adapting the replica ansatz to this setup, we determined the micro-state probabilities $p_i$ and grand-canonical partition function $Z_g$, and found them to be independent of the details of the particle reservoir.
+We have generalized the thermal reservoir to a particle reservoir that fixes both the temperature $T$ and chemical potential $\mu$, while allowing the system's internal energy and particle number to vary between different micro-states $\om_i$.
+By adapting the replica ansatz to this setup, we determined the micro-state probabilities $p_i$ and the grand-canonical partition function $Z_g$, confirming that they are independent of the details of the particle reservoir.
 
 We now continue by considering a similar set of derived quantities for the grand-canonical ensemble in thermodynamic equilibrium.
 In addition to the expectation value of the internal energy introduced in \secref{sec:canon_derived}, the fluctuations of the particle number mean that we also need to consider its expectation value,
@@ -246,7 +246,7 @@ which we can connect to the entropy by inserting the probabilities $p_i$ from \e
 
 Finally, the connections between the energy, entropy and particle number provided by these relations motivate a further extension of the general first law of thermodynamics we derived in \eq{eq:first_law}.
 To make the notation less cumbersome here, we write $\vev{E}$ and $\vev{N}$ as $E$ and $N$, keeping in mind that these are properties of the system's thermodynamic macro-state rather than its fluctuating micro-state.
-In this notation, \eq{eq:first_law} reads $dE = T \, dS - P \, dV$, and relates any changes in the internal energy of a canonical system to changes in its entropy (heat) or volume (work).
+In this notation, \eq{eq:first_law} reads $dE = T \, dS - P \, dV = Q + W$, and relates any changes in the internal energy of a canonical system to changes in its entropy (heat) or volume (work).
 
 Extending this to the grand-canonical ensemble, we can express the entropy as a function of the internal energy, volume and particle number, $S(E, V, N)$, and consider the change in entropy due to changes in each of these three parameters,
 \begin{equation*}
