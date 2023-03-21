@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 7}
-\renewcommand{\moddate}{Last modified 19 Mar.~2023}
+\renewcommand{\moddate}{Last modified 21 Mar.~2023}
 \setcounter{section}{7}
 \setcounter{subsection}{0}
 \phantomsection
@@ -75,7 +75,7 @@ Inserting this $Z_N$ into \eq{eq:fugacity_exp}, we have
 \begin{equation*}
   \ZMB(\be, \mu) = \sum_{N = 0}^{\infty} \left[e^{\be\mu}\right]^N \frac{1}{N!} \left[Z_1(\be)\right]^N = \sum_{N = 0}^{\infty} \frac{1}{N!} \left[e^{\be\mu} Z_1(\be)\right]^N = \exp\left[e^{\be\mu} Z_1(\be)\right].
 \end{equation*}
-In the case of a system with discrete energy levels $E_{\ell}$, the single-particle partition function is simply
+In the case of a system with discrete energy levels $\cE_{\ell}$, the single-particle partition function is simply
 \begin{equation*}
   Z_1(\be) = \sum_{\ell = 0}^L e^{-\be E_{\ell}},
 \end{equation*}
@@ -290,12 +290,12 @@ In \secref{sec:quantum} we claimed that if the probability of multiple particles
 We will wrap up this unit by demonstrating this result and clarifying the conditions that correspond to this `classical limit' of quantum statistics.
 
 It is useful to start by asking when we should expect classical statistics to predict a non-negligible probability for multiple particles to occupy the same energy level, leading to the over-counting problems that are solved by quantum statistics.
-This is actually a question we have already considered, back in \secref{sec:spin_info} (and the first homework assignment).
+This is actually a question we have already considered, back in \secref{sec:spin_info}.
 There we used the canonical ensemble to analyze classical spin systems with discrete energy levels, finding that at low temperatures the systems are dominated by their lowest-energy micro-states, with only exponentially suppressed corrections coming from any higher-energy micro-states.
 In the present context, this corresponds to a classical prediction of exponentially small probabilities for particles to occupy any energy levels with $E_{\ell} > E_0$ --- effectively guaranteeing that the lowest energy level $\cE_0$ will be occupied by multiple particles and classical statistics will break down.
 
 In short, the low-temperature regime is where quantum and classical statistics disagree, while \textbf{high temperatures correspond to the classical limit} of quantum statistics.
-If you are not convinced by the argument leading to this conclusion, you can find a more detailed derivation based on the equation of state and thermal de~Broglie wavelength in Section~3.5 of David Tong's \href{https://www.damtp.cam.ac.uk/user/tong/statphys.html}{\textit{Lectures on Statistical Physics}} (the first item in the list of further reading on page~5).
+If you are not convinced by the argument leading to this conclusion, you can find a more detailed derivation based on the equation of state and thermal de~Broglie wavelength in Section~3.5 of David Tong's \href{https://www.damtp.cam.ac.uk/user/tong/statphys.html}{\textit{Lectures on Statistical Physics}} (the first item in the list of further reading on page~6).
 
 For now, we want to consider the grand-canonical ensemble at high temperatures, to see whether the quantum and classical statistics we derived in the previous sections become equivalent in this regime.
 However, it can be subtle to work with the grand-canonical ensemble at high temperatures, due to the dependence of the average number of particles on the temperature.
@@ -343,7 +343,7 @@ where the average occupation numbers for Maxwell--Boltzmann statistics, Bose--Ei
   \nBE & = \frac{1}{e^{\be (E_{\ell} - \mu)} - 1} &
   \nFD & = \frac{1}{e^{\be (E_{\ell} - \mu)} + 1}.
 \end{align*}
-Note that $0 \leq \nFD \leq 1$, as required for fermions.
+Note that $\vev{n_{\ell}} \geq 0$ in all cases, and also $\nFD \leq 1$, as required for fermions.
 From these results it is easy to see that the classical limit $\nBE \approx \nFD \approx \nMB$ corresponds to
 \begin{equation*}
   e^{\be (E_{\ell} - \mu)} \pm 1 \approx e^{\be (E_{\ell} - \mu)} \qquad \Lra \qquad e^{\be (E_{\ell} - \mu)} \gg 1.
@@ -376,6 +376,6 @@ This corresponds to the right edge of the plot on the next page, where we can co
 \begin{center}\includegraphics[width=\textwidth]{figs/unit07_dist.pdf}\end{center}
 
 In the low-temperature regime $\frac{E_{\ell} - \mu}{T} \ll 1$ corresponding to the left portion of the plot, we see dramatically different behaviour for the three cases.
-The classical Maxwell--Boltzmann prediction for the average occupation number grows exponentially, while the quantum Bose--Einstein prediction diverges as $E_{\ell} \to \mu$ and the Fermi--Dirac prediction slowly approaches its maximum possible value $\nFD \to 1$.
+The classical Maxwell--Boltzmann prediction for the average occupation number grows exponentially, while the quantum Bose--Einstein prediction diverges as either $E_{\ell} \to \mu$ or $\be \to 0$ with $(E_{\ell} - \mu)$ fixed, and the Fermi--Dirac prediction slowly approaches its maximum possible value $\nFD \to 1$.
 In the next unit we will study in more detail the quantum gases of bosons and fermions that correspond to these results.
 % ------------------------------------------------------------------
