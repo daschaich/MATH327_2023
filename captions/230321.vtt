@@ -1,0 +1,2034 @@
+WEBVTT
+
+1
+00:00:01.650 --> 00:00:13.870
+David Schaich (he): Okay, we can get underway with the final bit of lecture before the break.  Hopefully this microphone will be stable, despite misbehaving a bit just now, before I started the recording.
+
+2
+00:00:14.280 --> 00:00:18.040
+David Schaich (he): Despite having to restart the whole system, we are able to
+
+3
+00:00:20.750 --> 00:00:22.340
+David Schaich (he): get under way
+
+4
+00:00:23.100 --> 00:00:24.100
+not too long after the hour, on
+
+5
+00:00:27.950 --> 00:00:30.800
+David Schaich (he): approximately the first day of spring,
+
+6
+00:00:32.439 --> 00:00:36.050
+David Schaich (he): for which the six-digit code will be
+
+7
+00:00:41.910 --> 00:00:44.940
+David Schaich (he): 8, 1, 0, 5, 7, 3.
+
+8
+00:00:45.000 --> 00:00:51.380
+David Schaich (he): Before we get underway, I want to make a note of one thing I keep forgetting to mention
+
+9
+00:00:51.450 --> 00:00:55.730
+David Schaich (he): (in part because we were rushed out of the room for an exam yesterday),
+
+10
+00:00:56.040 --> 00:01:00.860
+David Schaich (he): which is that the solutions to the homework have been on the Canvas site since last week.
+
+11
+00:01:00.880 --> 00:01:06.210
+David Schaich (he): Individual feedback should get back to you imminently, either later today or tomorrow at the latest.
+
+12
+00:01:06.310 --> 00:01:12.070
+David Schaich (he): So a couple of fun things that we can discuss in the on Thursday morning.
+
+13
+00:01:12.210 --> 00:01:24.930
+David Schaich (he): I want to wrapping up dynamic cycles and efficiency. and perhaps all. I hope it's not something else for you to play with it during the
+
+14
+00:01:25.150 --> 00:01:32.340
+David Schaich (he): in addition to the sample exams that are also have been on campus for several weeks now.
+
+15
+00:01:32.830 --> 00:01:36.060
+David Schaich (he): but picking up where
+
+16
+00:01:36.460 --> 00:01:39.210
+David Schaich (he): he left off in a bit of a rush. At the end of
+
+17
+00:01:40.320 --> 00:01:42.480
+David Schaich (he): yesterday morning we were
+
+18
+00:01:45.780 --> 00:01:48.870
+David Schaich (he): going into quantum statistics which we should have
+
+19
+00:01:51.620 --> 00:01:53.480
+David Schaich (he): wrap up today.
+
+20
+00:01:54.720 --> 00:02:07.040
+David Schaich (he): Do finish this with time to spare. It might take a bit of a preview. You can see where the high quantum gases, but the both of that should be saved after the break. So that do we have to
+
+21
+00:02:07.110 --> 00:02:08.430
+David Schaich (he): try to remember
+
+22
+00:02:08.470 --> 00:02:09.830
+exactly where you are
+
+23
+00:02:10.050 --> 00:02:11.660
+David Schaich (he): over those few weeks.
+
+24
+00:02:12.670 --> 00:02:17.350
+David Schaich (he): It's a reminder of how some statistics from what we have been doing.
+
+25
+00:02:18.080 --> 00:02:31.660
+David Schaich (he): rather than computing a single critical partition function. raising them to the power of the number of particles, and then trying to correct what we've been doing
+
+26
+00:02:32.100 --> 00:02:34.010
+David Schaich (he): all the way since we introduced the
+
+27
+00:02:34.140 --> 00:02:35.190
+for ensemble
+
+28
+00:02:35.320 --> 00:02:43.990
+David Schaich (he): in quantum statistics. The microstates are defined. I something over all possible
+
+29
+00:02:44.270 --> 00:02:47.510
+David Schaich (he): energy levels which are taken to be discrete.
+
+30
+00:02:49.020 --> 00:02:51.150
+David Schaich (he): and within each
+
+31
+00:02:54.460 --> 00:03:06.760
+David Schaich (he): occupation numbers where there are 2 distinct classes of what a particle is characterized by different possible occupation numbers
+
+32
+00:03:08.650 --> 00:03:09.880
+David Schaich (he): who zones
+
+33
+00:03:09.930 --> 00:03:13.890
+David Schaich (he): where the occupation number in each energy level
+
+34
+00:03:13.920 --> 00:03:14.900
+by hill.
+
+35
+00:03:16.110 --> 00:03:16.730
+David Schaich (he): Nothing.
+
+36
+00:03:16.800 --> 00:03:17.800
+The individual.
+
+37
+00:03:18.320 --> 00:03:23.270
+David Schaich (he): you know, that this gives me grand canonical partition function.
+
+38
+00:03:23.890 --> 00:03:24.540
+It was
+
+39
+00:03:24.840 --> 00:03:27.620
+David Schaich (he): so
+
+40
+00:03:28.410 --> 00:03:31.150
+David Schaich (he): all over all these energy. Well.
+
+41
+00:03:31.490 --> 00:03:34.380
+David Schaich (he): times the geometric, still
+
+42
+00:03:37.700 --> 00:03:45.120
+David Schaich (he): regular times. the value of the energy for the corresponding energy level. minus mu, the chemical potential
+
+43
+00:03:46.510 --> 00:03:50.640
+David Schaich (he): in order for the geometric series to converge. We
+
+44
+00:03:52.310 --> 00:04:06.920
+David Schaich (he): needed to demand that the chemical potential is less than every year energy level. The value of the energy in every energy level which is generally going to be a guaranteed for natural systems
+
+45
+00:04:06.970 --> 00:04:09.860
+David Schaich (he): where you're taking the energy
+
+46
+00:04:10.480 --> 00:04:21.589
+David Schaich (he): now negative and the natural chemical potential is negative. So that is what we found when we got up to yesterday.
+
+47
+00:04:24.840 --> 00:04:27.140
+David Schaich (he): Same computation.
+
+48
+00:04:28.290 --> 00:04:32.750
+the other classic part of those fermions, with the only possible occupation, numbers
+
+49
+00:04:32.830 --> 00:04:45.540
+David Schaich (he): or 0, and one energy level can either be occupied or unoccupied in multiple occupancy. He's not allowed due to a feature of quantum mechanics rather than
+
+50
+00:04:45.650 --> 00:04:48.050
+David Schaich (he): any sort of physical.
+
+51
+00:04:49.290 --> 00:04:55.820
+David Schaich (he): So any questions about what we saw yesterday. the what we got up to before we
+
+52
+00:04:57.000 --> 00:04:59.500
+David Schaich (he): calculation that
+
+53
+00:05:04.840 --> 00:05:07.600
+David Schaich (he): so i'm, not seeing any
+
+54
+00:05:08.480 --> 00:05:16.110
+David Schaich (he): sign of concern. So the same approach to calculating the
+
+55
+00:05:16.120 --> 00:05:19.550
+all the occupation numbers for all the energy levels
+
+56
+00:05:22.290 --> 00:05:24.470
+David Schaich (he): we will go through even more quickly.
+
+57
+00:05:24.520 --> 00:05:27.900
+David Schaich (he): You know the occupation.
+
+58
+00:05:28.300 --> 00:05:30.330
+David Schaich (he): What this will give us is
+
+59
+00:05:31.140 --> 00:05:33.110
+David Schaich (he): a distribution.
+
+60
+00:05:34.970 --> 00:05:37.800
+David Schaich (he): No, it is very direct statistics
+
+61
+00:05:38.800 --> 00:05:49.430
+David Schaich (he): contrast to an actual Austin statistics of classical particles with discrete energy levels.
+
+62
+00:05:53.060 --> 00:05:54.520
+David Schaich (he): as we did.
+
+63
+00:05:56.920 --> 00:06:01.760
+David Schaich (he): We consider it first, a system that just has a single energy level
+
+64
+00:06:06.880 --> 00:06:13.750
+David Schaich (he): label, that is. E. 0, then the grand canonical, proficient function for the system just like the
+
+65
+00:06:16.140 --> 00:06:19.190
+David Schaich (he): this is some of our microstates.
+
+66
+00:06:20.090 --> 00:06:24.750
+David Schaich (he): Each microstate has some number of particles in this energy level. so
+
+67
+00:06:26.020 --> 00:06:31.210
+David Schaich (he): number of particles corresponds to the occupation number of
+
+68
+00:06:31.620 --> 00:06:35.740
+David Schaich (he): uniquely every microstate. There are only 2 possibilities.
+
+69
+00:06:38.450 --> 00:06:40.820
+David Schaich (he): One. yeah.
+
+70
+00:06:43.120 --> 00:06:43.830
+you all
+
+71
+00:06:44.400 --> 00:06:46.040
+David Schaich (he): exponential factor.
+
+72
+00:06:47.380 --> 00:06:59.030
+David Schaich (he): being the same as before Microsoft energy. It's just that single number of particles that are in this. It's just that in the energy level.
+
+73
+00:06:59.730 --> 00:07:05.810
+David Schaich (he): when that that number of particles is 0, the
+
+74
+00:07:06.350 --> 00:07:11.000
+David Schaich (he): yeah. there is the answer for a single energy level
+
+75
+00:07:12.260 --> 00:07:16.970
+David Schaich (he): and generalizing to the arbitrary.
+
+76
+00:07:17.480 --> 00:07:20.340
+This comfortable number of discrete energy levels
+
+77
+00:07:21.070 --> 00:07:21.940
+David Schaich (he): so
+
+78
+00:07:25.450 --> 00:07:27.170
+David Schaich (he): possibly infinite, cut off.
+
+79
+00:07:29.190 --> 00:07:41.080
+David Schaich (he): Yeah. an economical, proficient function, his Majesty. So over the Oh. one of these energy levels
+
+80
+00:07:41.360 --> 00:07:48.420
+David Schaich (he): of that same exponential factory. My name is Hi is the
+
+81
+00:07:50.630 --> 00:08:02.420
+David Schaich (he): Microsoft Energy. which is now generalizes to the all the energy energy for this energy level as the corresponding occupation number.
+
+82
+00:08:04.920 --> 00:08:06.690
+David Schaich (he): Similarly for
+
+83
+00:08:08.340 --> 00:08:10.250
+David Schaich (he): particle number. Yes.
+
+84
+00:08:10.630 --> 00:08:19.650
+David Schaich (he): comes along with the chemical potential that just counts the number of particles occupy the energy level of the occupation number. and
+
+85
+00:08:20.000 --> 00:08:22.080
+David Schaich (he): as before, this
+
+86
+00:08:23.240 --> 00:08:35.200
+David Schaich (he): energy is a exponential of some of the each of those exponentials depends only on a single value of L. A single occupation number.
+
+87
+00:08:35.559 --> 00:08:40.549
+David Schaich (he): Distribute them. Hello! All the different sounds.
+
+88
+00:08:41.890 --> 00:08:45.920
+David Schaich (he): We first some of the exponential factor
+
+89
+00:08:50.160 --> 00:08:55.470
+David Schaich (he): I see same factor for energy level, 1 2 3, and so on, all the way up to
+
+90
+00:09:05.360 --> 00:09:08.780
+David Schaich (he): the So
+
+91
+00:09:10.190 --> 00:09:12.070
+David Schaich (he): this is the
+
+92
+00:09:15.690 --> 00:09:23.340
+David Schaich (he): factorization that makes this so simple. We have a complicated
+
+93
+00:09:23.440 --> 00:09:28.770
+David Schaich (he): which just boils down to L. One different companies of
+
+94
+00:09:28.850 --> 00:09:31.540
+David Schaich (he): is something that is all the same except for
+
+95
+00:09:32.870 --> 00:09:35.090
+David Schaich (he): the value of the energy
+
+96
+00:09:36.140 --> 00:09:39.770
+David Schaich (he): product over all animals. Oh.
+
+97
+00:09:46.140 --> 00:09:47.200
+David Schaich (he): 120
+
+98
+00:09:47.660 --> 00:09:51.380
+David Schaich (he): potential.
+
+99
+00:09:52.200 --> 00:09:58.200
+David Schaich (he): In this case we don't have to worry about the conversions of the geometric series that
+
+100
+00:09:58.320 --> 00:10:00.620
+David Schaich (he): enforce this requirement for
+
+101
+00:10:00.670 --> 00:10:03.300
+David Schaich (he): the chemical potential to be less than the energy.
+
+102
+00:10:06.990 --> 00:10:11.080
+David Schaich (he): you know, constraint on the possible values of the
+
+103
+00:10:14.160 --> 00:10:15.190
+David Schaich (he): for that
+
+104
+00:10:17.550 --> 00:10:19.030
+they should be.
+
+105
+00:10:19.450 --> 00:10:30.000
+David Schaich (he): And as for both the Maxwell wholesome statistics that just to any factor to a single particle partition function.
+
+106
+00:10:30.170 --> 00:10:31.750
+the correct for all accounting
+
+107
+00:10:31.920 --> 00:10:36.570
+David Schaich (he): as well as distribution.
+
+108
+00:10:39.150 --> 00:10:40.900
+David Schaich (he): All 3 of these are
+
+109
+00:10:43.230 --> 00:10:44.880
+David Schaich (he): given my products.
+
+110
+00:10:47.280 --> 00:10:49.710
+David Schaich (he): which is reminiscent of
+
+111
+00:10:50.360 --> 00:10:51.930
+David Schaich (he): what we saw earlier
+
+112
+00:10:56.900 --> 00:10:59.790
+David Schaich (he): over counting. Going into this, you know we too
+
+113
+00:11:01.020 --> 00:11:02.350
+David Schaich (he): correct rules.
+
+114
+00:11:03.620 --> 00:11:04.580
+David Schaich (he): so
+
+115
+00:11:06.380 --> 00:11:07.180
+David Schaich (he): it's.
+
+116
+00:11:08.870 --> 00:11:11.900
+David Schaich (he): I was briefly to consider what we have
+
+117
+00:11:12.300 --> 00:11:13.290
+David Schaich (he): clicked.
+
+118
+00:11:13.970 --> 00:11:16.620
+David Schaich (he): Some of these results that we have
+
+119
+00:11:16.940 --> 00:11:22.940
+David Schaich (he): derive, save for the grand canonical potential for each of these 3 distributions, and
+
+120
+00:11:27.610 --> 00:11:31.030
+David Schaich (he): all 3 of these
+
+121
+00:11:31.100 --> 00:11:35.600
+David Schaich (he): functions of the temperature and chemical potential that characterize
+
+122
+00:11:38.240 --> 00:11:39.790
+David Schaich (he): as a reminder.
+
+123
+00:11:42.270 --> 00:11:53.460
+David Schaich (he): This is the analog of the the temperature of the Actually, all in the case was.
+
+124
+00:11:53.670 --> 00:12:00.190
+David Schaich (he): you call it exponential factors exponentials
+
+125
+00:12:04.870 --> 00:12:09.560
+David Schaich (he): which, if we break up the water, the product into a sum of laws.
+
+126
+00:12:10.600 --> 00:12:11.740
+David Schaich (he): recall that
+
+127
+00:12:13.620 --> 00:12:16.190
+the next one. She was just
+
+128
+00:12:16.850 --> 00:12:21.590
+David Schaich (he): that's come over just the single exponential factor.
+
+129
+00:12:25.510 --> 00:12:31.040
+David Schaich (he): It's the Grand Canonical potential for it classical.
+
+130
+00:12:36.350 --> 00:12:40.570
+David Schaich (he): free energy to it. creating all the potential.
+
+131
+00:12:43.770 --> 00:12:47.520
+David Schaich (he): the water. This great economical partition function
+
+132
+00:12:49.280 --> 00:12:50.440
+David Schaich (he): we can
+
+133
+00:12:51.130 --> 00:12:56.020
+David Schaich (he): invert, so I can break up the
+
+134
+00:12:56.220 --> 00:13:02.580
+David Schaich (he): The one over X is minus the one that cancels out with the overall I to sign up.
+
+135
+00:13:07.090 --> 00:13:09.980
+David Schaich (he): So we're then left with just the positive
+
+136
+00:13:14.210 --> 00:13:17.220
+David Schaich (he): of those that difference in the denominator
+
+137
+00:13:17.790 --> 00:13:21.400
+David Schaich (he): like this. the exponential factor
+
+138
+00:13:25.900 --> 00:13:28.620
+David Schaich (he): There' a direct distribution.
+
+139
+00:13:30.930 --> 00:13:34.530
+We again.
+
+140
+00:13:34.650 --> 00:13:37.990
+David Schaich (he): you know everything.
+
+141
+00:13:40.320 --> 00:13:45.090
+David Schaich (he): One for me. Yeah. Potential
+
+142
+00:13:46.610 --> 00:13:47.290
+is.
+
+143
+00:13:49.180 --> 00:13:51.400
+David Schaich (he): you are the same as
+
+144
+00:13:52.680 --> 00:14:06.590
+David Schaich (he): the both Einstein case. Except for the overall negative sign out for us a relative they can assign within each of the turns out to be significant, as we will see.
+
+145
+00:14:15.950 --> 00:14:17.490
+I just remove it after it.
+
+146
+00:14:17.910 --> 00:14:25.300
+David Schaich (he): There. Any questions or objections about yeah results that we have collected from yesterday and today.
+
+147
+00:14:30.030 --> 00:14:31.820
+David Schaich (he): The question I want to
+
+148
+00:14:33.170 --> 00:14:35.450
+David Schaich (he): pose for us to think about now is.
+
+149
+00:14:35.880 --> 00:14:38.810
+David Schaich (he): How are these results?
+
+150
+00:14:40.420 --> 00:14:42.120
+David Schaich (he): I'm not asking, Are they
+
+151
+00:14:42.160 --> 00:14:42.970
+this place on
+
+152
+00:14:43.000 --> 00:14:45.770
+David Schaich (he): specifically asking how? Because
+
+153
+00:14:47.170 --> 00:14:47.760
+David Schaich (he): we can
+
+154
+00:14:49.660 --> 00:14:59.030
+David Schaich (he): appreciate just from our everyday experience that even though quantum physics that's going into it was on it's time.
+
+155
+00:14:59.040 --> 00:15:00.230
+Fairly direct
+
+156
+00:15:00.270 --> 00:15:01.570
+David Schaich (he): distributions
+
+157
+00:15:01.690 --> 00:15:05.280
+David Schaich (he): governs the University fundamental level.
+
+158
+00:15:05.590 --> 00:15:08.960
+David Schaich (he): Practical statistics was perfectly good enough for
+
+159
+00:15:09.230 --> 00:15:13.690
+David Schaich (he): everything that this did. Up until the early twentieth century.
+
+160
+00:15:13.990 --> 00:15:24.250
+David Schaich (he): So there it is. Hey, here regime in which that classical physics should emerge from the underlying behavior. and
+
+161
+00:15:26.770 --> 00:15:38.460
+David Schaich (he): in this context the classical physics is here by the the actual wholesale distribution. so that Maxwell. Some have been related to either, or
+
+162
+00:15:39.600 --> 00:15:42.350
+David Schaich (he): of the quantum distributions, for
+
+163
+00:15:42.750 --> 00:15:44.020
+David Schaich (he): it was almost.
+
+164
+00:15:51.820 --> 00:15:56.600
+David Schaich (he): and based on the argument we went through about
+
+165
+00:15:57.190 --> 00:16:01.040
+David Schaich (he): the different ways of driving.
+
+166
+00:16:03.500 --> 00:16:04.320
+David Schaich (he): Oh.
+
+167
+00:16:07.220 --> 00:16:15.040
+David Schaich (he): taking the single particle partition function to a large power, and correcting for over counting versus going through energy level occupation numbers.
+
+168
+00:16:15.380 --> 00:16:20.360
+David Schaich (he): We have seen that those 2 approaches are equivalent where
+
+169
+00:16:20.980 --> 00:16:25.410
+David Schaich (he): there is very little chance of multiple particles trying to
+
+170
+00:16:25.540 --> 00:16:29.500
+David Schaich (he): hang out with the same energy level. See that a different way.
+
+171
+00:16:30.540 --> 00:16:37.880
+David Schaich (he): Maybe it number of accessible energy levels is much greater than the number of particles.
+
+172
+00:16:46.970 --> 00:16:49.820
+David Schaich (he): and then there is little chance of any of those in particles.
+
+173
+00:16:52.900 --> 00:17:00.520
+David Schaich (he): The same energy level. The over counting is that straightforward factor of one over n factorial that we have seen many times.
+
+174
+00:17:01.560 --> 00:17:04.710
+David Schaich (he): And then this is the
+
+175
+00:17:05.920 --> 00:17:13.040
+David Schaich (he): situation or regime where we should expect to see the 2 types of derivations that we have done
+
+176
+00:17:13.310 --> 00:17:19.170
+David Schaich (he): classical and quantum statistics, all producing the same behavior or the same
+
+177
+00:17:21.770 --> 00:17:24.510
+David Schaich (he): economical potential, you know the
+
+178
+00:17:26.670 --> 00:17:34.100
+David Schaich (he): So let's take another step in the house. Now, When is the number of accessible energy levels? What's created in the number of
+
+179
+00:17:34.250 --> 00:17:34.910
+okay.
+
+180
+00:17:37.780 --> 00:17:43.370
+David Schaich (he): actually answer that by turning the question on his head, and we call something that we did a few weeks ago.
+
+181
+00:17:43.530 --> 00:17:44.170
+Yes.
+
+182
+00:17:47.320 --> 00:17:48.530
+David Schaich (he): it's been
+
+183
+00:17:55.390 --> 00:18:01.160
+David Schaich (he): the derived internal energy and entropy, or
+
+184
+00:18:03.180 --> 00:18:10.000
+David Schaich (he): and looked at how those qualities behaved in the limits of high and low temperature.
+
+185
+00:18:12.110 --> 00:18:14.120
+David Schaich (he): So, in particular that
+
+186
+00:18:15.590 --> 00:18:22.380
+David Schaich (he): probability, you know, microstates ahead high energy utilities compared to
+
+187
+00:18:25.880 --> 00:18:27.950
+David Schaich (he): we're exponentially suppressed
+
+188
+00:18:31.990 --> 00:18:37.090
+David Schaich (he): in practice inaccessible. When you temperature.
+
+189
+00:18:38.440 --> 00:18:40.870
+David Schaich (he): Whoa! You always say
+
+190
+00:18:42.540 --> 00:18:43.780
+David Schaich (he): factor of
+
+191
+00:18:45.880 --> 00:18:48.390
+David Schaich (he): E to the minus energy
+
+192
+00:18:48.560 --> 00:18:52.880
+David Schaich (he): over team in the
+
+193
+00:18:53.900 --> 00:19:05.240
+David Schaich (he): and as the temperature gets low, the negative argument to the exponential has a large magnitude, the exponential itself. it goes down to 0. So this is the situation
+
+194
+00:19:05.370 --> 00:19:10.240
+David Schaich (he): in which. if you're a small number of microstates are accessible.
+
+195
+00:19:12.100 --> 00:19:18.680
+David Schaich (he): it's effectively the opposite of where we expect classical, the quantum physics to coincide.
+
+196
+00:19:18.910 --> 00:19:22.180
+David Schaich (he): So, therefore. this is telling us that
+
+197
+00:19:22.510 --> 00:19:26.630
+David Schaich (he): in order to see classical physics emerge from quantum statistics.
+
+198
+00:19:28.780 --> 00:19:30.170
+David Schaich (he): high temperature.
+
+199
+00:19:32.320 --> 00:19:35.680
+David Schaich (he): which we can go ahead and check.
+
+200
+00:19:39.400 --> 00:19:40.430
+David Schaich (he): So
+
+201
+00:19:41.800 --> 00:19:46.590
+David Schaich (he): to check this conclusion that we are making based on
+
+202
+00:19:46.890 --> 00:19:50.270
+David Schaich (he): some arguments from a few weeks ago. Let's compute
+
+203
+00:19:51.180 --> 00:19:57.330
+David Schaich (he): something for our 3 distributions with discrete energy levels.
+
+204
+00:19:59.000 --> 00:20:06.390
+David Schaich (he): and see how the prediction in all 3 cases differ or approach each other
+
+205
+00:20:06.730 --> 00:20:13.380
+David Schaich (he): in this high temperature limits. So if we look at the average number of particles.
+
+206
+00:20:13.610 --> 00:20:24.920
+David Schaich (he): the fluctuating we derived yesterday's just given by the negative derivative of the very economical potential. With respect to the chemical potential.
+
+207
+00:20:31.600 --> 00:20:32.800
+David Schaich (he): it starts
+
+208
+00:20:34.140 --> 00:20:37.240
+David Schaich (he): 50, an actual host in case
+
+209
+00:20:40.510 --> 00:20:42.260
+David Schaich (he): we want to.
+
+210
+00:20:43.540 --> 00:20:45.280
+David Schaich (he): On this expression
+
+211
+00:20:45.700 --> 00:20:48.650
+David Schaich (he): into the derivative which is
+
+212
+00:20:48.860 --> 00:20:59.010
+David Schaich (he): fairly simple. There is the negative sign that cancels no real factor of T, a sum over energy levels derivative with respect to the
+
+213
+00:21:00.530 --> 00:21:11.070
+David Schaich (he): familiar exponential factor which just brings down a positive actor to Beta. which is the in it, cancels out the overall factor of the
+
+214
+00:21:11.360 --> 00:21:20.710
+David Schaich (he): I'm. Sure. giving us a sum over all of the exponential. which I will go ahead and write as one over
+
+215
+00:21:22.880 --> 00:21:25.130
+David Schaich (he): in this arguments.
+
+216
+00:21:25.680 --> 00:21:29.480
+David Schaich (he): a simple exponential
+
+217
+00:21:29.500 --> 00:21:30.920
+for each of the S.
+
+218
+00:21:31.660 --> 00:21:34.540
+David Schaich (he): And the reason for doing this will
+
+219
+00:21:35.060 --> 00:21:49.460
+David Schaich (he): we come up here when we move on to to keep this procedure for. do you? It was on sign that distribution. There is now. No.
+
+220
+00:21:50.300 --> 00:21:52.620
+David Schaich (he): you know what we think of the derivative
+
+221
+00:21:53.700 --> 00:21:54.930
+David Schaich (he): persists.
+
+222
+00:21:55.440 --> 00:22:00.870
+David Schaich (he): We have again some over hell and the derivative, of
+
+223
+00:22:01.050 --> 00:22:05.440
+David Schaich (he): we log rhythm for each other. Sheet, like all of the
+
+224
+00:22:05.770 --> 00:22:06.650
+David Schaich (he): 0
+
+225
+00:22:12.470 --> 00:22:18.060
+David Schaich (he): and the numerator. We go through the chain rule and we'll pick up a
+
+226
+00:22:19.570 --> 00:22:31.840
+David Schaich (he): overall factor of the role might assign for having a one minus exponential is a positive. they e to the minus beta energy minus chemical potential.
+
+227
+00:22:31.920 --> 00:22:35.940
+David Schaich (he): You can be that in temperature. If we
+
+228
+00:22:36.570 --> 00:22:40.410
+David Schaich (he): you can divide through by this exponential factor.
+
+229
+00:22:40.860 --> 00:22:46.510
+David Schaich (he): We end up with one over an exponential, with a positive beta
+
+230
+00:22:48.410 --> 00:22:49.660
+David Schaich (he): minus one.
+
+231
+00:22:52.030 --> 00:22:53.510
+David Schaich (he): It finally be that
+
+232
+00:22:54.720 --> 00:23:00.760
+David Schaich (he): through it very direct critical number again difference by a sign
+
+233
+00:23:01.300 --> 00:23:02.590
+as the same
+
+234
+00:23:04.120 --> 00:23:11.120
+David Schaich (he): logarithmic structure that brings the argument. Now, what plus e to the minus scale.
+
+235
+00:23:12.250 --> 00:23:14.270
+David Schaich (he): 30 minus chemical potential
+
+236
+00:23:17.050 --> 00:23:18.720
+David Schaich (he): exponential factor
+
+237
+00:23:20.070 --> 00:23:21.860
+cancels out the temperature
+
+238
+00:23:22.070 --> 00:23:25.600
+David Schaich (he): and gives us so
+
+239
+00:23:26.610 --> 00:23:27.940
+David Schaich (he): one minus
+
+240
+00:23:28.730 --> 00:23:31.590
+David Schaich (he): the exponential factor now plus one.
+
+241
+00:23:33.580 --> 00:23:39.110
+David Schaich (he): So several sanity checks we can immediately make
+
+242
+00:23:39.830 --> 00:23:42.390
+David Schaich (he): on these results. So
+
+243
+00:23:44.000 --> 00:23:50.350
+David Schaich (he): first of all. They're all written as sums over energy levels which, given the
+
+244
+00:23:52.380 --> 00:23:57.660
+David Schaich (he): that we had earlier the number of particles for each micro state.
+
+245
+00:23:58.290 --> 00:24:02.490
+David Schaich (he): it's just equal to the sum of occupation numbers over energy levels.
+
+246
+00:24:02.590 --> 00:24:03.900
+David Schaich (he): Like the energy.
+
+247
+00:24:05.120 --> 00:24:07.230
+David Schaich (he): we can identify this as
+
+248
+00:24:08.390 --> 00:24:15.050
+David Schaich (he): in each case it some over expectation values with the occupation numbers themselves
+
+249
+00:24:17.220 --> 00:24:20.290
+David Schaich (he): 3 distributions
+
+250
+00:24:21.940 --> 00:24:23.350
+David Schaich (he): actual.
+
+251
+00:24:26.780 --> 00:24:28.230
+David Schaich (he): It's fairly direct
+
+252
+00:24:30.510 --> 00:24:32.590
+David Schaich (he): to these occupation numbers.
+
+253
+00:24:34.800 --> 00:24:36.000
+David Schaich (he): Just to you
+
+254
+00:24:49.240 --> 00:24:52.900
+David Schaich (he): we have get minus one
+
+255
+00:24:55.010 --> 00:24:58.620
+David Schaich (he): denominator and for
+
+256
+00:25:01.870 --> 00:25:02.650
+you.
+
+257
+00:25:07.820 --> 00:25:10.730
+David Schaich (he): So all of these
+
+258
+00:25:14.940 --> 00:25:20.760
+David Schaich (he): expectation values for the occupation numbers you can check. thanks to
+
+259
+00:25:23.250 --> 00:25:23.910
+David Schaich (he): yeah
+
+260
+00:25:25.380 --> 00:25:32.900
+David Schaich (he): exponential function as well as in the bose-einstein case or condition that the energy is greater than the chemical potential.
+
+261
+00:25:33.350 --> 00:25:34.370
+David Schaich (he): Oh.
+
+262
+00:25:37.980 --> 00:25:40.990
+David Schaich (he): non-negative. And in general positive
+
+263
+00:25:44.220 --> 00:25:47.180
+David Schaich (he): I can for that for sure. we can also share that
+
+264
+00:25:49.640 --> 00:25:52.490
+David Schaich (he): occupation number is bounded.
+
+265
+00:25:52.510 --> 00:25:55.660
+David Schaich (he): It should be given that
+
+266
+00:25:55.940 --> 00:25:56.690
+David Schaich (he): yeah.
+
+267
+00:25:58.570 --> 00:26:08.540
+David Schaich (he): only possible values of the So those are a few checks. And
+
+268
+00:26:08.820 --> 00:26:12.270
+David Schaich (he): all of these results for the occupation numbers.
+
+269
+00:26:12.770 --> 00:26:14.100
+David Schaich (he): we'll agree
+
+270
+00:26:17.380 --> 00:26:18.430
+David Schaich (he): where
+
+271
+00:26:18.590 --> 00:26:25.330
+David Schaich (he): the is being added in the denominator or subtracted, is many more compared to the exponential struggle.
+
+272
+00:26:25.690 --> 00:26:29.890
+David Schaich (he): We have one over an
+
+273
+00:26:32.320 --> 00:26:42.070
+David Schaich (he): do you know. i'm just energy minus chemical potential. much greater than one. All of these will a year
+
+274
+00:26:43.800 --> 00:26:48.260
+David Schaich (he): effectively the same value in that value
+
+275
+00:26:49.010 --> 00:26:55.710
+David Schaich (he): no longer needs a label. is going to be much less than one by having that very large factor.
+
+276
+00:26:56.070 --> 00:26:57.150
+the nominator.
+
+277
+00:26:57.370 --> 00:27:03.940
+David Schaich (he): This is also a sanity check, because it reproduces what we said
+
+278
+00:27:04.310 --> 00:27:07.150
+David Schaich (he): just a few minutes ago, arguing more
+
+279
+00:27:07.210 --> 00:27:18.280
+David Schaich (he): conceptually rather than mathematically. that we should look for agreement between classical and quantum physics when the number of accessible energy levels is much greater than the number
+
+280
+00:27:18.390 --> 00:27:19.390
+particles.
+
+281
+00:27:19.870 --> 00:27:30.350
+David Schaich (he): which is the same as saying that the you occupation number the number of particles in each energy level is going to be a very small No.
+
+282
+00:27:32.620 --> 00:27:35.010
+David Schaich (he): So all of this makes sense.
+
+283
+00:27:35.190 --> 00:27:37.680
+David Schaich (he): except for one thing.
+
+284
+00:27:39.180 --> 00:27:40.450
+David Schaich (he): which is that
+
+285
+00:27:48.580 --> 00:27:51.580
+David Schaich (he): argument to this exponential saying that
+
+286
+00:27:54.750 --> 00:27:57.860
+David Schaich (he): classical is
+
+287
+00:28:00.500 --> 00:28:10.280
+David Schaich (he): energy minus chemical potential. large number. To give a large exponential factor. This you already before
+
+288
+00:28:13.110 --> 00:28:14.600
+David Schaich (he): the high temperature
+
+289
+00:28:15.700 --> 00:28:16.580
+David Schaich (he): which
+
+290
+00:28:20.610 --> 00:28:32.000
+David Schaich (he): on initial inspection it does not the height. Remember, the temperature is one over data, or it is whatever temperature. So for a high temperature you would have
+
+291
+00:28:32.250 --> 00:28:34.510
+David Schaich (he): bigger going to 0.
+
+292
+00:28:35.560 --> 00:28:36.800
+David Schaich (he): And if we
+
+293
+00:28:37.990 --> 00:28:41.760
+David Schaich (he): fix the the of the chemical potential and
+
+294
+00:28:43.670 --> 00:28:50.000
+David Schaich (he): energy for a given energy level. So that's right. One of the
+
+295
+00:28:50.190 --> 00:28:54.010
+David Schaich (he): records is fixed. High temperature seems to correspond to
+
+296
+00:28:54.340 --> 00:28:57.880
+David Schaich (he): 0, which we want to be much greater than one.
+
+297
+00:28:58.020 --> 00:29:00.650
+David Schaich (he): you know. In these 3 expressions it's
+
+298
+00:29:00.860 --> 00:29:09.040
+David Schaich (he): be the times that difference in parentheses not too far. In each of these 3 occupation numbers
+
+299
+00:29:10.550 --> 00:29:12.620
+David Schaich (he): you will see that
+
+300
+00:29:13.680 --> 00:29:25.580
+David Schaich (he): exponential factor approaching one E to the 0. In this my high temperature limits being a one to 0 with a fixed energy lines, chemical potential.
+
+301
+00:29:27.580 --> 00:29:32.450
+David Schaich (he): That's what this occupation number would be around. What was that?
+
+302
+00:29:33.710 --> 00:29:34.610
+David Schaich (he): Yeah.
+
+303
+00:29:39.160 --> 00:29:45.660
+David Schaich (he): One over one plus one, and it goes to 0 about half. And it.
+
+304
+00:29:46.400 --> 00:29:48.060
+if you go sign sign case.
+
+305
+00:29:48.320 --> 00:29:55.260
+David Schaich (he): we approach whatever one minus one. So we occupation number that actually the
+
+306
+00:29:56.350 --> 00:30:01.350
+David Schaich (he): which does not look anything at all like the classical limit that we had to find by
+
+307
+00:30:01.790 --> 00:30:04.460
+David Schaich (he): demanding that these 3 results
+
+308
+00:30:04.540 --> 00:30:05.660
+David Schaich (he): do the same.
+
+309
+00:30:07.340 --> 00:30:10.280
+David Schaich (he): The way out of this, you might already have guessed, is
+
+310
+00:30:10.820 --> 00:30:23.170
+David Schaich (he): to recognize that we do 2 things when thinking about the high temperature. First we took the temperature large, be it to 0, but then we fixed
+
+311
+00:30:23.920 --> 00:30:27.920
+David Schaich (he): difference between the energy and the chemical potential.
+
+312
+00:30:29.750 --> 00:30:33.000
+David Schaich (he): and really the high temperature that we should be considering.
+
+313
+00:30:34.890 --> 00:30:36.810
+I'll call the true
+
+314
+00:30:42.370 --> 00:30:56.380
+David Schaich (he): the temperature and negative chemical potential to simultaneously in such a way such that that negative chemical potential.
+
+315
+00:30:56.740 --> 00:31:04.310
+David Schaich (he): you remember the chemical potential that needs to be much larger than the temperature which itself needs to be much larger than
+
+316
+00:31:05.590 --> 00:31:09.820
+David Schaich (he): the relevant micro state Energies are sorry to you. energy levels.
+
+317
+00:31:13.450 --> 00:31:14.760
+David Schaich (he): and we can
+
+318
+00:31:15.800 --> 00:31:20.890
+David Schaich (he): appreciate that what is going on in this double what
+
+319
+00:31:21.880 --> 00:31:22.780
+to
+
+320
+00:31:23.310 --> 00:31:25.000
+David Schaich (he): agreement between classical
+
+321
+00:31:25.050 --> 00:31:26.000
+physics.
+
+322
+00:31:26.150 --> 00:31:29.850
+David Schaich (he): The very high temperature is
+
+323
+00:31:32.280 --> 00:31:38.110
+David Schaich (he): making all of these microstate probabilities. More likely it's suppressing the energies
+
+324
+00:31:38.250 --> 00:31:40.810
+David Schaich (he): that would otherwise exponentially suppress
+
+325
+00:31:41.290 --> 00:31:43.280
+the
+
+326
+00:31:43.960 --> 00:31:45.480
+David Schaich (he): larger number of
+
+327
+00:31:47.250 --> 00:31:49.020
+David Schaich (he): accessible energy levels.
+
+328
+00:31:53.260 --> 00:31:57.980
+David Schaich (he): What might happen if we took just maybe to 0 the high temperature limit
+
+329
+00:31:58.200 --> 00:32:12.820
+David Schaich (he): without adjusting the chemical potential is that we to end up with more and more particles, trying to fill those energy levels that are picking up a more than a probability from our distribution.
+
+330
+00:32:12.920 --> 00:32:16.260
+David Schaich (he): So the other aspect of this limit.
+
+331
+00:32:16.620 --> 00:32:28.960
+David Schaich (he): Chemical potential to more and more negative films is. I'm. Sure it does. Fewer particles are available to feel the energy levels
+
+332
+00:32:29.570 --> 00:32:30.570
+accessible
+
+333
+00:32:31.010 --> 00:32:39.870
+David Schaich (he): to get back to the situation of it. Very small occupation numbers where there is a
+
+334
+00:32:40.560 --> 00:32:46.310
+David Schaich (he): good chance that all the particles are in different energy levels, and therefore, over counting.
+
+335
+00:32:46.590 --> 00:32:48.970
+David Schaich (he): coming from you classical. It
+
+336
+00:32:50.000 --> 00:32:52.520
+David Schaich (he): is just you, in my view.
+
+337
+00:32:53.300 --> 00:32:56.320
+David Schaich (he): in factorial labels between here.
+
+338
+00:32:57.290 --> 00:32:58.020
+correct
+
+339
+00:32:59.510 --> 00:33:01.540
+David Schaich (he): as we have been, this problem.
+
+340
+00:33:03.820 --> 00:33:09.100
+David Schaich (he): or we first introduced the distinction between distinguishable.
+
+341
+00:33:11.020 --> 00:33:11.650
+So
+
+342
+00:33:12.010 --> 00:33:12.860
+David Schaich (he): back in
+
+343
+00:33:16.310 --> 00:33:29.490
+David Schaich (he): in the So you can now get back to this diagram that I had on the screen at the start just to touch the focus of projector for today. which is showing
+
+344
+00:33:29.800 --> 00:33:31.430
+David Schaich (he): what we just computed
+
+345
+00:33:33.460 --> 00:33:37.840
+David Schaich (he): expectation value for the occupation number of an arbitrary
+
+346
+00:33:38.020 --> 00:33:51.820
+David Schaich (he): energy level, some given value of the energy and will be where it's also access. We have this combination of data times, the energy minus chemical potential that goes into
+
+347
+00:33:51.940 --> 00:33:57.530
+David Schaich (he): the exponential factors. So this block is just showing up these 3
+
+348
+00:33:57.810 --> 00:34:00.740
+David Schaich (he): distributions. Yeah, we compute it
+
+349
+00:34:01.550 --> 00:34:03.960
+David Schaich (he): where you can immediately see
+
+350
+00:34:04.220 --> 00:34:10.670
+David Schaich (he): that's where this combination is large, much greater than one. We do
+
+351
+00:34:14.480 --> 00:34:15.940
+good agreement between
+
+352
+00:34:16.260 --> 00:34:23.710
+David Schaich (he): the classical of actual Boltzmann distribution in both both sides, and fairly direct distributions for
+
+353
+00:34:23.900 --> 00:34:26.820
+David Schaich (he): the 2 different types of call to particles.
+
+354
+00:34:28.380 --> 00:34:34.409
+David Schaich (he): the incorrect high temperature limit. Look at at first
+
+355
+00:34:34.480 --> 00:34:35.889
+0 of fixing
+
+356
+00:34:37.170 --> 00:34:38.880
+David Schaich (he): difference between energy and capital
+
+357
+00:34:38.949 --> 00:34:39.699
+sure
+
+358
+00:34:39.889 --> 00:34:42.389
+David Schaich (he): would have given us this
+
+359
+00:34:42.920 --> 00:34:46.320
+David Schaich (he): vertical line at 0 on the X Axis.
+
+360
+00:34:46.540 --> 00:34:47.889
+David Schaich (he): where, as we saw.
+
+361
+00:34:48.940 --> 00:34:52.060
+David Schaich (he): actual Boltzmann distribution was around one.
+
+362
+00:34:54.690 --> 00:34:55.670
+David Schaich (he): I know.
+
+363
+00:34:55.989 --> 00:35:00.670
+David Schaich (he): and distribution is actually in that limit.
+
+364
+00:35:02.400 --> 00:35:03.360
+David Schaich (he): and
+
+365
+00:35:03.520 --> 00:35:05.790
+David Schaich (he): you can also see. So this is
+
+366
+00:35:06.110 --> 00:35:09.800
+David Schaich (he): the true classical high temperature.
+
+367
+00:35:10.950 --> 00:35:14.670
+David Schaich (he): This is what time is your regime where
+
+368
+00:35:14.710 --> 00:35:17.790
+David Schaich (he): there are enormous differences between
+
+369
+00:35:18.210 --> 00:35:21.140
+David Schaich (he): all 3 of the distributions that we have
+
+370
+00:35:23.070 --> 00:35:24.350
+David Schaich (he): compute it.
+
+371
+00:35:25.260 --> 00:35:31.160
+David Schaich (he): we can confirm that the very direct distribution of approaches is
+
+372
+00:35:31.180 --> 00:35:33.440
+David Schaich (he): upper bound. Here every single
+
+373
+00:35:34.060 --> 00:35:36.620
+David Schaich (he): energy level is occupied.
+
+374
+00:35:37.300 --> 00:35:38.010
+There is
+
+375
+00:35:39.440 --> 00:35:40.220
+David Schaich (he): Yeah.
+
+376
+00:35:42.270 --> 00:35:48.170
+David Schaich (he): The expectation value for the occupation numbers approaching the maximum possible.
+
+377
+00:35:48.840 --> 00:35:50.310
+Tell you what one
+
+378
+00:35:51.250 --> 00:36:00.920
+David Schaich (he): The Maxwell holes in the classroom to 6 in the week time are increasing exponentially scale of this
+
+379
+00:36:02.400 --> 00:36:08.080
+David Schaich (he): figure. and the distribution has actually been published.
+
+380
+00:36:10.030 --> 00:36:21.270
+David Schaich (he): This combination, Beta Times E minus mu approaches 0, which corresponds to the violation of our condition for the convergence of the geometric sequence
+
+381
+00:36:21.470 --> 00:36:22.380
+David Schaich (he): that the
+
+382
+00:36:22.770 --> 00:36:25.770
+David Schaich (he): chemical potential is always less than
+
+383
+00:36:25.820 --> 00:36:29.830
+David Schaich (he): the energy in which, with a positive temperature. we demand
+
+384
+00:36:30.860 --> 00:36:35.920
+David Schaich (he): that the both sides and distribution be restricted only to positive values
+
+385
+00:36:36.000 --> 00:36:48.920
+David Schaich (he): on this figure. So this is a nice visual summary of the 3 distributions we have come up with on the basis of discrete energy levels.
+
+386
+00:36:51.220 --> 00:36:56.050
+David Schaich (he): 2 quantum distributions for and then
+
+387
+00:36:56.510 --> 00:36:59.830
+David Schaich (he): classical Maxwell Austin distribution
+
+388
+00:37:00.270 --> 00:37:07.250
+David Schaich (he): 800 compact summary of the ways. All those different systems
+
+389
+00:37:07.400 --> 00:37:10.950
+David Schaich (he): differ, and also approach each other in the classic.
+
+390
+00:37:11.180 --> 00:37:25.890
+David Schaich (he): So that is essentially a good place to stop. We have 10 min left just a bit of a preview of all of the uses
+
+391
+00:37:28.400 --> 00:37:31.650
+you know, focus on after the break. For now, though.
+
+392
+00:37:31.770 --> 00:37:37.770
+David Schaich (he): are there any questions about the quantum statistics in general. as we have
+
+393
+00:38:00.540 --> 00:38:05.080
+David Schaich (he): deciding on the fly, how much of it Look at how we do it, and how
+
+394
+00:38:08.480 --> 00:38:11.810
+David Schaich (he): I don't want to go through this. Given that we go.
+
+395
+00:38:11.970 --> 00:38:14.750
+David Schaich (he): We need a reminder when we come back from the
+
+396
+00:38:17.740 --> 00:38:19.190
+David Schaich (he): quick preview.
+
+397
+00:38:24.390 --> 00:38:36.360
+David Schaich (he): These quantum gases are going to be our main application of the and in order to
+
+398
+00:38:42.170 --> 00:38:43.150
+David Schaich (he): with the
+
+399
+00:38:44.800 --> 00:38:49.500
+David Schaich (he): quantum statistics. Yes. we just finished discussing.
+
+400
+00:38:52.770 --> 00:38:54.960
+David Schaich (he): All we want to do is
+
+401
+00:38:56.420 --> 00:38:57.890
+David Schaich (he): determine the
+
+402
+00:38:59.160 --> 00:39:10.400
+David Schaich (he): energies. Yes. we're going to the grand canonical partition functions in the quasi- now use the energy before
+
+403
+00:39:11.760 --> 00:39:25.120
+David Schaich (he): the energy levels of the relevant systems that we can. The grand canonical partition function for for
+
+404
+00:39:26.120 --> 00:39:28.680
+David Schaich (he): the
+
+405
+00:39:29.840 --> 00:39:30.870
+you would consider it
+
+406
+00:39:33.350 --> 00:39:34.320
+David Schaich (he): 2,
+
+407
+00:39:36.200 --> 00:39:39.830
+David Schaich (he): many cases, one of which is almost
+
+408
+00:39:40.940 --> 00:39:41.660
+David Schaich (he): something.
+
+409
+00:39:41.720 --> 00:39:43.210
+Yeah, with that before
+
+410
+00:39:43.550 --> 00:39:44.740
+David Schaich (he): in classical ideas.
+
+411
+00:39:44.830 --> 00:39:45.610
+Yeah, since
+
+412
+00:39:45.790 --> 00:39:47.960
+David Schaich (he): these 2 cases are
+
+413
+00:39:54.530 --> 00:39:55.160
+David Schaich (he): yeah.
+
+414
+00:39:57.070 --> 00:40:06.300
+David Schaich (he): the opposite ultra relativistic particles. So or not all this the case. the contribution to the energy problem.
+
+415
+00:40:07.170 --> 00:40:12.630
+David Schaich (he): Each part of the goal with Mass M is the usual momentum square over 2. M.
+
+416
+00:40:12.840 --> 00:40:21.460
+David Schaich (he): That's piece. and we have going through the exercise of
+
+417
+00:40:22.580 --> 00:40:26.620
+David Schaich (he): discretizing these energies. They can energy levels in terms of.
+
+418
+00:40:31.450 --> 00:40:32.420
+David Schaich (he): and
+
+419
+00:40:33.940 --> 00:40:35.670
+David Schaich (he): to seek into your back to
+
+420
+00:40:37.490 --> 00:40:39.930
+David Schaich (he): the
+
+421
+00:40:41.150 --> 00:40:52.320
+David Schaich (he): where. when change that we you to make it a quantum context is that each of these components Oh. it's 3, hecta. K.
+
+422
+00:40:53.790 --> 00:40:57.230
+David Schaich (he): Now with no one. It starts capital from 0.
+
+423
+00:40:57.530 --> 00:41:01.470
+David Schaich (he): It has a new value of Yeah.
+
+424
+00:41:02.630 --> 00:41:05.220
+We can go from there once and so on.
+
+425
+00:41:06.450 --> 00:41:18.980
+David Schaich (he): The motivation for this my motivation, but the requirement for this is actually coming from a piece of quantum physics. I expect you to
+
+426
+00:41:19.750 --> 00:41:22.230
+David Schaich (he): seeing in detail which is known as the
+
+427
+00:41:25.630 --> 00:41:27.150
+David Schaich (he): uncertainty principle
+
+428
+00:41:31.960 --> 00:41:33.870
+David Schaich (he): which states roughly that
+
+429
+00:41:35.530 --> 00:41:39.440
+David Schaich (he): precision with which it is possible to know the position of a part
+
+430
+00:41:39.470 --> 00:41:41.340
+or x in any one of the
+
+431
+00:41:41.620 --> 00:41:47.760
+David Schaich (he): pretty special dimensions is. how do you get to the precision with which.
+
+432
+00:41:51.540 --> 00:41:56.910
+David Schaich (he): in that direction the product of it? Those 2,
+
+433
+00:42:02.370 --> 00:42:03.350
+David Schaich (he): this to be
+
+434
+00:42:04.540 --> 00:42:06.370
+David Schaich (he): larger than roughly each part of it.
+
+435
+00:42:06.500 --> 00:42:07.690
+There's a 2 in high.
+
+436
+00:42:07.840 --> 00:42:15.210
+David Schaich (he): We don't care about in our approach for discretizing momenta and energies.
+
+437
+00:42:16.780 --> 00:42:20.690
+David Schaich (he): We put ideal gas in a box of
+
+438
+00:42:20.750 --> 00:42:21.770
+the queue.
+
+439
+00:42:21.930 --> 00:42:23.490
+David Schaich (he): which means that we know
+
+440
+00:42:26.900 --> 00:42:29.650
+David Schaich (he): precision with which we can
+
+441
+00:42:30.700 --> 00:42:33.030
+David Schaich (he): location of the particle is
+
+442
+00:42:34.990 --> 00:42:42.570
+David Schaich (he): at most. It is somewhere in that box which we then rearrange is that the preceding
+
+443
+00:42:42.590 --> 00:42:44.310
+which is
+
+444
+00:42:47.050 --> 00:42:47.850
+David Schaich (he): use
+
+445
+00:42:48.940 --> 00:42:51.340
+David Schaich (he): and a minimum H bar over L.
+
+446
+00:42:52.450 --> 00:42:57.550
+David Schaich (he): Precisely what we get? I will borrow it the surprise calculation
+
+447
+00:42:58.650 --> 00:43:00.340
+David Schaich (he): if You' to it.
+
+448
+00:43:00.920 --> 00:43:02.270
+The components of this cave
+
+449
+00:43:02.420 --> 00:43:03.580
+David Schaich (he): start from one
+
+450
+00:43:03.810 --> 00:43:05.540
+0. So this means to
+
+451
+00:43:05.850 --> 00:43:15.970
+David Schaich (he): somewhat different counting of the energy levels that will go through a detail after the break. Now just state probably this on the other screen
+
+452
+00:43:21.410 --> 00:43:28.660
+David Schaich (he): particle mass approaching 0. We deal with masses, particles like photons, particles of light.
+
+453
+00:43:30.150 --> 00:43:43.490
+David Schaich (he): It was not the suite of flames with vanishing mass. and we cannot use the same expression. The that's going to 0 instead.
+
+454
+00:43:43.850 --> 00:43:52.240
+David Schaich (he): The energy for all the realistic particle is the speed of light. I'm. And the same discretization
+
+455
+00:43:52.270 --> 00:43:55.430
+David Schaich (he): of the
+
+456
+00:43:59.560 --> 00:44:03.390
+David Schaich (he): corresponding integer. Vector K.
+
+457
+00:44:03.650 --> 00:44:04.570
+That same
+
+458
+00:44:08.130 --> 00:44:10.170
+David Schaich (he): one
+
+459
+00:44:11.200 --> 00:44:12.480
+David Schaich (he): and the
+
+460
+00:44:12.920 --> 00:44:16.600
+David Schaich (he): square
+
+461
+00:44:17.570 --> 00:44:18.830
+David Schaich (he): your product.
+
+462
+00:44:24.500 --> 00:44:26.030
+David Schaich (he): and we will see that
+
+463
+00:44:27.130 --> 00:44:28.970
+David Schaich (he): it is most convenient in
+
+464
+00:44:29.480 --> 00:44:32.610
+David Schaich (he): the case of all the relativistic
+
+465
+00:44:32.670 --> 00:44:33.370
+David Schaich (he): to
+
+466
+00:44:33.820 --> 00:44:37.510
+David Schaich (he): It's.
+
+467
+00:44:37.750 --> 00:44:38.720
+David Schaich (he): We are
+
+468
+00:44:41.670 --> 00:44:47.490
+David Schaich (he): here. it's, interpreted as what's called a wave number.
+
+469
+00:44:50.110 --> 00:45:01.780
+David Schaich (he): the inverse of the length of the way for the so. If we look at the inverse K, we have to twice the volume
+
+470
+00:45:02.810 --> 00:45:04.260
+David Schaich (he): that gives us the
+
+471
+00:45:06.140 --> 00:45:07.860
+David Schaich (he): all times
+
+472
+00:45:11.740 --> 00:45:12.920
+David Schaich (he): and
+
+473
+00:45:17.060 --> 00:45:18.060
+David Schaich (he): the you
+
+474
+00:45:26.320 --> 00:45:29.460
+David Schaich (he): the relation between that what we you like, and
+
+475
+00:45:29.560 --> 00:45:34.550
+David Schaich (he): frequency of each wave crossing over some details
+
+476
+00:45:38.030 --> 00:45:40.120
+David Schaich (he): going through too much right here now.
+
+477
+00:45:42.080 --> 00:45:53.020
+David Schaich (he): and the frequency in terms of 2 high radians, or the rotational frequency
+
+478
+00:45:54.180 --> 00:45:57.230
+David Schaich (he): related by the speed of light.
+
+479
+00:46:01.200 --> 00:46:08.860
+David Schaich (he): So the angular frequency is the continuous analog of the integer. We have Number K.
+
+480
+00:46:10.230 --> 00:46:12.470
+David Schaich (he): This into
+
+481
+00:46:15.360 --> 00:46:28.200
+David Schaich (he): gives us the equals H. Bar Omega. We are large energies correspond to large frequencies for small.
+
+482
+00:46:28.290 --> 00:46:29.070
+David Schaich (he): So
+
+483
+00:46:37.040 --> 00:46:37.790
+David Schaich (he): yeah.
+
+484
+00:46:39.550 --> 00:46:40.980
+David Schaich (he): high frequency.
+
+485
+00:46:44.500 --> 00:46:46.010
+David Schaich (he): This is No. He has
+
+486
+00:46:50.810 --> 00:46:52.720
+David Schaich (he): ultraviolet regime.
+
+487
+00:46:54.520 --> 00:46:57.640
+David Schaich (he): Small energies correspond to
+
+488
+00:46:59.350 --> 00:47:01.200
+David Schaich (he): low frequencies and
+
+489
+00:47:06.230 --> 00:47:07.180
+David Schaich (he): sure
+
+490
+00:47:12.530 --> 00:47:13.580
+David Schaich (he): regime.
+
+491
+00:47:14.530 --> 00:47:17.620
+David Schaich (he): just based on the connection between
+
+492
+00:47:18.270 --> 00:47:21.480
+David Schaich (he): visible light and the wavelength of that point.
+
+493
+00:47:22.550 --> 00:47:31.000
+David Schaich (he): That is probably a detail we should come back to after the break collection of ingredients that you.
+
+494
+00:47:31.280 --> 00:47:32.490
+but to use
+
+495
+00:47:33.780 --> 00:47:34.840
+David Schaich (he): driving
+
+496
+00:47:34.870 --> 00:47:37.450
+David Schaich (he): quantum gases
+
+497
+00:47:37.540 --> 00:47:39.570
+David Schaich (he): too extreme in the cases.
+
+498
+00:47:41.770 --> 00:47:43.460
+David Schaich (he): No.
+
+499
+00:47:45.280 --> 00:47:46.250
+David Schaich (he): So we will
+
+500
+00:47:47.610 --> 00:47:55.650
+David Schaich (he): briefly summarize these basic ingredients. You're back next month just to confirm
+
+501
+00:47:57.140 --> 00:48:00.000
+David Schaich (he): that I mentioned
+
+502
+00:48:00.070 --> 00:48:09.180
+David Schaich (he): of an overall statistic particle becomes more this energy becomes well, the frequency becomes low.
+
+503
+00:48:11.230 --> 00:48:12.420
+I temperature
+
+504
+00:48:12.700 --> 00:48:15.810
+David Schaich (he): other direction.
+
+505
+00:48:15.920 --> 00:48:21.300
+David Schaich (he): I'm sure the energy and frequency
+
+506
+00:48:21.470 --> 00:48:28.060
+David Schaich (he): so hopefully that it's made you excited to see how all this feeds into partition, functions.
+
+507
+00:48:28.680 --> 00:48:32.280
+David Schaich (he): entropy, energy, and all the rest. Once we get back
+
+508
+00:48:32.330 --> 00:48:39.340
+David Schaich (he): from the break, which I will take a break for the rest of the day, unless there are any final questions.
+
