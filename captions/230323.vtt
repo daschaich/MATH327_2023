@@ -1,0 +1,2126 @@
+WEBVTT
+
+1
+00:00:01.900 --> 00:00:04.860
+David Schaich (he): Okay, we may as well get underway,
+
+2
+00:00:05.440 --> 00:00:09.210
+David Schaich (he): approaching the term break.
+
+3
+00:00:27.620 --> 00:00:31.510
+David Schaich (he): On the 23rd of March the magic number is 1, 5, 9, 5, 2, 0.
+
+4
+00:00:33.730 --> 00:00:34.930
+David Schaich (he): And the
+
+5
+00:00:44.650 --> 00:00:51.330
+David Schaich (he): play for today is first for me to ask if you have any questions or anything you want to discuss in this tutorial.
+
+6
+00:00:53.770 --> 00:00:56.700
+David Schaich (he): You have the freedom to raise any issues here.
+
+7
+00:01:02.530 --> 00:01:04.220
+David Schaich (he): And if you don't have
+
+8
+00:01:04.489 --> 00:01:08.000
+David Schaich (he): nominations, I have some ideas myself: A couple of comments
+
+9
+00:01:13.050 --> 00:01:16.640
+David Schaich (he): on the homework for which feedback went back earlier this week.
+
+10
+00:01:18.970 --> 00:01:20.520
+David Schaich (he): And then wrapping up the activity on
+
+11
+00:01:22.290 --> 00:01:26.780
+David Schaich (he): thermodynamic cycles we introduced last week. So
+
+12
+00:01:28.200 --> 00:01:35.440
+David Schaich (he): comparing the Otto cycle to the Carnot cycle and introducing the Diesel cycle.
+
+13
+00:01:37.050 --> 00:01:39.400
+David Schaich (he): And I want to give you
+
+14
+00:01:40.390 --> 00:01:44.790
+David Schaich (he): something more to play with during the break, in addition to
+
+15
+00:01:46.050 --> 00:01:48.470
+David Schaich (he): lecture notes and past exams
+
+16
+00:01:48.490 --> 00:01:51.990
+David Schaich (he): that are on the Canvas site I have uploaded another tutorial activity on
+
+17
+00:01:55.380 --> 00:02:01.780
+David Schaich (he): basically models of sounds, so getting back to some heat capacity results that
+
+18
+00:02:03.630 --> 00:02:05.290
+David Schaich (he): the first day of the term
+
+19
+00:02:07.370 --> 00:02:09.600
+David Schaich (he): at least first the
+
+20
+00:02:10.690 --> 00:02:16.260
+David Schaich (he): so model for how to
+
+21
+00:02:19.200 --> 00:02:23.000
+David Schaich (he): So it out further to.
+
+22
+00:02:27.510 --> 00:02:30.980
+David Schaich (he): There is 2 issues related to
+
+23
+00:02:31.660 --> 00:02:32.290
+yeah.
+
+24
+00:02:32.670 --> 00:02:34.540
+David Schaich (he): 4 more questions. So the
+
+25
+00:02:39.750 --> 00:02:45.460
+David Schaich (he): pretty good, on average bit of a spread that some people did very well
+
+26
+00:02:45.520 --> 00:02:51.370
+David Schaich (he): One thing that nobody attempted, at least on their submission that I saw was to figure out
+
+27
+00:02:51.440 --> 00:02:54.060
+David Schaich (he): the time of the accidents
+
+28
+00:02:57.460 --> 00:02:58.680
+David Schaich (he): first question.
+
+29
+00:03:00.230 --> 00:03:04.410
+David Schaich (he): Perhaps you did that separately or after
+
+30
+00:03:04.680 --> 00:03:09.140
+David Schaich (he): I did one after that computer project. But it was
+
+31
+00:03:09.400 --> 00:03:12.650
+David Schaich (he): one issue for a few folks on the
+
+32
+00:03:12.780 --> 00:03:16.450
+David Schaich (he): first question the parts that we actually assess
+
+33
+00:03:16.660 --> 00:03:24.900
+David Schaich (he): which is the relation between the central theorem and probabilities. That central limit, theorem or clt
+
+34
+00:03:26.150 --> 00:03:28.370
+David Schaich (he): to you is
+
+35
+00:03:29.550 --> 00:03:30.960
+David Schaich (he): the probability
+
+36
+00:03:33.050 --> 00:03:36.510
+David Schaich (he): distribution P. Of X: okay.
+
+37
+00:03:38.420 --> 00:03:42.270
+David Schaich (he): and then extracting actual probabilities
+
+38
+00:03:44.090 --> 00:03:45.490
+David Schaich (he): themselves.
+
+39
+00:03:47.190 --> 00:03:49.170
+David Schaich (he): Yeah, this for you, shit. One
+
+40
+00:03:50.190 --> 00:03:54.570
+David Schaich (he): needs to be integrated over the relevant range.
+
+41
+00:03:55.580 --> 00:04:06.750
+David Schaich (he): So the probability for a it's the of that distribution.
+
+42
+00:04:08.730 --> 00:04:09.560
+David Schaich (he): and
+
+43
+00:04:11.360 --> 00:04:16.149
+David Schaich (he): that is sort of the
+
+44
+00:04:16.260 --> 00:04:24.610
+David Schaich (he): measurements that are fractions of some total amount of radioactive material. Interpret them as such. And then
+
+45
+00:04:25.020 --> 00:04:29.260
+David Schaich (he): those fractions are just the probability that each individual
+
+46
+00:04:29.290 --> 00:04:29.960
+David Schaich (he): reactor
+
+47
+00:04:30.580 --> 00:04:34.130
+David Schaich (he): as travel a certain distance in a certain time.
+
+48
+00:04:35.180 --> 00:04:37.290
+David Schaich (he): And because we have 2 measurements, we can.
+
+49
+00:04:38.680 --> 00:04:48.600
+David Schaich (he): we get to these snapshots of the same distribution as it has evolved one time to the next.
+
+50
+00:04:54.000 --> 00:04:57.110
+David Schaich (he): We can call that
+
+51
+00:04:57.880 --> 00:04:59.430
+David Schaich (he): so. Time to you.
+
+52
+00:05:00.580 --> 00:05:01.900
+David Schaich (he): A second
+
+53
+00:05:02.460 --> 00:05:05.430
+David Schaich (he): measurements is 3 and a half hours later.
+
+54
+00:05:05.520 --> 00:05:06.500
+David Schaich (he): You call that
+
+55
+00:05:06.560 --> 00:05:10.490
+David Schaich (he): t Prime said initial time plus a delta t
+
+56
+00:05:13.340 --> 00:05:17.550
+David Schaich (he): 6, 3 utc. To 10.
+
+57
+00:05:20.180 --> 00:05:26.300
+David Schaich (he): So in order for these 2 snapshots to both come from the same distribution.
+
+58
+00:05:29.840 --> 00:05:37.120
+David Schaich (he): We can delete. They come from that same probability distribution just for a different number of the time. So the
+
+59
+00:05:38.900 --> 00:05:47.330
+David Schaich (he): integral. There you go once. It was from there 1,100 kilometer distance
+
+60
+00:05:50.840 --> 00:05:53.230
+David Schaich (he): next to my show. Oh, okay.
+
+61
+00:05:54.760 --> 00:05:55.460
+usual.
+
+62
+00:05:56.730 --> 00:05:58.710
+David Schaich (he): The expression
+
+63
+00:05:58.920 --> 00:06:01.520
+David Schaich (he): squared.
+
+64
+00:06:02.010 --> 00:06:04.780
+David Schaich (he): d squared, integrated over X.
+
+65
+00:06:05.170 --> 00:06:08.080
+David Schaich (he): The later time
+
+66
+00:06:08.220 --> 00:06:14.680
+David Schaich (he): this fraction is 500, 84 times larger there
+
+67
+00:06:15.850 --> 00:06:19.640
+David Schaich (he): the fraction of that earlier time t year, that same
+
+68
+00:06:19.700 --> 00:06:21.230
+David Schaich (he): integral from
+
+69
+00:06:24.640 --> 00:06:28.220
+David Schaich (he): 0, 2, sorry from has to infinity.
+
+70
+00:06:33.770 --> 00:06:39.260
+David Schaich (he): So all we have to do to determine the time of the accident is to
+
+71
+00:06:39.910 --> 00:06:45.110
+David Schaich (he): solve this equation 14, which is
+
+72
+00:06:46.700 --> 00:06:48.470
+David Schaich (he): not exactly straightforward.
+
+73
+00:06:49.130 --> 00:06:59.660
+David Schaich (he): So these T's are hiding both the
+
+74
+00:07:00.340 --> 00:07:11.560
+David Schaich (he): if we carry out the same change of variables that we usually do for yeah caption distribution for the you're in the crime.
+
+75
+00:07:17.370 --> 00:07:18.600
+David Schaich (he): Excellent. This
+
+76
+00:07:20.070 --> 00:07:29.530
+David Schaich (he): you know, ours. P. Squared. Then we can relate this integral from X to infinity, to
+
+77
+00:07:29.640 --> 00:07:35.370
+David Schaich (he): the difference between integrals, from 0 to infinity integrals from 0 to x.
+
+78
+00:07:35.660 --> 00:07:37.200
+David Schaich (he): One of those is
+
+79
+00:07:38.220 --> 00:07:43.920
+David Schaich (he): one up to a constant factor of the other gives the error function. So on both sides we have
+
+80
+00:07:46.190 --> 00:07:48.970
+David Schaich (he): one minus that error function of
+
+81
+00:07:51.430 --> 00:07:56.770
+David Schaich (he): change, the variable you at the appropriate
+
+82
+00:07:59.690 --> 00:08:02.160
+David Schaich (he): with again a ratio of
+
+83
+00:08:02.840 --> 00:08:04.510
+David Schaich (he): 584.
+
+84
+00:08:14.320 --> 00:08:23.570
+David Schaich (he): So that is the expression so complements of error, functions, difference between one and your function itself we want to
+
+85
+00:08:23.610 --> 00:08:27.000
+extract from that. Yeah.
+
+86
+00:08:28.060 --> 00:08:39.860
+David Schaich (he): In my opinion, my my favorite way of doing so is actually just to plot both sides of this equation and look for intersections between those 2 sides, which is
+
+87
+00:08:40.030 --> 00:08:42.799
+David Schaich (he): what is going on in
+
+88
+00:08:43.830 --> 00:08:55.470
+David Schaich (he): this piece of code that I have uploaded to canvas the results of this code that the code itself is doing is computing the error function complement. Oh.
+
+89
+00:08:55.840 --> 00:09:06.840
+David Schaich (he): the 2 expressions. We just wrote down 2 T. D. Squared and 2 T. Prime V. Squared. Follow the cost of factors fixed up above.
+
+90
+00:09:08.670 --> 00:09:18.650
+David Schaich (he): and if we scan from 10 to 100 h we can expect to see some intersection in that range. If not, we just adjust the range.
+
+91
+00:09:19.570 --> 00:09:20.560
+David Schaich (he): and
+
+92
+00:09:20.610 --> 00:09:23.140
+David Schaich (he): there is, after about.
+
+93
+00:09:23.280 --> 00:09:27.630
+David Schaich (he): or just before the 60 h. Mark The
+
+94
+00:09:29.750 --> 00:09:37.760
+David Schaich (he): probabilities with the costing factor that we get from both sides are consistent with each other at that time, just below 60, which we can
+
+95
+00:09:37.930 --> 00:09:49.660
+David Schaich (he): zoom in on to see an intersection around 57 or alternately. Take the difference between those 2 error function complements with that
+
+96
+00:09:49.860 --> 00:09:56.900
+David Schaich (he): overall factor of 584, and feed that into a
+
+97
+00:09:56.910 --> 00:10:01.930
+David Schaich (he): root. Finding algorithm. I I provides one other program. Languages provide others.
+
+98
+00:10:02.030 --> 00:10:03.400
+David Schaich (he): And this gives us
+
+99
+00:10:04.570 --> 00:10:08.600
+David Schaich (he): a miracle for the time. and essentially
+
+100
+00:10:09.240 --> 00:10:14.980
+David Schaich (he): does the same sort of thing rather than looking at the intersection. It says the difference to 0
+
+101
+00:10:15.090 --> 00:10:21.860
+David Schaich (he): in fines 57 h duration between
+
+102
+00:10:22.180 --> 00:10:26.610
+David Schaich (he): the incident and the first measurements, in order for the 2 measurements to
+
+103
+00:10:26.750 --> 00:10:28.270
+David Schaich (he): be self-consistent
+
+104
+00:10:29.530 --> 00:10:30.490
+David Schaich (he): so
+
+105
+00:10:33.470 --> 00:10:36.250
+David Schaich (he): that is the sort of thing that
+
+106
+00:10:36.430 --> 00:10:37.820
+David Schaich (he): people back in
+
+107
+00:10:39.820 --> 00:10:44.890
+David Schaich (he): go through to estimate not only how much was released, but also when it was released.
+
+108
+00:10:45.060 --> 00:10:48.780
+David Schaich (he): that was having to wait too long for
+
+109
+00:10:49.400 --> 00:10:53.990
+David Schaich (he): a significant chunk of the fraction to accumulate. That's rapid information
+
+110
+00:10:54.240 --> 00:11:00.660
+David Schaich (he): as best as they can get in a quick and dirty way as soon as we along the circle of all.
+
+111
+00:11:01.900 --> 00:11:05.460
+David Schaich (he): and that is the sort of procedure that would have been following.
+
+112
+00:11:09.900 --> 00:11:12.350
+David Schaich (he): and the benefits that
+
+113
+00:11:16.630 --> 00:11:23.230
+David Schaich (he): just a few hours gives us the ability to time and the amount.
+
+114
+00:11:29.410 --> 00:11:30.430
+so that
+
+115
+00:11:31.340 --> 00:11:32.880
+David Schaich (he): there are any questions
+
+116
+00:11:34.730 --> 00:11:35.640
+David Schaich (he): that
+
+117
+00:11:43.170 --> 00:11:44.990
+David Schaich (he): Yeah, this is essentially what
+
+118
+00:11:45.400 --> 00:11:48.010
+David Schaich (he): that python code does.
+
+119
+00:11:50.120 --> 00:11:53.980
+David Schaich (he): It is so. It is possible to
+
+120
+00:11:55.210 --> 00:12:01.270
+David Schaich (he): approximately solve this sort of thing by hand, just by putting it in an appropriate expansion
+
+121
+00:12:01.290 --> 00:12:04.630
+David Schaich (he): in small factors. and that it becomes
+
+122
+00:12:04.830 --> 00:12:07.030
+David Schaich (he): quickly complicated.
+
+123
+00:12:07.230 --> 00:12:08.070
+David Schaich (he): And
+
+124
+00:12:08.640 --> 00:12:11.970
+David Schaich (he): yes, this sort of thing you would do perfectly well
+
+125
+00:12:12.240 --> 00:12:20.030
+David Schaich (he): you could. I would get a very rough estimate from like a leading order of expansion. Just say that it's gone up by a factor of 503 h.
+
+126
+00:12:20.140 --> 00:12:30.030
+David Schaich (he): and try to look backwards with a simple power walk from there. But what's more, what people actually would have done. They are very familiar with the error function. They are
+
+127
+00:12:30.410 --> 00:12:32.850
+David Schaich (he): back before the you guys.
+
+128
+00:12:33.040 --> 00:12:46.200
+David Schaich (he): They were actually books published with tables of values of the error function for. Yeah. the whole thing as this argument varies, we have pages and pages of what is the error function for
+
+129
+00:12:46.520 --> 00:12:50.180
+David Schaich (he): this particular argument? You can figure that out easily
+
+130
+00:12:50.570 --> 00:12:52.180
+David Schaich (he): from estimates of
+
+131
+00:12:53.880 --> 00:13:01.110
+David Schaich (he): he is going into here. and then to see where that compliment
+
+132
+00:13:01.210 --> 00:13:06.320
+David Schaich (he): differs by that factor of 500 from the 2 meetings in your book are
+
+133
+00:13:06.330 --> 00:13:08.020
+3 and a half hours apart.
+
+134
+00:13:09.640 --> 00:13:10.600
+David Schaich (he): or
+
+135
+00:13:10.660 --> 00:13:15.260
+David Schaich (he): they did have in 86. There were computers that would be able to
+
+136
+00:13:16.460 --> 00:13:24.410
+David Schaich (he): produce these sorts of thoughts, or at least the data going into them. So this is probably more realistic. What people actually did
+
+137
+00:13:24.440 --> 00:13:28.820
+David Schaich (he): in order to solve that equation. It is so numerically rather than
+
+138
+00:13:28.850 --> 00:13:34.230
+David Schaich (he): give me a closed form. Expressions all the time. Yes.
+
+139
+00:13:34.470 --> 00:13:40.590
+David Schaich (he): all the 2 curves from the 2 measurements that are consistent with diffusion of radioactivity
+
+140
+00:13:40.630 --> 00:13:53.030
+David Schaich (he): in the atmosphere, with approximations and assumptions that we have discussed. and then see in round numbers where they are consistent, you know, 57 h is probably more precise than
+
+141
+00:13:53.400 --> 00:14:00.010
+David Schaich (he): they would have been comfortable. Relying on. they more likely would have said 2 to 3 days.
+
+142
+00:14:00.180 --> 00:14:04.670
+David Schaich (he): as round numbers, which would then give an order of magnitude
+
+143
+00:14:04.690 --> 00:14:06.990
+David Schaich (he): for the overall amount.
+
+144
+00:14:09.910 --> 00:14:10.910
+There you go.
+
+145
+00:14:11.390 --> 00:14:12.610
+David Schaich (he): That
+
+146
+00:14:20.000 --> 00:14:24.420
+David Schaich (he): in the solution should have pre loaded
+
+147
+00:14:26.710 --> 00:14:27.980
+David Schaich (he): in here
+
+148
+00:14:30.090 --> 00:14:33.010
+David Schaich (he): I can get to canvas without having to
+
+149
+00:14:37.570 --> 00:14:42.460
+David Schaich (he): go through too many. This is a tool factor application. I was.
+
+150
+00:14:45.010 --> 00:14:47.350
+David Schaich (he): You'd be interested to see
+
+151
+00:14:47.540 --> 00:14:48.690
+David Schaich (he): what
+
+152
+00:14:48.720 --> 00:14:57.910
+David Schaich (he): all of you identify it as the impact of the approximations that were used in that first question.
+
+153
+00:14:59.550 --> 00:15:06.080
+David Schaich (he): So I put 4 fairly significant ones in my model solutions.
+
+154
+00:15:06.160 --> 00:15:10.280
+David Schaich (he): and I think the majority of submissions latched onto
+
+155
+00:15:10.600 --> 00:15:12.340
+David Schaich (he): the approximation of
+
+156
+00:15:13.310 --> 00:15:21.860
+David Schaich (he): using just a one-dimensional random walk for particles that were really diffusing in 3 dimensions. So they they're being more room generally, and
+
+157
+00:15:22.380 --> 00:15:32.610
+David Schaich (he): a certain direction by the dominant wings. But there is from that diffusion the possibility of the product is spreading out
+
+158
+00:15:33.830 --> 00:15:42.460
+David Schaich (he): on either side of that direction is picked out by the wind. There can be variations in the wind as time goes on, whereas the particles rise and fall in the atmosphere.
+
+159
+00:15:42.790 --> 00:15:43.750
+David Schaich (he): and
+
+160
+00:15:44.870 --> 00:15:45.620
+David Schaich (he): I think
+
+161
+00:15:45.640 --> 00:15:49.290
+David Schaich (he): this first bullet point is sort of the obvious approximation.
+
+162
+00:15:49.410 --> 00:15:53.060
+David Schaich (he): Yeah. clearly leads to an underestimation of the particles.
+
+163
+00:15:53.130 --> 00:15:57.080
+David Schaich (he): Drift off to the sides of our detector. To say, we only pick up
+
+164
+00:15:57.180 --> 00:16:07.920
+David Schaich (he): a portion of them. and we can be confident that what we see is only representing a small fraction of what was released. So the
+
+165
+00:16:08.970 --> 00:16:11.880
+David Schaich (he): amount that those exceptions.
+
+166
+00:16:13.170 --> 00:16:26.280
+David Schaich (he): at least, as I have presented them with a bit of clean up from the the mess of your situation. good presence in real life. Give us this estimate of order of magnitude. 10 to the 16
+
+167
+00:16:26.740 --> 00:16:28.160
+David Schaich (he): it's a
+
+168
+00:16:28.380 --> 00:16:32.840
+David Schaich (he): small number. It's something that can be compared to
+
+169
+00:16:33.430 --> 00:16:37.450
+David Schaich (he): how many radioactive particles you have.
+
+170
+00:16:38.960 --> 00:16:41.510
+David Schaich (he): and that turned out to be
+
+171
+00:16:41.780 --> 00:16:43.640
+David Schaich (he): a few orders of magnitude
+
+172
+00:16:43.680 --> 00:16:46.210
+David Schaich (he): smaller than the true amount
+
+173
+00:16:46.370 --> 00:16:48.780
+that was released, which wasn't really.
+
+174
+00:16:49.660 --> 00:17:01.840
+David Schaich (he): I count the figured out for actually years following the accident, probably because the Soviet authorities a great deal of information about it
+
+175
+00:17:01.960 --> 00:17:12.589
+David Schaich (he): only when they had to. But we didn't threaten to file a a raise the law with the International Atomic Energy Agency. That was
+
+176
+00:17:13.030 --> 00:17:19.589
+David Schaich (he): the threat that the only thing that forces so even to admit that there have been an incident, in the first place, let alone
+
+177
+00:17:19.640 --> 00:17:23.099
+David Schaich (he): how severe it was. But
+
+178
+00:17:23.780 --> 00:17:29.460
+David Schaich (he): if one person mentioned the issue of radioactive fallout, which is a fun one, because
+
+179
+00:17:29.690 --> 00:17:30.680
+David Schaich (he): when
+
+180
+00:17:31.100 --> 00:17:34.060
+David Schaich (he): radioactive particles hit the ground
+
+181
+00:17:34.660 --> 00:17:38.540
+David Schaich (he): they stick there and actually stop
+
+182
+00:17:38.670 --> 00:17:48.370
+David Schaich (he): diffusing or stop the random walk in the atmosphere or so, the processes that we're able to model very well as a random walk, thanks to the large number of particles
+
+183
+00:17:48.690 --> 00:17:54.360
+David Schaich (he): and the large number of steps that those particles are taking as they bounce off each other in the air.
+
+184
+00:17:56.490 --> 00:18:08.590
+David Schaich (he): and something that we don't get into in this module that is, to the very one mathematically is random walks that end when they certain conditions say this comes up a lot actually in stock markets.
+
+185
+00:18:08.680 --> 00:18:15.760
+David Schaich (he): So some of you might have encountered it if you've taken financial maths modules in this department.
+
+186
+00:18:16.230 --> 00:18:27.700
+David Schaich (he): If a sock price it's a certain value like 0, and the company goes back to the stock no longer is is fluctuating. and there's
+
+187
+00:18:28.010 --> 00:18:34.840
+David Schaich (he): because, partly because it has such importance in finance, there's a lot of mathematics that has been developed around
+
+188
+00:18:35.260 --> 00:18:39.160
+David Schaich (he): the so called first passage processes. So the first time
+
+189
+00:18:39.350 --> 00:18:48.060
+David Schaich (he): the process passes a certain threshold. it changes, or it stops, which is where that term comes from. She is
+
+190
+00:18:48.330 --> 00:18:54.870
+David Schaich (he): more complicated to analyze mathematically, but perhaps more interesting for those same reasons.
+
+191
+00:18:58.100 --> 00:19:01.170
+David Schaich (he): And then the 2 other issues here. Some of them
+
+192
+00:19:01.590 --> 00:19:12.610
+David Schaich (he): require, They assume on it familiar with radioactive the fact that as we're they cease being radioactive. So the amount of radioactivity
+
+193
+00:19:12.630 --> 00:19:14.430
+David Schaich (he): decreases over time.
+
+194
+00:19:15.510 --> 00:19:19.110
+David Schaich (he): And if we actually look at the particular
+
+195
+00:19:19.770 --> 00:19:28.740
+David Schaich (he): types of radioactivity that were released at Chernobyl. A big chunk of it had a radioactive half-life of about 3 and a half hours.
+
+196
+00:19:28.830 --> 00:19:33.550
+David Schaich (he): So by the time 50 h have passed. That's maybe 15 min
+
+197
+00:19:33.760 --> 00:19:39.750
+David Schaich (he): of those half lives. So all but one over, 2 to the fifteenth
+
+198
+00:19:40.100 --> 00:19:48.470
+David Schaich (he): fraction of that way you like to would have okay, since the to the 15 is
+
+199
+00:19:49.740 --> 00:19:53.650
+David Schaich (he): what is that? 32,000
+
+200
+00:19:54.430 --> 00:19:56.670
+David Schaich (he): and round numbers so
+
+201
+00:19:57.380 --> 00:20:01.010
+David Schaich (he): less than 0 point, one per mill of at least that
+
+202
+00:20:01.110 --> 00:20:10.490
+David Schaich (he): radioactive component would have survived long enough to make it to those detections. So more was released at the start. All of these are giving
+
+203
+00:20:10.850 --> 00:20:16.140
+David Schaich (he): under estimates that you third one here being the fact that
+
+204
+00:20:16.490 --> 00:20:21.290
+David Schaich (he): regular activity was not released all at once at the time of the action of the accident.
+
+205
+00:20:21.660 --> 00:20:27.380
+David Schaich (he): started the release which actually persisted for more than a week.
+
+206
+00:20:30.270 --> 00:20:31.710
+David Schaich (he): See if I can
+
+207
+00:20:33.160 --> 00:20:36.600
+David Schaich (he): hold up this report by the
+
+208
+00:20:38.210 --> 00:20:40.230
+David Schaich (he): with your energy agency
+
+209
+00:20:41.810 --> 00:20:45.790
+David Schaich (he): 1995 it was updated in 2,002. But
+
+210
+00:20:46.010 --> 00:20:51.150
+David Schaich (he): most of the basic data, like the figure I have in line was unchanged.
+
+211
+00:20:53.400 --> 00:20:54.340
+David Schaich (he): which
+
+212
+00:20:55.720 --> 00:20:57.510
+David Schaich (he): I go constant.
+
+213
+00:21:01.360 --> 00:21:02.410
+David Schaich (he): There it is.
+
+214
+00:21:04.590 --> 00:21:06.130
+David Schaich (he): Let's see your way to
+
+215
+00:21:07.410 --> 00:21:10.280
+David Schaich (he): it that to fill the screen. But hopefully, it's
+
+216
+00:21:10.840 --> 00:21:15.780
+David Schaich (he): big enough to be visible. This is the amount of release
+
+217
+00:21:16.740 --> 00:21:23.020
+David Schaich (he): versus the days after the initial accident so a big peak from the accident itself.
+
+218
+00:21:23.170 --> 00:21:24.260
+David Schaich (he): and then
+
+219
+00:21:24.570 --> 00:21:27.770
+David Schaich (he): a smaller amount to about one-third to
+
+220
+00:21:27.940 --> 00:21:39.160
+David Schaich (he): two-thirds of that initial amount was coming from fires that burned uncontrollably for more than a week after the accident. largely because they were being driven by
+
+221
+00:21:39.270 --> 00:21:46.030
+David Schaich (he): yeah radioactive chain reaction at the core. and basically the fire only stopped from the court.
+
+222
+00:21:46.200 --> 00:21:50.920
+David Schaich (he): built it through the foundation of the plans, and sink down into the earth.
+
+223
+00:21:51.710 --> 00:21:55.790
+David Schaich (he): which happened on that the tenth day, the fourth of May
+
+224
+00:21:55.890 --> 00:21:59.870
+David Schaich (he): in 1,986. Anyway, I've gone to
+
+225
+00:21:59.980 --> 00:22:16.420
+David Schaich (he): that first question. Move on to any new material for today. I think for you. First question was the most challenging one for folks in terms of the marks that came out of the second question.
+
+226
+00:22:17.510 --> 00:22:25.990
+David Schaich (he): Probably. Have you highest average, If I call it correctly the 70 for all 3 questions.
+
+227
+00:22:27.490 --> 00:22:37.930
+David Schaich (he): The temptation in the second question, which is about systems of positive and negative temperatures coming into thermal contact with each other, without
+
+228
+00:22:38.320 --> 00:22:46.090
+David Schaich (he): actually giving you any information about the relative sizes of those 2 systems for the same or different. So it's.
+
+229
+00:22:48.810 --> 00:22:53.740
+David Schaich (he): It's only the most general statement they can be made that amount of information and
+
+230
+00:22:54.740 --> 00:22:58.090
+David Schaich (he): an example of that. Some folks were
+
+231
+00:22:58.870 --> 00:23:04.800
+David Schaich (he): kind of sensibly attempted to make, just based on everyday experience
+
+232
+00:23:04.810 --> 00:23:05.940
+David Schaich (he): is that
+
+233
+00:23:07.290 --> 00:23:08.770
+David Schaich (he): to paraphrase.
+
+234
+00:23:09.560 --> 00:23:10.290
+yeah.
+
+235
+00:23:10.310 --> 00:23:11.780
+David Schaich (he): heat, exchange
+
+236
+00:23:12.880 --> 00:23:14.280
+David Schaich (he): the call, see
+
+237
+00:23:14.610 --> 00:23:18.460
+David Schaich (he): temperatures to come into agreement or to
+
+238
+00:23:19.900 --> 00:23:28.060
+David Schaich (he): closer to each other. So here positive temperature system with the higher temperature we all are
+
+239
+00:23:28.830 --> 00:23:36.350
+David Schaich (he): go to a lower temperature or the negative temperature system. It's the lower temperature. We go to a higher temperature, how it will come together.
+
+240
+00:23:36.710 --> 00:23:49.350
+David Schaich (he): That's what happens when we have to natural systems with positive temperatures and different magnitude which we saw in the class. It's actually the opposite of what happens.
+
+241
+00:23:49.990 --> 00:24:00.480
+David Schaich (he): and systems with negative temperatures as to find from statistical physics and micro economic ensemble. And
+
+242
+00:24:01.870 --> 00:24:03.450
+David Schaich (he): it actually happens.
+
+243
+00:24:04.470 --> 00:24:05.620
+David Schaich (he): is it for you
+
+244
+00:24:07.460 --> 00:24:09.620
+David Schaich (he): temperatures move farther apart.
+
+245
+00:24:11.650 --> 00:24:18.270
+David Schaich (he): in the sense that the negative temperature becomes more negative, and the positive temperature becomes more positive.
+
+246
+00:24:19.730 --> 00:24:20.580
+David Schaich (he): and
+
+247
+00:24:21.360 --> 00:24:23.520
+David Schaich (he): so appreciate that with
+
+248
+00:24:23.990 --> 00:24:26.700
+David Schaich (he): visuals reloaded
+
+249
+00:24:27.730 --> 00:24:29.830
+David Schaich (he): here as well so, rather than
+
+250
+00:24:30.050 --> 00:24:36.330
+David Schaich (he): drawing some of the plots of the answers for this this is the expression for the entropy.
+
+251
+00:24:36.810 --> 00:24:47.350
+David Schaich (he): for that microcanonical system which may look familiar. This x is the number of particles with non-zero energy epsilon. so that corresponds to
+
+252
+00:24:47.380 --> 00:24:50.690
+David Schaich (he): the total energy e over that small epsilon.
+
+253
+00:24:51.110 --> 00:24:54.970
+David Schaich (he): I've just given us a 1 million particles to look at things numerically.
+
+254
+00:24:56.820 --> 00:24:59.220
+David Schaich (he): and the entropy is
+
+255
+00:24:59.470 --> 00:25:02.950
+putting in that leading order sterling approximation and log in
+
+256
+00:25:03.170 --> 00:25:04.160
+David Schaich (he): minus.
+
+257
+00:25:05.120 --> 00:25:13.130
+David Schaich (he): and one or Epsilon or E. Over Epsilon Log, E over Epsilon, and then the difference and minus X Times, the volume of N. Minus X.
+
+258
+00:25:13.400 --> 00:25:14.840
+David Schaich (he): It looks like this
+
+259
+00:25:15.910 --> 00:25:20.560
+David Schaich (he): something we've seen before with an earlier tutorial; and
+
+260
+00:25:20.930 --> 00:25:24.670
+David Schaich (he): when there is, and roughly even mix between
+
+261
+00:25:24.950 --> 00:25:27.940
+David Schaich (he): the degrees of freedom with
+
+262
+00:25:28.280 --> 00:25:34.830
+David Schaich (he): each value of the energy in this case under 0 or epsilon, we get a maximum entropy
+
+263
+00:25:35.120 --> 00:25:38.550
+David Schaich (he): when that energy goes to 0. There's only one way to
+
+264
+00:25:38.970 --> 00:25:40.290
+have a
+
+265
+00:25:40.800 --> 00:25:51.020
+David Schaich (he): There's only one microstate with the minimum energy, or with the maximum energy. So all particles with 0 energy, or all all particles with
+
+266
+00:25:51.050 --> 00:25:59.260
+David Schaich (he): absolute energy. And the log of that one Microsoft 0. So the interview looks like this. If we take the derivative
+
+267
+00:25:59.270 --> 00:26:08.000
+David Schaich (he): of this S versus E. We see that derivative. it was through 0 at the maximum of the entropy right, indeed.
+
+268
+00:26:08.190 --> 00:26:10.800
+David Schaich (he): middle of the range there
+
+269
+00:26:11.050 --> 00:26:12.590
+David Schaich (he): from 0 to the
+
+270
+00:26:13.200 --> 00:26:16.700
+David Schaich (he): whole amount of energy, we can have kind of the number of particles.
+
+271
+00:26:16.850 --> 00:26:20.890
+David Schaich (he): and if we invert that to get the temperature itself.
+
+272
+00:26:21.160 --> 00:26:27.210
+David Schaich (he): Then there is this diversions, and most people correctly identify that energy would flow
+
+273
+00:26:27.320 --> 00:26:38.230
+David Schaich (he): problem the system with more. but with a greater amount of energy to the system, with the smaller amount of energy. So more energy corresponds to
+
+274
+00:26:38.580 --> 00:26:40.660
+David Schaich (he): that temperature below 0.
+
+275
+00:26:41.720 --> 00:26:43.110
+David Schaich (he): And then the
+
+276
+00:26:45.210 --> 00:26:48.840
+most interesting thing, at least for me about this process is
+
+277
+00:26:49.140 --> 00:26:52.940
+David Schaich (he): so negative temperature system.
+
+278
+00:26:55.420 --> 00:26:59.080
+David Schaich (he): the
+
+279
+00:27:00.670 --> 00:27:05.130
+David Schaich (he): to the left of this curve. you know to be positive
+
+280
+00:27:11.100 --> 00:27:15.060
+David Schaich (he): that the there you go
+
+281
+00:27:15.390 --> 00:27:16.440
+there is.
+
+282
+00:27:16.630 --> 00:27:20.420
+David Schaich (he): and the difference between them actually diverges in
+
+283
+00:27:20.530 --> 00:27:25.110
+David Schaich (he): that thermodynamic limits. When we have an infinite number of particles.
+
+284
+00:27:25.550 --> 00:27:35.410
+David Schaich (he): it's there's a very sharp cut off, and the transition from positive to negative. In the case of a finite or large number of
+
+285
+00:27:35.430 --> 00:27:39.860
+that we're not quite seeing, because of that solid base approximation.
+
+286
+00:27:43.070 --> 00:27:47.850
+David Schaich (he): But that's the way that negative temperatures are unnatural
+
+287
+00:27:50.890 --> 00:27:54.610
+David Schaich (he): compared to our intuition one way.
+
+288
+00:27:54.730 --> 00:27:57.220
+David Schaich (he): So if we, when we look at solids
+
+289
+00:27:57.290 --> 00:28:07.010
+David Schaich (he): and compute their key capacity have the same sort of spin system that allows for negative temperatures. You will also see strange behaviors and
+
+290
+00:28:07.450 --> 00:28:11.650
+David Schaich (he): the heat capacity, even when the temperature is positive
+
+291
+00:28:11.930 --> 00:28:14.940
+David Schaich (he): about the homework, unless there are
+
+292
+00:28:15.140 --> 00:28:16.570
+David Schaich (he): further questions.
+
+293
+00:28:20.500 --> 00:28:26.590
+David Schaich (he): Transition to you. Tutorial activity on the
+
+294
+00:28:28.260 --> 00:28:31.750
+David Schaich (he): had to play with over the past week.
+
+295
+00:28:32.930 --> 00:28:35.090
+David Schaich (he): and I can
+
+296
+00:28:35.630 --> 00:28:39.470
+David Schaich (he): ask with, not on the clock. how well
+
+297
+00:28:40.040 --> 00:28:46.280
+David Schaich (he): you felt about the results that you got for the efficiency
+
+298
+00:28:47.070 --> 00:28:49.540
+David Schaich (he): of this cycle. This comparison to
+
+299
+00:28:49.820 --> 00:28:51.770
+David Schaich (he): the so
+
+300
+00:28:51.860 --> 00:28:54.530
+David Schaich (he): I don't know if anyone either online or in the room.
+
+301
+00:28:55.400 --> 00:28:59.010
+David Schaich (he): It's confident to like. Shout out the efficiency for
+
+302
+00:28:59.200 --> 00:29:02.540
+David Schaich (he): the auto cycle that you found if you found it.
+
+303
+00:29:12.900 --> 00:29:17.350
+David Schaich (he): and if not, if there were. challenges, a
+
+304
+00:29:19.750 --> 00:29:23.590
+David Schaich (he): quickly sketch through the calculations to give some guidance.
+
+305
+00:29:24.300 --> 00:29:25.070
+David Schaich (he): and
+
+306
+00:29:27.040 --> 00:29:29.690
+David Schaich (he): so commentary on
+
+307
+00:29:30.860 --> 00:29:34.440
+David Schaich (he): how the result comes out, and what it implies for
+
+308
+00:29:34.720 --> 00:29:40.100
+David Schaich (he): how to make internal combustion engines and efficient as possible.
+
+309
+00:29:48.870 --> 00:29:51.390
+David Schaich (he): like you were tempted to say something.
+
+310
+00:29:51.510 --> 00:29:53.100
+David Schaich (he): No.
+
+311
+00:29:53.870 --> 00:29:56.950
+David Schaich (he): that is perfectly fine.
+
+312
+00:29:57.140 --> 00:29:58.700
+David Schaich (he): What we can do to
+
+313
+00:29:59.630 --> 00:30:02.870
+David Schaich (he): go through this efficiency calculation is
+
+314
+00:30:02.950 --> 00:30:09.240
+David Schaich (he): quickly as possible. This is the version of that Pv diagram to the auto cycle of that.
+
+315
+00:30:09.810 --> 00:30:12.490
+David Schaich (he): We looked at last week.
+
+316
+00:30:12.740 --> 00:30:16.170
+David Schaich (he): and a good place to start
+
+317
+00:30:16.430 --> 00:30:20.100
+David Schaich (he): in. Any computation of the efficiency is figure out
+
+318
+00:30:20.180 --> 00:30:29.390
+David Schaich (he): which of the stages in the cycle are relevant for the 3 pieces that go into determine the efficiency
+
+319
+00:30:29.510 --> 00:30:36.210
+David Schaich (he): work, that by the system, the work done on the system and the that flips into the system.
+
+320
+00:30:36.930 --> 00:30:38.670
+David Schaich (he): So last week we solve that
+
+321
+00:30:38.790 --> 00:30:40.810
+David Schaich (he): Just keep going in
+
+322
+00:30:40.820 --> 00:30:47.740
+David Schaich (he): comes only in the admission stage when the gas is burned and a large amount of heat comes from. We
+
+323
+00:30:48.070 --> 00:30:52.790
+David Schaich (he): combustion of that mix of air and petrol.
+
+324
+00:30:53.910 --> 00:30:55.140
+David Schaich (he): I full paper.
+
+325
+00:30:56.290 --> 00:30:58.960
+David Schaich (he): and the work
+
+326
+00:30:59.220 --> 00:31:06.510
+David Schaich (he): before it out and work in are also only done by a single stage. So the power stage. This is Adiabatic Expansion
+
+327
+00:31:08.030 --> 00:31:15.580
+David Schaich (he): does work on the environment. 2 vertical stages have a fixed volume, so the integral Pv. That defines work is 0,
+
+328
+00:31:15.920 --> 00:31:21.200
+David Schaich (he): and then the question it's working on the system by the engine.
+
+329
+00:31:23.250 --> 00:31:33.890
+David Schaich (he): pushing this to smaller volumes. raising its pressure and raising its temperature. So we only have to work. We only have to look at 3 things out of the
+
+330
+00:31:34.000 --> 00:31:39.620
+David Schaich (he): in principle in this cycle. What work the 2 Adiabatic stages.
+
+331
+00:31:39.880 --> 00:31:40.990
+the heat.
+
+332
+00:31:41.580 --> 00:31:55.640
+David Schaich (he): one of the video. also volume stages. And we have actually already so any computation of work for Adiabatic expansion and compression.
+
+333
+00:31:55.870 --> 00:31:57.190
+David Schaich (he): because there are
+
+334
+00:31:59.570 --> 00:32:05.400
+David Schaich (he): such Adiabatic stages in the Carnot Cycle that they are interspersed with
+
+335
+00:32:05.560 --> 00:32:14.920
+David Schaich (he): slow isothermal expansion and compression rather than it was constant volume and much faster processes. So
+
+336
+00:32:16.880 --> 00:32:18.330
+David Schaich (he): we saw that for
+
+337
+00:32:19.530 --> 00:32:20.960
+David Schaich (he): idiomatic
+
+338
+00:32:21.060 --> 00:32:24.100
+David Schaich (he): expansion that does this work out
+
+339
+00:32:24.240 --> 00:32:30.190
+David Schaich (he): negative of the work in that stage from point 3 and 2.4.
+
+340
+00:32:30.610 --> 00:32:33.880
+David Schaich (he): There is no key flow in there. So this is
+
+341
+00:32:34.470 --> 00:32:40.520
+David Schaich (he): just the negative change in the energy which is. we have nt.
+
+342
+00:32:41.040 --> 00:32:48.390
+David Schaich (he): and the change in is that final temperature before that's the initial
+
+343
+00:32:49.170 --> 00:32:50.980
+David Schaich (he): with an overall data sign.
+
+344
+00:32:52.240 --> 00:32:55.540
+David Schaich (he): The work in is the same
+
+345
+00:32:56.700 --> 00:33:07.080
+David Schaich (he): population going out from temperature, one temperature, 2, so 3 and a half. Yeah. Final temperature.
+
+346
+00:33:08.350 --> 00:33:14.070
+David Schaich (he): And for the he, because there is no work with the constant volume. We also have
+
+347
+00:33:17.240 --> 00:33:18.370
+David Schaich (he): same
+
+348
+00:33:18.380 --> 00:33:20.700
+David Schaich (he): temperature difference now going
+
+349
+00:33:20.890 --> 00:33:22.480
+2 to 3.
+
+350
+00:33:25.240 --> 00:33:27.890
+David Schaich (he): The final temperature of this initial temperature.
+
+351
+00:33:28.990 --> 00:33:36.960
+David Schaich (he): Hey, I do. The efficiency puts all of these together in the factors that free has and will cancel out the numerator.
+
+352
+00:33:36.990 --> 00:33:40.490
+David Schaich (he): We start off with positive W out, which has
+
+353
+00:33:40.990 --> 00:33:42.800
+David Schaich (he): this T. 4.
+
+354
+00:33:47.950 --> 00:33:59.030
+David Schaich (he): So distribute that negative sign we subtract work in. so it's a. T, 2, Let me have it
+
+355
+00:33:59.270 --> 00:34:08.290
+David Schaich (he): 18, 3, minus 2 in the denominator. So t 3, one is t 2, Is it both numerator and a nominator? Those can cancel
+
+356
+00:34:09.440 --> 00:34:18.889
+David Schaich (he): if we pull out a t, 4 of what's left. and have t one over t 4
+
+357
+00:34:20.010 --> 00:34:21.790
+negative sign.
+
+358
+00:34:22.360 --> 00:34:23.290
+David Schaich (he): and
+
+359
+00:34:23.650 --> 00:34:24.949
+about 2, 3
+
+360
+00:34:27.679 --> 00:34:42.980
+David Schaich (he): team, 2 over, 2, 3, which and simplify, thanks to idiotic expansion and impression which is realistic. So we give you the processes
+
+361
+00:34:43.960 --> 00:34:55.710
+David Schaich (he): really quick and much our attention that our power to cycle over very quickly thousands of tons per minute. So very
+
+362
+00:34:55.760 --> 00:34:57.350
+he was going in the Exchange
+
+363
+00:34:58.450 --> 00:35:02.660
+David Schaich (he): that in the fuel and then expelling it in the exhaust stage.
+
+364
+00:35:04.550 --> 00:35:06.850
+David Schaich (he): So
+
+365
+00:35:12.170 --> 00:35:17.020
+David Schaich (he): v 2 to the 3 halves. So as we go from
+
+366
+00:35:17.270 --> 00:35:20.980
+David Schaich (he): we need to 4 in the cycle that power stage
+
+367
+00:35:23.810 --> 00:35:28.440
+David Schaich (he): the to the 3. No.
+
+368
+00:35:29.870 --> 00:35:31.080
+David Schaich (he): i'm set.
+
+369
+00:35:36.680 --> 00:35:39.770
+David Schaich (he): We'll always have a sure we're just rearranging this
+
+370
+00:35:40.660 --> 00:35:44.340
+David Schaich (he): t 4 over 2 3 that appears in the efficiency
+
+371
+00:35:46.670 --> 00:35:48.850
+David Schaich (he): the wrong ratio
+
+372
+00:35:50.100 --> 00:35:54.610
+David Schaich (he): the 2, over one to that two-thirds power
+
+373
+00:35:54.720 --> 00:35:57.590
+David Schaich (he): and actually this same
+
+374
+00:35:57.680 --> 00:36:01.260
+David Schaich (he): relation holds for compression
+
+375
+00:36:01.560 --> 00:36:04.620
+David Schaich (he): t one at volume one.
+
+376
+00:36:04.810 --> 00:36:06.940
+David Schaich (he): so that takes the place of
+
+377
+00:36:07.010 --> 00:36:08.520
+David Schaich (he): 2, 4.
+
+378
+00:36:09.790 --> 00:36:17.740
+David Schaich (he): It's that same. which is one over the compression ratio that we do
+
+379
+00:36:18.380 --> 00:36:20.270
+that is defined in the activity.
+
+380
+00:36:21.190 --> 00:36:22.190
+David Schaich (he): So
+
+381
+00:36:23.850 --> 00:36:25.800
+David Schaich (he): yeah, focus back
+
+382
+00:36:29.010 --> 00:36:36.730
+David Schaich (he): from these sets of inequalities we can see 2 interesting things that T. 4 over 2, 3 is just given by the
+
+383
+00:36:36.870 --> 00:36:41.300
+David Schaich (he): compression ratio. but to roll it over to you for
+
+384
+00:36:41.380 --> 00:36:44.840
+David Schaich (he): t one to that side.
+
+385
+00:36:47.370 --> 00:36:49.050
+David Schaich (he): 2, 4
+
+386
+00:36:49.480 --> 00:36:53.020
+David Schaich (he): is the same as t 2
+
+387
+00:36:53.140 --> 00:36:54.840
+David Schaich (he): over to you 3.
+
+388
+00:36:56.890 --> 00:37:09.120
+David Schaich (he): So those 2 ratios are the same. Those 2 packers and parentheses cancel out. The efficiency is one that minus
+
+389
+00:37:09.870 --> 00:37:12.510
+David Schaich (he): t 4 over t 3, which is.
+
+390
+00:37:13.360 --> 00:37:18.090
+David Schaich (he): you know, minus one of the compression ratio, the 2 first power, and also
+
+391
+00:37:18.740 --> 00:37:22.960
+David Schaich (he): the same as one minus t one over t 2.
+
+392
+00:37:24.730 --> 00:37:37.690
+David Schaich (he): It was a. Into the activity itself. With the cargo efficiency it can be caused one minus the ratio of the hot and cold.
+
+393
+00:37:38.280 --> 00:37:41.860
+David Schaich (he): There's a more temperature.
+
+394
+00:37:41.960 --> 00:37:47.970
+David Schaich (he): It's on top to keep the efficiency in the range 0 to one.
+
+395
+00:37:49.800 --> 00:37:52.280
+David Schaich (he): so he's the the Cardinal
+
+396
+00:37:53.310 --> 00:37:54.490
+David Schaich (he): in this cell
+
+397
+00:37:54.610 --> 00:38:00.200
+David Schaich (he): the cold temperature is it like one. A hot temperature is right after burning the fuel.
+
+398
+00:38:00.210 --> 00:38:01.590
+David Schaich (he): Yeah. Point, 3
+
+399
+00:38:04.900 --> 00:38:09.660
+David Schaich (he): at high temperature is at t 3 is higher than t 2
+
+400
+00:38:10.300 --> 00:38:20.090
+David Schaich (he): fairly obvious. If we think about what happens when we like the fuel that temperature increases. So the ratio is going to be smaller.
+
+401
+00:38:20.120 --> 00:38:21.680
+So we are subtracting.
+
+402
+00:38:21.710 --> 00:38:30.880
+David Schaich (he): It's smaller. That will be so. We get the left over. That is bigger. then one minus
+
+403
+00:38:35.070 --> 00:38:37.040
+David Schaich (he): with the auto cycle, so
+
+404
+00:38:37.880 --> 00:38:42.310
+David Schaich (he): as expected. Part of it is more efficient than the auto cycle
+
+405
+00:38:49.090 --> 00:38:55.600
+David Schaich (he): banished from the other cycle of being that I can. We can run it thousands of times per minute.
+
+406
+00:38:55.900 --> 00:38:57.480
+several hours to
+
+407
+00:38:57.910 --> 00:38:59.430
+David Schaich (he): once
+
+408
+00:39:00.500 --> 00:39:05.460
+David Schaich (he): iteration around the Carnot cycle if it's processes.
+
+409
+00:39:09.720 --> 00:39:10.450
+David Schaich (he): So
+
+410
+00:39:12.420 --> 00:39:16.420
+David Schaich (he): I'm running out of time to say all the things that are to say about cycles.
+
+411
+00:39:17.810 --> 00:39:19.070
+David Schaich (he): What is that
+
+412
+00:39:20.920 --> 00:39:26.240
+David Schaich (he): to approve the efficiency with this Ada closer to 100%.
+
+413
+00:39:26.540 --> 00:39:33.470
+David Schaich (he): You want that are to be as large as possible to reduce the you about this being subtracted.
+
+414
+00:39:33.770 --> 00:39:40.960
+David Schaich (he): due to the amount of left over heats that is left in the exhaust rather than doing work in the power stage.
+
+415
+00:39:42.300 --> 00:39:43.220
+David Schaich (he): So
+
+416
+00:39:44.590 --> 00:39:48.030
+David Schaich (he): the maximization of that data is
+
+417
+00:39:50.480 --> 00:39:52.590
+David Schaich (he): the largest possible ratio.
+
+418
+00:39:52.860 --> 00:39:55.650
+David Schaich (he): The 2 volumes in the model cycle.
+
+419
+00:40:02.410 --> 00:40:05.660
+David Schaich (he): So realistic values for this ratio
+
+420
+00:40:09.020 --> 00:40:10.800
+David Schaich (he): around a few.
+
+421
+00:40:12.780 --> 00:40:19.150
+David Schaich (he): The corresponding entropy is sorry about the efficiency
+
+422
+00:40:19.610 --> 00:40:29.230
+David Schaich (he): is around 20 to 30% for petrol engines. and that is because there's a limit in practice on how large the
+
+423
+00:40:30.150 --> 00:40:37.650
+David Schaich (he): compression ratio can be made. Yeah limit is coming from the back there. As that compression stage receives
+
+424
+00:40:38.180 --> 00:40:42.900
+David Schaich (he): the pressure and the temperature of this volatile mixture of
+
+425
+00:40:45.900 --> 00:40:48.940
+David Schaich (he): becoming more and more squeezed at the higher higher temperature.
+
+426
+00:40:49.660 --> 00:40:52.990
+David Schaich (he): and that temperature rises too much in the
+
+427
+00:40:53.120 --> 00:40:54.590
+David Schaich (he): compression stage.
+
+428
+00:40:57.200 --> 00:41:00.550
+David Schaich (he): Sure. the compression ratio that's too large.
+
+429
+00:41:03.680 --> 00:41:07.190
+David Schaich (he): Make sure it will typically spontaneously from us
+
+430
+00:41:09.700 --> 00:41:13.750
+David Schaich (he): all the way nights. Actually, before you get to
+
+431
+00:41:14.940 --> 00:41:15.890
+David Schaich (he): how you do
+
+432
+00:41:16.300 --> 00:41:19.870
+David Schaich (he): point where we want it to acknowledge what happens.
+
+433
+00:41:20.030 --> 00:41:24.860
+David Schaich (he): It's sort of yeah, we tried to make this be one and 2 is
+
+434
+00:41:24.960 --> 00:41:29.170
+David Schaich (he): far apart as possible. but as we do all of that compression.
+
+435
+00:41:30.330 --> 00:41:33.330
+David Schaich (he): there will be spontaneously the spark coming in
+
+436
+00:41:33.490 --> 00:41:36.000
+David Schaich (he): that makes the system at
+
+437
+00:41:36.390 --> 00:41:40.660
+David Schaich (he): some kicks it up
+
+438
+00:41:40.730 --> 00:41:43.370
+David Schaich (he): partway of the power stage
+
+439
+00:41:43.530 --> 00:41:46.870
+David Schaich (he): where it's not able to get as much power out of
+
+440
+00:41:47.120 --> 00:41:50.480
+David Schaich (he): spit out more heats and entropy in the exhaust
+
+441
+00:41:51.480 --> 00:41:54.980
+David Schaich (he): which is no
+
+442
+00:41:55.960 --> 00:41:59.110
+David Schaich (he): relative to chemical engineering. As a
+
+443
+00:42:00.150 --> 00:42:02.960
+David Schaich (he): i'm, not to the engine premature
+
+444
+00:42:03.120 --> 00:42:07.830
+David Schaich (he): admission of the fuel. The disruption
+
+445
+00:42:08.230 --> 00:42:11.910
+David Schaich (he): rhythm with which you want the engine to be taking over.
+
+446
+00:42:13.760 --> 00:42:17.020
+David Schaich (he): So back, more than a 100 years ago.
+
+447
+00:42:19.250 --> 00:42:24.380
+David Schaich (he): rural Diesel, who tried to address this issue bye.
+
+448
+00:42:26.330 --> 00:42:27.930
+David Schaich (he): let me up with a way to
+
+449
+00:42:28.120 --> 00:42:30.240
+David Schaich (he): compressed gases
+
+450
+00:42:30.330 --> 00:42:35.590
+David Schaich (he): over as large a ratio as possible without recognition.
+
+451
+00:42:37.210 --> 00:42:43.080
+David Schaich (he): This solution was to compress from the air itself. which
+
+452
+00:42:44.120 --> 00:42:55.040
+David Schaich (he): can burn, but only get to very high temperatures. The air does not spontaneously. and then.
+
+453
+00:42:55.590 --> 00:43:00.550
+David Schaich (he): once that compression is done and the a. Is a high pressure and temperature.
+
+454
+00:43:01.300 --> 00:43:06.370
+David Schaich (he): Liquid fuel. Would that be injected?
+
+455
+00:43:07.100 --> 00:43:10.520
+David Schaich (he): It would immediately invite and drive it
+
+456
+00:43:13.240 --> 00:43:21.160
+David Schaich (he): the engine. So this is the thermodynamic cycle that corresponds to a Diesel engine as opposed to a petrol engine.
+
+457
+00:43:25.910 --> 00:43:29.460
+David Schaich (he): So the compression again goes from the
+
+458
+00:43:35.030 --> 00:43:38.840
+David Schaich (he): There's only here in the system. At that stage
+
+459
+00:43:40.250 --> 00:43:50.600
+David Schaich (he): fuel is injected. High temperature, high pressure. That was the injection stage which
+
+460
+00:43:53.810 --> 00:44:07.020
+David Schaich (he): there is a constant force left on the system lingering phone. That compression. So the injection occurs as also pressure due to that constant force.
+
+461
+00:44:07.430 --> 00:44:10.670
+David Schaich (he): Then we get the usual power. and
+
+462
+00:44:11.130 --> 00:44:17.310
+David Schaich (he): usually the exhaust of the burn fuel. You get back to the starting point with a fresh match up there
+
+463
+00:44:17.350 --> 00:44:19.020
+David Schaich (he): that comes in again.
+
+464
+00:44:22.770 --> 00:44:26.080
+David Schaich (he): power and compression stage being in the
+
+465
+00:44:27.820 --> 00:44:40.390
+David Schaich (he): so do you. Efficiency or the Diesel cycle is a function both of the compression ratio will be one over V. 2, as well as what it's called.
+
+466
+00:44:40.630 --> 00:44:54.580
+David Schaich (he): cut off ratio. 3 over V. 2, which governance, how long would it be injection and admission. It lasts before the compression of force is turned off
+
+467
+00:44:55.390 --> 00:44:56.390
+David Schaich (he): can be
+
+468
+00:44:57.630 --> 00:45:09.680
+David Schaich (he): extracted without us, or adiabatically. and running out of time. So i'll be it for homework assignments. You will compute that efficiency and see how it compares
+
+469
+00:45:09.730 --> 00:45:10.400
+David Schaich (he): to
+
+470
+00:45:14.900 --> 00:45:16.490
+take any questions before
+
+471
+00:45:16.700 --> 00:45:20.610
+David Schaich (he): setting this aside. Given that it will be on that homework.
+
+472
+00:45:41.370 --> 00:45:42.360
+Yeah.
+
+473
+00:45:42.550 --> 00:45:46.750
+David Schaich (he): that is done to keep it as similar as possible to
+
+474
+00:45:46.820 --> 00:45:59.720
+David Schaich (he): the auto cycle. so of the largest and smallest. And then we after him, too. So the relative sizes of the volume.
+
+475
+00:46:01.740 --> 00:46:13.260
+David Schaich (he): Okay. But the system starting with fresh air. one compress the 2. I injected 3, and then follow that to them.
+
+476
+00:46:15.480 --> 00:46:18.320
+David Schaich (he): So it's labeled By
+
+477
+00:46:18.350 --> 00:46:19.310
+the time.
+
+478
+00:46:19.550 --> 00:46:20.240
+David Schaich (he): I think
+
+479
+00:46:21.270 --> 00:46:31.240
+David Schaich (he): pension goes through the cycle rather than the size it goes to, because going back and forth from one to 2 to 3. But yeah, that is a the observation.
+
+480
+00:46:34.300 --> 00:46:34.960
+David Schaich (he): Okay.
+
+481
+00:46:36.300 --> 00:46:42.320
+David Schaich (he): we did in the cardo cycle, you know. We started the phone system in from the
+
+482
+00:46:42.600 --> 00:46:44.120
+David Schaich (he): with the engine
+
+483
+00:46:44.540 --> 00:46:55.570
+David Schaich (he): kind of a natural place to start is right where the Yes, it's being compressed. Interest in the system. That's the difference with carnival that we are actually solving out one set of particles
+
+484
+00:46:57.070 --> 00:46:58.820
+rather than looking cool.
+
+485
+00:46:59.090 --> 00:47:09.740
+David Schaich (he): Just put them through the tail pipe and not worry about. Oh, unless we're breathing it on the outside. But that one is where we have a fresh.
+
+486
+00:47:09.910 --> 00:47:14.400
+David Schaich (he): that you either air or that mixture of air, and
+
+487
+00:47:16.570 --> 00:47:21.870
+David Schaich (he): that we then work out, to press, burn, and extract our
+
+488
+00:47:22.360 --> 00:47:26.610
+David Schaich (he): turn the wheels in that order. So that's the motivation for
+
+489
+00:47:27.940 --> 00:47:29.790
+David Schaich (he): Well, the labeling is
+
+490
+00:47:30.240 --> 00:47:34.720
+David Schaich (he): independent of the efficiency. You can label it as you see fit.
+
+491
+00:47:35.440 --> 00:47:37.510
+David Schaich (he): That's the justification for it.
+
+492
+00:47:40.020 --> 00:47:42.320
+David Schaich (he): and we are out of time to.
+
+493
+00:47:42.920 --> 00:47:44.750
+If you do anything with
+
+494
+00:47:44.960 --> 00:47:45.540
+David Schaich (he): yeah
+
+495
+00:47:45.830 --> 00:47:50.170
+David Schaich (he): next activity, you can at least take a look at over the break.
+
+496
+00:47:50.470 --> 00:47:54.080
+David Schaich (he): I will up back to canvas, and
+
+497
+00:47:57.430 --> 00:48:09.800
+David Schaich (he): from the modules page I think I put it under the quantum gases that we just started looking at on Tuesday, even though there's not
+
+498
+00:48:11.080 --> 00:48:19.340
+David Schaich (he): anything to quantum about it, especially at the initial stage. And what we talked about how negative temperatures are unnatural.
+
+499
+00:48:20.030 --> 00:48:21.660
+David Schaich (he): I from spin systems.
+
+500
+00:48:22.260 --> 00:48:27.080
+David Schaich (he): and if we recall well, if you have a good memory, this
+
+501
+00:48:27.210 --> 00:48:31.500
+David Schaich (he): thought might look familiar because I showed it on the first day of class as a target that was
+
+502
+00:48:31.530 --> 00:48:32.630
+to get to
+
+503
+00:48:33.030 --> 00:48:35.540
+David Schaich (he): predicting the
+
+504
+00:48:35.730 --> 00:48:42.430
+David Schaich (he): black curves that provide a decent description of experimental measurements of the heat capacities
+
+505
+00:48:42.450 --> 00:48:44.120
+David Schaich (he): of various solids.
+
+506
+00:48:46.140 --> 00:48:49.620
+David Schaich (he): Back when we were working with distinguishable spins
+
+507
+00:48:50.380 --> 00:49:02.600
+David Schaich (he): and looking at their information content, we said that if we had a solid, made up of spins. That is a way to distinguish them. They have a fixed position in the solid. We computed the
+
+508
+00:49:02.820 --> 00:49:06.640
+David Schaich (he): internal energy for a system of distinguishable spins
+
+509
+00:49:07.210 --> 00:49:18.580
+David Schaich (he): that is given by the hyperbolic tangent function of the external magnetic field divided by the temperature. And the question is. first question.
+
+510
+00:49:18.900 --> 00:49:21.960
+David Schaich (he): How well does our spin system results
+
+511
+00:49:22.900 --> 00:49:27.910
+David Schaich (he): reproduce the experimental data points, those black dots
+
+512
+00:49:28.680 --> 00:49:30.560
+David Schaich (he): in this activity.
+
+513
+00:49:31.890 --> 00:49:44.240
+David Schaich (he): So no time left for you to work on that here can be something to keep you entertained. But we don't have a class for the next few weeks. and I will give you a
+
+514
+00:49:44.920 --> 00:49:47.200
+David Schaich (he): forecast that
+
+515
+00:49:47.450 --> 00:49:52.650
+David Schaich (he): the behavior turns out to be bad. And then there is a
+
+516
+00:49:52.690 --> 00:49:56.660
+David Schaich (he): someone smarter approach developed by Einstein
+
+517
+00:49:57.080 --> 00:50:01.200
+David Schaich (he): shortly after his miracle year in 1,905, which, instead of having just
+
+518
+00:50:01.390 --> 00:50:04.630
+David Schaich (he): up and down spins forming the solid.
+
+519
+00:50:04.940 --> 00:50:15.200
+David Schaich (he): Imagine that it consists of that are held in place by talking to all of their neighboring with some springs.
+
+520
+00:50:15.300 --> 00:50:22.740
+David Schaich (he): or more generally, oscillators that carry the energy of the interactions between those atoms.
+
+521
+00:50:23.180 --> 00:50:29.370
+David Schaich (he): So just model modeling the amount of energy in each of these springs
+
+522
+00:50:29.410 --> 00:50:32.890
+David Schaich (he): as it quantized value either 0,
+
+523
+00:50:33.120 --> 00:50:44.700
+David Schaich (he): H. Bar times the characteristic frequency or any integer positive integer multiple of that characters in frequency. 2 Hr. Omega, 3 H. Bar Omega, so on.
+
+524
+00:50:45.000 --> 00:50:46.690
+David Schaich (he): I can get to something
+
+525
+00:50:47.500 --> 00:50:50.230
+David Schaich (he): that is in a bit better. Agreements
+
+526
+00:50:50.270 --> 00:50:58.000
+David Schaich (he): with experiment. with some lingering discrepancies, especially at low temperatures. which
+
+527
+00:51:00.110 --> 00:51:05.120
+David Schaich (he): can only be resolved by accounting for the quantum nature
+
+528
+00:51:05.680 --> 00:51:16.450
+David Schaich (he): of the particles, which is why that's filed under the quantum gases, and not something that we will get to until after that break. So run over time for the recording. Now.
+
+529
+00:51:16.510 --> 00:51:28.830
+David Schaich (he): Sorry not to leave you any time to play with the that heat capacity in the lecture. But hopefully, yeah, that's something you can enjoy during the term Rick last call for
+
+530
+00:51:29.490 --> 00:51:32.790
+David Schaich (he): final questions before shutting down
+
+531
+00:51:34.000 --> 00:51:36.700
+David Schaich (he): that we all intense to.
+
