@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 8}
-\renewcommand{\moddate}{Last modified 21 Mar.~2023}
+\renewcommand{\moddate}{Last modified 16 Apr.~2023}
 \setcounter{section}{8}
 \setcounter{subsection}{0}
 \phantomsection
@@ -125,21 +125,21 @@ Since we have $k_{x, y, z} \geq 1$, the strictly positive energies $\Eph(k) \pro
 
 Another simplification comes from considering the photon gas in a large volume, so that the energies $\Eph(k) \propto k / L$ are very closely spaced and we can approximate the sum over integer $k_{x, y, z}$ by integrals over continuous real $\khat_{x, y, z}$, % TODO: Mention Poisson resummation?...
 \begin{equation*}
-  \Phi_{\text{ph}} \approx 2T \int d\khat_x \; d\khat_y \; d\khat_z \; \log\left[1 - e^{-\be \Eph(\khat)}\right].
+  \Phi_{\text{ph}} \approx 2T \int \log\left[1 - e^{-\be \Eph(\khat)}\right] \mathop{d\khat_x} \mathop{d\khat_y} \mathop{d\khat_z}.
 \end{equation*}
 Since the energy $\Eph(\khat)$ depends only on the magnitude $\khat$, we can profit from converting to spherical coordinates.
 When we do so, we have to keep in mind that $k_{x, y, z} > 0$ corresponds only to the positive octant of the sphere, % TODO: Explicitly justify setting lower bounds to zero?...
 \begin{equation*}
-  \int_0^{\infty} d\khat_x \int_0^{\infty} d\khat_y \int_0^{\infty} d\khat_z = \int_0^{\infty} d\khat \; \khat^2 \int_0^{\pi / 2} d\theta \; \sin\theta \int_0^{\pi / 2} d\phi = \frac{\pi}{2} \int_0^{\infty} d\khat \; \khat^2,
+  \int_0^{\infty} d\khat_x \int_0^{\infty} d\khat_y \int_0^{\infty} d\khat_z = \int_0^{\infty} \khat^2 \mathop{d\khat} \int_0^{\pi / 2} \sin\theta \mathop{d\theta} \int_0^{\pi / 2} d\phi = \frac{\pi}{2} \int_0^{\infty} \khat^2 \mathop{d\khat},
 \end{equation*}
 so that
 \begin{equation*}
-  \Phi_{\text{ph}} \approx \pi T \int_0^{\infty} d\khat \; \khat^2 \log\left[1 - e^{-\be \Eph(\khat)}\right].
+  \Phi_{\text{ph}} \approx \pi T \int_0^{\infty} \khat^2 \log\left[1 - e^{-\be \Eph(\khat)}\right] \mathop{d\khat}.
 \end{equation*}
 We can finally change variables to integrate over the photon angular frequency $\om = c \frac{\pi}{L} k$, with $\Eph = \hbar \om$, to find
 \begin{align}
-  \Phi_{\text{ph}} & \approx \pi T \left(\frac{L}{c \pi}\right)^3 \int_0^{\infty} d\om \; \om^2 \log\left[1 - e^{-\be \hbar \om}\right] \cr
-                   & = \frac{VT}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \log\left[1 - e^{-\be \hbar \om}\right], \label{eq:photon_grand}
+  \Phi_{\text{ph}} & \approx \pi T \left(\frac{L}{c \pi}\right)^3 \int_0^{\infty} \om^2 \log\left[1 - e^{-\be \hbar \om}\right] \mathop{d\om} \cr
+                   & = \frac{VT}{c^3 \pi^2} \int_0^{\infty} \om^2 \log\left[1 - e^{-\be \hbar \om}\right] \mathop{d\om}, \label{eq:photon_grand}
 \end{align}
 recognizing $L^3 = V$.
 With this grand-canonical potential derived, we just need to take the appropriate derivatives to determine the thermodynamics and equation of state for the photon gas.
@@ -173,7 +173,7 @@ You should find
 which is known as the Planck spectrum, named after Max Planck.
 We can equally well consider the Planck spectrum $P(\la)$ as a function of the wavelength $\la = 2\pi c / \om$, by changing variables in the expression above:
 \begin{mdframed}
-  $\displaystyle \frac{\vev{E}_{\text{ph}}}{V} = \frac{\hbar}{c^3 \pi^2} \int_0^{\infty} \frac{\om^3}{e^{\be \hbar \om} - 1} \; d\om = $ \\[120 pt] % WARNING: FORMATTING BY HAND
+  $\displaystyle \frac{\vev{E}_{\text{ph}}}{V} = \frac{\hbar}{c^3 \pi^2} \int_0^{\infty} \frac{\om^3}{e^{\be \hbar \om} - 1} \mathop{d\om} = $ \\[120 pt] % WARNING: FORMATTING BY HAND
 \end{mdframed}
 
 You should find
@@ -194,7 +194,7 @@ In the low-energy infrared limit, the large $\la$ has the same effect that a lar
 The connection to large temperatures indicates that this is what classical statistics would predict for the spectrum of light.
 It is known as the Rayleigh--Jeans spectrum, named after \href{https://en.wikipedia.org/wiki/John_William_Strutt,_3rd_Baron_Rayleigh}{the third Baron Rayleigh} and \href{https://en.wikipedia.org/wiki/James_Jeans}{James Jeans}.
 Recall that the classical approach sums over all possible energies for each degree of freedom, corresponding to a light-emitting object (historically known as a \textit{black body}) emitting light of all wavelengths $\la$.
-According to the classical Rayleigh--Jeans spectrum, in the limit $\la \to 0$ this light would carry an infinite amount of energy, an obvious problem that became known as the \textit{ultraviolet catastrophe}.
+According to the classical Rayleigh--Jeans spectrum, in the limit $\la \to 0$ this light would carry an infinite amount of energy, a problem that became known as the \textit{ultraviolet catastrophe}.
 Planck described his 1900 derivation of the UV-suppressed $P(\la)$ as ``an act of desperation'' to avoid this problem; it turned out to be one of the first steps towards the quantum physics.
 
 Another noteworthy feature of the Planck spectrum shown above is that as the temperature increases, the maximum of $P(\la)$ moves to shorter wavelengths and correspondingly larger energies.
@@ -206,7 +206,7 @@ The agreement isn't perfect, which is to be expected since the Planck spectrum r
 Despite that caveat, numerically fitting the measured sunlight to the Planck spectrum is how this `effective' surface temperature of the sun is determined.
 This same fitting procedure can even be done for distant stars, with red stars corresponding to relatively low temperatures $T \lesssim 3500$~K and blue stars corresponding to relatively high temperatures $T \gtrsim 10{,}000$~K.
 
-\begin{center}\includegraphics[width=0.9\textwidth]{figs/unit08_sun.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
+\begin{center}\includegraphics[width=0.95\textwidth]{figs/unit08_sun.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
 
 Even more remarkably, we can use the Planck spectrum to determine the temperature of intergalactic space.
 Rather than being empty, these voids are actually permeated by a very low-temperature photon gas left over from the Big Bang roughly $14$~billion years ago.
@@ -240,7 +240,7 @@ While more recent satellites have increased the precision with which we know $T_
 \subsection{\label{sec:photon_eos}Equation of state for the photon gas}
 Having looked in some detail at the integrand for the photon gas energy density, \eq{eq:Planck_omega}, let's complete the integration, which involves a famous integral related to the Riemann zeta function:
 \begin{equation*}
-  I_4 = \int_0^{\infty} \frac{x^3}{e^x - 1} dx = \Gamma(4) \zeta(4) = \frac{\pi^4}{15}.
+  I_4 = \int_0^{\infty} \frac{x^3}{e^x - 1} \dx = \Gamma(4) \zeta(4) = \frac{\pi^4}{15}.
 \end{equation*}
 Using this result, what is the average energy density for an ideal photon gas?
 \begin{mdframed}
@@ -256,7 +256,7 @@ It's possible to simplify the current situation by computing the average photon 
 recalling $\mu = 0$ for photon gases.
 The calculation is quite similar to that for the average internal energy density, now involving the integral
 \begin{equation*}
-  I_3 = \int_0^{\infty} \frac{x^2}{e^x - 1} dx = \Gamma(3) \zeta(3) = 2\zeta(3).
+  I_3 = \int_0^{\infty} \frac{x^2}{e^x - 1} \dx = \Gamma(3) \zeta(3) = 2\zeta(3).
 \end{equation*}
 Using this result, what is the average particle number density ideal photon gas?
 \begin{mdframed}
@@ -285,12 +285,12 @@ From \eq{eq:grand_relation} with $\mu = 0$, we have
 \end{equation*}
 Looking back to \eq{eq:photon_grand} for the grand-canonical potential, we see
 \begin{equation*}
-  \frac{\Phi_{\text{ph}}}{T} = \frac{V}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \log\left[1 - e^{-\be \hbar \om}\right] = \frac{VT^3}{\hbar^3 c^3 \pi^2} \int_0^{\infty} dx \; x^2 \log\left[1 - e^{-x}\right],
+  \frac{\Phi_{\text{ph}}}{T} = \frac{V}{c^3 \pi^2} \int_0^{\infty} \om^2 \log\left[1 - e^{-\be \hbar \om}\right] \mathop{d\om} = \frac{VT^3}{\hbar^3 c^3 \pi^2} \int_0^{\infty} x^2 \log\left[1 - e^{-x}\right] \dx,
 \end{equation*}
 changing variables to $x = \be \hbar \om = \hbar \om / T$.
 The final factor in this expression is yet another delightful integral,
 \begin{equation*}
-  \int_0^{\infty} dx \; x^2 \log\left[1 - e^{-x}\right] = -2\zeta(4) = -\frac{\pi^4}{45}.
+  \int_0^{\infty} x^2 \log\left[1 - e^{-x}\right] \dx = -2\zeta(4) = -\frac{\pi^4}{45}.
 \end{equation*}
 Since this gives us $S \propto VT^3$, we can conclude that the condition of constant entropy for a photon gas is $V T^3 = \mbox{constant}$, in contrast to the $V T^{3/2}$ dependence of \eq{eq:ideal_entropy} for classical non-relativistic particles.
 
@@ -581,8 +581,8 @@ Due to these negative signs, when we compute derived quantities by taking deriva
 \end{align*}
 we will encounter slightly different but equally enjoyable integrals, % Fermi-Dirac integral involving polylog of -1 related to Dirichlet eta function
 \begin{align*}
-  \int_0^{\infty} \frac{x^3}{e^x + 1} dx & = \left(1 - \frac{1}{2^3}\right) \Gamma(4) \zeta(4) = \frac{7\pi^4}{120}, \\
-  \int_0^{\infty} \frac{x^2}{e^x + 1} dx & = \left(1 - \frac{1}{2^2}\right) \Gamma(3) \zeta(3) = \frac{3}{2} \zeta(3).
+  \int_0^{\infty} \frac{x^3}{e^x + 1} \dx & = \left(1 - \frac{1}{2^3}\right) \Gamma(4) \zeta(4) = \frac{7\pi^4}{120}, \\
+  \int_0^{\infty} \frac{x^2}{e^x + 1} \dx & = \left(1 - \frac{1}{2^2}\right) \Gamma(3) \zeta(3) = \frac{3}{2} \zeta(3).
 \end{align*}
 Using these results, what are the average internal energy density and the average particle number density for a gas of massless fermions?
 \begin{mdframed}
@@ -592,7 +592,7 @@ Using these results, what are the average internal energy density and the averag
 
 You should again find $\vev{E}_{\nu} \propto \vev{N}_{\nu} T \propto VT^4$, and by noting that
 \begin{equation*}
-  \frac{\Phi_{\nu}}{T} = \frac{V}{c^3 \pi^2} \left(\frac{T}{\hbar}\right)^3 \int_0^{\infty} dx \; x^2 \log\left[1 + e^{-x}\right] \propto VT^3,
+  \frac{\Phi_{\nu}}{T} = \frac{V}{c^3 \pi^2} \left(\frac{T}{\hbar}\right)^3 \int_0^{\infty} x^2 \log\left[1 + e^{-x}\right] \propto VT^3 \dx,
 \end{equation*}
 we can see that the entropy $S_{\nu} = \left(E_{\nu} - \Phi_{\nu}\right) / T$ is constant when $V T^3 = \mbox{constant}$.
 Applying this, what is the pressure for a gas of massless fermions?
@@ -666,7 +666,7 @@ The first step in the Sommerfeld expansion is integrating by parts:
 
 Changing variables to $x \equiv \be(E - \mu)$, you should find
 \begin{equation*}
-  \vev{N}_{\text{f}} = \frac{2}{3} g_0 \int_{-\be\mu}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \; dx.
+  \vev{N}_{\text{f}} = \frac{2}{3} g_0 \int_{-\be\mu}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \dx.
 \end{equation*}
 This is not obviously simpler than the expression we started with, but has the benefit of being exponentially suppressed for \textit{both}
 \begin{align*}
@@ -681,7 +681,7 @@ This is illustrated by the plot below, which shows the exponential suppression s
 These considerations justify two low-temperature approximations.
 First, recalling $\mu > 0$ at low temperatures, for large \be we are free to extend the lower limit of the integral to obtain a more convenient domain of integration,
 \begin{equation*}
-  \vev{N}_{\text{f}} = \frac{2}{3} g_0 \int_{-\be\mu}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \; dx \approx \frac{2}{3} g_0 \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \; dx.
+  \vev{N}_{\text{f}} = \frac{2}{3} g_0 \int_{-\be\mu}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \dx \approx \frac{2}{3} g_0 \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \dx.
 \end{equation*}
 Second, we can expand $E^{3 / 2}$ in a Taylor series around $E = \mu$, and truncate after the first few terms:
 \begin{align*}
@@ -691,12 +691,12 @@ Second, we can expand $E^{3 / 2}$ in a Taylor series around $E = \mu$, and trunc
 
 Switching to work with $T = 1 / \be$, the Sommerfeld expansion has given us a series of manageable integrals we can consider one by one:
 \begin{equation*}
-  \vev{N}_{\text{f}} \approx \frac{2}{3} g_0 \mu^{3 / 2} \Ibb_1 + g_0 T \mu^{1 / 2} \Ibb_2 + \frac{g_0 T^2}{4\mu^{1 / 2}} \Ibb_3.
+  \vev{N}_{\text{f}} \approx \frac{2}{3} g_0 \mu^{3 / 2} \Ibb_0 + g_0 T \mu^{1 / 2} \Ibb_1 + \frac{g_0 T^2}{4\mu^{1 / 2}} \Ibb_2.
 \end{equation*}
 \begin{mdframed}
-  $\displaystyle \Ibb_1 = \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} \; dx = $ \\[80 pt]
-  $\displaystyle \Ibb_2 = \int_{-\infty}^{\infty} \frac{x e^x}{\left(e^x + 1\right)^2} \; dx = $ \\[80 pt]
-  $\displaystyle \Ibb_3 = \int_{-\infty}^{\infty} \frac{x^2 e^x}{\left(e^x + 1\right)^2} \; dx = $ \\[110 pt] % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
+  $\displaystyle \Ibb_0 = \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} \dx = $ \\[80 pt]
+  $\displaystyle \Ibb_1 = \int_{-\infty}^{\infty} \frac{x e^x}{\left(e^x + 1\right)^2} \dx = $ \\[80 pt]
+  $\displaystyle \Ibb_2 = \int_{-\infty}^{\infty} \frac{x^2 e^x}{\left(e^x + 1\right)^2} \dx = $ \\[110 pt] % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
 \end{mdframed}
 Collecting the results and restoring $g_0 = V \frac{\sqrt{2m^3}}{\pi^2 \hbar^3}$, you should find
 \begin{equation*}
@@ -724,7 +724,7 @@ which confirms our earlier claim $\mu \leq E_F$, and reveals that the leading co
 The calculation is essentially the same for the internal energy from \eq{eq:DoS_full}.
 With $E^{3 / 2}$ in place of $E^{1 / 2}$, integrating by parts just gives
 \begin{equation*}
-  \vev{E}_{\text{f}} = g_0 \int_0^{\infty} \frac{E^{3 / 2}}{e^{\be(E - \mu)} + 1} dE \approx \frac{2}{5} g_0 \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{5 / 2} \; dx
+  \vev{E}_{\text{f}} = g_0 \int_0^{\infty} \frac{E^{3 / 2}}{e^{\be(E - \mu)} + 1} dE \approx \frac{2}{5} g_0 \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{5 / 2} \dx
 \end{equation*}
 with the same $x = \be(E - \mu)$ and extended lower limit of integration.
 The Taylor expansion
@@ -733,7 +733,7 @@ The Taylor expansion
 \end{equation*}
 also produces the same integrals, with different coefficients:
 \begin{equation*}
-  \vev{E}_{\text{f}} \approx \frac{2}{5} g_0 \mu^{5 / 2} \Ibb_1 + g_0 T \mu^{3 / 2} \Ibb_2 + \frac{3}{4} g_0 T^2 \mu^{1 / 2} \Ibb_3 = \frac{2}{5} g_0 \mu^{5 / 2} + \frac{1}{4} g_0 \pi^2 T^2 \mu^{1 / 2}.
+  \vev{E}_{\text{f}} \approx \frac{2}{5} g_0 \mu^{5 / 2} \Ibb_0 + g_0 T \mu^{3 / 2} \Ibb_1 + \frac{3}{4} g_0 T^2 \mu^{1 / 2} \Ibb_2 = \frac{2}{5} g_0 \mu^{5 / 2} + \frac{1}{4} g_0 \pi^2 T^2 \mu^{1 / 2}.
 \end{equation*}
 Inserting $g_0 = \frac{3\vev{N}_{\text{f}}}{2E_F^{3 / 2}}$, we have
 \begin{equation*}
@@ -760,13 +760,13 @@ For the purpose of numerical analysis, it's best to express everything in terms 
 \end{align*}
 Also inserting $g_0 = \frac{3\vev{N}_{\text{f}}}{2E_F^{3 / 2}}$, we have
 \begin{equation*}
-  \vev{N}_{\text{f}} = \frac{3\vev{N}_{\text{f}}}{2E_F^{3 / 2}} \int_0^{\infty} \frac{\sqrt{E}}{e^{\be(E - \mu)} + 1} dE = \frac{3\vev{N}_{\text{f}}}{2} t^{3 / 2} \int_0^{\infty} \frac{\sqrt{x} e^{-x}}{e^{-c / t} + e^{-x}} dx,
+  \vev{N}_{\text{f}} = \frac{3\vev{N}_{\text{f}}}{2E_F^{3 / 2}} \int_0^{\infty} \frac{\sqrt{E}}{e^{\be(E - \mu)} + 1} dE = \frac{3\vev{N}_{\text{f}}}{2} t^{3 / 2} \int_0^{\infty} \frac{\sqrt{x} e^{-x}}{e^{-c / t} + e^{-x}} \dx,
 \end{equation*}
 working with small $e^{-\be E} = e^{-x}$ rather than large $e^x$ to avoid numerical overflow.
 
 As in \eq{eq:mu_vs_T}, $\vev{N}_{\text{f}}$ drops out, and we end up with the consistency condition
 \begin{equation}
-  1 = \frac{3}{2} t^{3 / 2} \int_0^{\infty} \frac{\sqrt{x} e^{-x}}{e^{-c / t} + e^{-x}} dx.
+  1 = \frac{3}{2} t^{3 / 2} \int_0^{\infty} \frac{\sqrt{x} e^{-x}}{e^{-c / t} + e^{-x}} \dx.
 \end{equation}
 If we fix the temperature $t = T / E_F$ in units of the Fermi energy, by repeatedly evaluating this integral with different values of $c = \mu / E_F$ we can determine the self-consistent value of the chemical potential, also in units of the Fermi energy.
 The red $\times$'s in the figure below are results of such work for eleven temperatures $0.1 \leq t \leq 2$, compared to the $\cO\left(t^2\right)$ result from the Sommerfeld expansion, \eq{eq:mu_vs_T}.
