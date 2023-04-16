@@ -1,0 +1,179 @@
+% ------------------------------------------------------------------
+\documentclass[12 pt]{article} % A4 paper set by geometry package below
+\pagenumbering{arabic}
+\setlength{\parindent}{10 mm}
+\setlength{\parskip}{12 pt}
+
+% Nimbus Sans font should be reasonably legible
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}  % Without this \textsterling produces $
+
+% Section header spacing
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{verbatim}    % For comment
+\usepackage[shortlabels]{enumitem}
+\usepackage[paper=a4paper, marginparwidth=0 cm, marginparsep=0 cm, top=2.5 cm, bottom=2.5 cm, left=3 cm, right=3 cm, includemp]{geometry}
+\usepackage[pdftex, pdfstartview={FitH}, pdfnewwindow=true, colorlinks=true, citecolor=blue, filecolor=blue, linkcolor=blue, urlcolor=blue, pdfpagemode=UseNone]{hyperref}
+
+% Put module code and last-modified date in footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{{\small \thisweek}\hfill \thepage\hfill {\small \moddate}}
+
+% Hopefully address Canvas complaints about pdf tagging and title
+%\usepackage[tagged]{accessibility}
+\hypersetup {
+  pdfauthor={David Schaich},
+  pdftitle={Statistical Physics Homework},
+}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+% Shortcuts
+\newcommand{\be}{\ensuremath{\beta} }
+\newcommand{\la}{\ensuremath{\lambda} }
+\newcommand{\Om}{\ensuremath{\Omega} }
+\newcommand{\vev}[1]{\ensuremath{\left\langle #1 \right\rangle} }
+\newcommand{\pderiv}[2]{\ensuremath{\frac{\partial #1}{\partial #2}} }
+\newcommand{\showmarks}[1]{\rightline{\texttt{[#1 marks]}}} % \showmarks needs to follow a blank line!
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\begin{document}
+\newcommand{\thisweek}{MATH327 Homework 2}
+\newcommand{\moddate}{Last modified 13 Apr.~2023}
+\begin{center}
+  {\Large \textbf{MATH327: Statistical Physics, Spring 2023}} \\[12 pt]
+  {\Large \textbf{Homework assignment 2}} \\[24 pt]
+\end{center}
+
+\section*{Instructions}
+Complete all four questions below and submit your solutions by file upload \href{https://liverpool.instructure.com/courses/60601/assignments/226601}{on Canvas}.
+By submitting solutions to this assessment you affirm that you have read and understood the \href{https://www.liverpool.ac.uk/media/livacuk/tqsd/code-of-practice-on-assessment/appendix_L_cop_assess.pdf}{Academic Integrity Policy} detailed in Appendix L of the Code of Practice on Assessment and have successfully passed the Academic Integrity Tutorial and Quiz.
+The marks achieved on this assessment remain provisional until they are ratified by the Board of Examiners in June 2023.
+Clear and neat presentations of your workings and the logic behind them will contribute to your mark.
+This assignment is \textbf{due by 17:00 on Wednesday, 3 May}.
+Anonymous marking is turned on and I will aim to return feedback by 14 May. % Can use make-up lecture on the 15th to go over any generic issues...
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\vfill
+\section*{Question 1: Indistinguishable spins}
+In Section~3.4.2 of the lecture notes, we computed the Helmholtz free energy for $N \gg 1$ indistinguishable spins (Eq.~45):
+\begin{equation*}
+  F_I(\be) = -NH - \frac{\log\left[1 - e^{-2(N + 1) \be H}\right]}{\be} + \frac{\log\left[1 - e^{-2 \be H}\right]}{\be}.
+\end{equation*}
+What are the corresponding expressions for the internal energy $\vev{E}_I$ and the entropy $S_I$?
+
+\showmarks{6}
+
+What are the first \textbf{two} non-zero terms in \textbf{each} low-temperature ($e^{-2\be H} \ll 1$) expansion of $\vev{E}_I$ and $S_I$?
+
+\showmarks{12}
+
+What is the first non-zero term in the high-temperature ($\be H \ll 1$) expansion of $\vev{E}_I$?
+What are the first \textbf{two} non-zero terms in the high-temperature expansion of $S_I$?
+
+\showmarks{12}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\newpage
+\section*{Question 2: Mixed ideal gases}
+Consider a mixture of two classical ideal gases in thermodynamic equilibrium, in a container of volume $V$ at temperature $T$, like that illustrated below.
+Let $N_1$ and $N_2$ be the fixed particle numbers of the two gases.
+Within each gas the particles are indistinguishable, but particles of one gas are distinguishable from particles of the other gas.
+In particular, they have different masses $m_1$ and $m_2$, implying different thermal de~Broglie wavelengths $\la_1$ and $\la_2$.
+
+\begin{center}\includegraphics[width=0.5\textwidth]{figs/mixed.pdf}\end{center}
+
+\begin{enumerate}[label={(\alph*)}]
+  \item Calculate the canonical partition function $Z$ and the Helmholtz free energy of the ($N_1 + N_2$)-particle mixture, approximating $\log(N_i!) \approx N_i\log N_i - N_i$.
+
+  \showmarks{6}
+
+  \item Calculate the internal energy $\vev{E}$ and the entropy $S$ of the mixture.
+        What is the condition of constant entropy?
+
+  \showmarks{6}
+
+  \item Calculate the pressure $P$ of the mixture, and relate it to the pressures $P_1$ and $P_2$ of each gas in isolation (as illustrated below).
+
+  \showmarks{6}
+\end{enumerate}
+
+\begin{center}\includegraphics[width=0.3\textwidth]{figs/red.pdf}\hspace{0.3\textwidth}\includegraphics[width=0.3\textwidth]{figs/blue.pdf}\end{center}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\newpage
+\section*{Question 3: Thermodynamic cycle}
+Consider the Diesel cycle defined by the $PV$~diagram shown below, in which the `compression' stage $1 \to 2$ and the `power' stage $3 \to 4$ are both adiabatic, while the pressure is constant during the `injection/ignition' stage $2 \to 3$, and the volume is constant during the `exhaust' stage $4 \to 1$.
+
+\begin{center}\includegraphics[width=0.7\textwidth]{figs/Diesel.pdf}\end{center}
+
+Calculate the efficiency of the Diesel cycle, $\eta_D$, in terms of the compression ratio $r \equiv V_1 / V_2 > 1$ and the cutoff ratio $C \equiv V_3 / V_2 > 1$, where $C < r$.
+
+\showmarks{20}
+
+Fixing the compression ratio $r$, compare $\eta_D$ to the efficiency of the Otto cycle.
+Is the Diesel cycle more efficient than the Otto cycle, less efficient, or the same?
+How does this comparison depend on the cutoff ratio $C$?
+
+\showmarks{8}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\newpage % Doesn't all fit on same page as Diesel cycle question...
+\section*{Question 4: Magnetization}
+Consider a classical system of $N$ distinguishable, non-interacting `spins' in a lattice at temperature $T = 1 / \be$, where the value $s_n$ of each spin can vary \emph{continuously} in the range $-1 \leq s_n \leq 1$.
+In an external magnetic field of strength $H > 0$, the internal energy of the system is $\displaystyle E = -H \sum_{n = 1}^N s_n$.
+
+\begin{enumerate}[label={(\alph*)}]
+  \item Calculate the canonical partition function $Z$ and the Helmholtz free energy $F$ of the system, both as functions of $\be H$.
+
+        \textbf{Hint:} Just like the continuous momenta considered in Sections 4.1 and 8.1 of the lecture notes, you will need to integrate over the continuous $s_n$.
+
+  \showmarks{8}
+
+  \item The derivative of the Helmholtz free energy with respect to the magnetic field defines the magnetization
+        \begin{equation*}
+          \vev{m} = -\frac{1}{N} \pderiv{F}{H}.
+        \end{equation*}
+        Assuming finite $H > 0$, calculate $\vev{m}$ for this system as a function of $\be H$, and determine its low- and high-temperature limits, $\displaystyle \lim_{T \to 0} \vev{m}$ and $\displaystyle \lim_{T \to \infty} \vev{m}$.
+
+  \showmarks{8}
+
+\item Calculate the leading $T$-dependent correction to \textbf{each} of the low- and high-temperature limits of $\vev{m}$ from the previous part.
+
+  \showmarks{8}
+\end{enumerate}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\end{document}
+% ------------------------------------------------------------------
