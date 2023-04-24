@@ -1,0 +1,2062 @@
+WEBVTT
+
+1
+00:00:02.520 --> 00:00:06.780
+David Schaich (he): All right, we'll get going now, so that there will still be plenty of
+
+2
+00:00:06.890 --> 00:00:15.650
+David Schaich (he): sun left when we wrap up.  There are some in the room, some online, and some I'm sure enjoying the first warm, sunny day
+
+3
+00:00:15.740 --> 00:00:18.430
+David Schaich (he): that I can recall.
+
+4
+00:00:20.770 --> 00:00:23.380
+David Schaich (he): So, we have the afternoon of Tuesday, the 18th of April.
+
+5
+00:00:28.710 --> 00:00:33.370
+David Schaich (he): I'm just barely able to see what I am writing on the
+
+6
+00:00:33.490 --> 00:00:35.200
+David Schaich (he): screen, even with the
+
+7
+00:00:35.710 --> 00:00:39.690
+David Schaich (he): blinds closed.  But I can write down the six-digit code for today: 4, 3, 4, 9, 1, 1.
+
+8
+00:00:47.170 --> 00:00:53.070
+David Schaich (he): And the plan for today is just to pick up where we left off
+
+9
+00:00:53.090 --> 00:01:00.580
+David Schaich (he): yesterday: Wrap up the photon gas and go through a similar sort of exercise for fermions, looking at different limits of behaviour of ideal quantum gases.
+
+10
+00:01:05.580 --> 00:01:07.310
+David Schaich (he): So, as a reminder, for
+
+11
+00:01:09.070 --> 00:01:13.080
+David Schaich (he): a photon gas based on
+
+12
+00:01:19.810 --> 00:01:21.930
+David Schaich (he): the grand-canonical ensemble allowing the particle number and energy
+
+13
+00:01:23.060 --> 00:01:27.510
+David Schaich (he): to vary with fixed temperature and chemical potential.
+
+14
+00:01:29.450 --> 00:01:33.040
+David Schaich (he): Trying that to in quantum
+
+15
+00:01:33.090 --> 00:01:35.460
+David Schaich (he): goes on science, statistics.
+
+16
+00:01:36.710 --> 00:01:39.260
+David Schaich (he): those phones in which 4 times are
+
+17
+00:01:44.430 --> 00:01:55.730
+David Schaich (he): we certainly, from the read it through the potential you can derive it. Companies of interest. First of all
+
+18
+00:01:56.140 --> 00:02:01.050
+David Schaich (he): the average energy density for the protons per UN
+
+19
+00:02:01.210 --> 00:02:13.030
+David Schaich (he): that we wrote. Yes. I need to move over you so called spectral function. That is equally well. A function of angular frequency. Omega.
+
+20
+00:02:13.410 --> 00:02:26.710
+David Schaich (he): you wanna the what you flying for the where this particular spectral function that it's
+
+21
+00:02:30.600 --> 00:02:35.890
+David Schaich (he): like spectrum you derive. It's 2 forms.
+
+22
+00:02:37.110 --> 00:02:39.480
+David Schaich (he): It's functions that I the frequency.
+
+23
+00:02:43.120 --> 00:02:47.560
+David Schaich (he): What a wavelength! In both cases we have
+
+24
+00:02:48.980 --> 00:02:53.450
+David Schaich (he): some pre-factor with unit conversion factors that
+
+25
+00:02:53.520 --> 00:03:04.470
+David Schaich (he): the speed of let's see. And then the ratio. In this case of frequency to the exponential actor. the energy divided by the temperature
+
+26
+00:03:08.110 --> 00:03:08.940
+with you.
+
+27
+00:03:08.970 --> 00:03:10.430
+David Schaich (he): minus one
+
+28
+00:03:12.660 --> 00:03:15.400
+David Schaich (he): in terms of wavelength.
+
+29
+00:03:18.020 --> 00:03:19.660
+We also recall that the
+
+30
+00:03:20.020 --> 00:03:26.980
+David Schaich (he): wavelength and the angular frequency are related by the speed of the wave, which is the speed of lights for light.
+
+31
+00:03:27.470 --> 00:03:32.850
+David Schaich (he): So swapping frequency for wavelength in these integrals
+
+32
+00:03:33.880 --> 00:03:39.130
+David Schaich (he): takes the power of frequency and denominator, and it turns into
+
+33
+00:03:41.420 --> 00:03:45.120
+David Schaich (he): the nominator, went through the accounting that there are
+
+34
+00:03:45.310 --> 00:03:47.580
+David Schaich (he): it over 5 h
+
+35
+00:03:50.630 --> 00:03:51.890
+David Schaich (he): in the usual
+
+36
+00:03:52.890 --> 00:04:02.670
+David Schaich (he): one over exponential 2 Pi Beta, H. R. C. Over Lambda minus one term. Yeah, we saw that
+
+37
+00:04:02.930 --> 00:04:04.980
+David Schaich (he): compared to some
+
+38
+00:04:05.230 --> 00:04:16.200
+David Schaich (he): observational data. the sun, stars, and cosmic microwave. All of that data was
+
+39
+00:04:17.000 --> 00:04:20.490
+David Schaich (he): very well described by the simple functions
+
+40
+00:04:21.550 --> 00:04:23.840
+David Schaich (he): that are based on
+
+41
+00:04:24.810 --> 00:04:30.130
+David Schaich (he): derivations. Assuming that non interacting ideal gas, the photons.
+
+42
+00:04:32.350 --> 00:04:33.360
+David Schaich (he): So the
+
+43
+00:04:36.730 --> 00:04:41.250
+David Schaich (he): extent to which this ideal gas provides a good description.
+
+44
+00:04:42.570 --> 00:04:46.210
+David Schaich (he): that sort of observational video you for both
+
+45
+00:04:47.530 --> 00:04:51.100
+David Schaich (he): objects with temperatures a 1,000 killed, and you
+
+46
+00:04:53.200 --> 00:04:57.630
+David Schaich (he): just a couple of how about absolute 0
+
+47
+00:04:58.920 --> 00:05:00.120
+David Schaich (he): use illustrating
+
+48
+00:05:01.420 --> 00:05:09.120
+David Schaich (he): power of statistical physics, even with fairly extreme assumptions about the form of interactions. In this case their absence.
+
+49
+00:05:09.440 --> 00:05:13.760
+David Schaich (he): So call to see if there are questions about where we got up to
+
+50
+00:05:14.720 --> 00:05:16.040
+David Schaich (he): yesterday.
+
+51
+00:05:22.150 --> 00:05:24.160
+David Schaich (he): not seeing any. You can
+
+52
+00:05:24.850 --> 00:05:29.560
+David Schaich (he): charge ahead with this expression for the energy density in terms of
+
+53
+00:05:29.910 --> 00:05:37.560
+David Schaich (he): with my spectrum. and yes. finish. The conversation might actually carry out
+
+54
+00:05:39.340 --> 00:05:40.550
+David Schaich (he): this integral
+
+55
+00:05:45.490 --> 00:05:48.680
+David Schaich (he): for that future, giving me. So i'll put the volume back on
+
+56
+00:05:51.060 --> 00:05:56.730
+David Schaich (he): the right inside of this expression. It is 20 in that you like spectrum
+
+57
+00:05:56.930 --> 00:05:59.310
+David Schaich (he): in terms of frequency
+
+58
+00:06:00.440 --> 00:06:02.880
+David Schaich (he): that has. and
+
+59
+00:06:04.940 --> 00:06:06.340
+David Schaich (he): very phone.
+
+60
+00:06:06.630 --> 00:06:10.940
+David Schaich (he): If we change variables to
+
+61
+00:06:11.110 --> 00:06:17.030
+David Schaich (he): some X's beta h bar omega. So the photon energy divided by temperature
+
+62
+00:06:22.080 --> 00:06:25.980
+David Schaich (he): you is that
+
+63
+00:06:26.030 --> 00:06:28.950
+David Schaich (he): over H bar
+
+64
+00:06:29.920 --> 00:06:32.660
+David Schaich (he): the next. So plugging in
+
+65
+00:06:36.960 --> 00:06:39.170
+David Schaich (he): this change of variables for the
+
+66
+00:06:39.190 --> 00:06:45.780
+David Schaich (he): 3 powers of frequency. You have the deal, and you get 4 factors of this ratio of temperature
+
+67
+00:06:46.380 --> 00:06:48.090
+David Schaich (he): over planks. Constant
+
+68
+00:06:52.770 --> 00:06:58.620
+David Schaich (he): the ratio X to over the X minus one. Dx wish
+
+69
+00:06:59.780 --> 00:07:07.340
+David Schaich (he): is a a little bit too complicated for a smaller going through as a derivation here in now.
+
+70
+00:07:07.350 --> 00:07:12.150
+David Schaich (he): but it is a famous integral that I see this one off the screen.
+
+71
+00:07:12.550 --> 00:07:14.560
+David Schaich (he): There is that change of variables.
+
+72
+00:07:15.730 --> 00:07:20.410
+David Schaich (he): the famous integral, because it has a very delicious spell. It turns out to be
+
+73
+00:07:21.580 --> 00:07:25.610
+David Schaich (he): work through it your own time, the product of
+
+74
+00:07:26.460 --> 00:07:29.890
+David Schaich (he): the you have a function of 4 to this
+
+75
+00:07:30.680 --> 00:07:35.340
+David Schaich (he): 3 factorial or 6 Zeta function.
+
+76
+00:07:36.360 --> 00:07:37.830
+David Schaich (he): also of 4.
+
+77
+00:07:46.150 --> 00:07:52.970
+David Schaich (he): The remote data function for 4 is 4 powers of pie divided by 90.
+
+78
+00:07:57.230 --> 00:07:58.450
+So remind me.
+
+79
+00:07:59.020 --> 00:07:59.650
+David Schaich (he): yeah.
+
+80
+00:08:00.250 --> 00:08:04.710
+David Schaich (he): end result for the average internal energy.
+
+81
+00:08:05.670 --> 00:08:10.780
+David Schaich (he): That is kind of the fourth over 2 powers of I square
+
+82
+00:08:12.990 --> 00:08:15.330
+David Schaich (he): 90 over 6 is 15,
+
+83
+00:08:16.280 --> 00:08:17.410
+and there are
+
+84
+00:08:17.450 --> 00:08:21.760
+David Schaich (he): 3 h of H bar and 3 h of C left over.
+
+85
+00:08:24.540 --> 00:08:26.020
+David Schaich (he): because I see, as a
+
+86
+00:08:26.510 --> 00:08:32.500
+David Schaich (he): next combination that has dimensions of energy, times length. Those are the units that
+
+87
+00:08:32.530 --> 00:08:35.240
+David Schaich (he): those factors.
+
+88
+00:08:36.130 --> 00:08:46.530
+David Schaich (he): and you know, similar to that connection between energy length. We want some lengths on the right hand side we have a volume, and then 4 h
+
+89
+00:08:47.060 --> 00:08:54.980
+David Schaich (he): of the temperature, and that is a small, compact expression for the average internal energy
+
+90
+00:08:55.460 --> 00:08:59.680
+David Schaich (he): in terms of so the the
+
+91
+00:08:59.950 --> 00:09:02.810
+David Schaich (he): the fourth power of the temperature.
+
+92
+00:09:03.830 --> 00:09:04.950
+David Schaich (he): you know
+
+93
+00:09:06.650 --> 00:09:10.470
+David Schaich (he): we call that for classical
+
+94
+00:09:14.200 --> 00:09:15.280
+David Schaich (he): gases
+
+95
+00:09:17.540 --> 00:09:19.040
+David Schaich (he): that will be first
+
+96
+00:09:22.750 --> 00:09:24.360
+David Schaich (he): statistical physics.
+
+97
+00:09:29.510 --> 00:09:35.190
+David Schaich (he): One of the main results we derive is that the
+
+98
+00:09:35.490 --> 00:09:39.400
+David Schaich (he): it's just 3 half times the number of particles times the temperature.
+
+99
+00:09:40.820 --> 00:09:50.590
+David Schaich (he): if we want to. It's something of a similar form here for a quantum grand canonical relativistic. I feel gas at both phones.
+
+100
+00:09:53.390 --> 00:10:02.360
+David Schaich (he): We need to do something about that number of particles which was fixed in the canonical case, but fluctuating it.
+
+101
+00:10:02.460 --> 00:10:03.730
+David Schaich (he): it's another
+
+102
+00:10:07.770 --> 00:10:11.890
+David Schaich (he): compute from the Grand Canonical partition function.
+
+103
+00:10:13.180 --> 00:10:19.700
+David Schaich (he): Now we started off with yesterday after the break. In particular.
+
+104
+00:10:20.260 --> 00:10:25.850
+David Schaich (he): the expression be right before the break, for the average political number and canonical ensemble
+
+105
+00:10:26.400 --> 00:10:28.450
+David Schaich (he): was. How are you?
+
+106
+00:10:31.480 --> 00:10:39.880
+David Schaich (he): The grand canonical potential with respect to the chemical potential, You and you I did yesterday that you 40 foot on Jas
+
+107
+00:10:39.920 --> 00:10:46.030
+David Schaich (he): is approximately 0. This photons are easy to create and destroy all the kind of bolding, much energy.
+
+108
+00:10:46.820 --> 00:10:48.480
+David Schaich (he): So after we take
+
+109
+00:10:48.860 --> 00:10:50.680
+David Schaich (he): that derivative. Of the
+
+110
+00:10:53.140 --> 00:10:54.330
+David Schaich (he): good for you.
+
+111
+00:10:54.860 --> 00:11:00.340
+David Schaich (he): functional expression for the particle number, we would be able to set the chemical potential to 0
+
+112
+00:11:00.430 --> 00:11:02.530
+David Schaich (he): to simplify that expression.
+
+113
+00:11:04.290 --> 00:11:05.750
+David Schaich (he): So let's go ahead and
+
+114
+00:11:07.250 --> 00:11:08.450
+David Schaich (he): do that.
+
+115
+00:11:10.910 --> 00:11:16.150
+David Schaich (he): The screen economical potential you looked at just yesterday.
+
+116
+00:11:16.310 --> 00:11:19.060
+David Schaich (he): We'll implicitly rewrite it by.
+
+117
+00:11:19.310 --> 00:11:22.950
+David Schaich (he): I can get into this expression
+
+118
+00:11:23.850 --> 00:11:28.640
+David Schaich (he): negative sign out for us
+
+119
+00:11:30.550 --> 00:11:32.140
+David Schaich (he): Google frequencies
+
+120
+00:11:33.320 --> 00:11:36.740
+David Schaich (he): from 0 to infinity of the frequency squared. And then.
+
+121
+00:11:36.760 --> 00:11:37.350
+yeah.
+
+122
+00:11:39.830 --> 00:11:43.420
+David Schaich (he): that depends on the chemical potential.
+
+123
+00:11:46.150 --> 00:11:47.070
+David Schaich (he): and
+
+124
+00:11:48.830 --> 00:11:51.780
+David Schaich (he): will be affected by the derivative
+
+125
+00:11:56.280 --> 00:11:58.300
+David Schaich (he): So this is not
+
+126
+00:11:58.310 --> 00:12:02.610
+quite similar to the derivative that we computed to get the energy that state
+
+127
+00:12:02.760 --> 00:12:12.150
+David Schaich (he): in the first place, just taking the derivative with respect to the chemical potential mute instead of the inverse temperature data.
+
+128
+00:12:14.430 --> 00:12:18.140
+David Schaich (he): So what i'm just out of this
+
+129
+00:12:24.380 --> 00:12:28.480
+David Schaich (he): is the
+
+130
+00:12:28.530 --> 00:12:30.540
+David Schaich (he): not.
+
+131
+00:12:35.160 --> 00:12:44.740
+David Schaich (he): And then with the chain rule, let me have You'll get a square from before be happy. negative factor of those exponentials.
+
+132
+00:12:47.850 --> 00:12:54.130
+David Schaich (he): And then we bring down the derivative of the exponential factor. With respect to the issues
+
+133
+00:12:56.770 --> 00:12:58.200
+David Schaich (he): itself. Steve
+
+134
+00:12:58.410 --> 00:13:01.670
+David Schaich (he): Beta is going to cancel out with the
+
+135
+00:13:01.890 --> 00:13:09.360
+David Schaich (he): University of the temperature. See negative signs also cancel. and let me know
+
+136
+00:13:13.910 --> 00:13:15.840
+David Schaich (he): the vanishing chemical, potential
+
+137
+00:13:19.900 --> 00:13:24.990
+David Schaich (he): and simple. I to this usual.
+
+138
+00:13:26.260 --> 00:13:40.170
+David Schaich (he): and then integral over so dividing E to the minus as he enters you integral
+
+139
+00:13:41.440 --> 00:13:46.180
+David Schaich (he): E to the Beta h bar Omega, minus one in the denominator, and Omega squared
+
+140
+00:13:47.290 --> 00:13:48.110
+David Schaich (he): the omega
+
+141
+00:13:49.410 --> 00:13:51.450
+David Schaich (he): in the numerator, which
+
+142
+00:13:52.070 --> 00:13:58.570
+David Schaich (he): actually, if we go back to the planning spectrum. you can see that the up to the factor of the that we.
+
+143
+00:14:01.130 --> 00:14:07.840
+David Schaich (he): this integral differs only by a factor of H. Bar Omega, which is the energy of the photons which
+
+144
+00:14:07.960 --> 00:14:13.590
+David Schaich (he): make some sense. We want the energy of the photon gas. What we need to do is
+
+145
+00:14:14.460 --> 00:14:17.560
+David Schaich (he): integrate not only over the number, but over the
+
+146
+00:14:17.780 --> 00:14:19.350
+David Schaich (he): number of hotels
+
+147
+00:14:19.510 --> 00:14:24.880
+David Schaich (he): as a function of frequency weighted by the energy that they carry. H. Bar Omega
+
+148
+00:14:25.050 --> 00:14:26.430
+David Schaich (he): something that
+
+149
+00:14:27.060 --> 00:14:29.520
+David Schaich (he): we will make use of when
+
+150
+00:14:29.650 --> 00:14:39.900
+David Schaich (he): you turn to the next. It provides a little trip. Yeah would have allowed us to jump straight from the like spectrum. 2 mis results without
+
+151
+00:14:40.990 --> 00:14:47.790
+David Schaich (he): of the derivative steps at reproduced. That answer we can justify physically
+
+152
+00:14:49.860 --> 00:14:57.450
+David Schaich (he): making the same change of variables as we did when evaluating that planning spectrum we're integrating over it.
+
+153
+00:14:58.790 --> 00:15:02.340
+David Schaich (he): It's an X equal to
+
+154
+00:15:03.850 --> 00:15:07.370
+David Schaich (he): 2 factors when they go times that, do you, Omega?
+
+155
+00:15:10.190 --> 00:15:17.540
+David Schaich (he): We'll combine it to give us to you over H. Calling now to the third rather than forward power
+
+156
+00:15:19.550 --> 00:15:22.460
+David Schaich (he): integral now x squared
+
+157
+00:15:22.890 --> 00:15:26.450
+David Schaich (he): i'm. Bringing to the X minus one Gx.
+
+158
+00:15:27.620 --> 00:15:30.820
+David Schaich (he): Another delicious, integral.
+
+159
+00:15:31.880 --> 00:15:35.110
+David Schaich (he): quite similar to the one before. And
+
+160
+00:15:35.270 --> 00:15:41.410
+David Schaich (he): there you so all the elegance results. That's again too much of it
+
+161
+00:15:42.740 --> 00:15:44.030
+David Schaich (he): paying to
+
+162
+00:15:44.700 --> 00:15:47.470
+David Schaich (he): computes live in this module.
+
+163
+00:15:48.190 --> 00:15:49.350
+David Schaich (he): This is
+
+164
+00:15:50.520 --> 00:15:53.440
+David Schaich (he): so 2 factorial 2,
+
+165
+00:15:54.310 --> 00:15:56.080
+you know, data function
+
+166
+00:15:56.160 --> 00:15:59.610
+David Schaich (he): the 3, which is an international number about 1 point.
+
+167
+00:16:00.120 --> 00:16:01.620
+David Schaich (he): 2 0 2
+
+168
+00:16:03.100 --> 00:16:06.020
+David Schaich (he): so pretty everything together.
+
+169
+00:16:09.440 --> 00:16:10.520
+David Schaich (he): Average
+
+170
+00:16:16.970 --> 00:16:25.860
+David Schaich (he): volume of that gas times. 3 h of the temperature with another
+
+171
+00:16:27.410 --> 00:16:29.430
+David Schaich (he): of the other 2.
+
+172
+00:16:30.850 --> 00:16:32.290
+David Schaich (he): Is it a 3
+
+173
+00:16:34.910 --> 00:16:39.590
+David Schaich (he): high school, really. and then another 3 vectors of Hrc.
+
+174
+00:16:47.990 --> 00:16:49.270
+David Schaich (he): So now
+
+175
+00:16:50.580 --> 00:16:57.020
+David Schaich (he): we just barely have the 2 results for energy and particle number fitting up the screen at once.
+
+176
+00:16:57.090 --> 00:17:01.120
+David Schaich (he): and quite nicely. We can see that their functional form
+
+177
+00:17:01.150 --> 00:17:07.339
+David Schaich (he): is what we would have expected from our earlier classical, economical, and not an optimistic idea.
+
+178
+00:17:07.420 --> 00:17:08.750
+You ask computation.
+
+179
+00:17:09.319 --> 00:17:14.210
+David Schaich (he): The energy is proportional to the
+
+180
+00:17:14.740 --> 00:17:26.910
+David Schaich (he): the number particle. Is this proportion of boring types of your cube in a different, only bypass single power of temperature. Really. now it is somewhat more
+
+181
+00:17:27.250 --> 00:17:28.610
+David Schaich (he): complicated.
+
+182
+00:17:32.150 --> 00:17:36.360
+David Schaich (he): We have. so as
+
+183
+00:17:37.490 --> 00:17:39.840
+David Schaich (he): in that classical economical case.
+
+184
+00:17:47.340 --> 00:17:54.590
+David Schaich (he): so the time the S internal energy is proportional to and times T. And the
+
+185
+00:18:00.440 --> 00:18:06.100
+David Schaich (he): use going to give us a high school over 15.
+
+186
+00:18:16.040 --> 00:18:17.360
+David Schaich (he): I squared
+
+187
+00:18:19.950 --> 00:18:23.960
+David Schaich (he): over 2 from the number density.
+
+188
+00:18:25.710 --> 00:18:26.820
+David Schaich (he): and if we
+
+189
+00:18:29.840 --> 00:18:33.470
+David Schaich (he): you cancel in terms. and remember where
+
+190
+00:18:36.400 --> 00:18:48.120
+David Schaich (he): numbers like 6 and 2 are coming from the You have a functions okay and factorial. you can. But this, suggested we as
+
+191
+00:18:49.020 --> 00:18:51.270
+David Schaich (he): 6.
+
+192
+00:18:53.360 --> 00:18:55.730
+David Schaich (he): Why, that to
+
+193
+00:18:56.710 --> 00:19:00.920
+David Schaich (he): Zeta 3, so that 6, over 9 is one over 15.
+
+194
+00:19:01.180 --> 00:19:10.830
+David Schaich (he): What factors of pie? And this is just the how many of you. You know the functions that we set it off, with
+
+195
+00:19:11.980 --> 00:19:16.690
+David Schaich (he): which we were to put all that in about 2.7
+
+196
+00:19:16.720 --> 00:19:22.540
+David Schaich (he): in decimal terms. So not quite twice as large as the rehabs
+
+197
+00:19:22.750 --> 00:19:23.550
+David Schaich (he): 4
+
+198
+00:19:24.070 --> 00:19:29.610
+David Schaich (he): a classical, non-relativistic ideal gas and the economic ensemble, still the same
+
+199
+00:19:29.700 --> 00:19:33.150
+David Schaich (he): order of magnitude. and they
+
+200
+00:19:34.260 --> 00:19:44.180
+David Schaich (he): some combination of really fundamental physical functions, that function.
+
+201
+00:19:47.620 --> 00:19:53.040
+David Schaich (he): So any questions about this result before we go ahead to
+
+202
+00:19:53.170 --> 00:19:56.580
+David Schaich (he): complete the derivation of the equation of States
+
+203
+00:19:57.150 --> 00:19:58.720
+David Schaich (he): for the photon gas
+
+204
+00:20:11.040 --> 00:20:14.790
+David Schaich (he): again if we pick back to That's
+
+205
+00:20:16.190 --> 00:20:18.280
+David Schaich (he): classical ideal gas. We did
+
+206
+00:20:18.380 --> 00:20:24.310
+David Schaich (he): several weeks ago. The equation of state. There is the ideal des off pressure times for you is
+
+207
+00:20:24.440 --> 00:20:30.110
+David Schaich (he): particle number times temperature. So we we'll want to try to
+
+208
+00:20:30.780 --> 00:20:34.390
+David Schaich (he): produce something similar in particular relating this
+
+209
+00:20:34.530 --> 00:20:39.870
+David Schaich (he): actor of average particle number of times temperature 2 pressure, and told you
+
+210
+00:20:39.900 --> 00:20:44.550
+David Schaich (he): up to guess which. Of course, the missing piece we don't have yet is
+
+211
+00:20:45.030 --> 00:20:48.610
+David Schaich (he): the pressure of the proton. Yes. which
+
+212
+00:20:49.720 --> 00:20:54.460
+David Schaich (he): is call fancy terms the the radiation pressure
+
+213
+00:20:56.490 --> 00:21:03.960
+David Schaich (he): small enough for that to It's something we don't know this day a day, but. like shining on a surface.
+
+214
+00:21:04.110 --> 00:21:09.960
+David Schaich (he): will actually produce the pressure on that service, exerting the force, pushing it away.
+
+215
+00:21:10.080 --> 00:21:17.990
+David Schaich (he): which. on our usual definition of pressure and statistical physics, is given by
+
+216
+00:21:20.110 --> 00:21:22.990
+David Schaich (he): the response. The internal energy.
+
+217
+00:21:23.050 --> 00:21:36.590
+David Schaich (he): 2 way changes the volume. the negative signs, and it's more volume secured. What your energies. subject to the screens that the entropy on the
+
+218
+00:21:37.540 --> 00:21:41.980
+David Schaich (he): so before evaluating it. This derivative
+
+219
+00:21:42.110 --> 00:21:45.630
+David Schaich (he): of the energy that we have just computed a few months ago.
+
+220
+00:21:46.180 --> 00:21:52.690
+David Schaich (he): I need to make sure that we. the
+
+221
+00:21:53.920 --> 00:21:54.580
+which is.
+
+222
+00:21:54.810 --> 00:21:56.260
+David Schaich (he): yeah, one more
+
+223
+00:21:57.590 --> 00:21:59.760
+David Schaich (he): derive quality that
+
+224
+00:22:01.250 --> 00:22:02.170
+David Schaich (he): Yeah, I would
+
+225
+00:22:02.240 --> 00:22:02.820
+you.
+
+226
+00:22:05.630 --> 00:22:08.270
+David Schaich (he): It's very usual malaysia
+
+227
+00:22:11.220 --> 00:22:14.890
+David Schaich (he): that we derive when the
+
+228
+00:22:15.910 --> 00:22:19.870
+David Schaich (he): the entropy is the difference between the internal energy.
+
+229
+00:22:20.540 --> 00:22:22.200
+That's great potential
+
+230
+00:22:22.410 --> 00:22:24.400
+David Schaich (he): the temperature.
+
+231
+00:22:25.160 --> 00:22:28.390
+David Schaich (he): Before we computed the internal energy.
+
+232
+00:22:29.450 --> 00:22:36.410
+David Schaich (he): it's easy enough to divide it that result by a factor of temperature missing piece. Here
+
+233
+00:22:36.890 --> 00:22:39.440
+David Schaich (he): is the great economical potential
+
+234
+00:22:39.800 --> 00:22:43.780
+David Schaich (he): divided by the temperature which we have in terms
+
+235
+00:22:45.450 --> 00:22:52.800
+David Schaich (he): of the integral over frequencies. the usual omega square, the what is derivative we just took
+
+236
+00:22:53.380 --> 00:22:57.860
+David Schaich (he): or minus E to the Beta H. Bar Omega and Chemical potential.
+
+237
+00:22:58.000 --> 00:22:59.160
+David Schaich (he): 2 0
+
+238
+00:23:02.150 --> 00:23:12.690
+David Schaich (he): and making the familiar change of variables. X equals data. H. Bar Omega. you pick up 3 factors of
+
+239
+00:23:13.730 --> 00:23:15.390
+David Schaich (he): you over H bar.
+
+240
+00:23:20.520 --> 00:23:25.480
+David Schaich (he): and then the Pi square. which for a few C here
+
+241
+00:23:26.480 --> 00:23:29.560
+David Schaich (he): integral now for x.
+
+242
+00:23:37.120 --> 00:23:44.980
+David Schaich (he): that's fit on the screen, and it's the same story with this particular integral. It is closely related to
+
+243
+00:23:44.990 --> 00:23:55.120
+David Schaich (he): the ones we deal with before which just came from derivatives of this integrand. so it's not too surprising that it has a
+
+244
+00:23:55.830 --> 00:23:57.980
+David Schaich (he): similar.
+
+245
+00:23:58.940 --> 00:24:02.640
+David Schaich (he): You know it's very similar results that we yeah
+
+246
+00:24:03.340 --> 00:24:05.730
+David Schaich (he): look at all 4 States rather than
+
+247
+00:24:06.000 --> 00:24:06.970
+through
+
+248
+00:24:07.210 --> 00:24:11.920
+David Schaich (he): now as a negative sign of maybe 2 times 0 over 4.
+
+249
+00:24:12.670 --> 00:24:14.320
+David Schaich (he): I'm sure with the call. See that
+
+250
+00:24:18.280 --> 00:24:19.700
+David Schaich (he): 5. What's over
+
+251
+00:24:20.020 --> 00:24:21.390
+David Schaich (he): 25,
+
+252
+00:24:22.330 --> 00:24:24.490
+David Schaich (he): So the
+
+253
+00:24:28.640 --> 00:24:30.290
+David Schaich (he): Yes.
+
+254
+00:24:31.140 --> 00:24:32.730
+a common factor of
+
+255
+00:24:33.150 --> 00:24:36.060
+David Schaich (he): me to you.
+
+256
+00:24:38.960 --> 00:24:44.470
+David Schaich (he): Yeah. How's it? From the energy high squared over
+
+257
+00:24:46.640 --> 00:24:47.850
+David Schaich (he): 15,
+
+258
+00:24:56.450 --> 00:24:59.340
+David Schaich (he): you can actually note that the
+
+259
+00:25:00.910 --> 00:25:02.770
+David Schaich (he): I have there.
+
+260
+00:25:03.690 --> 00:25:10.020
+David Schaich (he): I'll give another a factor of the Pi squared over H. Bar, Q, C. Q. So that's common factor to both terms.
+
+261
+00:25:10.230 --> 00:25:12.920
+David Schaich (he): and the difference. We just have a
+
+262
+00:25:13.240 --> 00:25:21.050
+David Schaich (he): one over 15 from the energy, and then minus negative one over 45.
+
+263
+00:25:21.400 --> 00:25:22.240
+David Schaich (he): So
+
+264
+00:25:23.720 --> 00:25:25.670
+David Schaich (he): plus one over 45,
+
+265
+00:25:27.160 --> 00:25:32.620
+David Schaich (he): second term there. so that's 3 46, plus 150.
+
+266
+00:25:35.770 --> 00:25:37.150
+David Schaich (he): What like this?
+
+267
+00:25:39.730 --> 00:25:46.800
+David Schaich (he): Which is a fun factor from combinations of you know, Zeta functions, but
+
+268
+00:25:47.930 --> 00:25:51.550
+David Schaich (he): not what we need to worry about too much.
+
+269
+00:25:53.100 --> 00:25:56.020
+David Schaich (he): What matters is the condition of the
+
+270
+00:25:58.590 --> 00:25:59.470
+David Schaich (he): that
+
+271
+00:25:59.960 --> 00:26:01.450
+the functional form.
+
+272
+00:26:01.490 --> 00:26:10.970
+David Schaich (he): the combination of has to be fixed to a constant i'm. Taking the derivative to compute radiation pressure.
+
+273
+00:26:12.140 --> 00:26:16.610
+David Schaich (he): So this go ahead and do that
+
+274
+00:26:19.100 --> 00:26:23.860
+David Schaich (he): once you plug in the what time you guys energy.
+
+275
+00:26:25.700 --> 00:26:28.130
+David Schaich (he): which has negative sign
+
+276
+00:26:28.290 --> 00:26:32.370
+David Schaich (he): we just described. I square over 15.
+
+277
+00:26:36.490 --> 00:26:39.030
+David Schaich (he): Let me take the
+
+278
+00:26:41.880 --> 00:26:44.800
+David Schaich (he): with our temperature.
+
+279
+00:26:45.810 --> 00:26:46.400
+That
+
+280
+00:26:46.810 --> 00:26:50.060
+David Schaich (he): temperature equals some constant times
+
+281
+00:26:51.050 --> 00:26:54.420
+David Schaich (he): into the minus one to the power
+
+282
+00:26:55.450 --> 00:27:01.450
+David Schaich (he): which enforces the condition of the Council of entropy. That's 18 queued.
+
+283
+00:27:02.040 --> 00:27:03.800
+David Schaich (he): Is that cost to be.
+
+284
+00:27:04.210 --> 00:27:06.850
+David Schaich (he): Then the volume Times
+
+285
+00:27:06.870 --> 00:27:11.600
+David Schaich (he): to the fourth gives us you to the 4 power
+
+286
+00:27:12.950 --> 00:27:16.500
+David Schaich (he): times. V. To the minus 4 third plus one.
+
+287
+00:27:16.700 --> 00:27:20.810
+David Schaich (he): It's back to one-third.
+
+288
+00:27:22.840 --> 00:27:23.680
+David Schaich (he): which
+
+289
+00:27:26.370 --> 00:27:30.590
+David Schaich (he): brings out a negative sign in the factory of 3
+
+290
+00:27:31.110 --> 00:27:31.750
+David Schaich (he): no
+
+291
+00:27:31.800 --> 00:27:35.200
+David Schaich (he): along with a factor of the volume of the derivative
+
+292
+00:27:37.040 --> 00:27:43.280
+David Schaich (he): negative signs with that. Well. that
+
+293
+00:27:45.120 --> 00:27:46.600
+David Schaich (he): constant factor.
+
+294
+00:27:47.550 --> 00:27:50.600
+David Schaich (he): you know.
+
+295
+00:27:52.020 --> 00:27:59.980
+David Schaich (he): taking the one over V from derivative out there. So we are back to being to the negative one-third power
+
+296
+00:28:01.490 --> 00:28:03.870
+David Schaich (he): So much as we saw.
+
+297
+00:28:06.090 --> 00:28:06.670
+Yeah.
+
+298
+00:28:07.320 --> 00:28:14.410
+David Schaich (he): case of the classical equation of states. We just get yeah internal energy
+
+299
+00:28:16.260 --> 00:28:17.770
+David Schaich (he): back out. Again.
+
+300
+00:28:18.910 --> 00:28:21.480
+David Schaich (he): How do you? Same combination of the
+
+301
+00:28:22.090 --> 00:28:22.830
+sure he was.
+
+302
+00:28:23.920 --> 00:28:26.590
+David Schaich (he): Yeah, in the first place. So.
+
+303
+00:28:27.260 --> 00:28:28.540
+David Schaich (he): in other words.
+
+304
+00:28:29.930 --> 00:28:34.440
+David Schaich (he): radiation pressure on the full time they have small. I buy
+
+305
+00:28:36.230 --> 00:28:37.770
+David Schaich (he): It's one good
+
+306
+00:28:39.490 --> 00:28:40.960
+average internal energy.
+
+307
+00:28:41.700 --> 00:28:48.130
+David Schaich (he): which. if we right one for as 2 over 6,
+
+308
+00:28:49.980 --> 00:28:51.190
+David Schaich (he): identify it.
+
+309
+00:28:57.380 --> 00:29:04.230
+David Schaich (he): Another factor of you know, functions to go on with the ratio again, and 0 functions.
+
+310
+00:29:08.180 --> 00:29:09.060
+David Schaich (he): Yes.
+
+311
+00:29:10.080 --> 00:29:15.350
+David Schaich (he): we found before 2 number
+
+312
+00:29:15.360 --> 00:29:17.810
+David Schaich (he): all right. average number of
+
+313
+00:29:22.720 --> 00:29:26.420
+David Schaich (he): so those terms all cancel out.
+
+314
+00:29:27.680 --> 00:29:31.840
+David Schaich (he): Can we end up just with that ratio of Zeta functions. Now
+
+315
+00:29:32.740 --> 00:29:35.770
+David Schaich (he): the 4, this pilot
+
+316
+00:29:36.570 --> 00:29:39.440
+David Schaich (he): over 90 times the irrational
+
+317
+00:29:40.010 --> 00:29:41.590
+David Schaich (he): 0 3
+
+318
+00:29:43.860 --> 00:29:47.990
+David Schaich (he): times the photon number and temperature. So
+
+319
+00:29:49.510 --> 00:29:51.610
+David Schaich (he): we have the in the end.
+
+320
+00:30:00.660 --> 00:30:02.150
+David Schaich (he): That's the same
+
+321
+00:30:03.370 --> 00:30:14.040
+David Schaich (he): functional form. Is the it's proportional to M. To you that possible proportionality. It is just change now
+
+322
+00:30:14.270 --> 00:30:17.360
+David Schaich (he): from one that in the classical case.
+
+323
+00:30:17.660 --> 00:30:25.370
+David Schaich (he): to this ratio of the functions you might recall that the Zeta function approaches one.
+
+324
+00:30:25.390 --> 00:30:28.230
+David Schaich (he): Yes, it's argument increases
+
+325
+00:30:28.340 --> 00:30:30.040
+David Schaich (he): positive real access.
+
+326
+00:30:31.770 --> 00:30:35.740
+David Schaich (he): Say the 4. Is there 1 point, one
+
+327
+00:30:35.870 --> 00:30:40.940
+David Schaich (he): data, 3, as I said before, is that 1.2 or 2, so their ratio is
+
+328
+00:30:41.810 --> 00:30:48.740
+David Schaich (he): approximately 4.9 to a few significant figure. It's rather than one. So
+
+329
+00:30:53.120 --> 00:30:55.680
+David Schaich (he): difference compared to the
+
+330
+00:30:56.970 --> 00:31:00.530
+David Schaich (he): I have to go. I It's just absolutely.
+
+331
+00:31:00.600 --> 00:31:03.310
+David Schaich (he): We're 10% variation.
+
+332
+00:31:03.530 --> 00:31:04.400
+David Schaich (he): You know
+
+333
+00:31:04.530 --> 00:31:07.810
+David Schaich (he): the cost of proportionality between pressure times
+
+334
+00:31:09.590 --> 00:31:11.270
+one side compared to
+
+335
+00:31:12.670 --> 00:31:16.400
+David Schaich (he): average.
+
+336
+00:31:20.100 --> 00:31:31.530
+David Schaich (he): So that is in principle something that we created go through the same source of exercises with thermodynamic cycles and see how does it behave with the I guess the photons.
+
+337
+00:31:32.830 --> 00:31:44.850
+David Schaich (he): yes. even more of thought experience something we would do in practice. So I think we can be content just to declared victory here that the
+
+338
+00:31:44.930 --> 00:31:47.820
+David Schaich (he): conclusion that the ultimate relativistic
+
+339
+00:31:47.950 --> 00:31:50.920
+David Schaich (he): autumn gas or photons is
+
+340
+00:31:53.030 --> 00:31:55.130
+David Schaich (he): behavior the same as
+
+341
+00:31:55.250 --> 00:32:11.080
+David Schaich (he): the classical. and we can turn our attention now to something that will have a few more significant differences. You get photons.
+
+342
+00:32:11.960 --> 00:32:14.520
+David Schaich (he): so i'll just check to see if there are
+
+343
+00:32:15.670 --> 00:32:23.190
+David Schaich (he): questions or objections to a result cell phone or switching gears and going back to the starting point.
+
+344
+00:32:39.550 --> 00:32:46.810
+David Schaich (he): not seeing any. We'll charge your head. We are definitely not going to finish talking about
+
+345
+00:32:48.800 --> 00:32:50.280
+David Schaich (he): knowledge reactive
+
+346
+00:32:51.440 --> 00:32:53.080
+David Schaich (he): today.
+
+347
+00:32:54.970 --> 00:32:59.060
+David Schaich (he): We can at least you can start in and take care of the
+
+348
+00:32:59.070 --> 00:33:06.960
+David Schaich (he): 11 areas as a reminder. Well fermions the occupation numbers for the energy levels that we sell over
+
+349
+00:33:07.280 --> 00:33:10.120
+the quantum statistical approach are limited
+
+350
+00:33:10.440 --> 00:33:11.380
+David Schaich (he): to
+
+351
+00:33:12.370 --> 00:33:16.610
+David Schaich (he): the energy level being either unoccupied in occupation over a 0.
+
+352
+00:33:16.760 --> 00:33:24.430
+David Schaich (he): We're simply occupied an occupation of one. Everything else is for all the exclusion principle.
+
+353
+00:33:25.430 --> 00:33:26.050
+It was.
+
+354
+00:33:29.170 --> 00:33:34.770
+David Schaich (he): We economic potential for
+
+355
+00:33:35.120 --> 00:33:37.660
+David Schaich (he): the negative temperature.
+
+356
+00:33:37.860 --> 00:33:50.630
+David Schaich (he): I'm. The of the she's right. You saw yesterday. It was a product over energy levels that logarithm towards the product
+
+357
+00:33:51.050 --> 00:33:53.410
+David Schaich (he): to a
+
+358
+00:33:58.070 --> 00:34:01.290
+David Schaich (he): one plus the exponential factor
+
+359
+00:34:02.390 --> 00:34:03.960
+David Schaich (he): inverse temperature.
+
+360
+00:34:03.970 --> 00:34:05.540
+the energy
+
+361
+00:34:05.660 --> 00:34:07.060
+David Schaich (he): at the
+
+362
+00:34:07.150 --> 00:34:10.370
+David Schaich (he): and that chemical attention which is no longer
+
+363
+00:34:10.380 --> 00:34:11.550
+David Schaich (he): what to be
+
+364
+00:34:11.670 --> 00:34:13.840
+David Schaich (he): vanishing in general.
+
+365
+00:34:15.840 --> 00:34:22.250
+David Schaich (he): Yeah. you can know that the main difference we have here compared to the
+
+366
+00:34:22.850 --> 00:34:25.920
+David Schaich (he): yes, my economical potential.
+
+367
+00:34:26.170 --> 00:34:30.980
+David Schaich (he): I just negative signs with the overall negative sign up front
+
+368
+00:34:31.040 --> 00:34:35.130
+David Schaich (he): and the relative negative sign in that logarithm we have
+
+369
+00:34:35.370 --> 00:34:37.760
+David Schaich (he): some fairly extreme effects
+
+370
+00:34:39.600 --> 00:34:40.590
+David Schaich (he): to.
+
+371
+00:34:41.770 --> 00:34:49.560
+David Schaich (he): Would you see overlap with the photon gas? We just consider, unless return to non-volatistic
+
+372
+00:34:50.900 --> 00:34:53.199
+David Schaich (he): energies. So
+
+373
+00:34:53.420 --> 00:34:59.040
+David Schaich (he): is P. Squared over 2 M. The P. Squared is quantized
+
+374
+00:35:01.120 --> 00:35:02.590
+David Schaich (he): a call queue
+
+375
+00:35:03.650 --> 00:35:05.670
+David Schaich (he): that brings in like usual
+
+376
+00:35:06.870 --> 00:35:16.350
+David Schaich (he): factors of each bar square. That minus pi squared over 2 ml squared 50, you know. Call that
+
+377
+00:35:17.840 --> 00:35:19.560
+David Schaich (he): of the integer.
+
+378
+00:35:21.750 --> 00:35:31.040
+David Schaich (he): Well, then, some vector so. and just right. What was that?
+
+379
+00:35:32.500 --> 00:35:33.210
+David Schaich (he): It is
+
+380
+00:35:33.910 --> 00:35:38.230
+David Schaich (he): a squared in the inner product of that 3, vector where all of these.
+
+381
+00:35:38.340 --> 00:35:39.830
+David Schaich (he): all the components.
+
+382
+00:35:40.970 --> 00:35:47.110
+David Schaich (he): what this discreet he did, your momentum are strictly positive integers.
+
+383
+00:35:49.410 --> 00:35:52.650
+David Schaich (he): So this
+
+384
+00:35:55.540 --> 00:35:58.310
+David Schaich (he): into the economical potential.
+
+385
+00:36:01.690 --> 00:36:03.250
+David Schaich (he): A fresh page
+
+386
+00:36:07.560 --> 00:36:08.770
+David Schaich (he): is
+
+387
+00:36:12.130 --> 00:36:13.830
+David Schaich (he): 3 vectors. K:
+
+388
+00:36:14.950 --> 00:36:16.140
+David Schaich (he): I see. Yeah.
+
+389
+00:36:16.350 --> 00:36:19.640
+David Schaich (he): one plus
+
+390
+00:36:20.380 --> 00:36:21.800
+David Schaich (he): the exponential.
+
+391
+00:36:23.080 --> 00:36:23.920
+And this
+
+392
+00:36:24.140 --> 00:36:26.640
+David Schaich (he): nice council squared, Pi squared
+
+393
+00:36:28.080 --> 00:36:40.640
+David Schaich (he): 2 Ml. Squared times the temperature. whatever temperature is data. And then there is Yes. we issue a chemical potential to I for sure.
+
+394
+00:36:42.930 --> 00:36:44.400
+David Schaich (he): all inside
+
+395
+00:36:46.910 --> 00:36:48.040
+David Schaich (he): and it
+
+396
+00:36:50.130 --> 00:36:55.990
+David Schaich (he): I've looked over the gap here because the real that fermions like electrons in
+
+397
+00:36:57.930 --> 00:36:58.800
+David Schaich (he): video
+
+398
+00:36:59.060 --> 00:37:02.760
+David Schaich (he): have an additional factor of 2 double the you ever see.
+
+399
+00:37:02.950 --> 00:37:12.910
+David Schaich (he): For all of the energy laws. We also had a factor of 2 to the photon gas where it was coming from the 2 polarizations
+
+400
+00:37:15.220 --> 00:37:20.950
+David Schaich (he): something that you can look at, and it's just horrible. On Thursday, if there is demand.
+
+401
+00:37:21.010 --> 00:37:30.630
+David Schaich (he): in fact, to here is coming from a different source. It's difficult for me on this in everyday materials
+
+402
+00:37:30.650 --> 00:37:31.470
+that phones.
+
+403
+00:37:32.130 --> 00:37:33.010
+David Schaich (he): Okay.
+
+404
+00:37:35.050 --> 00:37:35.900
+David Schaich (he): hey?
+
+405
+00:37:39.830 --> 00:37:41.010
+David Schaich (he): Yes. Here.
+
+406
+00:37:42.150 --> 00:37:42.730
+David Schaich (he): right
+
+407
+00:37:42.800 --> 00:37:47.270
+David Schaich (he): with the location marks, because these are not actually spinning
+
+408
+00:37:47.660 --> 00:37:48.960
+David Schaich (he): just has a
+
+409
+00:37:51.440 --> 00:37:54.100
+David Schaich (he): In some ways they behave as though they were.
+
+410
+00:37:54.340 --> 00:38:03.270
+David Schaich (he): It's a, and it's sort of the serious as usual for this module you don't need to have seen before.
+
+411
+00:38:03.490 --> 00:38:08.760
+David Schaich (he): Give me a calls it back to the 2. Yeah, we will carry through
+
+412
+00:38:11.340 --> 00:38:25.550
+David Schaich (he): the following calculations. But no, every momentum 3 vector is going to have that additional two-fold degeneracy in addition to degeneracy is coming from, say.
+
+413
+00:38:25.760 --> 00:38:31.020
+David Schaich (he): from we're hitting around pretty much of the space so exactly the same in this respect
+
+414
+00:38:31.320 --> 00:38:37.380
+David Schaich (he): as the great economic potential. What are you? Yes.
+
+415
+00:38:38.330 --> 00:38:41.070
+David Schaich (he): Another similar area that we can do.
+
+416
+00:38:43.380 --> 00:38:45.620
+David Schaich (he): One of the simplifications
+
+417
+00:38:46.990 --> 00:38:49.210
+David Schaich (he): that we have 5 in the
+
+418
+00:38:50.650 --> 00:38:59.350
+David Schaich (he): Okay. Assume that the what we're dealing with is large compared to
+
+419
+00:38:59.670 --> 00:39:06.830
+David Schaich (he): the characteristic scale. For the particles in question. So this some 3 vectors
+
+420
+00:39:08.220 --> 00:39:11.600
+David Schaich (he): and just become an integral over
+
+421
+00:39:12.630 --> 00:39:13.930
+David Schaich (he): continuous.
+
+422
+00:39:19.650 --> 00:39:20.820
+David Schaich (he): maybe holes
+
+423
+00:39:26.260 --> 00:39:28.560
+David Schaich (he): up here there. K. Squared.
+
+424
+00:39:28.820 --> 00:39:29.940
+David Schaich (he): Stay out of it
+
+425
+00:39:31.950 --> 00:39:44.540
+David Schaich (he): after, because the argument of the world has only all that scalar inner product. K. Squared. we will benefit again from working in.
+
+426
+00:39:52.250 --> 00:39:53.590
+David Schaich (he): So with this
+
+427
+00:39:55.510 --> 00:39:57.010
+David Schaich (he): simplification.
+
+428
+00:39:58.420 --> 00:40:04.080
+David Schaich (he): the positive moment to restrict the integral to just one octave of
+
+429
+00:40:05.820 --> 00:40:08.940
+David Schaich (he): three-dimensional space. That you'll be
+
+430
+00:40:09.040 --> 00:40:13.840
+David Schaich (he): is 4 pi the total solid angle
+
+431
+00:40:13.920 --> 00:40:17.280
+David Schaich (he): by 8, which is pi over 2 and 2
+
+432
+00:40:17.560 --> 00:40:22.710
+David Schaich (he): answers that 2 upfronts. So we get
+
+433
+00:40:23.880 --> 00:40:25.530
+David Schaich (he): minus pi team
+
+434
+00:40:28.060 --> 00:40:34.650
+David Schaich (he): look similar to the the potential for the proton gas.
+
+435
+00:40:36.470 --> 00:40:40.230
+David Schaich (he): A hat squared times that log really
+
+436
+00:40:44.420 --> 00:40:46.560
+David Schaich (he): of the same exponential factor. Right?
+
+437
+00:40:50.820 --> 00:40:51.980
+David Schaich (he): You had it all
+
+438
+00:40:55.910 --> 00:41:02.390
+David Schaich (he): integrating now over the K hat. the magnitude 3. Vector
+
+439
+00:41:03.650 --> 00:41:08.000
+David Schaich (he): So this is where similarities with the photon gas
+
+440
+00:41:09.220 --> 00:41:13.970
+David Schaich (he): start to cease just because we have how much different dependence
+
+441
+00:41:14.130 --> 00:41:16.500
+David Schaich (he): all that that will mention. Kate
+
+442
+00:41:16.550 --> 00:41:21.520
+David Schaich (he): got it in this integrand. He said that even the minus Beta h bar omega.
+
+443
+00:41:21.550 --> 00:41:28.820
+David Schaich (he): we have e to the minus beta times. It's not optimistic over the
+
+444
+00:41:30.730 --> 00:41:36.150
+David Schaich (he): and the easiest way to deal with that is actually to
+
+445
+00:41:36.460 --> 00:41:39.700
+David Schaich (he): recognize that it is the energy.
+
+446
+00:41:40.300 --> 00:41:41.830
+and she period was
+
+447
+00:41:42.400 --> 00:41:49.880
+David Schaich (he): to work in terms of the energy itself rather than these.
+
+448
+00:41:51.340 --> 00:41:52.750
+David Schaich (he): So the energy
+
+449
+00:41:54.440 --> 00:42:03.820
+David Schaich (he): is this factor here, apart from the K hat squared over 2 Ml. Squared. We you.
+
+450
+00:42:05.930 --> 00:42:09.350
+David Schaich (he): We arrange that to get the
+
+451
+00:42:14.980 --> 00:42:16.270
+David Schaich (he): we will have.
+
+452
+00:42:21.400 --> 00:42:22.920
+David Schaich (he): How over?
+
+453
+00:42:24.370 --> 00:42:25.960
+David Schaich (he): Hi, h bar.
+
+454
+00:42:29.610 --> 00:42:33.300
+David Schaich (he): I'm taking the square root of all those factors.
+
+455
+00:42:34.120 --> 00:42:38.180
+David Schaich (he): and i'll give you a square root of 2, and with the energy itself
+
+456
+00:42:44.690 --> 00:42:48.060
+David Schaich (he): the differential factor. It corresponds to this variable.
+
+457
+00:42:48.650 --> 00:42:49.460
+David Schaich (he): then
+
+458
+00:42:53.800 --> 00:43:00.130
+David Schaich (he): the derivative of the square root of the energy. It's in a one-half the partial
+
+459
+00:43:03.430 --> 00:43:05.480
+David Schaich (he): how the energy goes down.
+
+460
+00:43:05.520 --> 00:43:07.080
+the one I have.
+
+461
+00:43:07.550 --> 00:43:08.440
+David Schaich (he): and then
+
+462
+00:43:11.010 --> 00:43:15.610
+David Schaich (he): on top. So. putting all of this in.
+
+463
+00:43:18.070 --> 00:43:19.160
+David Schaich (he): we have
+
+464
+00:43:22.070 --> 00:43:24.870
+David Schaich (he): minus high times. T we have
+
+465
+00:43:25.370 --> 00:43:27.000
+David Schaich (he): 3 h of.
+
+466
+00:43:29.940 --> 00:43:33.100
+David Schaich (he): for the K squared Dk
+
+467
+00:43:42.920 --> 00:43:49.340
+David Schaich (he): Limits of integration are still the same as K. Goes to infinity. The energy
+
+468
+00:43:51.060 --> 00:43:53.660
+David Schaich (he): Okay, square. You didn't have that
+
+469
+00:43:55.570 --> 00:43:58.890
+David Schaich (he): £2 of the square root left. So actually, 2
+
+470
+00:44:01.540 --> 00:44:04.180
+David Schaich (he): times the logarithm of one plus.
+
+471
+00:44:08.250 --> 00:44:14.670
+David Schaich (he): So that simplification is the reason we changed these variables in the first place.
+
+472
+00:44:15.710 --> 00:44:19.090
+David Schaich (he): and then from the Dk apps we have
+
+473
+00:44:20.500 --> 00:44:21.580
+over
+
+474
+00:44:21.930 --> 00:44:24.950
+David Schaich (he): that square root of 2 E.
+
+475
+00:44:29.230 --> 00:44:43.230
+David Schaich (he): So the 3 powers of L. You can recognize as the usual volume. We still have the power of team that pie cancels out with one of the 3
+
+476
+00:44:43.640 --> 00:44:50.870
+David Schaich (he): factories that we have the denominator. So it's pi squared each part you. and then
+
+477
+00:44:52.360 --> 00:44:55.650
+David Schaich (he): we have a factor of 2 over 2,
+
+478
+00:44:58.280 --> 00:45:00.180
+David Schaich (he): 3 h of
+
+479
+00:45:00.550 --> 00:45:03.490
+David Schaich (he): is the square root of that mass cube.
+
+480
+00:45:05.320 --> 00:45:08.360
+David Schaich (he): and then integral itself.
+
+481
+00:45:12.970 --> 00:45:15.530
+David Schaich (he): the usual.
+
+482
+00:45:22.400 --> 00:45:23.550
+David Schaich (he): the yeah.
+
+483
+00:45:26.650 --> 00:45:27.620
+David Schaich (he): And again.
+
+484
+00:45:27.780 --> 00:45:32.830
+David Schaich (he): compared to the grand canonical potential for the photon gas.
+
+485
+00:45:34.210 --> 00:45:40.580
+David Schaich (he): The main difference here is in terms of the signs, the overall negative sign out from. And do you
+
+486
+00:45:43.950 --> 00:45:45.240
+David Schaich (he): the constant one
+
+487
+00:45:46.790 --> 00:45:48.370
+David Schaich (he): exponential factor
+
+488
+00:45:51.480 --> 00:45:55.210
+David Schaich (he): there is. So this is a
+
+489
+00:45:57.310 --> 00:45:58.380
+David Schaich (he): so. What
+
+490
+00:45:58.440 --> 00:46:00.680
+David Schaich (he): offered integral to deal with
+
+491
+00:46:01.130 --> 00:46:02.020
+David Schaich (he): it
+
+492
+00:46:03.670 --> 00:46:08.050
+David Schaich (he): is sometimes just known as a fairly direct integrals as it arises in.
+
+493
+00:46:11.100 --> 00:46:16.340
+David Schaich (he): and there's a whole machinery. This is our call expansion that
+
+494
+00:46:17.220 --> 00:46:20.860
+David Schaich (he): exists to simplify and evaluate this
+
+495
+00:46:21.220 --> 00:46:31.140
+David Schaich (he): on without relying on any modern technology. What we will do, not in the remaining 2 min. but on Monday
+
+496
+00:46:32.850 --> 00:46:34.020
+David Schaich (he): what has to be
+
+497
+00:46:35.930 --> 00:46:39.730
+David Schaich (he): next? Simplification What comes from
+
+498
+00:46:41.060 --> 00:46:44.560
+David Schaich (he): considering the behavior? I'll disintegrate
+
+499
+00:46:46.030 --> 00:46:47.830
+David Schaich (he): half the temperatures
+
+500
+00:46:51.220 --> 00:46:58.720
+David Schaich (he): very far from the classical limits of high temperatures, where. with the
+
+501
+00:46:58.880 --> 00:47:08.770
+David Schaich (he): both on for me, on and classical statistics, all converge to the same behavior. So, in addition to simplifying the calculation.
+
+502
+00:47:08.920 --> 00:47:13.420
+David Schaich (he): this low temperature regime is an interesting one to sort of maximize the importance
+
+503
+00:47:13.940 --> 00:47:18.100
+David Schaich (he): of quantum effects. Yeah. this for me, I guess.
+
+504
+00:47:19.020 --> 00:47:20.320
+People see him
+
+505
+00:47:20.350 --> 00:47:21.590
+David Schaich (he): on Monday.
+
+506
+00:47:22.210 --> 00:47:25.370
+David Schaich (he): How that leads to a simplification
+
+507
+00:47:25.980 --> 00:47:32.970
+David Schaich (he): of our results so far? What do you, grand canonical potential for that for me on gas?
+
+508
+00:47:34.680 --> 00:47:41.470
+David Schaich (he): It's not going to be the obvious thing to see. So we won't Get into it today. I will wrap up there just with a
+
+509
+00:47:41.850 --> 00:47:45.520
+David Schaich (he): I'll call 4 am questions or concerns about
+
+510
+00:47:45.800 --> 00:47:49.980
+David Schaich (he): what we've done so far this week with these ideal calls and gases.
+
+511
+00:47:55.790 --> 00:48:02.570
+David Schaich (he): Not seeing any. I'll let you go. Enjoy the sunshine and see you again. Thursday morning.
+
+512
+00:48:02.600 --> 00:48:03.880
+David Schaich (he): I'll go into
+
+513
+00:48:05.490 --> 00:48:08.540
+David Schaich (he): fancy models of sell this kind of reproduce
+
+514
+00:48:08.720 --> 00:48:13.320
+David Schaich (he): some additional experimental data now coming from smaller scale.
+
+515
+00:48:16.710 --> 00:48:19.940
+David Schaich (he): some stories, and in your cellar space.
+
