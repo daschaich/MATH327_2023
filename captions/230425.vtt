@@ -1,0 +1,2246 @@
+WEBVTT
+
+1
+00:00:02.940 --> 00:00:15.670
+David Schaich (he): Okay, I think we can get underway.  Folks in the room already have the magic number for this afternoon on the board for those of you
+
+2
+00:00:15.830 --> 00:00:17.810
+David Schaich (he): connecting remotely, it is 1, 1
+
+3
+00:00:21.810 --> 00:00:24.730
+David Schaich (he): 5, 6, 0, 7.
+
+4
+00:00:25.560 --> 00:00:26.730
+David Schaich (he): And before
+
+5
+00:00:27.730 --> 00:00:29.890
+David Schaich (he): getting under way, let me
+
+6
+00:00:30.190 --> 00:00:34.780
+David Schaich (he): check to see if there are any questions about
+
+7
+00:00:41.740 --> 00:00:42.740
+David Schaich (he): the grand-canonical quantum gases that we wrapped up (at least for the time being) yesterday.
+
+8
+00:00:46.010 --> 00:00:47.610
+David Schaich (he): While you think about that,
+
+9
+00:00:49.110 --> 00:00:52.460
+David Schaich (he): I'll pick up with the plan for today, which is to
+
+10
+00:00:54.330 --> 00:00:58.000
+David Schaich (he): charge ahead with the final main topic of the module,
+
+11
+00:01:01.040 --> 00:01:02.460
+David Schaich (he): that we motivated
+
+12
+00:01:04.360 --> 00:01:11.540
+David Schaich (he): at the end of yesterday's lecture: Now adding interactions to the statistical systems under consideration,
+
+13
+00:01:11.850 --> 00:01:19.660
+David Schaich (he): which, on the one hand, makes everything much harder to analyze. On the other hand, it's necessary to
+
+14
+00:01:22.270 --> 00:01:24.040
+David Schaich (he): describe it.
+
+15
+00:01:25.200 --> 00:01:26.670
+David Schaich (he): Certain types of
+
+16
+00:01:27.040 --> 00:01:29.960
+David Schaich (he): physical phenomena, and particularly important
+
+17
+00:01:31.220 --> 00:01:36.540
+David Schaich (he): things like phase transitions that will be focused on today next week.
+
+18
+00:01:36.840 --> 00:01:40.000
+David Schaich (he): You know much of the remainder of this room
+
+19
+00:01:42.330 --> 00:01:43.870
+David Schaich (he): about seeing that
+
+20
+00:01:47.110 --> 00:01:48.680
+David Schaich (he): any questions about
+
+21
+00:01:49.940 --> 00:01:52.670
+David Schaich (he): the quantum gases at the moment.
+
+22
+00:01:57.630 --> 00:01:58.590
+David Schaich (he): Let's
+
+23
+00:01:58.890 --> 00:02:03.100
+David Schaich (he): say about these transitions in general, something that
+
+24
+00:02:04.160 --> 00:02:05.750
+David Schaich (he): the probably seen
+
+25
+00:02:07.660 --> 00:02:10.770
+David Schaich (he): all your times. not at the level of
+
+26
+00:02:11.860 --> 00:02:15.460
+David Schaich (he): that radical. You know
+
+27
+00:02:15.690 --> 00:02:18.890
+David Schaich (he): you've been here. Let's build up to that
+
+28
+00:02:19.050 --> 00:02:23.310
+David Schaich (he): gradually. My looking at the big picture first.
+
+29
+00:02:23.750 --> 00:02:29.030
+David Schaich (he): and you know why the space transitions are interesting in the context of statistical physics.
+
+30
+00:02:29.400 --> 00:02:31.970
+David Schaich (he): What they really amount to in the
+
+31
+00:02:33.190 --> 00:02:37.190
+David Schaich (he): the simplest way of putting it is that they are situations in which
+
+32
+00:02:38.440 --> 00:02:45.770
+David Schaich (he): the same set of underlying particles or degrees of freedom. or generally can be applied to
+
+33
+00:02:46.570 --> 00:02:47.920
+David Schaich (he): very different
+
+34
+00:02:49.090 --> 00:02:53.650
+David Schaich (he): long distance from macroscopic virgin behavior
+
+35
+00:02:56.160 --> 00:02:57.500
+David Schaich (he): to that theme of
+
+36
+00:02:57.840 --> 00:03:01.760
+David Schaich (he): large scale behavior, emerging from the behavior of
+
+37
+00:03:01.810 --> 00:03:09.280
+David Schaich (he): underlying microscopic degrees of freedom, has gone throughout this module. And now we are getting to situations where
+
+38
+00:03:10.100 --> 00:03:13.900
+David Schaich (he): the type of emergent behavior that results depends on
+
+39
+00:03:14.010 --> 00:03:20.320
+David Schaich (he): the affecting your particles. degrees of freedom under consideration, so forth.
+
+40
+00:03:21.110 --> 00:03:24.220
+David Schaich (he): The most familiar example of phase transitions are.
+
+41
+00:03:24.970 --> 00:03:26.000
+David Schaich (he): It was like
+
+42
+00:03:26.050 --> 00:03:28.690
+David Schaich (he): ice liquid water in.
+
+43
+00:03:29.080 --> 00:03:32.010
+David Schaich (he): Yeah, she's steam alright.
+
+44
+00:03:32.220 --> 00:03:35.740
+David Schaich (he): various spaces of each 2 little molecules.
+
+45
+00:03:38.280 --> 00:03:40.430
+David Schaich (he): the temperature and the pressure
+
+46
+00:03:40.650 --> 00:03:45.200
+David Schaich (he): at which those that collection of.
+
+47
+00:03:46.230 --> 00:03:53.790
+David Schaich (he): So the the liquid gas phase transition that occurs when you boil it with water. you have
+
+48
+00:03:55.560 --> 00:04:04.800
+David Schaich (he): one of the molecules changing, for from the liquid water to gash esteemed. They are frozen into crystal in them
+
+49
+00:04:07.590 --> 00:04:09.040
+David Schaich (he): Lots of ice.
+
+50
+00:04:10.330 --> 00:04:11.180
+David Schaich (he): I get it.
+
+51
+00:04:11.450 --> 00:04:18.560
+David Schaich (he): Yeah. The different pressure depend controls and the temperature at which those different phase transitions
+
+52
+00:04:18.990 --> 00:04:26.490
+David Schaich (he): what changes between to the Okay? That's a very familiar
+
+53
+00:04:31.820 --> 00:04:37.110
+David Schaich (he): throughout physics, from everyday to the extreme.
+
+54
+00:04:37.210 --> 00:04:39.940
+David Schaich (he): and something more extreme that
+
+55
+00:04:40.950 --> 00:04:47.740
+David Schaich (he): I just mentioned here without going into the detail is a transition between
+
+56
+00:04:48.390 --> 00:04:56.710
+David Schaich (he): so atomic particles being bound into the nuclei of protons neutrons that we are all made out of
+
+57
+00:04:57.180 --> 00:05:00.310
+David Schaich (he): temperature. Oh, there
+
+58
+00:05:01.370 --> 00:05:03.600
+David Schaich (he): it's
+
+59
+00:05:03.640 --> 00:05:08.580
+David Schaich (he): they, this associated you can find, and turn it to a plasm up with their
+
+60
+00:05:08.670 --> 00:05:11.040
+David Schaich (he): It situates degrees of freedom
+
+61
+00:05:14.940 --> 00:05:16.160
+in particular.
+
+62
+00:05:17.090 --> 00:05:19.400
+David Schaich (he): the universe itself, in this
+
+63
+00:05:19.580 --> 00:05:30.340
+David Schaich (he): earliest fractions of a microsecond existed in the form of this very high temperature, apart from one by asthma, before most efficiently, for there to be a phase transition
+
+64
+00:05:30.480 --> 00:05:37.290
+David Schaich (he): oh, definitely. into nuclei, that we No, I love it when it's exist without.
+
+65
+00:05:39.100 --> 00:05:43.680
+David Schaich (he): And this early universe. previous transition has more recently been
+
+66
+00:05:43.730 --> 00:05:47.440
+David Schaich (he): recreated, and particle colliders
+
+67
+00:05:51.640 --> 00:05:54.740
+David Schaich (he): outside of Geneva, Switzerland. One of the
+
+68
+00:05:54.960 --> 00:05:59.290
+David Schaich (he): main aspects of the physics that he's being
+
+69
+00:05:59.550 --> 00:06:01.670
+David Schaich (he): to a calendar dollar.
+
+70
+00:06:03.950 --> 00:06:10.620
+David Schaich (he): It's your last example. That's maybe part way between you the extreme
+
+71
+00:06:14.930 --> 00:06:16.220
+David Schaich (he): you can think about
+
+72
+00:06:17.860 --> 00:06:28.990
+David Schaich (he): the movement of electrons in solid materials related slightly to the heat capacity that we're talking about tutorials. and one particularly
+
+73
+00:06:29.170 --> 00:06:31.670
+David Schaich (he): interesting phase transition that can occur.
+
+74
+00:06:33.140 --> 00:06:38.360
+David Schaich (he): and that we take to layers of
+
+75
+00:06:39.580 --> 00:06:43.370
+David Schaich (he): fascinating material called graph, which is a single sheet.
+
+76
+00:06:43.640 --> 00:06:49.600
+David Schaich (he): one at a thick of carbon atoms laid out in the hexagonal pattern.
+
+77
+00:06:49.670 --> 00:07:02.060
+David Schaich (he): If we take 2 of those layers next to each other. and just their relative orientation, just slightly the behavior of the electrons in that material changes from
+
+78
+00:07:02.260 --> 00:07:10.080
+David Schaich (he): the insulating phase where no electrical current flows to it's super
+
+79
+00:07:14.230 --> 00:07:25.140
+David Schaich (he): where electrical currents now with the flows, I can flow without any resistance. There is no energy lost in the transmission electrical currents
+
+80
+00:07:26.130 --> 00:07:27.050
+David Schaich (he): which.
+
+81
+00:07:32.910 --> 00:07:45.070
+David Schaich (he): if that could be made to happen at the temperature, or whether revolutionized the electronics and the sustainability of energy production, consumption of transfer. In this case the graph in the
+
+82
+00:07:45.230 --> 00:07:47.600
+David Schaich (he): something that only happens for
+
+83
+00:07:47.930 --> 00:07:58.590
+David Schaich (he): fairly low temperatures less than 200 or so. So 270 degrees centigrade below 0, and
+
+84
+00:07:58.620 --> 00:08:02.360
+David Schaich (he): the picture here that it is a zoom out to. But it is showing
+
+85
+00:08:02.540 --> 00:08:07.840
+David Schaich (he): the kind of set I was trying to describe, which is easier to look at.
+
+86
+00:08:08.990 --> 00:08:12.320
+David Schaich (he): Just say it in words we are.
+
+87
+00:08:12.500 --> 00:08:16.610
+David Schaich (he): This is showing 2 layers of crafting
+
+88
+00:08:16.760 --> 00:08:20.530
+David Schaich (he): placed on top of each other top that are rotated by
+
+89
+00:08:20.590 --> 00:08:30.100
+David Schaich (he): this angle theta relative to the layer underneath. And hopefully the resolution of this projector.
+
+90
+00:08:30.390 --> 00:08:34.419
+David Schaich (he): They can help you. Hexagonal unit cells
+
+91
+00:08:35.059 --> 00:08:38.880
+David Schaich (he): of the carbon atoms in each of these.
+
+92
+00:08:39.000 --> 00:08:43.120
+David Schaich (he): single out of thick layers. Oh, material!
+
+93
+00:08:44.430 --> 00:08:49.420
+David Schaich (he): And when this angle theta thanks. It's called magic values
+
+94
+00:08:49.430 --> 00:08:50.630
+1.1
+
+95
+00:08:50.780 --> 00:08:51.930
+David Schaich (he): degrees
+
+96
+00:08:53.110 --> 00:08:55.620
+David Schaich (he): the part of it
+
+97
+00:08:57.120 --> 00:09:02.710
+David Schaich (he): interference between these 2 sheets. This is the formation of
+
+98
+00:09:02.740 --> 00:09:07.090
+David Schaich (he): I love your super.
+
+99
+00:09:08.930 --> 00:09:10.780
+David Schaich (he): The
+
+100
+00:09:11.540 --> 00:09:14.150
+David Schaich (he): the same hexagonal shape.
+
+101
+00:09:15.510 --> 00:09:19.030
+David Schaich (he): smaller units. Yeah. compose it
+
+102
+00:09:21.200 --> 00:09:24.860
+David Schaich (he): on a much larger scale, going through all this material.
+
+103
+00:09:25.140 --> 00:09:26.860
+David Schaich (he): And to me that
+
+104
+00:09:27.580 --> 00:09:32.680
+David Schaich (he): data to precisely that 1 point. One degrees is what produces this
+
+105
+00:09:33.330 --> 00:09:47.810
+David Schaich (he): phase. Transition from insulating material to super cloud activity. Add a fixed signature, or see as a useful I'm. Pressed to those other previous transitions we were talking about. For the temperature of the
+
+106
+00:09:48.140 --> 00:09:51.370
+David Schaich (he): it will be control parameters. Yes.
+
+107
+00:09:53.390 --> 00:09:57.140
+David Schaich (he): which would be possible. Large scale
+
+108
+00:09:57.780 --> 00:09:59.740
+David Schaich (he): particles adopt.
+
+109
+00:10:01.740 --> 00:10:04.330
+David Schaich (he): So that is.
+
+110
+00:10:05.910 --> 00:10:07.470
+David Schaich (he): that's all I' about
+
+111
+00:10:09.400 --> 00:10:11.700
+David Schaich (he): big picture of these transitions.
+
+112
+00:10:12.130 --> 00:10:18.330
+David Schaich (he): We now you could get there mathematically. So we'll start from maybe the basic question for
+
+113
+00:10:18.450 --> 00:10:20.100
+David Schaich (he): interacting systems.
+
+114
+00:10:21.280 --> 00:10:22.320
+David Schaich (he): which is
+
+115
+00:10:23.240 --> 00:10:25.840
+David Schaich (he): what precisely and mathematically
+
+116
+00:10:26.360 --> 00:10:27.690
+David Schaich (he): do we need
+
+117
+00:10:28.840 --> 00:10:31.710
+David Schaich (he): describing system as being interacting with
+
+118
+00:10:34.390 --> 00:10:40.030
+David Schaich (he): distinguishes between those 2 classes
+
+119
+00:10:41.480 --> 00:10:43.490
+David Schaich (he): our systems for us to consider.
+
+120
+00:10:47.310 --> 00:10:48.500
+David Schaich (he): So it's Google
+
+121
+00:10:48.850 --> 00:10:53.060
+David Schaich (he): Answer this question. Let's go back briefly.
+
+122
+00:10:53.800 --> 00:11:02.710
+David Schaich (he): We call them all interacting systems that you did a lot with, and I also show up on that homework assignment due next week.
+
+123
+00:11:04.810 --> 00:11:05.740
+David Schaich (he): So
+
+124
+00:11:08.590 --> 00:11:10.760
+David Schaich (he): these systems, the
+
+125
+00:11:11.130 --> 00:11:14.150
+David Schaich (he): energy microstate I was
+
+126
+00:11:14.320 --> 00:11:26.260
+David Schaich (he): the external magnetic field with the negative line multiply by the some of all the values of the spins from one to N. For the system
+
+127
+00:11:27.220 --> 00:11:28.230
+David Schaich (he): where
+
+128
+00:11:28.580 --> 00:11:33.210
+David Schaich (he): the values of the spins are set to be either plus or minus one.
+
+129
+00:11:33.290 --> 00:11:39.370
+David Schaich (he): depending on whether they don't line it with that external
+
+130
+00:11:41.420 --> 00:11:50.260
+David Schaich (he): pictures like this. Yeah. So set of spins pointing up or down. Yeah.
+
+131
+00:11:53.190 --> 00:11:53.940
+David Schaich (he): Oh.
+
+132
+00:11:55.460 --> 00:12:01.950
+David Schaich (he): and if we fix these spins in a solid, so that they are distinguishable by your position.
+
+133
+00:12:02.630 --> 00:12:07.290
+David Schaich (he): and label them in s one through s 8 in this case, and save it
+
+134
+00:12:07.820 --> 00:12:14.540
+David Schaich (he): that one in this spin configuration is equal to one estate
+
+135
+00:12:15.160 --> 00:12:17.490
+in the opposite direction, minus one
+
+136
+00:12:19.080 --> 00:12:26.920
+David Schaich (he): and just in general; for if the remainder of the module in this entirety. We will.
+
+137
+00:12:27.870 --> 00:12:34.180
+David Schaich (he): fixing all these spins in lattices of this source and that we are looking at the
+
+138
+00:12:34.270 --> 00:12:37.400
+David Schaich (he): tutorial with the I'm. Sorry.
+
+139
+00:12:39.640 --> 00:12:40.800
+David Schaich (he): awesome
+
+140
+00:12:43.950 --> 00:12:45.840
+David Schaich (he): the dimensions.
+
+141
+00:12:50.100 --> 00:12:52.420
+David Schaich (he): So all these things are distinguishable.
+
+142
+00:12:54.190 --> 00:12:55.170
+David Schaich (he): And
+
+143
+00:12:55.580 --> 00:13:00.520
+David Schaich (he): yeah, in the physical world this d will be out there. One dimensional
+
+144
+00:13:03.620 --> 00:13:06.170
+David Schaich (he): What 2 or 3 mentions you control.
+
+145
+00:13:06.450 --> 00:13:07.640
+David Schaich (he): 2 national
+
+146
+00:13:10.200 --> 00:13:13.700
+David Schaich (he): in addition to left and right.
+
+147
+00:13:15.250 --> 00:13:16.990
+David Schaich (he): both below each other
+
+148
+00:13:18.380 --> 00:13:20.000
+David Schaich (he): again, with that same
+
+149
+00:13:21.470 --> 00:13:24.730
+David Schaich (he): external
+
+150
+00:13:25.140 --> 00:13:33.430
+David Schaich (he): label. the overall position both left, right and pop down. So
+
+151
+00:13:35.260 --> 00:13:38.910
+David Schaich (he): this guy here is actually a minus one. Spin.
+
+152
+00:13:44.060 --> 00:13:48.250
+David Schaich (he): Yes, 3 3 is plus one.
+
+153
+00:13:49.020 --> 00:13:51.950
+David Schaich (he): and each microstate. Oh, yeah.
+
+154
+00:13:53.290 --> 00:13:56.580
+David Schaich (he): with this corresponding energy is.
+
+155
+00:13:57.590 --> 00:14:02.970
+David Schaich (he): give them all you the configuration of all of these experience.
+
+156
+00:14:05.510 --> 00:14:06.500
+David Schaich (he): So
+
+157
+00:14:12.800 --> 00:14:15.610
+David Schaich (he): see here in this world of the energy
+
+158
+00:14:20.590 --> 00:14:21.800
+David Schaich (he): is that
+
+159
+00:14:25.230 --> 00:14:31.620
+David Schaich (he): we can rewrite this kind of trivially. as you saw over in
+
+160
+00:14:32.530 --> 00:14:35.860
+David Schaich (he): some energies, Epsilon and we are. Each of those
+
+161
+00:14:36.750 --> 00:14:37.670
+David Schaich (he): is
+
+162
+00:14:37.760 --> 00:14:41.000
+David Schaich (he): the energy that corresponds to a single spin
+
+163
+00:14:41.180 --> 00:14:42.540
+David Schaich (he): in this system.
+
+164
+00:14:43.630 --> 00:14:44.580
+David Schaich (he): and
+
+165
+00:14:47.100 --> 00:14:48.480
+David Schaich (he): thanks to
+
+166
+00:14:49.480 --> 00:14:53.590
+David Schaich (he): factorization, we are also able to right
+
+167
+00:14:58.240 --> 00:15:04.960
+David Schaich (he): efficient function for these sorts of systems in very simple. close form
+
+168
+00:15:06.080 --> 00:15:07.780
+David Schaich (he): expressions to the
+
+169
+00:15:08.190 --> 00:15:12.110
+David Schaich (he): in part of the economical partition function. is
+
+170
+00:15:13.120 --> 00:15:19.490
+David Schaich (he): because the single-party competition function raised because power in this case, where the energy.
+
+171
+00:15:21.860 --> 00:15:26.020
+David Schaich (he): that magnetic field of times, the value of each spin computer
+
+172
+00:15:26.620 --> 00:15:29.980
+David Schaich (he): several months ago, that it's just correspond to
+
+173
+00:15:32.130 --> 00:15:36.710
+David Schaich (he): cosine of the inverse temperature of times, that an angular field, all raised
+
+174
+00:15:36.820 --> 00:15:38.260
+David Schaich (he): to be no power.
+
+175
+00:15:44.520 --> 00:15:49.060
+David Schaich (he): and this factorization is going to be a
+
+176
+00:15:50.360 --> 00:15:56.580
+David Schaich (he): going to be associated with that interacting versus non interacting question that we get posed
+
+177
+00:15:57.610 --> 00:16:08.130
+David Schaich (he): more sharply than the ability to express the energy is is similar individual contributions, which is something that might be possible even when
+
+178
+00:16:08.390 --> 00:16:11.380
+David Schaich (he): it's not to be interacting. Yes.
+
+179
+00:16:16.670 --> 00:16:20.080
+David Schaich (he): the following that formally a knowledge practical system.
+
+180
+00:16:24.580 --> 00:16:32.120
+David Schaich (he): How are you considering how this energy changes. If we change any one now
+
+181
+00:16:32.390 --> 00:16:34.500
+David Schaich (he): of the degrees of freedom
+
+182
+00:16:34.590 --> 00:16:38.680
+David Schaich (he): within the system. so
+
+183
+00:16:41.050 --> 00:16:42.660
+David Schaich (he): change it
+
+184
+00:16:46.490 --> 00:16:48.990
+David Schaich (he): from making some alteration
+
+185
+00:16:50.040 --> 00:16:51.070
+David Schaich (he): to
+
+186
+00:16:53.440 --> 00:16:55.050
+yeah, James particle
+
+187
+00:16:56.230 --> 00:16:59.450
+David Schaich (he): in the system. So
+
+188
+00:16:59.480 --> 00:17:03.440
+David Schaich (he): an arbitrary alteration will produce some generic change.
+
+189
+00:17:03.570 --> 00:17:04.800
+David Schaich (he): The energy
+
+190
+00:17:07.319 --> 00:17:09.380
+David Schaich (he): system that we have is
+
+191
+00:17:10.839 --> 00:17:14.960
+David Schaich (he): not interacting. if in who may
+
+192
+00:17:16.960 --> 00:17:21.240
+David Schaich (he): such the resulting change in the energy. Yeah.
+
+193
+00:17:23.609 --> 00:17:26.829
+David Schaich (he): is, in all of those cases. independence.
+
+194
+00:17:29.270 --> 00:17:32.760
+David Schaich (he): all the other degrees of freedom to the particle step
+
+195
+00:17:32.830 --> 00:17:46.910
+David Schaich (he): you can label. Okay is not equal to J. The one that we alter it to produce this change. So do the quick safety check. Yes. non interact, and still system
+
+196
+00:17:47.210 --> 00:17:52.180
+David Schaich (he): they're talking about is interacting by this definition.
+
+197
+00:17:53.520 --> 00:18:02.560
+David Schaich (he): So in this case, the only alteration that we can make to an arbitrary part of the system is to go
+
+198
+00:18:02.960 --> 00:18:06.350
+David Schaich (he): flip it
+
+199
+00:18:06.570 --> 00:18:11.460
+David Schaich (he): so spin. Sj. i'll turn it. It's minus Sj.
+
+200
+00:18:12.500 --> 00:18:23.060
+David Schaich (he): And the energy we can break up some of all those particles to pick out contribution.
+
+201
+00:18:25.170 --> 00:18:26.440
+David Schaich (he): The script
+
+202
+00:18:28.120 --> 00:18:30.650
+David Schaich (he): contribution.
+
+203
+00:18:30.820 --> 00:18:37.490
+David Schaich (he): What's this overall other? Okay, it's not
+
+204
+00:18:39.780 --> 00:18:41.000
+David Schaich (he): just standing.
+
+205
+00:18:42.210 --> 00:18:45.960
+David Schaich (he): You just pick up that my assignment, the other part.
+
+206
+00:18:46.040 --> 00:18:46.800
+the whole story
+
+207
+00:18:48.060 --> 00:18:49.370
+David Schaich (he): UN effective.
+
+208
+00:18:50.710 --> 00:18:53.840
+David Schaich (he): and you find that
+
+209
+00:18:59.390 --> 00:19:02.670
+use the energy before and after a.
+
+210
+00:19:03.540 --> 00:19:05.270
+David Schaich (he): It's just twice
+
+211
+00:19:07.480 --> 00:19:09.100
+David Schaich (he): each times
+
+212
+00:19:10.750 --> 00:19:15.920
+David Schaich (he): initial. Oh, that's been J. This is
+
+213
+00:19:25.060 --> 00:19:25.890
+David Schaich (he): yeah.
+
+214
+00:19:27.870 --> 00:19:29.190
+David Schaich (he): as expected
+
+215
+00:19:30.970 --> 00:19:34.580
+David Schaich (he): confirmation that our definition is a sensible one.
+
+216
+00:19:35.380 --> 00:19:40.030
+David Schaich (he): and what we I've claimed all along with anonymous
+
+217
+00:19:42.060 --> 00:19:43.510
+David Schaich (he): on the
+
+218
+00:19:44.800 --> 00:19:50.190
+David Schaich (he): i'm. Guessing there are not questions about that, but if there are feel free to.
+
+219
+00:19:51.260 --> 00:19:53.010
+David Schaich (he): It's more interesting to
+
+220
+00:19:54.770 --> 00:19:59.240
+David Schaich (he): go on to something we haven't looked at yet.
+
+221
+00:20:01.740 --> 00:20:03.430
+David Schaich (he): So suppose we have
+
+222
+00:20:05.540 --> 00:20:08.820
+David Schaich (he): it's more. It is more interacting
+
+223
+00:20:09.630 --> 00:20:10.920
+David Schaich (he): interesting.
+
+224
+00:20:13.130 --> 00:20:15.660
+David Schaich (he): Let's continue considering
+
+225
+00:20:15.830 --> 00:20:24.850
+David Schaich (he): spins in. There you go the dimensional matters. I generalize the energy. Yeah.
+
+226
+00:20:25.740 --> 00:20:28.080
+David Schaich (he): Microstates to
+
+227
+00:20:28.110 --> 00:20:29.830
+David Schaich (he): global products.
+
+228
+00:20:30.210 --> 00:20:37.960
+David Schaich (he): 2 spins, Sj. And S. K. Over some pairs. Jk: in addition to
+
+229
+00:20:38.410 --> 00:20:40.070
+David Schaich (he): just the interaction
+
+230
+00:20:41.200 --> 00:20:52.450
+David Schaich (he): with that external magnetic field H. That we started off with previously. where this notation of having a some. we did 2 in the series of parentheses underneath
+
+231
+00:20:52.730 --> 00:20:56.380
+David Schaich (he): it's referring in general terms to
+
+232
+00:20:56.680 --> 00:20:59.300
+David Schaich (he): all possible pairs.
+
+233
+00:21:01.200 --> 00:21:04.410
+David Schaich (he): I nearest neighbor spins.
+
+234
+00:21:12.100 --> 00:21:12.940
+and
+
+235
+00:21:13.730 --> 00:21:17.060
+David Schaich (he): for short, you know, as a structure, so we'll
+
+236
+00:21:18.080 --> 00:21:19.280
+David Schaich (he): with your parents
+
+237
+00:21:19.390 --> 00:21:24.490
+David Schaich (he): in more detail, and depending on the dimensionality. And
+
+238
+00:21:25.330 --> 00:21:27.110
+David Schaich (he): just a few minutes
+
+239
+00:21:28.130 --> 00:21:30.190
+David Schaich (he): we can see already, from
+
+240
+00:21:30.540 --> 00:21:35.190
+David Schaich (he): what we draw up here that my nearest neighbor in one dimension is simply
+
+241
+00:21:35.420 --> 00:21:37.760
+David Schaich (he): students that are next to each other
+
+242
+00:21:38.420 --> 00:21:40.440
+David Schaich (he): 2 directions that can be
+
+243
+00:21:40.920 --> 00:21:44.410
+David Schaich (he): left, and
+
+244
+00:21:44.480 --> 00:21:48.800
+David Schaich (he): but not the diagonals or further helps away.
+
+245
+00:21:51.360 --> 00:21:53.270
+David Schaich (he): so there will be
+
+246
+00:21:54.340 --> 00:21:59.650
+David Schaich (he): contribution to the energy of the system coming first from the year.
+
+247
+00:22:00.110 --> 00:22:02.680
+David Schaich (he): Magnetic field multiply
+
+248
+00:22:03.210 --> 00:22:12.440
+David Schaich (he): into the spins as well as from just the relative values of the spins themselves, whether as we go
+
+249
+00:22:12.460 --> 00:22:16.980
+David Schaich (he): but one to the next, they are pointing in the same direction, whether upward, down, or
+
+250
+00:22:17.300 --> 00:22:17.860
+you
+
+251
+00:22:17.880 --> 00:22:19.410
+David Schaich (he): opposite directions.
+
+252
+00:22:22.130 --> 00:22:26.730
+David Schaich (he): And again, the only possible to
+
+253
+00:22:27.210 --> 00:22:30.260
+David Schaich (he): in a system. With
+
+254
+00:22:30.380 --> 00:22:37.800
+David Schaich (he): this sort of energy or Microsoft. the configuration of all of the spins is just to flip it.
+
+255
+00:22:40.740 --> 00:22:52.890
+David Schaich (he): In this case let me pull out the spin. Sj. expression for the energy that will be multiplying both.
+
+256
+00:22:53.480 --> 00:22:54.480
+David Schaich (he): Oh, yeah.
+
+257
+00:22:55.930 --> 00:22:58.910
+David Schaich (he): all of its nearest neighborhoods so
+
+258
+00:22:58.970 --> 00:23:00.330
+David Schaich (he): Sc.
+
+259
+00:23:01.390 --> 00:23:03.500
+David Schaich (he): Oh, hey!
+
+260
+00:23:05.340 --> 00:23:12.080
+David Schaich (he): That set of us may have repairs.
+
+261
+00:23:12.930 --> 00:23:15.680
+David Schaich (he): The other terms in that stone
+
+262
+00:23:16.880 --> 00:23:18.190
+David Schaich (he): correspond to
+
+263
+00:23:18.640 --> 00:23:21.060
+David Schaich (he): the song over the spins.
+
+264
+00:23:21.360 --> 00:23:25.960
+David Schaich (he): The pairs of nearest neighbors that do not include J.
+
+265
+00:23:27.080 --> 00:23:35.820
+David Schaich (he): So J. Is not in the where we multiply it. the spins M. And K. Together.
+
+266
+00:23:36.900 --> 00:23:38.030
+David Schaich (he): and then the
+
+267
+00:23:41.990 --> 00:23:50.490
+David Schaich (he): the same one that we had before. That's what's the sell over of the K. That are different from J.
+
+268
+00:24:01.810 --> 00:24:08.140
+David Schaich (he): Some over
+
+269
+00:24:09.210 --> 00:24:14.420
+David Schaich (he): no change to it appears that do not include J.
+
+270
+00:24:17.110 --> 00:24:20.260
+David Schaich (he): And similarly within these.
+
+271
+00:24:23.540 --> 00:24:26.500
+David Schaich (he): in the
+
+272
+00:24:27.530 --> 00:24:29.080
+David Schaich (he): we're taking the difference.
+
+273
+00:24:29.610 --> 00:24:32.720
+David Schaich (he): Those are the same cancel out as to those
+
+274
+00:24:33.510 --> 00:24:34.380
+David Schaich (he): you are. Yeah.
+
+275
+00:24:36.770 --> 00:24:38.560
+David Schaich (he): very simple expression.
+
+276
+00:24:41.430 --> 00:24:50.720
+David Schaich (he): It's that same 2 times the original value of the spin J with the inch. Now we the additional contribution.
+
+277
+00:24:56.360 --> 00:24:58.990
+David Schaich (he): All the nearest neighbor spins of J.
+
+278
+00:24:59.490 --> 00:25:01.830
+David Schaich (he): So delta Ej.
+
+279
+00:25:02.550 --> 00:25:03.950
+David Schaich (he): Now it depends
+
+280
+00:25:05.900 --> 00:25:07.820
+David Schaich (he): on sk 4,
+
+281
+00:25:14.690 --> 00:25:24.890
+David Schaich (he): and this is formally an interactive system. I just I like to 2 the interaction with the interaction terms
+
+282
+00:25:28.440 --> 00:25:29.460
+David Schaich (he): one
+
+283
+00:25:31.570 --> 00:25:32.940
+David Schaich (he): absolutely.
+
+284
+00:25:33.880 --> 00:25:37.290
+David Schaich (he): This is the calculation that you may be wondering about is
+
+285
+00:25:38.330 --> 00:25:42.400
+David Schaich (he): what is the precise definition of the nearest neighbors that we have
+
+286
+00:25:42.440 --> 00:25:43.240
+to work with.
+
+287
+00:25:43.490 --> 00:25:48.640
+David Schaich (he): We've kept this sort of general. In in principle there are an infinite.
+
+288
+00:25:50.140 --> 00:25:57.430
+David Schaich (he): a variety of distributions of the degrees of freedom in
+
+289
+00:25:58.670 --> 00:26:00.820
+David Schaich (he): these spin systems that
+
+290
+00:26:01.430 --> 00:26:04.060
+David Schaich (he): you could imagine that setting up and
+
+291
+00:26:05.720 --> 00:26:08.600
+David Schaich (he): using as a basis for analysis.
+
+292
+00:26:09.350 --> 00:26:12.750
+David Schaich (he): which I mean to say that precise 4
+
+293
+00:26:13.860 --> 00:26:16.520
+David Schaich (he): of the nearest neighborors that are now contributing
+
+294
+00:26:16.910 --> 00:26:21.820
+David Schaich (he): to the energy to the partition function, and to all these large quantities
+
+295
+00:26:23.110 --> 00:26:26.320
+David Schaich (he): depends on the structure. All of that.
+
+296
+00:26:26.900 --> 00:26:28.860
+David Schaich (he): The lattice on which we
+
+297
+00:26:30.000 --> 00:26:34.310
+David Schaich (he): form with the system which we place the
+
+298
+00:26:37.880 --> 00:26:42.430
+David Schaich (he): that's the general statements, this expression, the function for
+
+299
+00:26:42.650 --> 00:26:44.080
+David Schaich (he): the internal energy
+
+300
+00:26:45.990 --> 00:26:50.240
+David Schaich (he): configuration of spins along with the
+
+301
+00:26:50.830 --> 00:26:53.530
+David Schaich (he): that a structure that defines
+
+302
+00:26:54.210 --> 00:26:55.910
+David Schaich (he): the nearest name repairs
+
+303
+00:26:57.290 --> 00:26:58.810
+David Schaich (he): go into that, or she
+
+304
+00:27:00.250 --> 00:27:03.260
+David Schaich (he): together. Jealous the system.
+
+305
+00:27:04.540 --> 00:27:06.580
+David Schaich (he): This is the easy model.
+
+306
+00:27:08.090 --> 00:27:12.330
+David Schaich (he): this whole easy model, because it was invented by
+
+307
+00:27:12.480 --> 00:27:17.280
+David Schaich (he): We'll have once just over a 100 years ago.
+
+308
+00:27:20.440 --> 00:27:23.390
+David Schaich (he): Now. at least in this.
+
+309
+00:27:23.470 --> 00:27:26.580
+David Schaich (he): in the lectures we will
+
+310
+00:27:26.860 --> 00:27:28.340
+David Schaich (he): consider only
+
+311
+00:27:29.820 --> 00:27:32.070
+David Schaich (he): cubic lattices in
+
+312
+00:27:33.130 --> 00:27:37.050
+David Schaich (he): an arbitrary number of d dimensions.
+
+313
+00:27:37.180 --> 00:27:41.130
+David Schaich (he): a few specific
+
+314
+00:27:42.770 --> 00:27:49.440
+David Schaich (he): dimensional lattices that we drew earlier as well as a pretty much
+
+315
+00:27:49.480 --> 00:27:50.530
+David Schaich (he): what you guys
+
+316
+00:27:53.020 --> 00:27:54.540
+David Schaich (he): just to keep things.
+
+317
+00:27:55.170 --> 00:27:58.250
+David Schaich (he): I guess simply when we draw these lattices in
+
+318
+00:27:58.360 --> 00:27:59.540
+David Schaich (he): discuss them.
+
+319
+00:28:00.040 --> 00:28:02.590
+David Schaich (he): Well introduce a good terminology.
+
+320
+00:28:03.660 --> 00:28:04.520
+David Schaich (he): Yes.
+
+321
+00:28:06.540 --> 00:28:08.380
+David Schaich (he): sites of the lab is
+
+322
+00:28:09.880 --> 00:28:10.970
+David Schaich (he): will be
+
+323
+00:28:12.170 --> 00:28:14.120
+David Schaich (he): where the spins are located.
+
+324
+00:28:17.190 --> 00:28:29.920
+David Schaich (he): We'll draw those just with nots rather than the up and down the recording arrows we used before. And then the link to the lattice correspond to.
+
+325
+00:28:30.600 --> 00:28:42.250
+David Schaich (he): Yeah. Here's the repairs that go into the definition of the energy 4. Each microstates you find 5 configuration.
+
+326
+00:28:43.340 --> 00:28:44.460
+David Schaich (he): So this
+
+327
+00:28:45.370 --> 00:28:51.240
+David Schaich (he): illustration of a pretty much in the lattice, just you only if it's into the
+
+328
+00:28:51.730 --> 00:28:52.880
+David Schaich (he): screen.
+
+329
+00:28:53.550 --> 00:28:56.920
+David Schaich (he): So here are the sites in black.
+
+330
+00:28:57.190 --> 00:28:59.410
+David Schaich (he): a few links in blue.
+
+331
+00:28:59.450 --> 00:29:05.810
+David Schaich (he): pointing in each of the 3 basis, directions from left to right, up and down.
+
+332
+00:29:05.880 --> 00:29:06.710
+David Schaich (he): and then
+
+333
+00:29:08.490 --> 00:29:11.050
+forward and backwards into the out of the page.
+
+334
+00:29:12.060 --> 00:29:13.050
+The shading of
+
+335
+00:29:13.580 --> 00:29:22.060
+David Schaich (he): links to showing up. Really. this direction will be my call. Is that direction. We have
+
+336
+00:29:23.330 --> 00:29:27.260
+David Schaich (he): x and y going left, right it up and down
+
+337
+00:29:31.030 --> 00:29:45.220
+David Schaich (he): in addition to sites and links in a three-dimensional less, or even a 2 dimensional lattice. We can have these oriented faces that are known as cats. and in 3 or higher dimensions we can also have cubes as
+
+338
+00:29:45.400 --> 00:29:53.010
+David Schaich (he): the basic unit cell of the volume of it was your not going to be too relevant just for the easy model.
+
+339
+00:29:54.120 --> 00:29:55.270
+David Schaich (he): They're all
+
+340
+00:29:56.290 --> 00:30:01.720
+David Schaich (he): a wide variety of lot of systems with different degrees of freedom and different
+
+341
+00:30:02.100 --> 00:30:05.240
+David Schaich (he): types of interaction contributing to the energy where
+
+342
+00:30:05.330 --> 00:30:06.940
+David Schaich (he): I kept saying, queues
+
+343
+00:30:08.490 --> 00:30:13.200
+David Schaich (he): become a crucial to yeah
+
+344
+00:30:14.160 --> 00:30:17.610
+David Schaich (he): behavior of the system. And Even this basic definition.
+
+345
+00:30:19.190 --> 00:30:23.160
+David Schaich (he): and one other aspect of the last is that you might be wondering about is.
+
+346
+00:30:28.260 --> 00:30:29.930
+David Schaich (he): how do we handle the
+
+347
+00:30:30.240 --> 00:30:32.320
+David Schaich (he): edges of the system?
+
+348
+00:30:32.440 --> 00:30:43.720
+David Schaich (he): These to the side of the side. I have different patterns of nearest neighbors compared to all of the others in the middle.
+
+349
+00:30:45.180 --> 00:30:48.750
+David Schaich (he): All we'll actually do is avoid it. It was
+
+350
+00:30:50.390 --> 00:30:53.700
+David Schaich (he): simplify so
+
+351
+00:30:57.820 --> 00:30:58.800
+David Schaich (he): bye
+
+352
+00:30:59.870 --> 00:31:03.510
+David Schaich (he): imposing what are called periodic boundary conditions
+
+353
+00:31:03.840 --> 00:31:10.780
+David Schaich (he): that wrap each into the lattice around, back to the other edge.
+
+354
+00:31:12.450 --> 00:31:13.560
+David Schaich (he): One name that.
+
+355
+00:31:15.290 --> 00:31:18.570
+David Schaich (he): hey? You. of course. or
+
+356
+00:31:19.730 --> 00:31:22.100
+the general number of 2 dimensions, 8
+
+357
+00:31:23.370 --> 00:31:25.930
+David Schaich (he): hyperturus. So this wrapped in
+
+358
+00:31:28.450 --> 00:31:30.360
+David Schaich (he): periodic boundary conditions.
+
+359
+00:31:35.760 --> 00:31:37.470
+David Schaich (he): he's called a PVC.
+
+360
+00:31:37.810 --> 00:31:44.020
+David Schaich (he): Going on. So the idea is that if we have
+
+361
+00:31:46.920 --> 00:31:57.540
+David Schaich (he): 4 us neighbor links in each X and Y plane of this axis. you imagine this.
+
+362
+00:32:01.070 --> 00:32:04.470
+David Schaich (he): So I draw here to circle back around to the right.
+
+363
+00:32:04.920 --> 00:32:06.020
+connect to
+
+364
+00:32:06.680 --> 00:32:07.560
+David Schaich (he): that
+
+365
+00:32:07.690 --> 00:32:10.660
+David Schaich (he): right most site in that hour later.
+
+366
+00:32:13.990 --> 00:32:18.280
+David Schaich (he): So those 2 links are, in fact, the same well
+
+367
+00:32:18.740 --> 00:32:20.060
+down from the bottom.
+
+368
+00:32:20.270 --> 00:32:22.840
+David Schaich (he): Yeah. back all around to the top.
+
+369
+00:32:24.100 --> 00:32:30.800
+David Schaich (he): The same sort of behavior that see you another video games like Pacman.
+
+370
+00:32:30.890 --> 00:32:36.660
+David Schaich (he): If you go off one side of the screen you pop back up on the other side.
+
+371
+00:32:37.180 --> 00:32:41.220
+David Schaich (he): and that just simplifies all set up. We are looking at here
+
+372
+00:32:42.590 --> 00:32:54.020
+David Schaich (he): because now there are to worry about can imagine cooling up this whole easier and more of 2 dimensions
+
+373
+00:32:55.190 --> 00:32:55.790
+David Schaich (he): for you.
+
+374
+00:32:56.190 --> 00:32:58.770
+David Schaich (he): Pull off the lattice into
+
+375
+00:33:00.950 --> 00:33:01.870
+for us.
+
+376
+00:33:02.040 --> 00:33:03.220
+David Schaich (he): Okay.
+
+377
+00:33:05.690 --> 00:33:08.960
+David Schaich (he): system without any boundaries.
+
+378
+00:33:09.010 --> 00:33:11.590
+David Schaich (he): and if no need to worry about them.
+
+379
+00:33:14.320 --> 00:33:18.210
+David Schaich (he): different or special behavior that might come into play.
+
+380
+00:33:19.080 --> 00:33:23.640
+David Schaich (he): So all these two-dimensional forces are
+
+381
+00:33:26.390 --> 00:33:30.000
+David Schaich (he): flat spaces in the sense of having
+
+382
+00:33:30.120 --> 00:33:36.430
+David Schaich (he): 0. Gosh and curvature. Yeah, there is it constant distance between
+
+383
+00:33:37.370 --> 00:33:39.950
+David Schaich (he): all of the Us. Nav. Repairs?
+
+384
+00:33:40.900 --> 00:33:41.590
+David Schaich (he): You couldn't let me
+
+385
+00:33:42.860 --> 00:33:44.700
+David Schaich (he): all the links in the lattice
+
+386
+00:33:45.980 --> 00:33:52.530
+David Schaich (he): so many questions about the please you've been going through so far.
+
+387
+00:33:57.420 --> 00:34:00.740
+David Schaich (he): not seeing any less. Look back at
+
+388
+00:34:01.780 --> 00:34:13.500
+David Schaich (he): our expression for the energy we're doing this configuration. where we have now contributions from the end, spins couple of.
+
+389
+00:34:13.620 --> 00:34:19.510
+David Schaich (he): as well as all of the links corresponding to the University of Repairs
+
+390
+00:34:20.639 --> 00:34:23.270
+David Schaich (he): in the latest structure. So
+
+391
+00:34:24.940 --> 00:34:38.360
+David Schaich (he): it is a question. What are the relative importances of those 2 terms which we can begin to answer by you doing it out? How many contributions are in each of those songs. How many links there are?
+
+392
+00:34:40.400 --> 00:34:43.690
+David Schaich (he): Google has site which will.
+
+393
+00:34:48.560 --> 00:34:53.860
+David Schaich (he): So if we just look at a one dimensional lab. there
+
+394
+00:34:54.260 --> 00:34:58.080
+David Schaich (he): sites are going left and right, and they wrap around
+
+395
+00:34:58.120 --> 00:34:59.380
+David Schaich (he): at the end.
+
+396
+00:35:00.490 --> 00:35:06.330
+David Schaich (he): I'm doing this with 4 sites. You can count that there are all links between them
+
+397
+00:35:06.730 --> 00:35:08.820
+David Schaich (he): no one at the end of going away.
+
+398
+00:35:08.850 --> 00:35:09.800
+Let me see.
+
+399
+00:35:09.820 --> 00:35:10.760
+David Schaich (he): cool
+
+400
+00:35:12.100 --> 00:35:16.650
+David Schaich (he): and just in general. no matter how many you
+
+401
+00:35:16.850 --> 00:35:21.190
+David Schaich (he): sites we were to draw, we can see that each site is connected to you.
+
+402
+00:35:21.330 --> 00:35:22.890
+David Schaich (he): Those 2 links
+
+403
+00:35:24.050 --> 00:35:28.320
+David Schaich (he): 0 to us neighbors
+
+404
+00:35:30.130 --> 00:35:35.060
+David Schaich (he): who site. and each of the links corresponding to those University of repairs
+
+405
+00:35:36.890 --> 00:35:39.860
+David Schaich (he): is share between
+
+406
+00:35:41.070 --> 00:35:42.320
+David Schaich (he): 2 sites.
+
+407
+00:35:42.740 --> 00:35:45.930
+David Schaich (he): So there are 2 sites at the end of your link.
+
+408
+00:35:46.290 --> 00:35:47.050
+David Schaich (he): So
+
+409
+00:35:48.480 --> 00:35:55.920
+David Schaich (he): those basic packs together we end up with the number of links. Yeah. 2 per site.
+
+410
+00:35:56.470 --> 00:35:58.880
+David Schaich (he): 2 sites
+
+411
+00:36:00.180 --> 00:36:02.980
+David Schaich (he): are here. and we follow that
+
+412
+00:36:03.180 --> 00:36:08.410
+David Schaich (he): the number of links is equal to what that number of sites and just recounting with those 4.
+
+413
+00:36:09.280 --> 00:36:12.720
+David Schaich (he): It's equally easy to do this with accounting and
+
+414
+00:36:14.080 --> 00:36:15.410
+David Schaich (he): 2 dimensions.
+
+415
+00:36:16.850 --> 00:36:17.680
+David Schaich (he): There
+
+416
+00:36:22.080 --> 00:36:27.120
+David Schaich (he): the sites are good. How are you same distance?
+
+417
+00:36:28.360 --> 00:36:30.000
+David Schaich (he): We pick out
+
+418
+00:36:30.750 --> 00:36:37.050
+David Schaich (he): that site at the center. You see it now. It has 4 links attached to it.
+
+419
+00:36:37.490 --> 00:36:39.010
+David Schaich (he): one nearest neighbors
+
+420
+00:36:40.360 --> 00:36:45.760
+David Schaich (he): again. Each of those links has these sites on each side
+
+421
+00:36:45.770 --> 00:36:46.670
+for wipes.
+
+422
+00:36:49.400 --> 00:36:50.070
+David Schaich (he): Okay.
+
+423
+00:36:50.670 --> 00:36:53.130
+David Schaich (he): I'll be the screen for you.
+
+424
+00:36:54.150 --> 00:36:55.300
+David Schaich (he): So those
+
+425
+00:36:56.280 --> 00:36:59.180
+David Schaich (he): for the
+
+426
+00:36:59.740 --> 00:37:10.560
+David Schaich (he): or divided by 2. So we end up with places my new links as sites. and the case of the 2 national lattice.
+
+427
+00:37:12.510 --> 00:37:15.010
+David Schaich (he): and this generalizes to what
+
+428
+00:37:15.060 --> 00:37:23.180
+David Schaich (he): any higher number of dimensions which we may want to work. every new dimension will add a new direction.
+
+429
+00:37:23.240 --> 00:37:27.830
+David Schaich (he): and for which each site will have a pair of nearest neighbors.
+
+430
+00:37:31.950 --> 00:37:32.880
+David Schaich (he): So
+
+431
+00:37:34.700 --> 00:37:39.480
+David Schaich (he): I in general the dimensional hybrid you with lattice.
+
+432
+00:37:44.520 --> 00:37:45.710
+David Schaich (he): I don't see that
+
+433
+00:37:49.320 --> 00:37:50.530
+David Schaich (he): we will have
+
+434
+00:37:53.130 --> 00:37:55.150
+David Schaich (he): to the times
+
+435
+00:37:56.190 --> 00:37:59.100
+David Schaich (he): in that links in total for insights
+
+436
+00:38:00.580 --> 00:38:02.890
+David Schaich (he): all shared by 2 sites.
+
+437
+00:38:03.890 --> 00:38:10.390
+David Schaich (he): So the dimension of all the times. The number of sites gives us
+
+438
+00:38:11.870 --> 00:38:17.910
+David Schaich (he): number of links where I will trouble in order to keep the D. And here, so that it looks like a product
+
+439
+00:38:18.070 --> 00:38:20.180
+David Schaich (he): rather than some differential factor.
+
+440
+00:38:21.280 --> 00:38:22.700
+David Schaich (he): So, as the
+
+441
+00:38:22.940 --> 00:38:26.510
+David Schaich (he): dimensionality of our system varies, you can expect this
+
+442
+00:38:26.950 --> 00:38:36.920
+David Schaich (he): interaction term all of those nearest neighbors to be called steadily more important compared to the
+
+443
+00:38:38.800 --> 00:38:43.000
+David Schaich (he): interaction with the external magnetic field that we are used to
+
+444
+00:38:48.720 --> 00:38:49.760
+David Schaich (he): so
+
+445
+00:38:50.870 --> 00:39:01.850
+David Schaich (he): previously, the so that we had a very simple expression; for you can particle canonical position function for
+
+446
+00:39:02.870 --> 00:39:07.510
+David Schaich (he): not interacting. It's been systems just and hours of that
+
+447
+00:39:07.780 --> 00:39:10.290
+David Schaich (he): hyperbolic cosine factor.
+
+448
+00:39:13.110 --> 00:39:24.160
+David Schaich (he): And the question is. and we guess similar first one. I'll create an expression for do you
+
+449
+00:39:25.190 --> 00:39:27.060
+David Schaich (he): it all the corporation function?
+
+450
+00:39:27.210 --> 00:39:30.310
+David Schaich (he): This is what we have to specify.
+
+451
+00:39:30.460 --> 00:39:31.870
+David Schaich (he): It's like a structure.
+
+452
+00:39:33.560 --> 00:39:35.560
+David Schaich (he): So the first of this is
+
+453
+00:39:36.960 --> 00:39:41.820
+David Schaich (he): solving the system, letting down a close one expression for
+
+454
+00:39:42.890 --> 00:39:45.140
+David Schaich (he): it's not like a partition function
+
+455
+00:39:55.900 --> 00:39:58.840
+David Schaich (he): partition function there it depends on
+
+456
+00:40:00.360 --> 00:40:12.160
+David Schaich (he): They are the fixed number of particles in the external, that it's just the sum over all possible spin configurations of
+
+457
+00:40:12.670 --> 00:40:16.250
+David Schaich (he): the exponential factor of minus data, as far as the energy.
+
+458
+00:40:18.320 --> 00:40:20.020
+David Schaich (he): the that we have.
+
+459
+00:40:22.780 --> 00:40:27.630
+David Schaich (he): So we writing it. This here negative signs cancel out
+
+460
+00:40:30.120 --> 00:40:31.080
+David Schaich (he): times.
+
+461
+00:40:31.720 --> 00:40:35.730
+David Schaich (he): That's some of the
+
+462
+00:40:36.290 --> 00:40:41.550
+David Schaich (he): must be at times the external field. Some of the individual spins.
+
+463
+00:40:45.740 --> 00:40:50.780
+David Schaich (he): It's real. Call me for a second to
+
+464
+00:40:54.110 --> 00:40:56.160
+David Schaich (he): appreciate the the task
+
+465
+00:40:56.430 --> 00:41:01.560
+David Schaich (he): that correspond to actually solving this kind of like a proficient function
+
+466
+00:41:02.030 --> 00:41:06.070
+David Schaich (he): because we have interacting system.
+
+467
+00:41:07.570 --> 00:41:12.700
+David Schaich (he): Do not expect that to be this sort of factorization that just gave us
+
+468
+00:41:14.010 --> 00:41:20.670
+David Schaich (he): in factors of the with all the cosine non interacting case. So what we have to worry about
+
+469
+00:41:20.720 --> 00:41:24.800
+David Schaich (he): the sum over all possible spin configurations that we have.
+
+470
+00:41:24.830 --> 00:41:28.790
+David Schaich (he): and particles, each of which can take 2 orientations.
+
+471
+00:41:30.980 --> 00:41:34.740
+David Schaich (he): something like 2 to the end phones.
+
+472
+00:41:36.310 --> 00:41:44.130
+David Schaich (he): and in each of those terms we have to, I consider the exponential after all it so. For these things there are
+
+473
+00:41:44.730 --> 00:41:48.370
+David Schaich (he): in terms. You can just sell over all the spins.
+
+474
+00:41:48.610 --> 00:41:52.250
+David Schaich (he): and we just counted the links and
+
+475
+00:41:52.850 --> 00:41:57.200
+David Schaich (he): the d dimensional hyper cubic lattice that we're considering.
+
+476
+00:41:57.550 --> 00:41:59.100
+David Schaich (he): Give us the time to
+
+477
+00:42:00.250 --> 00:42:01.270
+David Schaich (he): problems
+
+478
+00:42:02.720 --> 00:42:06.820
+David Schaich (he): in the coming from the interactions in this exponentially.
+
+479
+00:42:08.830 --> 00:42:15.120
+David Schaich (he): So there is overall an exponentially large number of terms
+
+480
+00:42:15.300 --> 00:42:17.290
+David Schaich (he): that in each of them.
+
+481
+00:42:17.610 --> 00:42:30.850
+David Schaich (he): some over polynomial, large in your number of terms for and spins. And even once we get up to moderate values of the end, this will be a challenging.
+
+482
+00:42:32.610 --> 00:42:40.430
+David Schaich (he): no quality to try to express. Yes, some simple algebraic function. So the
+
+483
+00:42:40.980 --> 00:42:45.470
+David Schaich (he): basic answers, Can we solve the using model? Use? It depends
+
+484
+00:42:45.610 --> 00:42:47.630
+David Schaich (he): in particular. It depends on
+
+485
+00:42:47.960 --> 00:42:51.230
+David Schaich (he): number of dimensions that we are working in
+
+486
+00:42:51.610 --> 00:42:58.200
+David Schaich (he): so in that simplest one-dimensional case there he is an exact solution.
+
+487
+00:42:59.600 --> 00:43:03.090
+David Schaich (he): It was first computed by
+
+488
+00:43:05.320 --> 00:43:08.530
+David Schaich (he): that got his name attached to.
+
+489
+00:43:08.780 --> 00:43:18.640
+David Schaich (he): and even though you've been assigned it as a Project by this a Phd Supervisor once that was back in 1924 and
+
+490
+00:43:20.710 --> 00:43:26.400
+David Schaich (he): brief supplemental section in lecture notes that goes through this exact solution, which we can do
+
+491
+00:43:26.950 --> 00:43:29.400
+David Schaich (he): if we have the time for it.
+
+492
+00:43:30.320 --> 00:43:31.360
+In the remaining
+
+493
+00:43:31.730 --> 00:43:33.960
+David Schaich (he): weeks of the hello
+
+494
+00:43:35.000 --> 00:43:42.090
+David Schaich (he): things you more interesting once we have it more than one to.
+
+495
+00:43:43.110 --> 00:43:44.930
+David Schaich (he): So the 2 dimensional case.
+
+496
+00:43:46.500 --> 00:43:53.180
+David Schaich (he): We have the next solution in the super my situation
+
+497
+00:43:54.560 --> 00:43:58.320
+David Schaich (he): when there is no external magnetic field.
+
+498
+00:44:00.230 --> 00:44:01.210
+David Schaich (he): and
+
+499
+00:44:02.280 --> 00:44:05.040
+David Schaich (he): it took folks at 20 years
+
+500
+00:44:05.700 --> 00:44:07.540
+David Schaich (he): on the time of
+
+501
+00:44:08.100 --> 00:44:15.990
+David Schaich (he): Ph. D. Work to the solution of the 2D 0 people using model by a.
+
+502
+00:44:17.080 --> 00:44:22.780
+David Schaich (he): With the Nobel Prize in chemistry in the twentieth century. and this
+
+503
+00:44:23.420 --> 00:44:33.510
+David Schaich (he): his exact solution of the really the model of mathematical physics. If you were all interested in
+
+504
+00:44:34.630 --> 00:44:40.010
+David Schaich (he): it was complicated mathematically. You can imagine if we're looking at that up.
+
+505
+00:44:41.450 --> 00:44:42.390
+David Schaich (he): you know.
+
+506
+00:44:42.540 --> 00:44:49.320
+David Schaich (he): starting with a computer article that can do a flavor or just how complicated the world to
+
+507
+00:44:50.750 --> 00:45:01.390
+David Schaich (he): your way. Oh, that's the one the case that we could do something in this module to the too many days. that
+
+508
+00:45:02.060 --> 00:45:05.900
+David Schaich (he): it's an honestly more after the mathematical sophistication.
+
+509
+00:45:06.060 --> 00:45:09.430
+David Schaich (he): Perhaps not surprisingly for
+
+510
+00:45:10.790 --> 00:45:12.700
+David Schaich (he): the for 3 directions
+
+511
+00:45:15.830 --> 00:45:19.930
+David Schaich (he): there remains to this day doing the exact solution.
+
+512
+00:45:23.110 --> 00:45:24.780
+David Schaich (he): Any of those cases.
+
+513
+00:45:28.450 --> 00:45:38.470
+David Schaich (he): What we do could also consider doing is rather the right now, and elegance I'll be ridiculous with the partition function
+
+514
+00:45:42.420 --> 00:45:46.030
+David Schaich (he): programming projects in this module and part because
+
+515
+00:45:46.460 --> 00:45:49.150
+David Schaich (he): programming is so important
+
+516
+00:45:50.400 --> 00:45:55.210
+David Schaich (he): in many areas. But in particular a statistical business for interacting systems.
+
+517
+00:45:55.830 --> 00:45:57.590
+David Schaich (he): If we would try to
+
+518
+00:45:58.760 --> 00:46:02.150
+David Schaich (he): Google to try to numerically sold
+
+519
+00:46:02.160 --> 00:46:06.220
+David Schaich (he): this partition function just by computing every single term
+
+520
+00:46:07.310 --> 00:46:09.610
+David Schaich (he): that she was in it. So
+
+521
+00:46:12.340 --> 00:46:17.380
+David Schaich (he): what was that involved? If we consider
+
+522
+00:46:18.690 --> 00:46:21.350
+David Schaich (he): very tiny case
+
+523
+00:46:21.430 --> 00:46:24.730
+David Schaich (he): a 10 by 10 last, and 2 dimensions.
+
+524
+00:46:25.730 --> 00:46:30.000
+David Schaich (he): so something not much larger than what we
+
+525
+00:46:30.450 --> 00:46:33.970
+David Schaich (he): through the few seconds of the side
+
+526
+00:46:34.270 --> 00:46:39.040
+David Schaich (he): a few minutes ago. Then we have
+
+527
+00:46:40.070 --> 00:46:42.300
+David Schaich (he): that total n equals 100
+
+528
+00:46:43.060 --> 00:46:47.000
+David Schaich (he): and told them Returns To deal with is
+
+529
+00:46:47.520 --> 00:46:50.260
+David Schaich (he): 2 to the 100 spin configurations.
+
+530
+00:46:50.740 --> 00:46:53.290
+David Schaich (he): each of which involves
+
+531
+00:46:53.460 --> 00:47:02.070
+David Schaich (he): B equals 2 times, and so 200, plus 100, is 300 different terms to consider for each.
+
+532
+00:47:03.210 --> 00:47:05.410
+David Schaich (he): to the harvesting configurations.
+
+533
+00:47:07.760 --> 00:47:11.590
+David Schaich (he): and just looking at
+
+534
+00:47:11.610 --> 00:47:16.350
+David Schaich (he): between base 2 and base 10 gives us about 10 to the 3
+
+535
+00:47:17.350 --> 00:47:28.290
+David Schaich (he): terms in this partition function for a tiny 10 by 10 that has some 2 dimensions. If we imagine our computer
+
+536
+00:47:29.460 --> 00:47:33.890
+David Schaich (he): evaluate to a 1 billion of those terms per second.
+
+537
+00:47:36.970 --> 00:47:39.660
+David Schaich (he): That's the point operation per second.
+
+538
+00:47:42.490 --> 00:47:55.800
+David Schaich (he): I have a 32. We get about 2 and 23 seconds to do that calculation just about 10 feet 15 years. which is about
+
+539
+00:47:56.260 --> 00:47:58.160
+David Schaich (he): half a 1 billiontimes
+
+540
+00:48:00.820 --> 00:48:03.580
+David Schaich (he): longer than the age of the universe.
+
+541
+00:48:05.730 --> 00:48:11.010
+David Schaich (he): So this sort of a free force, numerical solution is
+
+542
+00:48:12.200 --> 00:48:16.840
+David Schaich (he): not a practical way to go, so we plan for
+
+543
+00:48:17.920 --> 00:48:22.440
+David Schaich (he): next week, and a week after that, given that, we'll be down to this
+
+544
+00:48:22.900 --> 00:48:29.630
+David Schaich (he): 1 h together. Give me a Bank Holiday first as
+
+545
+00:48:31.350 --> 00:48:44.530
+David Schaich (he): high and low temperature minutes. Which Will you guys help us a lot? Not the system without doing it too much in the way of precise work?
+
+546
+00:48:44.730 --> 00:48:45.740
+David Schaich (he): You can then
+
+547
+00:48:46.540 --> 00:48:49.370
+David Schaich (he): go through a simple approximation which
+
+548
+00:48:50.890 --> 00:48:53.030
+David Schaich (he): is easily solvable, but
+
+549
+00:48:53.350 --> 00:48:56.530
+David Schaich (he): maybe not an accurate description of the floor
+
+550
+00:48:56.580 --> 00:48:58.560
+David Schaich (he): Already I'll be using the call
+
+551
+00:48:59.740 --> 00:49:02.410
+something known as the mean fuel approximation.
+
+552
+00:49:02.600 --> 00:49:05.340
+David Schaich (he): And then I believe there are
+
+553
+00:49:06.070 --> 00:49:08.840
+David Schaich (he): smaller numerical approaches.
+
+554
+00:49:13.120 --> 00:49:15.720
+David Schaich (he): so it's my computational approach.
+
+555
+00:49:18.090 --> 00:49:20.580
+David Schaich (he): You very
+
+556
+00:49:20.800 --> 00:49:26.870
+David Schaich (he): valuable information out both the easy model in an arbitrary number of dimensions, as well as
+
+557
+00:49:27.480 --> 00:49:40.850
+David Schaich (he): generally you more complicated interacting systems. That's the you plan. Going forward. You may last couple of questions about using model that we've seen so far
+
+558
+00:49:41.710 --> 00:49:42.720
+David Schaich (he): and
+
+559
+00:49:44.980 --> 00:49:48.780
+David Schaich (he): not seeing any, I will let you go and again enjoy another
+
+560
+00:49:49.150 --> 00:49:50.440
+David Schaich (he): sunny day.
+
+561
+00:49:57.460 --> 00:50:04.580
+David Schaich (he): Yeah. connected to low temperature electron gases that we looked at yesterday.
+
