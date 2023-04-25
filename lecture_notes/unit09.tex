@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 9}
-\renewcommand{\moddate}{Last modified 24 Apr.~2023}
+\renewcommand{\moddate}{Last modified 25 Apr.~2023}
 \setcounter{section}{9}
 \setcounter{subsection}{0}
 \phantomsection
@@ -54,7 +54,7 @@ A stronger condition needs to be satisfied in order to guarantee factorization, 
 
 \begin{shaded}
   Let $\De E_j$ be the change in the system's internal energy caused by changing its $j$th degree of freedom.
-  Then the system is defined to be \textbf{non-interacting} if and only if $\De E_j$ for any $j$ is independent of all other degrees of freedom $k \ne j$.
+  Then the system is defined to be \textbf{non-interacting} if and only if $\De E_j$ is independent of all other degrees of freedom $k \ne j$. % for an arbitrary $j$...
 \end{shaded}
 
 For our system of $N$ distinguishable spins, the only possible change we can make to a degree of freedom is to negate it, $s_j \to -s_j$, which corresponds to flipping its alignment relative to the external magnetic field.
@@ -63,7 +63,7 @@ It is easy to check that the change in the internal energy resulting from such a
   \ \\[80 pt]
 \end{mdframed}
 
-Now let's make things more interesting by considering a different spin system that also includes a simple two-spin contribution to the internal energy:
+Now let's make things more interesting by considering a different spin system that includes a simple two-spin contribution to the internal energy:
 \begin{equation}
   \label{eq:Ising_energy}
   E_i = -\sum_{(jk)} s_j s_k - H \sum_{n = 1}^N s_n.
@@ -80,7 +80,7 @@ Instead of drawing up- and down-pointing arrows, these pictures identify the spi
 In simple cubic lattices, all sites are positioned in a regular grid, separated by a constant distance along each basis vector.
 We can also draw \textit{links} as solid lines connecting these nearest-neighbour sites, with each link corresponding to a term in $\sum_{(jk)}$.
 The picture of a two-dimensional lattice on the left highlights the four links (with red hatch marks) that correspond to the four nearest neighbours (circled in red) of a particular site (circled in blue).
-For $d \geq 2$, an elementary unit of surface area is called a \textit{plaquette}, while for $d \geq 3$ the elementary unit of volume is called a \textit{cube}.
+For $d \geq 2$, the elementary unit of surface area is called a \textit{plaquette}, while for $d \geq 3$ the elementary unit of volume is called a \textit{cube}.
 
 \begin{center}
   \includegraphics[height=0.4\textwidth]{figs/unit09_lattice_2d.pdf}\hfill
