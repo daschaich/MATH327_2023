@@ -1,0 +1,2098 @@
+WEBVTT
+
+1
+00:00:11.390 --> 00:00:15.520
+David Schaich (he): Okay, we can get going. We'll see if
+
+2
+00:00:16.600 --> 00:00:20.020
+David Schaich (he): more folks come in, either in the room or
+
+3
+00:00:20.170 --> 00:00:21.430
+David Schaich (he): remotely.
+
+4
+00:00:23.720 --> 00:00:24.610
+David Schaich (he): We are
+
+5
+00:00:26.170 --> 00:00:28.870
+David Schaich (he): in the last month of the module.
+
+6
+00:00:32.950 --> 00:00:33.930
+David Schaich (he): The 6-digit code for this afternoon
+
+7
+00:00:35.010 --> 00:00:37.010
+David Schaich (he): is 2, 3, 4, 9, 7, 0
+
+8
+00:00:40.920 --> 00:00:47.840
+David Schaich (he): It may well be, in addition to the nice weather at the moment, that folks are working hard to
+
+9
+00:00:47.900 --> 00:00:50.940
+David Schaich (he): wrap up the final homework assignment, due
+
+10
+00:00:51.200 --> 00:00:53.170
+David Schaich (he): tomorrow. Are there any
+
+11
+00:00:53.530 --> 00:00:57.080
+David Schaich (he): questions about that assignment, or what we did
+
+12
+00:00:57.200 --> 00:01:02.330
+David Schaich (he): in previous weeks before we get underway today?
+
+13
+00:01:08.540 --> 00:01:10.300
+David Schaich (he): Not seeing it either
+
+14
+00:01:10.330 --> 00:01:16.590
+David Schaich (he): go along with hopefully answering today the question that's up here, how we
+
+15
+00:01:16.670 --> 00:01:21.770
+David Schaich (he): distinguish the phase transitions that we talked about last week.
+
+16
+00:01:22.130 --> 00:01:27.910
+David Schaich (he): It's just different behaviors that we're seeing in non interacting system systems. We
+
+17
+00:01:28.060 --> 00:01:32.130
+David Schaich (he): motivated the introduction of interacting the theories by saying that they are
+
+18
+00:01:32.530 --> 00:01:46.270
+David Schaich (he): required to describe this way more complicated behavior. Which is it clear that there is something going on with the true phase transition that distinguishes this from
+
+19
+00:01:46.330 --> 00:01:49.030
+David Schaich (he): the different behavior we can see
+
+20
+00:01:49.110 --> 00:02:01.570
+David Schaich (he): just for not a tracking system we've considered previously and more work with on your own in that homework assignment. So
+
+21
+00:02:02.010 --> 00:02:05.240
+David Schaich (he): to build up to this question. Let's just recall
+
+22
+00:02:16.250 --> 00:02:23.220
+David Schaich (he): easy model to call because it was discovered by it, is. Define in terms of
+
+23
+00:02:24.000 --> 00:02:27.540
+David Schaich (he): the same
+
+24
+00:02:27.860 --> 00:02:31.520
+David Schaich (he): now specifically located. how long
+
+25
+00:02:36.160 --> 00:02:41.060
+David Schaich (he): it will take to the you with lattice. For simplicity.
+
+26
+00:02:44.060 --> 00:02:53.810
+David Schaich (he): This easy model is defined by the energy for the microstates corresponding to you. Certain configuration of this.
+
+27
+00:02:55.470 --> 00:02:56.360
+David Schaich (he): you know
+
+28
+00:02:56.930 --> 00:03:00.520
+David Schaich (he): 2 terms contributing to the energy first to be
+
+29
+00:03:01.440 --> 00:03:07.050
+David Schaich (he): multiplication, of 2 spins on nearest neighboring sites. and then
+
+30
+00:03:07.590 --> 00:03:12.980
+David Schaich (he): the usual coupling of those spins to the external magnetic field.
+
+31
+00:03:13.060 --> 00:03:25.960
+David Schaich (he): So this matter, some we're used to is let me go over the and the sites in this lattice. and then this first sum is between nearest neighbor pairs which we can go into
+
+32
+00:03:28.280 --> 00:03:32.750
+David Schaich (he): these times and links between the insights in
+
+33
+00:03:33.040 --> 00:03:34.300
+David Schaich (he): the dimensions
+
+34
+00:03:37.200 --> 00:03:40.270
+David Schaich (he): and it you've seen it, even though
+
+35
+00:03:40.670 --> 00:03:43.090
+David Schaich (he): this model looks simple to
+
+36
+00:03:43.260 --> 00:03:56.100
+David Schaich (he): right now in terms of the latest structure of the order sheet. There is no known way to solve it analytically. You know. any more than on that
+
+37
+00:03:57.250 --> 00:04:02.910
+David Schaich (he): 2 dimensions. It's my exception in the case of the
+
+38
+00:04:03.750 --> 00:04:06.520
+David Schaich (he): I'll get to, maybe actually in court, if not
+
+39
+00:04:06.760 --> 00:04:07.600
+the lecture.
+
+40
+00:04:07.950 --> 00:04:10.440
+David Schaich (he): So the absence of an external solution. We
+
+41
+00:04:12.070 --> 00:04:15.530
+David Schaich (he): to do the usual approach, which is also
+
+42
+00:04:15.680 --> 00:04:18.970
+David Schaich (he): popping up in that over question. One is
+
+43
+00:04:20.519 --> 00:04:22.600
+David Schaich (he): looking at the
+
+44
+00:04:24.320 --> 00:04:25.810
+David Schaich (he): simplified
+
+45
+00:04:27.110 --> 00:04:28.980
+David Schaich (he): behavior that
+
+46
+00:04:29.440 --> 00:04:37.540
+David Schaich (he): we can deduce in the limits of high temperature with the system. Yeah.
+
+47
+00:04:38.610 --> 00:04:44.870
+David Schaich (he): with some further simplicity for looking at these limits. Yes. go ahead. And
+
+48
+00:04:45.810 --> 00:04:48.470
+David Schaich (he): for all that.
+
+49
+00:04:51.650 --> 00:04:55.490
+David Schaich (he): each to 0. The energy is then
+
+50
+00:04:55.560 --> 00:05:01.390
+David Schaich (he): just the interaction
+
+51
+00:05:02.070 --> 00:05:03.080
+David Schaich (he): and the
+
+52
+00:05:04.170 --> 00:05:05.530
+David Schaich (he): I just call there
+
+53
+00:05:05.920 --> 00:05:08.780
+David Schaich (he): function depends
+
+54
+00:05:08.800 --> 00:05:15.470
+David Schaich (he): only on the inverse temperature, Bayl and the number. This is the cell
+
+55
+00:05:15.600 --> 00:05:18.020
+David Schaich (he): for all configurations
+
+56
+00:05:18.870 --> 00:05:21.870
+David Schaich (he): out, the end spins of
+
+57
+00:05:24.710 --> 00:05:26.090
+David Schaich (he): which is just data.
+
+58
+00:05:26.850 --> 00:05:30.020
+David Schaich (he): The repairs.
+
+59
+00:05:31.180 --> 00:05:32.180
+David Schaich (he): Yeah.
+
+60
+00:05:34.670 --> 00:05:38.460
+David Schaich (he): The high temperature limits the inverse temperature is going to 0,
+
+61
+00:05:40.670 --> 00:05:48.680
+David Schaich (he): which gives us a fairly simple form. Will the partition function? You have the similar configurations.
+
+62
+00:05:48.870 --> 00:05:53.010
+David Schaich (he): the exponential factor, a bigger going to 0 times.
+
+63
+00:05:53.670 --> 00:06:01.460
+David Schaich (he): the sum of terms that are either plus or minus one, depending on whether these near state or spins are aligned in the same direction or opposite directions.
+
+64
+00:06:02.720 --> 00:06:10.720
+David Schaich (he): 0 times one is 0, so we are just getting a factor of one. It sounds number of state configurations. We can have
+
+65
+00:06:13.310 --> 00:06:16.520
+David Schaich (he): 2 values up or down, plus or minus one.
+
+66
+00:06:16.750 --> 00:06:23.730
+David Schaich (he): The efficient function as a whole in this type of visual limit just boils down to a factor of 2 to the end.
+
+67
+00:06:24.940 --> 00:06:25.840
+David Schaich (he): Yes.
+
+68
+00:06:26.960 --> 00:06:29.000
+David Schaich (he): that could be happening here, as we are
+
+69
+00:06:31.580 --> 00:06:36.100
+David Schaich (he): giving something that looks like the micro.
+
+70
+00:06:40.840 --> 00:06:43.460
+David Schaich (he): all of the microstates. Yeah.
+
+71
+00:06:44.830 --> 00:06:53.630
+David Schaich (he): Equal probabilities just one over 2 to the end, so that the total probability of being in any configuration still add up to one
+
+72
+00:06:56.370 --> 00:07:07.520
+David Schaich (he): and effectively, what's going on is that Yeah, of course not. The energy you couldn't see those microstates is kind of negligible
+
+73
+00:07:08.960 --> 00:07:12.420
+David Schaich (he): in the position function compared to
+
+74
+00:07:14.320 --> 00:07:15.490
+David Schaich (he): you. Temperature?
+
+75
+00:07:17.080 --> 00:07:17.950
+David Schaich (he): No.
+
+76
+00:07:20.020 --> 00:07:21.080
+David Schaich (he): even that.
+
+77
+00:07:22.270 --> 00:07:24.490
+David Schaich (he): The internal energy is
+
+78
+00:07:24.860 --> 00:07:25.940
+David Schaich (he): you coming in
+
+79
+00:07:26.420 --> 00:07:27.570
+to be negligible
+
+80
+00:07:28.310 --> 00:07:29.940
+David Schaich (he): and not
+
+81
+00:07:30.940 --> 00:07:42.450
+David Schaich (he): giving us anything interesting to pick apart in this limit. You, too. makes sense to look at other obserable quantities to characterize the system. This is.
+
+82
+00:07:43.500 --> 00:07:49.300
+David Schaich (he): let me introduce one that you have already seen all the whole work
+
+83
+00:07:52.790 --> 00:07:53.830
+David Schaich (he): to the
+
+84
+00:07:57.410 --> 00:07:59.000
+David Schaich (he): that organization
+
+85
+00:08:04.440 --> 00:08:07.080
+David Schaich (he): extent to which the spins
+
+86
+00:08:08.450 --> 00:08:09.570
+David Schaich (he): are all
+
+87
+00:08:09.820 --> 00:08:14.380
+David Schaich (he): my email or opposed to each other. So
+
+88
+00:08:16.530 --> 00:08:27.300
+David Schaich (he): as an equation. you just define this organization as the ratio of the number of spins with value, plus one minus the number of
+
+89
+00:08:27.390 --> 00:08:28.410
+minus one
+
+90
+00:08:28.630 --> 00:08:31.530
+David Schaich (he): divided by the total number of spins, the
+
+91
+00:08:31.570 --> 00:08:33.460
+David Schaich (he): some of the plus and minus ones.
+
+92
+00:08:35.390 --> 00:08:38.120
+David Schaich (he): It is hopefully here that.
+
+93
+00:08:40.470 --> 00:08:45.900
+David Schaich (he): bound on this mechanization are. It could be a minus one, and plus one
+
+94
+00:08:47.540 --> 00:08:49.330
+David Schaich (he): minus one of the limit where
+
+95
+00:08:49.570 --> 00:09:00.730
+David Schaich (he): every spins has a value of minus one, it's going to be the absence of the magnetic field, or to align with or against. So in my this is the capital, and
+
+96
+00:09:04.340 --> 00:09:06.240
+David Schaich (he): up and down the
+
+97
+00:09:06.700 --> 00:09:11.870
+David Schaich (he): you know, minus one factor and plus one. Similarly, when all the spins
+
+98
+00:09:11.940 --> 00:09:13.120
+David Schaich (he): pointing out.
+
+99
+00:09:16.310 --> 00:09:20.540
+David Schaich (he): and in fact, with H equals 0.
+
+100
+00:09:21.950 --> 00:09:23.530
+David Schaich (he): There's not really a
+
+101
+00:09:24.020 --> 00:09:29.210
+David Schaich (he): way to distinguish between us, and by this one there's no external magnetic field, or
+
+102
+00:09:29.310 --> 00:09:30.670
+David Schaich (he): it's the point
+
+103
+00:09:34.410 --> 00:09:35.280
+David Schaich (he): that
+
+104
+00:09:38.990 --> 00:09:43.810
+David Schaich (he): the symmetry actually can take that leaves the whole system unchanged
+
+105
+00:09:44.100 --> 00:09:46.950
+David Schaich (he): to actually be okay.
+
+106
+00:09:48.400 --> 00:09:49.840
+David Schaich (he): all of the
+
+107
+00:09:51.900 --> 00:09:52.760
+David Schaich (he): to you
+
+108
+00:09:54.960 --> 00:09:57.940
+David Schaich (he): go to minus plus one.
+
+109
+00:09:59.240 --> 00:10:01.690
+David Schaich (he): and with this symmetry
+
+110
+00:10:01.900 --> 00:10:04.300
+David Schaich (he): it makes more sense to
+
+111
+00:10:05.590 --> 00:10:09.690
+David Schaich (he): consider the absolute value of this manitization.
+
+112
+00:10:14.030 --> 00:10:14.820
+It is a
+
+113
+00:10:17.800 --> 00:10:22.040
+David Schaich (he): no meaning effectively to the overall negative sign that you can
+
+114
+00:10:22.900 --> 00:10:25.680
+David Schaich (he): choose freely by flipping all the spins.
+
+115
+00:10:27.660 --> 00:10:37.080
+David Schaich (he): the ranges between 0 and one one. When all the spins are aligned, either plus or minus one and 0, and they are equal numbers of
+
+116
+00:10:42.390 --> 00:10:48.990
+David Schaich (he): so getting back to the high temperature limit. you want to
+
+117
+00:10:50.160 --> 00:11:01.220
+David Schaich (he): consider the expectation down there. the absolute value of this organization. the sum over all of the microstates.
+
+118
+00:11:06.320 --> 00:11:08.350
+David Schaich (he): Because of that probability.
+
+119
+00:11:09.920 --> 00:11:11.710
+David Schaich (he): You see that
+
+120
+00:11:13.510 --> 00:11:17.180
+David Schaich (he): for high temperatures we have
+
+121
+00:11:20.860 --> 00:11:24.150
+David Schaich (he): all my trustees equally probably
+
+122
+00:11:29.670 --> 00:11:33.070
+David Schaich (he): so. All that is going to determine the expectation value
+
+123
+00:11:35.160 --> 00:11:41.840
+David Schaich (he): is the number of microstates that we have for any given value of that organization. We just need to count.
+
+124
+00:11:43.730 --> 00:11:49.500
+David Schaich (he): The number of equally probable microstates depends on the
+
+125
+00:11:53.490 --> 00:11:56.100
+magnetization is determined by
+
+126
+00:11:57.020 --> 00:12:03.160
+David Schaich (he): either the number of upper.
+
+127
+00:12:06.960 --> 00:12:10.930
+David Schaich (he): We know that any given value of the
+
+128
+00:12:11.360 --> 00:12:13.000
+David Schaich (he): we realized
+
+129
+00:12:13.670 --> 00:12:18.690
+David Schaich (he): alright, and put in. Choose, and plus i'll be you.
+
+130
+00:12:18.860 --> 00:12:26.820
+David Schaich (he): A number of microstates is equal to. and she's a long as usual. competition
+
+131
+00:12:29.920 --> 00:12:30.630
+David Schaich (he): here
+
+132
+00:12:31.660 --> 00:12:33.270
+David Schaich (he): seen before.
+
+133
+00:12:34.890 --> 00:12:36.230
+David Schaich (he): We have looked at
+
+134
+00:12:37.200 --> 00:12:41.900
+David Schaich (he): just this counting problem in some detail back in my earliest
+
+135
+00:12:41.990 --> 00:12:44.400
+David Schaich (he): tutorials have to be a computer Lab.
+
+136
+00:12:46.360 --> 00:12:47.210
+David Schaich (he): Yeah.
+
+137
+00:12:47.670 --> 00:12:55.430
+David Schaich (he): Computed the number of microstates, with various distributions of energy between 2 systems that had to add up to
+
+138
+00:12:55.530 --> 00:13:00.960
+David Schaich (he): a fixed micro canonical value. Of that What we found
+
+139
+00:13:02.210 --> 00:13:04.600
+David Schaich (he): under a large number of degrees of freedom.
+
+140
+00:13:06.240 --> 00:13:12.270
+David Schaich (he): Bye. I don't know. completely dominated
+
+141
+00:13:13.380 --> 00:13:15.390
+David Schaich (he): a sharp peak in the number of
+
+142
+00:13:15.450 --> 00:13:16.790
+microstates.
+
+143
+00:13:17.510 --> 00:13:18.360
+David Schaich (he): Well.
+
+144
+00:13:20.360 --> 00:13:23.210
+David Schaich (he): the degrees of Freedom world equally yeah.
+
+145
+00:13:23.520 --> 00:13:29.810
+David Schaich (he): divided between the 2 sides in this case that corresponds to an equal number of
+
+146
+00:13:29.840 --> 00:13:31.420
+David Schaich (he): plus and minus spins.
+
+147
+00:13:32.620 --> 00:13:36.160
+David Schaich (he): which is just the situation where
+
+148
+00:13:36.930 --> 00:13:41.160
+David Schaich (he): we have a vanishing
+
+149
+00:13:47.450 --> 00:13:51.350
+David Schaich (he): Yeah. so called thermodynamic minutes. There
+
+150
+00:13:52.660 --> 00:13:56.860
+David Schaich (he): number of goes to infinity.
+
+151
+00:13:59.820 --> 00:14:04.880
+David Schaich (he): expectation, value as a whole. no approach
+
+152
+00:14:06.160 --> 00:14:06.780
+David Schaich (he): that
+
+153
+00:14:07.940 --> 00:14:09.570
+David Schaich (he): 0 result.
+
+154
+00:14:10.780 --> 00:14:15.470
+David Schaich (he): There are so many microstates with an equal number upward in the
+
+155
+00:14:15.520 --> 00:14:16.590
+my skins.
+
+156
+00:14:17.450 --> 00:14:19.900
+David Schaich (he): that even with the absolute value we don't pick up a
+
+157
+00:14:20.940 --> 00:14:24.850
+David Schaich (he): even with the
+
+158
+00:14:25.250 --> 00:14:26.130
+David Schaich (he): you have it
+
+159
+00:14:32.860 --> 00:14:39.390
+David Schaich (he): random sampling of equally probable microstates. I wish
+
+160
+00:14:39.840 --> 00:14:45.840
+David Schaich (he): a dominant number will have upward and downloading spins all scattered throughout the system.
+
+161
+00:14:46.380 --> 00:14:47.450
+David Schaich (he): There are
+
+162
+00:14:52.630 --> 00:14:56.820
+David Schaich (he): state configurations realizing that sort of physics
+
+163
+00:14:57.660 --> 00:14:59.930
+David Schaich (he): which gives rise to the
+
+164
+00:15:00.110 --> 00:15:02.170
+David Schaich (he): standard.
+
+165
+00:15:02.330 --> 00:15:09.050
+David Schaich (he): This high temperature situation is a disorder phase. It's a collection of offered and downloading spins
+
+166
+00:15:09.060 --> 00:15:09.850
+David Schaich (he): all
+
+167
+00:15:11.360 --> 00:15:15.110
+David Schaich (he): you can chose in the No pattern or
+
+168
+00:15:15.160 --> 00:15:16.490
+David Schaich (he): throughout the labs.
+
+169
+00:15:25.510 --> 00:15:30.710
+David Schaich (he): So hopefully that picture of this one in phase is
+
+170
+00:15:31.080 --> 00:15:34.620
+David Schaich (he): reasonably fear. It might become clear as we
+
+171
+00:15:34.750 --> 00:15:36.450
+David Schaich (he): part of the low temperature.
+
+172
+00:15:36.940 --> 00:15:38.260
+David Schaich (he): good and
+
+173
+00:15:38.830 --> 00:15:41.070
+David Schaich (he): and cross the behavior of the organization
+
+174
+00:15:41.320 --> 00:15:43.470
+David Schaich (he): there. Of course, as always.
+
+175
+00:15:44.180 --> 00:15:47.110
+David Schaich (he): we got it. Things i'm here.
+
+176
+00:15:49.960 --> 00:15:51.230
+David Schaich (he): anyway.
+
+177
+00:15:53.090 --> 00:15:53.890
+David Schaich (he): So
+
+178
+00:15:56.250 --> 00:15:57.420
+David Schaich (he): going on.
+
+179
+00:15:59.970 --> 00:16:04.570
+David Schaich (he): it's a real temperature. Where is going to infinity?
+
+180
+00:16:06.400 --> 00:16:08.540
+David Schaich (he): Again, the situation is.
+
+181
+00:16:13.080 --> 00:16:15.170
+David Schaich (he): it's been system we've already dealt with
+
+182
+00:16:17.980 --> 00:16:19.480
+David Schaich (he): in the sense that the
+
+183
+00:16:21.330 --> 00:16:24.000
+David Schaich (he): ground states the microstates with
+
+184
+00:16:25.260 --> 00:16:27.400
+David Schaich (he): of the energy
+
+185
+00:16:29.120 --> 00:16:30.580
+David Schaich (he): It comes exponentially
+
+186
+00:16:32.360 --> 00:16:34.020
+David Schaich (he): your probable, then.
+
+187
+00:16:35.380 --> 00:16:39.380
+David Schaich (he): and you have the excitement states with higher energy levels.
+
+188
+00:16:40.080 --> 00:16:42.230
+David Schaich (he): energies. You know.
+
+189
+00:16:45.460 --> 00:16:51.660
+David Schaich (he): most of the internal energy of the microstate. As we a goes to infinity, we can exponential suppression
+
+190
+00:16:52.520 --> 00:16:55.670
+David Schaich (he): as the interval energy increases.
+
+191
+00:16:56.260 --> 00:17:00.890
+David Schaich (he): And this the external magnetic field turned off. Yeah.
+
+192
+00:17:04.180 --> 00:17:05.730
+David Schaich (he): microstate soil
+
+193
+00:17:10.359 --> 00:17:13.990
+David Schaich (he): well, not rare. All of the students.
+
+194
+00:17:15.609 --> 00:17:21.060
+David Schaich (he): and the value plus one which we could think of as pointing out number of.
+
+195
+00:17:24.250 --> 00:17:28.380
+David Schaich (he): and the the first case in which all the spins
+
+196
+00:17:28.420 --> 00:17:31.820
+David Schaich (he): one.
+
+197
+00:17:31.930 --> 00:17:39.620
+David Schaich (he): And you should. Those cases you have to takes its maximum value. Oh, well.
+
+198
+00:17:42.080 --> 00:17:45.040
+David Schaich (he): and you can easily compute
+
+199
+00:17:45.550 --> 00:17:47.270
+David Schaich (he): the ground, State energy.
+
+200
+00:17:49.560 --> 00:17:51.170
+David Schaich (he): It's the sum over
+
+201
+00:17:51.540 --> 00:17:58.540
+David Schaich (he): links to the latest of the value of the spins. All the sites at each end of those links.
+
+202
+00:17:59.200 --> 00:18:07.970
+David Schaich (he): In both of these cases these spins have the same value. I plus one. Yeah. with minus one
+
+203
+00:18:09.980 --> 00:18:11.710
+David Schaich (he): we are multiply together.
+
+204
+00:18:12.080 --> 00:18:17.680
+David Schaich (he): and the plus and minus one square to get. So we just count the number of terms in the cell.
+
+205
+00:18:18.150 --> 00:18:20.890
+David Schaich (he): It is the total number.
+
+206
+00:18:23.550 --> 00:18:25.880
+David Schaich (he): negative, one energy, contribution.
+
+207
+00:18:28.000 --> 00:18:30.390
+David Schaich (he): From every one of these
+
+208
+00:18:30.470 --> 00:18:32.310
+the
+
+209
+00:18:34.000 --> 00:18:35.350
+David Schaich (he): the dimensions.
+
+210
+00:18:38.350 --> 00:18:39.470
+David Schaich (he): It would be
+
+211
+00:18:42.760 --> 00:18:44.670
+David Schaich (he): first excited energy level.
+
+212
+00:18:50.410 --> 00:18:54.090
+David Schaich (he): We want to figure out the value of the energy that is
+
+213
+00:18:55.420 --> 00:19:04.420
+David Schaich (he): as low as possible without being all the way to this. To you all this change we can make to the system. To
+
+214
+00:19:06.200 --> 00:19:09.670
+David Schaich (he): obtain, that is, to flip a single link
+
+215
+00:19:10.170 --> 00:19:11.550
+David Schaich (he): with a single spin
+
+216
+00:19:12.590 --> 00:19:14.850
+David Schaich (he): understand affects all of these
+
+217
+00:19:17.200 --> 00:19:20.370
+David Schaich (he): it is attached to. I will say
+
+218
+00:19:23.890 --> 00:19:33.150
+David Schaich (he): we're working in more than one dimension. The one dimensional cases. a special case how we can. I don't have to
+
+219
+00:19:34.740 --> 00:19:35.660
+David Schaich (he): so
+
+220
+00:19:36.860 --> 00:19:38.760
+David Schaich (he): microstates that
+
+221
+00:19:41.910 --> 00:19:45.950
+David Schaich (he): correspond to this first excited energy level. We'll have.
+
+222
+00:19:46.190 --> 00:19:47.130
+David Schaich (he): I got it?
+
+223
+00:19:51.940 --> 00:20:01.780
+David Schaich (he): What? The opposite? In each case there are. and possible spins that we could flip to the opposite all the Us.
+
+224
+00:20:04.460 --> 00:20:07.430
+David Schaich (he): Together. the count
+
+225
+00:20:12.360 --> 00:20:14.870
+David Schaich (he): 2 and generate microstates
+
+226
+00:20:15.250 --> 00:20:17.940
+David Schaich (he): that realize this energy level
+
+227
+00:20:18.670 --> 00:20:19.550
+David Schaich (he): and
+
+228
+00:20:20.800 --> 00:20:26.630
+David Schaich (he): all of them. You'll have the value of an organization that
+
+229
+00:20:28.000 --> 00:20:34.320
+David Schaich (he): is going back to the definition. The difference in the awesome time with spins
+
+230
+00:20:35.910 --> 00:20:36.610
+David Schaich (he): so.
+
+231
+00:20:36.860 --> 00:20:40.730
+David Schaich (he): and minus one minus one is n minus 2,
+
+232
+00:20:41.350 --> 00:20:43.420
+and there are still.
+
+233
+00:20:43.750 --> 00:20:51.010
+David Schaich (he): So we have. That is close to the maximum that we get in the ground state
+
+234
+00:20:53.210 --> 00:20:57.030
+David Schaich (he): with just a a slight reduction from that
+
+235
+00:20:57.140 --> 00:20:59.850
+David Schaich (he): maximum depending on the
+
+236
+00:20:59.960 --> 00:21:01.550
+David Schaich (he): little number of space.
+
+237
+00:21:10.350 --> 00:21:17.720
+David Schaich (he): The question is, what is the overall mechanization going to look like on the account for
+
+238
+00:21:19.830 --> 00:21:29.420
+David Schaich (he): these lowlying energy levels of the course of the probabilities. If you get the our ability to the energy levels, we you to consider the
+
+239
+00:21:30.580 --> 00:21:32.470
+David Schaich (he): internal energy
+
+240
+00:21:33.100 --> 00:21:33.930
+so
+
+241
+00:21:36.990 --> 00:21:38.290
+David Schaich (he): probabilities.
+
+242
+00:21:41.770 --> 00:21:42.850
+David Schaich (he): It depends
+
+243
+00:21:44.320 --> 00:21:47.230
+David Schaich (he): on the Internal Energy Board.
+
+244
+00:21:47.340 --> 00:21:49.010
+David Schaich (he): This first excited state.
+
+245
+00:21:50.320 --> 00:21:59.620
+David Schaich (he): which we can essentially right down the how, how things works. what the ground state
+
+246
+00:22:01.090 --> 00:22:05.960
+David Schaich (he): for all of the links. We are. The 2 values of the spins
+
+247
+00:22:05.990 --> 00:22:10.810
+David Schaich (he): are the same. You pick up a minus one contribution to the energy.
+
+248
+00:22:11.300 --> 00:22:12.790
+David Schaich (he): and then we will have
+
+249
+00:22:13.260 --> 00:22:16.940
+David Schaich (he): too many links attached to this.
+
+250
+00:22:17.760 --> 00:22:18.800
+David Schaich (he): which we all
+
+251
+00:22:23.260 --> 00:22:25.650
+David Schaich (he): on the 2 ends of those lays.
+
+252
+00:22:27.340 --> 00:22:31.480
+David Schaich (he): to be. thanks to the possible contribution to the energy.
+
+253
+00:22:33.760 --> 00:22:36.430
+David Schaich (he): all the people here. students.
+
+254
+00:22:39.370 --> 00:22:43.220
+David Schaich (he): or do you have that same minus one factor that we had before?
+
+255
+00:22:44.490 --> 00:22:47.310
+David Schaich (he): So we arranging? This is
+
+256
+00:22:47.790 --> 00:22:50.100
+David Schaich (he): minus D. And
+
+257
+00:22:52.560 --> 00:22:54.690
+David Schaich (he): I was 4 deal.
+
+258
+00:22:55.730 --> 00:23:03.850
+David Schaich (he): and. as expected. Not quite as negative. Is that minimum energy. We're on stage.
+
+259
+00:23:07.900 --> 00:23:08.760
+David Schaich (he): Yeah.
+
+260
+00:23:11.510 --> 00:23:14.810
+David Schaich (he): Reflection of your possible contribution
+
+261
+00:23:17.000 --> 00:23:18.810
+David Schaich (he): in those 2 video links.
+
+262
+00:23:29.430 --> 00:23:30.810
+David Schaich (he): minus one.
+
+263
+00:23:34.100 --> 00:23:35.360
+David Schaich (he): the other
+
+264
+00:23:37.880 --> 00:23:43.160
+David Schaich (he): that are unaffected, going from the ground State to the first excited state.
+
+265
+00:23:47.940 --> 00:23:51.610
+David Schaich (he): And did you get that back on the screen?
+
+266
+00:23:55.220 --> 00:24:06.690
+David Schaich (he): So there are 2 of picks I'm. Again to determine how the ground State and the first excited state are
+
+267
+00:24:06.830 --> 00:24:11.220
+David Schaich (he): contributing to the overall expectation
+
+268
+00:24:11.250 --> 00:24:12.640
+David Schaich (he): magnetization.
+
+269
+00:24:14.790 --> 00:24:18.830
+David Schaich (he): Probably the first excited states we have
+
+270
+00:24:20.900 --> 00:24:25.610
+David Schaich (he): for each of the microstates with this energy
+
+271
+00:24:25.940 --> 00:24:29.720
+David Schaich (he): from the
+
+272
+00:24:31.100 --> 00:24:32.580
+David Schaich (he): but at the same time
+
+273
+00:24:33.920 --> 00:24:35.410
+David Schaich (he): we have the however
+
+274
+00:24:37.100 --> 00:24:39.640
+David Schaich (he): degeneracy so.
+
+275
+00:24:41.090 --> 00:24:47.370
+David Schaich (he): and that is you ever at microstates. Yeah. at first excited stage compared to the
+
+276
+00:24:48.640 --> 00:24:52.850
+David Schaich (he): you generate ground States with the minimum energy she was in.
+
+277
+00:24:53.010 --> 00:24:56.540
+David Schaich (he): They're all they're infinitely more
+
+278
+00:24:56.980 --> 00:24:58.430
+David Schaich (he): excited States.
+
+279
+00:24:59.580 --> 00:25:06.640
+David Schaich (he): each of them, with their little probability. And the question is. which of those 2?
+
+280
+00:25:09.340 --> 00:25:15.010
+David Schaich (he): The facts will win out in your role, Expectation value
+
+281
+00:25:16.040 --> 00:25:21.120
+David Schaich (he): 2? 2. Answer that question. Okay. The
+
+282
+00:25:26.970 --> 00:25:28.600
+David Schaich (he): the system in
+
+283
+00:25:29.840 --> 00:25:33.390
+David Schaich (he): it's crowd states any of the general microstates that are
+
+284
+00:25:33.780 --> 00:25:39.420
+David Schaich (he): part of that ground states compared to having the system in the first
+
+285
+00:25:40.850 --> 00:25:46.180
+David Schaich (he): out of you. You ever see 2 for the ground state to end
+
+286
+00:25:46.210 --> 00:25:54.310
+David Schaich (he): for the first excited state and the yes, we factor e to the minus beta Times energy
+
+287
+00:25:55.390 --> 00:25:56.010
+I have
+
+288
+00:25:56.690 --> 00:25:57.890
+David Schaich (he): just computed to be
+
+289
+00:25:59.180 --> 00:26:01.330
+David Schaich (he): my this. the
+
+290
+00:26:01.340 --> 00:26:02.490
+the ground states.
+
+291
+00:26:03.650 --> 00:26:04.640
+David Schaich (he): and
+
+292
+00:26:12.420 --> 00:26:18.290
+David Schaich (he): these exponential factors. the to the end. She only has to
+
+293
+00:26:18.940 --> 00:26:19.670
+yeah
+
+294
+00:26:19.780 --> 00:26:27.990
+David Schaich (he): overall factors of the partition functions in. That's what we define normalized probabilities. And then
+
+295
+00:26:30.500 --> 00:26:33.570
+David Schaich (he): a factor of one over and over
+
+296
+00:26:38.040 --> 00:26:39.640
+David Schaich (he): to the numerator
+
+297
+00:26:41.270 --> 00:26:48.000
+David Schaich (he): reversing it. So in temperature going to 0,
+
+298
+00:26:49.480 --> 00:26:53.180
+David Schaich (he): your to infinity. You will
+
+299
+00:26:57.430 --> 00:27:00.480
+David Schaich (he): approach. hey?
+
+300
+00:27:01.080 --> 00:27:10.990
+David Schaich (he): Very large relative probability for the ground state so effectively. domination only by the kernel state, despite the larger number of microstates contributing
+
+301
+00:27:11.070 --> 00:27:12.760
+David Schaich (he): to the first excited States.
+
+302
+00:27:15.830 --> 00:27:16.780
+David Schaich (he): and
+
+303
+00:27:17.950 --> 00:27:24.370
+David Schaich (he): the corresponding value of the organization will therefore approach its ground state value with one. All of the skills.
+
+304
+00:27:24.930 --> 00:27:28.660
+David Schaich (he): Hello! Which this is we.
+
+305
+00:27:32.200 --> 00:27:34.250
+David Schaich (he): We'll call this an order phase
+
+306
+00:27:37.180 --> 00:27:40.510
+David Schaich (he): that is realized. Yes. low temperatures.
+
+307
+00:27:41.000 --> 00:27:43.320
+David Schaich (he): And this might seem
+
+308
+00:27:43.410 --> 00:27:45.400
+David Schaich (he): obvious, because it is
+
+309
+00:27:45.580 --> 00:27:51.480
+David Schaich (he): similar to what we saw earlier in the case. So I will point out that this argument
+
+310
+00:27:51.850 --> 00:27:52.610
+David Schaich (he): it was
+
+311
+00:27:52.780 --> 00:27:54.210
+David Schaich (he): not.
+
+312
+00:27:54.590 --> 00:27:58.280
+David Schaich (he): If we don't.
+
+313
+00:27:59.160 --> 00:28:06.540
+David Schaich (he): we do not actually ground state winning out and derivation on that, or something that
+
+314
+00:28:06.830 --> 00:28:18.560
+David Schaich (he): may wait for one of those supplemental andcasts that make up to you couple of hours of lecture that we're cancelled yesterday and next Monday for the night holidays.
+
+315
+00:28:19.770 --> 00:28:23.720
+David Schaich (he): So let me pause here and check to make sure that these 2
+
+316
+00:28:24.560 --> 00:28:28.570
+David Schaich (he): phases that I have defined at the high, low temperature limits are
+
+317
+00:28:29.010 --> 00:28:31.590
+David Schaich (he): there? Is everyone there's no questions about.
+
+318
+00:28:33.960 --> 00:28:35.260
+David Schaich (he): How are you
+
+319
+00:28:36.780 --> 00:28:41.880
+David Schaich (he): deduce this behavior, or why we're looking at in the first place.
+
+320
+00:28:48.710 --> 00:29:02.090
+David Schaich (he): and this these are the ingredients that we need to answer the question that it's probably just on the projector at the of the lecture today.
+
+321
+00:29:02.920 --> 00:29:07.800
+David Schaich (he): What distinguishes these things just from the different behavior
+
+322
+00:29:08.190 --> 00:29:11.830
+that we were seeing already for knowledge reacting spin systems
+
+323
+00:29:15.300 --> 00:29:16.640
+David Schaich (he): based on
+
+324
+00:29:18.050 --> 00:29:20.750
+David Schaich (he): this behavior that we've seen, we can
+
+325
+00:29:21.530 --> 00:29:22.650
+David Schaich (he): you find
+
+326
+00:29:23.700 --> 00:29:25.610
+David Schaich (he): if you general qualities
+
+327
+00:29:26.620 --> 00:29:29.150
+David Schaich (he): motivated by the specific example.
+
+328
+00:29:30.390 --> 00:29:31.550
+David Schaich (he): i'll be using model
+
+329
+00:29:34.190 --> 00:29:41.120
+David Schaich (he): to the personally general concepts is that parameter
+
+330
+00:29:43.410 --> 00:29:52.420
+David Schaich (he): something I may just call okay for shorts. We are in the using model of the magnetization that we've been considering is
+
+331
+00:29:52.800 --> 00:29:55.900
+David Schaich (he): the specific realization of
+
+332
+00:29:55.940 --> 00:29:59.350
+David Schaich (he): it was a parameter. What this
+
+333
+00:30:03.990 --> 00:30:05.240
+David Schaich (he): distinguish
+
+334
+00:30:07.420 --> 00:30:11.360
+David Schaich (he): a disorder phase where the parameter goes to 0,
+
+335
+00:30:13.160 --> 00:30:13.880
+David Schaich (he): which
+
+336
+00:30:14.680 --> 00:30:18.050
+David Schaich (he): in the
+
+337
+00:30:19.010 --> 00:30:21.870
+these. the high temperature
+
+338
+00:30:23.830 --> 00:30:27.000
+David Schaich (he): that gets distinguished from the you.
+
+339
+00:30:28.200 --> 00:30:29.940
+David Schaich (he): What are things with the
+
+340
+00:30:32.710 --> 00:30:36.010
+David Schaich (he): We are here as a non 0 expectation value
+
+341
+00:30:37.060 --> 00:30:43.920
+David Schaich (he): what it using model as an organization approaching one. It's absolutely
+
+342
+00:30:44.290 --> 00:30:45.980
+the real temperature regime.
+
+343
+00:30:47.230 --> 00:30:48.160
+David Schaich (he): Yeah.
+
+344
+00:30:48.630 --> 00:30:52.360
+David Schaich (he): the general statement about interacting statistical systems.
+
+345
+00:30:55.620 --> 00:31:00.170
+David Schaich (he): Whether the expectation value for this order parameter
+
+346
+00:31:00.430 --> 00:31:03.740
+David Schaich (he): 0, we're 9 0
+
+347
+00:31:06.190 --> 00:31:08.560
+David Schaich (he): specifically in Yes.
+
+348
+00:31:11.280 --> 00:31:15.270
+David Schaich (he): it's an infinite number of degrees of freedom
+
+349
+00:31:19.450 --> 00:31:22.220
+David Schaich (he): is what fully distinguishes
+
+350
+00:31:23.450 --> 00:31:25.780
+David Schaich (he): different phases of the theory.
+
+351
+00:31:26.030 --> 00:31:30.860
+David Schaich (he): We'll be home just the different behavior that we saw
+
+352
+00:31:33.180 --> 00:31:35.830
+David Schaich (he): in the case of knowledge.
+
+353
+00:31:38.140 --> 00:31:41.760
+David Schaich (he): and there's even more that can be said on the basis of
+
+354
+00:31:42.340 --> 00:31:43.990
+David Schaich (he): these order parameters
+
+355
+00:31:45.970 --> 00:31:53.010
+David Schaich (he): that address the question of precisely how the order of parameter changes from being 0 in
+
+356
+00:31:53.090 --> 00:31:57.680
+David Schaich (he): the order of the disorder phase to being non-zero in the order phase.
+
+357
+00:32:00.430 --> 00:32:13.300
+David Schaich (he): So this actually provides us the mathematical definition. obviously a transition which is that if the order parameter or any of its derivatives
+
+358
+00:32:17.620 --> 00:32:18.490
+David Schaich (he): all right.
+
+359
+00:32:20.770 --> 00:32:24.230
+David Schaich (he): discontinuous. including.
+
+360
+00:32:32.090 --> 00:32:33.060
+David Schaich (he): Then
+
+361
+00:32:35.390 --> 00:32:37.720
+David Schaich (he): there is a true phase transition
+
+362
+00:32:40.200 --> 00:32:42.220
+David Schaich (he): separating those 2 phases.
+
+363
+00:32:49.180 --> 00:32:50.640
+the control parameters.
+
+364
+00:32:50.650 --> 00:32:51.990
+David Schaich (he): No, it has
+
+365
+00:32:54.370 --> 00:32:55.810
+David Schaich (he): critical point.
+
+366
+00:33:04.530 --> 00:33:06.770
+David Schaich (he): and it was a clarify.
+
+367
+00:33:07.150 --> 00:33:13.090
+David Schaich (he): Why this matters in the case, that the there are no discontinuities in the order parameter, or
+
+368
+00:33:13.250 --> 00:33:14.820
+David Schaich (he): any of its derivatives.
+
+369
+00:33:17.000 --> 00:33:29.300
+David Schaich (he): instead of having a phase. Transition is the gradual shift between them. There's 2 different types of behavior. Let me see you in non interacting systems.
+
+370
+00:33:29.900 --> 00:33:30.800
+David Schaich (he): and this is
+
+371
+00:33:36.610 --> 00:33:42.550
+David Schaich (he): is characterized by being continuous and differentiable in contrast to
+
+372
+00:33:44.680 --> 00:33:45.880
+behavior of
+
+373
+00:33:49.060 --> 00:33:50.650
+David Schaich (he): the true transition.
+
+374
+00:33:52.170 --> 00:34:08.380
+David Schaich (he): So this is essentially the answer to that. I was supposed to start up today. What distinguishes the phase transition from just a system that has different behavior in different regimes
+
+375
+00:34:08.679 --> 00:34:15.860
+David Schaich (he): of its order. Parameter is the behavior I would we're in there
+
+376
+00:34:17.560 --> 00:34:25.940
+David Schaich (he): in the particular is the presence of a discontinuity, or the versions in that word parameter, or any of its derivatives.
+
+377
+00:34:30.340 --> 00:34:35.850
+David Schaich (he): What do you using Mobile, just mentioned. related to
+
+378
+00:34:38.460 --> 00:34:40.670
+David Schaich (he): 4 points that should have been the
+
+379
+00:34:43.710 --> 00:34:46.340
+David Schaich (he): with H. Equals 0 and the easy model
+
+380
+00:34:53.570 --> 00:34:55.510
+David Schaich (he): critical points that
+
+381
+00:34:57.139 --> 00:35:01.260
+David Schaich (he): we will be interested in. Assuming that you will see.
+
+382
+00:35:01.730 --> 00:35:05.820
+David Schaich (he): Discontinuity is in the
+
+383
+00:35:07.290 --> 00:35:17.220
+David Schaich (he): No. Just be defined by the one control she is the I'm. Sure. Some will say that
+
+384
+00:35:19.050 --> 00:35:24.930
+David Schaich (he): if there is a transition, it occurs and critical
+
+385
+00:35:27.320 --> 00:35:28.870
+David Schaich (he): the temperature away from
+
+386
+00:35:29.960 --> 00:35:34.920
+David Schaich (he): that. The order parameter wants to exhibit this discount. New it
+
+387
+00:35:41.560 --> 00:35:44.890
+David Schaich (he): bring in.
+
+388
+00:35:44.930 --> 00:35:47.430
+David Schaich (he): oh. or parameters.
+
+389
+00:35:48.510 --> 00:35:49.760
+David Schaich (he): Let me see that
+
+390
+00:35:52.550 --> 00:35:56.090
+David Schaich (he): only to be an order parameter equality
+
+391
+00:35:56.690 --> 00:35:57.830
+it should be.
+
+392
+00:35:58.040 --> 00:35:59.500
+David Schaich (he): We'll lead into
+
+393
+00:36:01.280 --> 00:36:04.550
+David Schaich (he): some derivative of the free energy.
+
+394
+00:36:05.740 --> 00:36:07.540
+David Schaich (he): It's a derivative of the
+
+395
+00:36:08.670 --> 00:36:11.320
+David Schaich (he): function which is just
+
+396
+00:36:13.170 --> 00:36:14.940
+the partition function itself.
+
+397
+00:36:16.600 --> 00:36:20.120
+David Schaich (he): I think we'll. I have plenty of time to
+
+398
+00:36:22.010 --> 00:36:28.600
+David Schaich (he): see how the magnetization is related to the free energy for the using model.
+
+399
+00:36:29.740 --> 00:36:33.120
+David Schaich (he): One last piece of terminology, before
+
+400
+00:36:36.200 --> 00:36:38.820
+David Schaich (he): which is a
+
+401
+00:36:41.910 --> 00:36:43.650
+David Schaich (he): distinction that is wrong.
+
+402
+00:36:46.780 --> 00:36:58.820
+David Schaich (he): We will encounter it between different types of phase transitions depending on with it or not. The is discontinuous, or these discontinuities only arise
+
+403
+00:36:59.050 --> 00:37:03.380
+David Schaich (he): in It's derivatives in the case when
+
+404
+00:37:05.610 --> 00:37:08.460
+David Schaich (he): you know, working with a just continuous.
+
+405
+00:37:08.760 --> 00:37:11.410
+David Schaich (he): or a parameter itself. we have
+
+406
+00:37:13.130 --> 00:37:16.620
+David Schaich (he): it's called a first order. This transition.
+
+407
+00:37:19.320 --> 00:37:20.140
+David Schaich (he): where.
+
+408
+00:37:22.760 --> 00:37:27.820
+David Schaich (he): in case of a continuous or the parameter with
+
+409
+00:37:29.070 --> 00:37:30.850
+David Schaich (he): discontinuous.
+
+410
+00:37:32.530 --> 00:37:34.160
+David Schaich (he): the version derivative
+
+411
+00:37:43.390 --> 00:37:45.400
+David Schaich (he): is in general calling
+
+412
+00:37:46.610 --> 00:37:52.070
+David Schaich (he): the second order. This transition. both of which play
+
+413
+00:37:57.740 --> 00:38:00.230
+David Schaich (he): many different aspect. So
+
+414
+00:38:01.440 --> 00:38:11.330
+David Schaich (he): physics, for example, the generation of gravitational waves in the early universe can result only from a first-order transition and walk in the second order one.
+
+415
+00:38:12.610 --> 00:38:16.260
+David Schaich (he): many similar, less exotic examples.
+
+416
+00:38:19.010 --> 00:38:33.400
+David Schaich (he): So just to give the picture, that is. we're distinguishing between them these 2, you order parameter against it's control parameters and specialized the case where we just have
+
+417
+00:38:37.140 --> 00:38:41.600
+David Schaich (he): at the time that your region, we expect that to be in
+
+418
+00:38:41.960 --> 00:38:50.270
+David Schaich (he): the ordered phase is the knowledge of the value of that word of parameter or something like that in the high temperature phase
+
+419
+00:38:50.640 --> 00:38:52.500
+David Schaich (he): you accept the
+
+420
+00:38:52.560 --> 00:38:53.990
+David Schaich (he): limit of
+
+421
+00:38:55.940 --> 00:38:58.620
+David Schaich (he): and going to infinity.
+
+422
+00:39:01.300 --> 00:39:04.900
+David Schaich (he): there is exactly 0.
+
+423
+00:39:06.170 --> 00:39:09.250
+David Schaich (he): And if there is yeah.
+
+424
+00:39:17.660 --> 00:39:20.870
+David Schaich (he): pretty cool temperature. this is the
+
+425
+00:39:22.320 --> 00:39:23.790
+David Schaich (he): first order case.
+
+426
+00:39:25.800 --> 00:39:33.040
+David Schaich (he): Interesting case for second order transitions is where that
+
+427
+00:39:34.140 --> 00:39:36.800
+David Schaich (he): not 0 value continuously
+
+428
+00:39:38.470 --> 00:39:43.600
+David Schaich (he): 0 expectation value. When we highlight your phase There he is
+
+429
+00:39:44.950 --> 00:39:58.830
+David Schaich (he): some sort of a that you take the derivative we will introduce. I think, in a versions or in this company away. So yeah.
+
+430
+00:39:59.140 --> 00:40:02.320
+David Schaich (he): the rough derivative of
+
+431
+00:40:05.850 --> 00:40:10.050
+David Schaich (he): just the I know one that's scheduled here
+
+432
+00:40:11.680 --> 00:40:12.870
+David Schaich (he): when no.
+
+433
+00:40:13.130 --> 00:40:18.490
+David Schaich (he): the order of parameter itself is 0, and the T. It's derivative is also 0
+
+434
+00:40:19.330 --> 00:40:23.330
+David Schaich (he): and the low temperature phase. I started it.
+
+435
+00:40:24.220 --> 00:40:34.260
+David Schaich (he): Growing things with the order prem or being roughly constant with T, and then it goes down to smaller values. So it's derivative
+
+436
+00:40:35.180 --> 00:40:39.440
+David Schaich (he): less than 0 like so. And
+
+437
+00:40:40.860 --> 00:40:42.480
+David Schaich (he): And here is really how
+
+438
+00:40:43.810 --> 00:40:45.390
+David Schaich (he): I just want to do what you
+
+439
+00:40:45.610 --> 00:40:50.070
+David Schaich (he): at the value of Tc. I'll spend the order parameter itself
+
+440
+00:40:51.320 --> 00:40:55.840
+David Schaich (he): There it is. You better fit with the projector.
+
+441
+00:40:57.620 --> 00:41:01.780
+David Schaich (he): Historically, this first and second order. Terminology
+
+442
+00:41:01.890 --> 00:41:03.620
+David Schaich (he): was related to
+
+443
+00:41:03.850 --> 00:41:07.130
+David Schaich (he): whether the
+
+444
+00:41:07.530 --> 00:41:13.880
+David Schaich (he): first or second derivative of the free energy these days. It's more common to say that
+
+445
+00:41:14.990 --> 00:41:18.660
+David Schaich (he): any system with an order parameter that is continuous.
+
+446
+00:41:19.220 --> 00:41:28.680
+David Schaich (he): I had a discontinuity in any subsequent, derivative no matter how many you have to take the second third. There are things 3 mail.
+
+447
+00:41:29.940 --> 00:41:37.130
+David Schaich (he): all of those will just be referred to as second order, which is continuous. These transitions.
+
+448
+00:41:39.890 --> 00:41:40.800
+David Schaich (he): So
+
+449
+00:41:42.410 --> 00:41:44.640
+David Schaich (he): let's wrap up today by
+
+450
+00:41:45.910 --> 00:41:50.680
+David Schaich (he): nothing back to that what a parameter should be
+
+451
+00:41:51.040 --> 00:41:54.410
+David Schaich (he): related to some derivative of the 3 energy.
+
+452
+00:41:55.220 --> 00:42:05.710
+David Schaich (he): So, looking at the using model as I see this interactive statistical system. I want to relate the organization to
+
+453
+00:42:07.660 --> 00:42:18.380
+David Schaich (he): some derivative of the help of it's free energy. So minus T. Let me see what is the partition function in order to do so.
+
+454
+00:42:20.060 --> 00:42:25.160
+David Schaich (he): It's probably not surprising that Will I to the store.
+
+455
+00:42:28.650 --> 00:42:29.550
+David Schaich (he): Yes.
+
+456
+00:42:29.870 --> 00:42:33.300
+David Schaich (he): gives this mechanization a preference to a line
+
+457
+00:42:33.520 --> 00:42:36.340
+David Schaich (he): with magnetic field rather than against it.
+
+458
+00:42:37.780 --> 00:42:42.780
+David Schaich (he): Energy of Microsoft. Yeah. Goes back to you.
+
+459
+00:42:44.260 --> 00:42:47.590
+David Schaich (he): The full expression, the interact internal.
+
+460
+00:42:47.930 --> 00:42:51.570
+David Schaich (he): the contribution from a couple of the skins
+
+461
+00:42:52.500 --> 00:42:54.970
+David Schaich (he): to the external magnetic field.
+
+462
+00:42:55.520 --> 00:42:57.670
+David Schaich (he): because the organization
+
+463
+00:42:59.630 --> 00:43:01.430
+David Schaich (he): is just counting the
+
+464
+00:43:02.580 --> 00:43:06.020
+David Schaich (he): number of upward meeting spins with
+
+465
+00:43:06.490 --> 00:43:11.580
+David Schaich (he): dot us n plus one minus the number of down the point experience
+
+466
+00:43:11.740 --> 00:43:13.670
+minus one.
+
+467
+00:43:15.410 --> 00:43:16.490
+David Schaich (he): It should be
+
+468
+00:43:16.950 --> 00:43:20.700
+David Schaich (he): easy to convince ourselves that the mechanization itself
+
+469
+00:43:20.890 --> 00:43:26.540
+David Schaich (he): it's just related to the sum over Sp. pretty good and plus
+
+470
+00:43:26.590 --> 00:43:32.260
+David Schaich (he): positive contributions with this one, and then minus negative contributions with this
+
+471
+00:43:32.270 --> 00:43:37.670
+David Schaich (he): minus one. So the energy right
+
+472
+00:43:40.940 --> 00:43:49.770
+David Schaich (he): as the times number of spins as an organization just
+
+473
+00:43:51.300 --> 00:43:54.670
+David Schaich (he): in times.
+
+474
+00:43:56.550 --> 00:43:58.040
+David Schaich (he): So the corresponding
+
+475
+00:43:58.060 --> 00:44:02.210
+David Schaich (he): precision function that we're interested in taking a derivative. Oh.
+
+476
+00:44:02.420 --> 00:44:05.240
+David Schaich (he): we all. as usual, some
+
+477
+00:44:07.590 --> 00:44:11.770
+David Schaich (he): State configurations. the exponential connector
+
+478
+00:44:14.680 --> 00:44:15.710
+David Schaich (he): I want to.
+
+479
+00:44:18.740 --> 00:44:19.910
+David Schaich (he): Yes.
+
+480
+00:44:23.950 --> 00:44:25.570
+David Schaich (he): these 2 terms.
+
+481
+00:44:27.940 --> 00:44:28.970
+David Schaich (he): and that
+
+482
+00:44:29.750 --> 00:44:33.400
+David Schaich (he): given that we're already seeing the magnetization
+
+483
+00:44:33.970 --> 00:44:44.640
+David Schaich (he): I know they term. That depends on our additional control. People make sense to consider some
+
+484
+00:44:47.150 --> 00:44:51.540
+David Schaich (he): with respect to that. Yeah. see what we do.
+
+485
+00:44:51.600 --> 00:44:53.600
+David Schaich (he): So the energy is
+
+486
+00:45:00.880 --> 00:45:04.230
+David Schaich (he): what over there is that the H.
+
+487
+00:45:06.290 --> 00:45:07.570
+David Schaich (he): And
+
+488
+00:45:07.900 --> 00:45:12.740
+David Schaich (he): that derivative just goes straight through some of the configurations.
+
+489
+00:45:14.520 --> 00:45:26.490
+David Schaich (he): you know from the exponential factor in the each you bet on. and then and then we
+
+490
+00:45:26.630 --> 00:45:29.720
+David Schaich (he): exponential factor. so
+
+491
+00:45:38.560 --> 00:45:41.890
+David Schaich (he): cancel out the
+
+492
+00:45:42.550 --> 00:45:56.130
+David Schaich (he): and recognize that what was that? I's the exponential of minus data times, the energy within the some of the configurations
+
+493
+00:45:56.260 --> 00:45:58.000
+David Schaich (he): it's just giving us the
+
+494
+00:45:58.250 --> 00:46:01.560
+David Schaich (he): expectation value of the organization
+
+495
+00:46:02.160 --> 00:46:08.450
+David Schaich (he): for each of those spin configurations. So overall I just get
+
+496
+00:46:09.820 --> 00:46:14.630
+David Schaich (he): also factors of West Canada Expectation Bill.
+
+497
+00:46:18.560 --> 00:46:19.520
+David Schaich (he): and
+
+498
+00:46:20.780 --> 00:46:32.960
+David Schaich (he): there's an advertisement. The relation between organization itself and the derivative of the free energy or
+
+499
+00:46:34.100 --> 00:46:35.080
+David Schaich (he): derivative of
+
+500
+00:46:44.470 --> 00:46:48.670
+David Schaich (he): where I just put things in the floor that will be useful
+
+501
+00:46:54.530 --> 00:46:57.120
+David Schaich (he): calculations for next week or a week after
+
+502
+00:46:58.370 --> 00:47:02.080
+David Schaich (he): right negative temperature as whatever data.
+
+503
+00:47:02.210 --> 00:47:08.970
+David Schaich (he): you can't see out the negative signs that come along with it in the free energy compared to the one of them.
+
+504
+00:47:11.980 --> 00:47:13.140
+David Schaich (he): So this is
+
+505
+00:47:13.980 --> 00:47:16.250
+David Schaich (he): for the confirmation that
+
+506
+00:47:17.080 --> 00:47:18.880
+David Schaich (he): mechanization is
+
+507
+00:47:20.310 --> 00:47:26.040
+David Schaich (he): satisfy all the conditions that it needs to be. A. We'll define order parameter.
+
+508
+00:47:27.570 --> 00:47:32.540
+David Schaich (he): whose behavior and the behavior of its derivatives and indicate
+
+509
+00:47:38.120 --> 00:47:45.180
+David Schaich (he): 2.2 software today and quickly. Not forget everything before we come back to this
+
+510
+00:47:45.280 --> 00:47:48.250
+David Schaich (he): next week. It's not looking at other ways of
+
+511
+00:47:48.840 --> 00:48:04.270
+David Schaich (he): analyzing the easy model without trying to so exactly so. We've see the day as the answer of this question, what distinguishes the true phase transition? I'll just change the behavior
+
+512
+00:48:04.530 --> 00:48:08.010
+David Schaich (he): as a as a control or an area varies.
+
+513
+00:48:08.780 --> 00:48:12.240
+David Schaich (he): The answer is the existence in this order parameter.
+
+514
+00:48:12.650 --> 00:48:19.420
+David Schaich (he): and this behavior you get here. This derivatives with respect to those control.
+
+515
+00:48:21.540 --> 00:48:23.540
+David Schaich (he): See a concrete example of
+
+516
+00:48:24.980 --> 00:48:27.240
+David Schaich (he): second order transitions in that
+
+517
+00:48:29.060 --> 00:48:31.320
+David Schaich (he): our upcoming work on using model.
+
+518
+00:48:32.620 --> 00:48:36.850
+David Schaich (he): Are there any questions before what you do this afternoon?
+
+519
+00:48:44.290 --> 00:48:57.840
+David Schaich (he): Shut down the recording. and and the remainder of this week is just another. How we're in the tutorial on Thursday morning. No finished talking about the Dubai theory of
+
+520
+00:48:59.230 --> 00:49:01.080
+David Schaich (he): basic level, and then
+
+521
+00:49:01.310 --> 00:49:03.180
+David Schaich (he): and a bit
+
+522
+00:49:03.520 --> 00:49:06.310
+David Schaich (he): more interesting things that could happen with lattices
+
+523
+00:49:06.610 --> 00:49:09.700
+David Schaich (he): and spin systems on them rather than just having this
+
+524
+00:49:10.070 --> 00:49:15.900
+David Schaich (he): simple cubic setup in the dimensions you are. See, then.
+
