@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 9}
-\renewcommand{\moddate}{Last modified 25 Apr.~2023}
+\renewcommand{\moddate}{Last modified 2 May 2023}
 \setcounter{section}{9}
 \setcounter{subsection}{0}
 \phantomsection
@@ -177,7 +177,7 @@ What is the ground-state energy of the $N$-site Ising model in $d$ dimensions?
 
 As mentioned above, both of these degenerate ground states have the maximal magnetization $|m| = 1$.
 Let's check what effect the first excited state would have on the overall magnetization of the system.
-The first excited energy level is obtained by flipping a single spin --- negating its value. % TODO: Caveat for 1d in Section 9.4 below...
+For $d > 1$, the first excited energy level is obtained by flipping a single spin --- negating its value.
 Starting from the two degenerate ground states, this produces all possible micro-states with $(n_+, n_-) = (N - 1, 1)$ and $(1, N - 1)$.
 Because any one of the $N$ spins in the lattice could be flipped, the degeneracy of this first excited energy level grows with $N$:
 \begin{equation*}
@@ -195,14 +195,14 @@ What is this $E_1$ for the $N$-site Ising model in $d$ dimensions?
 \end{mdframed}
 
 Let's bring everything together by computing the relative probability for the $d$-dimensional Ising model to be in its ground state with $|m| = 1$ compared to its first excited state with $|m| = 1 - \frac{2}{N}$.
-This probability is the product of the degeneracy of each energy level times the Boltzmann factor that governs the probability of the system adopting any of these degenerate micro-states:
+We just need to multiply the degeneracy of each energy level times the corresponding Boltzmann factor for each degenerate micro-state, while the $\frac{1}{Z}$ normalization cancels out in the ratio
 \begin{equation*}
   \frac{P(E_0)}{P(E_1)} = \frac{2\cdot \exp\left[\be d\cdot N\right]}{2N\cdot \exp\left[\be \left(d\cdot N - 4d\right)\right]} = \frac{\exp\left[4\be d\right]}{N}.
 \end{equation*}
 For any fixed $N$, a sufficiently low temperature will cause the ground state to dominate, with exponentially suppressed contributions from higher energy levels, just as we previously found for simpler non-interacting systems.
 This characterizes an \textbf{ordered phase} with essentially all spins aligned in the same direction, producing a large expectation value for the magnetization, $\vev{|m|} \to 1$.
 
-We have now seen how the behaviour of the magnetization $\vev{|m|}$ distinguishes the high- and low-temperature phases of the zero-field Ising model in $d$ dimensions.
+We have now seen how the behaviour of the magnetization $\vev{|m|}$ distinguishes the high- and low-temperature phases of the zero-field Ising model in $d > 1$ dimensions.
 In the high-temperature disordered phase, the magnetization is small and $\vev{|m|} \to 0$ in the thermodynamic limit $N \to \infty$.
 In the low-temperature ordered phase, the magnetization is large and $\vev{|m|} \to 1$ as $T \to 0$.
 
@@ -215,7 +215,7 @@ The details of how the order parameter changes between zero and non-zero values 
 
 \begin{shaded}
   A \textbf{phase transition} is defined by a discontinuity or divergence in the order parameter or its derivative(s), in the $N \to \infty$ thermodynamic limit.
-  The value(s) of the control parameter(s) at which the discontinuity occurs define the \textit{critical point(s)} corresponding to the transition.
+  The value(s) of the control parameter(s) at which the discontinuity occurs define the \textit{critical point} corresponding to the transition.
 \end{shaded}
 
 For the zero-field Ising model, since we have set $H = 0$, the only remaining control parameter is the temperature $T$.
@@ -223,12 +223,13 @@ Any phase transition would therefore occur at a \textbf{critical temperature} $T
 The sketches below illustrate the most common types of phase transitions.
 When the order parameter (OP) itself is discontinuous (shown by a dashed line), the transition is said to be a \textit{first-order} phase transition. % TODO: Leads to non-zero latent heat...
 When the order parameter is continuous at $T_C$ but its first derivative with respect to the control parameter is discontinuous (typically divergent), the transition is said to be a \textit{second-order} phase transition.
-This naming scheme can be generalized to higher-order phase transitions, for which discontinuities don't occur until higher derivatives of the order parameter are considered, but in general any phase transition with a continuous order parameter is called a second-order transition.
+Historically, this naming scheme was extended to $n$th-order phase transitions for which discontinuities don't occur until the $(n-1)$th derivative of the order parameter (related to an $n$th derivative of the free energy).
+At present it is more common for any phase transition with a continuous order parameter to be called simply a second-order transition.
 
 \begin{center}\includegraphics[width=0.8\textwidth]{figs/unit09_transitions.pdf}\end{center}
 
 In practice, any system with a finite number of degrees of freedom will not exhibit a true discontinuity or divergence in any observable.
-As a result, it is sometimes said that true phase transitions only occur in the $N \to \infty$ thermodynamic limit, but I consider this excessively pedantic, especially given the finite number of atoms in the universe.
+As a result, it is sometimes said that true phase transitions only occur in the $N \to \infty$ thermodynamic limit, but I consider this excessively pedantic, especially given the finite number of atoms in the observable universe.
 We are still able to distinguish crossovers from true phase transitions when considering a finite number of degrees of freedom, by analyzing the way in which the system approaches the thermodynomic limit.
 If there is time and inclination, we may explore such \textit{finite-size scaling}, but first we will develop a useful approximation technique, and apply it to the Ising model to investigate its (dimensionality-dependent) phase transition in more detail.
 % ------------------------------------------------------------------
@@ -249,7 +250,7 @@ First, we can recognize the magnetization in the internal energy of the full Isi
 \end{equation*}
 The corresponding canonical partition function is
 \begin{equation*}
-  Z = \sum_{\left\{s_i\right\}} \exp\left[\be \sum_{(jk)} s_j s_k + \be H M\right].
+  Z = \sum_{\left\{s_n\right\}} \exp\left[\be \sum_{(jk)} s_j s_k + \be H M\right].
 \end{equation*}
 Based on this expression, and our earlier experience with the entropy and internal energy, we can anticipate that $\vev{m} = \vev{M} / N$ is related to the derivative of the Helmholtz free energy $F = -T\log Z$ with respect to the field strength $H$:
 \begin{mdframed}
@@ -265,20 +266,20 @@ The expectation value of the average spin, $\frac{1}{N} \sum_{n = 1}^N \vev{s_n}
 By adding and subtracting factors of $\vev{m}$, we can exactly rewrite each nearest-neighbour term in the Ising model energy, \eq{eq:Ising_energy}, as
 \begin{align}
   s_j s_k & = \left[\left(s_j - \vev{m}\right) + \vev{m}\right] \times \left[\left(s_k - \vev{m}\right) + \vev{m}\right] \cr
-          & = \left(s_j - \vev{m}\right) \left(s_k - \vev{m}\right) + \left(s_j + s_k\right)\vev{m} - \vev{m}^2. \label{eq:MF_start}
+          & = \left(s_j - \vev{m}\right) \left(s_k - \vev{m}\right) + \left(s_j + s_k\right)\vev{m} + \vev{m}^2. \label{eq:MF_start}
 \end{align}
 
 This is beneficial because we can note that the factors of $\left(s_j - \vev{m}\right)$ correspond to the spins' fluctuations around their mean value $\vev{m}$.
 By conjecturing that these fluctuations are small \textit{on average}, we can approximate the Ising model energy by neglecting the first term in \eq{eq:MF_start} when summing over all links:
 \begin{equation*}
-  E_i = -\sum_{(jk)} s_j s_k - H \sum_{n = 1}^N s_n \quad \lra \quad \EMF = -\sum_{(jk)} \left[\left(s_j + s_k\right)\vev{m} - \vev{m}^2\right] - H \sum_{n = 1}^N s_n.
+  E_i = -\sum_{(jk)} s_j s_k - H \sum_{n = 1}^N s_n \quad \lra \quad \EMF = -\sum_{(jk)} \left[\left(s_j + s_k\right)\vev{m} + \vev{m}^2\right] - H \sum_{n = 1}^N s_n.
 \end{equation*}
 The sum over the links $\ell = (jk)$ in $d$ dimensions simply counts $d\cdot N$ factors of the constant $\vev{m}^2$.
 Similarly, since the first term includes both spins $\left(s_j + s_k\right)$ on each end of the link, every individual spin appears $2d$ times in the sum over links.
 Therefore this term just gives us $2d\vev{m}$ times another sum over the spins $s_n$, which we can combine with the final term above:
 \begin{equation}
   \label{eq:MF_energy}
-  \EMF = d\cdot N \vev{m}^2 - \left(2d\vev{m} + H\right) \sum_{n = 1}^N s_n \equiv d\cdot N \vev{m}^2 - H_{\text{eff}} \sum_{n = 1}^N s_n.
+  \EMF = -d\cdot N \vev{m}^2 - \left(2d\vev{m} + H\right) \sum_{n = 1}^N s_n \equiv -d\cdot N \vev{m}^2 - H_{\text{eff}} \sum_{n = 1}^N s_n.
 \end{equation}
 
 In this expression we define an effective magnetic field $H_{\text{eff}} = 2d\vev{m} + H$ that depends on the mean spin.
@@ -292,9 +293,9 @@ Given the resulting mean-field energy \EMF from \eq{eq:MF_energy}, let's check t
 \newpage % WARNING: FORMATTING BY HAND
 In light of this result, it isn't surprising that the mean-field approximation producing \eq{eq:MF_energy} makes it very easy to compute the corresponding canonical partition function
 \begin{align}
-  \ZMF & = \sum_{\left\{s_n\right\}} \exp\left[-\be E(s_n)\right] = \exp\left[-\be d\cdot N \vev{m}^2\right] \sum_{s_1 = \pm 1} \cdots \sum_{s_N = \pm 1} \exp\left[-x \sum_{n = 1}^N s_n\right] \cr
-       & = \exp\left[-\be d\cdot N \vev{m}^2\right] \left(2\cosh\left[\be H_{\text{eff}}\right]\right)^N \nonumber \\
-       & = \exp\left[-\be d\cdot N \vev{m}^2\right] \left(2\cosh\left[\be \left(2d\vev{m} + H\right)\right]\right)^N,
+  \ZMF & = \sum_{\left\{s_n\right\}} \exp\left[-\be E(s_n)\right] = \exp\left[\be d\cdot N \vev{m}^2\right] \sum_{s_1 = \pm 1} \cdots \sum_{s_N = \pm 1} \exp\left[-x \sum_{n = 1}^N s_n\right] \cr
+       & = \exp\left[\be d\cdot N \vev{m}^2\right] \left(2\cosh\left[\be H_{\text{eff}}\right]\right)^N \nonumber \\
+       & = \exp\left[\be d\cdot N \vev{m}^2\right] \left(2\cosh\left[\be \left(2d\vev{m} + H\right)\right]\right)^N,
 \end{align}
 where we defined $x \equiv -\be H_{\text{eff}}$ to put the sums into the same form as in \eq{eq:spin_part_func}.
 Although this factorized result is far simpler than the partition function for the full Ising model, it does involve some complicated dependence on $\vev{m}$ --- especially when we recall that $\vev{m}$ itself is related to a derivative of $\log \ZMF$. % TODO: $\vev{m}$ is now essentially both degree of freedom and prediction...
@@ -689,5 +690,5 @@ Second, the Ising model is special in that we were able to explicitly derive the
 Instead, most dualities have to be conjectured and then checked by subjecting them to as many tests as possible.
 For example, this is the case for \textit{holographic dualities} that are conjectured to relate certain theories of quantum gravity to non-gravitational quantum systems that can be much easier to analyze mathematically.
 As an aside, the fully connected lattice we encountereed in recent tutorials also makes an appearance in holography --- the behaviour of interacting fermions on this fully connected lattice (known as the \href{https://en.wikipedia.org/wiki/Sachdev-Ye-Kitaev_model}{SYK model}, named after Subir Sachdev, Jinwu Ye and Alexei Kitaev) is conjected to be dual to the gravitational dynamics of quantum black holes.
-Roughly \href{https://inspirehep.net/literature/342314}{one thousand} scientific studies of the SYK model and its conjectured holographic duality have been published since 2016!
+\href{https://inspirehep.net/literature/342314}{More than a thousand} scientific studies related to the SYK model and its conjectured holographic duality have been published since 2016!
 % ------------------------------------------------------------------
