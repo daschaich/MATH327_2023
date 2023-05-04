@@ -1,0 +1,2118 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.070
+David Schaich (he): ...hit play with that
+
+2
+00:00:02.140 --> 00:00:03.210
+David Schaich (he): recording.
+
+3
+00:00:07.820 --> 00:00:18.080
+David Schaich (he): So we can get underway with the second-to-last tutorial for this module in this term. And
+
+4
+00:00:19.610 --> 00:00:22.150
+David Schaich (he): hopefully you are enjoying being done with
+
+5
+00:00:23.010 --> 00:00:28.350
+David Schaich (he): the last homework assignment --- only the exam to look forward to. And
+
+6
+00:00:28.890 --> 00:00:31.600
+David Schaich (he): what we can do in
+
+7
+00:00:33.760 --> 00:00:39.930
+David Schaich (he): this tutorial, and the final one next week, is look at some of the more
+
+8
+00:00:41.560 --> 00:00:44.580
+David Schaich (he): meaningful, or robust applications of the statistical physics tools
+
+9
+00:00:44.750 --> 00:00:50.130
+David Schaich (he): we've been developing.  But before we get into that
+
+10
+00:00:50.520 --> 00:00:51.250
+we have this
+
+11
+00:00:52.220 --> 00:00:53.740
+David Schaich (he): 6-digit code
+
+12
+00:00:53.770 --> 00:00:55.910
+David Schaich (he): for today: 2, 5,
+
+13
+00:00:56.160 --> 00:00:58.240
+David Schaich (he): 8, 9, 4, 0.
+
+14
+00:01:00.150 --> 00:01:08.480
+David Schaich (he): And, as always I'll check to see if there are questions about the interacting systems
+
+15
+00:01:09.510 --> 00:01:14.730
+David Schaich (he): stuff we've been going through in the lectures, or any other questions that have
+
+16
+00:01:15.320 --> 00:01:18.980
+David Schaich (he): come up about the Debye solid we introduced last week,
+
+17
+00:01:21.000 --> 00:01:24.370
+David Schaich (he): or for that matter any previous material in the module.
+
+18
+00:01:34.200 --> 00:01:36.380
+David Schaich (he): Not seeing any,
+
+19
+00:01:37.390 --> 00:01:38.120
+Yes.
+
+20
+00:01:38.330 --> 00:01:40.160
+David Schaich (he): mind you.
+
+21
+00:01:41.910 --> 00:01:45.000
+David Schaich (he): what we looked at last week in the first part of the plan for today
+
+22
+00:01:47.800 --> 00:01:50.600
+David Schaich (he): here introduced last week, the year
+
+23
+00:01:52.690 --> 00:01:56.410
+David Schaich (he): so called by a model of
+
+24
+00:01:56.800 --> 00:02:00.530
+David Schaich (he): he's building on the earlier work with
+
+25
+00:02:00.820 --> 00:02:03.520
+David Schaich (he): Einstein's model of solids that we
+
+26
+00:02:04.290 --> 00:02:06.440
+David Schaich (he): talk through the previous week.
+
+27
+00:02:07.990 --> 00:02:10.419
+David Schaich (he): You can recall the Einstein's model, which
+
+28
+00:02:10.949 --> 00:02:11.630
+that you
+
+29
+00:02:11.730 --> 00:02:15.070
+David Schaich (he): picture that you have to put up on the screen.
+
+30
+00:02:15.120 --> 00:02:22.130
+David Schaich (he): in addition to a solid as a collection of springs holding atoms into place, and predicted that
+
+31
+00:02:22.580 --> 00:02:33.860
+David Schaich (he): at high temperatures the capacity approaches it constant, which we use for the experiments. But that low temperature is that you can actually manage this exponentially and experimentally.
+
+32
+00:02:33.900 --> 00:02:38.660
+David Schaich (he): although he actually does vanish. This is he divided by the temperature? So he has
+
+33
+00:02:39.100 --> 00:02:43.830
+David Schaich (he): temperature goes to 0. This means that C is going to 0
+
+34
+00:02:43.850 --> 00:02:46.300
+David Schaich (he): linearly in the temperature with a
+
+35
+00:02:47.180 --> 00:02:49.550
+David Schaich (he): Cqed term
+
+36
+00:02:50.140 --> 00:02:53.220
+David Schaich (he): coming on top of that. c. Is
+
+37
+00:02:53.990 --> 00:03:01.290
+David Schaich (he): the coefficient times T. Some other coefficient times to queue that disagrees with the
+
+38
+00:03:02.450 --> 00:03:06.310
+David Schaich (he): basically because of the
+
+39
+00:03:06.500 --> 00:03:08.110
+David Schaich (he): you added to that solid
+
+40
+00:03:08.350 --> 00:03:15.460
+David Schaich (he): for all this, not here to move in a coordinated collective way due to the interactions between them.
+
+41
+00:03:15.860 --> 00:03:18.500
+David Schaich (he): This is where to buy. hey? What?
+
+42
+00:03:18.930 --> 00:03:21.820
+David Schaich (he): And introduced a way to
+
+43
+00:03:22.370 --> 00:03:23.450
+David Schaich (he): treats
+
+44
+00:03:23.640 --> 00:03:29.240
+David Schaich (he): that interactive behavior as not interactive degrees of freedom
+
+45
+00:03:33.220 --> 00:03:40.120
+David Schaich (he): some way to transform the complicated system a couple of
+
+46
+00:03:42.460 --> 00:03:45.370
+David Schaich (he): into effectively gas.
+
+47
+00:03:47.970 --> 00:03:54.970
+David Schaich (he): not interacting phone numbers. So since particles of sound
+
+48
+00:03:55.180 --> 00:03:55.930
+you do
+
+49
+00:03:57.670 --> 00:03:59.540
+David Schaich (he): the equivalent of
+
+50
+00:03:59.570 --> 00:04:03.490
+David Schaich (he): for acoustic waiting for his.
+
+51
+00:04:07.510 --> 00:04:10.000
+David Schaich (he): our
+
+52
+00:04:10.110 --> 00:04:15.180
+David Schaich (he): acoustic ways, that whole sound and the first task.
+
+53
+00:04:16.540 --> 00:04:20.279
+David Schaich (he): The exercise you had to play with over the past week was to
+
+54
+00:04:20.529 --> 00:04:21.560
+David Schaich (he): see, yeah.
+
+55
+00:04:21.959 --> 00:04:29.830
+David Schaich (he): the basic functional form that this modeling predicts in the high, low temperature limits where it can simplify, and we can.
+
+56
+00:04:29.840 --> 00:04:36.900
+David Schaich (he): compared with that experimental data behind. Some of it works a type of assurance and breaks down at low temperatures.
+
+57
+00:04:38.360 --> 00:04:46.520
+David Schaich (he): And i'm guessing that this is something you'd like me to go through at least briefly. If you have
+
+58
+00:04:46.680 --> 00:04:56.890
+David Schaich (he): successfully. it's your extraction, because your horror with a lot of fun, tricks, and simplification sets. Come on that.
+
+59
+00:04:58.470 --> 00:04:59.350
+David Schaich (he): Let me.
+
+60
+00:04:59.790 --> 00:05:03.170
+David Schaich (he): and also useful to see the
+
+61
+00:05:03.500 --> 00:05:11.080
+David Schaich (he): other applications of statistical physics. So are there any objections to that, or I think you would
+
+62
+00:05:12.270 --> 00:05:19.570
+David Schaich (he): rather do. I should say, you guys. once we get through this talking through the divide solid, and that low temperature, heat, capacity.
+
+63
+00:05:19.580 --> 00:05:22.870
+David Schaich (he): introduce one final tutorial activity
+
+64
+00:05:23.690 --> 00:05:24.950
+David Schaich (he): which we'll look at
+
+65
+00:05:25.260 --> 00:05:35.850
+David Schaich (he): different lattice structures and some of the fun interacting systems and correspond to those with different source of behavior compared to the using model we introduced in the lectures.
+
+66
+00:05:36.170 --> 00:05:41.020
+David Schaich (he): I think it's still analyze in some cases pretty easily in some cases
+
+67
+00:05:41.120 --> 00:05:43.180
+David Schaich (he): not 2 weeks away.
+
+68
+00:05:43.620 --> 00:05:55.130
+David Schaich (he): so that will trying to get to that. By the end of today. I'll see you any. You objections to talking through this phone on gas calculation. Let's
+
+69
+00:05:55.250 --> 00:05:58.160
+David Schaich (he): spend at least a few minutes on that.
+
+70
+00:05:59.410 --> 00:06:06.160
+David Schaich (he): And, as hinted in this tutorial activity that it's handed out also on canvas
+
+71
+00:06:09.610 --> 00:06:11.680
+David Schaich (he): up to cost of factors, like
+
+72
+00:06:11.790 --> 00:06:13.610
+David Schaich (he): the speed
+
+73
+00:06:13.620 --> 00:06:18.090
+David Schaich (he): of the waves and number of polarizations that they have.
+
+74
+00:06:18.790 --> 00:06:20.200
+David Schaich (he): they both behave
+
+75
+00:06:21.660 --> 00:06:25.230
+David Schaich (he): qualitatively. So in terms of functional form. the same
+
+76
+00:06:26.870 --> 00:06:28.210
+David Schaich (he): in the particular.
+
+77
+00:06:28.310 --> 00:06:33.450
+David Schaich (he): Our calculation for you hold on gas when it reproduce the photon gas prediction
+
+78
+00:06:34.200 --> 00:06:41.480
+David Schaich (he): of the playing spectrum for the which is to say.
+
+79
+00:06:41.850 --> 00:06:46.510
+David Schaich (he): the average internal energy in the Grand Canonical. On some
+
+80
+00:06:46.700 --> 00:06:53.890
+David Schaich (he): it's pretty I pretty, but arguing that the chemical potential vanishes because these particles are easy to
+
+81
+00:06:56.250 --> 00:06:59.060
+David Schaich (he): dropping all kinds of factors and just looking at
+
+82
+00:06:59.350 --> 00:07:11.530
+David Schaich (he): personality relations. We have the familiar plant spectrum frequency viewed over E to the Beta Hr frequency minus one in the denominator
+
+83
+00:07:11.710 --> 00:07:16.850
+David Schaich (he): integrating over frequencies. And as we discuss last time
+
+84
+00:07:19.080 --> 00:07:22.430
+David Schaich (he): integrating from 0, so you
+
+85
+00:07:22.640 --> 00:07:33.990
+David Schaich (he): very low frequency, with a very long wavelength up to a maximum frequency. it is set by the number of atoms that we have in.
+
+86
+00:07:34.090 --> 00:07:36.620
+David Schaich (he): So this is the
+
+87
+00:07:38.260 --> 00:07:42.860
+David Schaich (he): it's maximum frequency corresponding to a wavelength where all the
+
+88
+00:07:42.950 --> 00:07:45.910
+David Schaich (he): next to each other, or possibly they can
+
+89
+00:07:50.220 --> 00:07:51.810
+David Schaich (he): very technically correlated.
+
+90
+00:07:53.220 --> 00:07:56.150
+David Schaich (he): and should say that for you.
+
+91
+00:07:58.590 --> 00:08:04.060
+David Schaich (he): maximum frequency that we have now is given by
+
+92
+00:08:06.560 --> 00:08:09.520
+David Schaich (he): the number of atoms that we have per unit length.
+
+93
+00:08:10.860 --> 00:08:17.510
+David Schaich (he): and as before. we treat this by changing the variables to
+
+94
+00:08:19.080 --> 00:08:21.530
+David Schaich (he): next, which is Beta H. Bar Omega
+
+95
+00:08:22.950 --> 00:08:35.120
+David Schaich (he): for each over to you to give a temperature there explicitly. and the the integral over S. They all to the X. Max. That is just proportional to
+
+96
+00:08:35.600 --> 00:08:38.940
+David Schaich (he): an excellent frequency over the temperature.
+
+97
+00:08:40.510 --> 00:08:41.480
+David Schaich (he): and what
+
+98
+00:08:43.080 --> 00:08:50.520
+David Schaich (he): I will do when I write things in this way. So a level of dropping all constant proportionality factors we have.
+
+99
+00:08:50.700 --> 00:08:56.540
+David Schaich (he): I'll take a queue. Deal, mega that bring in 4 powers of
+
+100
+00:08:56.570 --> 00:08:57.780
+David Schaich (he): between them.
+
+101
+00:08:59.180 --> 00:09:02.880
+David Schaich (he): Yeah, the integral from 0 to this maximum of X.
+
+102
+00:09:03.400 --> 00:09:07.630
+David Schaich (he): What I will do is take all of those Council proportionality factors
+
+103
+00:09:07.770 --> 00:09:08.990
+David Schaich (he): and call them
+
+104
+00:09:10.200 --> 00:09:20.800
+David Schaich (he): some simple TV. Here we need to buy a temperature. and that is divided by T. Here the temperature of the system at the upper now.
+
+105
+00:09:25.670 --> 00:09:30.940
+David Schaich (he): and in particular. This device I for sure. is proportional
+
+106
+00:09:32.130 --> 00:09:34.840
+David Schaich (he): to that density of
+
+107
+00:09:37.170 --> 00:09:40.540
+David Schaich (he): to the total number in 3 dimensions divided by it.
+
+108
+00:09:41.950 --> 00:09:48.480
+David Schaich (he): Yeah overall morning when I brought things wrong both here and last week this cube root is
+
+109
+00:09:52.260 --> 00:09:54.140
+David Schaich (he): going over at the
+
+110
+00:09:55.380 --> 00:10:06.970
+David Schaich (he): number and the volume itself to get everything in terms of well, in your density, is It's turns.
+
+111
+00:10:07.610 --> 00:10:14.920
+David Schaich (he): hey? Objections about that. Sorry I it's sloppy at the end of last week, and just now.
+
+112
+00:10:20.670 --> 00:10:24.050
+David Schaich (he): So you seem reasonably content to
+
+113
+00:10:24.130 --> 00:10:27.100
+David Schaich (he): believe that this is the forum for the energy
+
+114
+00:10:27.470 --> 00:10:39.630
+David Schaich (he): of the phone on the S. And this is basically all we need to extract a high, low temperature, but it's almost by here inspection. So at high temperatures.
+
+115
+00:10:40.730 --> 00:10:44.100
+David Schaich (he): when t is very large compared to the device temperature
+
+116
+00:10:44.850 --> 00:10:48.620
+David Schaich (he): that ratio of TV over team is much less than one.
+
+117
+00:10:49.390 --> 00:10:50.250
+David Schaich (he): and
+
+118
+00:10:50.600 --> 00:10:56.010
+David Schaich (he): we are only integrating over very small values of X from 0 to something
+
+119
+00:10:56.020 --> 00:10:58.630
+David Schaich (he): much less than what. So
+
+120
+00:11:01.000 --> 00:11:02.080
+David Schaich (he): all
+
+121
+00:11:03.090 --> 00:11:05.470
+David Schaich (he): x within the integral
+
+122
+00:11:08.710 --> 00:11:11.250
+David Schaich (he): in here replace
+
+123
+00:11:13.200 --> 00:11:24.180
+David Schaich (he): that e to the X minus one in the denominator. Just by the linear piece X, we have the energy proportional to 2 to the 4,000
+
+124
+00:11:25.760 --> 00:11:32.440
+David Schaich (he): integral with X cubed over X and X squared Dx, which is proportional to X cubed. Of course.
+
+125
+00:11:34.800 --> 00:11:46.170
+David Schaich (he): Yeah. we'll go back to 0 and 0 Q to 0 At the orbital we have the over t cube. so that is proportional overall to
+
+126
+00:11:46.530 --> 00:11:49.700
+David Schaich (he): 4 factors of T, divided by 3 package of T.
+
+127
+00:11:50.980 --> 00:11:54.740
+David Schaich (he): So we get yeah, one factor
+
+128
+00:11:55.220 --> 00:11:58.680
+David Schaich (he): of T in there. So the heat capacity.
+
+129
+00:11:59.000 --> 00:12:08.150
+David Schaich (he): the year derivative of the energy with respect to this is a constant with high temperatures. which
+
+130
+00:12:09.540 --> 00:12:14.800
+David Schaich (he): is exactly what we've done for in agreement with
+
+131
+00:12:16.200 --> 00:12:23.350
+David Schaich (he): experiments. and. in fact, if we kept all the cost of actors we would find
+
+132
+00:12:23.520 --> 00:12:28.200
+David Schaich (he): not only 8 costs, but the same constant as the
+
+133
+00:12:28.290 --> 00:12:33.750
+David Schaich (he): the 2 models coincide as the temperature increases.
+
+134
+00:12:34.750 --> 00:12:41.000
+David Schaich (he): so that was the regime where they. the device out that it continues to work.
+
+135
+00:12:42.700 --> 00:12:48.960
+David Schaich (he): Looks have a choice where this upper bound on the integral.
+
+136
+00:12:49.010 --> 00:12:51.320
+David Schaich (he): it comes very large.
+
+137
+00:12:51.880 --> 00:12:52.790
+David Schaich (he): And
+
+138
+00:12:54.050 --> 00:12:55.130
+David Schaich (he): yeah.
+
+139
+00:12:56.010 --> 00:13:00.500
+David Schaich (he): the approximated by integrating from 0 to infinity
+
+140
+00:13:03.490 --> 00:13:04.900
+David Schaich (he): that this integral.
+
+141
+00:13:05.830 --> 00:13:08.950
+David Schaich (he): when the upper down goes to infinity.
+
+142
+00:13:09.990 --> 00:13:23.970
+David Schaich (he): turns into that for delicious combination of the functions. and we will see the functions so 6 times highlight. Fourth, over 90. What matters here is that this integral is just a
+
+143
+00:13:24.020 --> 00:13:31.360
+David Schaich (he): miracle constant. Just have a shirt in the limit of integration drops out
+
+144
+00:13:31.560 --> 00:13:33.840
+David Schaich (he): when it becomes low
+
+145
+00:13:33.920 --> 00:13:42.540
+David Schaich (he): one over. So we get that in. To. I question 48. We just have
+
+146
+00:13:45.190 --> 00:13:48.100
+David Schaich (he): that remaining factor in the form
+
+147
+00:13:49.330 --> 00:13:57.520
+David Schaich (he): in the heat capacity. It's proportional that he hued. which is exactly one of this room
+
+148
+00:13:59.460 --> 00:14:03.170
+David Schaich (he): in order to match the experimental data for these minutes.
+
+149
+00:14:08.130 --> 00:14:10.270
+David Schaich (he): So that's all that is needed for
+
+150
+00:14:10.450 --> 00:14:15.830
+David Schaich (he): the analysis of the device. Sell it, and it as forecast. Last week.
+
+151
+00:14:16.000 --> 00:14:17.920
+David Schaich (he): It captures one of the terms
+
+152
+00:14:18.030 --> 00:14:20.880
+David Schaich (he): describing these data, but not
+
+153
+00:14:21.020 --> 00:14:25.780
+David Schaich (he): the leading term that intercepts that C over T goes to a constant Alpha
+
+154
+00:14:27.620 --> 00:14:35.640
+David Schaich (he): Any questions before we go into the second piece. Okay. The activity you had over the past week.
+
+155
+00:14:37.440 --> 00:14:38.750
+David Schaich (he): You're happy to
+
+156
+00:14:40.100 --> 00:14:42.340
+David Schaich (he): charge ahead to
+
+157
+00:14:43.270 --> 00:14:44.310
+David Schaich (he): the
+
+158
+00:14:46.340 --> 00:14:48.970
+David Schaich (he): final contribution that is coming from
+
+159
+00:14:50.170 --> 00:14:53.560
+David Schaich (he): the gas of electrons in these metals.
+
+160
+00:14:56.590 --> 00:14:59.050
+David Schaich (he): So we saw last week that
+
+161
+00:15:02.420 --> 00:15:03.720
+David Schaich (he): that's right.
+
+162
+00:15:04.840 --> 00:15:08.850
+David Schaich (he): And then your term in the dec capacity should be associated
+
+163
+00:15:08.900 --> 00:15:12.150
+David Schaich (he): to the
+
+164
+00:15:12.530 --> 00:15:16.200
+David Schaich (he): Okay. so to their friends electrons
+
+165
+00:15:16.800 --> 00:15:17.850
+the the
+
+166
+00:15:20.670 --> 00:15:21.880
+David Schaich (he): in these metals
+
+167
+00:15:22.720 --> 00:15:29.860
+David Schaich (he): the behavior of those electrons as a free gas set of temperatures should be the contribution.
+
+168
+00:15:30.070 --> 00:15:31.260
+David Schaich (he): You are missing
+
+169
+00:15:32.890 --> 00:15:33.800
+David Schaich (he): that's
+
+170
+00:15:33.890 --> 00:15:37.800
+David Schaich (he): distinct from the behavior of the
+
+171
+00:15:37.870 --> 00:15:42.450
+David Schaich (he): to buy a model it is accounting for. and what we've seen.
+
+172
+00:15:45.080 --> 00:15:47.330
+David Schaich (he): or he's
+
+173
+00:15:47.350 --> 00:15:50.640
+David Schaich (he): low temperature novelistic for me on.
+
+174
+00:15:51.150 --> 00:15:52.280
+David Schaich (he): Yes.
+
+175
+00:15:58.300 --> 00:16:05.020
+David Schaich (he): there's General for a link. And dropping. replacing that one. It causes proportionality
+
+176
+00:16:06.650 --> 00:16:19.110
+David Schaich (he): over the energy. the fairy function. and then energy to the 3 half hour. And this is
+
+177
+00:16:19.350 --> 00:16:25.300
+David Schaich (he): rather than approximating that family function as just a step function that cuts off
+
+178
+00:16:25.420 --> 00:16:29.750
+David Schaich (he): the integral of energy at the chemical potential. We have to
+
+179
+00:16:31.010 --> 00:16:35.930
+David Schaich (he): keep it it's full 4, so it looks like
+
+180
+00:16:37.030 --> 00:16:43.040
+David Schaich (he): the occupation level probability. one over E to the
+
+181
+00:16:43.480 --> 00:16:50.980
+David Schaich (he): Times energy minus chemical potential plus one. So the minus one that we have the phone on the same
+
+182
+00:16:52.650 --> 00:16:56.360
+David Schaich (he): with it, using the free. That's power. right?
+
+183
+00:16:58.060 --> 00:17:00.040
+David Schaich (he): And this is
+
+184
+00:17:00.270 --> 00:17:07.319
+David Schaich (he): not an easy integral to do. A starting point is integrating by parts
+
+185
+00:17:07.500 --> 00:17:13.040
+David Schaich (he): so schematically. If you Haven't seen this for a while.
+
+186
+00:17:13.270 --> 00:17:18.589
+David Schaich (he): integrating by parts, changes in the form you Times TV
+
+187
+00:17:18.819 --> 00:17:28.930
+David Schaich (he): into you and v evaluated at the boundaries of the integral. And then I think there's a minus, for
+
+188
+00:17:32.290 --> 00:17:33.320
+David Schaich (he): to you
+
+189
+00:17:35.390 --> 00:17:39.710
+David Schaich (he): we all care about the overall science. Those are.
+
+190
+00:17:39.960 --> 00:17:41.940
+David Schaich (he): You can profound
+
+191
+00:17:42.660 --> 00:17:45.770
+David Schaich (he): if we this quickly
+
+192
+00:17:47.960 --> 00:17:53.410
+David Schaich (he): jump through this calculation, maybe leaving out some intermediate steps for the sake of time
+
+193
+00:17:53.600 --> 00:17:54.790
+David Schaich (he): that you can.
+
+194
+00:17:57.030 --> 00:17:59.600
+David Schaich (he): and it's your cell phone on your own.
+
+195
+00:18:00.160 --> 00:18:02.050
+David Schaich (he): the you that we want.
+
+196
+00:18:03.390 --> 00:18:05.100
+David Schaich (he): You know, our integral for the
+
+197
+00:18:06.560 --> 00:18:09.360
+David Schaich (he): internal energy is just
+
+198
+00:18:09.370 --> 00:18:11.930
+David Schaich (he): that correctly function, one over
+
+199
+00:18:12.210 --> 00:18:16.170
+David Schaich (he): the exponential factor plus one and Dv.
+
+200
+00:18:19.810 --> 00:18:20.900
+David Schaich (he): The E.
+
+201
+00:18:22.400 --> 00:18:24.810
+David Schaich (he): So you time to be with us.
+
+202
+00:18:24.990 --> 00:18:31.030
+David Schaich (he): The ferry function a number between 0 and one times E to the 5 half power.
+
+203
+00:18:31.820 --> 00:18:38.090
+David Schaich (he): U. And V. So I believe it of the times.
+
+204
+00:18:38.390 --> 00:18:43.260
+David Schaich (he): a small number going to. So he goes to 0. We have e times
+
+205
+00:18:43.380 --> 00:18:45.350
+David Schaich (he): your number goes to 0
+
+206
+00:18:45.840 --> 00:18:48.560
+David Schaich (he): when the energy goes to infinity.
+
+207
+00:18:49.110 --> 00:18:55.500
+David Schaich (he): This function goes to 0 exponentially quickly that overwhelms the fact that
+
+208
+00:18:56.400 --> 00:19:00.680
+David Schaich (he): from the
+
+209
+00:19:02.660 --> 00:19:08.390
+David Schaich (he): so they this is 0. In this case we just end up with
+
+210
+00:19:09.630 --> 00:19:13.440
+David Schaich (he): the the energy proportional to
+
+211
+00:19:15.650 --> 00:19:17.290
+David Schaich (he): the integral of that
+
+212
+00:19:18.850 --> 00:19:33.790
+David Schaich (he): the do you? So e to the 5 Hands. the e. and then i'll keep that minus sign just right. Do you as
+
+213
+00:19:34.000 --> 00:19:37.440
+David Schaich (he): the derivative of that with respect to
+
+214
+00:19:38.220 --> 00:19:40.190
+David Schaich (he): differential.
+
+215
+00:19:44.070 --> 00:19:45.130
+David Schaich (he): where
+
+216
+00:19:50.220 --> 00:19:52.740
+David Schaich (he): the derivative of the
+
+217
+00:19:53.360 --> 00:19:56.870
+David Schaich (he): function. you know that is e to the
+
+218
+00:19:57.230 --> 00:20:01.160
+David Schaich (he): beta chemical potential plus one.
+
+219
+00:20:04.460 --> 00:20:09.670
+David Schaich (he): and making our usual a slightly different substitution. X's.
+
+220
+00:20:11.100 --> 00:20:15.830
+David Schaich (he): the factor in that exponential.
+
+221
+00:20:17.210 --> 00:20:22.650
+David Schaich (he): We get one over you to the X plus 120 squared.
+
+222
+00:20:22.760 --> 00:20:27.100
+David Schaich (he): we have
+
+223
+00:20:27.510 --> 00:20:32.650
+David Schaich (he): additional. They go from the argument of the exponential
+
+224
+00:20:34.510 --> 00:20:35.420
+David Schaich (he): which
+
+225
+00:20:37.330 --> 00:20:41.830
+David Schaich (he): we can rearrange
+
+226
+00:20:43.230 --> 00:20:46.310
+David Schaich (he): all of that on the screen. and.
+
+227
+00:20:48.140 --> 00:20:56.030
+David Schaich (he): like the energy that we have proportional to integral. Now from X 0 to infinity.
+
+228
+00:20:58.940 --> 00:21:00.850
+David Schaich (he): Sorry, this is still going to be
+
+229
+00:21:00.980 --> 00:21:05.390
+David Schaich (he): the energy from 0 to.
+
+230
+00:21:05.620 --> 00:21:06.960
+David Schaich (he): And
+
+231
+00:21:08.080 --> 00:21:13.590
+David Schaich (he): although those 2 quantities are related by that relation.
+
+232
+00:21:14.960 --> 00:21:23.400
+David Schaich (he): They're proportional to each other. With this shift in data and this factor out beta from the chain rule, I can move into
+
+233
+00:21:24.760 --> 00:21:30.490
+David Schaich (he): the differential factor. And now change variables to X to that
+
+234
+00:21:33.390 --> 00:21:35.840
+David Schaich (he): when he is 0.
+
+235
+00:21:36.500 --> 00:21:38.090
+David Schaich (he): X is
+
+236
+00:21:38.400 --> 00:21:40.590
+David Schaich (he): minus a of you
+
+237
+00:21:41.750 --> 00:21:44.350
+David Schaich (he): When you go to the X goes to infinity.
+
+238
+00:21:45.780 --> 00:21:46.920
+David Schaich (he): Yes.
+
+239
+00:21:51.070 --> 00:21:52.190
+David Schaich (he): still have.
+
+240
+00:21:52.540 --> 00:21:56.300
+David Schaich (he): The energy is a function of X now integral over X.
+
+241
+00:21:58.110 --> 00:22:00.680
+David Schaich (he): And you, too.
+
+242
+00:22:01.170 --> 00:22:08.580
+David Schaich (he): the presence of X within that energy term, as well as this ratio of exponential factors.
+
+243
+00:22:08.780 --> 00:22:13.380
+David Schaich (he): This remains a tricky integral to do.
+
+244
+00:22:13.750 --> 00:22:17.100
+David Schaich (he): We can get some kind of to which is by plotting it
+
+245
+00:22:17.350 --> 00:22:18.380
+David Schaich (he): versus
+
+246
+00:22:22.990 --> 00:22:27.980
+David Schaich (he): no here, since it's either the x over the X plus one squared it's dropping that
+
+247
+00:22:29.050 --> 00:22:31.770
+David Schaich (he): factor out the energy that should be.
+
+248
+00:22:33.130 --> 00:22:35.670
+David Schaich (he): It's a small correction to exponentials.
+
+249
+00:22:36.930 --> 00:22:37.650
+It's
+
+250
+00:22:37.940 --> 00:22:43.890
+David Schaich (he): clear at this combination of exponentials is suppressed.
+
+251
+00:22:44.280 --> 00:22:49.630
+David Schaich (he): We're both large and small. X. So this gives us the freedom
+
+252
+00:22:50.490 --> 00:22:53.310
+David Schaich (he): to extend
+
+253
+00:22:54.330 --> 00:23:00.620
+David Schaich (he): the integral from minus infinity to infinity often simpler than happy.
+
+254
+00:23:02.040 --> 00:23:06.700
+David Schaich (he): Let's see. and
+
+255
+00:23:07.780 --> 00:23:19.830
+David Schaich (he): we can justify the exponential suppression just by looking at that limit where X is a very negative number. So
+
+256
+00:23:21.660 --> 00:23:24.580
+David Schaich (he): So in that regime you the X over
+
+257
+00:23:24.790 --> 00:23:26.880
+David Schaich (he): into the X plus one squared
+
+258
+00:23:28.860 --> 00:23:30.030
+David Schaich (he): access.
+
+259
+00:23:30.360 --> 00:23:36.570
+David Schaich (he): large and magazine and negative. Those exponential factors are very small. The denominator is approximately
+
+260
+00:23:36.830 --> 00:23:37.820
+David Schaich (he): Yeah.
+
+261
+00:23:40.010 --> 00:23:40.840
+David Schaich (he): This
+
+262
+00:23:42.080 --> 00:23:50.480
+David Schaich (he): itself, as I said. the exponential of the right negative number is much less than one. What you're using exponentially suppressed
+
+263
+00:23:53.510 --> 00:24:01.560
+David Schaich (he): correction to the calculation, just by extending the you can to a similar argument for hey?
+
+264
+00:24:02.130 --> 00:24:07.960
+David Schaich (he): Positive numbers. For now the exponential.
+
+265
+00:24:08.240 --> 00:24:09.570
+David Schaich (he): it's
+
+266
+00:24:11.650 --> 00:24:16.540
+David Schaich (he): one over 80 X. Whatever something on her, she is very small.
+
+267
+00:24:18.230 --> 00:24:21.440
+David Schaich (he): and even with the
+
+268
+00:24:24.570 --> 00:24:28.510
+David Schaich (he): even the 5 have power in there, we can be confident that the
+
+269
+00:24:28.680 --> 00:24:31.020
+David Schaich (he): integrated is
+
+270
+00:24:33.850 --> 00:24:37.340
+David Schaich (he): sharply peaked around it.
+
+271
+00:24:39.110 --> 00:24:42.130
+David Schaich (he): X equals 0, which corresponds
+
+272
+00:24:42.670 --> 00:24:47.830
+David Schaich (he): it's still on the screen when X is 0 energy.
+
+273
+00:24:49.480 --> 00:24:50.860
+David Schaich (he): So this is where
+
+274
+00:24:52.230 --> 00:24:57.280
+David Schaich (he): you, a full Hitler expansion of the energy as a function of X
+
+275
+00:25:01.700 --> 00:25:02.570
+David Schaich (he): and
+
+276
+00:25:02.900 --> 00:25:06.540
+David Schaich (he): E equals
+
+277
+00:25:06.980 --> 00:25:11.760
+David Schaich (he): next just the derivative.
+
+278
+00:25:13.900 --> 00:25:16.840
+David Schaich (he): Which is either the 3 has evaluated as you.
+
+279
+00:25:21.760 --> 00:25:26.460
+David Schaich (he): I have leaves. Use the one half
+
+280
+00:25:28.160 --> 00:25:31.480
+David Schaich (he): which we can. Now this gives us a way to
+
+281
+00:25:31.670 --> 00:25:40.710
+David Schaich (he): express the full, integral consistently in terms of X. Instead of mixing X and the energy
+
+282
+00:25:43.490 --> 00:25:47.740
+David Schaich (he): that you, the 5 hands. That's 5 hands.
+
+283
+00:25:48.550 --> 00:25:53.920
+David Schaich (he): So e minus mu is x over beta, or x times t.
+
+284
+00:25:58.280 --> 00:26:00.310
+The 3 have since. Similarly.
+
+285
+00:26:00.900 --> 00:26:02.320
+David Schaich (he): this next term
+
+286
+00:26:04.000 --> 00:26:10.180
+David Schaich (he): is x t squared one half back to review.
+
+287
+00:26:12.780 --> 00:26:14.380
+David Schaich (he): So just looking at
+
+288
+00:26:14.620 --> 00:26:16.850
+David Schaich (he): these first 3 terms
+
+289
+00:26:17.480 --> 00:26:22.030
+David Schaich (he): in the it will have some cost to a
+
+290
+00:26:24.430 --> 00:26:30.120
+David Schaich (he): you get to roll. Yes. the x plus one square.
+
+291
+00:26:31.350 --> 00:26:35.550
+David Schaich (he): with nothing else. Just another view that we absorbed into a
+
+292
+00:26:38.260 --> 00:26:49.190
+David Schaich (he): the second term. Here's us x times t times e to the x yes, plus one squared.
+
+293
+00:26:50.700 --> 00:26:55.970
+David Schaich (he): and then you see. pull it out.
+
+294
+00:26:57.180 --> 00:26:59.640
+David Schaich (he): X squared e to the X
+
+295
+00:27:00.680 --> 00:27:06.160
+David Schaich (he): in the X plus one squared. Dx. Those integrals are all Google. Sorry. There they are
+
+296
+00:27:06.360 --> 00:27:08.270
+David Schaich (he): on the screen before you go.
+
+297
+00:27:09.700 --> 00:27:11.220
+David Schaich (he): Those integrals are all
+
+298
+00:27:11.590 --> 00:27:14.620
+David Schaich (he): doable without too much effort.
+
+299
+00:27:14.860 --> 00:27:23.950
+David Schaich (he): But what we can see is that if we take the derivative of the energy with respect to the temperature. this first term will
+
+300
+00:27:27.520 --> 00:27:32.420
+David Schaich (he): healthy keep capacity. There is no dependence on the temperature. It is
+
+301
+00:27:32.640 --> 00:27:38.550
+David Schaich (he): that does not contribute to the capacity, for after the second integral
+
+302
+00:27:38.700 --> 00:27:42.080
+David Schaich (he): is integrating an up function, so from
+
+303
+00:27:42.140 --> 00:27:43.120
+David Schaich (he): minus
+
+304
+00:27:43.590 --> 00:27:50.480
+David Schaich (he): infinity to 0, the integrand is equal and opposite to its value from 0 to plus infinity over overall.
+
+305
+00:27:50.890 --> 00:27:53.590
+David Schaich (he): That correct yeah
+
+306
+00:27:54.660 --> 00:28:02.260
+David Schaich (he): goes to 0. And what we are finally left with is this.
+
+307
+00:28:02.500 --> 00:28:04.550
+David Schaich (he): this integral which
+
+308
+00:28:04.650 --> 00:28:14.150
+David Schaich (he): it's great to some numerical. and in the end anything that
+
+309
+00:28:15.550 --> 00:28:23.080
+David Schaich (he): derivative just this term proportional to the derivative of t squared with respect to T.
+
+310
+00:28:27.730 --> 00:28:31.810
+David Schaich (he): So that is how the device solid works to
+
+311
+00:28:32.100 --> 00:28:36.110
+David Schaich (he): reproduce experimental data and overcome that the shortcomings
+
+312
+00:28:37.250 --> 00:28:39.520
+David Schaich (he): of the I just don't know
+
+313
+00:28:40.880 --> 00:28:44.380
+David Schaich (he): It's a good place to policy. If there are questions
+
+314
+00:28:45.460 --> 00:28:46.390
+David Schaich (he): about
+
+315
+00:28:47.390 --> 00:28:50.490
+David Schaich (he): what we've gone through, looking at. hey?
+
+316
+00:28:53.140 --> 00:28:56.250
+David Schaich (he): Very accurate description of
+
+317
+00:28:56.980 --> 00:29:00.170
+David Schaich (he): 10 to the power 23 atoms that are
+
+318
+00:29:00.240 --> 00:29:07.740
+David Schaich (he): digging around in these materials along with a gas of electron that's floating amongst them at no temperatures.
+
+319
+00:29:07.750 --> 00:29:13.470
+David Schaich (he): It's an extraordinarily complicated system. Yeah. We have been able to
+
+320
+00:29:14.700 --> 00:29:17.660
+David Schaich (he): describe very accurately in terms of
+
+321
+00:29:17.830 --> 00:29:20.380
+David Schaich (he): simple linear and human functions.
+
+322
+00:29:20.670 --> 00:29:24.360
+David Schaich (he): Just from what we've dealt with to phone gases.
+
+323
+00:29:33.710 --> 00:29:37.150
+David Schaich (he): I hope it this sort of
+
+324
+00:29:38.160 --> 00:29:42.230
+David Schaich (he): direct application to the full application.
+
+325
+00:29:44.640 --> 00:29:46.840
+David Schaich (he): something enjoyable that
+
+326
+00:29:49.010 --> 00:29:59.330
+David Schaich (he): it's nice to see you. We're able to do this after just here Single module through statistical tools. 2
+
+327
+00:30:00.010 --> 00:30:03.180
+David Schaich (he): treats as many other wide degrees of freedom
+
+328
+00:30:04.650 --> 00:30:05.670
+David Schaich (he): and get
+
+329
+00:30:06.990 --> 00:30:09.080
+David Schaich (he): emergence. Collective behavior
+
+330
+00:30:10.960 --> 00:30:13.240
+David Schaich (he): predicted very accurate. When you call that
+
+331
+00:30:17.150 --> 00:30:17.940
+David Schaich (he): so
+
+332
+00:30:19.440 --> 00:30:29.290
+David Schaich (he): little over halfway through one like tutorials a day. So it's a good time to terms, you will next standard final activity.
+
+333
+00:30:29.360 --> 00:30:31.850
+David Schaich (he): which we have a mix of
+
+334
+00:30:32.260 --> 00:30:43.120
+David Schaich (he): easy things to think about, and also a we're challenging computation. If you you might have a taste for
+
+335
+00:30:46.820 --> 00:30:48.150
+David Schaich (he): connecting
+
+336
+00:30:49.110 --> 00:30:52.400
+David Schaich (he): the behavior of these statistical systems to
+
+337
+00:30:53.790 --> 00:31:01.580
+David Schaich (he): to real materials which often have structures of their atoms and voices more complicated
+
+338
+00:31:02.230 --> 00:31:05.910
+David Schaich (he): the simple cubic case that we are looking at in the lecture.
+
+339
+00:31:06.940 --> 00:31:07.930
+David Schaich (he): So.
+
+340
+00:31:10.770 --> 00:31:18.440
+David Schaich (he): as always, this tutorial activities on the camera site. If you don't want to rely on them. What time Talking to a project.
+
+341
+00:31:19.850 --> 00:31:22.470
+David Schaich (he): Sure help, you, sir. Fantastic man!
+
+342
+00:31:30.890 --> 00:31:33.800
+David Schaich (he): I can't the site on that
+
+343
+00:31:35.510 --> 00:31:36.880
+David Schaich (he): any device
+
+344
+00:31:38.720 --> 00:31:42.930
+David Schaich (he): so in lecture we've been looking at d-dimensional
+
+345
+00:31:43.140 --> 00:31:52.480
+David Schaich (he): square lattice. one on the left. where you see each site has
+
+346
+00:31:53.030 --> 00:31:55.880
+David Schaich (he): in 2 dimensions for nearest neighbors.
+
+347
+00:31:56.830 --> 00:31:59.520
+David Schaich (he): so obvious by inspection
+
+348
+00:32:02.410 --> 00:32:03.830
+David Schaich (he): the term year 2.
+
+349
+00:32:05.810 --> 00:32:08.260
+David Schaich (he): Look at these lasses, so
+
+350
+00:32:10.770 --> 00:32:15.160
+David Schaich (he): this cubic classes, and
+
+351
+00:32:16.910 --> 00:32:22.480
+David Schaich (he): the square lattice and 2D. And the number of nearest neighbors. so
+
+352
+00:32:25.860 --> 00:32:30.970
+David Schaich (he): often called in sort of more full discussions. this coordination number.
+
+353
+00:32:32.140 --> 00:32:36.100
+David Schaich (he): So that is where there is this very regular structure, and every
+
+354
+00:32:36.850 --> 00:32:39.590
+David Schaich (he): sites has a fixed number of
+
+355
+00:32:39.960 --> 00:32:42.990
+David Schaich (he): nearest neighbors. All the
+
+356
+00:32:44.430 --> 00:32:45.950
+David Schaich (he): coordination number
+
+357
+00:32:57.880 --> 00:33:02.350
+David Schaich (he): to the for these cubic lattices that we put that in the lecture
+
+358
+00:33:03.780 --> 00:33:04.720
+here for you.
+
+359
+00:33:07.040 --> 00:33:12.930
+David Schaich (he): You've seen the the number of links per site, the coordination number.
+
+360
+00:33:13.120 --> 00:33:16.700
+David Schaich (he): It's 2D, 2 dimensions.
+
+361
+00:33:17.180 --> 00:33:20.150
+David Schaich (he): It goes to the 4 that we just through here.
+
+362
+00:33:20.310 --> 00:33:26.130
+David Schaich (he): and we can compress this with a few other simple, regular lattice structure is that
+
+363
+00:33:26.880 --> 00:33:30.320
+David Schaich (he): completely fill the 2 dimensional plane
+
+364
+00:33:30.380 --> 00:33:31.550
+David Schaich (he): seen before.
+
+365
+00:33:33.250 --> 00:33:35.170
+David Schaich (he): Those are going here.
+
+366
+00:33:35.720 --> 00:33:38.390
+David Schaich (he): First of all, it's called
+
+367
+00:33:38.530 --> 00:33:41.750
+David Schaich (he): where we can count that
+
+368
+00:33:42.520 --> 00:33:46.290
+David Schaich (he): each site has 3 nearest neighbors.
+
+369
+00:33:51.180 --> 00:33:54.290
+David Schaich (he): so it's to be heightened. Let us
+
+370
+00:33:55.610 --> 00:34:00.290
+David Schaich (he): it also be generalized to higher dimensions, harder to picture, which is
+
+371
+00:34:00.610 --> 00:34:02.070
+David Schaich (he): why the picture is not
+
+372
+00:34:04.120 --> 00:34:05.680
+David Schaich (he): tutorial activity.
+
+373
+00:34:07.970 --> 00:34:11.570
+David Schaich (he): but to the coordination number
+
+374
+00:34:11.800 --> 00:34:14.730
+David Schaich (he): has a simple relation to.
+
+375
+00:34:14.860 --> 00:34:16.310
+David Schaich (he): Did you mention elevated?
+
+376
+00:34:19.739 --> 00:34:26.870
+David Schaich (he): It's just d plus one, which in 2 dimensions that those 3 that we accounted in here.
+
+377
+00:34:32.560 --> 00:34:39.550
+David Schaich (he): There's a story that I can tell about the higher dimensional versions of this honeycomb that is being called hyper dynamic lattices.
+
+378
+00:34:39.710 --> 00:34:41.929
+David Schaich (he): just because of the
+
+379
+00:34:42.300 --> 00:34:45.370
+David Schaich (he): I can structure that comes out
+
+380
+00:34:45.650 --> 00:34:47.739
+David Schaich (he): of the centers
+
+381
+00:34:47.889 --> 00:34:56.870
+David Schaich (he): of the faces in this platform. Not to It's a fun bit of. Let us transport it
+
+382
+00:34:58.150 --> 00:35:00.340
+David Schaich (he): as we go through things.
+
+383
+00:35:01.550 --> 00:35:05.420
+David Schaich (he): Let's instead move on to consider what happens if we
+
+384
+00:35:07.150 --> 00:35:10.580
+David Schaich (he): all of the centerpoints in the
+
+385
+00:35:10.890 --> 00:35:17.520
+David Schaich (he): and you all mixed up between the centers with your the existing. So it's
+
+386
+00:35:17.640 --> 00:35:19.360
+David Schaich (he): and the centers.
+
+387
+00:35:20.720 --> 00:35:32.880
+David Schaich (he): These hexagons get broken up into collections of 6 triangles. that this exactly what's wrong with that in this room those plots, the triangular lattice
+
+388
+00:35:33.750 --> 00:35:34.920
+David Schaich (he): I can see.
+
+389
+00:35:35.150 --> 00:35:41.620
+David Schaich (he): actually gone still hiding in there from collections of 6 of the triangles.
+
+390
+00:35:42.600 --> 00:35:45.040
+David Schaich (he): So it is super cell
+
+391
+00:35:48.170 --> 00:35:51.220
+David Schaich (he): build out of the
+
+392
+00:35:52.940 --> 00:35:55.470
+David Schaich (he): the higher dimensional generalization of
+
+393
+00:35:55.670 --> 00:35:57.390
+I know that this is called
+
+394
+00:35:57.740 --> 00:36:00.540
+David Schaich (he): 86,
+
+395
+00:36:01.950 --> 00:36:07.410
+David Schaich (he): many fun properties, of those things, like the maximum efficiency for sear hacking
+
+396
+00:36:08.310 --> 00:36:09.670
+David Schaich (he): as well as
+
+397
+00:36:10.780 --> 00:36:12.300
+David Schaich (he): connections to
+
+398
+00:36:13.560 --> 00:36:16.970
+David Schaich (he): super symmetry.
+
+399
+00:36:17.470 --> 00:36:23.530
+David Schaich (he): But stay at the basic well, for now the coordination number
+
+400
+00:36:24.030 --> 00:36:27.050
+David Schaich (he): here is 6 and 2 dimensions.
+
+401
+00:36:27.250 --> 00:36:41.880
+David Schaich (he): a general license to twice that coordination. So 2 times the dimensionality plus one. it's a 6 when the equals 2,
+
+402
+00:36:44.860 --> 00:36:57.390
+David Schaich (he): so these 3 lattice structures are very clearly distinguished by the number of nearest neighbors. Some more pictures at the bottom of this page are showing.
+
+403
+00:36:58.020 --> 00:36:59.560
+David Schaich (he): This is the
+
+404
+00:37:00.940 --> 00:37:02.340
+David Schaich (he): version of the
+
+405
+00:37:07.690 --> 00:37:10.270
+David Schaich (he): So it's a 3.
+
+406
+00:37:12.250 --> 00:37:16.230
+David Schaich (he): Also notice the by a central cubic class or
+
+407
+00:37:16.780 --> 00:37:19.540
+David Schaich (he): Ecc. And we can account.
+
+408
+00:37:20.080 --> 00:37:30.930
+David Schaich (he): when D equals 3 or a triangle lattice in 3 dimensions. We have 2 times 4. It gives 8 inverse neighbors for and for this purple site that is
+
+409
+00:37:31.000 --> 00:37:34.980
+David Schaich (he): in the center of a few that it's kind of
+
+410
+00:37:36.380 --> 00:37:44.390
+David Schaich (he): properly projected the year. James. There's neighbors that it has
+
+411
+00:37:46.350 --> 00:37:49.910
+David Schaich (he): label and number from one to 8
+
+412
+00:37:50.090 --> 00:37:53.180
+David Schaich (he): 8 quarters of the unit queue.
+
+413
+00:37:55.000 --> 00:37:56.240
+David Schaich (he): What other
+
+414
+00:37:57.260 --> 00:38:01.060
+David Schaich (he): interesting way to structure. to mention, at least in 2D.
+
+415
+00:38:03.360 --> 00:38:08.640
+David Schaich (he): So not trying to generalize the so-called to go away that it's not higher dimensions
+
+416
+00:38:09.660 --> 00:38:17.190
+David Schaich (he): I believe people may come from a Japanese. We're related to what basket we then this sort of structure shows up in
+
+417
+00:38:17.500 --> 00:38:20.430
+David Schaich (he): textiles, and those with the patterns
+
+418
+00:38:22.560 --> 00:38:24.130
+David Schaich (he): each side has
+
+419
+00:38:25.310 --> 00:38:28.250
+David Schaich (he): when you're
+
+420
+00:38:30.600 --> 00:38:31.260
+David Schaich (he): 3
+
+421
+00:38:31.850 --> 00:38:37.350
+David Schaich (he): rotated as we go from one site to the next. I like the
+
+422
+00:38:38.980 --> 00:38:41.140
+David Schaich (he): that we may be more familiar with.
+
+423
+00:38:42.970 --> 00:38:43.960
+David Schaich (he): but here
+
+424
+00:38:45.220 --> 00:38:56.460
+David Schaich (he): the Us. We have a coordination number of 4, so the same number of nearest neighbors as the square, we but clearly by inspection.
+
+425
+00:38:58.670 --> 00:39:01.550
+David Schaich (he): This is a distinct latter structure from
+
+426
+00:39:01.650 --> 00:39:03.160
+David Schaich (he): the square lattice.
+
+427
+00:39:03.180 --> 00:39:10.700
+David Schaich (he): despite the same number of years later. So the coordination number is not everything. but it is something and
+
+428
+00:39:12.540 --> 00:39:15.440
+David Schaich (he): something that's
+
+429
+00:39:15.650 --> 00:39:17.390
+David Schaich (he): on. The behavior of
+
+430
+00:39:18.520 --> 00:39:26.840
+David Schaich (he): systems of Adams model is interacting with live on the
+
+431
+00:39:27.850 --> 00:39:29.010
+David Schaich (he): So if we
+
+432
+00:39:30.470 --> 00:39:33.770
+David Schaich (he): take our using model and
+
+433
+00:39:34.850 --> 00:39:40.050
+David Schaich (he): generalize it to have and energy.
+
+434
+00:39:43.470 --> 00:39:47.690
+David Schaich (he): How's the coefficient J. In front of the
+
+435
+00:39:48.500 --> 00:39:53.300
+David Schaich (he): some over the years that are interacting in this way.
+
+436
+00:39:54.910 --> 00:40:01.360
+David Schaich (he): Put it in the field term for convenience and for the time being, just to turn it off
+
+437
+00:40:02.000 --> 00:40:12.880
+David Schaich (he): that external magnetic field and look at only the interactions. This J. Is the way of parameters in the strength of those interactions.
+
+438
+00:40:16.530 --> 00:40:24.370
+David Schaich (he): But what is interesting is what happens. If Jay changes sign. we could have
+
+439
+00:40:24.910 --> 00:40:30.510
+David Schaich (he): a positive interaction, strength, or a negative interruptive strength equally well in this expression.
+
+440
+00:40:30.900 --> 00:40:31.910
+David Schaich (he): and
+
+441
+00:40:34.110 --> 00:40:38.500
+David Schaich (he): a question for you to consider a over the next
+
+442
+00:40:39.670 --> 00:40:46.310
+David Schaich (he): 10 min or so. the coming weekend back to talk through the
+
+443
+00:40:48.950 --> 00:40:52.590
+David Schaich (he): the results next Thursday tutorial.
+
+444
+00:40:57.480 --> 00:41:09.220
+David Schaich (he): What are the ground States out of this generalized using model. one or 2 cases of J greater than 0, less than 0.
+
+445
+00:41:11.890 --> 00:41:20.160
+David Schaich (he): When the U.S.A. Repairs in this, some over day in K. I come in from
+
+446
+00:41:21.580 --> 00:41:23.360
+David Schaich (he): square honeycomb
+
+447
+00:41:25.270 --> 00:41:26.790
+David Schaich (he): or triangular
+
+448
+00:41:29.920 --> 00:41:31.470
+David Schaich (he): lattice structures.
+
+449
+00:41:35.870 --> 00:41:36.960
+David Schaich (he): So this is
+
+450
+00:41:38.430 --> 00:41:48.430
+David Schaich (he): ideally, I conceptual question that you should be able to. I have an argument for the form of the ground state.
+
+451
+00:41:50.160 --> 00:41:52.770
+David Schaich (he): just from the inspection of
+
+452
+00:41:52.810 --> 00:41:55.750
+David Schaich (he): if I have a series and the interacting
+
+453
+00:41:55.860 --> 00:42:01.760
+David Schaich (he): terms defining the using model. So without doing any detail that practical calculation.
+
+454
+00:42:02.480 --> 00:42:03.480
+David Schaich (he): And
+
+455
+00:42:08.880 --> 00:42:13.110
+David Schaich (he): is it for the follow up to that? Yes.
+
+456
+00:42:14.910 --> 00:42:15.970
+David Schaich (he): Are there
+
+457
+00:42:17.250 --> 00:42:19.350
+David Schaich (he): any potential order parameters
+
+458
+00:42:22.040 --> 00:42:27.090
+David Schaich (he): that would distinguish those ground States from the disorder state that we expect.
+
+459
+00:42:27.380 --> 00:42:30.830
+David Schaich (he): It's high temperature for the using model
+
+460
+00:42:30.960 --> 00:42:37.300
+David Schaich (he): on any of these lattice structures where the energy becomes essentially negative compared to
+
+461
+00:42:37.410 --> 00:42:38.630
+David Schaich (he): the temperature.
+
+462
+00:42:44.610 --> 00:42:54.960
+David Schaich (he): And i'm just thinking whether i'm up to hold up the the last part. This activity, which is it? Much more complicated
+
+463
+00:42:55.020 --> 00:42:59.400
+David Schaich (he): set of questions. So you've got this question about it's over parameters
+
+464
+00:42:59.710 --> 00:43:00.630
+David Schaich (he): something. You can
+
+465
+00:43:02.290 --> 00:43:05.300
+David Schaich (he): look at the system and try to
+
+466
+00:43:05.460 --> 00:43:09.020
+David Schaich (he): answer that just by inspection
+
+467
+00:43:11.660 --> 00:43:24.590
+David Schaich (he): there is another generalization of lattices that we can do. and I think I will just read this problem. You can read it. I didn't really know about it in the activity. just in case any of you are
+
+468
+00:43:24.880 --> 00:43:29.400
+David Schaich (he): curious to play with. Let's call this complete graph
+
+469
+00:43:29.510 --> 00:43:36.330
+David Schaich (he): the fully connected by this, whatever. Every single site is a nearest neighbor of every other site
+
+470
+00:43:41.650 --> 00:43:46.820
+David Schaich (he): here. So there are links which are technically the same length.
+
+471
+00:43:46.830 --> 00:43:54.090
+David Schaich (he): this 2 dimensional projection links between every single pair of sites.
+
+472
+00:43:54.810 --> 00:43:56.150
+David Schaich (he): So it defines.
+
+473
+00:44:00.380 --> 00:44:05.560
+David Schaich (he): I like to call it fully connected with us. What shows up in
+
+474
+00:44:06.640 --> 00:44:10.360
+David Schaich (he): Wikipedia and some other literature as a complete graph.
+
+475
+00:44:12.610 --> 00:44:13.260
+David Schaich (he): Yes.
+
+476
+00:44:14.380 --> 00:44:17.140
+David Schaich (he): that's the name suggests applications to
+
+477
+00:44:17.570 --> 00:44:20.080
+David Schaich (he): graph theory and networks.
+
+478
+00:44:22.060 --> 00:44:24.100
+David Schaich (he): and if we consider it
+
+479
+00:44:25.970 --> 00:44:33.120
+David Schaich (he): in generalization of the using model that's defined on this fully connected like this.
+
+480
+00:44:34.370 --> 00:44:35.540
+David Schaich (he): because
+
+481
+00:44:39.410 --> 00:44:46.910
+David Schaich (he): all sites are connected to all the others that some over links, just because they sum over all of the sex themselves
+
+482
+00:44:47.110 --> 00:44:50.730
+David Schaich (he): with J. Less than K. To avoid all accounting.
+
+483
+00:44:52.930 --> 00:44:54.610
+David Schaich (he): you can
+
+484
+00:44:54.950 --> 00:45:03.110
+David Schaich (he): equally well through the bill. some overall different pairs of sites. That's
+
+485
+00:45:08.930 --> 00:45:19.720
+David Schaich (he): and this is a system of thanks to the structure of that fully connected lattice that can be solved exactly. I'm like easy model
+
+486
+00:45:19.950 --> 00:45:20.550
+on it.
+
+487
+00:45:20.560 --> 00:45:23.890
+David Schaich (he): Two-dimensional cubic lattices that we're doing in the lectures.
+
+488
+00:45:26.780 --> 00:45:27.770
+David Schaich (he): So
+
+489
+00:45:29.620 --> 00:45:31.330
+David Schaich (he): the exact solution
+
+490
+00:45:32.720 --> 00:45:37.190
+David Schaich (he): gives a closed form analytic expression
+
+491
+00:45:40.480 --> 00:45:44.920
+David Schaich (he): for the partition function that corresponds to this energy.
+
+492
+00:45:47.220 --> 00:45:48.810
+David Schaich (he): I should mention that Peter
+
+493
+00:45:51.110 --> 00:45:56.930
+David Schaich (he): Inclusion of the number of sites in the Co. In the interaction strength. What this lattice is
+
+494
+00:45:57.180 --> 00:46:08.840
+David Schaich (he): in there, just to ensure that the energy per site remains finite as and goes to infinity in that thermodynamic moment that we've been discussing in the lectures and
+
+495
+00:46:09.720 --> 00:46:11.420
+David Schaich (he): actually sold it.
+
+496
+00:46:13.080 --> 00:46:14.800
+David Schaich (he): The system is
+
+497
+00:46:15.670 --> 00:46:20.360
+David Schaich (he): trickier. It's a more substantial calculation that
+
+498
+00:46:22.860 --> 00:46:26.240
+David Schaich (he): some of you may want to play with over the coming week. We
+
+499
+00:46:27.110 --> 00:46:40.600
+David Schaich (he): probably take a report at how that calculation goes next Thursday, but I just mentioned that it is the way it is to work that was awarded the 2021 Nobel prize
+
+500
+00:46:40.830 --> 00:46:44.690
+David Schaich (he): perfect. So not this past year year before that
+
+501
+00:46:47.710 --> 00:46:52.370
+David Schaich (he): Georgio crazy received part of the Nobel Prize for solving
+
+502
+00:46:52.470 --> 00:46:55.550
+David Schaich (he): similar systems like this. You know the spin classes.
+
+503
+00:46:55.750 --> 00:47:04.820
+David Schaich (he): but the interactions frame is actually allowed to vary from link to link at the different values of the interactions transport link
+
+504
+00:47:04.960 --> 00:47:08.390
+David Schaich (he): rather than being a constant or drawing from the Gaussian distribution.
+
+505
+00:47:10.270 --> 00:47:14.020
+David Schaich (he): That is too wrap up with the hints, for
+
+506
+00:47:15.300 --> 00:47:19.740
+David Schaich (he): there's a few. Once we take this calculation. Hey? Here
+
+507
+00:47:21.640 --> 00:47:24.120
+David Schaich (he): good way to approach it is to
+
+508
+00:47:26.590 --> 00:47:28.700
+David Schaich (he): organize things as
+
+509
+00:47:30.730 --> 00:47:33.750
+David Schaich (he): is so over the values of the magnetization
+
+510
+00:47:38.450 --> 00:47:47.990
+David Schaich (he): in that partition function. so is that we're given by some of the organization from minus one up to one.
+
+511
+00:47:48.510 --> 00:47:59.210
+David Schaich (he): some expression, and when it is large we got us to the organization in that range are very smoothly varying and put together.
+
+512
+00:47:59.590 --> 00:48:04.850
+David Schaich (he): The process of this has an integral over the magnetization.
+
+513
+00:48:06.960 --> 00:48:11.380
+David Schaich (he): So why is we express this energy
+
+514
+00:48:13.300 --> 00:48:15.660
+David Schaich (he): in terms of the organization
+
+515
+00:48:16.570 --> 00:48:22.140
+David Schaich (he): itself to go into the exponential factor that shows up in the partition function. So
+
+516
+00:48:24.200 --> 00:48:25.120
+David Schaich (he): that will
+
+517
+00:48:25.470 --> 00:48:27.640
+David Schaich (he): that to be left for you to
+
+518
+00:48:28.220 --> 00:48:32.230
+David Schaich (he): I with that would be coming me run out of time
+
+519
+00:48:32.750 --> 00:48:34.910
+David Schaich (he): for today. Are there
+
+520
+00:48:35.180 --> 00:48:38.770
+David Schaich (he): final questions before we wrap up
+
+521
+00:48:40.200 --> 00:48:41.390
+David Schaich (he): about
+
+522
+00:48:43.060 --> 00:48:45.750
+David Schaich (he): either the simple conceptual
+
+523
+00:48:45.910 --> 00:48:50.860
+David Schaich (he): questions for this last activity, or the more substantial solution
+
+524
+00:48:51.380 --> 00:48:53.790
+David Schaich (he): of the fully connected partition publishing.
+
+525
+00:49:03.130 --> 00:49:05.080
+David Schaich (he): I don't see any. So we should
+
+526
+00:49:05.620 --> 00:49:10.100
+David Schaich (he): good luck attempting that analysis.
+
+527
+00:49:10.450 --> 00:49:12.540
+David Schaich (he): and see you again
+
+528
+00:49:12.740 --> 00:49:24.530
+David Schaich (he): again. Not Monday. Another rank holiday, but a Tuesday afternoon. Get back into more approximate solutions for easy model. A simple cubic lattice. something that
+
+529
+00:49:25.540 --> 00:49:30.460
+David Schaich (he): cancel exactly depending on. Did you mention healthy.
+
