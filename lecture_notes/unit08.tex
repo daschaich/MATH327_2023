@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 8}
-\renewcommand{\moddate}{Last modified 25 Apr.~2023}
+\renewcommand{\moddate}{Last modified 8 May 2023}
 \setcounter{section}{8}
 \setcounter{subsection}{0}
 \phantomsection
@@ -113,7 +113,7 @@ We are now ready to write down the grand-canonical potential for a photon gas:
   \Phi_{\text{ph}} = T \sum_{\ell = 0}^{\cL} \log\left[1 - e^{-\be (E_{\ell} - \mu)}\right] = 2T \sum_{\vec k} \log\left[1 - e^{-\be (\Eph(k) - \mu)}\right],
 \end{equation*}
 where the factor of $2$ in the final expression accounts for the doubly degenerate energy levels.
-We can simplify this expression by appreciating that photons are easy to create and destroy.
+We can simplify this expression by appreciating that photons are easy to create and absorb.
 Every time a light is switched on, it begins emitting a constant flood of photons (with wavelengths of several hundred nanometres).
 Food in a microwave oven gets hot by absorbing many lower-energy photons (with longer wavelengths around $12$~centimetres).
 In both cases an enormous number of photons is required to make even a small change in energy, so that \eq{eq:mu_E} implies the chemical potential of a photon gas must be negligible,
@@ -559,7 +559,7 @@ Although we will discuss them more briefly, gases of relativistic fermions also 
 In fact, by changing units we can see that the white dwarf Fermi energy discussed above, $E_F \sim 10^9~\text{K} \sim 0.3$~MeV is comparable to the $0.511$~MeV rest-energy of electrons, suggesting that relativistic effects may be non-negligible in white dwarfs. % eV~1.16^4 K is the Boltzmann constant
 Such relativistic effects are indeed crucial to the computation of the Chandrasekhar limit mentioned above.
 
-While the full calculations required to analyze massive relativistic particles are beyond the scope of this module, we can take advantage of our earlier analyses of gases of massless photons to briefly consider similar gases of massless fermions.
+While the full calculations required to analyze massive relativistic particles are beyond the scope of this module, we can take advantage of our earlier analyses of gases of massless photons to consider similar gases of massless fermions.
 \textit{Neutrinos} (denoted `$\nu$') are physical examples of fermions whose masses are so small that they can be very well approximated as massless.
 In fact, for many years neutrinos were thought to be exactly massless --- the discovery that neutrinos have non-zero masses was awarded the 2015 Nobel Prize in Physics.
 
@@ -575,10 +575,10 @@ where $k^2 = k_x^2 + k_y^2 + k_z^2$ and $k_{x, y, z} > 0$ are positive integers.
 Just as for the non-relativistic case considered in \secref{sec:fermi_nonrel}, for each distinct $\vec k$ typical massless fermions, including neutrinos, have two degenerate energy levels with the same energy $E(k)$ but opposite spin.
 
 The computations required to analyze a gas of massless fermions are very similar to the work we recently did for photon gases.
-In particular, massless fermions are also easy to create and destroy, and therefore well described by a vanishing chemical potential, $\mu \approx 0$.
+In particular, massless fermions are also easy to create and absorb, and therefore well described by a vanishing chemical potential, $\mu \approx 0$.
 Again approximating sums over discrete integer $k_{x, y, z}$ by integrals over continuous real $\khat_{x, y, z}$, and changing variables to integrate over the angular frequency, we end up with the grand-canonical potential
 \begin{align}
-  \Phi_{\nu} = -\frac{VT}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \log\left[1 + e^{-\be \hbar \om}\right]. \label{eq:neutrino_grand}
+  \Phi_{\nu} = -\frac{VT}{c^3 \pi^2} \int_0^{\infty} \om^2 \log\left[1 + e^{-\be \hbar \om}\right] \mathop{d\om}. \label{eq:neutrino_grand}
 \end{align}
 The only changes here compared to \eq{eq:photon_grand} for the photon $\Phi_{\text{ph}}$ are a couple of negative signs, precisely as we would expect from comparing the Bose--Einstein and Fermi--Dirac grand-canonical potentials in \secref{sec:quantum_classical}.
 
@@ -589,15 +589,15 @@ Due to these negative signs, when we take derivatives of the potential to comput
 \end{align*}
 Using these results, what are the average internal energy density and the average particle number density for a gas of massless fermions?
 \begin{mdframed}
-  $\displaystyle \frac{\vev{E}_{\nu}}{V} = -\frac{1}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \pderiv{}{\be} \log\left[1 + e^{-\be \hbar \om}\right] = $ \\[110 pt]
-  $\displaystyle \frac{\vev{N}_{\nu}}{V} = \left. \frac{T}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \pderiv{}{\mu} \log\left[1 + e^{-\be \hbar \om} e^{\be \mu}\right] \right|_{\mu = 0} = $ \\[100 pt]
+  $\displaystyle \frac{\vev{E}_{\nu}}{V} = -\frac{1}{c^3 \pi^2} \int_0^{\infty} \om^2 \pderiv{}{\be} \log\left[1 + e^{-\be \hbar \om}\right] \mathop{d\om} = $ \\[110 pt]
+  $\displaystyle \frac{\vev{N}_{\nu}}{V} = \left. \frac{T}{c^3 \pi^2} \int_0^{\infty} \om^2 \pderiv{}{\mu} \log\left[1 + e^{-\be \hbar \om} e^{\be \mu}\right] \mathop{d\om} \right|_{\mu = 0} = $ \\[100 pt]
 \end{mdframed}
 
 You should again find $\vev{E}_{\nu} \propto \vev{N}_{\nu} T \propto VT^4$, and by noting that
 \begin{equation*}
-  \frac{\Phi_{\nu}}{T} = \frac{V}{c^3 \pi^2} \left(\frac{T}{\hbar}\right)^3 \int_0^{\infty} x^2 \log\left[1 + e^{-x}\right] \propto VT^3 \dx,
+  \frac{\Phi_{\nu}}{T} = -\frac{V}{c^3 \pi^2} \left(\frac{T}{\hbar}\right)^3 \int_0^{\infty} x^2 \log\left[1 + e^{-x}\right] \dx \propto VT^3,
 \end{equation*}
-we can see that the entropy $S_{\nu} = \left(E_{\nu} - \Phi_{\nu}\right) / T$ is constant when $V T^3 = \mbox{constant}$.
+we can see that the entropy $S_{\nu} = \left(\vev{E}_{\nu} - \Phi_{\nu}\right) / T$ is constant when $V T^3 = \mbox{const}$.
 Applying this, what is the pressure for a gas of massless fermions?
 \begin{mdframed}
   $\displaystyle P_{\nu} = -\left. \pderiv{}{V} \vev{E}_{\nu} \right|_{S_{\nu}} = $ \\[100 pt]
@@ -611,13 +611,14 @@ You should find an equation of state with the usual functional form and just a n
 
 
 % ------------------------------------------------------------------
+\newpage % WARNING: FORMATTING BY HAND
 \subsection{\label{sec:Sommerfeld}Density of states \& Sommerfeld expansion}
 In \eq{eq:fermi_E_N} we found that the average internal energy of a non-relativistic fermion gas becomes independent of the temperature in the limit $T \to 0$.
 This means that its heat capacity,
 \begin{equation*}
   c_v = \left. \pderiv{}{T} \vev{E} \right|_{N,V},
 \end{equation*}
-vanishes in this limit, which we could also see by considering the fluctuation--dissipation relation $c_v = \be^2 \vev{\left(E - \vev{E}\right)^2}$ with only a single micro-state. % TODO: Again module degeneracies...
+vanishes in this limit, which we could also see by considering the fluctuation--dissipation relation $c_v \propto \vev{\left(E - \vev{E}\right)^2}$ with only a single micro-state. % TODO: Again module degeneracies...
 
 To derive the non-trivial heat capacity for a gas with a small but non-zero temperature, we need to move beyond approximating the Fermi function
 \begin{equation*}
@@ -626,7 +627,7 @@ To derive the non-trivial heat capacity for a gas with a small but non-zero temp
 as a step function, and return to the full \eq{eq:N_fermi} for the average particle number,
 \begin{equation}
   \label{eq:number}
-  \vev{N}_{\text{f}} = V \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE \equiv \int_0^{\infty} g(E) \; F(E) \; dE.
+  \vev{N}_{\text{f}} = V \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE \equiv \int_0^{\infty} g(E) \; F(E) \mathop{dE}.
 \end{equation}
 Here we have defined the \textbf{density of states}
 \begin{equation*}
@@ -746,7 +747,7 @@ From your result you should obtain the heat capacity
 \begin{equation*}
   c_v = \left. \pderiv{}{T} \vev{E} \right|_{N,V} \approx \frac{\pi^2}{2} \frac{\vev{N}_{\text{f}}}{E_F} T.
 \end{equation*}
-This low-temperature linear dependence on $T$ agrees with experimental heat capacity measurements, as we will see in the next tutorial.
+This low-temperature linear dependence on $T$ agrees with experimental heat capacity measurements, as we have seen in a tutorial.
 
 As a final comment in this section, let's consider what would happen to $\vev{N}_{\text{f}}$ at higher temperatures $T^2 \sim E_F^2$, for which the two terms in \eq{eq:mu_vs_T} would cancel out, leaving $\cO(T^4 / E_F^4)$ effects non-negligible.
 In this regime, there's no guarantee that the low-temperature Sommerfeld expansion would even converge, so we need to work with the full integral from \eq{eq:DoS_full}.
