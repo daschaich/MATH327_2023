@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 10}
-\renewcommand{\moddate}{Last modified 8 May 2023}
+\renewcommand{\moddate}{Last modified 11 May 2023}
 \setcounter{section}{10}
 \setcounter{subsection}{0}
 \phantomsection
@@ -254,7 +254,7 @@ This work also observed the possibility of a ``stable non-consensus'' phase, wit
 In this case, rather than severing connections between the two groups, the fixed patterns of connections encouraged voters to change their opinions until these stable clusters eventually formed.
 
 \subsubsection*{Epidemiology}
-Another application of interacting statistical systems, which has attracted a lot of attention over the past couple of years, is to model the spread of diseases in populations.
+Another application of interacting statistical systems, which has attracted a lot of attention in recent years, is to model the spread of diseases in populations.
 As in the case of voter models, the degrees of freedom under consideration are again individuals, whose interactions with each other can allow the infection to spread to those who are susceptible.
 Numerical Monte Carlo calculations can then be used to model how many people are likely to be infected as time passes, guided by data on typical movement and contacts.
 
@@ -292,7 +292,7 @@ In some cases, as the critical density is approached from the disordered phase, 
 
 % ------------------------------------------------------------------
 \subsection{Wrap-up recap and synthesis}
-We have covered a lot of ground in this module, building on foundations from probability theory to develop and apply the core concepts of statistical physics.
+In this module we have built on foundations from probability theory to develop and apply the core concepts of statistical physics.
 In Unit~1 we defined probability spaces, expectation values and variances, and used these to establish the law of large numbers through which stable large-scale behaviour occurs for stochastic systems that involve a large number of degrees of freedom, $N \gg 1$.
 We also saw how the central limit theorem relates large-$N$ probability distributions to the underlying mean and variance of the elementary degree of freedom, and practiced extracting probabilities from such distributions.
 The law of diffusion results from the central limit theorem, and the computer project applied inverse transform sampling to study how anomalous diffusion can arise when the central limit theorem's assumption of finite elementary mean and variance breaks down.
@@ -307,7 +307,7 @@ In particular, we derived a form of the second law of thermodynamics, which stat
 Motivated by the impracticality of demanding that a system be completely isolated, in Unit~3 we turned to the canonical ensemble, which allows systems to exchange energy with a large thermal reservoir that imposes a constant temperature.
 The particle number is still fixed, while the entropy, internal energy and heat capacity are now important derived quantities, with the last two related by a fluctuation--dissipation relation.
 Maximizing the entropy to consider systems in thermodynamic equilibrium defines the partition function (\eq{eq:canon_part_func}) and Boltzmann distribution (\eq{eq:canon_prob}) as the fundamental mathematical definition of the system.
-Derived quantities are determined from the partition function, or equivalently the Helmholtz free energy (\eq{eq:helmholtz}).
+Derived quantities are determined from the partition function, or equivalently from the Helmholtz free energy (\eq{eq:helmholtz}).
 
 By analyzing non-interacting systems of both distinguishable and indistinguishable spins, we demonstrated that the intrinsic information content of statistical systems has physically measurable effects.
 These physical measurements are possible for canonical systems that don't have to be completely isolated, and in tutorials we saw that measured heat capacities for many materials can be modeled by the Einstein solid, with improved results obtainable through the Debye theory of solids.
@@ -350,13 +350,13 @@ The resulting internal energy (\eq{eq:fermi_E_N}) and pressure (\eq{eq:degen_pre
 This non-zero degeneracy pressure helps to explain the regularity of type-Ia supernovas, which play a key role in establishing the existence of so-called dark energy.
 After more briefly deriving the equation of state for a relativistic ideal fermion gas, we wrapped up the non-interacting portion of the module by working through the Sommerfeld expansion that enabled us to predict the leading low-temperature corrections to the zero-temperature limits of $\frac{\mu}{E_F}$ (\eq{eq:mu_vs_T}) and the heat capacity ($c_v \propto T$).
 
-Following the spring break, we turned our attention to exploring the effects of interactions in statistical systems, making further use of the tools we had previously developed.
+Our final major topic was to explore the effects of interactions in statistical systems, making further use of the tools we had previously developed.
 Statistical systems in which the constituent degrees of freedom interact with each other can exhibit a broader array of phenomena, such as phase transitions.
 At the same time, they become enormously more difficult to analyze, because their partition functions and derived quantities no longer factorize into independent single-particle contributions.
 In Unit~9 we focused on the famous Ising model, which is simple to write down as a system of spins interacting with their nearest neighbours on a $d$-dimensional lattice (\eq{eq:Ising_energy}), but extremely difficult to solve exactly in two or more dimensions.
 For $d \geq 2$ dimensions, the Ising model exhibits a second-order phase transition between its high-temperature disordered phase and its low-temperature ordered phase, with its magnetization serving as the order parameter.
 We analyzed the Ising model through the mean-field approximation that produced a self-consistency condition (\eq{eq:consistency}) for its order parameter, the magnetization.
-We then exactly solved the one-dimensional Ising model and derived Kramers--Wannier duality to predict the exact critical temperature in two dimensions, showing that the mean-field approximation is not very reliable in a low number of dimensions.
+We then exactly solved the one-dimensional Ising model and used Kramers--Wannier duality to predict the exact critical temperature in two dimensions, showing that the mean-field approximation is not very reliable in a low number of dimensions.
 
 Although the mean-field approximation to the Ising model does capture a second-order phase transition, the critical temperature and critical exponents it predicts for this transition only slowly converge towards the correct values as the dimensionality of the system increases.
 Determining the correct critical behavior in $d > 2$ dimensions requires numerical analyses that we discussed in this final Unit~10.
