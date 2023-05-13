@@ -1,0 +1,2038 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:15.740
+David Schaich (he): All right, that should be a recording under way for another of these supplemental pencasts that are making up for some of the many hours of lecture we lost to bank holidays in this month.
+
+2
+00:00:17.020 --> 00:00:18.330
+David Schaich (he): So the
+
+3
+00:00:20.780 --> 00:00:33.000
+David Schaich (he): outlook for this supplement will be on some fun exact results for the Ising model in a low number of dimensions, which
+
+4
+00:00:33.940 --> 00:00:34.980
+David Schaich (he): will
+
+5
+00:00:35.360 --> 00:00:41.300
+David Schaich (he): pop up in the final lecture that we'll have on Monday morning.  We'll compare
+
+6
+00:00:41.460 --> 00:00:49.040
+David Schaich (he): these exact results to the predictions of the mean-field approximation that we've been developing in the lecture.
+
+7
+00:00:50.330 --> 00:00:53.270
+David Schaich (he): It's currently Friday, the twelfth
+
+8
+00:00:53.650 --> 00:01:04.629
+David Schaich (he): of May, just before I get kicked out of the building while it's refurbished over the weekend, which means that the one last pencast I'm expecting to
+
+9
+00:01:05.250 --> 00:01:11.920
+David Schaich (he): wrap up, I will not be able to fit in until next week, probably on Monday, after
+
+10
+00:01:12.090 --> 00:01:13.570
+David Schaich (he): the lecture in the morning.
+
+11
+00:01:14.680 --> 00:01:16.760
+But the focus for
+
+12
+00:01:16.910 --> 00:01:24.430
+David Schaich (he): this one today is the exact solution of the Ising model in one dimension.
+
+13
+00:01:29.180 --> 00:01:32.240
+David Schaich (he): This is actually something that Ising himself
+
+14
+00:01:32.880 --> 00:01:36.460
+David Schaich (he): worked out almost a hundred years ago, while he was doing a PhD and working on 
+
+15
+00:01:41.020 --> 00:01:49.730
+David Schaich (he): the model that his PhD supervisor Lenz had developed, and which gained his name after
+
+16
+00:01:49.940 --> 00:02:01.620
+David Schaich (he): he showed how to solve it in one dimension. where the key aspect of the easy model on a one-dimensional lattice that makes it possible to solve. Exactly
+
+17
+00:02:01.710 --> 00:02:07.230
+David Schaich (he): is that the number of links we've seen is d times and d dimensions that is just
+
+18
+00:02:07.380 --> 00:02:18.750
+David Schaich (he): equal to N in one dimension. So we have it exactly the same number of sites as we do links. and we can use that
+
+19
+00:02:18.870 --> 00:02:35.020
+David Schaich (he): to rewrite the interaction term and using model energy. Sj. Times S. A. Our nearest neighbor sites in terms of the sites themselves, rather than these pairs of nearest neighbors that correspond to links
+
+20
+00:02:35.600 --> 00:02:49.230
+David Schaich (he): and specifically you remember a picture of a one-dimensional lattice with periodic boundary conditions. We have some sites and periodic gallery conditions.
+
+21
+00:02:50.130 --> 00:02:55.670
+David Schaich (he): Oh. cause this sites to wrap around themselves.
+
+22
+00:02:58.550 --> 00:03:02.470
+David Schaich (he): We just end up with nearest neighbor interactions
+
+23
+00:03:03.620 --> 00:03:06.890
+David Schaich (he): on those peers of links just being a sum.
+
+24
+00:03:07.480 --> 00:03:08.050
+David Schaich (he): Okay.
+
+25
+00:03:11.730 --> 00:03:14.870
+David Schaich (he): 1 2 3, all the way up to, and
+
+26
+00:03:16.920 --> 00:03:21.160
+David Schaich (he): it's been on the site and times the spin on site and for small I'm. Just coming around
+
+27
+00:03:21.320 --> 00:03:22.320
+in pairs
+
+28
+00:03:22.630 --> 00:03:26.680
+David Schaich (he): and using periodic boundary conditions to
+
+29
+00:03:27.310 --> 00:03:31.260
+David Schaich (he): route, so n minus one around it, identify it with
+
+30
+00:03:31.380 --> 00:03:32.750
+David Schaich (he): site more
+
+31
+00:03:34.350 --> 00:03:36.840
+David Schaich (he): so to be a bit more explicit, the
+
+32
+00:03:37.450 --> 00:03:41.690
+David Schaich (he): full energy of the using model. In this case we'll have
+
+33
+00:03:41.990 --> 00:03:47.820
+David Schaich (he): the usual 2 terms. We can now write, both as a single sum over the sites
+
+34
+00:03:48.110 --> 00:03:53.310
+David Schaich (he): that interaction. And then for the
+
+35
+00:03:53.680 --> 00:03:55.980
+David Schaich (he): magnetic field up.
+
+36
+00:03:56.190 --> 00:04:08.300
+David Schaich (he): When people go online aside, taken up front, I will. We write this in a slightly more symmetric way. So instead of just having h times s. I will include both
+
+37
+00:04:08.310 --> 00:04:17.959
+David Schaich (he): S. Of N. And S. Of n plus one which will make some of the subsequent calculations more symmetric, more elegant, and a bit easier to
+
+38
+00:04:18.040 --> 00:04:20.370
+David Schaich (he): 30 out. So
+
+39
+00:04:20.750 --> 00:04:23.080
+David Schaich (he): I will add 2
+
+40
+00:04:25.830 --> 00:04:36.190
+David Schaich (he): terms coupled to that external magnetic field. H. They are identical, and the sum over all the sites. So I just have to divide them by 2 to get back to the usual starting point.
+
+41
+00:04:36.480 --> 00:04:49.240
+David Schaich (he): and then the partition function that we have based on this energy is, as always, the sum over swim configurations to the line of speed up
+
+42
+00:04:49.320 --> 00:04:58.640
+David Schaich (he): times the energy which we can write as a sum over all possible values of the end spins
+
+43
+00:04:59.360 --> 00:05:09.000
+David Schaich (he): s one s 2 all the way up to sn being either plus or minus one. So there are 2 to the n terms in all of those sums.
+
+44
+00:05:10.120 --> 00:05:13.950
+David Schaich (he): and then we have the exponential of a single stop.
+
+45
+00:05:14.120 --> 00:05:25.700
+David Schaich (he): which, as usual, we can convert to a product of exponentials, and from one up to capital ends with a number of sites which is just data lines.
+
+46
+00:05:26.330 --> 00:05:30.980
+David Schaich (he): This expression for the energy you have to.
+
+47
+00:05:31.520 --> 00:05:33.950
+David Schaich (he): You may have the signs cancel out.
+
+48
+00:05:34.250 --> 00:05:35.470
+David Schaich (he): you know.
+
+49
+00:05:38.320 --> 00:05:41.900
+David Schaich (he): and plus speed of time stage over to
+
+50
+00:05:45.020 --> 00:05:45.920
+this one.
+
+51
+00:05:47.310 --> 00:05:51.200
+David Schaich (he): and what we would really like to do is factorize
+
+52
+00:05:51.470 --> 00:06:03.840
+David Schaich (he): all of these sums just like we were able to do for a non interacting period. That's what makes non interacting systems so much simpler and more solvable compared to interrupting systems.
+
+53
+00:06:08.330 --> 00:06:11.570
+David Schaich (he): and we can almost do so.
+
+54
+00:06:13.490 --> 00:06:17.580
+David Schaich (he): the only complication being that from the interaction term.
+
+55
+00:06:18.370 --> 00:06:19.480
+David Schaich (he): We have
+
+56
+00:06:19.520 --> 00:06:23.200
+David Schaich (he): factors of S and S. N. Plus one
+
+57
+00:06:23.300 --> 00:06:32.250
+David Schaich (he): that both up here and and i'll be split up into separate independent.
+
+58
+00:06:33.400 --> 00:06:37.630
+David Schaich (he): So the instruction is that if we were to distribute these
+
+59
+00:06:37.810 --> 00:06:41.280
+David Schaich (he): terms across all of those 2 to the end
+
+60
+00:06:41.610 --> 00:06:50.280
+David Schaich (he): summations. you would have to somehow make sure that there is a consistency between
+
+61
+00:06:51.600 --> 00:06:56.860
+David Schaich (he): the values of the spins. So you, an arbitrary spin. Sj.
+
+62
+00:06:57.300 --> 00:07:00.490
+David Schaich (he): Has to be the same when it corresponds
+
+63
+00:07:02.540 --> 00:07:05.920
+David Schaich (he): to sn when N. Equals J.
+
+64
+00:07:06.300 --> 00:07:18.860
+David Schaich (he): Or when it corresponds to sn plus one, so n plus one equals J. This is the same spin. So for a fixed configuration it has to have the same value. It is itself.
+
+65
+00:07:20.000 --> 00:07:25.580
+David Schaich (he): and a trick that we can carry out to
+
+66
+00:07:25.870 --> 00:07:31.140
+David Schaich (he): guarantee that only consistent values of the spins
+
+67
+00:07:31.460 --> 00:07:36.230
+David Schaich (he): up here. We try to factorize this. Some into a simple product
+
+68
+00:07:37.240 --> 00:07:38.410
+David Schaich (he): is to
+
+69
+00:07:40.010 --> 00:07:44.950
+David Schaich (he): organize all of those as
+
+70
+00:07:46.280 --> 00:07:49.240
+David Schaich (he): a form of 2 by 2 matrix multiplication.
+
+71
+00:07:53.250 --> 00:07:54.260
+David Schaich (he): We're.
+
+72
+00:07:55.570 --> 00:08:00.630
+David Schaich (he): We identified the different elements of this 2 by 2 matrix.
+
+73
+00:08:00.720 --> 00:08:06.710
+David Schaich (he): with the different possibilities for the combinations of plus one or minus one spins
+
+74
+00:08:06.840 --> 00:08:09.490
+David Schaich (he): at sites and and n plus one
+
+75
+00:08:09.880 --> 00:08:10.760
+David Schaich (he): so
+
+76
+00:08:12.620 --> 00:08:22.600
+David Schaich (he): graphic, or visually. We have 4 possibilities for the 2 values that each of these 2 spins can take.
+
+77
+00:08:23.510 --> 00:08:27.800
+David Schaich (he): You write that in a 2 by 2 matrix where the upper left corner
+
+78
+00:08:28.400 --> 00:08:30.480
+David Schaich (he): go through the spin, or plus one
+
+79
+00:08:30.720 --> 00:08:33.740
+David Schaich (he): lower left, you have minus one plus one.
+
+80
+00:08:33.990 --> 00:08:35.000
+David Schaich (he): and then
+
+81
+00:08:35.539 --> 00:08:38.500
+David Schaich (he): just generalize to the upper
+
+82
+00:08:38.750 --> 00:08:47.280
+David Schaich (he): and we're right. And if we then right. this exponential factor
+
+83
+00:08:48.290 --> 00:08:53.530
+David Schaich (he): as he made risk and for site Admin.
+
+84
+00:08:55.120 --> 00:09:06.130
+David Schaich (he): Okay. in the upper left elements of this matrix we have both S and and S n plus one are one. So we pick up
+
+85
+00:09:06.340 --> 00:09:10.050
+David Schaich (he): and e to the beta. and from the
+
+86
+00:09:11.000 --> 00:09:17.780
+David Schaich (he): term involving the magnetic field, we have one plus one is 2 that cancels the 2. We have this, another E to the
+
+87
+00:09:18.620 --> 00:09:19.830
+David Schaich (he): data H.
+
+88
+00:09:20.460 --> 00:09:26.410
+David Schaich (he): When S. And S. One had opposite signs minus one plus one or plus one minus one.
+
+89
+00:09:26.650 --> 00:09:37.030
+David Schaich (he): that some cancel out. That product will be minus one. So the off I elements of this matrix tn we get e to the minus beta.
+
+90
+00:09:38.360 --> 00:09:41.080
+David Schaich (he): and then back in the lower right
+
+91
+00:09:41.170 --> 00:09:48.020
+David Schaich (he): we have. I get a plus one from minus one squared. and now in overall minus 2 in here.
+
+92
+00:09:49.450 --> 00:09:55.680
+David Schaich (he): That gives an overall negative sign on that magnetic field. please.
+
+93
+00:09:56.880 --> 00:09:57.910
+David Schaich (he): and it
+
+94
+00:09:58.880 --> 00:10:01.180
+David Schaich (he): to illustrate why
+
+95
+00:10:01.660 --> 00:10:07.050
+David Schaich (he): this strict of organizing as matrix multiplication helps. If we consider
+
+96
+00:10:08.250 --> 00:10:11.070
+David Schaich (he): the interest product
+
+97
+00:10:13.490 --> 00:10:14.530
+David Schaich (he): that's
+
+98
+00:10:15.870 --> 00:10:24.990
+David Schaich (he): would appear as we take this product over all of the insights. So we will have terms like this matrix TV and multiplied.
+
+99
+00:10:25.170 --> 00:10:29.760
+David Schaich (he): Oh, I am the next increment in plus one.
+
+100
+00:10:31.820 --> 00:10:35.970
+David Schaich (he): Then, in the diagonal elements
+
+101
+00:10:37.700 --> 00:10:45.440
+David Schaich (he): of that matrix product you will have multiplications of those 2 matrices. where
+
+102
+00:10:46.260 --> 00:10:53.460
+David Schaich (he): the value of the second spin and plus one has to match up to the value of the first spin, and
+
+103
+00:10:54.050 --> 00:10:55.480
+David Schaich (he): in the second
+
+104
+00:10:55.670 --> 00:10:59.330
+David Schaich (he): matrix. The second copy of this Tn.
+
+105
+00:11:00.700 --> 00:11:03.860
+David Schaich (he): So all of the
+
+106
+00:11:04.870 --> 00:11:08.900
+David Schaich (he): download spin configurations just call them configs
+
+107
+00:11:09.080 --> 00:11:12.910
+David Schaich (he): with self consistent values out of it.
+
+108
+00:11:13.000 --> 00:11:24.260
+David Schaich (he): That n plus one spin will be added together in the diagonal elements of the product of this matrix, which we can then
+
+109
+00:11:24.430 --> 00:11:28.110
+David Schaich (he): generalize to that full set of
+
+110
+00:11:28.770 --> 00:11:33.150
+David Schaich (he): in products over capital. N. Now, matrices.
+
+111
+00:11:34.060 --> 00:11:42.340
+David Schaich (he): the full partition function is going to be given by the product over in factors of t sub n.
+
+112
+00:11:42.500 --> 00:11:50.640
+David Schaich (he): and by taking the trace we pull out the sum of those diagonal elements that hold all of the valid spin configurations
+
+113
+00:11:51.090 --> 00:11:53.970
+David Schaich (he): and discard all the ones where
+
+114
+00:11:54.700 --> 00:12:03.740
+David Schaich (he): certain terms we're computed. Assuming that sn plus one or one. and at the same time
+
+115
+00:12:03.840 --> 00:12:09.210
+David Schaich (he): assuming that it was minus one, and looking at the interaction from the next link over.
+
+116
+00:12:09.800 --> 00:12:24.610
+David Schaich (he): So this trace of a product accounts for all of these spin configurations that actually make sense. They satisfy the constraints, and by the interaction that we have to deal with now.
+
+117
+00:12:25.600 --> 00:12:37.350
+David Schaich (he): And what's more, because there is no dependence on N in this 2 by 2 matrix team. We can just write it as and factors all the way
+
+118
+00:12:38.270 --> 00:12:48.040
+David Schaich (he): some matrix t with no need any longer to label it with an index that doesn't actually change anything in the matrix.
+
+119
+00:12:50.070 --> 00:12:50.920
+David Schaich (he): So.
+
+120
+00:12:51.980 --> 00:12:54.440
+David Schaich (he): you know, be able to squeeze in.
+
+121
+00:12:55.530 --> 00:13:07.330
+David Schaich (he): The What do you feel way of writing this trace in products of T. If we have. E. I. J. Labeling the
+
+122
+00:13:08.720 --> 00:13:12.020
+David Schaich (he): the elements of one copy of this matrix
+
+123
+00:13:12.950 --> 00:13:16.360
+David Schaich (he): that gets multiplied by a. T. J.
+
+124
+00:13:16.470 --> 00:13:21.690
+David Schaich (he): Where the jays are all summed over.
+
+125
+00:13:22.960 --> 00:13:28.890
+David Schaich (he): The K. Is similarly all summed over. and so on until we get
+
+126
+00:13:29.670 --> 00:13:38.640
+David Schaich (he): all the way to the end value of this team. and we sum over the eyes at the beginning and end to implement the periodic boundary conditions
+
+127
+00:13:38.750 --> 00:13:40.590
+David Schaich (he): that round all of these
+
+128
+00:13:40.640 --> 00:13:44.010
+David Schaich (he): matrices back around to the starting point.
+
+129
+00:13:44.060 --> 00:13:48.420
+David Schaich (he): So something over J. K. L. Hi, and
+
+130
+00:13:48.840 --> 00:13:51.760
+David Schaich (he): and all the indices in there.
+
+131
+00:13:53.690 --> 00:14:03.470
+David Schaich (he): That is the whole messy way of writing this trace. I mentioned before going further, that this T. You
+
+132
+00:14:05.530 --> 00:14:20.880
+David Schaich (he): is generally referred to as a transfer matrix. The idea of being that we have organized things in such a way that information about the value of each spin is being transferred from one link to the next to make sure that
+
+133
+00:14:21.140 --> 00:14:23.570
+David Schaich (he): each of those links is treated consistent.
+
+134
+00:14:25.890 --> 00:14:29.900
+David Schaich (he): So we have been able to.
+
+135
+00:14:30.060 --> 00:14:35.500
+David Schaich (he): We write the expression for the partition function of the one, the using model
+
+136
+00:14:35.550 --> 00:14:38.350
+David Schaich (he): as something very short.
+
+137
+00:14:38.930 --> 00:14:43.820
+David Schaich (he): But we've done that essentially by wrapping all of the complexity inside
+
+138
+00:14:43.880 --> 00:14:50.700
+David Schaich (he): this transfer matrix that gets so we still don't have any better grip on them.
+
+139
+00:14:51.510 --> 00:14:57.180
+David Schaich (he): A closed-form expression for what this trace of a product actually is
+
+140
+00:15:07.400 --> 00:15:10.940
+David Schaich (he): what this does give us is a bit of guidance about
+
+141
+00:15:11.780 --> 00:15:13.810
+David Schaich (he): what we would really like to see
+
+142
+00:15:14.140 --> 00:15:16.860
+David Schaich (he): for this. If If
+
+143
+00:15:18.380 --> 00:15:21.300
+David Schaich (he): this transfer matrix team. we
+
+144
+00:15:22.400 --> 00:15:27.470
+David Schaich (he): a diagonal matrix. we have it. See one eigenvalue
+
+145
+00:15:27.980 --> 00:15:31.960
+David Schaich (he): lambda plus up in the upper left corner, zeros off the
+
+146
+00:15:32.360 --> 00:15:35.960
+David Schaich (he): a second eigenvalue link to minus in the right corner.
+
+147
+00:15:36.610 --> 00:15:41.640
+David Schaich (he): Well, then, you wouldn't make some more progress on the partition function.
+
+148
+00:15:43.620 --> 00:15:52.980
+David Schaich (he): N powers of the diagonal matrix. It's just the diagonal matrix of those eigenvalues raised to the nth power. Hello. the
+
+149
+00:15:53.550 --> 00:15:57.980
+David Schaich (he): diagonal! So we would have the trace just to the end.
+
+150
+00:15:58.330 --> 00:16:06.200
+David Schaich (he): lambda minus the end. which is just in the some I' the plus to the end, and I have to minus to the end.
+
+151
+00:16:07.330 --> 00:16:13.600
+David Schaich (he): So what this suggests we should do is just diagonalize
+
+152
+00:16:14.940 --> 00:16:18.880
+David Schaich (he): to transform it for this, etc., which is a 2 by 2 matrix.
+
+153
+00:16:19.320 --> 00:16:30.490
+David Schaich (he): And we can hope that the structure of the easy model energy allows us to diagonalize this matrix in a
+
+154
+00:16:32.860 --> 00:16:37.440
+David Schaich (he): well-defined way without too much difficulty, and something.
+
+155
+00:16:37.860 --> 00:16:47.250
+David Schaich (he): I'm sure you've seen that in previous modules that we've been up for a few years is how exactly matrices get back to the wise. We need to
+
+156
+00:16:47.360 --> 00:16:54.310
+David Schaich (he): solve the characteristic equation I this matrix which is just
+
+157
+00:16:55.500 --> 00:16:56.570
+David Schaich (he): taking
+
+158
+00:16:56.890 --> 00:17:01.330
+David Schaich (he): the matrix T. This set of exponentials
+
+159
+00:17:01.540 --> 00:17:10.680
+David Schaich (he): subtracting the identity matrix with some coefficients or or lambda.
+
+160
+00:17:11.530 --> 00:17:17.510
+David Schaich (he): that determinant gets set to 0 to define the characteristic equation and find its roots
+
+161
+00:17:17.819 --> 00:17:22.750
+David Schaich (he): and the details of your point in it that we have
+
+162
+00:17:25.720 --> 00:17:28.349
+David Schaich (he): to the beaters minus betas
+
+163
+00:17:29.710 --> 00:17:36.730
+David Schaich (he): and plus minus Beta H. We subtract from the diagonal elements I am doing.
+
+164
+00:17:37.640 --> 00:17:46.090
+David Schaich (he): and then organize the characteristic polynomial in terms of powers of this lambda. So a lambda squared.
+
+165
+00:17:46.280 --> 00:17:52.480
+David Schaich (he): observed from. We have factors of minus lambda times.
+
+166
+00:17:52.870 --> 00:17:55.800
+David Schaich (he): He's either the beta, he to the Beta h's
+
+167
+00:17:55.940 --> 00:18:04.290
+David Schaich (he): one diagonal so we can pull out an overall lambda e to the plus beta in this first term. We then have you to the
+
+168
+00:18:04.610 --> 00:18:07.610
+David Schaich (he): plus beta h the second cross term
+
+169
+00:18:08.060 --> 00:18:11.680
+David Schaich (he): with the same sign you to the minus. Get H.
+
+170
+00:18:13.330 --> 00:18:17.030
+David Schaich (he): Finally, the other terms down diagonal
+
+171
+00:18:17.100 --> 00:18:22.090
+David Schaich (he): have either the plus and minus beta, each canceling out any product. We just get
+
+172
+00:18:22.520 --> 00:18:26.680
+David Schaich (he): E to the 2 beta. and then subtracting the off diagonal
+
+173
+00:18:27.260 --> 00:18:30.060
+David Schaich (he): products, gives us E to the minus
+
+174
+00:18:30.420 --> 00:18:37.100
+David Schaich (he): to Beta at the end. which we can reorganize, using
+
+175
+00:18:38.190 --> 00:18:49.640
+David Schaich (he): familiar trigonometric identities. Lambda Square, minus 2 lambda into the beta that's a hyperbolic postline. I'll be the age
+
+176
+00:18:50.130 --> 00:18:52.550
+David Schaich (he): and then added to that
+
+177
+00:18:52.940 --> 00:19:01.980
+David Schaich (he): twice the hyperbolic sign to Beta. and we want that 2 equals 0. Well.
+
+178
+00:19:02.520 --> 00:19:06.950
+David Schaich (he): as usual. Or if I can rise to 2 by 2
+
+179
+00:19:07.020 --> 00:19:09.100
+David Schaich (he): quadratic expression in
+
+180
+00:19:10.390 --> 00:19:16.400
+David Schaich (he): this parameter Lambda that will give us 2 roots which will be able to fl some name to minus.
+
+181
+00:19:16.650 --> 00:19:19.140
+David Schaich (he): and those 2 routes from the
+
+182
+00:19:19.490 --> 00:19:21.200
+David Schaich (he): quadratic equation
+
+183
+00:19:22.540 --> 00:19:27.000
+David Schaich (he): switching to a new sheet. They will be a little of it.
+
+184
+00:19:37.150 --> 00:19:50.660
+David Schaich (he): I have to plus minus. Have a Google factor of one over 2 a. So i'm remembering the quadratic equation. A x squared plus b x plus c
+
+185
+00:19:50.700 --> 00:20:01.060
+David Schaich (he): equals 0. The roots are one over 2 a. In this case a is one, so it's just a half. We have that minus B
+
+186
+00:20:01.350 --> 00:20:03.430
+which cancels out the my assign there.
+
+187
+00:20:03.550 --> 00:20:08.590
+David Schaich (he): and gives us 2 you to the Beta. I'm just a cosh
+
+188
+00:20:09.770 --> 00:20:12.490
+David Schaich (he): of being an H, and then
+
+189
+00:20:13.520 --> 00:20:18.030
+David Schaich (he): plus, or minus the discriminant square root of B squared
+
+190
+00:20:18.200 --> 00:20:20.500
+David Schaich (he): so 4 into the 2 beta.
+
+191
+00:20:24.210 --> 00:20:35.300
+David Schaich (he): minus 4 times a C a is one, C is 2. I'm the cinch. so that 2 times 4 gives 8 factors
+
+192
+00:20:35.930 --> 00:20:37.240
+David Schaich (he): to bet on.
+
+193
+00:20:39.500 --> 00:20:44.460
+David Schaich (he): and we just need to simplify this a bit to It's something more
+
+194
+00:20:46.360 --> 00:20:50.290
+David Schaich (he): hand. These who work with you can very easily cancel out
+
+195
+00:20:50.570 --> 00:20:57.720
+David Schaich (he): factors of 2 from all of those terms to just say it was left on the cinch in the square root.
+
+196
+00:20:58.140 --> 00:21:03.380
+David Schaich (he): and you can also pull out the ski to the beta.
+
+197
+00:21:03.480 --> 00:21:07.780
+David Schaich (he): the of the remaining terms
+
+198
+00:21:08.500 --> 00:21:17.410
+David Schaich (he): overall factor out phones. one plus or minus square rooms as long as we pulled out.
+
+199
+00:21:18.580 --> 00:21:25.920
+David Schaich (he): minus twice that cinch divided by it. each of the 2 beta
+
+200
+00:21:27.130 --> 00:21:28.430
+David Schaich (he): hush squared.
+
+201
+00:21:29.850 --> 00:21:31.080
+David Schaich (he): Yeah.
+
+202
+00:21:38.710 --> 00:21:40.480
+David Schaich (he): So this is a
+
+203
+00:21:42.320 --> 00:21:50.640
+David Schaich (he): mildly complicated expression, as promised. The application of the overall partition function has
+
+204
+00:21:50.960 --> 00:21:58.410
+David Schaich (he): did shift it into the transfer matrix, and now shift it into its eigenvalues that have this form. It's worth
+
+205
+00:21:59.420 --> 00:22:04.730
+David Schaich (he): doing. Some sadly checks that these eigenvalues make sense.
+
+206
+00:22:09.450 --> 00:22:17.340
+David Schaich (he): So it's something that I invite you to do. But I won't do now in the interest of time, is actually just to pop these
+
+207
+00:22:17.370 --> 00:22:19.610
+David Schaich (he): 2 lambda plus minus
+
+208
+00:22:20.620 --> 00:22:26.780
+David Schaich (he): 4, a physical situation where the temperature and its inverse are always positive.
+
+209
+00:22:27.930 --> 00:22:32.130
+David Schaich (he): and we have defined that external magnetic field, always to be
+
+210
+00:22:32.470 --> 00:22:33.820
+David Schaich (he): not negative.
+
+211
+00:22:34.910 --> 00:22:42.890
+David Schaich (he): also include a beta equals 0 infinite temperature in there. In all those cases they could check that
+
+212
+00:22:46.000 --> 00:22:50.660
+David Schaich (he): real numbers that discriminates, remains positive, and we get.
+
+213
+00:22:51.410 --> 00:22:57.900
+David Schaich (he): we don't have square root of negative numbers, or anything nasty like that. and one over
+
+214
+00:22:58.040 --> 00:23:05.150
+David Schaich (he): lambda plus is always greater than name to minus. That discriminant does not answer that
+
+215
+00:23:05.470 --> 00:23:19.660
+David Schaich (he): we can also check limits where things simplify. So, as Beta goes to 0. See? High temperature limits The larger eigenvalue of the plus
+
+216
+00:23:20.000 --> 00:23:23.010
+David Schaich (he): we go to E to the 0 is one.
+
+217
+00:23:23.340 --> 00:23:24.000
+It sounds.
+
+218
+00:23:24.750 --> 00:23:35.900
+David Schaich (he): We've signed hyperbolic to a sign of 0. It's also one. We have a one plus a square root of one minus 2 times the cinch
+
+219
+00:23:36.160 --> 00:23:38.870
+David Schaich (he): of 0 and 0
+
+220
+00:23:38.920 --> 00:23:45.870
+David Schaich (he): like it's divided by one. Some of this remains modifying. We don't have any 0 over 0. If she was hiding in there.
+
+221
+00:23:47.120 --> 00:23:50.200
+David Schaich (he): What we do have is just one times
+
+222
+00:23:50.350 --> 00:23:54.210
+David Schaich (he): one plus the square root of one which is no to his friends. He has 2.
+
+223
+00:23:54.410 --> 00:23:57.830
+David Schaich (he): I am doing. This is
+
+224
+00:23:57.920 --> 00:24:00.840
+David Schaich (he): the same, just with a negative sign
+
+225
+00:24:01.470 --> 00:24:04.150
+in the
+
+226
+00:24:04.200 --> 00:24:07.660
+David Schaich (he): so the one minus one that uses out to 0,
+
+227
+00:24:07.880 --> 00:24:20.830
+David Schaich (he): and as promised. nice real numbers with lambda plus greater than we can also consider what happens if we turn off the external magnetic field. In this case.
+
+228
+00:24:21.560 --> 00:24:25.490
+David Schaich (he): Lambda plus. we have to see either the beta factor
+
+229
+00:24:25.620 --> 00:24:29.040
+David Schaich (he): out front. You call it. Cosine of 0 is one.
+
+230
+00:24:30.060 --> 00:24:32.390
+David Schaich (he): Then we would have one plus
+
+231
+00:24:32.760 --> 00:24:45.540
+David Schaich (he): square root of one minus twice the cinch right as e to the 2 beta minus E to the minus 2 beta
+
+232
+00:24:46.700 --> 00:25:01.380
+David Schaich (he): and the denominator. There is just an even 2 data times One I sign again. so what that one that cancels out with either the 2 data divided by itself.
+
+233
+00:25:02.250 --> 00:25:06.920
+David Schaich (he): All that is left is 2 negative signs give you a plus
+
+234
+00:25:07.530 --> 00:25:11.640
+David Schaich (he): 2 factors of E to the minus 2 Beta and the minus 4 beta.
+
+235
+00:25:13.100 --> 00:25:22.030
+David Schaich (he): So we have you to the Beta. I'm 20 plus one minus 4 beta. which is known to its friends as
+
+236
+00:25:23.220 --> 00:25:27.240
+David Schaich (he): E to the minus 2, plus one is the minus beta, or
+
+237
+00:25:28.900 --> 00:25:30.660
+David Schaich (he): twice hyperbolic.
+
+238
+00:25:30.930 --> 00:25:32.390
+Come aside the beta
+
+239
+00:25:32.920 --> 00:25:44.940
+David Schaich (he): for them to plus to the again. Now to minus has the same cancellations. The only differences a negative sign in front of the square root
+
+240
+00:25:47.680 --> 00:25:49.180
+David Schaich (he): E to the minus beta
+
+241
+00:25:50.160 --> 00:25:52.600
+David Schaich (he): is
+
+242
+00:25:55.260 --> 00:25:56.360
+David Schaich (he): so
+
+243
+00:25:57.440 --> 00:26:00.120
+David Schaich (he): in all those simpler limits we're getting
+
+244
+00:26:00.390 --> 00:26:02.770
+David Schaich (he): nice, elegant, and sensible
+
+245
+00:26:03.000 --> 00:26:04.080
+David Schaich (he): results
+
+246
+00:26:05.730 --> 00:26:10.620
+David Schaich (he): if we plug those back into our partition function. So
+
+247
+00:26:11.970 --> 00:26:13.090
+David Schaich (he): we have
+
+248
+00:26:14.780 --> 00:26:17.340
+David Schaich (he): that the partition function was
+
+249
+00:26:17.580 --> 00:26:22.670
+David Schaich (he): then the plus to the nth power to the empower
+
+250
+00:26:23.950 --> 00:26:25.110
+David Schaich (he): and with.
+
+251
+00:26:26.650 --> 00:26:34.030
+David Schaich (he): and the plus always greater than lambda minus. We're not the words that ratio, lambda minus overlay to plus 3 less than one.
+
+252
+00:26:35.300 --> 00:26:39.180
+David Schaich (he): and there's always a very large number of degrees of freedom.
+
+253
+00:26:40.100 --> 00:26:44.240
+David Schaich (he): and they statistical sit down. We can
+
+254
+00:26:45.500 --> 00:26:53.670
+David Schaich (he): see that. In fact, it hasn't been, as N. Goes to infinity in that thermodynamic limit we have an exact
+
+255
+00:26:56.710 --> 00:27:08.280
+David Schaich (he): result. That's the partition function just goes to Lambda plus to be at the power we're in that limit partition function
+
+256
+00:27:09.840 --> 00:27:10.920
+Amanda plus
+
+257
+00:27:11.390 --> 00:27:13.810
+David Schaich (he): the full expression of
+
+258
+00:27:14.960 --> 00:27:18.030
+David Schaich (he): general non-negative beta, and
+
+259
+00:27:18.420 --> 00:27:20.250
+that we have and
+
+260
+00:27:20.540 --> 00:27:21.660
+David Schaich (he): hours
+
+261
+00:27:24.820 --> 00:27:31.680
+David Schaich (he): and then in factors. Okay. this one minus one plus square root
+
+262
+00:27:33.180 --> 00:27:34.370
+David Schaich (he): expression.
+
+263
+00:27:44.820 --> 00:27:45.800
+David Schaich (he): So
+
+264
+00:27:46.130 --> 00:27:52.570
+David Schaich (he): there it is the exact solution for what dimensional using model like this form
+
+265
+00:27:52.860 --> 00:28:04.700
+David Schaich (he): algebraic expression for its partition function from which we can provide it any observables of interest. as the you would strike us. so
+
+266
+00:28:06.270 --> 00:28:08.080
+David Schaich (he): one that will be
+
+267
+00:28:08.310 --> 00:28:16.300
+David Schaich (he): interesting and a bit easier to make sense of. Van is slightly messy expression than the
+
+268
+00:28:16.560 --> 00:28:22.670
+David Schaich (he): functions recently has. Power is the
+
+269
+00:28:22.860 --> 00:28:26.530
+David Schaich (he): the limit where that external magnetic field is turned off.
+
+270
+00:28:26.830 --> 00:28:33.490
+David Schaich (he): This is a quarter parameter for and the order of disorder, phase, transition
+
+271
+00:28:33.530 --> 00:28:44.010
+David Schaich (he): of the using model between the high temperature, disorder, phase. the vanishing manifestation and the low temperature order phase that we use to look in the everything
+
+272
+00:28:44.240 --> 00:28:48.160
+David Schaich (he): a non 0 expectation value for the
+
+273
+00:28:50.750 --> 00:28:52.420
+David Schaich (he): the call. We derived
+
+274
+00:28:54.430 --> 00:28:56.110
+David Schaich (he): the relation between
+
+275
+00:28:56.340 --> 00:29:03.640
+David Schaich (he): the free energy, the log of the partition function and the expectation value of the
+
+276
+00:29:04.110 --> 00:29:06.160
+David Schaich (he): So after taking that derivative
+
+277
+00:29:06.230 --> 00:29:09.400
+David Schaich (he): to turn off the field, say H to 0,
+
+278
+00:29:09.920 --> 00:29:21.980
+David Schaich (he): and just based on the expression we have here that the partition function is empowered to play the plus we'll we'll bring down, and one over n
+
+279
+00:29:22.650 --> 00:29:28.670
+David Schaich (he): you will have the derivative of the which is just one over lambda plus
+
+280
+00:29:28.880 --> 00:29:30.920
+David Schaich (he): times derivative of
+
+281
+00:29:31.090 --> 00:29:31.890
+plus
+
+282
+00:29:32.080 --> 00:29:33.060
+David Schaich (he): and so
+
+283
+00:29:33.970 --> 00:29:37.330
+David Schaich (he): and as always, with H set to 0 at the end.
+
+284
+00:29:39.350 --> 00:29:42.070
+David Schaich (he): So okay, we just need to compute
+
+285
+00:29:42.810 --> 00:29:46.200
+David Schaich (he): the derivative with respect to beach. How do you
+
+286
+00:29:47.860 --> 00:29:50.580
+David Schaich (he): this expression? Without the ends
+
+287
+00:29:52.110 --> 00:29:55.180
+David Schaich (he): in particular? We each in there.
+
+288
+00:29:55.330 --> 00:29:58.610
+David Schaich (he): you don't send it to 0 yet
+
+289
+00:29:59.310 --> 00:30:01.690
+David Schaich (he): the of all to assign Beta H.
+
+290
+00:30:03.900 --> 00:30:07.270
+David Schaich (he): Going ahead and redistributing it at
+
+291
+00:30:07.340 --> 00:30:12.520
+David Schaich (he): Hush back or through, just because it'll be a bit easier to consider a derivative If I don't have
+
+292
+00:30:12.610 --> 00:30:14.470
+David Schaich (he): square roots of one over
+
+293
+00:30:14.900 --> 00:30:17.650
+David Schaich (he): options off square to get age.
+
+294
+00:30:20.960 --> 00:30:33.410
+David Schaich (he): so multiplying through gives us. i'll be you yeah the to be. I's square bit age no, not being in the denominator.
+
+295
+00:30:33.770 --> 00:30:36.620
+David Schaich (he): and then each independence
+
+296
+00:30:36.810 --> 00:30:49.740
+David Schaich (he): factory. my citizenship to data that will still be hanging around when we take the derivative of that expression. We'll get a one over square root of that whole mess.
+
+297
+00:30:49.830 --> 00:30:53.150
+David Schaich (he): Then, with the chain rule and the numerator, we will have
+
+298
+00:30:53.560 --> 00:30:57.290
+David Schaich (he): a 2 Cosh beta H. Cinch beta age.
+
+299
+00:30:57.610 --> 00:31:00.740
+David Schaich (he): The first term is much simpler. That's to just cinch page.
+
+300
+00:31:01.250 --> 00:31:07.580
+David Schaich (he): So what we can see actually without grinding through all of the coefficients, and so on.
+
+301
+00:31:07.790 --> 00:31:11.540
+David Schaich (he): is that both of the terms we get from this derivative
+
+302
+00:31:11.700 --> 00:31:14.560
+David Schaich (he): a proportional to
+
+303
+00:31:16.150 --> 00:31:22.900
+David Schaich (he): you have to sign a beta H. And when we equals 0
+
+304
+00:31:24.090 --> 00:31:26.920
+David Schaich (he): we get a derivative that is proportional to 0,
+
+305
+00:31:27.010 --> 00:31:29.660
+David Schaich (he): which is the saying, it is 0.
+
+306
+00:31:31.910 --> 00:31:36.710
+David Schaich (he): So we are done. You get found and equals 0
+
+307
+00:31:38.810 --> 00:31:43.450
+David Schaich (he): for the one dimensional using model. You know, external field, and in particular.
+
+308
+00:31:43.540 --> 00:31:52.250
+David Schaich (he): the expectation value of the magnetization is 0 for all temperatures limit of absolute 0 temperature.
+
+309
+00:31:54.000 --> 00:31:55.300
+David Schaich (he): What this means
+
+310
+00:31:56.400 --> 00:32:04.480
+David Schaich (he): is that we are in the disorder phase with a vanishing magnetization for all temperatures.
+
+311
+00:32:07.370 --> 00:32:08.680
+David Schaich (he): and there is
+
+312
+00:32:10.740 --> 00:32:21.880
+David Schaich (he): no phase transition at all with an easy model in one dimension. We can compare this on Monday to the prediction of the mean field approximation.
+
+313
+00:32:22.040 --> 00:32:29.240
+David Schaich (he): and see how well it reproduces this very simple, exact result for the magnetization.
+
+314
+00:32:37.020 --> 00:32:42.510
+David Schaich (he): of course, back about weeks ago. Now, given the sparse of the lectures we've been having
+
+315
+00:32:42.930 --> 00:32:48.540
+David Schaich (he): when we consider d greater than one. So 2 dimensions, 3 dimensions, or a higher number of dimensions.
+
+316
+00:32:49.110 --> 00:32:54.080
+David Schaich (he): Just by considering the high and low temperature limits of the system.
+
+317
+00:32:54.270 --> 00:33:01.080
+David Schaich (he): we were able to see that there was a longer phase at sufficiently low temperatures. and
+
+318
+00:33:01.140 --> 00:33:05.990
+David Schaich (he): with the mean field approximation, you saw that there was a these transition between them.
+
+319
+00:33:06.320 --> 00:33:07.800
+David Schaich (he): So it is worth
+
+320
+00:33:09.980 --> 00:33:19.820
+David Schaich (he): thinking physically. In addition to this mathematical derivation about what has happened in one dimensions to
+
+321
+00:33:20.550 --> 00:33:27.900
+David Schaich (he): change the story and give us a system that is always disordered with no ordered phase.
+
+322
+00:33:28.020 --> 00:33:30.100
+David Schaich (he): even if absolute your temperature
+
+323
+00:33:31.510 --> 00:33:32.360
+David Schaich (he): so
+
+324
+00:33:32.770 --> 00:33:38.390
+David Schaich (he): ask the physical question of Why is one dimension different.
+
+325
+00:33:38.550 --> 00:33:40.510
+David Schaich (he): then all of the higher dimensional.
+
+326
+00:33:40.630 --> 00:33:43.390
+David Schaich (he): using models where that
+
+327
+00:33:43.620 --> 00:33:49.340
+David Schaich (he): lower temperature regime is characterized by the emergence of order.
+
+328
+00:33:50.570 --> 00:33:53.340
+David Schaich (he): But when we're going through that low temperature limits.
+
+329
+00:33:53.660 --> 00:34:08.260
+David Schaich (he): if I recall where you can pause this recording and look back at your notes that we compared to the ground stage with the maximum value of the magnetization. If the first excitement state had a slightly smaller magnetization.
+
+330
+00:34:08.320 --> 00:34:20.909
+David Schaich (he): it's like the higher temperature, so on the one hand. less probability from its Boltzmann factor exponentially less probability. Now, the other hand, a higher degeneracy.
+
+331
+00:34:22.699 --> 00:34:26.820
+David Schaich (he): So for you repeat that consideration
+
+332
+00:34:30.880 --> 00:34:33.010
+David Schaich (he): in the one dimensional case
+
+333
+00:34:35.500 --> 00:34:37.070
+David Schaich (he): I want to revisit
+
+334
+00:34:39.409 --> 00:34:42.850
+David Schaich (he): the balance of that lower probability
+
+335
+00:34:43.120 --> 00:34:53.130
+David Schaich (he): i'll be yeah exponentially suppressed. Bolton Factor times the higher degeneracy that we have from the larger number of
+
+336
+00:34:54.620 --> 00:34:57.640
+David Schaich (he): microstates with the
+
+337
+00:34:58.460 --> 00:35:01.390
+David Schaich (he): energy of that first excited state.
+
+338
+00:35:03.870 --> 00:35:04.910
+David Schaich (he): So
+
+339
+00:35:05.800 --> 00:35:09.510
+David Schaich (he): the first excited state for the general
+
+340
+00:35:09.630 --> 00:35:15.900
+David Schaich (he): using models that we were considering. We're coming from a single spin.
+
+341
+00:35:19.330 --> 00:35:25.440
+David Schaich (he): which we certainly can do when the is it to one for you
+
+342
+00:35:26.610 --> 00:35:35.600
+David Schaich (he): roll a picture of a one-dimensional using model, just a chain of spins can you buy links wrapping around. And so
+
+343
+00:35:36.780 --> 00:35:40.130
+David Schaich (he): through the usual periodic boundary conditions.
+
+344
+00:35:43.130 --> 00:35:44.010
+I totally
+
+345
+00:35:46.320 --> 00:36:01.400
+David Schaich (he): the ground State has all the spins on each of those sites aligned. and in the first excited states we flipped one of those spins that one is now aligned against all the others.
+
+346
+00:36:01.490 --> 00:36:16.500
+David Schaich (he): and that raised the energy of the system coming from the plus one contributions. It's 2 links that connected to his 2 nearest neighbors. And now I have opposing songs.
+
+347
+00:36:22.260 --> 00:36:27.640
+David Schaich (he): What is unique in the one-dimensional case is what happens if the
+
+348
+00:36:28.750 --> 00:36:37.000
+David Schaich (he): also flip the next kind of one. then the link between these 2 nearest neighbors use
+
+349
+00:36:37.350 --> 00:36:39.180
+negative contribution again.
+
+350
+00:36:39.670 --> 00:36:49.140
+David Schaich (he): and that positive contribution reducing the probability the factor is shifted the next link over. So
+
+351
+00:36:50.270 --> 00:36:57.930
+David Schaich (he): in the excited States. Do not have that only looking at a single spin. but also to be a nearest neighbor.
+
+352
+00:37:02.300 --> 00:37:03.590
+David Schaich (he): You may already
+
+353
+00:37:05.130 --> 00:37:11.380
+David Schaich (he): that we can keep going further. Flip a third spin in a row.
+
+354
+00:37:11.550 --> 00:37:16.840
+David Schaich (he): a negative contribution. probably a link that is now
+
+355
+00:37:17.420 --> 00:37:21.800
+David Schaich (he): in between these 2 click Spins positive contribution just shifts over.
+
+356
+00:37:22.120 --> 00:37:23.120
+David Schaich (he): and it is
+
+357
+00:37:24.250 --> 00:37:27.180
+David Schaich (he): same story. If we with 3 4 5, or
+
+358
+00:37:27.800 --> 00:37:30.370
+David Schaich (he): any number of students
+
+359
+00:37:30.430 --> 00:37:31.530
+David Schaich (he): you need a row
+
+360
+00:37:35.340 --> 00:37:37.140
+David Schaich (he): it will always be the same
+
+361
+00:37:37.270 --> 00:37:41.350
+David Schaich (he): shift from the minimum energy of the ground state
+
+362
+00:37:41.430 --> 00:37:48.570
+David Schaich (he): to get us to that first excited state. Now, for all of these configurations, which is not the case in any higher number of dimensions.
+
+363
+00:37:48.800 --> 00:37:55.500
+David Schaich (he): where there would be additional neighbors for each of these spins that would be kicking up the energy with everyone that was flipped.
+
+364
+00:37:57.170 --> 00:38:04.230
+David Schaich (he): But even though the energy is the same as we flip these 1 2 3 4 5 spins.
+
+365
+00:38:05.600 --> 00:38:20.160
+David Schaich (he): Magnetization is steadily changing, so we don't have the fixed value of mechanization that we had the higher dimensional case just minus one
+
+366
+00:38:20.540 --> 00:38:24.330
+David Schaich (he): plus 2 over n or plus one minus 2 over N.
+
+367
+00:38:24.860 --> 00:38:29.530
+David Schaich (he): Depending on whether the single spend image like up or down
+
+368
+00:38:30.800 --> 00:38:31.480
+David Schaich (he): bye.
+
+369
+00:38:32.630 --> 00:38:42.300
+David Schaich (he): Every possible magnetization in between there, including the maximization of 0, is coming in with the same
+
+370
+00:38:42.670 --> 00:38:50.320
+David Schaich (he): probability from the Boltzmann factor due to the fixed energy of all of these different configurations.
+
+371
+00:38:51.290 --> 00:38:53.030
+David Schaich (he): And this is the
+
+372
+00:38:54.060 --> 00:38:56.320
+David Schaich (he): physical picture that
+
+373
+00:38:56.360 --> 00:39:02.390
+David Schaich (he): alliance with the mathematical calculation we've already done to find the vanishing magnetization.
+
+374
+00:39:03.040 --> 00:39:06.420
+David Schaich (he): the sum over all the organizations with
+
+375
+00:39:07.680 --> 00:39:12.710
+David Schaich (he): special degeneracy and probability. In specifically, one dimensional case
+
+376
+00:39:13.890 --> 00:39:25.140
+David Schaich (he): is how we can physically justify the expectation value of the organization, ending up always 0 for all temperatures. So it's this: the system
+
+377
+00:39:26.980 --> 00:39:30.800
+David Schaich (he): is always in its disordered phase.
+
+378
+00:39:38.490 --> 00:39:42.720
+David Schaich (he): I'm looking at the clock, and I think i'll spare you the the story about using.
+
+379
+00:39:42.920 --> 00:39:48.600
+David Schaich (he): finding this results and deciding that the model that his advisor wants to come up with was
+
+380
+00:39:48.640 --> 00:39:56.210
+David Schaich (he): inappropriate to describe Nature with their work based transitions and essentially setting it aside.
+
+381
+00:39:56.280 --> 00:40:02.970
+David Schaich (he): I'm not thinking about it anymore until 40 years later people told him that he had become famous
+
+382
+00:40:03.010 --> 00:40:06.760
+David Schaich (he): for his work on it, that he not been keeping track of
+
+383
+00:40:07.250 --> 00:40:10.390
+David Schaich (he): It's a fun story that he's just
+
+384
+00:40:10.720 --> 00:40:14.080
+David Schaich (he): not. We're extending the length of this
+
+385
+00:40:15.600 --> 00:40:18.450
+David Schaich (he): Pencast anymore. It's already getting a bit long.
+
+386
+00:40:20.250 --> 00:40:26.820
+David Schaich (he): There are 2 more things I will say, though, before wrapping it up. One is that
+
+387
+00:40:28.860 --> 00:40:35.220
+David Schaich (he): there is a useful way of analyzing this sort of situation which is generic to one dimension.
+
+388
+00:40:35.250 --> 00:40:46.440
+David Schaich (he): If we have interacting systems more general than the using model in one dimensions. They typically will also always be disorder and show no ordered phase.
+
+389
+00:40:47.930 --> 00:41:00.520
+David Schaich (he): And to look at those situations we can analyze the behavior of the system. not in terms of the spins themselves. but in terms of
+
+390
+00:41:00.730 --> 00:41:11.710
+David Schaich (he): the boundaries that are showing up as these red line. These written options on the links between where the spins are pointing in one direction versus pointing in another.
+
+391
+00:41:12.790 --> 00:41:19.720
+David Schaich (he): It's useful to analyze these sorts of systems in terms of those
+
+392
+00:41:20.250 --> 00:41:26.450
+David Schaich (he): domains of spins quite in the same direction that are separated by what are called domain walls.
+
+393
+00:41:35.020 --> 00:41:36.470
+David Schaich (he): So these walls
+
+394
+00:41:38.020 --> 00:41:39.950
+David Schaich (he): separate the
+
+395
+00:41:40.320 --> 00:41:45.860
+David Schaich (he): regions or domains. I'll be upward and downward, pointing spins.
+
+396
+00:41:47.460 --> 00:41:48.920
+David Schaich (he): And because
+
+397
+00:41:50.130 --> 00:41:52.830
+David Schaich (he): if we flip a spin
+
+398
+00:41:52.960 --> 00:41:57.250
+David Schaich (he): on either side of the wall, we do not change the energy we want through that
+
+399
+00:41:58.720 --> 00:42:01.790
+David Schaich (he): argument in some detail.
+
+400
+00:42:02.290 --> 00:42:07.940
+David Schaich (he): These walls are able to move freely around the one dimensional system
+
+401
+00:42:08.620 --> 00:42:10.480
+David Schaich (he): without changing the energy.
+
+402
+00:42:18.210 --> 00:42:20.580
+David Schaich (he): but at the same time, as they move.
+
+403
+00:42:22.480 --> 00:42:28.040
+David Schaich (he): they do correspond to different numbers of spins pointing in each direction.
+
+404
+00:42:28.790 --> 00:42:34.100
+David Schaich (he): So, without changing the energy, keeping the pulse on active the same.
+
+405
+00:42:35.740 --> 00:42:38.570
+David Schaich (he): they do change
+
+406
+00:42:40.030 --> 00:42:41.700
+David Schaich (he): the magnetization
+
+407
+00:42:46.160 --> 00:42:58.110
+David Schaich (he): provide a way of analyzing these sorts of statistical systems just in terms of 2 really moving objects. These the main rules, rather than a very large number of
+
+408
+00:42:58.860 --> 00:43:13.660
+David Schaich (he): elementary spins. and that can be an easier way to get at the simpler behavior of the absence of a for this transition. So that is one. Finally. the other is actually to
+
+409
+00:43:14.040 --> 00:43:15.570
+David Schaich (he): step up to
+
+410
+00:43:16.700 --> 00:43:18.670
+David Schaich (he): the 2 dimensional.
+
+411
+00:43:18.710 --> 00:43:19.980
+David Schaich (he): easy model.
+
+412
+00:43:21.680 --> 00:43:22.760
+David Schaich (he): We have done it
+
+413
+00:43:25.870 --> 00:43:30.080
+David Schaich (he): the vanishing external feel where
+
+414
+00:43:31.360 --> 00:43:39.570
+David Schaich (he): there is yeah remarkable results well, several remarkable results, one of them being
+
+415
+00:43:39.610 --> 00:43:44.570
+David Schaich (he): the exact solution of the 0 field, 2 to the using model on the square lattice.
+
+416
+00:43:45.530 --> 00:43:50.240
+David Schaich (he): But there is in this case also a relation known
+
+417
+00:43:51.150 --> 00:43:53.000
+David Schaich (he): It's
+
+418
+00:43:54.100 --> 00:43:55.340
+David Schaich (he): duality.
+
+419
+00:43:56.710 --> 00:43:58.810
+David Schaich (he): which was discovered by
+
+420
+00:43:58.880 --> 00:44:01.570
+David Schaich (he): Hans Kramer's, Gh. 28,
+
+421
+00:44:01.910 --> 00:44:06.870
+David Schaich (he): just a few years before. was able to
+
+422
+00:44:07.760 --> 00:44:12.940
+David Schaich (he): i'm up with an extremely complicated exact solution of the two-dimensional model.
+
+423
+00:44:13.870 --> 00:44:20.750
+David Schaich (he): Even Kramer's wanting the duality is complicated enough. That i'm not going to go through it in this
+
+424
+00:44:20.770 --> 00:44:24.210
+David Schaich (he): lecture knows. If you want to read through it, you're welcome to
+
+425
+00:44:24.470 --> 00:44:26.010
+David Schaich (he): discuss it with me.
+
+426
+00:44:26.810 --> 00:44:30.750
+David Schaich (he): I'll just basically write it down here and put it to use.
+
+427
+00:44:30.970 --> 00:44:32.440
+David Schaich (he): What we have
+
+428
+00:44:35.550 --> 00:44:38.060
+David Schaich (he): is a relation between
+
+429
+00:44:39.120 --> 00:44:42.790
+David Schaich (he): 2 different easy model partition functions.
+
+430
+00:44:43.670 --> 00:44:46.590
+David Schaich (he): In this 2D 0 field set.
+
+431
+00:45:04.220 --> 00:45:05.740
+David Schaich (he): Specifically, we have
+
+432
+00:45:06.190 --> 00:45:12.650
+David Schaich (he): 1, 2D using model at some inverse temperature data addition functions that a beta.
+
+433
+00:45:12.950 --> 00:45:15.310
+David Schaich (he): this is related to
+
+434
+00:45:16.960 --> 00:45:21.640
+David Schaich (he): the equal sign of it. Lower down We' into a the same
+
+435
+00:45:22.930 --> 00:45:34.710
+David Schaich (he): models, partition functions. So to the using model. got a different inverse temperature. Where there are temperature depending factors
+
+436
+00:45:34.830 --> 00:45:44.660
+David Schaich (he): relating these 2 partition functions into exponential times 2, and be the T on the right hand side.
+
+437
+00:45:45.400 --> 00:45:46.880
+just 2 to the
+
+438
+00:45:47.640 --> 00:45:51.480
+David Schaich (he): I could probably Co. Assign to the to the and power of data
+
+439
+00:45:51.510 --> 00:45:53.070
+David Schaich (he): on the left hand side.
+
+440
+00:45:54.180 --> 00:45:56.140
+David Schaich (he): And, what's more, the
+
+441
+00:45:58.490 --> 00:46:03.820
+David Schaich (he): specific inverse temperatures, Beta and Beta Tila have a very particular relation
+
+442
+00:46:04.330 --> 00:46:07.260
+David Schaich (he): with each other. given by
+
+443
+00:46:07.680 --> 00:46:11.120
+David Schaich (he): the relation of the sign of 2. Beta
+
+444
+00:46:11.380 --> 00:46:16.430
+David Schaich (he): is the inverse hyperbolic sign a 2 beta to
+
+445
+00:46:18.470 --> 00:46:26.030
+David Schaich (he): we are. We can note from this relation that if we have some small data corresponding to a high temperature
+
+446
+00:46:26.460 --> 00:46:28.230
+David Schaich (he): on either side
+
+447
+00:46:28.460 --> 00:46:30.870
+David Schaich (he): of this equation, maybe one over
+
+448
+00:46:31.970 --> 00:46:33.070
+David Schaich (he): the
+
+449
+00:46:35.300 --> 00:46:40.620
+David Schaich (he): since that same value would correspond to for sure.
+
+450
+00:46:41.730 --> 00:46:44.440
+David Schaich (he): In other words. we would have him
+
+451
+00:46:44.640 --> 00:46:57.160
+David Schaich (he): small. Beta gives you a small value of the cinch which we relies on the factor in the denominator. They are getting very large. large value of Beta tilde, and it looked temperature
+
+452
+00:46:59.040 --> 00:47:00.160
+David Schaich (he): on this
+
+453
+00:47:01.800 --> 00:47:06.200
+David Schaich (he): relation. But it's now known as the Duality is, is one of the earliest example.
+
+454
+00:47:10.850 --> 00:47:20.300
+David Schaich (he): The pillar of modern theoretical physics? No, it has reality more generally where you will be.
+
+455
+00:47:20.840 --> 00:47:27.000
+David Schaich (he): The famous examples you might have heard of is so called Ads cft duality.
+
+456
+00:47:27.440 --> 00:47:31.390
+David Schaich (he): We're holographic to all of you where
+
+457
+00:47:31.510 --> 00:47:36.830
+David Schaich (he): it can. Formal field theory in some number of the dimensions
+
+458
+00:47:37.060 --> 00:47:39.250
+David Schaich (he): is deleted
+
+459
+00:47:39.380 --> 00:47:47.050
+David Schaich (he): to quantum gravity in an asymptotically, and you consider ads space in D plus one dimensions.
+
+460
+00:47:48.070 --> 00:47:51.660
+David Schaich (he): That is a much more complicated sort of duality
+
+461
+00:47:51.810 --> 00:47:52.730
+David Schaich (he): that
+
+462
+00:47:54.020 --> 00:47:57.280
+David Schaich (he): has grown out of these sorts of relations
+
+463
+00:47:57.440 --> 00:47:58.550
+David Schaich (he): which this
+
+464
+00:47:58.620 --> 00:48:03.430
+David Schaich (he): connection between 2 using model partition functions was an early example.
+
+465
+00:48:04.700 --> 00:48:16.810
+David Schaich (he): So, having written down this duality, the connection between partition functions at the values of temperatures implicitly given on this relation we can
+
+466
+00:48:18.670 --> 00:48:21.400
+David Schaich (he): the call. So in 2 dimensions we know that
+
+467
+00:48:21.570 --> 00:48:28.030
+David Schaich (he): there is a phase. Transition also. Group solution tells us that, and we we field approximation agrees
+
+468
+00:48:28.320 --> 00:48:34.650
+David Schaich (he): so at high temperatures. You can expect this system to be in the disorder phase
+
+469
+00:48:36.420 --> 00:48:39.110
+David Schaich (he): at low temperatures. It is in the ordered phase.
+
+470
+00:48:40.220 --> 00:48:41.270
+David Schaich (he): and
+
+471
+00:48:41.440 --> 00:48:47.130
+David Schaich (he): even without knowing that there is a phase transition we saw ordered in disorder phases by considering
+
+472
+00:48:47.380 --> 00:48:53.630
+David Schaich (he): high and low temperature limits. In the first place. if we make the assumption.
+
+473
+00:48:54.950 --> 00:48:56.390
+David Schaich (he): and that
+
+474
+00:48:58.490 --> 00:49:00.430
+David Schaich (he): there is a phase transition.
+
+475
+00:49:01.510 --> 00:49:03.980
+David Schaich (he): Yeah. Some critical temperature Tc.
+
+476
+00:49:06.430 --> 00:49:11.580
+David Schaich (he): Or equivalently one over a critical, inverse temperature. Beta Sea.
+
+477
+00:49:12.940 --> 00:49:16.300
+David Schaich (he): Then at that phase transition
+
+478
+00:49:17.410 --> 00:49:19.870
+David Schaich (he): the ordered and disorder phases
+
+479
+00:49:21.550 --> 00:49:29.700
+David Schaich (he): are going to meet and coincide precisely at this value of the critical signature
+
+480
+00:49:36.300 --> 00:49:39.070
+David Schaich (he): which means at this relation.
+
+481
+00:49:41.450 --> 00:49:46.690
+David Schaich (he): has to hold with Beta actually equal to
+
+482
+00:49:49.740 --> 00:49:57.740
+David Schaich (he): this critical point. which then means that the square of the hyperbolic sign
+
+483
+00:49:59.100 --> 00:50:02.240
+David Schaich (he): up to Beta, c. Is just one.
+
+484
+00:50:03.560 --> 00:50:04.520
+David Schaich (he): so that
+
+485
+00:50:05.530 --> 00:50:07.380
+David Schaich (he): pay the c. In itself
+
+486
+00:50:08.580 --> 00:50:10.900
+David Schaich (he): is one half the
+
+487
+00:50:13.200 --> 00:50:18.460
+David Schaich (he): oh one. and something that I
+
+488
+00:50:20.700 --> 00:50:25.660
+David Schaich (he): don't expect you to know off the top of your head, but can be looked up is a relation between
+
+489
+00:50:25.860 --> 00:50:29.450
+David Schaich (he): the arc cinch and a logarithm that it
+
+490
+00:50:29.780 --> 00:50:37.570
+David Schaich (he): I was just from the relation between the cinch itself and exponential factors. So the
+
+491
+00:50:38.940 --> 00:50:49.010
+David Schaich (he): some value. Hex turns out to be the logarithm of X. What the square root of x squared plus one
+
+492
+00:50:50.590 --> 00:50:55.670
+David Schaich (he): when x equals one, and then we have an expression for
+
+493
+00:50:58.490 --> 00:51:09.330
+David Schaich (he): oops. We've replaced the when X is one we have one plus roots, one plus one is 2, and numerically this is from the whole point
+
+494
+00:51:09.390 --> 00:51:10.380
+David Schaich (he): 44.
+
+495
+00:51:11.960 --> 00:51:21.340
+David Schaich (he): So this is probably the duality relation. an immediate prediction that if there is a fee transition.
+
+496
+00:51:21.350 --> 00:51:25.700
+David Schaich (he): it must occur at this critical value of the inverse temperature.
+
+497
+00:51:25.710 --> 00:51:27.130
+David Schaich (he): That is an exact.
+
+498
+00:51:27.650 --> 00:51:31.120
+David Schaich (he): a consistency condition, another exact result.
+
+499
+00:51:31.160 --> 00:51:43.650
+David Schaich (he): Yeah, for a 2 dimensional, easy model. The corresponding critical temperature is you divided by the one plus root, 2 so approximately 2 point.
+
+500
+00:51:43.820 --> 00:51:54.840
+David Schaich (he): 2, 7, and Alzheimer's exact solution. Just a few years after this duality was derived in the 1940 S. Successfully.
+
+501
+00:51:56.060 --> 00:51:59.250
+David Schaich (he): You produced this exact result.
+
+502
+00:52:00.540 --> 00:52:06.790
+David Schaich (he): which was a very strong check that is very complicated. Calculation
+
+503
+00:52:06.820 --> 00:52:09.030
+David Schaich (he): was actually correct.
+
+504
+00:52:09.050 --> 00:52:12.170
+David Schaich (he): and producing the correct predictions
+
+505
+00:52:13.220 --> 00:52:17.590
+David Schaich (he): for the 2D 0, clearly using model. So that is
+
+506
+00:52:17.860 --> 00:52:22.400
+David Schaich (he): it for this tencast the exact results that we will confront
+
+507
+00:52:22.650 --> 00:52:29.980
+David Schaich (he): at the meeting field approximation on Monday. And hopefully, it's been I to see how these sort of
+
+508
+00:52:30.390 --> 00:52:41.110
+David Schaich (he): exact calculations for interacting systems and proceed, despite the great, much greater detail, much greater level of complication
+
+509
+00:52:41.250 --> 00:52:46.820
+David Schaich (he): relative to the non interacting systems that we spent. Most of the module dealing with.
+
