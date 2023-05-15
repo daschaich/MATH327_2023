@@ -4,7 +4,7 @@ import time
 import numpy as np
 # ------------------------------------------------------------------
 # Compute pi through Monte Carlo sampling
-random.seed(327)
+random.seed(271828)
 
 # Loop over various numbers of samples
 for N in [1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9]:

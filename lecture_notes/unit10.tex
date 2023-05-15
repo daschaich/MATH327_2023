@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 10}
-\renewcommand{\moddate}{Last modified 12 May 2023}
+\renewcommand{\moddate}{Last modified 15 May 2023}
 \setcounter{section}{10}
 \setcounter{subsection}{0}
 \phantomsection
@@ -40,7 +40,7 @@ An amusing example is to compute
 \end{align*}
 where the Heaviside step function $H(r)$ picks out a disk with radius $R = 1$ in a square integration domain with area $4$, as shown below.
 Since the integrand is either $0$ or $1$ for each randomly sampled point in that domain, simply counting the fraction of the $S$ samples that lie in the disk provides a numerical determination of $\pi$, with a \textit{statistical uncertainty} that vanishes $\propto 1 / \sqrt{S}$.
-In just a few minutes, \href{https://github.com/daschaich/MATH327_2023/blob/main/lecture_notes/unit10_pi.py}{this Python code} predicts $\pi = 3.14152 \pm 0.00023$ purely from sampling pseudo-random numbers.
+In just a few minutes, \href{https://github.com/daschaich/MATH327_2023/blob/main/lecture_notes/unit10_pi.py}{this Python code} predicts $\pi = 3.14163 \pm 0.00022$ purely from sampling pseudo-random numbers.
 
 \begin{center}\includegraphics[width=0.6\textwidth]{figs/unit10_pi.pdf}\end{center}
 
@@ -104,7 +104,7 @@ If it is in the ground state, then any spin flip will increase the energy, $\De 
 More generally, if we consider two micro-states $\om_A$ and $\om_B$, then the relative probabilities of moving between these two micro-states are
 \begin{equation}
   \label{eq:MRTdistribution}
-  \frac{P(A \to B)}{P(B \to A)} = \frac{\mbox{min}\left\{1, e^{-\be(E_B - E_A)}\right\}}{\mbox{min}\left\{1, e^{-\be(E_A - E_B)}\right\}} = \frac{e^{-\be(E_B - E_A)}}{1} = \frac{e^{-\be E_B}}{e^{-\be E_A}},
+  \frac{P(A \to B)}{P(B \to A)} = \frac{\mbox{min}\left\{1, e^{-\be(E_B - E_A)}\right\}}{\mbox{min}\left\{1, e^{-\be(E_A - E_B)}\right\}} = e^{-\be(E_B - E_A)} = \frac{e^{-\be E_B}}{e^{-\be E_A}},
 \end{equation}
 regardless of whether $E_A \leq E_B$ or $E_B \leq E_A$.
 
