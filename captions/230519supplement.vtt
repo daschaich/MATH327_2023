@@ -1,0 +1,3382 @@
+WEBVTT
+
+1
+00:00:03.430 --> 00:00:07.830
+David Schaich (he): Okay, welcome to the promised
+
+2
+00:00:10.090 --> 00:00:13.840
+David Schaich (he): final supplemental pencast for Statistical Physics,
+
+3
+00:00:16.600 --> 00:00:18.700
+David Schaich (he): which will cover the Sommerfeld expansion.
+
+4
+00:00:22.100 --> 00:00:27.250
+David Schaich (he): It has been delayed for a couple of days, due to medical reasons,
+
+5
+00:00:27.300 --> 00:00:31.610
+David Schaich (he): so this recording is happening on the nineteenth of May, and
+
+6
+00:00:31.990 --> 00:00:34.170
+David Schaich (he): that means I should reassure you that the Sommerfeld
+
+7
+00:00:35.230 --> 00:00:42.510
+David Schaich (he): expansion is not going to be on the exam that is just a week away.  But following through this
+
+8
+00:00:42.990 --> 00:00:44.980
+David Schaich (he): somewhat less-trivial
+
+9
+00:00:45.860 --> 00:00:52.580
+David Schaich (he): calculation, to get some more interesting results for the non-relativistic fermion gases,
+
+10
+00:00:52.990 --> 00:00:59.150
+David Schaich (he): may well be a useful way to spend some time in preparation for that exam.  And hopefully it is
+
+11
+00:00:59.180 --> 00:01:01.940
+David Schaich (he): interesting and enjoyable in and of itself.
+
+12
+00:01:02.900 --> 00:01:12.670
+David Schaich (he): So the starting point for looking at the Sommerfeld expansion is to recall the general expressions that we had for
+
+13
+00:01:16.160 --> 00:01:17.670
+David Schaich (he): non-relativistic fermion gases,
+
+14
+00:01:18.900 --> 00:01:19.860
+David Schaich (he): where the
+
+15
+00:01:21.270 --> 00:01:25.930
+David Schaich (he): the average particle number
+
+16
+00:01:26.010 --> 00:01:27.940
+David Schaich (he): proportional to an integral
+
+17
+00:01:29.600 --> 00:01:34.610
+David Schaich (he): of the family function. We did buy square root of energy
+
+18
+00:01:34.820 --> 00:01:36.290
+over the energy.
+
+19
+00:01:36.630 --> 00:01:37.660
+David Schaich (he): and then
+
+20
+00:01:41.290 --> 00:01:42.940
+David Schaich (he): I almost the same.
+
+21
+00:01:43.990 --> 00:01:46.540
+David Schaich (he): This, with each of the particles.
+
+22
+00:01:46.580 --> 00:01:50.960
+David Schaich (he): waited by its energy to give an additional factor around.
+
+23
+00:01:52.960 --> 00:02:00.420
+David Schaich (he): now prompt. So we to the 3 half power rather than just to to the one half, with some constant proportionality.
+
+24
+00:02:00.780 --> 00:02:02.960
+David Schaich (he): that we arrived
+
+25
+00:02:03.030 --> 00:02:08.449
+David Schaich (he): in the ordinary lectures
+
+26
+00:02:09.139 --> 00:02:11.980
+David Schaich (he): to go beyond the approximation that
+
+27
+00:02:12.190 --> 00:02:13.960
+David Schaich (he): we used in those lectures
+
+28
+00:02:15.850 --> 00:02:21.210
+David Schaich (he): which was to replace that fairy function
+
+29
+00:02:25.110 --> 00:02:26.870
+David Schaich (he): as a step function
+
+30
+00:02:29.140 --> 00:02:30.450
+asymptotically
+
+31
+00:02:30.750 --> 00:02:32.160
+David Schaich (he): low temperatures.
+
+32
+00:02:33.660 --> 00:02:40.820
+David Schaich (he): and when we go beyond that approximation we will get a couple of nice results
+
+33
+00:02:41.050 --> 00:02:43.810
+David Schaich (he): pretty easily. We will.
+
+34
+00:02:45.120 --> 00:02:47.030
+David Schaich (he): The heat capacity
+
+35
+00:02:49.280 --> 00:02:52.540
+David Schaich (he): of these gases at low temperatures, but
+
+36
+00:02:52.560 --> 00:03:01.120
+David Schaich (he): the non-zero temperature so bringing in corrections to the heat capacity that the step function just get to be
+
+37
+00:03:01.130 --> 00:03:02.140
+David Schaich (he): 0.
+
+38
+00:03:03.240 --> 00:03:16.320
+David Schaich (he): This is something we went through quickly in one of the tutorials. Here we will do it with all of the constant in place we Don't find merely the functional form, but also the prediction. For
+
+39
+00:03:16.490 --> 00:03:24.640
+David Schaich (he): how do you experimental measurements we looked at actually relates to properties of these gases like their family energy.
+
+40
+00:03:24.850 --> 00:03:31.230
+David Schaich (he): and the physical cost is like 5. We will also be able to check out the
+
+41
+00:03:32.180 --> 00:03:35.700
+David Schaich (he): temperature dependence on the chemical potential
+
+42
+00:03:37.150 --> 00:03:38.260
+David Schaich (he): you
+
+43
+00:03:39.280 --> 00:03:40.790
+David Schaich (he): and see how that
+
+44
+00:03:42.740 --> 00:03:45.520
+David Schaich (he): approaches the high temperature, classical limits.
+
+45
+00:03:51.030 --> 00:04:00.320
+David Schaich (he): and also get expressions for it in terms of the zoom account expansion at low temperatures, but still not so low that this step function
+
+46
+00:04:00.470 --> 00:04:02.810
+David Schaich (he): is a valid approximation.
+
+47
+00:04:03.890 --> 00:04:10.940
+David Schaich (he): So a useful first step to this project is to simplify or streamline
+
+48
+00:04:12.220 --> 00:04:15.480
+David Schaich (he): notation, that we use slightly.
+
+49
+00:04:17.529 --> 00:04:28.740
+David Schaich (he): This will make it easier to keep track of all of those physical constants that we just neglected in the tutorial. So, looking at the average particle number, for instance.
+
+50
+00:04:29.610 --> 00:04:40.180
+David Schaich (he): we will write this as an integral of some function. G of the multiply by the over to you we are.
+
+51
+00:04:40.790 --> 00:04:46.740
+David Schaich (he): You can tell what this G of is going to have you screwed the in it. You will also have
+
+52
+00:04:46.940 --> 00:04:54.940
+David Schaich (he): the constant proportionality factor. So we can write that as it comes to you, not
+
+53
+00:04:55.560 --> 00:05:01.410
+David Schaich (he): times the square root of the and that constantly derived in the lecture we can look back to those notes
+
+54
+00:05:06.510 --> 00:05:08.980
+David Schaich (he): point to the for me on mask You
+
+55
+00:05:10.110 --> 00:05:13.460
+David Schaich (he): factors are high-squared.
+
+56
+00:05:13.860 --> 00:05:18.930
+David Schaich (he): and then the functional dependence, square root, E to the log at the end.
+
+57
+00:05:20.410 --> 00:05:22.280
+David Schaich (he): So this is known
+
+58
+00:05:23.590 --> 00:05:25.590
+David Schaich (he): as the density of States.
+
+59
+00:05:26.810 --> 00:05:29.480
+David Schaich (he): and what that means in that
+
+60
+00:05:29.780 --> 00:05:31.910
+David Schaich (he): to explain English is.
+
+61
+00:05:34.420 --> 00:05:39.320
+David Schaich (he): This is the number of single particle energy levels
+
+62
+00:05:42.440 --> 00:05:45.010
+David Schaich (he): that our presence in the gaps.
+
+63
+00:05:56.310 --> 00:06:01.780
+David Schaich (he): So. in order to compute the number of particles that we have.
+
+64
+00:06:02.330 --> 00:06:07.210
+David Schaich (he): you can see that we are integrating over the number of single particle energy levels
+
+65
+00:06:08.820 --> 00:06:11.140
+David Schaich (he): multiplying by to you.
+
+66
+00:06:14.370 --> 00:06:18.820
+David Schaich (he): You know what that is right down here.
+
+67
+00:06:20.180 --> 00:06:21.110
+David Schaich (he): So it's
+
+68
+00:06:21.570 --> 00:06:26.670
+David Schaich (he): essentially the occupation, probability, the occupation number for
+
+69
+00:06:27.220 --> 00:06:30.780
+David Schaich (he): an energy level with energy, e and chemical potential mute.
+
+70
+00:06:32.020 --> 00:06:35.280
+David Schaich (he): and this comes into the integral over energies
+
+71
+00:06:35.310 --> 00:06:37.440
+David Schaich (he): as the
+
+72
+00:06:41.150 --> 00:06:47.430
+David Schaich (he): probability that each of these single particle energy levels counted by the density of states
+
+73
+00:06:47.530 --> 00:06:53.230
+David Schaich (he): is actually occupied. I You' from my a particle.
+
+74
+00:06:55.330 --> 00:07:03.210
+David Schaich (he): so that is, through the English language interpretation of our integral. We want to get the average number of particles
+
+75
+00:07:03.390 --> 00:07:12.520
+David Schaich (he): we want to integrate over the number of single particle energy levels that are presence weighted by the probability that those energy levels are occupied.
+
+76
+00:07:14.210 --> 00:07:19.040
+David Schaich (he): So we can the a sort of visual appreciation for this.
+
+77
+00:07:19.350 --> 00:07:22.210
+David Schaich (he): Looking at a couple of illustrations.
+
+78
+00:07:22.530 --> 00:07:28.650
+David Schaich (he): I'm sure there's introduction to books on the reading list.
+
+79
+00:07:29.850 --> 00:07:31.150
+David Schaich (he): So this is
+
+80
+00:07:31.700 --> 00:07:36.270
+David Schaich (he): the case that you've essentially been considering in the lectures up to now.
+
+81
+00:07:36.440 --> 00:07:39.660
+David Schaich (he): when the temperature is exactly 0,
+
+82
+00:07:42.640 --> 00:07:44.120
+David Schaich (he): here we function
+
+83
+00:07:45.900 --> 00:07:49.610
+David Schaich (he): because exactly the step function.
+
+84
+00:07:50.070 --> 00:07:52.490
+David Schaich (he): So it is one up to
+
+85
+00:07:52.680 --> 00:07:57.540
+David Schaich (he): the fair, the energy. This is the value of the chemical potential.
+
+86
+00:07:57.890 --> 00:07:59.510
+David Schaich (he): It's your temperature
+
+87
+00:07:59.720 --> 00:08:11.060
+David Schaich (he): for the is 0 for all energies larger than that fairy energy. So the integral giving us the average particle number is just shown by the sheeted region
+
+88
+00:08:11.660 --> 00:08:12.790
+in here.
+
+89
+00:08:13.210 --> 00:08:24.920
+David Schaich (he): Gmb itself has to the States is integrated up to that hard cut off given by the step function. I actually use it just it Constant times the square root
+
+90
+00:08:24.960 --> 00:08:26.000
+David Schaich (he): of you.
+
+91
+00:08:29.830 --> 00:08:32.059
+David Schaich (he): so that she the region
+
+92
+00:08:36.940 --> 00:08:42.220
+David Schaich (he): it's the integral over G of the by itself, up to the cut off by the step. One
+
+93
+00:08:43.039 --> 00:08:43.860
+David Schaich (he): so
+
+94
+00:08:44.870 --> 00:08:52.290
+David Schaich (he): more complicated behavior that we now need to consider in order to get some more interesting results. is what happens
+
+95
+00:08:52.760 --> 00:09:02.030
+David Schaich (he): when the temperature is still small, but now and 0 to the point where that step function is not the approximation that we want to make.
+
+96
+00:09:03.080 --> 00:09:14.920
+David Schaich (he): So do you picture that changes to something like this, which is no what's going on there? The projector There it is.
+
+97
+00:09:15.990 --> 00:09:18.530
+David Schaich (he): So not quite the same axes.
+
+98
+00:09:20.410 --> 00:09:32.190
+David Schaich (he): This dashed line here, and the same density of states that we had for 0 temperature in New York with the est of States is independence of the temperature. He is, so
+
+99
+00:09:32.950 --> 00:09:37.980
+David Schaich (he): that number of single particle energy levels per unit energy is determined by the
+
+100
+00:09:38.240 --> 00:09:42.600
+David Schaich (he): characteristics of the system. and the
+
+101
+00:09:44.390 --> 00:09:48.270
+David Schaich (he): sure the calls are fairly function that would be this
+
+102
+00:09:48.360 --> 00:10:00.250
+David Schaich (he): in bar. This is our F of the in our notation and the dashboard. Now is the you.
+
+103
+00:10:01.710 --> 00:10:07.440
+David Schaich (he): It's a grant of our integral the product of the density of States times, the occupation of.
+
+104
+00:10:07.610 --> 00:10:14.580
+David Schaich (he): and in addition to the stark shed region over here, it can come out so well in this print out.
+
+105
+00:10:14.600 --> 00:10:16.200
+David Schaich (he): but there is some
+
+106
+00:10:17.270 --> 00:10:21.930
+David Schaich (he): probability that it is not 0, although actually, that should be suppressed.
+
+107
+00:10:22.550 --> 00:10:23.400
+David Schaich (he): Yeah.
+
+108
+00:10:23.580 --> 00:10:28.130
+David Schaich (he): having particles that occupy energy levels with energies greater.
+
+109
+00:10:28.150 --> 00:10:33.710
+David Schaich (he): The net can be energy. You don't want to have a step function kind of off the integral, and
+
+110
+00:10:34.120 --> 00:10:35.570
+David Schaich (he): if you have any energy.
+
+111
+00:10:36.380 --> 00:10:41.130
+David Schaich (he): so we integrate over the whole range of energies from 0 to infinity.
+
+112
+00:10:41.520 --> 00:10:45.410
+David Schaich (he): That gives us the particle number in this case.
+
+113
+00:10:46.930 --> 00:10:51.040
+David Schaich (he): and because this fermi energy
+
+114
+00:10:51.080 --> 00:10:55.780
+David Schaich (he): is set by the number of particles, and look back in your notes to
+
+115
+00:10:56.000 --> 00:10:58.850
+David Schaich (he): see you that definition.
+
+116
+00:11:02.550 --> 00:11:08.080
+David Schaich (he): we will be coming up. So we produce it here briefly.
+
+117
+00:11:09.080 --> 00:11:11.020
+David Schaich (he): Yeah. Constant factors of
+
+118
+00:11:12.970 --> 00:11:14.920
+David Schaich (he): a 3 pi squared
+
+119
+00:11:15.990 --> 00:11:19.630
+David Schaich (he): yeah overall to the
+
+120
+00:11:21.260 --> 00:11:27.110
+David Schaich (he): we have power. Sorry that's the two-thirds. How are you
+
+121
+00:11:30.750 --> 00:11:32.100
+David Schaich (he): So
+
+122
+00:11:33.680 --> 00:11:37.900
+David Schaich (he): if we have some of these end up particles occupying
+
+123
+00:11:39.210 --> 00:11:47.100
+David Schaich (he): energy levels with energy is market and the energy. This means that there's a one of those occupied energy levels.
+
+124
+00:11:48.940 --> 00:11:50.290
+David Schaich (he): energy levels.
+
+125
+00:11:53.640 --> 00:11:59.680
+David Schaich (he): lower energy side of the pyramid energy. So the difference between
+
+126
+00:11:59.840 --> 00:12:04.430
+David Schaich (he): we did integral with a non-trivial memory function.
+
+127
+00:12:04.650 --> 00:12:08.520
+David Schaich (he): and what that best you States would have been with just except function.
+
+128
+00:12:14.450 --> 00:12:20.330
+David Schaich (he): This leads to a difference between the chemical potential
+
+129
+00:12:23.600 --> 00:12:25.070
+David Schaich (he): that is the overall label
+
+130
+00:12:26.330 --> 00:12:33.990
+David Schaich (he): on this figure compared to its value, the ferry energy at t equals 0, and in particular
+
+131
+00:12:35.210 --> 00:12:46.000
+David Schaich (he): we will see you that and a shell in this figure the chemical potential for knowledge. Your temperature is always going to be less than
+
+132
+00:12:46.090 --> 00:12:53.980
+David Schaich (he): if You' me energy. let me just. of course, some of these take away messages. There is.
+
+133
+00:12:56.810 --> 00:12:58.080
+David Schaich (he): We have
+
+134
+00:12:58.400 --> 00:13:02.910
+David Schaich (he): non-zero value of t and don't approximate the fermat
+
+135
+00:13:03.140 --> 00:13:05.280
+David Schaich (he): function as a step function.
+
+136
+00:13:09.330 --> 00:13:10.270
+David Schaich (he): You have
+
+137
+00:13:13.690 --> 00:13:15.170
+David Schaich (he): some particles
+
+138
+00:13:19.040 --> 00:13:26.130
+David Schaich (he): occupy energy levels with energy is greater than the fermi energy.
+
+139
+00:13:27.490 --> 00:13:29.530
+The probability to do so is
+
+140
+00:13:31.020 --> 00:13:32.950
+David Schaich (he): exponentially suppressed
+
+141
+00:13:35.210 --> 00:13:36.760
+David Schaich (he): correspondingly.
+
+142
+00:13:37.980 --> 00:13:39.100
+David Schaich (he): There are.
+
+143
+00:13:41.120 --> 00:13:42.570
+David Schaich (he): i'm not you. Part of it.
+
+144
+00:13:44.430 --> 00:13:49.550
+David Schaich (he): Energy levels with energy, is less than the family energy.
+
+145
+00:13:51.200 --> 00:13:54.680
+David Schaich (he): And If we recall that
+
+146
+00:13:56.090 --> 00:13:58.600
+David Schaich (he): points on the x-axis
+
+147
+00:13:59.630 --> 00:14:03.250
+David Schaich (he): to the value of the energy to the chemical potential
+
+148
+00:14:03.600 --> 00:14:04.520
+David Schaich (he): is where that
+
+149
+00:14:05.330 --> 00:14:09.630
+David Schaich (he): argument of the exponential function is 0 the fermi energy.
+
+150
+00:14:10.960 --> 00:14:18.780
+David Schaich (he): just value of one over one plus one is 2. Similarly, you see.
+
+151
+00:14:20.420 --> 00:14:22.890
+David Schaich (he): Oh, this one of it. Excuse me there!
+
+152
+00:14:25.040 --> 00:14:28.390
+David Schaich (he): So hopefully it's settled down. Now, if we
+
+153
+00:14:28.830 --> 00:14:32.360
+David Schaich (he): set the fermi energy to be to have
+
+154
+00:14:32.570 --> 00:14:37.140
+David Schaich (he): and look for the point where the dash. This on the line is one half of the
+
+155
+00:14:37.430 --> 00:14:39.940
+David Schaich (he): value of the dash line that it would have been
+
+156
+00:14:40.000 --> 00:14:43.050
+David Schaich (he): with the step function that will give us
+
+157
+00:14:43.400 --> 00:14:50.340
+David Schaich (he): the value of the energy that is equal to the and one of the
+
+158
+00:14:50.480 --> 00:14:55.080
+David Schaich (he): results we will compute zoom is that the chemical potential for
+
+159
+00:14:55.200 --> 00:15:02.420
+David Schaich (he): in non-zero value temperature? It's always going to be less than the fermi energy.
+
+160
+00:15:03.070 --> 00:15:05.910
+David Schaich (he): which is, we have defined in the lectures
+
+161
+00:15:06.250 --> 00:15:11.220
+David Schaich (he): to be the chemical potential exactly absolute 0 for sure.
+
+162
+00:15:12.750 --> 00:15:18.010
+David Schaich (he): So that is our first goal to to go for.
+
+163
+00:15:21.040 --> 00:15:22.130
+David Schaich (he): and
+
+164
+00:15:25.010 --> 00:15:28.560
+David Schaich (he): we can just evaluate. You need to go
+
+165
+00:15:28.700 --> 00:15:31.300
+David Schaich (he): that we have for the
+
+166
+00:15:31.630 --> 00:15:33.360
+David Schaich (he): average particle number.
+
+167
+00:15:35.230 --> 00:15:39.480
+David Schaich (he): This is the better starting point. You have a G. 0
+
+168
+00:15:40.560 --> 00:15:45.000
+David Schaich (he): it to the left hand side of the equation. so that on the right hand side
+
+169
+00:15:48.030 --> 00:15:49.400
+David Schaich (he): we just have
+
+170
+00:15:51.280 --> 00:15:53.900
+David Schaich (he): an integral over energies of
+
+171
+00:15:55.080 --> 00:15:56.810
+David Schaich (he): use. The would have power
+
+172
+00:16:01.750 --> 00:16:05.130
+David Schaich (he): integrated over.
+
+173
+00:16:06.200 --> 00:16:10.830
+David Schaich (he): And then importantly, here
+
+174
+00:16:11.260 --> 00:16:14.870
+David Schaich (he): an executive following, and not just a proportionality.
+
+175
+00:16:15.080 --> 00:16:21.280
+David Schaich (he): a proportional functional relation. So we are going a bit beyond what we did more quickly
+
+176
+00:16:21.470 --> 00:16:24.200
+David Schaich (he): in the tutorial on the device.
+
+177
+00:16:26.720 --> 00:16:34.360
+David Schaich (he): But the general procedure we are going to follow is the same one that was introduced there. This function.
+
+178
+00:16:34.570 --> 00:16:46.410
+David Schaich (he): which is a complicated ratio of square root of energy over an exponential function of the energy is not something we can just look up or solve exactly, or even
+
+179
+00:16:46.680 --> 00:16:53.630
+David Schaich (he): you, to a program like mathematic. If you do for us. we need to bring in some
+
+180
+00:16:54.980 --> 00:16:58.410
+David Schaich (he): intelligence through the analysis of it, and the approach
+
+181
+00:16:58.440 --> 00:17:06.560
+David Schaich (he): here's the same that was quickly sketched out in that tutorial integrate my parts pretty much integral hands.
+
+182
+00:17:06.880 --> 00:17:16.099
+David Schaich (he): the product of 2 functions that you. that you will be the TV is everything else.
+
+183
+00:17:20.180 --> 00:17:21.240
+David Schaich (he): and then
+
+184
+00:17:21.310 --> 00:17:26.819
+David Schaich (he): integrate my parts to give us the boundary terms of you. Time speed. So you need to
+
+185
+00:17:27.910 --> 00:17:38.280
+David Schaich (he): introduce the antiderivative of using the one half, which is 2, taking the derivative of that will cancel out
+
+186
+00:17:38.610 --> 00:17:43.490
+David Schaich (he): 3 half of 2 thirds, and the the one half that remains
+
+187
+00:17:43.980 --> 00:17:47.500
+David Schaich (he): so the boundary term
+
+188
+00:17:48.870 --> 00:17:53.430
+David Schaich (he): two-thirds. These are the 3 halves out of the
+
+189
+00:17:55.850 --> 00:17:59.640
+David Schaich (he): it's 0 and infinity. and then we subtract
+
+190
+00:18:01.830 --> 00:18:03.770
+David Schaich (he): so it's still like 2 thirds
+
+191
+00:18:04.430 --> 00:18:07.060
+David Schaich (he): same limits of integration.
+
+192
+00:18:08.850 --> 00:18:22.370
+David Schaich (he): and keeping things on the object to it. We have either the 3 halves on the and then the you is going to be the derivative of all that fairly functioning
+
+193
+00:18:22.890 --> 00:18:27.300
+David Schaich (he): with respect to energy. integrating over the energy.
+
+194
+00:18:29.520 --> 00:18:30.430
+David Schaich (he): Now
+
+195
+00:18:34.320 --> 00:18:46.020
+David Schaich (he): we have seen in the lectures that the fermi function here is very similar to the occupation number. or a fairly gas and
+
+196
+00:18:46.250 --> 00:18:53.920
+David Schaich (he): or fairly honestly. Occupation number has 2 extreme limits. It can be 0, or it can be one, and there is no other option.
+
+197
+00:18:55.210 --> 00:18:56.270
+David Schaich (he): indeed
+
+198
+00:18:56.390 --> 00:19:05.890
+David Schaich (he): Limit that the energy goes to infinity to the upper limit of the evaluation of this boundary term. That's where we get. If you're a function of 0.
+
+199
+00:19:06.160 --> 00:19:12.250
+David Schaich (he): We have one over E to the infinity plus one. There is exponential suppression that overwhelms
+
+200
+00:19:12.540 --> 00:19:16.490
+David Schaich (he): the either. The 3 half is also going to infinity. If you don't
+
+201
+00:19:16.820 --> 00:19:21.440
+David Schaich (he): want to take my one for it, you can hit that ratio.
+
+202
+00:19:21.470 --> 00:19:26.460
+David Schaich (he): and we'll kill off the in the numerator, the exponential which is, keep going
+
+203
+00:19:26.480 --> 00:19:27.630
+David Schaich (he): all remedy
+
+204
+00:19:27.690 --> 00:19:32.680
+David Schaich (he): iterations of what we want to go through. So we have 0 from the upper limit
+
+205
+00:19:32.850 --> 00:19:35.180
+David Schaich (he): at the moment. That is where
+
+206
+00:19:35.550 --> 00:19:38.530
+David Schaich (he): the fermi function approaches one.
+
+207
+00:19:38.580 --> 00:19:44.360
+David Schaich (he): you know, one over perfect. each of the minus made of you.
+
+208
+00:19:45.400 --> 00:19:47.590
+David Schaich (he): So we don't know what that is, plus one
+
+209
+00:19:47.640 --> 00:19:52.100
+David Schaich (he): that even the minus paid renew is itself just a
+
+210
+00:19:52.430 --> 00:19:58.340
+David Schaich (he): number and low temperatures that we consider here. You know that
+
+211
+00:19:59.080 --> 00:20:09.050
+David Schaich (he): you is positive. The temperature beta is always positive. so we will have something less than one and greater than 0 multiplied by 0.
+
+212
+00:20:09.170 --> 00:20:10.740
+David Schaich (he): He's known to his friends
+
+213
+00:20:10.910 --> 00:20:14.750
+David Schaich (he): and 0 for both of those upward over limits.
+
+214
+00:20:16.210 --> 00:20:21.660
+David Schaich (he): So all that is left is the the main integral
+
+215
+00:20:22.490 --> 00:20:26.640
+David Schaich (he): integrating over Pdu, or which we want to compute
+
+216
+00:20:26.910 --> 00:20:27.630
+David Schaich (he): the
+
+217
+00:20:27.880 --> 00:20:30.600
+David Schaich (he): negative derivative of
+
+218
+00:20:31.610 --> 00:20:34.240
+David Schaich (he): the fermi function with respect to energy
+
+219
+00:20:35.610 --> 00:20:38.510
+David Schaich (he): back up of the inject turn.
+
+220
+00:20:39.780 --> 00:20:49.680
+David Schaich (he): So that can be a function. You can write it as you to the Beta energy minus chemical potential. plus one to the minus one power.
+
+221
+00:20:50.370 --> 00:20:56.690
+David Schaich (he): the derivative of that minus one powerable cancel out to the overall negative sign taken from that.
+
+222
+00:20:56.700 --> 00:20:59.870
+David Schaich (he): 2 thirds people have a
+
+223
+00:21:02.150 --> 00:21:04.240
+David Schaich (he): the exponential function. Now
+
+224
+00:21:04.840 --> 00:21:08.230
+David Schaich (he): the 2 power, so one over that
+
+225
+00:21:08.330 --> 00:21:20.010
+David Schaich (he): one D squared the exponential. bring the exponential into the numerator and then bring down a factor of Beta.
+
+226
+00:21:20.760 --> 00:21:30.580
+David Schaich (he): and just to reduce the amount that I have to write. and I plug this back in 2. Your whole expression
+
+227
+00:21:31.780 --> 00:21:34.260
+the terms that they want to be x
+
+228
+00:21:35.710 --> 00:21:36.970
+it to be
+
+229
+00:21:37.020 --> 00:21:37.880
+David Schaich (he): be that
+
+230
+00:21:43.270 --> 00:21:45.500
+David Schaich (he): e to the x plus one squared.
+
+231
+00:21:46.900 --> 00:21:51.630
+David Schaich (he): So what's of that back in and that
+
+232
+00:21:53.300 --> 00:21:55.660
+David Schaich (he): see what we have.
+
+233
+00:21:57.230 --> 00:21:58.340
+David Schaich (he): This is a
+
+234
+00:21:58.820 --> 00:22:04.110
+David Schaich (he): procedure and an argument that we want to more quickly for the energy and the
+
+235
+00:22:04.140 --> 00:22:06.250
+David Schaich (he): so you results.
+
+236
+00:22:07.680 --> 00:22:08.770
+David Schaich (he): They look
+
+237
+00:22:10.450 --> 00:22:14.820
+David Schaich (he): somewhat familiar now with equal science rather than
+
+238
+00:22:15.700 --> 00:22:18.330
+David Schaich (he): proportionality factors to you
+
+239
+00:22:19.140 --> 00:22:34.800
+David Schaich (he): overall negative two-thirds. The negative has been incident two-thirds remains we are integrating from 0 to infinity of it's the
+
+240
+00:22:35.590 --> 00:22:42.360
+David Schaich (he): over in the X plus one squared. We have either the 3 halves
+
+241
+00:22:45.240 --> 00:22:47.390
+David Schaich (he): and I will go ahead and
+
+242
+00:22:48.960 --> 00:22:51.760
+David Schaich (he): the factor of Beta into the
+
+243
+00:22:52.760 --> 00:22:56.660
+David Schaich (he): differential. In this integral. the it is a
+
+244
+00:22:58.260 --> 00:23:02.280
+David Schaich (he): of the real numbers. So that's not changing the limits of integration here.
+
+245
+00:23:02.560 --> 00:23:08.160
+David Schaich (he): What I do want to changes to is to work in terms of the X rather than Dd.
+
+246
+00:23:08.730 --> 00:23:12.280
+David Schaich (he): So when is 0,
+
+247
+00:23:12.570 --> 00:23:15.540
+David Schaich (he): X is minus new data.
+
+248
+00:23:15.910 --> 00:23:20.310
+David Schaich (he): they use infinity. So is X. So the overall expression
+
+249
+00:23:21.420 --> 00:23:22.770
+David Schaich (he): that we have
+
+250
+00:23:23.840 --> 00:23:27.210
+David Schaich (he): integrates from
+
+251
+00:23:29.550 --> 00:23:31.820
+David Schaich (he): the x plus one square
+
+252
+00:23:33.110 --> 00:23:37.400
+David Schaich (he): energy to the 3 half power times the X. And this is a
+
+253
+00:23:38.600 --> 00:23:39.490
+David Schaich (he): all right
+
+254
+00:23:41.310 --> 00:23:43.530
+David Schaich (he): application, because
+
+255
+00:23:44.180 --> 00:23:50.570
+David Schaich (he): the energy is now a function of X, which is being integrated over. So we need to
+
+256
+00:23:50.600 --> 00:23:53.500
+David Schaich (he): get that doing a factor of
+
+257
+00:23:53.850 --> 00:23:58.510
+David Schaich (he): energy to the 3 half power in terms of X's.
+
+258
+00:24:01.490 --> 00:24:02.590
+David Schaich (he): it's integral.
+
+259
+00:24:04.470 --> 00:24:05.440
+David Schaich (he): And
+
+260
+00:24:06.100 --> 00:24:10.400
+David Schaich (he): yeah motivation. For doing this, we use
+
+261
+00:24:11.620 --> 00:24:17.550
+David Schaich (he): went through the argument. We we in the tutorial. We'll review it a bit, more probably
+
+262
+00:24:17.590 --> 00:24:19.690
+David Schaich (he): to right now that
+
+263
+00:24:20.970 --> 00:24:25.500
+David Schaich (he): this overall ratio of exponentials is
+
+264
+00:24:28.010 --> 00:24:30.180
+David Schaich (he): a function that is shortly peaked.
+
+265
+00:24:33.100 --> 00:24:38.280
+David Schaich (he): A random X equals 0, which we can see in a couple of ways.
+
+266
+00:24:38.430 --> 00:24:41.040
+David Schaich (he): First getting some motivation like
+
+267
+00:24:41.140 --> 00:24:51.870
+David Schaich (he): reviewing the figure that we discussed in the tutorial, which is just fine at E to the X over give the x plus one quality squared. and seeing that there is a peak
+
+268
+00:24:52.330 --> 00:25:01.430
+David Schaich (he): and X equals 0, You're expressed in terms of the definition of x be. There's Times energy minus chemical potential.
+
+269
+00:25:01.620 --> 00:25:10.470
+David Schaich (he): and by the time we get a few units away from 0 there is an exponential suppression, so that the long tables are contributing essentially nothing
+
+270
+00:25:10.810 --> 00:25:12.110
+David Schaich (he): to this integral
+
+271
+00:25:15.230 --> 00:25:18.100
+David Schaich (he): the other way of establishing.
+
+272
+00:25:18.110 --> 00:25:24.240
+David Schaich (he): Yes. this ratio is shortly peaked around. X equals 0 is to consider
+
+273
+00:25:26.610 --> 00:25:35.820
+David Schaich (he): how it behaves. Well. X is much more than one much smaller than minus one. So I guess you have to in the next.
+
+274
+00:25:36.600 --> 00:25:41.200
+David Schaich (he): It's away from 0. So starting with the negative sign
+
+275
+00:25:41.560 --> 00:25:44.990
+David Schaich (he): X, much less than one Use that
+
+276
+00:25:47.170 --> 00:25:50.130
+David Schaich (he): E to the X is a very small number
+
+277
+00:25:50.220 --> 00:25:57.290
+David Schaich (he): manageable, and added to one to this ratio of approximately E to the X over one squared
+
+278
+00:25:57.400 --> 00:26:05.240
+David Schaich (he): she's one. and then we're like with the next. which itself is an exponentially small number
+
+279
+00:26:07.600 --> 00:26:09.680
+David Schaich (he): coming from the
+
+280
+00:26:10.480 --> 00:26:13.320
+David Schaich (he): large negative argument to the exponential function.
+
+281
+00:26:15.460 --> 00:26:18.820
+David Schaich (he): The tax is much greater than one. then
+
+282
+00:26:18.860 --> 00:26:25.370
+David Schaich (he): use the one that is, next to both in comparison to the exponentially enhanced E. To the nominator.
+
+283
+00:26:28.300 --> 00:26:29.860
+David Schaich (he): We you to the twox.
+
+284
+00:26:31.520 --> 00:26:36.240
+David Schaich (he): you to the X. Next to a large number in the in the denominator
+
+285
+00:26:36.430 --> 00:26:39.510
+David Schaich (he): again. is much less than what.
+
+286
+00:26:40.870 --> 00:26:41.880
+David Schaich (he): So
+
+287
+00:26:44.300 --> 00:26:48.460
+David Schaich (he): this sharp peak around X equals 0
+
+288
+00:26:50.420 --> 00:26:57.870
+David Schaich (he): allows us to evaluate this integral by making 2 approximations that introduce can be exponentially small
+
+289
+00:26:58.100 --> 00:26:58.950
+David Schaich (he): alright.
+
+290
+00:27:00.390 --> 00:27:01.480
+David Schaich (he): errors
+
+291
+00:27:03.570 --> 00:27:06.760
+David Schaich (he): that we can neglect as our approximation.
+
+292
+00:27:09.890 --> 00:27:11.990
+David Schaich (he): and there are in particular, 2
+
+293
+00:27:14.080 --> 00:27:19.300
+David Schaich (he): approximations you will bring to available. First of those is to extend
+
+294
+00:27:20.300 --> 00:27:22.730
+David Schaich (he): the range of this integral.
+
+295
+00:27:24.450 --> 00:27:28.320
+David Schaich (he): so minus to infinity
+
+296
+00:27:29.190 --> 00:27:35.170
+David Schaich (he): can be extended over the whole range of energies from a whole range of X's.
+
+297
+00:27:41.130 --> 00:27:44.940
+David Schaich (he): From negative infinity to
+
+298
+00:27:46.730 --> 00:27:53.660
+David Schaich (he): would. emphasizing when doing this, that this home is because Beta is positive
+
+299
+00:27:53.870 --> 00:27:58.250
+David Schaich (he): and view is positive for the low temperatures that we
+
+300
+00:27:58.400 --> 00:28:00.000
+David Schaich (he): remain interested. Yeah.
+
+301
+00:28:02.710 --> 00:28:13.490
+David Schaich (he): that the slow temperatures give us a large value of beta positive value of you. So we are already quite close to negative infinity in this integral.
+
+302
+00:28:13.780 --> 00:28:14.780
+David Schaich (he): at least
+
+303
+00:28:15.720 --> 00:28:22.120
+David Schaich (he): relative to the small range over which the integrand is non negligible.
+
+304
+00:28:22.910 --> 00:28:35.290
+David Schaich (he): This is exponentially accurate approximation that simplifies integrations to be able to integrate from minus infinity to infinity rather than so minus.
+
+305
+00:28:37.590 --> 00:28:45.250
+David Schaich (he): And the second approximation is to expand the energy as a function of X
+
+306
+00:28:45.380 --> 00:28:48.850
+David Schaich (he): around X equals 0, which is the point.
+
+307
+00:28:49.680 --> 00:28:50.800
+The energy
+
+308
+00:28:51.120 --> 00:28:56.260
+David Schaich (he): equals the chemical potential. So the energy, the 3 halves.
+
+309
+00:28:58.130 --> 00:28:59.720
+David Schaich (he): It is going to be a
+
+310
+00:29:00.980 --> 00:29:03.910
+David Schaich (he): approximately to the 3 halves, plus
+
+311
+00:29:04.020 --> 00:29:08.860
+David Schaich (he): small corrections that we can compute with a your expansion.
+
+312
+00:29:13.060 --> 00:29:13.910
+David Schaich (he): So
+
+313
+00:29:15.120 --> 00:29:18.060
+David Schaich (he): you can recall that the Taylor expansion
+
+314
+00:29:18.090 --> 00:29:20.030
+David Schaich (he): brings in the you
+
+315
+00:29:20.120 --> 00:29:24.830
+David Schaich (he): difference between the function and the points it's being expanded right.
+
+316
+00:29:26.240 --> 00:29:38.390
+David Schaich (he): I should say the function, I should say the variable that the function is expressed in terms of in this case. E. The expanded around the chemical. Essentially you. When we take the
+
+317
+00:29:38.590 --> 00:29:53.400
+David Schaich (he): derivative with respect to that variable. the function itself evaluate that derivative at the central value he equals mute. and keep continuing to higher and higher terms.
+
+318
+00:29:53.840 --> 00:29:58.350
+David Schaich (he): It's higher higher powers of the difference in this view.
+
+319
+00:29:59.520 --> 00:30:01.240
+David Schaich (he): and the precise
+
+320
+00:30:03.490 --> 00:30:08.500
+David Schaich (he): coefficients that come from the expansion
+
+321
+00:30:09.150 --> 00:30:15.710
+David Schaich (he): machine learning 2 derivatives. In the second term
+
+322
+00:30:15.900 --> 00:30:18.570
+David Schaich (he): you can evaluate that e equals view.
+
+323
+00:30:18.700 --> 00:30:19.640
+David Schaich (he): and I
+
+324
+00:30:19.700 --> 00:30:28.110
+David Schaich (he): use the approximately equal sign, because I'm just going to truncate this series right here rather than putting in a bigger notation to capture
+
+325
+00:30:28.200 --> 00:30:30.390
+David Schaich (he): all of the higher order terms.
+
+326
+00:30:32.530 --> 00:30:38.840
+David Schaich (he): so we can easily take the derivative of E to the 3 halves with respect to E.
+
+327
+00:30:40.430 --> 00:30:41.960
+David Schaich (he): That is going to give us
+
+328
+00:30:43.520 --> 00:30:54.330
+David Schaich (he): if we have. and you minus me, and then and e to the one over 2 remains when we set the so we get to the one half power.
+
+329
+00:30:55.270 --> 00:31:01.060
+David Schaich (he): Similarly, when we take 2 derivatives, we get to be 3 halves, and they want to have times in one half
+
+330
+00:31:01.330 --> 00:31:04.320
+David Schaich (he): is a 3 over 2,
+
+331
+00:31:07.160 --> 00:31:14.550
+David Schaich (he): that same minus m squared. And now the power on the is going down from 3 halves to one half to minus a half.
+
+332
+00:31:15.060 --> 00:31:20.910
+David Schaich (he): I said to Mute. and we can
+
+333
+00:31:22.110 --> 00:31:29.650
+David Schaich (he): use our definition of X in terms of E minus new. to
+
+334
+00:31:31.740 --> 00:31:34.210
+David Schaich (he): write this expression in terms
+
+335
+00:31:35.600 --> 00:31:38.000
+David Schaich (he): of X in temperature.
+
+336
+00:31:38.210 --> 00:31:45.240
+David Schaich (he): So e minus view is x over beta, which is x times the temperature which gives us
+
+337
+00:31:47.560 --> 00:31:53.650
+David Schaich (he): you to the 3 halves 3 halves times x t.
+
+338
+00:31:54.740 --> 00:32:02.370
+David Schaich (he): One have power view. and then 3, 8 times x T. Squared.
+
+339
+00:32:03.670 --> 00:32:09.890
+David Schaich (he): It's a negative one over 2 factor of mute. And this, indeed is
+
+340
+00:32:11.720 --> 00:32:12.670
+David Schaich (he): the
+
+341
+00:32:13.980 --> 00:32:15.660
+David Schaich (he): so. It's over
+
+342
+00:32:17.300 --> 00:32:18.640
+David Schaich (he): expansion
+
+343
+00:32:20.820 --> 00:32:22.740
+David Schaich (he): that is, family for
+
+344
+00:32:23.390 --> 00:32:26.390
+David Schaich (he): small values of the temperature.
+
+345
+00:32:26.740 --> 00:32:37.150
+David Schaich (he): where we end up with an expansion in terms of this X times T. Or expo the data. and with the small temperature. You
+
+346
+00:32:37.880 --> 00:32:41.170
+David Schaich (he): end up with a sharp peak in terms of X,
+
+347
+00:32:41.230 --> 00:32:42.140
+David Schaich (he): that
+
+348
+00:32:43.470 --> 00:32:47.440
+David Schaich (he): you see approximations we are making here accurate.
+
+349
+00:32:47.670 --> 00:32:59.010
+David Schaich (he): and the expansion under control. and we' at the end of this Pan Chas. Is it? Briefly what happens? What we can do? Let me relax this assumption of a low temperature.
+
+350
+00:32:59.170 --> 00:33:01.140
+David Schaich (he): and are not able to.
+
+351
+00:33:02.500 --> 00:33:05.940
+David Schaich (he): Maybe you control this man in this way.
+
+352
+00:33:06.670 --> 00:33:09.000
+This is named, after all. In some repel
+
+353
+00:33:09.450 --> 00:33:10.370
+David Schaich (he): I see
+
+354
+00:33:10.610 --> 00:33:15.250
+David Schaich (he): a fairly basic series of approximations. Starting with integrations by parts.
+
+355
+00:33:15.440 --> 00:33:16.880
+David Schaich (he): He was the one who
+
+356
+00:33:16.960 --> 00:33:25.360
+David Schaich (he): popularize this when these very direct integrals first popped into physics in the early twentieth century.
+
+357
+00:33:26.100 --> 00:33:36.130
+David Schaich (he): after the initial development of autumn statistics. So what we now have is
+
+358
+00:33:37.510 --> 00:33:41.130
+David Schaich (he): something that does not quite fit all in the projector
+
+359
+00:33:41.640 --> 00:33:49.290
+David Schaich (he): you want to plug in this expansion of either 3 half power into this integral.
+
+360
+00:33:49.320 --> 00:33:54.870
+David Schaich (he): the integration range extended to infinity this gives us.
+
+361
+00:33:56.380 --> 00:33:59.260
+David Schaich (he): is you some
+
+362
+00:34:01.440 --> 00:34:05.350
+David Schaich (he): oh, 3 simpler integrals
+
+363
+00:34:06.370 --> 00:34:16.300
+David Schaich (he): that's we can either evaluate by hand, or looked up on Wikipedia, or a similar resource.
+
+364
+00:34:17.880 --> 00:34:23.110
+David Schaich (he): without any difficulty. without anything like the difficulty we would have had
+
+365
+00:34:23.219 --> 00:34:27.400
+David Schaich (he): with that E as a function of X. That is, a function of X
+
+366
+00:34:27.760 --> 00:34:30.560
+David Schaich (he): lingering in the into grand.
+
+367
+00:34:31.889 --> 00:34:32.900
+David Schaich (he): So
+
+368
+00:34:34.889 --> 00:34:37.150
+David Schaich (he): the average particle number
+
+369
+00:34:37.949 --> 00:34:46.880
+David Schaich (he): keeping track of all of the constants in terms of that with these approximations has
+
+370
+00:34:47.080 --> 00:34:49.389
+David Schaich (he): an overall factor of two-thirds
+
+371
+00:34:51.530 --> 00:34:53.770
+David Schaich (he): times. The first term is a
+
+372
+00:34:54.770 --> 00:35:05.160
+David Schaich (he): potentially the free house power and then the integral itself. It's just integrating from minus infinity to infinity over the ratio of exponentials.
+
+373
+00:35:06.000 --> 00:35:10.280
+David Schaich (he): I will all that to some
+
+374
+00:35:10.330 --> 00:35:13.200
+David Schaich (he): number the result of that integration.
+
+375
+00:35:13.450 --> 00:35:14.280
+David Schaich (he): Hey, you.
+
+376
+00:35:16.390 --> 00:35:18.830
+we'll face. I sub 0.
+
+377
+00:35:19.180 --> 00:35:23.780
+David Schaich (he): We are. and I some 0 is
+
+378
+00:35:30.110 --> 00:35:31.630
+David Schaich (he): plus one squared.
+
+379
+00:35:33.730 --> 00:35:34.650
+David Schaich (he): and
+
+380
+00:35:35.730 --> 00:35:41.730
+David Schaich (he): you will next 2 terms in the expansion.
+
+381
+00:35:43.570 --> 00:35:47.940
+David Schaich (he): The 2 thirds and 3 have to cancel out. We just have
+
+382
+00:35:50.260 --> 00:35:54.340
+David Schaich (he): 18 square root of chemical potential.
+
+383
+00:35:54.470 --> 00:35:57.250
+David Schaich (he): and then the integral I one
+
+384
+00:35:57.420 --> 00:35:58.680
+David Schaich (he): that is
+
+385
+00:36:01.940 --> 00:36:03.280
+David Schaich (he): just has
+
+386
+00:36:06.300 --> 00:36:14.970
+David Schaich (he): a factor of thanks problem in the second term in the summer field expansion. I'm. In the wall
+
+387
+00:36:18.740 --> 00:36:19.830
+David Schaich (he): integral
+
+388
+00:36:21.200 --> 00:36:26.990
+David Schaich (he): again. Similarly. the final term is 4 times smaller than the previous one.
+
+389
+00:36:27.270 --> 00:36:29.970
+David Schaich (he): We have a t squared
+
+390
+00:36:33.190 --> 00:36:36.120
+David Schaich (he): useful. What happened to the now
+
+391
+00:36:36.260 --> 00:36:37.330
+David Schaich (he): Oops? Okay
+
+392
+00:36:38.210 --> 00:36:45.890
+David Schaich (he): on the projector. And this comes with you through it to go I 2. Yeah.
+
+393
+00:36:49.280 --> 00:36:51.280
+David Schaich (he): 2 factors of X
+
+394
+00:36:52.640 --> 00:36:57.360
+David Schaich (he): in the numerator. So we have a sequence
+
+395
+00:36:57.520 --> 00:37:04.780
+David Schaich (he): Sorry. 2 factors of X in the numerator there. So a sequence of 3 quite similar integrals
+
+396
+00:37:04.960 --> 00:37:06.290
+David Schaich (he): for us to
+
+397
+00:37:06.560 --> 00:37:12.590
+David Schaich (he): either figure out for ourselves or look up as appropriate.
+
+398
+00:37:12.930 --> 00:37:21.910
+David Schaich (he): The first one is not too hard to figure out for ourselves, because we have seen that actually that
+
+399
+00:37:23.230 --> 00:37:26.530
+David Schaich (he): this he to the X over E to the x plus one squared.
+
+400
+00:37:26.840 --> 00:37:28.770
+David Schaich (he): is related
+
+401
+00:37:29.170 --> 00:37:32.500
+David Schaich (he): the
+
+402
+00:37:32.660 --> 00:37:34.920
+David Schaich (he): function with respect to the energy.
+
+403
+00:37:37.090 --> 00:37:44.780
+David Schaich (he): the only difference that we have in here is this overall factor of Beta that we can't have a zoom
+
+404
+00:37:46.020 --> 00:37:48.300
+David Schaich (he): into. Yeah.
+
+405
+00:37:50.920 --> 00:37:55.810
+David Schaich (he): the X, The hex is
+
+406
+00:37:59.900 --> 00:38:05.620
+David Schaich (he): going to be proportional to beta de that we get
+
+407
+00:38:07.550 --> 00:38:15.660
+David Schaich (he): the relation between the derivative of the primary function and the ratio of exponentials. Just converse the X to the E.
+
+408
+00:38:15.830 --> 00:38:24.330
+David Schaich (he): Because we have extended the range of integration that stays the same. Never x goes to or minus infinity, so to see, and vice versa.
+
+409
+00:38:24.610 --> 00:38:37.610
+David Schaich (he): and you know the probably fundamental more calculus that the integral of a derivative just gives the function itself
+
+410
+00:38:40.540 --> 00:38:43.480
+David Schaich (he): and its limits of integration.
+
+411
+00:38:44.550 --> 00:38:55.350
+David Schaich (he): And you've gone through this argument already. You're calling me all the family function. When the energy goes to infinity the function goes to 0.
+
+412
+00:38:55.990 --> 00:38:58.950
+David Schaich (he): The energy goes to minus infinity
+
+413
+00:38:59.110 --> 00:39:00.470
+David Schaich (he): goes to one
+
+414
+00:39:02.160 --> 00:39:04.250
+David Schaich (he): assuming a
+
+415
+00:39:08.520 --> 00:39:12.620
+David Schaich (he): it's assuming a constant chemical potential which we can.
+
+416
+00:39:12.680 --> 00:39:13.750
+David Schaich (he): So we have
+
+417
+00:39:13.830 --> 00:39:21.560
+David Schaich (he): a minus 0 from the upper limit of integration. and then
+
+418
+00:39:21.710 --> 00:39:26.510
+David Schaich (he): that will be very simple results. For this 5 0 is just one
+
+419
+00:39:28.060 --> 00:39:30.870
+David Schaich (he): I One is deeply symbol, which we can
+
+420
+00:39:32.460 --> 00:39:35.440
+David Schaich (he): rewrite it in a suggestive way.
+
+421
+00:39:37.160 --> 00:39:39.200
+David Schaich (he): So writing
+
+422
+00:39:41.850 --> 00:39:42.990
+David Schaich (he): factors
+
+423
+00:39:47.250 --> 00:40:01.050
+David Schaich (he): like so we can divide through by E to the X in the denominator. I'll divide it through that second factor, so it cancels out the E to the X
+
+424
+00:40:01.530 --> 00:40:04.030
+David Schaich (he): minus x
+
+425
+00:40:04.280 --> 00:40:05.120
+one.
+
+426
+00:40:06.620 --> 00:40:13.370
+David Schaich (he): and this is useful because you can see that the denominator
+
+427
+00:40:13.920 --> 00:40:17.650
+David Schaich (he): in this integrand is symmetric under swapping
+
+428
+00:40:17.730 --> 00:40:28.250
+David Schaich (he): X to minus x. that is to say, it is an even function of X, whereas the numerator is an odd function of X. It changes sign
+
+429
+00:40:28.310 --> 00:40:30.710
+David Schaich (he): when the X changes sign
+
+430
+00:40:30.750 --> 00:40:38.270
+David Schaich (he): so integrating symmetrically around 0. Thanks to our extension of the domain, the integration
+
+431
+00:40:39.970 --> 00:40:50.470
+David Schaich (he): we have an overall all ratio on, divided by even function. integrated, symmetric around 0, You, 0 and
+
+432
+00:40:52.290 --> 00:40:54.530
+David Schaich (he): proportional to the temperature
+
+433
+00:40:54.910 --> 00:40:58.170
+David Schaich (he): in his own health. Expansion just drops out
+
+434
+00:40:58.600 --> 00:40:59.850
+David Schaich (he): for that reason.
+
+435
+00:41:03.280 --> 00:41:06.700
+David Schaich (he): What do you I' to go?
+
+436
+00:41:09.860 --> 00:41:11.500
+David Schaich (he): You'll be useful to
+
+437
+00:41:11.970 --> 00:41:16.860
+David Schaich (he): integrated by parts again, and for that it's also useful to note that would.
+
+438
+00:41:17.040 --> 00:41:31.030
+David Schaich (he): In fact. we go through the same rewriting of the integrand. We get an even function so rather than situating from minus infinity to infinity.
+
+439
+00:41:31.250 --> 00:41:34.680
+David Schaich (he): We can just integrate from 0 to the double the result.
+
+440
+00:41:36.070 --> 00:41:38.070
+David Schaich (he): That's what even function is because
+
+441
+00:41:40.540 --> 00:41:41.940
+David Schaich (he): you don't need to.
+
+442
+00:41:45.590 --> 00:41:56.900
+David Schaich (he): We write the Instagram in any way, we will just go ahead and integrate this by parts with a new that is equal to X squared the TV. That is
+
+443
+00:41:57.010 --> 00:41:59.440
+David Schaich (he): everything else
+
+444
+00:42:00.700 --> 00:42:04.650
+David Schaich (he): of exponentials. Dx. And then
+
+445
+00:42:05.930 --> 00:42:17.000
+David Schaich (he): this means, as we have seen, from the connection between this ratio and the family function That's B itself is going to be one over
+
+446
+00:42:18.780 --> 00:42:31.250
+David Schaich (he): negative sign. We're taking the derivative of B with respect to X. Just bring his name negative one to power. and then an E to the X on top from the chain rule.
+
+447
+00:42:32.730 --> 00:42:36.650
+David Schaich (he): So the
+
+448
+00:42:36.930 --> 00:42:41.190
+David Schaich (he): overall factor of 2 minus 2 X squared.
+
+449
+00:42:41.570 --> 00:42:45.990
+David Schaich (he): and the
+
+450
+00:42:46.290 --> 00:42:47.590
+David Schaich (he): then plus
+
+451
+00:42:48.740 --> 00:42:50.750
+David Schaich (he): the integral of V. D. U,
+
+452
+00:42:52.420 --> 00:43:05.820
+David Schaich (he): the U. Is 2 X. Dx. And what we have done by integrated by parts is reduced the power to which that E to the X possible, and it is being raised in the denominator.
+
+453
+00:43:06.230 --> 00:43:09.030
+David Schaich (he): Before we go to
+
+454
+00:43:10.560 --> 00:43:11.520
+David Schaich (he): that
+
+455
+00:43:13.090 --> 00:43:24.140
+David Schaich (he): remaining integral, we can consider the down return here. When X is 0. We have minus 2 times 0 over 2, which is from 0.
+
+456
+00:43:24.450 --> 00:43:36.020
+David Schaich (he): When X is infinity. Again, we can look at this hall. this ratio of infinity over infinity as much as we like the Polynomial will die off the exponential or not. So we get
+
+457
+00:43:36.280 --> 00:43:37.490
+David Schaich (he): 0
+
+458
+00:43:38.040 --> 00:43:40.540
+David Schaich (he): from both the that as before.
+
+459
+00:43:43.200 --> 00:43:46.380
+David Schaich (he): so all that we have left is this.
+
+460
+00:43:47.920 --> 00:43:49.430
+David Schaich (he): i'm open to global
+
+461
+00:43:49.730 --> 00:43:51.410
+David Schaich (he): of 4
+
+462
+00:43:52.640 --> 00:43:53.640
+David Schaich (he): phones.
+
+463
+00:43:53.670 --> 00:44:05.340
+David Schaich (he): I did you go with X over E to the X plus one, which is actually. you know, very similar to a set of integrals that we saw, and looking at the All for relativistic
+
+464
+00:44:05.370 --> 00:44:08.310
+David Schaich (he): in a previous supplemental podcast.
+
+465
+00:44:09.740 --> 00:44:21.010
+David Schaich (he): Let's go ahead. That is one minus one over 2 to some power. In this case that power is one. and then became a function out of 2.
+
+466
+00:44:21.310 --> 00:44:24.460
+David Schaich (he): Is it a function of 2 similar to the
+
+467
+00:44:24.590 --> 00:44:30.510
+David Schaich (he): 3 and 4 that we saw the relativistic for me on this
+
+468
+00:44:31.440 --> 00:44:34.680
+David Schaich (he): 4 times. One minus a half is 2
+
+469
+00:44:34.830 --> 00:44:46.790
+David Schaich (he): gamma of 2 is one factorial, which is one. and Zeta 2 is pi squared over 6, so we have 2 times pi squared over 6, which just gives us pi squared over 3
+
+470
+00:44:46.920 --> 00:44:49.260
+David Schaich (he): for this final integral
+
+471
+00:44:50.290 --> 00:44:55.300
+David Schaich (he): well, the final one that we will consider just the first
+
+472
+00:44:55.670 --> 00:45:03.840
+David Schaich (he): non-trivial. The first temperature dependence correction. In the low temperature summer fell expansion. So
+
+473
+00:45:06.890 --> 00:45:08.220
+David Schaich (he): you now have
+
+474
+00:45:09.800 --> 00:45:13.100
+David Schaich (he): the final results. Let me see.
+
+475
+00:45:14.980 --> 00:45:21.460
+David Schaich (he): I can give it on the screen as well. Yeah. Do you
+
+476
+00:45:22.500 --> 00:45:24.620
+David Schaich (he): particle number itself?
+
+477
+00:45:25.750 --> 00:45:32.840
+David Schaich (he): Yeah. exponentially precise approximations that we have justified for low temperatures. This is equal
+
+478
+00:45:33.590 --> 00:45:37.260
+David Schaich (he): to those constant terms.
+
+479
+00:45:37.740 --> 00:45:40.570
+David Schaich (he): How many 2 things.
+
+480
+00:45:44.380 --> 00:45:45.320
+David Schaich (he): what
+
+481
+00:45:46.470 --> 00:45:58.050
+David Schaich (he): Pi squared over 3 times a quarter. It's. I squared how it's okay, t squared. And then you one half hour
+
+482
+00:45:59.700 --> 00:46:05.010
+David Schaich (he): as the leading to dependent correction coming from the summer called expansion.
+
+483
+00:46:06.980 --> 00:46:15.420
+David Schaich (he): and something very pleasant happens when we connect this result. Yeah. there the energy.
+
+484
+00:46:18.260 --> 00:46:19.740
+David Schaich (he): So that is the
+
+485
+00:46:22.220 --> 00:46:26.920
+David Schaich (he): chemical potential in the of absolute zeros. And for sure, we wrote it down
+
+486
+00:46:28.020 --> 00:46:37.540
+David Schaich (he): earlier, just at the bottom of with the illustrations of the next few of States. I, Wisconsin squared over 2 yeah
+
+487
+00:46:40.000 --> 00:46:41.150
+David Schaich (he): times.
+
+488
+00:46:43.120 --> 00:46:44.820
+David Schaich (he): 3 Pi squared
+
+489
+00:46:51.400 --> 00:46:53.060
+David Schaich (he): and 2 through his power.
+
+490
+00:46:54.640 --> 00:46:59.880
+David Schaich (he): And if we raise both sides of this equation to the 3
+
+491
+00:47:02.680 --> 00:47:03.930
+David Schaich (he): you find
+
+492
+00:47:05.940 --> 00:47:12.960
+David Schaich (he): so that we use in terms of the parentheses just raise the one. so we will have a
+
+493
+00:47:13.310 --> 00:47:15.520
+David Schaich (he): free from that. You'll have
+
+494
+00:47:15.710 --> 00:47:18.630
+David Schaich (he): Each part is going to go into H Bar cube
+
+495
+00:47:20.410 --> 00:47:21.850
+David Schaich (he): high squared.
+
+496
+00:47:22.880 --> 00:47:30.410
+David Schaich (he): He was released from that power and 2 M. To the 3 apps power.
+
+497
+00:47:31.480 --> 00:47:36.020
+David Schaich (he): We can write as the square root of 2 in 2. That's
+
+498
+00:47:38.930 --> 00:47:41.930
+David Schaich (he): no queue. We have a
+
+499
+00:47:46.470 --> 00:47:48.400
+David Schaich (he): the average particle number itself.
+
+500
+00:47:49.600 --> 00:47:52.950
+David Schaich (he): you know. We can look back and recognize.
+
+501
+00:47:56.800 --> 00:48:03.760
+David Schaich (he): I can get both on the screen here that B times through 2 and Q
+
+502
+00:48:03.910 --> 00:48:05.970
+David Schaich (he): high school. In each part
+
+503
+00:48:06.330 --> 00:48:11.900
+David Schaich (he): you is precisely the Austin factor in the
+
+504
+00:48:12.070 --> 00:48:18.840
+David Schaich (he): that we have multiplying in the terms in our final results.
+
+505
+00:48:23.270 --> 00:48:27.310
+David Schaich (he): So there is a three-halves that is not part of
+
+506
+00:48:27.420 --> 00:48:30.400
+David Schaich (he): that's.
+
+507
+00:48:30.590 --> 00:48:36.420
+David Schaich (he): It's wrapped up into that collection of also factors that we have been carrying. The more
+
+508
+00:48:36.500 --> 00:48:37.840
+David Schaich (he): this whole time.
+
+509
+00:48:38.930 --> 00:48:43.400
+David Schaich (he): So we can. Well, here. that
+
+510
+00:48:45.650 --> 00:48:48.160
+David Schaich (he): machine 0 is just
+
+511
+00:48:50.540 --> 00:49:00.440
+David Schaich (he): sorry. 3 halves. So you take G 0 to the left hand side. We bring you to the i'm effective
+
+512
+00:49:02.990 --> 00:49:08.490
+David Schaich (he): the energy to the 3 half power in here.
+
+513
+00:49:11.120 --> 00:49:12.030
+David Schaich (he): Pretty good.
+
+514
+00:49:13.240 --> 00:49:16.560
+David Schaich (he): Hey, you pleasant cancellation
+
+515
+00:49:18.180 --> 00:49:26.220
+David Schaich (he): that two-thirds times 3 halves as well. You handle this. and enough times
+
+516
+00:49:31.650 --> 00:49:32.920
+David Schaich (he): we have.
+
+517
+00:49:34.840 --> 00:49:41.370
+David Schaich (he): and then we have. I squared t squared You have it
+
+518
+00:49:43.320 --> 00:49:48.890
+David Schaich (he): from G. 0. The 12 over 3 times 2 is 8,
+
+519
+00:49:50.700 --> 00:49:51.700
+David Schaich (he): and
+
+520
+00:49:52.370 --> 00:49:56.640
+David Schaich (he): we have powers of the family energy multiplying
+
+521
+00:49:56.940 --> 00:50:00.050
+David Schaich (he): a one half power of the chemical potential.
+
+522
+00:50:01.880 --> 00:50:08.910
+David Schaich (he): So what's nice about this is that all of these factors of the average particle number just drop out.
+
+523
+00:50:11.150 --> 00:50:12.710
+David Schaich (he): and
+
+524
+00:50:14.130 --> 00:50:15.330
+David Schaich (he): if we
+
+525
+00:50:16.940 --> 00:50:22.880
+David Schaich (he): focus on this ratio of over the fermi energy. the 3
+
+526
+00:50:25.530 --> 00:50:32.030
+David Schaich (he): we can move the temperature dependent term the other side of the equation.
+
+527
+00:50:33.380 --> 00:50:35.020
+one minus.
+
+528
+00:50:35.810 --> 00:50:37.080
+David Schaich (he): I squared
+
+529
+00:50:38.130 --> 00:50:48.920
+David Schaich (he): t squared over 8 to the 3 halves. the one half. and then we take the 2 first power of both sides.
+
+530
+00:50:50.680 --> 00:50:51.350
+David Schaich (he): Yes.
+
+531
+00:50:52.080 --> 00:50:56.160
+David Schaich (he): i' it's just that ratio over fermi energy
+
+532
+00:50:56.770 --> 00:51:02.000
+David Schaich (he): on the left hand side related to
+
+533
+00:51:03.660 --> 00:51:09.060
+David Schaich (he): this difference between one minus a collection of constants.
+
+534
+00:51:09.440 --> 00:51:14.110
+David Schaich (he): It depend on t squared all that raised to the 2 first power.
+
+535
+00:51:14.650 --> 00:51:20.360
+David Schaich (he): If we have the temperature, we can make 2 further approximations.
+
+536
+00:51:21.630 --> 00:51:33.660
+David Schaich (he): First, to that. the energy is approximately equal to M. This is the same leading order now of the same T. Or expansion that we previously had.
+
+537
+00:51:34.130 --> 00:51:34.970
+David Schaich (he): Yeah.
+
+538
+00:51:34.980 --> 00:51:43.550
+David Schaich (he): stop it at the leaving order, because there are already 2 factors of the temperature in here. We don't need to bring in any more from higher orders.
+
+539
+00:51:44.490 --> 00:51:54.230
+David Schaich (he): and if t is small compared to that family energy which now becomes every energy to the 3 house, plus one half is 2.
+
+540
+00:51:54.400 --> 00:51:56.840
+David Schaich (he): So this term is
+
+541
+00:51:57.660 --> 00:51:58.900
+David Schaich (he): going to be
+
+542
+00:51:59.180 --> 00:52:03.400
+David Schaich (he): a small factor of t squared over E. F. Squared.
+
+543
+00:52:03.780 --> 00:52:08.760
+David Schaich (he): because that is small. you can To the expansion of
+
+544
+00:52:08.920 --> 00:52:15.400
+David Schaich (he): one line is a small number to a power. It's just one minus that power times the small number.
+
+545
+00:52:15.750 --> 00:52:17.500
+David Schaich (he): So we get back from
+
+546
+00:52:18.200 --> 00:52:22.530
+David Schaich (he): 1 8 2 1, 12,
+
+547
+00:52:23.250 --> 00:52:24.570
+the high squared
+
+548
+00:52:25.920 --> 00:52:31.280
+David Schaich (he): over 12, and then that we feel temperature over.
+
+549
+00:52:35.500 --> 00:52:36.500
+David Schaich (he): So
+
+550
+00:52:36.760 --> 00:52:42.310
+David Schaich (he): this is again the first term in the zone of expansion
+
+551
+00:52:42.580 --> 00:52:43.830
+David Schaich (he): for the
+
+552
+00:52:46.990 --> 00:52:50.740
+David Schaich (he): chemical potential, now a lower, but not 0 T.
+
+553
+00:52:51.110 --> 00:53:01.320
+David Schaich (he): So what this is telling us is that chemical potential itself we're limited that is, non-zero. It's approximately
+
+554
+00:53:02.370 --> 00:53:04.370
+David Schaich (he): email minus
+
+555
+00:53:05.520 --> 00:53:12.500
+David Schaich (he): I squared over 12. I was t squared over Edl. the one now.
+
+556
+00:53:13.590 --> 00:53:29.560
+David Schaich (he): So this correction. I'm: zoom anything negative some. and the phones Yes. the knowledge your temperature reduces new compared to its 0 temperature gallery, the energy.
+
+557
+00:53:32.760 --> 00:53:37.590
+David Schaich (he): Wendy temperature is small. but not 0.
+
+558
+00:53:38.210 --> 00:53:40.740
+David Schaich (he): So this is the
+
+559
+00:53:40.810 --> 00:53:43.750
+David Schaich (he): that's we made earlier. I'm: looking at
+
+560
+00:53:43.780 --> 00:53:47.430
+David Schaich (he): this diagram that the no material value
+
+561
+00:53:47.460 --> 00:53:56.460
+David Schaich (he): of the chemical potential. The point where the fermi function is equal to a half. It's always going to be
+
+562
+00:53:56.470 --> 00:54:04.070
+David Schaich (he): smaller than 0 temperature value very energy. And we have computed precisely how much smaller it is at low temperatures.
+
+563
+00:54:04.190 --> 00:54:08.680
+David Schaich (he): The leading effect is authentic in that most your temperature.
+
+564
+00:54:13.070 --> 00:54:14.730
+David Schaich (he): So the other
+
+565
+00:54:14.740 --> 00:54:18.300
+David Schaich (he): target that we had for the summer call expansion. Today.
+
+566
+00:54:18.410 --> 00:54:19.340
+David Schaich (he): what is
+
+567
+00:54:20.150 --> 00:54:23.230
+David Schaich (he): we can get? The low temperature, heat, capacity.
+
+568
+00:54:23.400 --> 00:54:24.360
+David Schaich (he): which.
+
+569
+00:54:24.550 --> 00:54:27.560
+David Schaich (he): as we saw, the tutorial, requires
+
+570
+00:54:29.580 --> 00:54:33.560
+David Schaich (he): energy rather than the average particle number.
+
+571
+00:54:33.930 --> 00:54:35.190
+David Schaich (he): and that is
+
+572
+00:54:36.280 --> 00:54:39.610
+David Schaich (he): a very similar procedure. So I will
+
+573
+00:54:39.900 --> 00:54:45.570
+David Schaich (he): go through it more quickly, probably because this is the procedure that was sketched out
+
+574
+00:54:45.730 --> 00:54:49.160
+David Schaich (he): without keeping track of the concept factors in the tutorial.
+
+575
+00:54:50.170 --> 00:54:53.000
+David Schaich (he): So we essentially repeat the
+
+576
+00:54:55.400 --> 00:54:58.440
+David Schaich (he): manipulations that we went through to a particle number.
+
+577
+00:55:02.110 --> 00:55:14.070
+David Schaich (he): Now, looking at the internal energy of the do I through by that same constant G 0 on the desk. This is
+
+578
+00:55:15.050 --> 00:55:20.360
+David Schaich (he): instead of E to the one now is either the 3 hands waited by
+
+579
+00:55:20.660 --> 00:55:23.890
+David Schaich (he): every function, and it's written over the energy
+
+580
+00:55:24.840 --> 00:55:26.720
+David Schaich (he): and applying the
+
+581
+00:55:27.980 --> 00:55:39.410
+David Schaich (he): same integration by parts. The same low temperature approximation extending the lower limit of integration from X of minus B to the U.
+
+582
+00:55:39.480 --> 00:55:55.680
+David Schaich (he): X. And minus infinity. we can pick up a 2 fifth from the integration by parts we are. How are you? I'm sorry. TV is now because the 3,
+
+583
+00:55:57.420 --> 00:55:58.500
+David Schaich (he): that's all
+
+584
+00:55:59.700 --> 00:56:03.030
+David Schaich (he): I have Sorry you the bypass comes in.
+
+585
+00:56:05.320 --> 00:56:06.740
+David Schaich (he): We desire
+
+586
+00:56:07.230 --> 00:56:13.530
+David Schaich (he): the same ratio of exponentials that we got from the you, integrating by parts
+
+587
+00:56:14.370 --> 00:56:16.540
+David Schaich (he): the derivative of the family function
+
+588
+00:56:17.590 --> 00:56:20.500
+David Schaich (he): the next, and that just is.
+
+589
+00:56:21.480 --> 00:56:22.330
+David Schaich (he): or
+
+590
+00:56:23.330 --> 00:56:26.220
+David Schaich (he): the particle number we expand. This
+
+591
+00:56:26.530 --> 00:56:30.070
+David Schaich (he): function of E itself is a function of x
+
+592
+00:56:30.200 --> 00:56:34.640
+David Schaich (he): around it X equals 0,
+
+593
+00:56:35.500 --> 00:56:38.250
+David Schaich (he): and we get from that the same
+
+594
+00:56:39.780 --> 00:56:41.710
+David Schaich (he): set of phones.
+
+595
+00:56:45.030 --> 00:56:45.860
+David Schaich (he): Now what it
+
+596
+00:56:48.860 --> 00:56:52.880
+David Schaich (he): and the integral I 0 that integrates over E to the x.
+
+597
+00:56:53.180 --> 00:56:58.630
+David Schaich (he): you to the x squared plus one sorry over E to the x plus one squared by itself.
+
+598
+00:56:59.910 --> 00:57:01.990
+David Schaich (he): The next term
+
+599
+00:57:02.780 --> 00:57:08.990
+David Schaich (he): in the field or expand expansion brings down a factor of 5 path from the derivative cancels. The 2 fits.
+
+600
+00:57:09.580 --> 00:57:15.850
+David Schaich (he): There's a factor of team you to the 3 halves and a factor of X coming with the T.
+
+601
+00:57:15.910 --> 00:57:18.770
+David Schaich (he): It gives us need to grow, I one.
+
+602
+00:57:19.820 --> 00:57:28.470
+David Schaich (he): And then what do you A. T squared. What have
+
+603
+00:57:29.550 --> 00:57:41.200
+David Schaich (he): the I 2 just barely fits from the X squared. coming along with that issue of exponentials and the constant factor we have out Here is one half of the Taylor expansion.
+
+604
+00:57:41.480 --> 00:57:54.600
+David Schaich (he): the two-fifths and 5 halves cancel we have it here 3 halves from the second derivative of the 5 has so it's 3 over 2 times 2
+
+605
+00:57:54.960 --> 00:58:05.490
+David Schaich (he): gives us 3 quarters there. and these are the same integrals that we had before one 0 and high square over 3.
+
+606
+00:58:06.850 --> 00:58:09.420
+David Schaich (he): So you're not we.
+
+607
+00:58:12.590 --> 00:58:15.040
+David Schaich (he): My final result in the internal energy.
+
+608
+00:58:16.240 --> 00:58:17.160
+David Schaich (he): Yes.
+
+609
+00:58:18.230 --> 00:58:22.060
+David Schaich (he): books quite similar to
+
+610
+00:58:22.340 --> 00:58:28.340
+David Schaich (he): just a minute to go for the particle number, you know. Walk back, group g, 0, and then
+
+611
+00:58:28.410 --> 00:58:33.730
+David Schaich (he): in terms, the first independence of team assisting in the limit of absolute 0,
+
+612
+00:58:33.750 --> 00:58:46.500
+David Schaich (he): the second quadratic in just with completely different numerical coefficients. and the however you raised by one from 3 hands to 5 half.
+
+613
+00:58:47.700 --> 00:58:50.420
+David Schaich (he): you know. For a moment I have to.
+
+614
+00:58:52.070 --> 00:58:59.700
+David Schaich (he): thanks to having and you to the 3 halves and our starting points rather than just the square root of the
+
+615
+00:59:01.860 --> 00:59:05.650
+David Schaich (he): and plugging in G 0 Again.
+
+616
+00:59:07.810 --> 00:59:08.890
+David Schaich (he): we have
+
+617
+00:59:11.430 --> 00:59:14.400
+David Schaich (he): something that is not on the screen at the moment.
+
+618
+00:59:15.520 --> 00:59:23.150
+David Schaich (he): That's 3 3, half times 2 fits. The two's cancel they're left with refits
+
+619
+00:59:26.260 --> 00:59:38.590
+David Schaich (he): you to the 5 house over the fairly energy to the rehabs. and then we second term we have 3.
+
+620
+00:59:39.300 --> 00:59:43.270
+David Schaich (he): It's 3, 8. I forgot the
+
+621
+00:59:44.920 --> 00:59:48.830
+David Schaich (he): typical number that is in the numerator of G 0.
+
+622
+00:59:49.200 --> 00:59:51.160
+David Schaich (he): We'll make sure to
+
+623
+00:59:53.320 --> 00:59:56.670
+David Schaich (he): that. That Are there
+
+624
+00:59:58.170 --> 01:00:01.360
+David Schaich (he): pi squared t squared, and then
+
+625
+01:00:01.460 --> 01:00:03.330
+David Schaich (he): use the one half power.
+
+626
+01:00:05.230 --> 01:00:06.600
+David Schaich (he): the 3 house.
+
+627
+01:00:11.450 --> 01:00:12.560
+David Schaich (he): Now
+
+628
+01:00:14.360 --> 01:00:16.110
+David Schaich (he): what we just found
+
+629
+01:00:17.500 --> 01:00:19.040
+David Schaich (he): at the end of
+
+630
+01:00:19.060 --> 01:00:22.510
+David Schaich (he): our consideration of the particle number was.
+
+631
+01:00:23.000 --> 01:00:29.410
+David Schaich (he): Yeah. relation between the and the fermi energy that we can use to
+
+632
+01:00:29.900 --> 01:00:32.570
+David Schaich (he): simplify these 2 terms.
+
+633
+01:00:33.240 --> 01:00:41.700
+David Schaich (he): and in particular we saw that use the £5 is going to start off. The leading factor of
+
+634
+01:00:41.930 --> 01:00:46.910
+David Schaich (he): the primary energy of the I have with a t square is dependent correction.
+
+635
+01:00:48.310 --> 01:00:49.060
+David Schaich (he): So
+
+636
+01:00:50.370 --> 01:00:51.880
+David Schaich (he): just to write this down
+
+637
+01:00:53.280 --> 01:00:54.510
+David Schaich (he): explicitly.
+
+638
+01:00:55.990 --> 01:00:57.720
+David Schaich (he): you default has
+
+639
+01:00:58.170 --> 01:01:01.220
+David Schaich (he): is the fairly energy to the 5 hands times
+
+640
+01:01:01.470 --> 01:01:06.130
+David Schaich (he): this one that is pi squared over 12.
+
+641
+01:01:07.580 --> 01:01:08.520
+David Schaich (he): Yeah.
+
+642
+01:01:10.900 --> 01:01:14.720
+David Schaich (he): squared it all of that to the 5 halves
+
+643
+01:01:15.860 --> 01:01:17.250
+David Schaich (he): as before.
+
+644
+01:01:17.800 --> 01:01:22.450
+David Schaich (he): working with low temperatures relative to the pyramid energy, we can expand
+
+645
+01:01:22.470 --> 01:01:28.500
+David Schaich (he): this difference in 1 one is a small quantity to power. It's one minus that 100 times this. Multiply
+
+646
+01:01:29.590 --> 01:01:37.780
+David Schaich (he): too many order no higher terms of the and neglect, because they will have higher hours of the to be able.
+
+647
+01:01:37.800 --> 01:01:45.030
+David Schaich (he): We respond to the higher orders in this some of the expansion. The first term is just
+
+648
+01:01:45.320 --> 01:01:53.960
+David Schaich (he): the and then we have once what else? Times 5 have is 5, 24.
+
+649
+01:01:54.980 --> 01:01:58.710
+David Schaich (he): The pi squared t squared. and then
+
+650
+01:01:59.650 --> 01:02:04.410
+David Schaich (he): e to the 5 halves over e squared needs just
+
+651
+01:02:05.600 --> 01:02:09.330
+David Schaich (he): one half factor called that to the energy.
+
+652
+01:02:11.790 --> 01:02:13.010
+David Schaich (he): What you can
+
+653
+01:02:14.960 --> 01:02:28.320
+David Schaich (he): insert this relation between the chemical potential view and the into the 2 terms that we found for the
+
+654
+01:02:28.710 --> 01:02:30.530
+David Schaich (he): average internal energy
+
+655
+01:02:33.820 --> 01:02:35.070
+David Schaich (he): this gives us.
+
+656
+01:02:36.070 --> 01:02:41.880
+David Schaich (he): There you go with the Don't. Need it
+
+657
+01:02:43.160 --> 01:02:46.680
+David Schaich (he): clear dependence on the chemical potential.
+
+658
+01:02:47.260 --> 01:02:51.590
+David Schaich (he): We replace you me this
+
+659
+01:02:52.490 --> 01:03:00.210
+David Schaich (he): expression in terms of the energy keeping only how it is up to e squared.
+
+660
+01:03:00.470 --> 01:03:03.990
+David Schaich (he): He was on the call expansion. So in this
+
+661
+01:03:07.690 --> 01:03:13.980
+David Schaich (he): there's personal number I almost forgot about. and then use the 5 apps
+
+662
+01:03:16.720 --> 01:03:23.130
+David Schaich (he): to the 3 houses just one.
+
+663
+01:03:25.210 --> 01:03:26.260
+David Schaich (he): If we
+
+664
+01:03:28.670 --> 01:03:42.340
+David Schaich (he): then bring in the second term we have 3 fifths times 5, 24 is the minus sign. and these yeah, we same, and as before.
+
+665
+01:03:42.540 --> 01:03:47.480
+David Schaich (he): And then I squared T squared
+
+666
+01:03:49.150 --> 01:03:58.420
+David Schaich (he): and turn the energy to the one hand over to the 3 houses. one over. If you any energy there.
+
+667
+01:03:58.940 --> 01:04:03.350
+David Schaich (he): we need to play the same game with the second term we have up here
+
+668
+01:04:03.500 --> 01:04:16.930
+David Schaich (he): which brings in a new to the one half. I'll leave you Terrible Here will be the to. You want to have it along with a P squared correction that would come in, and we're a team before.
+
+669
+01:04:16.990 --> 01:04:24.720
+David Schaich (he): so we'll collect that and keep all of these you can t squared term. We have a plus 3 8
+
+670
+01:04:26.220 --> 01:04:31.690
+David Schaich (he): critical number I was. I squared t squared, and then
+
+671
+01:04:32.820 --> 01:04:36.050
+David Schaich (he): very energies for one half over 3 halves again.
+
+672
+01:04:36.060 --> 01:04:38.650
+David Schaich (he): one over the fermi energy itself
+
+673
+01:04:40.210 --> 01:04:52.840
+David Schaich (he): good, and the exact quality there. My tap that we have in order to the fourth terms that we are we collecting in these approximations? So all that we have in the end.
+
+674
+01:04:56.760 --> 01:05:06.400
+David Schaich (he): And you have Toms the German energy the result that we saw in lecture the non-zero internal energy that remains, even though the limit of absolutely 0 temperature.
+
+675
+01:05:06.870 --> 01:05:22.290
+David Schaich (he): and then the leading to, and then correction through that the whole functional form of these 2 terms has come up to be the same. You just have to combine their coefficients 3. It's minus one. A is a quarter. They cost me a selling.
+
+676
+01:05:26.810 --> 01:05:31.950
+David Schaich (he): and this particle number almost t square over the energy.
+
+677
+01:05:33.900 --> 01:05:42.030
+David Schaich (he): and therefore keep capacity that we promise to look at the starts of this Pencast
+
+678
+01:05:44.410 --> 01:05:50.020
+David Schaich (he): Is that constant volume, just the derivative with respect to temperature.
+
+679
+01:05:52.150 --> 01:06:01.330
+David Schaich (he): The result we just found on the internal energy Fix the total number in the volume. The first term is T. Independent. It drops out.
+
+680
+01:06:02.680 --> 01:06:03.260
+Yeah.
+
+681
+01:06:04.060 --> 01:06:15.090
+David Schaich (he): i'll put in the approximation sign because i'm dropping this higher order before terms. We have the derivative of t script with respect to T.
+
+682
+01:06:19.550 --> 01:06:20.960
+Now under there.
+
+683
+01:06:22.760 --> 01:06:24.040
+David Schaich (he): Yeah, and
+
+684
+01:06:26.610 --> 01:06:33.900
+David Schaich (he): times T: And this linear keep capacity in the temperature
+
+685
+01:06:34.010 --> 01:06:36.310
+David Schaich (he): is just what we looked at
+
+686
+01:06:36.990 --> 01:06:38.360
+David Schaich (he): in the tutorial.
+
+687
+01:06:39.520 --> 01:06:44.170
+David Schaich (he): We were able to reproduce the functional form a bit more quickly by the collecting
+
+688
+01:06:44.330 --> 01:06:46.830
+David Schaich (he): all of the awesome factories.
+
+689
+01:06:48.040 --> 01:06:54.340
+David Schaich (he): So you know, reproduce that work, and in addition to that, we have
+
+690
+01:06:56.850 --> 01:07:03.050
+David Schaich (he): the results for that far. We heard Helen previously that any
+
+691
+01:07:04.460 --> 01:07:08.880
+David Schaich (he): you know scene is just. I square over a few times.
+
+692
+01:07:10.110 --> 01:07:11.620
+David Schaich (he): fixed powerful number
+
+693
+01:07:12.810 --> 01:07:18.820
+David Schaich (he): over the fermi energy. which is, in fact, a way to
+
+694
+01:07:19.630 --> 01:07:22.810
+David Schaich (he): determined that the family energy of
+
+695
+01:07:22.880 --> 01:07:24.660
+David Schaich (he): the source of materials.
+
+696
+01:07:26.520 --> 01:07:38.350
+David Schaich (he): just by computing the so of, or in this case, the intercept of the heat capacity as popped in this way. Heat capacity over temperature.
+
+697
+01:07:38.660 --> 01:07:45.140
+David Schaich (he): I guess the temperature squared and intercept is our a. We have now related to the fermi energy
+
+698
+01:07:48.020 --> 01:07:57.570
+David Schaich (he): with a vacuum of pi squared over 2. So this is one way to use those experimental measurements. the fundamental.
+
+699
+01:07:59.380 --> 01:08:01.020
+David Schaich (he): This is your mechanics.
+
+700
+01:08:04.890 --> 01:08:06.860
+David Schaich (he): all of the electron gas
+
+701
+01:08:06.920 --> 01:08:15.310
+David Schaich (he): that is giving us that heat capacity. In the in the first place, the theoretical description of the experimental data.
+
+702
+01:08:16.910 --> 01:08:19.790
+David Schaich (he): So that is the
+
+703
+01:08:21.020 --> 01:08:26.950
+David Schaich (he): final argument that we wanted to reach. Just say one last thing
+
+704
+01:08:28.310 --> 01:08:36.010
+David Schaich (he): about what happens when that zoom call expansion may not be applicable and may reform
+
+705
+01:08:39.620 --> 01:08:43.040
+David Schaich (he): I only mark to look at is what happens if we
+
+706
+01:08:44.560 --> 01:08:47.689
+David Schaich (he): consider higher temperatures. Yeah, all right.
+
+707
+01:08:51.640 --> 01:08:59.200
+David Schaich (he): So our full expansion, we can see, is roughly setting this scale relative to which the temperature is hi or low.
+
+708
+01:09:01.189 --> 01:09:02.130
+David Schaich (he): So
+
+709
+01:09:04.069 --> 01:09:05.779
+David Schaich (he): the expansions that
+
+710
+01:09:09.100 --> 01:09:15.859
+David Schaich (he): we have going through the effort of computing the expansions and powers.
+
+711
+01:09:16.990 --> 01:09:27.490
+David Schaich (he): Oh. that ratio that it is much less than one, but not 0 good expansions.
+
+712
+01:09:28.960 --> 01:09:30.810
+David Schaich (he): not even to the bridge.
+
+713
+01:09:32.640 --> 01:09:35.710
+David Schaich (he): If we start to consider high temperatures
+
+714
+01:09:39.319 --> 01:09:42.800
+David Schaich (he): which we would like to connect to the classical limit
+
+715
+01:09:44.600 --> 01:09:49.319
+David Schaich (he): and see that the chemical potential behaves as we expected, the classical limits
+
+716
+01:09:49.529 --> 01:09:55.120
+David Schaich (he): of the so. If we don't have expansions.
+
+717
+01:09:55.130 --> 01:09:58.550
+David Schaich (he): We can't compute the integrals exactly
+
+718
+01:09:59.150 --> 01:10:01.980
+David Schaich (he): as usual for this module.
+
+719
+01:10:02.680 --> 01:10:06.370
+David Schaich (he): The modern technology that we were into there is
+
+720
+01:10:07.470 --> 01:10:09.230
+David Schaich (he): a numerical solution
+
+721
+01:10:14.770 --> 01:10:17.630
+David Schaich (he): of the expression that was our starting point.
+
+722
+01:10:18.650 --> 01:10:21.350
+David Schaich (he): Hmm. How much particle number
+
+723
+01:10:22.550 --> 01:10:26.040
+David Schaich (he): expressed in terms of the and
+
+724
+01:10:26.820 --> 01:10:30.340
+David Schaich (he): that we function right now, explicitly
+
+725
+01:10:31.000 --> 01:10:32.450
+David Schaich (he): as a reminder.
+
+726
+01:10:33.990 --> 01:10:34.970
+David Schaich (he): and that
+
+727
+01:10:37.170 --> 01:10:40.600
+David Schaich (he): we can see by plugging in the
+
+728
+01:10:42.360 --> 01:10:44.580
+David Schaich (he): result we found for
+
+729
+01:10:46.800 --> 01:11:00.780
+David Schaich (he): cost in terms of this new States in terms of the particle over and the energy. and he is. we have number over energy to the 3 half power.
+
+730
+01:11:11.480 --> 01:11:12.690
+David Schaich (he): So the
+
+731
+01:11:13.850 --> 01:11:23.720
+David Schaich (he): dependence on the average person number cancels out. and we really have a consistency condition. We just have. say, a one
+
+732
+01:11:24.840 --> 01:11:36.790
+David Schaich (he): on the left side of this equation. and we want that to be equal to this integral. which better have no dimensions. It.
+
+733
+01:11:36.890 --> 01:11:44.090
+David Schaich (he): my number. We can confirm this by expressing it in terms of
+
+734
+01:11:45.450 --> 01:11:47.250
+David Schaich (he): to mention this ratios
+
+735
+01:11:47.650 --> 01:11:48.990
+convenient to
+
+736
+01:11:49.090 --> 01:11:59.950
+David Schaich (he): work with on the computer. There are new variable X. Will no longer be that difference between energy and chemical potential. So this is
+
+737
+01:12:00.900 --> 01:12:04.870
+David Schaich (he): a new ratio energy that's being integrated over.
+
+738
+01:12:05.070 --> 01:12:07.370
+David Schaich (he): divided by that temperature
+
+739
+01:12:07.690 --> 01:12:08.410
+the other way
+
+740
+01:12:09.020 --> 01:12:11.610
+David Schaich (he): the energy is x times the temperature.
+
+741
+01:12:13.750 --> 01:12:26.670
+David Schaich (he): So if we look at the structure of this expression. we have an integral over now. Dx. The dimensionless number.
+
+742
+01:12:27.270 --> 01:12:28.200
+David Schaich (he): the
+
+743
+01:12:28.480 --> 01:12:34.530
+David Schaich (he): the E and square root e will bring in the free fact. 3 halves, factors of T.
+
+744
+01:12:35.470 --> 01:12:37.550
+David Schaich (he): We have 3 hash factors of
+
+745
+01:12:39.860 --> 01:12:46.620
+David Schaich (he): out front already. So that's another dimension, this ratio. the one that is no longer a small.
+
+746
+01:12:50.010 --> 01:13:00.640
+David Schaich (he): When he is 0, so is X, and you will be at the upper limit of integration. and we have the you square root of X times you to the
+
+747
+01:13:00.710 --> 01:13:04.150
+David Schaich (he): Beta times. E is just x.
+
+748
+01:13:04.970 --> 01:13:08.060
+David Schaich (he): We have another factor of the
+
+749
+01:13:09.670 --> 01:13:13.850
+David Schaich (he): the exponential minus new times. Beta is minus over T,
+
+750
+01:13:15.470 --> 01:13:19.130
+David Schaich (he): and then plus one. Okay.
+
+751
+01:13:22.570 --> 01:13:27.970
+David Schaich (he): when we integrate X from 0 to infinity, and they want to do this Numerically
+
+752
+01:13:28.330 --> 01:13:35.600
+David Schaich (he): we made well, went into difficulties with taking the exponential of a very large number.
+
+753
+01:13:35.850 --> 01:13:38.770
+David Schaich (he): So I trick that we can right here
+
+754
+01:13:40.530 --> 01:13:47.990
+David Schaich (he): first of all is to define this ratio of temperature over 30 energy to be another dimension, this ratio
+
+755
+01:13:50.250 --> 01:13:53.300
+David Schaich (he): in lower case to the 3 house power.
+
+756
+01:13:54.430 --> 01:13:57.970
+David Schaich (he): and we can device through by E to the X
+
+757
+01:13:59.410 --> 01:14:02.860
+David Schaich (he): to give us an integr in this form.
+
+758
+01:14:06.230 --> 01:14:13.430
+David Schaich (he): We are now these E to the minus x are going to be very small. and save
+
+759
+01:14:15.070 --> 01:14:16.740
+David Schaich (he): as X. Becomes
+
+760
+01:14:16.860 --> 01:14:23.600
+David Schaich (he): very large, so they will drop out and become unemployed, and will cause any trouble for a miracle evaluation.
+
+761
+01:14:23.920 --> 01:14:25.340
+David Schaich (he): And in here
+
+762
+01:14:25.410 --> 01:14:33.020
+David Schaich (he): I have written this exponential with minus mu over t. It's the ratio of
+
+763
+01:14:33.190 --> 01:14:45.640
+David Schaich (he): mention. This ratios do you have dividing through my T, which is the temperature over the pyramid energy. so the C. Had better have It's
+
+764
+01:14:45.720 --> 01:14:49.150
+David Schaich (he): It's so.
+
+765
+01:14:49.760 --> 01:14:52.440
+David Schaich (he): You can read all that see is just
+
+766
+01:14:53.120 --> 01:14:56.230
+David Schaich (he): chemical potential, new over that very energy.
+
+767
+01:14:58.260 --> 01:14:59.870
+David Schaich (he): and we want to
+
+768
+01:15:00.400 --> 01:15:06.170
+David Schaich (he): see whether this ratio, which now just involves purely dimensionless numbers.
+
+769
+01:15:06.760 --> 01:15:13.880
+David Schaich (he): is equal to one for particular values of the and
+
+770
+01:15:13.930 --> 01:15:19.490
+David Schaich (he): chemical potential, and the temperature, both with respect to the energy.
+
+771
+01:15:20.220 --> 01:15:25.290
+David Schaich (he): So what we can do for this is fix the value of team
+
+772
+01:15:25.920 --> 01:15:31.190
+David Schaich (he): to some number that is, of interest, say one the temperature is equal to.
+
+773
+01:15:31.260 --> 01:15:35.970
+David Schaich (he): If you have any energy or half or 2, and then
+
+774
+01:15:38.700 --> 01:15:53.550
+David Schaich (he): yeah. be the integral into. I don't to eliminate it. and you can repeatedly evaluate that into goal.
+
+775
+01:15:54.010 --> 01:16:02.630
+David Schaich (he): Wow! Adjusting our remaining degree of freedom, c. The ratio of chemical
+
+776
+01:16:04.730 --> 01:16:10.150
+David Schaich (he): in order to satisfy it. The consistency condition
+
+777
+01:16:11.360 --> 01:16:12.380
+David Schaich (he): about it.
+
+778
+01:16:17.950 --> 01:16:18.840
+David Schaich (he): That's
+
+779
+01:16:19.180 --> 01:16:29.150
+David Schaich (he): the integral times 3 has to the 3. Half power is, in fact, equal to what? Just to show off what this could look like.
+
+780
+01:16:30.010 --> 01:16:31.340
+David Schaich (he): Here is.
+
+781
+01:16:33.900 --> 01:16:35.010
+David Schaich (he): hey?
+
+782
+01:16:36.930 --> 01:16:41.710
+David Schaich (he): It's also in the repository for the module.
+
+783
+01:16:43.030 --> 01:16:50.880
+David Schaich (he): and it does just what I described. It integrates an integrand that is, the square root of X times E to the minus x.
+
+784
+01:16:51.290 --> 01:16:54.820
+David Schaich (he): Divided by this constant factor that depends on
+
+785
+01:16:54.940 --> 01:17:01.260
+David Schaich (he): C and T. That we choose at the start. plus e to the minus X again.
+
+786
+01:17:01.340 --> 01:17:04.540
+David Schaich (he): and then we check to see what it 3 halves
+
+787
+01:17:04.800 --> 01:17:06.990
+David Schaich (he): times t to the 3 half power
+
+788
+01:17:08.850 --> 01:17:19.140
+David Schaich (he): multiplying that integral his, or is not equal to the one that it should be the number one.
+
+789
+01:17:20.400 --> 01:17:28.520
+David Schaich (he): So we choose some T. Here, too. We adjust the C. And we check to see how close we get
+
+790
+01:17:28.610 --> 01:17:29.460
+David Schaich (he): so
+
+791
+01:17:30.500 --> 01:17:43.950
+David Schaich (he): fixing the temperature to be twice the fermi energy. the value of the C that is minus 2.4, 6. So a negative value for the chemical potential.
+
+792
+01:17:44.120 --> 01:17:52.770
+David Schaich (he): That is, 2 and a half times the fermi energy gives us something that is within one per mill of the one of the
+
+793
+01:17:52.880 --> 01:17:58.340
+David Schaich (he): result that we need to be consistent. We are off by point, 0 0 0 6,
+
+794
+01:17:58.840 --> 01:18:01.390
+David Schaich (he): and we can check to see that both sides
+
+795
+01:18:02.820 --> 01:18:13.710
+David Schaich (he): of 2.4, 6 are far away. so we have 2 point minus 2.4. We are too high by point, 0 3, so that 3 off.
+
+796
+01:18:14.390 --> 01:18:17.730
+David Schaich (he): if we have 2.5. If the negative sign.
+
+797
+01:18:17.950 --> 01:18:21.170
+David Schaich (he): we are off by 1 point.
+
+798
+01:18:21.250 --> 01:18:25.390
+David Schaich (he): 8 down at the point 9, 8,
+
+799
+01:18:26.220 --> 01:18:38.490
+David Schaich (he): so point 4, 6, just working to 2 significant figures after decimal points gives us a good agreement with that self-consistency condition
+
+800
+01:18:38.520 --> 01:18:44.810
+David Schaich (he): that we can just record it repeat that process for a function of different values of the temperature
+
+801
+01:18:44.970 --> 01:18:49.410
+David Schaich (he): ranging from one tenth the fermi energy twice the Fermi energy
+
+802
+01:18:50.080 --> 01:18:55.190
+David Schaich (he): and plot results. and compare them to the
+
+803
+01:18:55.250 --> 01:19:00.000
+David Schaich (he): leading orders on our field expansion that we computed a few minutes ago
+
+804
+01:19:02.510 --> 01:19:06.910
+David Schaich (he): that this one is
+
+805
+01:19:11.110 --> 01:19:15.160
+David Schaich (he): So what what we are plotting here is that ratio of
+
+806
+01:19:15.280 --> 01:19:23.260
+David Schaich (he): you over to the app. and we computer earlier on. So that we are comparing this to
+
+807
+01:19:23.840 --> 01:19:26.280
+David Schaich (he): is this expression: Here
+
+808
+01:19:26.540 --> 01:19:34.510
+David Schaich (he): you over to the app is one minus pi over 12 times that to mention this lowercase t
+
+809
+01:19:35.440 --> 01:19:41.300
+David Schaich (he): so pi squared over 12 times t squared over Germany energy squared.
+
+810
+01:19:41.720 --> 01:19:46.140
+David Schaich (he): and the y-axis here is the value of
+
+811
+01:19:47.140 --> 01:19:48.230
+David Schaich (he): See you.
+
+812
+01:19:49.250 --> 01:19:50.490
+David Schaich (he): So the
+
+813
+01:19:50.900 --> 01:19:56.270
+David Schaich (he): ratio of chemical potential. With respect to the fermi energy that satisfies the
+
+814
+01:19:56.670 --> 01:19:57.750
+David Schaich (he): exact
+
+815
+01:19:58.370 --> 01:20:05.690
+David Schaich (he): consistency condition we are evaluating numerically, that is, the red points compared to the leading orders are held. Expansion
+
+816
+01:20:06.050 --> 01:20:15.060
+David Schaich (he): given by the dashed green line. so we can see. Let me shipped back to Dotcam.
+
+817
+01:20:16.820 --> 01:20:17.830
+David Schaich (he): which
+
+818
+01:20:20.000 --> 01:20:21.890
+David Schaich (he): is here.
+
+819
+01:20:22.060 --> 01:20:23.550
+David Schaich (he): This is that plot
+
+820
+01:20:25.180 --> 01:20:37.590
+David Schaich (he): to the right place. Coming from a numerical solution that does not make any assumptions about having a low temperature. We can see that the red points and the low temperatures over the expansion from the side.
+
+821
+01:20:37.840 --> 01:20:51.760
+David Schaich (he): The temperature is small. 1.2. By the time the temperature is comparable to the fermi energy around one. You are standard deviation between
+
+822
+01:20:52.030 --> 01:20:54.640
+David Schaich (he): the Red X's and the green line.
+
+823
+01:20:55.220 --> 01:20:58.660
+David Schaich (he): though that leading order expression is not so bad
+
+824
+01:20:58.680 --> 01:21:07.120
+David Schaich (he): all the way up to temperatures of place that we energy. But the interesting thing about this plot
+
+825
+01:21:08.250 --> 01:21:10.070
+David Schaich (he): is how you
+
+826
+01:21:10.850 --> 01:21:14.570
+David Schaich (he): becomes negative as the temperature
+
+827
+01:21:14.700 --> 01:21:17.540
+David Schaich (he): approaches and exceeds the pyramid energy
+
+828
+01:21:17.990 --> 01:21:22.110
+David Schaich (he): which should remind us of the high temperature classical limits.
+
+829
+01:21:22.200 --> 01:21:24.740
+David Schaich (he): You want to reproduce
+
+830
+01:21:24.790 --> 01:21:31.200
+David Schaich (he): you back to you. Already have reproduced this. You've seen that as the temperature increases
+
+831
+01:21:33.580 --> 01:21:35.220
+David Schaich (he): the chemical potential
+
+832
+01:21:36.660 --> 01:21:50.210
+David Schaich (he): not only switches from problems to negative. but it becomes more negative, more quickly than the temperature increases. We saw in the code that the 10 years twice the family energy.
+
+833
+01:21:50.360 --> 01:21:56.110
+David Schaich (he): the chemical potential, was almost 2.5 times the the negative sign.
+
+834
+01:21:57.030 --> 01:22:02.720
+David Schaich (he): So we have sure that we all approaching
+
+835
+01:22:04.440 --> 01:22:15.900
+David Schaich (he): the correct classical limit as desired negative, chemical, potential. It's more than the temperature. which is larger than the energy scales of the problem.
+
+836
+01:22:16.660 --> 01:22:19.220
+David Schaich (he): and that is be here.
+
+837
+01:22:21.050 --> 01:22:22.190
+David Schaich (he): Finally, one
+
+838
+01:22:23.820 --> 01:22:27.410
+David Schaich (he): results to be a on it. both for
+
+839
+01:22:29.940 --> 01:22:41.920
+David Schaich (he): investigation, looking beyond very low temperature limits with Malcolm, and it's a confirming on gases approximating the step function approximately. The primary function is a step function we've got beyond that
+
+840
+01:22:42.300 --> 01:22:48.210
+David Schaich (he): of the summer call expansion. We got a few nice results for the key capacity. and then
+
+841
+01:22:48.630 --> 01:22:53.510
+David Schaich (he): the chemical potential. And now, numerically, you know, see
+
+842
+01:22:53.680 --> 01:22:54.530
+David Schaich (he): that
+
+843
+01:22:55.380 --> 01:23:00.430
+David Schaich (he): the chemical potential behaves as it should reproduce the classical limit
+
+844
+01:23:00.570 --> 01:23:05.180
+David Schaich (he): that we want. That is it great results to?
+
+845
+01:23:05.240 --> 01:23:08.340
+David Schaich (he): And this Pencast and the module.
+
