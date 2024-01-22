@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 9}
-\renewcommand{\moddate}{Last modified 14 May 2023}
+\renewcommand{\moddate}{Last modified 21 May 2023}
 \setcounter{section}{9}
 \setcounter{subsection}{0}
 \phantomsection
@@ -514,8 +514,8 @@ For the Ising model, one domain will contain only up spins while the other will 
 The two domain walls are able to move freely through the lattice without changing the energy, but as the domain walls move the magnetization samples the full range of values $-\left(1 - \frac{2}{N}\right) \leq m \leq 1 - \frac{2}{N}$.
 
 \subsubsection{Two-dimensional critical temperature}
-While the zero-field Ising model on the $d = 2$ square lattice has also been exactly solved, both Onsager's original calculation and subsequent re-derivations using simpler techniques go substantially beyond this module.
-However, a few years before Onsager published his famous result, \href{https://en.wikipedia.org/wiki/Hans_Kramers}{Hans Kramers} and \href{https://en.wikipedia.org/wiki/Gregory_Wannier}{G.~H.~Wannier} were able to determine the exact $d = 2$ critical temperature \href{https://doi.org/10.1103/PhysRev.60.252}{in 1941}.
+While the zero-field Ising model on the $d = 2$ square lattice has also been exactly solved, both Onsager's original calculation and subsequent re-derivations using simpler techniques are much too complicated to cover here.
+However, a few years before Onsager published his famous result, \href{https://en.wikipedia.org/wiki/Hans_Kramers}{Hans Kramers} and \href{https://en.wikipedia.org/wiki/Gregory_Wannier}{Gregory Wannier} were able to determine the exact $d = 2$ critical temperature \href{https://doi.org/10.1103/PhysRev.60.252}{in 1941}.
 They did this by identifying a relation between two Ising model partition functions, without actually evaluating either sum over micro-states:
 \begin{equation}
   \label{eq:dual_Z}
@@ -526,10 +526,10 @@ where the two inverse temperatures \be and \betw are related by
   \label{eq:dual_beta}
   \sinh(2\be) = \frac{1}{\sinh(2\betw)}.
 \end{equation}
-This relation is now known as \href{https://en.wikipedia.org/wiki/Kramers-Wannier_duality}{Kramers--Wannier duality}, and the general concept of duality has become a powerful tool in modern theoretical physics.
+This relation is now known as \href{https://en.wikipedia.org/wiki/Kramers-Wannier_duality}{Kramers--Wannier duality}, and the general concept of \textbf{duality} has become a powerful tool in modern theoretical physics.
 Note that small \be implies large \betw and vice versa --- the duality relates one $d = 2$ Ising model at a high temperature to another one at a low temperature.
 
-Although it can be instructive to explicitly compare such high- and low-temperature partition functions, by computing series expansions as we did for the non-interacting spin system in \secref{sec:spin_info} and for the Einstein solid in a tutorial, to keep this section under control I'll skip that exercise.
+Although it can be instructive to explicitly compare such high- and low-temperature partition functions, by computing series expansions as we did for the non-interacting spin system in \secref{sec:spin_info} and for the Einstein solid in a tutorial activity, we'll skip that exercise, to keep this section from becoming too long.
 Those who are interested can find related discussions in Sections~5.3.2 and 5.3.3 of David Tong's \href{https://www.damtp.cam.ac.uk/user/tong/statphys.html}{\textit{Lectures on Statistical Physics}} (the first item in the list of further reading on page~6).
 Some of the manipulations below, which may seem to come out of thin air, can be motivated by considering these expansions.
 
@@ -538,29 +538,30 @@ The first manipulation is to express the zero-field partition function as
   Z = \sum_{\left\{s_n\right\}} \exp\left[\be\sum_{(jk)} s_j s_k\right] = \sum_{\left\{s_n\right\}} \prod_{(jk)} \exp\left[\be s_j s_k\right] = \sum_{\left\{s_n\right\}} \prod_{(jk)} \left[\cosh \be + s_j s_k \sinh \be\right],
 \end{equation*}
 which relies on the fact $s_j s_k = \pm 1$ for the Ising model.
-It's easy to check the relation $e^{\be s_j s_k} = \cosh \be + s_j s_k \sinh \be$ for both cases:
+It's easy to check the relation $e^{\be s_j s_k} = \cosh \be + s_j s_k \sinh \be$ for both $s_j s_k = 1$ and $s_j s_k = -1$:
 \begin{mdframed}
-  \ \\[60 pt]
+  \ \\[80 pt]
 \end{mdframed}
-Next, we write the sum over the $\cosh$ and $\sinh$ as an explicit summation,
+Next, we write the sum over the $\cosh$ and $\sinh$ as a summation,
 \begin{equation*}
   Z = \sum_{\left\{s_n\right\}} \prod_{(jk)} \left[\cosh \be + s_j s_k \sinh \be\right] = \sum_{\left\{s_n\right\}} \prod_{(jk)} \sum_{p_{jk} = 0, 1} C_{p_{jk}}(\be) (s_j s_k)^{p_{jk}},
 \end{equation*}
-raising $s_j s_k$ to the corresponding power $p_{jk}$ while defining $C_0(\be) \equiv \cosh \be$ and $C_1(\be) \equiv \sinh \be$.
-Recall that the sum over nearest-neighbour pairs $(jk)$ corresponds to summing over all $2N$ links in the $d = 2$ lattice.
+by defining $C_0(\be) \equiv \cosh \be$ and $C_1(\be) \equiv \sinh \be$ while raising $s_j s_k$ to the corresponding power $p_{jk}$.
+Recall that the nearest-neighbour pairs $(jk)$ correspond to all $2N$ links in the $d = 2$ lattice.
 To make the language a little less awkward, we can say that $p_{jk} = 1$ corresponds to link $jk$ being `on' while $p_{jk} = 0$ when it is turned `off'.
 The product and sum above account for all possible configurations of links that are turned on and off, which we can more conveniently represent as another configuration sum,
 \begin{equation*}
   \sum_{\left\{p\right\}} \equiv \sum_{p_1 = 0, 1} \cdots \sum_{p_{2N} = 0, 1}.
 \end{equation*}
 
-Introducing this configuration sum lets us isolate and then trivially rearrange the final product,
+Our partition function is now written in terms of two configuration sums, but we can expect only one to be necessary.
+We will aim to eliminate the sum over all spin configurations, by pulling out everything independent of the spins:
 \begin{equation*}
-  Z = \sum_{\left\{s_n\right\}} \sum_{\left\{p\right\}} \prod_{(jk)} C_{p_{jk}}(\be) (s_j s_k)^{p_{jk}} = \sum_{\left\{s_n\right\}} \sum_{\left\{p\right\}} \left[\prod_{(jk)} C_{p_{jk}}(\be)\right] \left[\prod_{(jk)} s_j^{p_{jk}} s_k^{p_{jk}}\right].
+  Z = \sum_{\left\{s_n\right\}} \sum_{\left\{p\right\}} \prod_{(jk)} C_{p_{jk}}(\be) (s_j s_k)^{p_{jk}} = \sum_{\left\{p\right\}} \left[\prod_{(jk)} C_{p_{jk}}(\be)\right] \sum_{\left\{s_n\right\}} \left[\prod_{(jk)} s_j^{p_{jk}} s_k^{p_{jk}}\right].
 \end{equation*}
-The final factor can now be converted from a product over links to a product over sites.
-Any given spin $s_n$ will appear four times in the product, once for each of the four links connected to it in two dimensions.
-The product of these four factors can be rewritten
+The final factor can be converted from a product over links to a product over sites.
+For $d = 2$, any spin $s_n$ will appear four times in the product, once for each of the four links connected to it.
+The product of these four factors can be rewritten as
 \begin{align*}
   \prod_{(nk)} s_n^{p_{nk}} & = s_n^{P_n}, &
   \mbox{defining } \ P_n & \equiv \sum_{(nk)} p_{nk}.
@@ -568,25 +569,25 @@ The product of these four factors can be rewritten
 
 We are now left with a product over individual $s_n$:
 \begin{equation*}
-  Z = \sum_{\left\{p\right\}} \prod_{(jk)} C_{p_{jk}}(\be) \sum_{\left\{s_n\right\}} \prod_{n = 1}^N s_n^{P_n}.
+  Z = \sum_{\left\{p\right\}} \left[\prod_{(jk)} C_{p_{jk}}(\be)\right] \sum_{\left\{s_n\right\}} \left[\prod_{n = 1}^N s_n^{P_n}\right].
 \end{equation*}
-Although each $s_n$ is raised to a power that depends on $p_{nk}$ for all four of its links to its nearest neighbours, and can consider what happens when we sum over the two values $s_n = \pm 1$.
+Although each $s_n$ is raised to a power that depends on $p_{nk}$ for all four of its links to its nearest neighbours, consider what happens when we sum over the two values $s_n = \pm 1$.
 There are two possibilities: If $P_n$ is odd, then the $s_n = 1$ and $s_n = -1$ contributions cancel --- making the entire product over sites vanish!
-Otherwise, if $P_n$ is even, they add up to $2$.
-In other words, we have
+Otherwise, if $P_n$ is even, they add up to give twice the product over the other sites.
+Repeating for all sites, the only non-zero contribution must have $N$ factors of $2$:
 \begin{equation}
   \label{eq:constrained_Ising}
   Z = \sum_{\left\{p\right\}} \prod_{(jk)} C_{p_{jk}}(\be) \prod_{n = 1}^N 2\de_2(P_n) = 2^N \sum_{\left\{p\right\}} \prod_{(jk)} C_{p_{jk}}(\be) \prod_{n = 1}^N \de_2\left(\Sigma_{(nk)} p_{nk}\right),
 \end{equation}
 where the `mod-$2$' Kronecker delta $\de_2(P_n)$ vanishes if $P_n$ is odd and equals one if $P_n$ is even.
 
-Something interesting has happened in \eq{eq:constrained_Ising}: there is no longer any reference to our original spin degrees of freedom, $s_n$.
-We have successfully summed over all spin configurations $\left\{s_n\right\}$, at the cost of introducing a different sum over all configurations of on/off links ($p_{jk} = 1$ or $0$, respectively).
+We have successfully eliminated the spin configuration sum $\left\{s_n\right\}$ in \eq{eq:constrained_Ising}, which no longer explicitly refers to our original degrees of freedom at all!
+In its place we now have a configuration sum over all on-or-off links --- $p_{jk} = 1$ or $0$, respectively.
 And there is a very tricky set of $N$ inter-dependent constraints coming from the product of $\de_2$ factors, which require that an even number of links be turned on at \textit{every} lattice site, in order to get a non-zero contribution to the partition function.
-In effect, this informs us that our new variables $p_{jk}$ aren't really independent of each other --- which makes sense, since we have $2N$ of them, but started off with only $N$ degrees of freedom.
+This is a sign that our new variables $p_{jk}$ aren't entirely independent of each other --- which makes sense, since we have $2N$ of them, but started off with only $N$ degrees of freedom.
 
-What we can do about this is essentially to try working backwards.
-We introduced the $p_{jk} = 0, 1$ in order to manipulate a configuration sum over $s_n = \pm 1$, so we can guess that introducing a different set of $\stw_n = \pm 1$ can have an effect on the resulting configuration sum over $p_{jk}$.
+What we can do about these constraints?
+Well, the constraints arose as a result of eliminating a configuration sum over $s_n = \pm 1$, so it is at least plausible that we can unwind them by introducing a \textit{different} set of spin variables, $\stw_n = \pm 1$.
 We want the $\pm 1$ values of $\stw_n$ to be related to the $\left\{0, 1\right\}$ values of $p_{jk}$, which we can achieve by implicitly defining $\stw_n$ via
 \begin{align*}
   p_{12} & = \frac{1 - \stw_1 \stw_2}{2} &
@@ -600,7 +601,7 @@ Each $\stw_n$ is identified with one of the $N$ plaquettes of the original latti
 
 \begin{center}\includegraphics[width=0.5\textwidth]{figs/unit09_dual_lattice.pdf}\end{center}
 
-These relations confirm the claim above that $p_{jk}$ aren't independent variables --- both $p_{12}$ and $p_{15}$ depend on $\stw_1$, both $p_{12}$ and $p_{13}$ depend on $\stw_2$, etc.
+This is another way to see that $p_{jk}$ aren't completely independent variables: Both $p_{12}$ and $p_{15}$ depend on $\stw_1$, both $p_{12}$ and $p_{13}$ depend on $\stw_2$, and so on.
 Delightfully, these patterns of dependence are precisely what we need to handle the $\de_2$ factors that are still in our partition function.
 If we consider
 \begin{align*}
@@ -609,23 +610,20 @@ If we consider
 \end{align*}
 we see that working in terms of $\stw_n$ automatically turns on an even number of links at every site, producing $\prod_{n = 1}^N \de_2(P_n) = 1$!
 
-In addition to eliminating odd $P_1$, you can confirm that all possible ways of obtaining even $P_1$ are accounted for as configurations of the dual spins $\stw_n$.
-In fact, they all appear twice, as we can see by checking the simple example $P_1 = 4$: % TODO: 1+6+1 ways of getting P_1 = 0, 2, 4 account for all 2+12+2=16 = 2^4 combinations of spins...
+In order to replace $\left\{p\right\}$ by $\sum_{\left\{\stw\right\}}$, we need to confirm that the latter accounts for all possible $P_n = \left\{0, 2, 4\right\}$.
+It turns out that the dual-spin configuration sum provides all values of $P_n$ twice, which we can check for the simple case $P_1 = 4$: % TODO: 1+6+1 ways of getting P_1 = 0, 2, 4 account for all 2+12+2=16 = 2^4 combinations of spins...
 \begin{mdframed}
   \ \\[50 pt]
 \end{mdframed}
-This generalizes to the full $N$-spin system,\footnote{This is discussed in more detail by Robert Savit, ``\href{https://doi.org/10.1103/RevModPhys.52.453}{Duality in field theory and statistical systems}'', \textit{Reviews of Modern Physics} \textbf{52}:453, 1980} so converting the partition function from the configuration sum over $\left\{p\right\}$ in \eq{eq:constrained_Ising} to a configuration sum over $\left\{\stw\right\}$ gives us
+This generalizes to the full $N$-spin system: Negating all $\stw_n \to -\stw_n$ leaves all $P_n$ unchanged.\footnote{This is discussed in more detail by Robert Savit, ``\href{https://doi.org/10.1103/RevModPhys.52.453}{Duality in field theory and statistical systems}'', \textit{Reviews of Modern Physics} \textbf{52}:453, 1980}
+Therefore converting the partition function from \eq{eq:constrained_Ising} into a configuration sum over $\left\{\stw\right\}$ gives us
 \begin{equation*}
-  Z = \frac{1}{2} 2^N \sum_{\left\{\stw\right\}} \prod_{(jk)} C_{(1 - \stw_j \stw_k) / 2}(\be).
+  Z = \frac{1}{2} 2^N \sum_{\left\{\stw\right\}} \prod_{(jk)} C_{(1 - \stw_j \stw_k) / 2}(\be),
 \end{equation*}
+where $(jk)$ now refers to the dual lattice.
 
-The final step is to express
-\begin{align*}
-  C_0(\be) & = \cosh \be &
-  C_1(\be) & = \sinh \be
-\end{align*}
-in terms of the dual variables $\stw_n$ that we're now working with.
-It's easy to see that
+The final step is to express $C_0(\be) = \cosh \be$ and $C_1(\be) = \sinh \be$ in terms of the dual variables $\stw_n$ that we're now working with.
+The trick here is to write
 \begin{equation*}
   C_p(\be) = \left(\cosh \be\right) \exp\left[p \log \tanh \be\right] = \left(\cosh \be\right) \exp\left[\frac{1 - \stw_j \stw_k}{2} \log \tanh \be\right],
 \end{equation*}
@@ -639,12 +637,8 @@ Inserting this into the partition function, the product over all links just prov
   Z = \frac{1}{2} \left(2\cosh\be \sinh\be\right)^N \sum_{\left\{\stw\right\}} \exp\left[-\frac{\log \tanh \be}{2} \sum_{(jk)} \stw_j \stw_k\right].
 \end{equation*}
 
-If we define
-\begin{equation*}
-  \betw \equiv -\frac{\log \tanh \be}{2},
-\end{equation*}
-then we can recognize the sum over $\left\{\stw\right\}$ configurations as simply a zero-field Ising model partition function $Z(\betw)$ as in \eq{eq:Ising_zero_field}.
-We can also recognize this definition of \betw as equivalent to \eq{eq:dual_beta}:
+By defining $\betw \equiv -\frac{1}{2}\log \tanh \be$, we can recognize the sum over $\left\{\stw\right\}$ configurations as simply a zero-field Ising model partition function $Z(\betw)$ (\eq{eq:Ising_zero_field}).
+We can also confirm that this definition of \betw is equivalent to \eq{eq:dual_beta}:
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
@@ -661,9 +655,9 @@ We have successfully derived Kramers--Wannier duality!
 Now let's briefly interpret what it means.
 It's a worthwhile \textbf{exercise} to show that multiplying a partition function by an overall spin-independent factor, $Z(\be) \to c(\be) Z(\be)$, has no effect on expectation values.
 (Try it!)
-Therefore the relation above identifies a $d = 2$ Ising system at temperature \be with another such system at temperature $\betw$, where small \be corresponds to large \betw and vice versa.
+Therefore the relation above identifies a $d = 2$ Ising system at temperature $1 / \be$ with another such system at temperature $1 / \betw$, where small \be corresponds to large \betw and vice versa.
 
-However, this does \textit{not} mean that $d = 2$ Ising model behaves the same at low and high temperatures.
+This does \textit{not} mean that $d = 2$ Ising model behaves the same at low and high temperatures.
 Indeed, we saw already in \secref{sec:Ising_phases} that it changes between qualitatively different ordered and disordered phases in these two regimes.
 What Kramers--Wannier duality is telling us is that the ordered phase of Ising spins in two dimensions, characterized by their order parameter, is secretly equivalent to the disordered phase of the \textit{dual} spins --- a different set of degrees of freedom, which can be characterized by a `disorder parameter'.
 Similarly, the disordered phase of the original system maps onto the ordered phase of the dual system.
@@ -674,7 +668,7 @@ In other words,
   \sinh^2(2\be_c) = 1 \quad \Lra \quad \be_c = \frac{1}{2} \mathrm{arcsinh}(1) = \frac{\log\left(1 + \sqrt{2}\right)}{2} = 0.440686\dots,
 \end{equation*}
 recalling (or looking up) that $\mathrm{arcsinh}(x) = \log\left(x + \sqrt{x^2 + 1}\right)$.
-Because this exact critical temperature $T_c = 2 / \log\left(1 + \sqrt{2}\right) = 2.269185\dots$ was predicted three years before Onsager analytically solved the $d = 2$ Ising model, the fact that his solution correctly reproduced this $T_c$ was a significant check of its correctness.
+Because this exact critical temperature $T_c = 2 / \log\left(1 + \sqrt{2}\right) = 2.269185\dots$ was predicted three years before Onsager analytically solved the $d = 2$ Ising model, the fact that his solution correctly reproduced this $T_c$ was a crucial check of its correctness.
 
 As mentioned at the start of this subsection, dualities of this sort are a pillar of theoretical physics in the 21st century.
 In general, these dualities are much more complicated than Kramers--Wannier duality, in two main ways.
@@ -685,6 +679,6 @@ The $d = 2$ Ising model is a special case of a \textbf{self-dual} system, which 
 Second, the Ising model is special in that we were able to explicitly derive the duality it exhibits, which is typically not (yet) possible.
 Instead, most dualities have to be conjectured and then checked by subjecting them to as many tests as possible.
 For example, this is the case for \textit{holographic dualities} that are conjectured to relate certain theories of quantum gravity to non-gravitational quantum systems that can be much easier to analyze mathematically.
-As an aside, the fully connected lattice we encountereed in recent tutorials also makes an appearance in holography --- the behaviour of interacting fermions on this fully connected lattice (known as the \href{https://en.wikipedia.org/wiki/Sachdev-Ye-Kitaev_model}{SYK model}, named after Subir Sachdev, Jinwu Ye and Alexei Kitaev) is conjected to be dual to the gravitational dynamics of quantum black holes.
+As an aside, the fully connected lattice encountered in a tutorial activity also makes an appearance in holography --- the behaviour of interacting fermions on this fully connected lattice (known as the \href{https://en.wikipedia.org/wiki/Sachdev-Ye-Kitaev_model}{SYK model}, named after Subir Sachdev, Jinwu Ye and Alexei Kitaev) is conjected to be dual to the gravitational dynamics of quantum black holes.
 \href{https://inspirehep.net/literature/342314}{More than a thousand} scientific studies related to the SYK model and its conjectured holographic duality have been published since 2016!
 % ------------------------------------------------------------------

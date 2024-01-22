@@ -13,7 +13,7 @@ for N in [1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9]:
   # Break each N into 20 chunks to monitor fluctuations
   bins = 20
   per_bin = int(N / bins)
-  P = np.empty(bins, dtype = np.float)
+  P = np.empty(bins, dtype = float)
   for B in range(bins):
     count = 0
     for i in range(per_bin):

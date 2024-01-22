@@ -53,7 +53,7 @@ leading_y = 1.0 - (np.pi * leading_x)**2 / 12.0
 plt.plot(leading_x, leading_y, 'g--')
 plt.plot([0, 2.1], [0, 0], 'k-')
 plt.xlabel('$T~/~E_F$')
-plt.ylabel('$\\frac{\\mu}{E_F}$', rotation=0, labelpad=10)
+plt.ylabel('$\\frac{\\mu}{E_F}$', rotation=0, fontsize=16, labelpad=10)
 plt.xlim([0.0, 2.1])
 plt.ylim([-2.6, 1.1])
 #plt.show()
